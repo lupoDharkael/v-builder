@@ -1,0 +1,132 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Reference",
+"class": "Card",
+"language": "GDScript",
+"path": "res://scripts/card.gd"
+}, {
+"base": "Reference",
+"class": "CardCollection",
+"language": "GDScript",
+"path": "res://scripts/card_collection.gd"
+}, {
+"base": "Control",
+"class": "CardViewItem",
+"language": "GDScript",
+"path": "res://gui/view/CardViewItem.gd"
+}, {
+"base": "Reference",
+"class": "CollectionParser",
+"language": "GDScript",
+"path": "res://scripts/collection_parser.gd"
+}, {
+"base": "Reference",
+"class": "CollectionStats",
+"language": "GDScript",
+"path": "res://scripts/collection_stats.gd"
+}, {
+"base": "Control",
+"class": "DeckItem",
+"language": "GDScript",
+"path": "res://gui/deck_list/DeckItem.gd"
+}, {
+"base": "Container",
+"class": "HFlowContainer",
+"language": "GDScript",
+"path": "res://thridparty/h_flow_container/h_flow_container.gd"
+}, {
+"base": "Reference",
+"class": "Storage",
+"language": "GDScript",
+"path": "res://scripts/storage.gd"
+} ]
+_global_script_class_icons={
+"Card": "",
+"CardCollection": "",
+"CardViewItem": "",
+"CollectionParser": "",
+"CollectionStats": "",
+"DeckItem": "",
+"HFlowContainer": "res://thridparty/h_flow_container/h_flow_container.svg",
+"Storage": ""
+}
+
+[application]
+
+config/name="V-Builder"
+run/main_scene="res://gui/main/Global.tscn"
+config/icon="res://images/v-logo.svg"
+
+[autoload]
+
+CardDB="*res://scripts/card_database.gd"
+Global="*res://gui/main/Global.tscn"
+Config="*res://scripts/config.gd"
+
+[debug]
+
+gdscript/warnings/return_value_discarded=false
+
+[gui]
+
+theme/custom="res://thridparty/default.theme"
+
+[importer_defaults]
+
+texture={
+"compress/bptc_ldr": 0,
+"compress/hdr_mode": 0,
+"compress/lossy_quality": 0.85,
+"compress/mode": 1,
+"compress/normal_map": 2,
+"detect_3d": false,
+"flags/anisotropic": false,
+"flags/filter": true,
+"flags/mipmaps": false,
+"flags/repeat": 0,
+"flags/srgb": 2,
+"process/HDR_as_SRGB": false,
+"process/fix_alpha_border": true,
+"process/invert_color": false,
+"process/premult_alpha": false,
+"size_limit": 0,
+"stream": false,
+"svg/scale": 1.0
+}
+
+[input]
+
+ui_delete={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777224,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_rename={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777245,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_save={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":true,"meta":false,"command":true,"pressed":false,"scancode":83,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_search={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":true,"meta":false,"command":true,"pressed":false,"scancode":70,"unicode":0,"echo":false,"script":null)
+ ]
+}
+alternate={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":true,"meta":false,"command":true,"pressed":false,"scancode":16777218,"unicode":0,"echo":false,"script":null)
+ ]
+}

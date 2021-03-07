@@ -1,0 +1,9 @@
+[gd_scene format=2]
+
+[node name="BackgroundPanel" type="ColorRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.12549, 0.145098, 0.192157, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

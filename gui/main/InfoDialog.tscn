@@ -1,0 +1,99 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://thridparty/default.theme" type="Theme" id=1]
+[ext_resource path="res://gui/main/InfoDialog.gd" type="Script" id=2]
+[ext_resource path="res://thridparty/medium_front.tres" type="DynamicFont" id=3]
+
+[node name="InfoDialog" type="AcceptDialog"]
+margin_right = 593.0
+margin_bottom = 403.0
+theme = ExtResource( 1 )
+window_title = "Information"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 8.0
+margin_right = -8.0
+margin_bottom = -41.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+margin_right = 577.0
+margin_bottom = 25.0
+align = 1
+
+[node name="TabContainer" type="TabContainer" parent="VBoxContainer"]
+margin_top = 29.0
+margin_right = 577.0
+margin_bottom = 354.0
+size_flags_vertical = 3
+
+[node name="Donate" type="VBoxContainer" parent="VBoxContainer/TabContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 32.0
+margin_right = -5.0
+margin_bottom = -5.0
+
+[node name="Label" type="Label" parent="VBoxContainer/TabContainer/Donate"]
+margin_right = 567.0
+margin_bottom = 45.0
+text = "I make this project in my free time, you can click below to donate what you want. Donations help me keep my motivation:"
+autowrap = true
+
+[node name="Button" type="Button" parent="VBoxContainer/TabContainer/Donate"]
+margin_top = 49.0
+margin_right = 567.0
+margin_bottom = 89.0
+rect_min_size = Vector2( 0, 40 )
+custom_fonts/font = ExtResource( 3 )
+text = "Click here to make a Paypal donation"
+
+[node name="License" type="TextEdit" parent="VBoxContainer/TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 32.0
+margin_right = -5.0
+margin_bottom = -5.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Copyright 2021-2021 Lupo Dharkael
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+wrap_enabled = true
+
+[node name="Third-Party Licenses" type="TextEdit" parent="VBoxContainer/TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 32.0
+margin_right = -5.0
+margin_bottom = -5.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Some of the icons are from the proyect Material design icons from Google. They are licensed under Apache license version 2.0.
+
+horizontal_flow_container from Wcubed, licensed under MIT license.
+
+Roboto-Regular front, licensed under the Apache License, Version 2.0. 
+
+All the Digimon related content such as card images, Digimon names/texts belong to:
+©BANDAI CO.,LTD
+©Akiyoshi Hongo, Toei Animation"
+wrap_enabled = true

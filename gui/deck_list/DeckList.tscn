@@ -1,0 +1,183 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://gui/deck_list/DeckList.gd" type="Script" id=1]
+[ext_resource path="res://gui/BackgroundPanel.tscn" type="PackedScene" id=2]
+[ext_resource path="res://gui/ForegroundPanel.tscn" type="PackedScene" id=3]
+[ext_resource path="res://thridparty/h_flow_container/h_flow_container.gd" type="Script" id=4]
+[ext_resource path="res://thridparty/default.theme" type="Theme" id=5]
+[ext_resource path="res://images/Remove.svg" type="Texture" id=6]
+[ext_resource path="res://images/copy.svg" type="Texture" id=7]
+[ext_resource path="res://images/New.svg" type="Texture" id=8]
+[ext_resource path="res://images/export.svg" type="Texture" id=9]
+[ext_resource path="res://images/import.svg" type="Texture" id=10]
+[ext_resource path="res://images/deck_list.svg" type="Texture" id=11]
+[ext_resource path="res://gui/deck_list/CollectionComparator.tscn" type="PackedScene" id=12]
+[ext_resource path="res://images/info.svg" type="Texture" id=13]
+[ext_resource path="res://images/rule.svg" type="Texture" id=14]
+
+[node name="DeckList" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+focus_mode = 2
+mouse_filter = 1
+theme = ExtResource( 5 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BackgroundPanel" parent="." instance=ExtResource( 2 )]
+mouse_filter = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="BackgroundPanel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Toolbar" parent="BackgroundPanel/VBoxContainer" instance=ExtResource( 3 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 1024.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 0, 60 )
+size_flags_vertical = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="BackgroundPanel/VBoxContainer/Toolbar"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = -10.0
+margin_bottom = -10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CloneButton" type="Button" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+margin_right = 85.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 85, 0 )
+rect_pivot_offset = Vector2( -628.289, -10 )
+focus_mode = 0
+text = "CLONE"
+icon = ExtResource( 7 )
+
+[node name="DeleteButton" type="Button" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+margin_left = 89.0
+margin_right = 174.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 85, 0 )
+rect_pivot_offset = Vector2( -628.289, -10 )
+focus_mode = 0
+text = "DELETE"
+icon = ExtResource( 6 )
+
+[node name="ExportButton" type="Button" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+margin_left = 178.0
+margin_right = 263.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 85, 0 )
+rect_pivot_offset = Vector2( -628.289, -10 )
+focus_mode = 0
+text = "EXPORT"
+icon = ExtResource( 9 )
+
+[node name="HSeparator" type="VSeparator" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+margin_left = 267.0
+margin_right = 271.0
+margin_bottom = 40.0
+
+[node name="ImportButton" type="Button" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+margin_left = 275.0
+margin_right = 360.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 85, 0 )
+text = "IMPORT"
+icon = ExtResource( 10 )
+
+[node name="CompareButton" type="Button" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+margin_left = 364.0
+margin_right = 462.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 85, 0 )
+toggle_mode = true
+text = "COMPARE"
+icon = ExtResource( 14 )
+
+[node name="AddButton" type="Button" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+margin_left = 466.0
+margin_right = 551.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 85, 0 )
+text = "NEW"
+icon = ExtResource( 8 )
+
+[node name="EditButton" type="Button" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+visible = false
+margin_left = 453.0
+margin_right = 533.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 80, 0 )
+rect_pivot_offset = Vector2( -628.289, -10 )
+text = "EDIT"
+
+[node name="HSeparator2" type="VSeparator" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+margin_left = 555.0
+margin_right = 559.0
+margin_bottom = 40.0
+
+[node name="Search" type="LineEdit" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+margin_left = 563.0
+margin_right = 936.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+align = 1
+clear_button_enabled = true
+placeholder_text = "SEARCH..."
+
+[node name="ModeButton" type="Button" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+margin_left = 940.0
+margin_right = 970.0
+margin_bottom = 40.0
+toggle_mode = true
+icon = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InfoButton" type="Button" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+margin_left = 974.0
+margin_right = 1004.0
+margin_bottom = 40.0
+icon = ExtResource( 13 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="BackgroundPanel/VBoxContainer"]
+margin_top = 64.0
+margin_right = 1024.0
+margin_bottom = 600.0
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 3
+follow_focus = true
+scroll_horizontal_enabled = false
+
+[node name="DeckContainer" type="Container" parent="BackgroundPanel/VBoxContainer/ScrollContainer"]
+margin_right = 1024.0
+margin_bottom = 536.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 4 )
+horizontal_margin = 20.0
+vertical_margin = 20.0
+
+[node name="CollectionComparator" parent="." instance=ExtResource( 12 )]
+visible = false
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+margin_left = -350.0
+margin_top = -60.0
+margin_right = 350.0
+margin_bottom = 0.0

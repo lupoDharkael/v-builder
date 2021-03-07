@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://gui/view/CardViewItem.gd" type="Script" id=1]
+[ext_resource path="res://images/faved.png" type="Texture" id=2]
+[ext_resource path="res://thridparty/big_front.tres" type="DynamicFont" id=4]
+
+[node name="CardViewItem" type="HBoxContainer"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FavButton" type="TextureButton" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+size_flags_vertical = 4
+toggle_mode = true
+texture_pressed = ExtResource( 2 )
+
+[node name="CountLabel" type="Label" parent="FavButton"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 4 )
+text = "x20"
+align = 2
+valign = 1
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+margin_left = 44.0
+margin_right = 44.0
+margin_bottom = 40.0
+mouse_filter = 2
+
+[node name="Tween" type="Tween" parent="."]

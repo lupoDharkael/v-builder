@@ -1,0 +1,105 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://gui/view/CardViewSmall.gd" type="Script" id=1]
+[ext_resource path="res://thridparty/big_front.tres" type="DynamicFont" id=2]
+
+[node name="CardViewSmall" type="ColorRect"]
+margin_right = 360.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 410, 38 )
+mouse_filter = 2
+color = Color( 0, 0, 0, 1 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CostRect" type="ColorRect" parent="."]
+anchor_right = 0.09
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color( 0.117647, 0.196078, 0.32549, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="CostRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 2 )
+text = "10"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LvRect" type="ColorRect" parent="."]
+anchor_left = 0.09
+anchor_right = 0.22
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color( 0.647059, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="LvRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 0.583984
+custom_fonts/font = ExtResource( 2 )
+text = "TAM"
+align = 1
+valign = 1
+clip_text = true
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="IdRect" type="ColorRect" parent="."]
+anchor_left = 0.22
+anchor_right = 0.45
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="IdRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 2 )
+text = "BT1-111"
+align = 1
+valign = 1
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NameRect" type="ColorRect" parent="."]
+anchor_left = 0.45
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color( 0.647059, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="NameRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_right = -4.0
+custom_fonts/font = ExtResource( 2 )
+text = "Wargreymon"
+valign = 1
+clip_text = true
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}

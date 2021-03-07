@@ -1,0 +1,21 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://materials/foil_base.png" type="Texture" id=1]
+
+[sub_resource type="Shader" id=1]
+code = "shader_type canvas_item;
+
+uniform sampler2D foil_text;
+
+void fragment() {
+	COLOR.rgb = vec3(texture(TEXTURE, UV).rgb);
+	vec2 c_uv = UV;
+	c_uv.y += cos(c_uv.y * 2. + TIME * 1.) * 0.18;
+	c_uv.x += cos(c_uv.x * 2. + TIME * 1.) * 0.18;
+	COLOR.rgb *= texture(foil_text, c_uv).rgb;
+	COLOR.a = texture(TEXTURE, UV).a;
+}"
+
+[resource]
+shader = SubResource( 1 )
+shader_param/foil_text = ExtResource( 1 )

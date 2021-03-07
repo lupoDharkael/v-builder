@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/BT1-041.png-24c615f1e4fa0e8ea9c1d052a927699c.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://card_images/BT1-041.png"
+dest_files=[ "res://.import/BT1-041.png-24c615f1e4fa0e8ea9c1d052a927699c.stex" ]
+
+[params]
+
+compress/mode=1
+compress/lossy_quality=0.85
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=2
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

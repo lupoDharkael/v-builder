@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[sub_resource type="Shader" id=1]
+code = "shader_type canvas_item;
+
+uniform vec2 ratio = vec2(0.8);
+uniform vec2 offset = vec2(0.12, 0.04);
+
+void fragment() {
+    vec2 newuv = UV * ratio + offset;
+	vec4 c = texture(TEXTURE, newuv);
+    COLOR = c;
+}"
+
+[resource]
+shader = SubResource( 1 )
+shader_param/ratio = Vector2( 0.8, 0.8 )
+shader_param/offset = Vector2( 0.12, 0.04 )

@@ -1,0 +1,303 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://thridparty/h_flow_container/h_flow_container.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 2.0
+margin_right = 2.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+anchor_left = 0.00146317
+anchor_right = 1.00146
+anchor_bottom = 1.0
+margin_left = 29.5017
+margin_top = 15.0
+margin_right = -581.495
+margin_bottom = -169.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PanelContainer" type="PanelContainer" parent="ScrollContainer"]
+margin_right = 401.0
+margin_bottom = 567.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HFlowContainer" type="Container" parent="ScrollContainer/PanelContainer"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 394.0
+margin_bottom = 560.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_right = 93.0
+margin_bottom = 20.0
+text = "small button"
+
+[node name="Button2" type="Button" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 98.0
+margin_right = 298.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 200, 0 )
+text = "a wide button"
+
+[node name="Button3" type="Button" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 303.0
+margin_right = 339.0
+margin_bottom = 20.0
+text = "tiny"
+
+[node name="Button4" type="Button" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_top = 25.0
+margin_right = 250.0
+margin_bottom = 45.0
+rect_min_size = Vector2( 250, 0 )
+text = "reaaaly wide button"
+
+[node name="Label" type="Label" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 255.0
+margin_top = 25.0
+margin_right = 355.0
+margin_bottom = 39.0
+text = "Some label text"
+
+[node name="PanelContainer" type="PanelContainer" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_top = 50.0
+margin_right = 174.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 0, 100 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/PanelContainer/HFlowContainer/PanelContainer"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 167.0
+margin_bottom = 93.0
+
+[node name="Label" type="Label" parent="ScrollContainer/PanelContainer/HFlowContainer/PanelContainer/VBoxContainer"]
+margin_right = 160.0
+margin_bottom = 48.0
+text = "Tall PanelContainer
+
+ note the white space -->"
+
+[node name="PanelContainer2" type="PanelContainer" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 179.0
+margin_top = 50.0
+margin_right = 353.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 0, 100 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/PanelContainer/HFlowContainer/PanelContainer2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 167.0
+margin_bottom = 93.0
+
+[node name="Label" type="Label" parent="ScrollContainer/PanelContainer/HFlowContainer/PanelContainer2/VBoxContainer"]
+margin_right = 160.0
+margin_bottom = 48.0
+text = "Tall PanelContainer
+
+ note the white space -->"
+
+[node name="PanelContainer3" type="PanelContainer" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_top = 155.0
+margin_right = 174.0
+margin_bottom = 255.0
+rect_min_size = Vector2( 0, 100 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/PanelContainer/HFlowContainer/PanelContainer3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 167.0
+margin_bottom = 93.0
+
+[node name="Label" type="Label" parent="ScrollContainer/PanelContainer/HFlowContainer/PanelContainer3/VBoxContainer"]
+margin_right = 160.0
+margin_bottom = 48.0
+text = "Tall PanelContainer
+
+ note the white space -->"
+
+[node name="PanelContainer4" type="PanelContainer" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 179.0
+margin_top = 155.0
+margin_right = 353.0
+margin_bottom = 255.0
+rect_min_size = Vector2( 0, 100 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/PanelContainer/HFlowContainer/PanelContainer4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 167.0
+margin_bottom = 93.0
+
+[node name="Label" type="Label" parent="ScrollContainer/PanelContainer/HFlowContainer/PanelContainer4/VBoxContainer"]
+margin_right = 160.0
+margin_bottom = 48.0
+text = "Tall PanelContainer
+
+ note the white space -->"
+
+[node name="PanelContainer5" type="PanelContainer" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_top = 260.0
+margin_right = 174.0
+margin_bottom = 360.0
+rect_min_size = Vector2( 0, 100 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/PanelContainer/HFlowContainer/PanelContainer5"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 167.0
+margin_bottom = 93.0
+
+[node name="Label" type="Label" parent="ScrollContainer/PanelContainer/HFlowContainer/PanelContainer5/VBoxContainer"]
+margin_right = 160.0
+margin_bottom = 48.0
+text = "Tall PanelContainer
+
+ note the white space -->"
+
+[node name="PanelContainer6" type="PanelContainer" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 179.0
+margin_top = 260.0
+margin_right = 353.0
+margin_bottom = 360.0
+rect_min_size = Vector2( 0, 100 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/PanelContainer/HFlowContainer/PanelContainer6"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 167.0
+margin_bottom = 93.0
+
+[node name="Label" type="Label" parent="ScrollContainer/PanelContainer/HFlowContainer/PanelContainer6/VBoxContainer"]
+margin_right = 160.0
+margin_bottom = 48.0
+text = "Tall PanelContainer
+
+ note the white space -->"
+
+[node name="CheckBox" type="CheckBox" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_top = 365.0
+margin_right = 89.0
+margin_bottom = 389.0
+text = "Checkbox"
+
+[node name="NotAControlNode" type="Node" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+
+[node name="CheckButton" type="CheckButton" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 94.0
+margin_top = 365.0
+margin_right = 170.0
+margin_bottom = 405.0
+
+[node name="CheckButton2" type="CheckButton" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 175.0
+margin_top = 365.0
+margin_right = 251.0
+margin_bottom = 405.0
+
+[node name="CheckButton3" type="CheckButton" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_top = 410.0
+margin_right = 216.0
+margin_bottom = 450.0
+text = "another check button"
+
+[node name="CheckButton4" type="CheckButton" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_top = 455.0
+margin_right = 186.0
+margin_bottom = 495.0
+text = "And another one"
+
+[node name="Button5" type="Button" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 191.0
+margin_top = 455.0
+margin_right = 384.0
+margin_bottom = 475.0
+text = "Child with \"visible=false\" -->"
+
+[node name="Button6" type="Button" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+visible = false
+margin_left = 198.0
+margin_top = 188.0
+margin_right = 337.0
+margin_bottom = 210.0
+text = "This one is invisible"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button7" type="Button" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_top = 500.0
+margin_right = 139.0
+margin_bottom = 520.0
+text = "<-- In between here"
+
+[node name="CheckBox2" type="CheckBox" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 144.0
+margin_top = 500.0
+margin_right = 168.0
+margin_bottom = 524.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CheckBox3" type="CheckBox" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 173.0
+margin_top = 500.0
+margin_right = 197.0
+margin_bottom = 524.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CheckBox4" type="CheckBox" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 202.0
+margin_top = 500.0
+margin_right = 226.0
+margin_bottom = 524.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CheckBox5" type="CheckBox" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 231.0
+margin_top = 500.0
+margin_right = 293.0
+margin_bottom = 524.0
+text = "more"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CheckBox6" type="CheckBox" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_top = 529.0
+margin_right = 103.0
+margin_bottom = 553.0
+text = "checkboxes"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CheckBox7" type="CheckBox" parent="ScrollContainer/PanelContainer/HFlowContainer"]
+margin_left = 108.0
+margin_top = 529.0
+margin_right = 132.0
+margin_bottom = 553.0
+__meta__ = {
+"_edit_use_anchors_": false
+}

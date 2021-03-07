@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/BT1-085 (B).png-eea2da0c81f04d80aa9a6c44c6fe8a0a.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://card_images/BT1-085 (B).png"
+dest_files=[ "res://.import/BT1-085 (B).png-eea2da0c81f04d80aa9a6c44c6fe8a0a.stex" ]
+
+[params]
+
+compress/mode=1
+compress/lossy_quality=0.85
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=2
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
