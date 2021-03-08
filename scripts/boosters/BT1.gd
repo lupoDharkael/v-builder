@@ -1354,7 +1354,7 @@ class BT1_063 extends Card:
 		digivolve_level = 5
 		digimon_type = "Seraph"
 		power = 10000
-		effect_text = "<<When Evolving>> <<Recovery + 1 (Deck)>> (Take 1 card from the top of your deck and place it onto Security)\n<<Your Turn>> As long as you have 3 or more cards remaining in your Security, this Digimon gains <br><<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)."
+		effect_text = "<<When Evolving>> <<Recovery + 1 (Deck)>> (Take 1 card from the top of your deck and place it onto Security)\n<<Your Turn>> As long as you have 3 or more cards remaining in your Security, this Digimon gains \n<<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)."
 
 class BT1_064 extends Card:
 	func _init():

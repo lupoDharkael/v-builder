@@ -242,7 +242,7 @@ class ST6_13 extends Card:
 		digivolve_level = 5
 		digimon_type = "Beast Knight"
 		power = 12000
-		effect_text = "<<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)\n<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Choose 1 Purple Lv.3 Digimon card from your Trash, and play it without paying its Cost."
+		effect_text = "<<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)\n<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 Purple Lv.3 Digimon card from your Trash, and play it without paying its Cost."
 
 class ST6_14 extends Card:
 	func _init():

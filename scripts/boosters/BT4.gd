@@ -336,7 +336,7 @@ class BT4_012 extends Card:
 		digivolve_level = 3
 		digimon_type = "Dinosaur"
 		power = 5000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Destroy 1 opponent Digimon whose DP is 4000 or lower."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Destroy 1 opponent Digimon whose DP is 4000 or lower."
 
 class BT4_013 extends Card:
 	func _init():
@@ -428,7 +428,7 @@ class BT4_017 extends Card:
 		digivolve_level_2 = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		effect_text = "<<Your Turn>> Treat this Digimon's colour as Yellow as well.\n<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- You may choose 1 Red or Yellow Tamer card whose Play Cost is 4 or lower from your hand, and play it without paying its Cost."
+		effect_text = "<<Your Turn>> Treat this Digimon's colour as Yellow as well.\n<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- You may choose 1 Red or Yellow Tamer card whose Play Cost is 4 or lower from your hand, and play it without paying its Cost."
 		inherited_effect_text = "<<When Attacking>> If you have a Tamer in play, choose 1 opponent Digimon; that Digimon gets -2000 DP for the rest of this turn."
 
 class BT4_017_B extends Card:
@@ -450,7 +450,7 @@ class BT4_017_B extends Card:
 		digivolve_level_2 = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		effect_text = "<<Your Turn>> Treat this Digimon's colour as Yellow as well.\n<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- You may choose 1 Red or Yellow Tamer card whose Play Cost is 4 or lower from your hand, and play it without paying its Cost."
+		effect_text = "<<Your Turn>> Treat this Digimon's colour as Yellow as well.\n<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- You may choose 1 Red or Yellow Tamer card whose Play Cost is 4 or lower from your hand, and play it without paying its Cost."
 		inherited_effect_text = "<<When Attacking>> If you have a Tamer in play, choose 1 opponent Digimon; that Digimon gets -2000 DP for the rest of this turn."
 		is_parallel = true
 		notes = "parallel promo"
@@ -489,7 +489,7 @@ class BT4_019 extends Card:
 		digivolve_level = 5
 		digimon_type = "Dragon Man"
 		power = 12000
-		effect_text = "<<When Evolving>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Destroy 1 opponent Digimon whose DP is 8000 or lower."
+		effect_text = "<<When Evolving>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Destroy 1 opponent Digimon whose DP is 8000 or lower."
 
 class BT4_019_B extends Card:
 	func _init():
@@ -507,7 +507,7 @@ class BT4_019_B extends Card:
 		digivolve_level = 5
 		digimon_type = "Dragon Man"
 		power = 12000
-		effect_text = "<<When Evolving>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Destroy 1 opponent Digimon whose DP is 8000 or lower."
+		effect_text = "<<When Evolving>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Destroy 1 opponent Digimon whose DP is 8000 or lower."
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -656,7 +656,7 @@ class BT4_026 extends Card:
 		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 5000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- <<Draw 1>> (Draw 1 card from your deck)"
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- <<Draw 1>> (Draw 1 card from your deck)"
 
 class BT4_027 extends Card:
 	func _init():
@@ -763,7 +763,7 @@ class BT4_032 extends Card:
 		digivolve_level = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Choose 1 Lv.4 or below opponent Digimon and return it to the opponent's hand. Discard that Digimon's Evolution Bases."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 Lv.4 or below opponent Digimon and return it to the opponent's hand. Discard that Digimon's Evolution Bases."
 		inherited_effect_text = "<<Your Turn>> As long as you have a Tamer in play, this Digimon gets +2000 DP."
 
 class BT4_033 extends Card:
@@ -782,7 +782,7 @@ class BT4_033 extends Card:
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 12000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Choose 1 Lv.5 or below opponent Digimon and return it to the opponent's hand. Discard that Digimon's Evolution Bases."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 Lv.5 or below opponent Digimon and return it to the opponent's hand. Discard that Digimon's Evolution Bases."
 
 class BT4_033_B extends Card:
 	func _init():
@@ -800,7 +800,7 @@ class BT4_033_B extends Card:
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 12000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Choose 1 Lv.5 or below opponent Digimon and return it to the opponent's hand. Discard that Digimon's Evolution Bases."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 Lv.5 or below opponent Digimon and return it to the opponent's hand. Discard that Digimon's Evolution Bases."
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -1053,7 +1053,7 @@ class BT4_046 extends Card:
 		digivolve_level = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Choose 1 opponent Digimon; that Digimon gets -4000 DP for the rest of this turn."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 opponent Digimon; that Digimon gets -4000 DP for the rest of this turn."
 		inherited_effect_text = "<<Your Turn>> As long as you have 3 or less cards remaining in your Security, this Digimon gets +1000 DP."
 
 class BT4_047 extends Card:
@@ -1128,7 +1128,7 @@ class BT4_049 extends Card:
 		digivolve_level = 5
 		digimon_type = "Holy Bird"
 		power = 11000
-		effect_text = "<<Main>> <<Digiburst 3>> (Choose 3 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- All opponent Digimon get -4000 DP for the rest of this turn."
+		effect_text = "<<Main>> <<Digiburst 3>> (Choose 3 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- All opponent Digimon get -4000 DP for the rest of this turn."
 
 class BT4_050 extends Card:
 	func _init():
@@ -1216,7 +1216,7 @@ class BT4_054 extends Card:
 		digivolve_level = 3
 		digimon_type = "Plant"
 		power = 5000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Choose 1 opponent Digimon in the Rest position; during the opponent's next Active Phase, that Digimon will not turn Active."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 opponent Digimon in the Rest position; during the opponent's next Active Phase, that Digimon will not turn Active."
 
 class BT4_055 extends Card:
 	func _init():
@@ -1305,7 +1305,7 @@ class BT4_059 extends Card:
 		digivolve_level = 4
 		digimon_type = "Fairy"
 		power = 7000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Rest 1 opponent Digimon."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Rest 1 opponent Digimon."
 		inherited_effect_text = "<<When Attacking>> If you have a Tamer in play, Rest 1 opponent Digimon."
 
 class BT4_059_B extends Card:
@@ -1324,7 +1324,7 @@ class BT4_059_B extends Card:
 		digivolve_level = 4
 		digimon_type = "Fairy"
 		power = 7000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Rest 1 opponent Digimon."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Rest 1 opponent Digimon."
 		inherited_effect_text = "<<When Attacking>> If you have a Tamer in play, Rest 1 opponent Digimon."
 		is_parallel = true
 		notes = "parallel promo"
@@ -1381,7 +1381,7 @@ class BT4_062 extends Card:
 		digivolve_level = 5
 		digimon_type = "Demon Dragon"
 		power = 13000
-		effect_text = "<<When Evolving>> <<Digiburst 4>> (Choose 4 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Rest all opponent Digimon whose DP is 5000 or lower. After that, return all opponent Digimon in the Rest position to the bottom of the opponent's deck in any order. Discard those Digimon's Evolution Bases."
+		effect_text = "<<When Evolving>> <<Digiburst 4>> (Choose 4 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Rest all opponent Digimon whose DP is 5000 or lower. After that, return all opponent Digimon in the Rest position to the bottom of the opponent's deck in any order. Discard those Digimon's Evolution Bases."
 
 class BT4_062_B extends Card:
 	func _init():
@@ -1399,7 +1399,7 @@ class BT4_062_B extends Card:
 		digivolve_level = 5
 		digimon_type = "Demon Dragon"
 		power = 13000
-		effect_text = "<<When Evolving>> <<Digiburst 4>> (Choose 4 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Rest all opponent Digimon whose DP is 5000 or lower. After that, return all opponent Digimon in the Rest position to the bottom of the opponent's deck in any order. Discard those Digimon's Evolution Bases."
+		effect_text = "<<When Evolving>> <<Digiburst 4>> (Choose 4 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Rest all opponent Digimon whose DP is 5000 or lower. After that, return all opponent Digimon in the Rest position to the bottom of the opponent's deck in any order. Discard those Digimon's Evolution Bases."
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -1508,7 +1508,7 @@ class BT4_068 extends Card:
 		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 4000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Choose 1 opponent Digimon whose Play Cost is 7 or lower and <<Revert 1>> (Discard 1 card from the top of the opponent Digimon's card stack. You may not discard any further once there are no more Evolution Bases remaining, or the Digimon becomes Lv.3)."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 opponent Digimon whose Play Cost is 7 or lower and <<Revert 1>> (Discard 1 card from the top of the opponent Digimon's card stack. You may not discard any further once there are no more Evolution Bases remaining, or the Digimon becomes Lv.3)."
 
 class BT4_069 extends Card:
 	func _init():
@@ -1579,7 +1579,7 @@ class BT4_072 extends Card:
 		digivolve_level = 4
 		digimon_type = "Ore"
 		power = 7000
-		effect_text = "<<Main>> <<Digiburst 1>> (Choose 1 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Choose 1 of your Digimon; that Digimon gets +2000 DP until the end of the opponent's next turn."
+		effect_text = "<<Main>> <<Digiburst 1>> (Choose 1 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 of your Digimon; that Digimon gets +2000 DP until the end of the opponent's next turn."
 		inherited_effect_text = "<<Both Players' Turns>> This Digimon gets +1000 DP."
 
 class BT4_073 extends Card:
@@ -1760,7 +1760,7 @@ class BT4_081 extends Card:
 		digivolve_level = 3
 		digimon_type = "Fallen Angel"
 		power = 5000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Destroy 1 Lv.3 opponent Digimon."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Destroy 1 Lv.3 opponent Digimon."
 
 class BT4_082 extends Card:
 	func _init():
@@ -1988,7 +1988,7 @@ class BT4_091 extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Unique"
 		power = 14000
-		effect_text = "<<When Evolving>> Activate the following ability twice:<br>- Choose 1 opponent Digimon; that Digimon gets -7000 DP for the rest of this turn.\n<<When Destroyed>> Memory +3."
+		effect_text = "<<When Evolving>> Activate the following ability twice:\n- Choose 1 opponent Digimon; that Digimon gets -7000 DP for the rest of this turn.\n<<When Destroyed>> Memory +3."
 
 class BT4_092 extends Card:
 	func _init():
@@ -2142,7 +2142,7 @@ class BT4_098 extends Card:
 		rarity = Rarity.C
 		id = "BT4-098"
 		play_cost = 1
-		effect_text = "<<Main>> Choose 1 of your Digimon with the trait [Level: Hybrid]; that Digimon gets +3000 DP, as well as gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1) and the effect <br>[ <<Your Turn>> When this Digimon is blocked, Memory +3] for the rest of this turn."
+		effect_text = "<<Main>> Choose 1 of your Digimon with the trait [Level: Hybrid]; that Digimon gets +3000 DP, as well as gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1) and the effect \n[ <<Your Turn>> When this Digimon is blocked, Memory +3] for the rest of this turn."
 		sec_effect_text = "<<Security>> All of your Digimon gain <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1) until the end of your next turn."
 
 class BT4_099 extends Card:

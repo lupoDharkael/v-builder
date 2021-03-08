@@ -242,7 +242,7 @@ class ST5_13 extends Card:
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 12000
-		effect_text = "<<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)\n<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Choose 1 of your Digimon; that Digimon gets +4000 DP until the end of the opponent's next turn."
+		effect_text = "<<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)\n<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 of your Digimon; that Digimon gets +4000 DP until the end of the opponent's next turn."
 
 class ST5_14 extends Card:
 	func _init():

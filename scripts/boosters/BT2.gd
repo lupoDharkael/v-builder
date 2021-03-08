@@ -872,7 +872,7 @@ class BT2_038 extends Card:
 		digivolve_level = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		effect_text = "<<When Evolving>> You may choose 1 Yellow Tamer card from your hand, and play it without paying its Cost. <br>The <<When Played>> Effects of Tamers that come into play via this Effect will not activate."
+		effect_text = "<<When Evolving>> You may choose 1 Yellow Tamer card from your hand, and play it without paying its Cost. \nThe <<When Played>> Effects of Tamers that come into play via this Effect will not activate."
 		inherited_effect_text = "<<Your Turn>> As long as you have 3 or more Yellow Tamers in play, this Digimon gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)."
 
 class BT2_038_B extends Card:
@@ -891,7 +891,7 @@ class BT2_038_B extends Card:
 		digivolve_level = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		effect_text = "<<When Evolving>> You may choose 1 Yellow Tamer card from your hand, and play it without paying its Cost. <br>The <<When Played>> Effects of Tamers that come into play via this Effect will not activate."
+		effect_text = "<<When Evolving>> You may choose 1 Yellow Tamer card from your hand, and play it without paying its Cost. \nThe <<When Played>> Effects of Tamers that come into play via this Effect will not activate."
 		inherited_effect_text = "<<Your Turn>> As long as you have 3 or more Yellow Tamers in play, this Digimon gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)."
 		is_parallel = true
 		notes = "parallel promo"
@@ -912,7 +912,7 @@ class BT2_038_C extends Card:
 		digivolve_level = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		effect_text = "<<When Evolving>> You may choose 1 Yellow Tamer card from your hand, and play it without paying its Cost. <br>The <<When Played>> Effects of Tamers that come into play via this Effect will not activate."
+		effect_text = "<<When Evolving>> You may choose 1 Yellow Tamer card from your hand, and play it without paying its Cost. \nThe <<When Played>> Effects of Tamers that come into play via this Effect will not activate."
 		inherited_effect_text = "<<Your Turn>> As long as you have 3 or more Yellow Tamers in play, this Digimon gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)."
 		is_parallel = true
 		notes = "parallel promo"
@@ -969,7 +969,7 @@ class BT2_041 extends Card:
 		digivolve_level = 5
 		digimon_type = "Light Dragon"
 		power = 11000
-		effect_text = "<<When Evolving>> Rest all of your Yellow Tamers. For every Yellow Tamer Rested due to this effect, activate the following effect once:<br> - Choose 1 opponent Digimon; that Digimon gets -4000 DP for the rest of this turn.\n<<Your Turn>> For every Tamer you have in play, this Digimon gets +1000 DP."
+		effect_text = "<<When Evolving>> Rest all of your Yellow Tamers. For every Yellow Tamer Rested due to this effect, activate the following effect once:\n - Choose 1 opponent Digimon; that Digimon gets -4000 DP for the rest of this turn.\n<<Your Turn>> For every Tamer you have in play, this Digimon gets +1000 DP."
 
 class BT2_041_B extends Card:
 	func _init():
@@ -987,7 +987,7 @@ class BT2_041_B extends Card:
 		digivolve_level = 5
 		digimon_type = "Light Dragon"
 		power = 11000
-		effect_text = "<<When Evolving>> Rest all of your Yellow Tamers. For every Yellow Tamer Rested due to this effect, activate the following effect once:<br> - Choose 1 opponent Digimon; that Digimon gets -4000 DP for the rest of this turn.\n<<Your Turn>> For every Tamer you have in play, this Digimon gets +1000 DP."
+		effect_text = "<<When Evolving>> Rest all of your Yellow Tamers. For every Yellow Tamer Rested due to this effect, activate the following effect once:\n - Choose 1 opponent Digimon; that Digimon gets -4000 DP for the rest of this turn.\n<<Your Turn>> For every Tamer you have in play, this Digimon gets +1000 DP."
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -2281,7 +2281,7 @@ class BT2_108 extends Card:
 		rarity = Rarity.C
 		id = "BT2-108"
 		play_cost = 2
-		effect_text = "<<Main>> Choose 1 Purple Lv.3 Digimon card from your Trash, and play it without paying its Cost. The <br><<When Played>> Effects of Digimon that come into play via this Effect will not activate."
+		effect_text = "<<Main>> Choose 1 Purple Lv.3 Digimon card from your Trash, and play it without paying its Cost. The \n<<When Played>> Effects of Digimon that come into play via this Effect will not activate."
 		sec_effect_text = "<<Security>> Activate this card's <<Main>> effect."
 
 class BT2_109 extends Card:

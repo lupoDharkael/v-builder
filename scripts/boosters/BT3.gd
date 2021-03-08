@@ -2206,7 +2206,7 @@ class BT3_101 extends Card:
 		id = "BT3-101"
 		play_cost = 3
 		effect_text = "<<Main>> Choose 1 opponent Digimon; that Digimon gets -3000 DP, and gains <<Security Attack - 1>> (The number of Security cards this Digimon Checks decreases by 1) until the end of the opponent's next turn."
-		sec_effect_text = "<<Security>> Choose 1 opponent Digimon; that Digimon gets -3000 DP, and gains <br><<Security Attack - 1>> (The number of Security cards this Digimon Checks decreases by 1) for the rest of this turn."
+		sec_effect_text = "<<Security>> Choose 1 opponent Digimon; that Digimon gets -3000 DP, and gains \n<<Security Attack - 1>> (The number of Security cards this Digimon Checks decreases by 1) for the rest of this turn."
 
 class BT3_102 extends Card:
 	func _init():

@@ -211,7 +211,7 @@ class P_010 extends Card:
 		digivolve_level = 3
 		digimon_type = "Dinosaur"
 		power = 5000
-		effect_text = "<<Your Turn>> As long as there is an [Agumon] in this Digimon's Evolution Bases, this Digimon gains <br><<Security Attack + 1>> (The number of cards this Digimon Checks when attacking Security increases by 1)."
+		effect_text = "<<Your Turn>> As long as there is an [Agumon] in this Digimon's Evolution Bases, this Digimon gains \n<<Security Attack + 1>> (The number of cards this Digimon Checks when attacking Security increases by 1)."
 
 class P_011 extends Card:
 	func _init():
@@ -240,7 +240,7 @@ class P_012 extends Card:
 		rarity = Rarity.P
 		id = "P-012"
 		play_cost = 2
-		effect_text = "<<Main>> If you have a Digimon whose name contains [V-dramon] in play, you may Rest this Tamer and activate 1 of the following effects:<br> - <<Draw 1>> (Draw 1 card from your deck)<br> - Choose 1 of your Digimon; that Digimon gets +1000 DP for the rest of this turn."
+		effect_text = "<<Main>> If you have a Digimon whose name contains [V-dramon] in play, you may Rest this Tamer and activate 1 of the following effects:\n - <<Draw 1>> (Draw 1 card from your deck)\n - Choose 1 of your Digimon; that Digimon gets +1000 DP for the rest of this turn."
 		sec_effect_text = "<<Security>> Play this card without paying its Cost."
 
 class P_013 extends Card:
@@ -447,7 +447,7 @@ class P_025 extends Card:
 		digivolve_level = 5
 		digimon_type = "Insect"
 		power = 11000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Choose 1 of your Digimon; that Digimon gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1) for the rest of this turn."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 of your Digimon; that Digimon gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1) for the rest of this turn."
 
 class P_026 extends Card:
 	func _init():
@@ -465,7 +465,7 @@ class P_026 extends Card:
 		digivolve_level = 5
 		digimon_type = "Dragon Man"
 		power = 11000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Turn this Digimon Active."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Turn this Digimon Active."
 
 class P_027 extends Card:
 	func _init():
@@ -483,7 +483,7 @@ class P_027 extends Card:
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 11000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Choose 1 Purple Option card from your hand whose Cost is 7 or lower, and use it without paying its Cost."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 Purple Option card from your hand whose Cost is 7 or lower, and use it without paying its Cost."
 
 class P_028 extends Card:
 	func _init():

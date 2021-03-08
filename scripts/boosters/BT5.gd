@@ -962,7 +962,7 @@ class BT5_046 extends Card:
 		digivolve_level = 2
 		digimon_type = "Beast"
 		power = 1000
-		effect_text = "<<Main>> <<Digiburst 1>> (Choose 1 of this Digimon's Evolution Bases and discard it. If you do, activate the following effect:)<br>- Reveal the top card of your deck. If that card is a Green Digimon card, add it to your hand. Return any remaining card to the bottom of your deck."
+		effect_text = "<<Main>> <<Digiburst 1>> (Choose 1 of this Digimon's Evolution Bases and discard it. If you do, activate the following effect:)\n- Reveal the top card of your deck. If that card is a Green Digimon card, add it to your hand. Return any remaining card to the bottom of your deck."
 
 class BT5_047 extends Card:
 	func _init():
@@ -1141,7 +1141,7 @@ class BT5_056 extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Fairy"
 		power = 11000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- All of your Digimon get +2000 DP for the rest of this turn.\n<<Your Turn>> <<Once per Turn>> When your Digimon activates <<Digiburst>> , choose 1 opponent Digimon; that Digimon cannot attack or block until the end of the opponent's next turn."
+		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- All of your Digimon get +2000 DP for the rest of this turn.\n<<Your Turn>> <<Once per Turn>> When your Digimon activates <<Digiburst>> , choose 1 opponent Digimon; that Digimon cannot attack or block until the end of the opponent's next turn."
 
 class BT5_057 extends Card:
 	func _init():
@@ -1159,7 +1159,7 @@ class BT5_057 extends Card:
 		digivolve_level = 5
 		digimon_type = "Fairy"
 		power = 11000
-		effect_text = "<<Main>> <<Digiburst 3>> (Choose 3 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- All of your Digimon with <<Digiburst>> gain <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1) for the rest of this turn."
+		effect_text = "<<Main>> <<Digiburst 3>> (Choose 3 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- All of your Digimon with <<Digiburst>> gain <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1) for the rest of this turn."
 
 class BT5_058 extends Card:
 	func _init():
@@ -1395,7 +1395,7 @@ class BT5_070 extends Card:
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 11000
-		effect_text = "<<Reboot>> (Turn this Digimon Active during the opponent's Active Phase)\n<<When Evolving>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- Destroy 1 opponent Digimon whose Play Cost is 6 or lower. If no opponent Digimon was destroyed by this effect, discard the top card of the opponent's Security."
+		effect_text = "<<Reboot>> (Turn this Digimon Active during the opponent's Active Phase)\n<<When Evolving>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Destroy 1 opponent Digimon whose Play Cost is 6 or lower. If no opponent Digimon was destroyed by this effect, discard the top card of the opponent's Security."
 
 class BT5_071 extends Card:
 	func _init():
@@ -1555,7 +1555,7 @@ class BT5_079 extends Card:
 		digivolve_level = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		effect_text = "<<Main>> <<Digiburst 3>> (Choose 3 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)<br>- You may choose 1 Purple Lv.3 Digimon card from your Trash, and play it without paying its Cost. The <<When Played>> Effects of Digimon that come into play via this Effect will not activate."
+		effect_text = "<<Main>> <<Digiburst 3>> (Choose 3 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- You may choose 1 Purple Lv.3 Digimon card from your Trash, and play it without paying its Cost. The <<When Played>> Effects of Digimon that come into play via this Effect will not activate."
 		inherited_effect_text = "<<Your Turn>> <<Once per Turn>> You may destroy 1 of your Digimon (excluding this Digimon); if you do, turn this Digimon Active."
 
 class BT5_080 extends Card:
@@ -1650,7 +1650,7 @@ class BT5_082 extends Card:
 		digivolve_level = 5
 		digimon_type = "Demon Man"
 		power = 11000
-		effect_text = "<<When Attacking>> Activate 1 of the following effects. If you have no other Digimon in play (excluding this Digimon), activate all of the following effects instead:<br>- Memory +1.<br>- This Digimon gets +2000 DP for the rest of this turn.<br>- Destroy up to 3 Lv.3 opponent Digimon."
+		effect_text = "<<When Attacking>> Activate 1 of the following effects. If you have no other Digimon in play (excluding this Digimon), activate all of the following effects instead:\n- Memory +1.\n- This Digimon gets +2000 DP for the rest of this turn.\n- Destroy up to 3 Lv.3 opponent Digimon."
 
 class BT5_083 extends Card:
 	func _init():
@@ -2122,7 +2122,7 @@ class BT5_099 extends Card:
 		rarity = Rarity.U
 		id = "BT5-099"
 		play_cost = 4
-		effect_text = "<<Main>> For every Digimon you have in play, activate the following effect once:<br> - Choose 1 opponent Digimon; that Digimon gets -3000 DP for the rest of this turn."
+		effect_text = "<<Main>> For every Digimon you have in play, activate the following effect once:\n - Choose 1 opponent Digimon; that Digimon gets -3000 DP for the rest of this turn."
 		sec_effect_text = "<<Security>> Activate this card's <<Main>> effect."
 
 class BT5_100 extends Card:
