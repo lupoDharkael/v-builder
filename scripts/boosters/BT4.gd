@@ -1287,7 +1287,7 @@ class BT4_058 extends Card:
 		digivolve_level = 4
 		digimon_type = "Demon Dragon"
 		power = 8000
-		effect_text = "<<When Evolving>> Choose 1 of your Digimon; that Digimon gains <<Pierce>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security) for the rest of this turn."
+		effect_text = "<<When Evolving>> Choose 1 of your Digimon; that Digimon gains <<Piercing>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security) for the rest of this turn."
 
 class BT4_059 extends Card:
 	func _init():
@@ -1944,7 +1944,7 @@ class BT4_090 extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Unique"
 		power = 14000
-		effect_text = "<<Pierce>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)\n<<When Evolving>> Turn this Digimon Active. After that, this Digimon may attack an opponent Digimon; you may attack even opponent Digimon in the Active position via this effect."
+		effect_text = "<<Piercing>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)\n<<When Evolving>> Turn this Digimon Active. After that, this Digimon may attack an opponent Digimon; you may attack even opponent Digimon in the Active position via this effect."
 
 class BT4_090_B extends Card:
 	func _init():
@@ -1965,7 +1965,7 @@ class BT4_090_B extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Unique"
 		power = 14000
-		effect_text = "<<Pierce>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)\n<<When Evolving>> Turn this Digimon Active. After that, this Digimon may attack an opponent Digimon; you may attack even opponent Digimon in the Active position via this effect."
+		effect_text = "<<Piercing>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)\n<<When Evolving>> Turn this Digimon Active. After that, this Digimon may attack an opponent Digimon; you may attack even opponent Digimon in the Active position via this effect."
 		is_parallel = true
 		notes = "parallel promo"
 

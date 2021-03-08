@@ -147,7 +147,7 @@ static func register_cards():
 
 class BT1_001 extends Card:
 	func _init():
-		name = "Pyocomon"
+		name = "Yokomon"
 		type = Type.DIGITAMA
 		color = ColorGroup.RED
 		rarity = Rarity.R
@@ -159,7 +159,7 @@ class BT1_001 extends Card:
 
 class BT1_002 extends Card:
 	func _init():
-		name = "Babydmon"
+		name = "Babydomon"
 		type = Type.DIGITAMA
 		color = ColorGroup.RED
 		rarity = Rarity.U
@@ -167,7 +167,7 @@ class BT1_002 extends Card:
 		level = 2
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Baby Dragon"
-		inherited_effect_text = "<<Your Turn>> As long as this Digimon has <<Pierce>>, this Digimon gets +2000 DP."
+		inherited_effect_text = "<<Your Turn>> As long as this Digimon has <<Piercing>>, this Digimon gets +2000 DP."
 
 class BT1_003 extends Card:
 	func _init():
@@ -298,7 +298,7 @@ class BT1_010_B extends Card:
 
 class BT1_011 extends Card:
 	func _init():
-		name = "Agumon Hakase"
+		name = "Agumon Expert"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.C
@@ -313,10 +313,11 @@ class BT1_011 extends Card:
 		digimon_type = "Dinosaur"
 		power = 1000
 		effect_text = "<<When Played>> Return 1 Digimon card containing [Agumon] in its name from your Trash to your hand."
+		notes = "Hakase"
 
 class BT1_012 extends Card:
 	func _init():
-		name = "Piyomon"
+		name = "Biyomon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.U
@@ -331,6 +332,7 @@ class BT1_012 extends Card:
 		digimon_type = "Chick"
 		power = 2000
 		inherited_effect_text = "<<Your Turn>> When this Digimon is blocked, this Digimon gets +2000 DP."
+		notes = "Piyomon"
 
 class BT1_013 extends Card:
 	func _init():
@@ -351,7 +353,7 @@ class BT1_013 extends Card:
 
 class BT1_014 extends Card:
 	func _init():
-		name = "Cockatrimon"
+		name = "Kokatorimon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.C
@@ -386,7 +388,7 @@ class BT1_015 extends Card:
 
 class BT1_016 extends Card:
 	func _init():
-		name = "Tyranomon"
+		name = "Tyrannomon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.R
@@ -422,7 +424,7 @@ class BT1_017 extends Card:
 
 class BT1_018 extends Card:
 	func _init():
-		name = "Flare Lizamon"
+		name = "Flarerizamon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.C
@@ -440,7 +442,7 @@ class BT1_018 extends Card:
 
 class BT1_019 extends Card:
 	func _init():
-		name = "Dark Tyranomon"
+		name = "DarkTyrannomon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.C
@@ -474,7 +476,7 @@ class BT1_020 extends Card:
 
 class BT1_021 extends Card:
 	func _init():
-		name = "Metal Greymon"
+		name = "MetalGreymon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.U
@@ -506,12 +508,12 @@ class BT1_022 extends Card:
 		digivolve_level = 4
 		digimon_type = "Bird Man"
 		power = 7000
-		effect_text = "<<Pierce>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)"
+		effect_text = "<<Piercing>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)"
 		inherited_effect_text = "<<Your Turn>> When this Digimon is blocked, <<Draw 1>> (Draw 1 card from your deck). "
 
 class BT1_023 extends Card:
 	func _init():
-		name = "Skull Greymon"
+		name = "SkullGreymon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.R
@@ -529,7 +531,7 @@ class BT1_023 extends Card:
 
 class BT1_024 extends Card:
 	func _init():
-		name = "Metal Tyranomon"
+		name = "MetalTyrannomon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.C
@@ -546,7 +548,7 @@ class BT1_024 extends Card:
 
 class BT1_025 extends Card:
 	func _init():
-		name = "War Greymon"
+		name = "WarGreymon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.SR
@@ -564,7 +566,7 @@ class BT1_025 extends Card:
 
 class BT1_025_B extends Card:
 	func _init():
-		name = "War Greymon"
+		name = "WarGreymon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.SR
@@ -598,11 +600,11 @@ class BT1_026 extends Card:
 		digivolve_level = 5
 		digimon_type = "Machine Dragon"
 		power = 11000
-		effect_text = "<<Pierce>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)"
+		effect_text = "<<Piercing>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)"
 
 class BT1_027 extends Card:
 	func _init():
-		name = "Armadimon"
+		name = "Armadillomon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.C
@@ -616,6 +618,7 @@ class BT1_027 extends Card:
 		digivolve_level = 2
 		digimon_type = "Mammal"
 		power = 4000
+		notes = "Armadimon"
 
 class BT1_028 extends Card:
 	func _init():
@@ -692,7 +695,7 @@ class BT1_030 extends Card:
 
 class BT1_031 extends Card:
 	func _init():
-		name = "Koemon"
+		name = "Monmon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.U
@@ -707,10 +710,11 @@ class BT1_031 extends Card:
 		digimon_type = "Beast"
 		power = 1000
 		effect_text = "<<Blocker>> (When the opponent Digimon performs an attack, if this Digimon is in the Active position, you may Rest this Digimon and change the target of the attack to this Digimon)"
+		notes = "Koemon"
 
 class BT1_032 extends Card:
 	func _init():
-		name = "Yukidarumon"
+		name = "Frigimon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.C
@@ -725,10 +729,11 @@ class BT1_032 extends Card:
 		digimon_type = "Ice-Snow"
 		power = 4000
 		effect_text = "<<Jamming>> (This Digimon cannot be destroyed in a battle with a Security Digimon)"
+		notes = "Yukidarumon"
 
 class BT1_033 extends Card:
 	func _init():
-		name = "Rukamon"
+		name = "Dolphmon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.C
@@ -743,6 +748,7 @@ class BT1_033 extends Card:
 		digimon_type = "Aquatic Mammal"
 		power = 4000
 		inherited_effect_text = "<<Your Turn>> As long as there is an opponent Digimon in play that has no Evolution Bases, this Digimon gets +1000 DP."
+		notes = "Rukamon"
 
 class BT1_034 extends Card:
 	func _init():
@@ -800,7 +806,7 @@ class BT1_036 extends Card:
 
 class BT1_037 extends Card:
 	func _init():
-		name = "Gorimon"
+		name = "Gorillamon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.C
@@ -814,6 +820,7 @@ class BT1_037 extends Card:
 		digivolve_level = 3
 		digimon_type = "Beast Man"
 		power = 6000
+		notes = "Gorimon"
 
 class BT1_038 extends Card:
 	func _init():
@@ -853,7 +860,7 @@ class BT1_038_B extends Card:
 
 class BT1_039 extends Card:
 	func _init():
-		name = "Cerberumon"
+		name = "Cerberusmon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.R
@@ -871,7 +878,7 @@ class BT1_039 extends Card:
 
 class BT1_040 extends Card:
 	func _init():
-		name = "Were Garurumon"
+		name = "WereGarurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.U
@@ -908,7 +915,7 @@ class BT1_041 extends Card:
 
 class BT1_042 extends Card:
 	func _init():
-		name = "Loader Liomon"
+		name = "LoaderLiomon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.U
@@ -925,7 +932,7 @@ class BT1_042 extends Card:
 
 class BT1_043 extends Card:
 	func _init():
-		name = "Saber Leomon"
+		name = "SaberLeomon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.U
@@ -943,7 +950,7 @@ class BT1_043 extends Card:
 
 class BT1_044 extends Card:
 	func _init():
-		name = "Metal Garurumon"
+		name = "MetalGarurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.SR
@@ -961,7 +968,7 @@ class BT1_044 extends Card:
 
 class BT1_044_B extends Card:
 	func _init():
-		name = "Metal Garurumon"
+		name = "MetalGarurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.SR
@@ -981,7 +988,7 @@ class BT1_044_B extends Card:
 
 class BT1_045 extends Card:
 	func _init():
-		name = "Tukaimon"
+		name = "Tsukaimon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.C
@@ -1103,7 +1110,7 @@ class BT1_051 extends Card:
 
 class BT1_052 extends Card:
 	func _init():
-		name = "Siesamon"
+		name = "Seasarmon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.C
@@ -1229,7 +1236,7 @@ class BT1_057_B extends Card:
 
 class BT1_058 extends Card:
 	func _init():
-		name = "Tyilinmon"
+		name = "Chirinmon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.U
@@ -1247,7 +1254,7 @@ class BT1_058 extends Card:
 
 class BT1_059 extends Card:
 	func _init():
-		name = "Piccolomon"
+		name = "Piximon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.C
@@ -1264,7 +1271,7 @@ class BT1_059 extends Card:
 
 class BT1_060 extends Card:
 	func _init():
-		name = "Holy Angemon"
+		name = "MagnaAngemon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.SR
@@ -1280,10 +1287,11 @@ class BT1_060 extends Card:
 		power = 6000
 		effect_text = "<<When Played>> <<Recovery + 1 (Deck)>> (Take 1 card from the top of your deck and place it onto Security)"
 		inherited_effect_text = "<<Your Turn>> This Digimon gets +1000 DP for every 3 cards in your Security."
+		notes = "HolyAngemon"
 
 class BT1_060_B extends Card:
 	func _init():
-		name = "Holy Angemon"
+		name = "MagnaAngemon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.SR
@@ -1300,7 +1308,7 @@ class BT1_060_B extends Card:
 		effect_text = "<<When Played>> <<Recovery + 1 (Deck)>> (Take 1 card from the top of your deck and place it onto Security)"
 		inherited_effect_text = "<<Your Turn>> This Digimon gets +1000 DP for every 3 cards in your Security."
 		is_parallel = true
-		notes = "parallel promo"
+		notes = "parallel promo HolyAngemon"
 
 class BT1_061 extends Card:
 	func _init():
@@ -1322,7 +1330,7 @@ class BT1_061 extends Card:
 
 class BT1_062 extends Card:
 	func _init():
-		name = "Slash Angemon"
+		name = "SlashAngemon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.U
@@ -1358,7 +1366,7 @@ class BT1_063 extends Card:
 
 class BT1_064 extends Card:
 	func _init():
-		name = "Goburimon"
+		name = "Goblimon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
 		rarity = Rarity.C
@@ -1372,10 +1380,11 @@ class BT1_064 extends Card:
 		digivolve_level = 2
 		digimon_type = "Oni"
 		power = 3000
+		notes = "Goburimon"
 
 class BT1_065 extends Card:
 	func _init():
-		name = "Mushmon"
+		name = "Mushroomon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
 		rarity = Rarity.C
@@ -1446,7 +1455,7 @@ class BT1_068 extends Card:
 
 class BT1_069 extends Card:
 	func _init():
-		name = "Orgemon"
+		name = "Ogremon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
 		rarity = Rarity.C
@@ -1482,7 +1491,7 @@ class BT1_070 extends Card:
 
 class BT1_071 extends Card:
 	func _init():
-		name = "Vegimon"
+		name = "Vegiemon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
 		rarity = Rarity.C
@@ -1571,7 +1580,7 @@ class BT1_075 extends Card:
 
 class BT1_076 extends Card:
 	func _init():
-		name = "Atlur Kabuterimon"
+		name = "MegaKabuterimon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
 		rarity = Rarity.U
@@ -1586,10 +1595,11 @@ class BT1_076 extends Card:
 		digimon_type = "Insect"
 		power = 6000
 		inherited_effect_text = "<<When Attacking>> If there are 2 or more opponent Digimon in the Rest Position, Memory +1."
+		notes = "Atlur Kabuterimon"
 
 class BT1_076_B extends Card:
 	func _init():
-		name = "Atlur Kabuterimon"
+		name = "MegaKabuterimon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
 		rarity = Rarity.U
@@ -1605,7 +1615,7 @@ class BT1_076_B extends Card:
 		power = 6000
 		inherited_effect_text = "<<When Attacking>> If there are 2 or more opponent Digimon in the Rest Position, Memory +1."
 		is_parallel = true
-		notes = "parallel promo"
+		notes = "parallel promo Atlur Kabuterimon"
 
 class BT1_077 extends Card:
 	func _init():
@@ -1627,7 +1637,7 @@ class BT1_077 extends Card:
 
 class BT1_078 extends Card:
 	func _init():
-		name = "Jyagamon"
+		name = "Jagamon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
 		rarity = Rarity.U
@@ -1700,7 +1710,7 @@ class BT1_080 extends Card:
 
 class BT1_081 extends Card:
 	func _init():
-		name = "Herakle Kabuterimon"
+		name = "HerculesKabuterimon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
 		rarity = Rarity.SR
@@ -1714,7 +1724,7 @@ class BT1_081 extends Card:
 		digivolve_level = 5
 		digimon_type = "Insect"
 		power = 10000
-		effect_text = "<<Pierce>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)\n<<After Attacking>> <<Twice per Turn>> You may -3 from your Memory; if you do, turn this Digimon Active."
+		effect_text = "<<Piercing>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)\n<<After Attacking>> <<Twice per Turn>> You may -3 from your Memory; if you do, turn this Digimon Active."
 
 class BT1_082 extends Card:
 	func _init():
@@ -1756,7 +1766,7 @@ class BT1_082_B extends Card:
 
 class BT1_083 extends Card:
 	func _init():
-		name = "Gran Kuwagamon"
+		name = "GranKuwagamon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
 		rarity = Rarity.SR
@@ -1770,11 +1780,11 @@ class BT1_083 extends Card:
 		digivolve_level = 5
 		digimon_type = "Insect"
 		power = 11000
-		effect_text = "<<Pierce>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)\n<<Your Turn>> This Digimon gets +4000 DP."
+		effect_text = "<<Piercing>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)\n<<Your Turn>> This Digimon gets +4000 DP."
 
 class BT1_083_B extends Card:
 	func _init():
-		name = "Gran Kuwagamon"
+		name = "GranKuwagamon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
 		rarity = Rarity.SR
@@ -1788,13 +1798,13 @@ class BT1_083_B extends Card:
 		digivolve_level = 5
 		digimon_type = "Insect"
 		power = 11000
-		effect_text = "<<Pierce>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)\n<<Your Turn>> This Digimon gets +4000 DP."
+		effect_text = "<<Piercing>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)\n<<Your Turn>> This Digimon gets +4000 DP."
 		is_parallel = true
 		notes = "parallel promo"
 
 class BT1_084 extends Card:
 	func _init():
-		name = "Omegamon"
+		name = "Omnimon"
 		type = Type.DIGIMON
 		color = ColorGroup.WHITE
 		rarity = Rarity.SR
@@ -1812,10 +1822,11 @@ class BT1_084 extends Card:
 		digimon_type = "Holy Knight"
 		power = 15000
 		effect_text = "<<When Evolving>> Choose 1 opponent Digimon. Destroy all opponent Digimon with the same name as that Digimon.\n<<When Attacking>> You may return 1 Lv.6 Digimon card in this Digimon's Evolution Bases to your hand; if you do, turn this Digimon Active."
+		notes = "Omegamon"
 
 class BT1_084_B extends Card:
 	func _init():
-		name = "Omegamon"
+		name = "Omnimon"
 		type = Type.DIGIMON
 		color = ColorGroup.WHITE
 		rarity = Rarity.SR
@@ -1834,11 +1845,11 @@ class BT1_084_B extends Card:
 		power = 15000
 		effect_text = "<<When Evolving>> Choose 1 opponent Digimon. Destroy all opponent Digimon with the same name as that Digimon.\n<<When Attacking>> You may return 1 Lv.6 Digimon card in this Digimon's Evolution Bases to your hand; if you do, turn this Digimon Active."
 		is_parallel = true
-		notes = "parallel promo"
+		notes = "parallel promo Omegamon"
 
 class BT1_084_C extends Card:
 	func _init():
-		name = "Omegamon"
+		name = "Omnimon"
 		type = Type.DIGIMON
 		color = ColorGroup.WHITE
 		rarity = Rarity.SR
@@ -1857,11 +1868,11 @@ class BT1_084_C extends Card:
 		power = 15000
 		effect_text = "<<When Evolving>> Choose 1 opponent Digimon. Destroy all opponent Digimon with the same name as that Digimon.\n<<When Attacking>> You may return 1 Lv.6 Digimon card in this Digimon's Evolution Bases to your hand; if you do, turn this Digimon Active."
 		is_parallel = true
-		notes = "parallel promo"
+		notes = "parallel promo Omegamon"
 
 class BT1_085 extends Card:
 	func _init():
-		name = "Yagami Taichi"
+		name = "Tai Kamiya"
 		type = Type.TAMER
 		color = ColorGroup.RED
 		rarity = Rarity.R
@@ -1869,10 +1880,11 @@ class BT1_085 extends Card:
 		play_cost = 4
 		effect_text = "<<Beginning of Your Turn>> If your Memory is 2 or below, it becomes 3.\n<<Your Turn>> All of your Red Digimon that have 4 or more Evolution Bases gain <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)."
 		sec_effect_text = "<<Security>> Play this card without paying its Cost."
+		notes = "Yagami Taichi"
 
 class BT1_085_B extends Card:
 	func _init():
-		name = "Yagami Taichi"
+		name = "Tai Kamiya"
 		type = Type.TAMER
 		color = ColorGroup.RED
 		rarity = Rarity.R
@@ -1881,11 +1893,11 @@ class BT1_085_B extends Card:
 		effect_text = "<<Beginning of Your Turn>> If your Memory is 2 or below, it becomes 3.\n<<Your Turn>> All of your Red Digimon that have 4 or more Evolution Bases gain <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)."
 		sec_effect_text = "<<Security>> Play this card without paying its Cost."
 		is_parallel = true
-		notes = "parallel promo"
+		notes = "parallel promo Yagami Taichi"
 
 class BT1_086 extends Card:
 	func _init():
-		name = "Ishida Yamato"
+		name = "Matt Ishida"
 		type = Type.TAMER
 		color = ColorGroup.BLUE
 		rarity = Rarity.R
@@ -1893,10 +1905,11 @@ class BT1_086 extends Card:
 		play_cost = 4
 		effect_text = "<<Beginning of Your Turn>> If your Memory is 2 or lower, it becomes 3.\n<<Your Turn>> When you play a Blue Digimon, you may Rest this Tamer; if you do, choose 1 opponent Digimon and discard its bottom-most Evolution Base."
 		sec_effect_text = "<<Security>> Play this card without paying its Cost."
+		notes = "Ishida Yamato"
 
 class BT1_086_B extends Card:
 	func _init():
-		name = "Ishida Yamato"
+		name = "Matt Ishida"
 		type = Type.TAMER
 		color = ColorGroup.BLUE
 		rarity = Rarity.R
@@ -1905,11 +1918,11 @@ class BT1_086_B extends Card:
 		effect_text = "<<Beginning of Your Turn>> If your Memory is 2 or lower, it becomes 3.\n<<Your Turn>> When you play a Blue Digimon, you may Rest this Tamer; if you do, choose 1 opponent Digimon and discard its bottom-most Evolution Base."
 		sec_effect_text = "<<Security>> Play this card without paying its Cost."
 		is_parallel = true
-		notes = "parallel promo"
+		notes = "parallel promo Ishida Yamato"
 
 class BT1_087 extends Card:
 	func _init():
-		name = "Takaishi Takeru"
+		name = "T.K. Takaishi"
 		type = Type.TAMER
 		color = ColorGroup.YELLOW
 		rarity = Rarity.R
@@ -1917,10 +1930,11 @@ class BT1_087 extends Card:
 		play_cost = 4
 		effect_text = "<<Beginning of Your Turn>> If your Memory is 2 or below, it becomes 3.\n<<When Played>> Check all of the contents of your Security, reveal 1 card from your Security and add it to your hand. If that card is a Yellow card, <<Recovery + 1 (Deck)>> (Take 1 card from the top of your deck and place it onto Security). After that, shuffle your Security."
 		sec_effect_text = "<<Security>> Play this card without paying its Cost."
+		notes = "Takaishi Takeru"
 
 class BT1_087_B extends Card:
 	func _init():
-		name = "Takaishi Takeru"
+		name = "T.K. Takaishi"
 		type = Type.TAMER
 		color = ColorGroup.YELLOW
 		rarity = Rarity.R
@@ -1929,11 +1943,11 @@ class BT1_087_B extends Card:
 		effect_text = "<<Beginning of Your Turn>> If your Memory is 2 or below, it becomes 3.\n<<When Played>> Check all of the contents of your Security, reveal 1 card from your Security and add it to your hand. If that card is a Yellow card, <<Recovery + 1 (Deck)>> (Take 1 card from the top of your deck and place it onto Security). After that, shuffle your Security."
 		sec_effect_text = "<<Security>> Play this card without paying its Cost."
 		is_parallel = true
-		notes = "parallel promo"
+		notes = "parallel promo Takaishi Takeru"
 
 class BT1_088 extends Card:
 	func _init():
-		name = "Izumi Koshiro"
+		name = "Izzy Izumi"
 		type = Type.TAMER
 		color = ColorGroup.GREEN
 		rarity = Rarity.R
@@ -1941,10 +1955,11 @@ class BT1_088 extends Card:
 		play_cost = 2
 		effect_text = "<<Main>> If you have a Lv.5 or above Green Digimon in play, you may Rest this Tamer and reveal the top card of your deck. If that card is a Digimon card, add it to your hand. Return any remaining card to the bottom of your deck."
 		sec_effect_text = "<<Security>> Play this card without paying its Cost."
+		notes = "Izumi Koshiro"
 
 class BT1_088_B extends Card:
 	func _init():
-		name = "Izumi Koshiro"
+		name = "Izzy Izumi"
 		type = Type.TAMER
 		color = ColorGroup.GREEN
 		rarity = Rarity.R
@@ -1953,11 +1968,11 @@ class BT1_088_B extends Card:
 		effect_text = "<<Main>> If you have a Lv.5 or above Green Digimon in play, you may Rest this Tamer and reveal the top card of your deck. If that card is a Digimon card, add it to your hand. Return any remaining card to the bottom of your deck."
 		sec_effect_text = "<<Security>> Play this card without paying its Cost."
 		is_parallel = true
-		notes = "parallel promo"
+		notes = "parallel promo Izumi Koshiro"
 
 class BT1_089 extends Card:
 	func _init():
-		name = "Tachikawa Mimi"
+		name = "Mimi Tachikawa"
 		type = Type.TAMER
 		color = ColorGroup.GREEN
 		rarity = Rarity.R
@@ -1968,7 +1983,7 @@ class BT1_089 extends Card:
 
 class BT1_089_B extends Card:
 	func _init():
-		name = "Tachikawa Mimi"
+		name = "Mimi Tachikawa"
 		type = Type.TAMER
 		color = ColorGroup.GREEN
 		rarity = Rarity.R
@@ -1981,7 +1996,7 @@ class BT1_089_B extends Card:
 
 class BT1_090 extends Card:
 	func _init():
-		name = "Gravity Press"
+		name = "Gravity Crush"
 		type = Type.OPTION
 		color = ColorGroup.RED
 		rarity = Rarity.C
@@ -1991,13 +2006,13 @@ class BT1_090 extends Card:
 
 class BT1_091 extends Card:
 	func _init():
-		name = "Scrapless Claw"
+		name = "Scrap Claw"
 		type = Type.OPTION
 		color = ColorGroup.RED
 		rarity = Rarity.R
 		id = "BT1-091"
 		play_cost = 3
-		effect_text = "<<Main>> Choose 1 of your Digimon; that Digimon gains <<Pierce>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security) for the rest of this turn."
+		effect_text = "<<Main>> Choose 1 of your Digimon; that Digimon gains <<Piercing>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security) for the rest of this turn."
 
 class BT1_092 extends Card:
 	func _init():
@@ -2011,7 +2026,7 @@ class BT1_092 extends Card:
 
 class BT1_093 extends Card:
 	func _init():
-		name = "Brave Tornado"
+		name = "Great Tornado"
 		type = Type.OPTION
 		color = ColorGroup.RED
 		rarity = Rarity.C
@@ -2057,7 +2072,7 @@ class BT1_095_B extends Card:
 
 class BT1_096 extends Card:
 	func _init():
-		name = "Hellfire"
+		name = "Mad Dog Fire"
 		type = Type.OPTION
 		color = ColorGroup.BLUE
 		rarity = Rarity.R
@@ -2079,7 +2094,7 @@ class BT1_097 extends Card:
 
 class BT1_098 extends Card:
 	func _init():
-		name = "V-Breath Arrow"
+		name = "V-Nova Blast"
 		type = Type.OPTION
 		color = ColorGroup.BLUE
 		rarity = Rarity.C
@@ -2090,7 +2105,7 @@ class BT1_098 extends Card:
 
 class BT1_099 extends Card:
 	func _init():
-		name = "Lovely Attack"
+		name = "Hearts Attack"
 		type = Type.OPTION
 		color = ColorGroup.BLUE
 		rarity = Rarity.C
@@ -2111,7 +2126,7 @@ class BT1_100 extends Card:
 
 class BT1_101 extends Card:
 	func _init():
-		name = "Nail Crusher"
+		name = "Howling Crusher"
 		type = Type.OPTION
 		color = ColorGroup.BLUE
 		rarity = Rarity.C
@@ -2122,7 +2137,7 @@ class BT1_101 extends Card:
 
 class BT1_101_B extends Card:
 	func _init():
-		name = "Nail Crusher"
+		name = "Howling Crusher"
 		type = Type.OPTION
 		color = ColorGroup.BLUE
 		rarity = Rarity.C
@@ -2135,7 +2150,7 @@ class BT1_101_B extends Card:
 
 class BT1_102 extends Card:
 	func _init():
-		name = "Holy Espada"
+		name = "Blade of the True"
 		type = Type.OPTION
 		color = ColorGroup.YELLOW
 		rarity = Rarity.C
@@ -2157,7 +2172,7 @@ class BT1_103 extends Card:
 
 class BT1_104 extends Card:
 	func _init():
-		name = "Heaven's Ripper"
+		name = "Golden Ripper"
 		type = Type.OPTION
 		color = ColorGroup.YELLOW
 		rarity = Rarity.C
@@ -2177,7 +2192,7 @@ class BT1_105 extends Card:
 
 class BT1_106 extends Card:
 	func _init():
-		name = "No. 1 <<Polyphony>>"
+		name = "Symphony No. 1 <Polyphony>"
 		type = Type.OPTION
 		color = ColorGroup.YELLOW
 		rarity = Rarity.R
@@ -2187,7 +2202,7 @@ class BT1_106 extends Card:
 
 class BT1_107 extends Card:
 	func _init():
-		name = "Kaishin no Hadou"
+		name = "Holy Wave"
 		type = Type.OPTION
 		color = ColorGroup.YELLOW
 		rarity = Rarity.C
@@ -2198,7 +2213,7 @@ class BT1_107 extends Card:
 
 class BT1_107_B extends Card:
 	func _init():
-		name = "Kaishin no Hadou"
+		name = "Holy Wave"
 		type = Type.OPTION
 		color = ColorGroup.YELLOW
 		rarity = Rarity.C
@@ -2235,7 +2250,7 @@ class BT1_108_B extends Card:
 
 class BT1_109 extends Card:
 	func _init():
-		name = "Smash Potato"
+		name = "Smashed Potatoes"
 		type = Type.OPTION
 		color = ColorGroup.GREEN
 		rarity = Rarity.C
@@ -2245,7 +2260,7 @@ class BT1_109 extends Card:
 
 class BT1_110 extends Card:
 	func _init():
-		name = "Flow' Cannon"
+		name = "Flower Cannon"
 		type = Type.OPTION
 		color = ColorGroup.GREEN
 		rarity = Rarity.R
@@ -2256,7 +2271,7 @@ class BT1_110 extends Card:
 
 class BT1_110_B extends Card:
 	func _init():
-		name = "Flow' Cannon"
+		name = "Flower Cannon"
 		type = Type.OPTION
 		color = ColorGroup.GREEN
 		rarity = Rarity.R
@@ -2269,7 +2284,7 @@ class BT1_110_B extends Card:
 
 class BT1_110_C extends Card:
 	func _init():
-		name = "Flow' Cannon"
+		name = "Flower Cannon"
 		type = Type.OPTION
 		color = ColorGroup.GREEN
 		rarity = Rarity.R
@@ -2315,7 +2330,7 @@ class BT1_113 extends Card:
 
 class BT1_114 extends Card:
 	func _init():
-		name = "Metal Greymon"
+		name = "MetalGreymon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.SEC
@@ -2334,7 +2349,7 @@ class BT1_114 extends Card:
 
 class BT1_114_B extends Card:
 	func _init():
-		name = "Metal Greymon"
+		name = "MetalGreymon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.SEC
@@ -2355,7 +2370,7 @@ class BT1_114_B extends Card:
 
 class BT1_115 extends Card:
 	func _init():
-		name = "V-dramon"
+		name = "Veedramon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.SEC
@@ -2371,10 +2386,11 @@ class BT1_115 extends Card:
 		power = 6000
 		effect_text = "<<When Attacking>> <<Once per Turn>> If you have a Tamer in play, turn this Digimon Active."
 		inherited_effect_text = "<<Both Players' Turns>> As long as you have a Blue Tamer in play, this Digimon gets +1000 DP."
+		notes = "V-dramon"
 
 class BT1_115_B extends Card:
 	func _init():
-		name = "V-dramon"
+		name = "Veedramon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.SEC
@@ -2391,5 +2407,5 @@ class BT1_115_B extends Card:
 		effect_text = "<<When Attacking>> <<Once per Turn>> If you have a Tamer in play, turn this Digimon Active."
 		inherited_effect_text = "<<Both Players' Turns>> As long as you have a Blue Tamer in play, this Digimon gets +1000 DP."
 		is_parallel = true
-		notes = "parallel promo"
+		notes = "parallel promo V-dramon"
 

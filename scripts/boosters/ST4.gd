@@ -242,7 +242,7 @@ class ST4_13 extends Card:
 		digivolve_level = 5
 		digimon_type = "Insect"
 		power = 12000
-		effect_text = "<<Pierce>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)\n<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Rest 1 opponent Digimon."
+		effect_text = "<<Piercing>> (When this Digimon attacks and initiates a battle, if the opponent Digimon is the only Digimon destroyed in that battle, this Digimon Checks Security)\n<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Rest 1 opponent Digimon."
 
 class ST4_14 extends Card:
 	func _init():

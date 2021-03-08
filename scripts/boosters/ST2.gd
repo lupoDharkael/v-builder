@@ -28,7 +28,7 @@ static func register_cards():
 
 class ST2_01 extends Card:
 	func _init():
-		name = "Tunomon"
+		name = "Tsunomon"
 		type = Type.DIGITAMA
 		color = ColorGroup.BLUE
 		rarity = Rarity.U
@@ -147,7 +147,7 @@ class ST2_06_B extends Card:
 
 class ST2_07 extends Card:
 	func _init():
-		name = "Gryzmon"
+		name = "Gryzzlymon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.C
@@ -165,7 +165,7 @@ class ST2_07 extends Card:
 
 class ST2_08 extends Card:
 	func _init():
-		name = "Were Garurumon"
+		name = "WereGarurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.R
@@ -183,7 +183,7 @@ class ST2_08 extends Card:
 
 class ST2_08_B extends Card:
 	func _init():
-		name = "Were Garurumon"
+		name = "WereGarurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.R
@@ -203,7 +203,7 @@ class ST2_08_B extends Card:
 
 class ST2_08_C extends Card:
 	func _init():
-		name = "Were Garurumon"
+		name = "WereGarurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.R
@@ -278,7 +278,7 @@ class ST2_10 extends Card:
 
 class ST2_11 extends Card:
 	func _init():
-		name = "Metal Garurumon"
+		name = "MetalGarurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.SR
@@ -296,7 +296,7 @@ class ST2_11 extends Card:
 
 class ST2_12 extends Card:
 	func _init():
-		name = "Ishida Yamato"
+		name = "Matt Ishida"
 		type = Type.TAMER
 		color = ColorGroup.BLUE
 		rarity = Rarity.R
@@ -304,6 +304,7 @@ class ST2_12 extends Card:
 		play_cost = 2
 		effect_text = "<<Beginning of Your Turn>> If there is an opponent Digimon in play that has no Evolution Bases, Memory +1."
 		sec_effect_text = "<<Security>> Play this card without paying its Cost."
+		notes = "Ishida Yamato"
 
 class ST2_13 extends Card:
 	func _init():

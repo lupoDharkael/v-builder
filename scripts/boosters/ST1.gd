@@ -40,7 +40,7 @@ class ST1_01 extends Card:
 
 class ST1_02 extends Card:
 	func _init():
-		name = "Piyomon"
+		name = "Biyomon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.C
@@ -52,8 +52,9 @@ class ST1_02 extends Card:
 		digivolve_color = ColorGroup.RED
 		digivolve_cost = 0
 		digivolve_level = 2
-		digimon_type = "Chick"
+		digimon_type = "Bird"
 		power = 3000
+		name = "Piyomon"
 
 class ST1_03 extends Card:
 	func _init():
@@ -203,7 +204,7 @@ class ST1_08_B extends Card:
 
 class ST1_09 extends Card:
 	func _init():
-		name = "Metal Greymon"
+		name = "MetalGreymon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.R
@@ -221,7 +222,7 @@ class ST1_09 extends Card:
 
 class ST1_09_B extends Card:
 	func _init():
-		name = "Metal Greymon"
+		name = "MetalGreymon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.R
@@ -241,7 +242,7 @@ class ST1_09_B extends Card:
 
 class ST1_09_C extends Card:
 	func _init():
-		name = "Metal Greymon"
+		name = "MetalGreymon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.R
@@ -261,7 +262,7 @@ class ST1_09_C extends Card:
 
 class ST1_10 extends Card:
 	func _init():
-		name = "Hououmon"
+		name = "Phoenixmon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.R
@@ -275,10 +276,11 @@ class ST1_10 extends Card:
 		digivolve_level = 5
 		digimon_type = "Holy Beast"
 		power = 12000
+		notes = "Hououmon"
 
 class ST1_11 extends Card:
 	func _init():
-		name = "War Greymon"
+		name = "WarGreymon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.SR
@@ -296,7 +298,7 @@ class ST1_11 extends Card:
 
 class ST1_12 extends Card:
 	func _init():
-		name = "Yagami Taichi"
+		name = "Tai Kamiya"
 		type = Type.TAMER
 		color = ColorGroup.RED
 		rarity = Rarity.R
@@ -304,6 +306,7 @@ class ST1_12 extends Card:
 		play_cost = 2
 		effect_text = "<<Your Turn>> All of your Digimon get +1000 DP."
 		sec_effect_text = "<<Security>> Play this card without paying its Cost."
+		notes = "Yagami Taichi"
 
 class ST1_13 extends Card:
 	func _init():

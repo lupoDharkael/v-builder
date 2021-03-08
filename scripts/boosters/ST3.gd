@@ -39,7 +39,7 @@ class ST3_01 extends Card:
 
 class ST3_02 extends Card:
 	func _init():
-		name = "Plotmon"
+		name = "Salamon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.C
@@ -56,7 +56,7 @@ class ST3_02 extends Card:
 
 class ST3_03 extends Card:
 	func _init():
-		name = "Bakumon"
+		name = "Tapirmon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.C
@@ -70,6 +70,7 @@ class ST3_03 extends Card:
 		digivolve_level = 2
 		digimon_type = "Holy Beast"
 		power = 4000
+		notes = "Bakumon"
 
 class ST3_04 extends Card:
 	func _init():
@@ -129,7 +130,7 @@ class ST3_05_B extends Card:
 
 class ST3_06 extends Card:
 	func _init():
-		name = "Tailmon"
+		name = "Gatomon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.C
@@ -143,6 +144,7 @@ class ST3_06 extends Card:
 		digivolve_level = 3
 		digimon_type = "Holy Beast"
 		power = 5000
+		notes = "Tailmon"
 
 class ST3_07 extends Card:
 	func _init():
@@ -164,7 +166,7 @@ class ST3_07 extends Card:
 
 class ST3_08 extends Card:
 	func _init():
-		name = "Holy Angemon"
+		name = "MagnaAngemon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.R
@@ -179,10 +181,11 @@ class ST3_08 extends Card:
 		digimon_type = "Archangel"
 		power = 7000
 		inherited_effect_text = "<<When Attacking>> Choose 1 opponent Digimon; that Digimon gets -1000 DP for the rest of this turn."
+		notes = "Holy Angemon"
 
 class ST3_08_B extends Card:
 	func _init():
-		name = "Holy Angemon"
+		name = "MagnaAngemon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.R
@@ -198,7 +201,7 @@ class ST3_08_B extends Card:
 		power = 7000
 		inherited_effect_text = "<<When Attacking>> Choose 1 opponent Digimon; that Digimon gets -1000 DP for the rest of this turn."
 		is_parallel = true
-		notes = "parallel promo"
+		notes = "parallel promo Holy Angemon"
 
 class ST3_09 extends Card:
 	func _init():
@@ -254,6 +257,7 @@ class ST3_10 extends Card:
 		digivolve_level = 5
 		digimon_type = "Holy Dragon"
 		power = 12000
+		notes = "Holydramon"
 
 class ST3_11 extends Card:
 	func _init():
@@ -275,7 +279,7 @@ class ST3_11 extends Card:
 
 class ST3_12 extends Card:
 	func _init():
-		name = "Takaishi Takeru"
+		name = "T.K. Takaishi"
 		type = Type.TAMER
 		color = ColorGroup.YELLOW
 		rarity = Rarity.R
@@ -283,6 +287,7 @@ class ST3_12 extends Card:
 		play_cost = 2
 		effect_text = "<<Opponent's Turn>> All of your Security Digimon get +2000 DP."
 		sec_effect_text = "<<Security>> Play this card without paying its Cost."
+		notes = "Takaishi Takeru"
 
 class ST3_13 extends Card:
 	func _init():
