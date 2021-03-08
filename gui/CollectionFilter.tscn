@@ -40,12 +40,14 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 size_flags_stretch_ratio = 0.2
 
-[node name="ColorMenu" type="OptionButton" parent="VBoxContainer/HBoxContainer"]
+[node name="ColorMenu" type="MenuButton" parent="VBoxContainer/HBoxContainer"]
 margin_left = 858.0
 margin_right = 999.0
 margin_bottom = 22.0
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 0.2
+text = "Color"
+flat = false
 
 [node name="ColorButton" type="Button" parent="VBoxContainer/HBoxContainer"]
 margin_left = 1003.0
@@ -60,11 +62,13 @@ margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="BoosterMenu" type="OptionButton" parent="VBoxContainer/MenuContainer"]
+[node name="BoosterMenu" type="MenuButton" parent="VBoxContainer/MenuContainer"]
 margin_right = 328.0
 margin_bottom = 22.0
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 1.4
+text = "Booster"
+flat = false
 clip_text = true
 
 [node name="BoosterButton" type="Button" parent="VBoxContainer/MenuContainer"]
@@ -73,11 +77,13 @@ margin_right = 352.0
 margin_bottom = 22.0
 text = "X"
 
-[node name="RarityMenu" type="OptionButton" parent="VBoxContainer/MenuContainer"]
+[node name="RarityMenu" type="MenuButton" parent="VBoxContainer/MenuContainer"]
 margin_left = 356.0
 margin_right = 591.0
 margin_bottom = 22.0
 size_flags_horizontal = 3
+text = "Rarity"
+flat = false
 
 [node name="RarityButton" type="Button" parent="VBoxContainer/MenuContainer"]
 margin_left = 595.0
@@ -85,12 +91,14 @@ margin_right = 615.0
 margin_bottom = 22.0
 text = "X"
 
-[node name="TypeMenu" type="OptionButton" parent="VBoxContainer/MenuContainer"]
+[node name="TypeMenu" type="MenuButton" parent="VBoxContainer/MenuContainer"]
 margin_left = 619.0
 margin_right = 807.0
 margin_bottom = 22.0
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 0.8
+text = "Type"
+flat = false
 
 [node name="TypeButton" type="Button" parent="VBoxContainer/MenuContainer"]
 margin_left = 811.0
@@ -98,12 +106,14 @@ margin_right = 831.0
 margin_bottom = 22.0
 text = "X"
 
-[node name="LevelMenu" type="OptionButton" parent="VBoxContainer/MenuContainer"]
+[node name="LevelMenu" type="MenuButton" parent="VBoxContainer/MenuContainer"]
 margin_left = 835.0
 margin_right = 1000.0
 margin_bottom = 22.0
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 0.7
+text = "Level"
+flat = false
 
 [node name="LevelButton" type="Button" parent="VBoxContainer/MenuContainer"]
 margin_left = 1004.0
