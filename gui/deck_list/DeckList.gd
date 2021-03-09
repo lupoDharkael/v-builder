@@ -32,6 +32,8 @@ func _input(event) -> void:
 			search_field.grab_focus()
 		elif event.is_action_pressed("alternate"):
 			set_deck_mode(!is_deck_mode())
+		elif event.is_action_pressed("ui_exit"):
+			get_tree().quit()
 
 
 func _on_collection_imported(c : CardCollection) -> void:

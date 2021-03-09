@@ -31,8 +31,8 @@ func _input(event) -> void:
 		if event.is_action_pressed("ui_cancel"):
 			if Global.text_editor_has_focus():
 				get_focus_owner().release_focus()
-			else:
-				call_deferred("checked_exit_to_deck_list")
+		elif event.is_action_pressed("ui_exit"):
+			call_deferred("checked_exit_to_deck_list")
 		elif event.is_action_pressed("ui_save"):
 			toolbar_container.save_collection()
 		elif event.is_action_pressed("ui_rename"):

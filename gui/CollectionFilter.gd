@@ -77,6 +77,7 @@ func _ready():
 	sort_menu.connect("item_selected", self, "sort_selected")
 	
 	booster_menu = $VBoxContainer/MenuContainer/BoosterMenu as MenuButton
+	booster_menu.get_popup().hide_on_checkable_item_selection = false
 	var booster_list = CardDB.get_booster_list()
 	for i in booster_list.size():
 		booster_menu.get_popup().add_item(booster_list[i].prefix + " " + booster_list[i].name)
@@ -84,6 +85,7 @@ func _ready():
 	booster_menu.get_popup().connect("id_pressed", self, "_on_menu_item_selected", [booster_menu])
 	
 	color_menu = $VBoxContainer/HBoxContainer/ColorMenu as MenuButton
+	color_menu.get_popup().hide_on_checkable_item_selection = false
 	color_menu.get_popup().add_item(Card.ColorGroup.RED)
 	color_menu.get_popup().set_item_as_checkable(0, true)
 	color_menu.get_popup().add_item(Card.ColorGroup.BLUE)
@@ -99,6 +101,7 @@ func _ready():
 	color_menu.get_popup().connect("id_pressed", self, "_on_menu_item_selected", [color_menu])
 	
 	rarity_menu = $VBoxContainer/MenuContainer/RarityMenu as MenuButton
+	rarity_menu.get_popup().hide_on_checkable_item_selection = false
 	rarity_menu.get_popup().add_item(Card.Rarity.C)
 	rarity_menu.get_popup().set_item_as_checkable(0, true)
 	rarity_menu.get_popup().add_item(Card.Rarity.U)
@@ -114,6 +117,7 @@ func _ready():
 	rarity_menu.get_popup().connect("id_pressed", self, "_on_menu_item_selected", [rarity_menu])
 	
 	type_menu = $VBoxContainer/MenuContainer/TypeMenu as MenuButton
+	type_menu.get_popup().hide_on_checkable_item_selection = false
 	type_menu.get_popup().add_item(Card.Type.DIGIMON)
 	type_menu.get_popup().set_item_as_checkable(0, true)
 	type_menu.get_popup().add_item(Card.Type.TAMER)
@@ -125,6 +129,7 @@ func _ready():
 	type_menu.get_popup().connect("id_pressed", self, "_on_menu_item_selected", [type_menu])
 	
 	level_menu = $VBoxContainer/MenuContainer/LevelMenu as MenuButton
+	level_menu.get_popup().hide_on_checkable_item_selection = false
 	level_menu.get_popup().add_item("2")
 	level_menu.get_popup().set_item_as_checkable(0, true)
 	level_menu.get_popup().add_item("3")
