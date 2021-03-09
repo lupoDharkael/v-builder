@@ -83,7 +83,7 @@ func set_card(card : Card) -> void:
 			$VBoxContainer/GridContainer/EvolveLabel.visible = true
 			$VBoxContainer/GridContainer/EvolveContainer/ColorRect/ColorRect.color = Card.get_rgb_from_color(card.digivolve_color)
 			$VBoxContainer/GridContainer/EvolveContainer/LvLineEdit.text = "Lv" + str(card.digivolve_level)
-			$VBoxContainer/GridContainer/EvolveContainer/CostLineEdit.text = "Cost " + str(card.digivolve_level)
+			$VBoxContainer/GridContainer/EvolveContainer/CostLineEdit.text = "Cost " + str(card.digivolve_cost)
 	
 		if card.digivolve_color_2.empty():
 			$VBoxContainer/GridContainer/EvolveContainer2.visible = false
@@ -93,7 +93,7 @@ func set_card(card : Card) -> void:
 			$VBoxContainer/GridContainer/EvolveLabel2.visible = true
 			$VBoxContainer/GridContainer/EvolveContainer2/ColorRect/ColorRect.color = Card.get_rgb_from_color(card.digivolve_color_2)
 			$VBoxContainer/GridContainer/EvolveContainer2/LvLineEdit.text = "Lv" + str(card.digivolve_level_2)
-			$VBoxContainer/GridContainer/EvolveContainer2/CostLineEdit.text = "Cost " + str(card.digivolve_level_2)
+			$VBoxContainer/GridContainer/EvolveContainer2/CostLineEdit.text = "Cost " + str(card.digivolve_cost_2)
 	
 	set_text_edit_content($VBoxContainer/Effect, card.effect_text)
 	set_text_edit_content($VBoxContainer/InEffect, card.inherited_effect_text)

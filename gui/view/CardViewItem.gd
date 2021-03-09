@@ -38,7 +38,7 @@ enum Config {
 }
 
 
-signal card_faved(_card)
+signal fav_pressed(_card, _enabled)
 signal card_clicked(_card)
 signal count_change_requested(_card, count)
 signal content_changed()
@@ -74,8 +74,7 @@ func on_mouse_entered():
 
 
 func fav_toggled(toggled) -> void:
-	if toggled:
-		emit_signal("card_faved", card)
+	emit_signal("fav_pressed", card, toggled)
 
 
 func _input(event):
@@ -140,6 +139,10 @@ func set_delete_on_zero(enable : bool) -> void:
 
 func set_faved(faved : bool) -> void:
 	fav_button.pressed = faved
+
+
+func is_faved() -> bool:
+	return fav_button.pressed
 
 
 func set_hover_size_factor(factor : float) -> void:
@@ -261,9 +264,11 @@ func increase_count(by : int) -> void:
 		emit_signal("content_changed")
 	return
 
+static func get_deck_config() -> int:
+	return Config.SHOW_CARD_COUNT | Config.SHOW_FAV_BUTTON
 
 static func get_collection_config() -> int:
-	return Config.SHOW_CARD_COUNT | Config.SHOW_FAV_BUTTON
+	return Config.SHOW_CARD_COUNT
 
 static func get_card_search_config() -> int:
 	return 0

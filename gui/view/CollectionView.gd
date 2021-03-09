@@ -12,7 +12,7 @@ var sort_type : String
 var delete_on_zero := false
 var editable := true setget set_editable, get_editable
 # used to not re-update when not needed
-var _is_dirty = true
+var _is_dirty = false
 var show_plus_one := false setget set_show_plus_one, get_show_plus_one
 
 var _container : Node
@@ -154,8 +154,11 @@ func update_collection() -> void:
 	if (!_is_dirty):
 		return
 	collection.data.clear()
+	collection.lead_card = ""
 	for n in _container.get_children():
 		collection.data[n.card.id] = n.count
+		if n.is_faved():
+			collection.lead_card = n.card.id
 	_is_dirty = false
 
 
@@ -210,8 +213,9 @@ func set_collection(cc : CardCollection) -> void:
 		n.queue_free()
 	
 	# Add the cards
+	var show_fav := bool(config & CardViewItem.Config.SHOW_FAV_BUTTON)
 	for k in collection.data.keys():
-		add_card(CardDB.get_card_by_id(k), collection.data[k])
+		add_card(CardDB.get_card_by_id(k), collection.data[k], show_fav && k == cc.lead_card)
 	
 	# Sort
 	set_sort_type(sort_type)
@@ -231,7 +235,7 @@ func reload() -> void:
 		child.reload_texture()
 
 
-func add_card(card : Card, amount : int) -> Node:
+func add_card(card : Card, amount : int, faved : bool = false) -> Node:
 	if _container.get_node_or_null(card.id):
 		return null
 	var view_item = card_view_item.instance()
@@ -239,7 +243,9 @@ func add_card(card : Card, amount : int) -> Node:
 	_container.add_child(view_item)
 	view_item.name = card.id # We can get_node by the card id
 	view_item.connect("content_changed", self, "_on_content_changed")
+	view_item.connect("fav_pressed", self, "_on_card_faved")
 	view_item.set_card(card, amount, size_factor, config, limiter)
+	view_item.set_faved(faved)
 	# connect
 	view_item.connect("count_change_requested", self, "_on_count_change_requested")
 	view_item.editable = editable
@@ -253,9 +259,13 @@ func bind_pasive_view(view : Node) -> void:
 	connect("count_change_requested", view, "increase_card_count")
 
 # Slots
-func _on_card_faved(_card : Card) -> void:
-	# TODO
-	pass
+func _on_card_faved(_card : Card, _enabled : bool) -> void:
+	if _enabled:
+		for n in _container.get_children():
+			if n.card != _card:
+				n.set_faved(false)
+	emit_signal("content_changed")
+	_is_dirty = true
 
 
 func increase_card_count(card : Card, _count : int):

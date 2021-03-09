@@ -17,7 +17,7 @@ class ExportType:
 
 func _init() -> void:
 	text_collection_matcher = RegEx.new()
-	var err := text_collection_matcher.compile("([0-9]+)\\s+.+\\s+(\\w+-[0-9]+( \\(\\w\\))?)")
+	var err := text_collection_matcher.compile("([0-9]+)\\s+.+\\s+(\\w+-[0-9]+( \\(\\w\\))?)( // Lead)?")
 	if err:
 		printerr("Bad regex :(")
 
@@ -29,9 +29,12 @@ func import_collection(text : String) -> CardCollection:
 		var has_card = CardDB.get_card_by_id(_id)
 		if has_card:
 			c.data[_id] = matched.get_string(1).to_int()
+			if matched.get_string(4).length():
+				c.lead_card = _id
 		else:
 			# TODO alert
 			pass
+		
 	return c
 
 
@@ -54,7 +57,11 @@ func export_collection_to_text(c : CardCollection) -> String:
 	for id in c.data.keys():
 		var card : Card = CardDB.get_card_by_id(id)
 		if card:
-			res += String(c.data[id]) + " " + card.name + " " + id + "\n"
+			res += String(c.data[id]) + " " + card.name + " " + id
+			if id == c.lead_card:
+				res += " // Lead\n"
+			else:
+				res += "\n"
 	return res
 
 

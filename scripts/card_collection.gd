@@ -10,6 +10,8 @@ var data : Dictionary = {}
 var name : String
 var path : String
 
+var lead_card : String
+
 var delete_on_zero := false
 
 
@@ -101,6 +103,11 @@ func add_card(card_id : String, amount : int = 1) -> void:
 
 func get_lead_card() -> Card:
 	var res : Card
+	
+	if lead_card.length():
+		var c : Card = CardDB.get_card_by_id(lead_card)
+		if c:
+			return c
 	
 	for k in data.keys():
 		var c : Card = CardDB.get_card_by_id(k)

@@ -64,7 +64,7 @@ func _ready():
 	
 	deck_container.set_delete_on_zero(true)
 	deck_container.set_size_factor(Config.get_value("deck_builder", "deck_size_factor", 1.6))
-	deck_container.set_config(CardViewItem.get_collection_config())
+	deck_container.set_config(CardViewItem.get_deck_config())
 	set_big_mode(Config.get_value("deck_builder", "big_mode", true))
 	deck_container.set_collection(editing_collection)
 	deck_container.connect("size_factor_changed", self, "_save_size_factor", ["deck_size_factor"])
