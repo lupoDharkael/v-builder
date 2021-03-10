@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://gui/view/CardDetail.gd" type="Script" id=1]
-[ext_resource path="res://thridparty/big_front.tres" type="DynamicFont" id=2]
+[ext_resource path="res://thridparty/big_font.tres" type="DynamicFont" id=2]
 [ext_resource path="res://gui/ForegroundPanel.tscn" type="PackedScene" id=3]
 [ext_resource path="res://thridparty/medium_front.tres" type="DynamicFont" id=4]
 

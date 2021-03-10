@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://gui/view/CardViewSmall.gd" type="Script" id=1]
-[ext_resource path="res://thridparty/big_front.tres" type="DynamicFont" id=2]
+[ext_resource path="res://thridparty/big_font.tres" type="DynamicFont" id=2]
 
 [node name="CardViewSmall" type="ColorRect"]
 margin_right = 360.0

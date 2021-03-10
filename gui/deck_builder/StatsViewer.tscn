@@ -2,7 +2,7 @@
 
 [ext_resource path="res://gui/deck_builder/StatsViewer.gd" type="Script" id=2]
 [ext_resource path="res://images/bar_background.png" type="Texture" id=3]
-[ext_resource path="res://thridparty/big_outline_front.tres" type="DynamicFont" id=4]
+[ext_resource path="res://thridparty/big_outline_font.tres" type="DynamicFont" id=4]
 
 [node name="StatsViewer" type="Control"]
 anchor_right = 1.0
@@ -38,10 +38,11 @@ margin_right = 68.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Type/Tama"]
 margin_right = 68.0
-margin_bottom = 44.0
+margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 max_value = 1.0
@@ -72,6 +73,7 @@ margin_right = 68.0
 margin_bottom = 70.0
 text = "TAMA"
 align = 1
+valign = 1
 
 [node name="Digimon" type="VBoxContainer" parent="HBoxContainer/Type"]
 margin_left = 72.0
@@ -79,10 +81,11 @@ margin_right = 143.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Type/Digimon"]
 margin_right = 71.0
-margin_bottom = 44.0
+margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 max_value = 1.0
@@ -117,6 +120,7 @@ margin_right = 71.0
 margin_bottom = 70.0
 text = "DIGIMON"
 align = 1
+valign = 1
 
 [node name="Tamer" type="VBoxContainer" parent="HBoxContainer/Type"]
 margin_left = 147.0
@@ -124,10 +128,11 @@ margin_right = 215.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Type/Tamer"]
 margin_right = 68.0
-margin_bottom = 44.0
+margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 max_value = 1.0
@@ -158,6 +163,7 @@ margin_right = 68.0
 margin_bottom = 70.0
 text = "TAMER"
 align = 1
+valign = 1
 
 [node name="Option" type="VBoxContainer" parent="HBoxContainer/Type"]
 margin_left = 219.0
@@ -165,10 +171,11 @@ margin_right = 288.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Type/Option"]
 margin_right = 69.0
-margin_bottom = 44.0
+margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 max_value = 1.0
@@ -199,6 +206,7 @@ margin_right = 69.0
 margin_bottom = 70.0
 text = "OPTION"
 align = 1
+valign = 1
 
 [node name="VSeparator" type="VSeparator" parent="HBoxContainer"]
 margin_left = 292.0
@@ -216,10 +224,11 @@ margin_right = 44.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Levels/Lv2"]
 margin_right = 44.0
-margin_bottom = 44.0
+margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 max_value = 1.0
@@ -250,6 +259,7 @@ margin_right = 44.0
 margin_bottom = 70.0
 text = "Lv2"
 align = 1
+valign = 1
 
 [node name="Lv3" type="VBoxContainer" parent="HBoxContainer/Levels"]
 margin_left = 48.0
@@ -257,10 +267,11 @@ margin_right = 93.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Levels/Lv3"]
 margin_right = 45.0
-margin_bottom = 44.0
+margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 max_value = 1.0
@@ -291,6 +302,7 @@ margin_right = 45.0
 margin_bottom = 70.0
 text = "Lv3"
 align = 1
+valign = 1
 
 [node name="Lv4" type="VBoxContainer" parent="HBoxContainer/Levels"]
 margin_left = 97.0
@@ -298,10 +310,11 @@ margin_right = 142.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Levels/Lv4"]
 margin_right = 45.0
-margin_bottom = 44.0
+margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 max_value = 1.0
@@ -332,6 +345,7 @@ margin_right = 45.0
 margin_bottom = 70.0
 text = "Lv4"
 align = 1
+valign = 1
 
 [node name="Lv5" type="VBoxContainer" parent="HBoxContainer/Levels"]
 margin_left = 146.0
@@ -339,10 +353,11 @@ margin_right = 191.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Levels/Lv5"]
 margin_right = 45.0
-margin_bottom = 44.0
+margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 max_value = 1.0
@@ -373,6 +388,7 @@ margin_right = 45.0
 margin_bottom = 70.0
 text = "Lv5"
 align = 1
+valign = 1
 
 [node name="Lv6" type="VBoxContainer" parent="HBoxContainer/Levels"]
 margin_left = 195.0
@@ -380,10 +396,11 @@ margin_right = 240.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Levels/Lv6"]
 margin_right = 45.0
-margin_bottom = 44.0
+margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 max_value = 1.0
@@ -414,6 +431,7 @@ margin_right = 45.0
 margin_bottom = 70.0
 text = "Lv6"
 align = 1
+valign = 1
 
 [node name="Lv7" type="VBoxContainer" parent="HBoxContainer/Levels"]
 margin_left = 244.0
@@ -421,10 +439,11 @@ margin_right = 289.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Levels/Lv7"]
 margin_right = 45.0
-margin_bottom = 44.0
+margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 max_value = 1.0
@@ -455,6 +474,7 @@ margin_right = 45.0
 margin_bottom = 70.0
 text = "Lv7"
 align = 1
+valign = 1
 
 [node name="VSeparator2" type="VSeparator" parent="HBoxContainer"]
 margin_left = 593.0

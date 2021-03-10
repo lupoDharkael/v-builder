@@ -3,7 +3,7 @@
 [ext_resource path="res://gui/deck_builder/DeckRoll.gd" type="Script" id=1]
 [ext_resource path="res://gui/view/CardViewItem.tscn" type="PackedScene" id=2]
 [ext_resource path="res://gui/foreground_stylebox.tres" type="StyleBox" id=3]
-[ext_resource path="res://thridparty/big_front.tres" type="DynamicFont" id=4]
+[ext_resource path="res://thridparty/big_font.tres" type="DynamicFont" id=4]
 
 [node name="DeckRoll" type="WindowDialog"]
 visible = true

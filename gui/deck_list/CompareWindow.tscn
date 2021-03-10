@@ -2,7 +2,7 @@
 
 [ext_resource path="res://gui/BackgroundPanel.tscn" type="PackedScene" id=1]
 [ext_resource path="res://gui/view/CollectionView.tscn" type="PackedScene" id=2]
-[ext_resource path="res://thridparty/big_front.tres" type="DynamicFont" id=3]
+[ext_resource path="res://thridparty/big_font.tres" type="DynamicFont" id=3]
 [ext_resource path="res://gui/deck_list/CompareWindow.gd" type="Script" id=4]
 
 [node name="CompareWindow" type="WindowDialog"]
