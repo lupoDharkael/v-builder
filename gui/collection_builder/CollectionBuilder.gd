@@ -68,6 +68,7 @@ func _ready():
 	# We connect later to prevent double sorting
 	filter_container.connect("sort_changed", collection_container, "set_sort_type")
 	filter_container.connect("sort_changed", self, "save_sort_type")
+	filter_container.set_count_value(collection.data.size())
 	
 	toolbar_container.show_deck_tools(false)
 	toolbar_container.set_collection_owner(self)

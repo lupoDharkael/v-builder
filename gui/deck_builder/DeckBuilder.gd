@@ -85,6 +85,7 @@ func _ready():
 	# We connect later to prevent double sorting
 	filter_container.connect("sort_changed", collection_container, "set_sort_type")
 	filter_container.connect("sort_changed", self, "save_sort_type")
+	filter_container.set_count_value(all_cards.data.size())
 	
 	
 	toolbar_container.mid_button.connect("pressed", self, "change_split_offset", [0.0])

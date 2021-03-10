@@ -10,6 +10,7 @@ var type_menu : MenuButton
 var level_menu : MenuButton
 var sort_menu : OptionButton
 var search_field : LineEdit
+var count_label : LineEdit
 
 var search_timer : Timer
 
@@ -60,6 +61,8 @@ func set_sort_type(type : String) -> void:
 func _ready():
 	search_field = $VBoxContainer/HBoxContainer/Search
 	search_field.connect("text_changed", self, "on_search_edited")
+	
+	count_label = $VBoxContainer/HBoxContainer/Count
 	
 	search_timer = Timer.new()
 	search_timer.one_shot = true
@@ -158,6 +161,10 @@ func _ready():
 	level_clear.connect("pressed", self, "select_default", [level_menu])
 
 
+func set_count_value(val : int) -> void:
+	count_label.text = "Showing " + str(val) + " Card(s)"
+
+
 func sort_selected(item : int) -> void:
 	emit_signal("sort_changed", sort_menu.get_item_text(item))
 
@@ -184,6 +191,7 @@ func filter_collection(collection : CardCollection) -> CardCollection:
 		if _filter_card(card):
 			res.data[k] = collection.data[k]
 	
+	set_count_value(res.data.size())
 	return res
 
 

@@ -24,24 +24,40 @@ margin_bottom = 22.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
+[node name="Count" type="LineEdit" parent="VBoxContainer/HBoxContainer"]
+margin_right = 150.0
+margin_bottom = 22.0
+rect_min_size = Vector2( 150, 0 )
+focus_mode = 0
+size_flags_vertical = 3
+custom_colors/font_color_uneditable = Color( 0.941176, 0.941176, 0.941176, 1 )
+text = "Showing 0 Card(s)"
+align = 1
+editable = false
+expand_to_text_length = true
+clear_button_enabled = true
+
 [node name="Search" type="LineEdit" parent="VBoxContainer/HBoxContainer"]
-margin_right = 708.0
+margin_left = 154.0
+margin_right = 752.0
 margin_bottom = 22.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+align = 1
 clear_button_enabled = true
 placeholder_text = "Search"
 
 [node name="SortMenu" type="OptionButton" parent="VBoxContainer/HBoxContainer"]
-margin_left = 712.0
-margin_right = 854.0
+margin_left = 756.0
+margin_right = 876.0
 margin_bottom = 22.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 size_flags_stretch_ratio = 0.2
+align = 1
 
 [node name="ColorMenu" type="MenuButton" parent="VBoxContainer/HBoxContainer"]
-margin_left = 858.0
+margin_left = 880.0
 margin_right = 999.0
 margin_bottom = 22.0
 focus_mode = 2
