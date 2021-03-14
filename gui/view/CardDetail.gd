@@ -20,7 +20,7 @@ func _ready():
 func show() -> void:
 	timer.stop()
 	if !container.visible:
-		timer.start(1)
+		timer.start(1.5)
 
 
 func hide() -> void:
