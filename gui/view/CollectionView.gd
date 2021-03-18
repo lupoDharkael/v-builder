@@ -20,7 +20,7 @@ var scroll_container : ScrollContainer
 
 const card_view_item = preload("res://gui/view/CardViewItem.tscn")
 
-var card_detail : CanvasLayer
+var card_detail : Popup
 
 
 #signal card_clicked(_card)
@@ -46,11 +46,10 @@ func _ready():
 	scroll_container = $ScrollContainer
 	collection = CardCollection.new()
 	
-	card_detail = preload("res://gui/view/CardDetail.tscn").instance()
-	add_child(card_detail)
-	
-	connect("visibility_changed", card_detail, "hide")
 	CardDB.connect("textures_loaded", self, "reload")
+	
+	card_detail = preload("res://gui/view/CardInfoWindow.tscn").instance()
+	add_child(card_detail)
 
 
 func _input(event):
@@ -221,8 +220,6 @@ func set_collection(cc : CardCollection) -> void:
 	set_sort_type(sort_type)
 	
 	set_show_plus_one(show_plus_one)
-	
-	card_detail.hide()
 
 
 func get_collection() -> CardCollection:
@@ -248,10 +245,19 @@ func add_card(card : Card, amount : int, faved : bool = false) -> Node:
 	view_item.set_faved(faved)
 	# connect
 	view_item.connect("count_change_requested", self, "_on_count_change_requested")
+	view_item.connect("card_clicked", self, "_on_card_clicked")
 	view_item.editable = editable
-	
-	card_detail.bind_card_view(view_item)
 	return view_item
+
+
+func _on_card_clicked(cv : Control, e : InputEventMouse) -> void:
+	if get_viewport().gui_has_modal_stack():
+		return
+	
+	if e.button_index == BUTTON_MIDDLE and e.pressed:
+		card_detail.set_card_view_item(cv)
+		card_detail.popup_centered(get_viewport().size * 0.8)
+
 
 # Bind with other CollectionView to receive the input from this one
 func bind_pasive_view(view : Node) -> void:

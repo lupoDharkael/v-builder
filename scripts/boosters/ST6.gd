@@ -18,7 +18,7 @@ static func register_cards():
 	CardDB.add_card(ST6_15.new())
 	CardDB.add_card(ST6_16.new())
 
-	CardDB.register_booster("ST6", "Venomous Violet")
+	CardDB.register_booster("ST6", "ST-6: Venomous Violet")
 
 class ST6_01 extends Card:
 	func _init():
@@ -30,11 +30,11 @@ class ST6_01 extends Card:
 		level = 2
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Lesser"
-		inherited_effect_text = "<<When Destroyed>> Discard the top 2 cards of your deck."
+		inherited_effect_text = "[On Deletion] Trash the top 2 cards of your deck."
 
 class ST6_02 extends Card:
 	func _init():
-		name = "Pico Devimon"
+		name = "DemiDevimon"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
 		rarity = Rarity.C
@@ -46,15 +46,16 @@ class ST6_02 extends Card:
 		digivolve_color = ColorGroup.PURPLE
 		digivolve_cost = 1
 		digivolve_level = 2
-		digimon_type = "Small Devil"
+		digimon_type = "Evil"
 		power = 4000
+		notes = "PicoDevimon"
 
 class ST6_03 extends Card:
 	func _init():
 		name = "Gabumon"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
-		rarity = Rarity.U
+		rarity = Rarity.C
 		id = "ST6-03"
 		play_cost = 3
 		level = 3
@@ -65,11 +66,11 @@ class ST6_03 extends Card:
 		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		inherited_effect_text = "<<When Attacking>> <<Draw 1>> (Draw 1 card from your deck). After that, discard 1 card from your hand."
+		inherited_effect_text = "[When Attacking] Trigger [Draw 1]. Then, trash 1 card in your hand."
 
 class ST6_04 extends Card:
 	func _init():
-		name = "Dracumon"
+		name = "Dracmon"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
 		rarity = Rarity.U
@@ -83,7 +84,7 @@ class ST6_04 extends Card:
 		digivolve_level = 2
 		digimon_type = "Undead"
 		power = 2000
-		effect_text = "<<When Played>> You may return 1 Purple Option card whose Usage Cost is 1 or 7 from your Trash to your hand."
+		effect_text = "[On Deletion] You may return 1 purple Option card from your trash to your hand."
 
 class ST6_05 extends Card:
 	func _init():
@@ -118,7 +119,7 @@ class ST6_06 extends Card:
 		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 4000
-		inherited_effect_text = "<<When Attacking>> <<Draw 1>> (Draw 1 card from your deck). After that, discard 1 card from your hand."
+		inherited_effect_text = "[When Attacking] Trigger [Draw 1]. Then, trash 1 card in your hand."
 
 class ST6_07 extends Card:
 	func _init():
@@ -134,7 +135,7 @@ class ST6_07 extends Card:
 		digivolve_color = ColorGroup.PURPLE
 		digivolve_cost = 2
 		digivolve_level = 3
-		digimon_type = "Bewitching Beast"
+		digimon_type = "Mysterious Beast"
 		power = 6000
 
 class ST6_08 extends Card:
@@ -153,7 +154,7 @@ class ST6_08 extends Card:
 		digivolve_level = 3
 		digimon_type = "Fallen Angel"
 		power = 5000
-		effect_text = "<<Blocker>> (When the opponent Digimon performs an attack, if this Digimon is in the Active position, you may Rest this Digimon and change the target of the attack to this Digimon)\n<<When Attacking>> Memory -2."
+		effect_text = "[Blocker].\n [When Attacking] Lose 2 memory."
 
 class ST6_09 extends Card:
 	func _init():
@@ -164,96 +165,98 @@ class ST6_09 extends Card:
 		id = "ST6-09"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.ULTIMATE
 		attribute = Attribute.VIRUS
 		digivolve_color = ColorGroup.PURPLE
 		digivolve_cost = 3
 		digivolve_level = 4
-		digimon_type = "Bewitching Beast"
+		digimon_type = "Mysterious Beast"
 		power = 9000
 
 class ST6_10 extends Card:
 	func _init():
-		name = "Skull Satamon"
+		name = "SkullSatamon"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
 		rarity = Rarity.U
 		id = "ST6-10"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.ULTIMATE
 		attribute = Attribute.VIRUS
 		digivolve_color = ColorGroup.PURPLE
 		digivolve_cost = 3
 		digivolve_level = 4
 		digimon_type = "Undead"
 		power = 7000
-		effect_text = "<<When Evolving>> You may return 1 Purple Digimon card from your Trash to your hand."
+		effect_text = "[When Digivolved] You may return 1 purple Digimon card from your trash to your hand."
 
 class ST6_11 extends Card:
 	func _init():
-		name = "Were Garurumon"
+		name = "WereGarurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
 		rarity = Rarity.R
 		id = "ST6-11"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.ULTIMATE
 		attribute = Attribute.VIRUS
 		digivolve_color = ColorGroup.PURPLE
 		digivolve_cost = 3
 		digivolve_level = 4
-		digimon_type = "Beast Man"
+		digimon_type = "Beastkin"
 		power = 7000
-		inherited_effect_text = "<<Your Turn>> As long as you have 5 or more cards in your Trash, this Digimon gets +2000 DP."
+		inherited_effect_text = "[Your Turn] While there are 5 or more cards in your trash, this Digimon gets +2000 DP."
 
 class ST6_12 extends Card:
 	func _init():
-		name = "Venom Vamdemon"
+		name = "VenomMyotismon"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
 		rarity = Rarity.R
 		id = "ST6-12"
 		play_cost = 10
 		level = 6
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.MEGA
 		attribute = Attribute.VIRUS
 		digivolve_color = ColorGroup.PURPLE
 		digivolve_cost = 3
 		digivolve_level = 5
-		digimon_type = "Demon Beast"
+		digimon_type = "Dark Animal"
 		power = 11000
-		effect_text = "<<When Evolving>> Choose up to 2 of your Digimon; those Digimon gain <<Revenge>> (If this Digimon is the only Digimon destroyed in a battle, the opponent Digimon that battled it is also destroyed) until the end of the opponent's next turn."
+		effect_text = "[When Digivolved] Up to 2 of your Digimon gain [Retaliation] until the end of your opponent's next turn."
+		notes = "VenomVamdemon"
 
 class ST6_13 extends Card:
 	func _init():
-		name = "Cres Garurumon"
+		name = "CresGarurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
 		rarity = Rarity.SR
 		id = "ST6-13"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.MEGA
 		attribute = Attribute.DATA
 		digivolve_color = ColorGroup.PURPLE
 		digivolve_cost = 4
 		digivolve_level = 5
 		digimon_type = "Beast Knight"
 		power = 12000
-		effect_text = "<<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)\n<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 Purple Lv.3 Digimon card from your Trash, and play it without paying its Cost."
+		effect_text = "[Security Attack +].\n[Main] [Digiburst 2].\n・Play 1 purple level 3 Digimon card from your trash without paying its memory cost."
 
 class ST6_14 extends Card:
 	func _init():
-		name = "Ishida Yamato"
+		name = "Matt Ishida"
 		type = Type.TAMER
 		color = ColorGroup.PURPLE
 		rarity = Rarity.R
 		id = "ST6-14"
 		play_cost = 2
-		effect_text = "<<Your Turn>> When your Digimon is destroyed, you may Rest this Tamer; if you do, Memory +1."
-		sec_effect_text = "<<Security>> Play this card without paying its Cost."
+		effect_text = "[Your Turn] When one of your Digimon is deleted, you may suspend this Tamer to gain 1 memory."
+		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		notes = "Ishida Yamato"
 
 class ST6_15 extends Card:
 	func _init():
@@ -263,8 +266,8 @@ class ST6_15 extends Card:
 		rarity = Rarity.C
 		id = "ST6-15"
 		play_cost = 1
-		effect_text = "<<Main>> Destroy 1 of your Digimon; if you do, destroy 1 Lv.4 or below opponent Digimon."
-		sec_effect_text = "<<Security>>  Destroy 1 Lv.4 or below opponent Digimon."
+		effect_text = "[Main] You may delete 1 of your Digimon to delete 1 of your opponent's level 4 or lower Digimon."
+		sec_effect_text = "[Security] Delete 1 of your opponent's level 4 or lower Digimon."
 
 class ST6_16 extends Card:
 	func _init():
@@ -274,6 +277,6 @@ class ST6_16 extends Card:
 		rarity = Rarity.U
 		id = "ST6-16"
 		play_cost = 7
-		effect_text = "<<Main>> You may choose 1 Purple Lv.3 Digimon card and 1 Purple Lv.4 Digimon card from your Trash, and play them without paying their Cost. The <<When Played>> Effects of Digimon that come into play via this Effect will not activate."
-		sec_effect_text = "<<Security>>  You may choose 1 Purple Lv.4 or below Digimon card from your Trash, and play it without paying its Cost. The <<When Played>> Effects of Digimon that come into play via this Effect will not activate."
+		effect_text = "[Main] You may play 1 purple level 3 Digimon card and 1 purple level 4 Digimon card from your trash without paying their memory costs. Any [On Play] effects on Digimon played with this effect don't activate."
+		sec_effect_text = "[Security] You may play 1 purple level 4 or lower Digimon card from your trash without paying its memory cost.\nAny [On Play] effects on Digimon played with this effect don't activate."
 

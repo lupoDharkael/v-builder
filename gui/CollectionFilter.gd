@@ -83,7 +83,7 @@ func _ready():
 	booster_menu.get_popup().hide_on_checkable_item_selection = false
 	var booster_list = CardDB.get_booster_list()
 	for i in booster_list.size():
-		booster_menu.get_popup().add_item(booster_list[i].prefix + " " + booster_list[i].name)
+		booster_menu.get_popup().add_item(booster_list[i].name)
 		booster_menu.get_popup().set_item_as_checkable(i, true)
 	booster_menu.get_popup().connect("id_pressed", self, "_on_menu_item_selected", [booster_menu])
 	

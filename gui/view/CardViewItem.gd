@@ -39,7 +39,7 @@ enum Config {
 
 
 signal fav_pressed(_card, _enabled)
-signal card_clicked(_card)
+signal card_clicked(_card_view_item, button_index)
 signal count_change_requested(_card, count)
 signal content_changed()
 
@@ -123,15 +123,14 @@ func _gui_input(event):
 		if event.button_index == BUTTON_LEFT and event.pressed:
 			if editable:
 				increase_count(1)
-			emit_signal("card_clicked", card)
 			emit_signal("count_change_requested", card, 1)
 
 		elif event.button_index == BUTTON_RIGHT and event.pressed:
 			if editable:
 				increase_count(-1)
-			emit_signal("card_clicked", card)
 			emit_signal("count_change_requested", card, -1)
 
+		emit_signal("card_clicked", self, event)
 
 func set_delete_on_zero(enable : bool) -> void:
 	delete_on_zero = enable

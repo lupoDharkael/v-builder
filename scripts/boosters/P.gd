@@ -29,6 +29,24 @@ static func register_cards():
 	CardDB.add_card(P_026.new())
 	CardDB.add_card(P_027.new())
 	CardDB.add_card(P_028.new())
+	CardDB.add_card(P_029.new())
+	CardDB.add_card(P_030.new())
+	CardDB.add_card(P_031.new())
+	CardDB.add_card(P_032.new())
+	CardDB.add_card(P_033.new())
+	CardDB.add_card(P_034.new())
+	CardDB.add_card(P_035.new())
+	CardDB.add_card(P_035_B.new())
+	CardDB.add_card(P_036.new())
+	CardDB.add_card(P_036_B.new())
+	CardDB.add_card(P_037.new())
+	CardDB.add_card(P_037_B.new())
+	CardDB.add_card(P_038.new())
+	CardDB.add_card(P_038_B.new())
+	CardDB.add_card(P_039.new())
+	CardDB.add_card(P_039_B.new())
+	CardDB.add_card(P_040.new())
+	CardDB.add_card(P_040_B.new())
 
 	CardDB.register_booster("P", "Promo")
 
@@ -48,11 +66,11 @@ class P_001 extends Card:
 		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 3000
-		effect_text = "<<When Played>> Destroy 1 opponent Digimon whose DP is 3000 or lower."
+		effect_text = "[On Play] Delete 1 of your opponent's Digimon with 3000 DP or less."
 
 class P_002 extends Card:
 	func _init():
-		name = "Piyomon"
+		name = "Biyomon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
 		rarity = Rarity.P
@@ -64,9 +82,10 @@ class P_002 extends Card:
 		digivolve_color = ColorGroup.RED
 		digivolve_cost = 0
 		digivolve_level = 2
-		digimon_type = "Chick"
+		digimon_type = "Bird"
 		power = 2000
-		inherited_effect_text = "<<Your Turn>> If this Digimon enters a battle and the opponent Digimon is the only Digimon destroyed, <<Draw 1>> (Draw 1 card from your Deck). "
+		inherited_effect_text = "[Your Turn] When this Digimon deletes one of your opponent's Digimon in battle and survives, trigger [Draw 1]."
+		notes = "Piyomon"
 
 class P_003 extends Card:
 	func _init():
@@ -77,14 +96,14 @@ class P_003 extends Card:
 		id = "P-003"
 		play_cost = 4
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 0
 		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 3000
-		effect_text = "<<When Played>> Choose 1 opponent Digimon and discard its bottom-most Evolution Base."
+		effect_text = "[On Play] Trash the bottom digivolution card of 1 of your opponent's Digimon."
 
 class P_004 extends Card:
 	func _init():
@@ -95,14 +114,19 @@ class P_004 extends Card:
 		id = "P-004"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 0
-		digivolve_level = 2
-		digimon_type = "Marine Animal"
+		digimon_type = "Sea Beast"
 		power = 1000
-		inherited_effect_text = "<<Your Turn>> <<Once Per Turn>> When you discard an opponent Digimon's Evolution Base, Memory +1."
+		inherited_effect_text = "[Your Turn] [Once Per Turn] When one of your opponent's digivolution cards is trashed, gain 1 memory."
+		ruling = [
+					"You use an effect that reads \"Return 1 of your opponent's Digimon to their hand. Trash all of the digivolution cards of that Digimon\" to return an opponent's Digimon to their hand. When your opponent's digivolution cards are trashed as a result, can you activate this card's effect?",
+					"No, you can't. \"Trash all of the digivolution cards of those Digimon\" is an explanation of what happens to the digivolution cards of the Digimon when it returns to their hand. It doesn't count as trashing digivolution for the purposes of this card's effect.",
+					"I use [De-Digivolve |] while I have this Digimon as a digivolution card. Can I use the inherited effect of [Gomamon]?",
+					"Yes, you can activate the effect of [Gomamon].",
+					"My opponent trashes a digivolution card with one of their effects like [Omnimon X] or [Digiburst |nocategory]. Can I use this card's effect?",
+					"Yes, you can.",
+]
 
 class P_005 extends Card:
 	func _init():
@@ -120,11 +144,11 @@ class P_005 extends Card:
 		digivolve_level = 2
 		digimon_type = "Mammal"
 		power = 2000
-		effect_text = "<<When Played>> If you have 1 or less cards remaining in your Security, <<Recovery + 1 (Deck)>> (Take 1 card from the top of your deck and place it onto Security)."
+		effect_text = "[On Play] If you have 1 or fewer security cards, trigger [Recovery +]."
 
 class P_006 extends Card:
 	func _init():
-		name = "Tailmon"
+		name = "Gatomon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
 		rarity = Rarity.P
@@ -138,7 +162,8 @@ class P_006 extends Card:
 		digivolve_level = 3
 		digimon_type = "Holy Beast"
 		power = 4000
-		inherited_effect_text = "<<Your Turn>> As long as you have 3 or more cards remaining in your Security, this Digimon gets +1000 DP."
+		inherited_effect_text = "[Your Turn] While you have 3 or more security cards, this Digimon gets +1000 DP."
+		notes = "Tailmon"
 
 class P_007 extends Card:
 	func _init():
@@ -156,26 +181,26 @@ class P_007 extends Card:
 		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 4000
-		inherited_effect_text = "<<When Attacking>> If this Digimon's name contains [Garurumon], <<Draw 1>> (Draw 1 card from your deck). "
+		inherited_effect_text = "[When Attacking] If this Digimon has [Garurumon], trigger [Draw 1]."
 
 class P_008 extends Card:
 	func _init():
-		name = "Were Garurumon"
+		name = "WereGarurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.P
 		id = "P-008"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.ULTIMATE
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
+		digivolve_cost = 2
 		digivolve_level = 4
-		digimon_type = "Beast Man"
+		digimon_type = "Beastkin"
 		power = 6000
-		effect_text = "<<When Attacking>> <<Once per Turn>> If there is a [Garurumon] in this Digimon's Evolution Bases, turn this Digimon Active."
-		inherited_effect_text = "<<Your Turn>> As long as you have 8 or more cards in your hand, this Digimon gains <<Security Attack + 1>> (The number of cards this Digimon Checks when attacking Security increases by 1)."
+		effect_text = "[When Attacking] [Once Per Turn] If this Digimon has a [Garurumon] digivolution card, unsuspend this Digimon."
+		inherited_effect_text = "[Your Turn] While you have 8 or more cards in your hand, this Digimon gains [Security Attack +1]."
 
 class P_009 extends Card:
 	func _init():
@@ -193,7 +218,7 @@ class P_009 extends Card:
 		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		inherited_effect_text = "<<Your Turn>> As long as this Digimon's name contains [Greymon], this Digimon gets +2000 DP."
+		inherited_effect_text = "[Your Turn] While this Digimon has [Greymon], it gets +2000 DP."
 
 class P_010 extends Card:
 	func _init():
@@ -211,11 +236,15 @@ class P_010 extends Card:
 		digivolve_level = 3
 		digimon_type = "Dinosaur"
 		power = 5000
-		effect_text = "<<Your Turn>> As long as there is an [Agumon] in this Digimon's Evolution Bases, this Digimon gains \n<<Security Attack + 1>> (The number of cards this Digimon Checks when attacking Security increases by 1)."
+		effect_text = "[Your Turn] While this Digimon has an [Agumon] digivolution card, it gains [Security Attack +1]."
+		ruling = [
+					"Does this card's effect apply if it has [Agumon Expert] or [ToyAgumon] as a digivolution card?",
+					"No. This card's effect only applies if a card with the exact name [Agumon] is one of its digivolution cards. Despite [Agumon Expert], [ToyAgumon], and other Digimon cards having [Agumon] in their names, the effect doesn't apply if it isn't an exact match.",
+]
 
 class P_011 extends Card:
 	func _init():
-		name = "V-dramon Zero"
+		name = "Veedramon Zero"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.P
@@ -229,19 +258,44 @@ class P_011 extends Card:
 		digivolve_level = 3
 		digimon_type = "Mythical Dragon"
 		power = 5000
-		effect_text = "<<When Attacking>> If you have a Blue Tamer in play, you may discard the top 3 cards of your deck; if you do, this Digimon gets +2000 DP for the rest of this turn."
-		inherited_effect_text = "<<When Attacking>> You may choose 3 non-Digitama cards from your Trash and place them at the bottom of your deck in any order; if you do, <<Draw 1>> (Draw 1 card from your deck). "
+		effect_text = "[When Attacking] If you have a blue Tamer in play, you may trash the top 3 cards of your deck to give this Digimon +2000 DP for the turn."
+		inherited_effect_text = "[When Attacking] You may place 3 non-Digi-Egg cards from your trash at the bottom of your deck in any order to activate [Draw 1]."
+		ruling = [
+					"Do I always have to use this card's effect when I attack?",
+					"No. The effect is voluntary.",
+					"Can I use this card's [When Attacking] effect to trash 6 cards from the top of my deck and give this card +4000 DP?",
+					"No, you can't.",
+					"I attack with this card and activate its [When Attacking] effect to get +2000 DP. I then unsuspend this card using a card effect and attack again. Can I use the [When Attacking] effect again to get an additional +2000 DP?",
+					"Yes, you can.",
+					"Can I activate this card's inherited effect when I have 2 or less non-Digi-Egg cards in my trash?",
+					"No, you can't.",
+					"When using this card's inherited effect to return cards from my trash to the bottom of my deck, is my opponent allowed to check what cards I am returning to my deck?",
+					"Yes. Cards in your trash are considered public information, so please let your opponent confirm which cards you're returning to your deck before you do so.",
+					"Can I use this card's inherited effect to return 3 non-Digi-Egg cards to the bottom of my deck but not activate [Draw 1]?",
+					"No, you can't.",
+]
 
 class P_012 extends Card:
 	func _init():
-		name = "Yagami Taichi"
+		name = "Tai Kamiya (V-Tamer)"
 		type = Type.TAMER
 		color = ColorGroup.BLUE
 		rarity = Rarity.P
 		id = "P-012"
 		play_cost = 2
-		effect_text = "<<Main>> If you have a Digimon whose name contains [V-dramon] in play, you may Rest this Tamer and activate 1 of the following effects:\n - <<Draw 1>> (Draw 1 card from your deck)\n - Choose 1 of your Digimon; that Digimon gets +1000 DP for the rest of this turn."
-		sec_effect_text = "<<Security>> Play this card without paying its Cost."
+		effect_text = "[Main] If you have a Digimon with [Veedramon], you may suspend this Tamer to activate one of the following effects:\n·Trigger [Draw 1].\n·1 of your Digimon gets +1000 DP for the turn."
+		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		ruling = [
+					"At what timing does this card's [Main] effect activate?",
+					"You can activate it at any time during your Main Phase, much like you would an Option card.",
+					"Can I use this card's effect if I have a Digimon [Veedramon] in my breeding area?",
+					"No, it doesn't check Digimon in the breeding area.",
+					"If I have two copies of this Tamer as well as one [Veedramon] in play in my battle area, can I active the effects of both Tamers?",
+					"Yes, you can.",
+					"If I have one [Veedramon] in play in my battle area, can I use this card's effect to make a Digimon that doesn't have [Veedramon] in its name get +1000 DP?",
+					"Yes, you can.",
+]
+		notes = "Yagami Taichi (Digimon Adventure V-Tamer 01)"
 
 class P_013 extends Card:
 	func _init():
@@ -257,13 +311,13 @@ class P_013 extends Card:
 		digivolve_color = ColorGroup.BLACK
 		digivolve_cost = 0
 		digivolve_level = 2
-		digimon_type = "Unknown"
+		digimon_type = "Unidentified"
 		power = 2000
-		inherited_effect_text = "<<Opponent's Turn>> This Digimon gets +1000 DP."
+		inherited_effect_text = "[Opponent Turn] This Digimon gets +1000 DP."
 
 class P_014 extends Card:
 	func _init():
-		name = "Chrysalimon"
+		name = "Kurisarimon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLACK
 		rarity = Rarity.P
@@ -275,9 +329,10 @@ class P_014 extends Card:
 		digivolve_color = ColorGroup.BLACK
 		digivolve_cost = 2
 		digivolve_level = 3
-		digimon_type = "Unknown"
+		digimon_type = "Unidentified"
 		power = 5000
-		effect_text = "<<Blocker>> (When the opponent Digimon performs an attack, if this Digimon is in the Active position, you may Rest this Digimon and change the target of the attack to this Digimon)\n<<When Attacking>> Memory -2."
+		effect_text = "[Blocker].\n [When Attacking] Lose 2 memory."
+		notes = "Chrysalimon"
 
 class P_015 extends Card:
 	func _init():
@@ -288,36 +343,43 @@ class P_015 extends Card:
 		id = "P-015"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.ULTIMATE
 		attribute = Attribute.UNKNOWN
 		digivolve_color = ColorGroup.BLACK
 		digivolve_cost = 3
 		digivolve_level = 4
-		digimon_type = "Unknown"
+		digimon_type = "Unidentified"
 		power = 7000
-		effect_text = "<<When Played>> Choose 1 opponent Digimon and <<Revert 1>> (Discard 1 card from the top of the opponent Digimon's card stack. You may not discard any further once there are no more Evolution Bases remaining, or the Digimon becomes Lv.3)."
+		effect_text = "[On Play] Trigger [De-Digivolve 1]."
 
 class P_016 extends Card:
 	func _init():
-		name = "Diablomon"
+		name = "Diaboromon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLACK
 		rarity = Rarity.P
 		id = "P-016"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.MEGA
 		attribute = Attribute.UNKNOWN
 		digivolve_color = ColorGroup.BLACK
 		digivolve_cost = 3
 		digivolve_level = 5
-		digimon_type = "Unknown"
+		digimon_type = "Unidentified"
 		power = 11000
-		effect_text = "<<Your Turn>> For every [Diablomon] you have in play, this Digimon gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)."
+		effect_text = "[Your Turn] For each [Diaboromon] you have in play, this Digimon gets [Security Attack +1]."
+		ruling = [
+					"Does a [Diaboromon] token count as 1 [Diaboromon] for this card's effect?",
+					"Yes, it does.",
+					"Does this card itself count as 1 [Diaboromon] for its effect?",
+					"Yes, it does.",
+]
+		notes = "Diablomon"
 
 class P_017 extends Card:
 	func _init():
-		name = "Pico Devimon"
+		name = "DemiDevimon"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
 		rarity = Rarity.P
@@ -329,9 +391,14 @@ class P_017 extends Card:
 		digivolve_color = ColorGroup.PURPLE
 		digivolve_cost = 0
 		digivolve_level = 2
-		digimon_type = "Small Devil"
+		digimon_type = "Evil"
 		power = 2000
-		effect_text = "<<When Played>> Discard the top 2 cards of your deck."
+		effect_text = "[On Play] Trash the top 2 cards of your deck."
+		ruling = [
+					"Do I always have to activate this card's effect?",
+					"Yes, as long as you are able to.",
+]
+		notes = "PicoDevimon"
 
 class P_018 extends Card:
 	func _init():
@@ -349,43 +416,45 @@ class P_018 extends Card:
 		digivolve_level = 3
 		digimon_type = "Fallen Angel"
 		power = 3000
-		effect_text = "<<When Played>> Destroy 1 Lv.3 opponent Digimon."
+		effect_text = "[On Play] Delete 1 of your opponent's level 3 Digimon."
 
 class P_019 extends Card:
 	func _init():
-		name = "Vamdemon"
+		name = "Myotismon"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
 		rarity = Rarity.P
 		id = "P-019"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.ULTIMATE
 		attribute = Attribute.VIRUS
 		digivolve_color = ColorGroup.PURPLE
 		digivolve_cost = 3
 		digivolve_level = 4
 		digimon_type = "Undead"
 		power = 7000
-		inherited_effect_text = "<<Revenge>> (If this Digimon is the only Digimon destroyed in a battle, the opponent Digimon that battled it is also destroyed)"
+		inherited_effect_text = "[Retaliation]."
+		notes = "Vamdemon"
 
 class P_020 extends Card:
 	func _init():
-		name = "Venom Vamdemon"
+		name = "VenomMyotismon"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
 		rarity = Rarity.P
 		id = "P-020"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.MEGA
 		attribute = Attribute.VIRUS
 		digivolve_color = ColorGroup.PURPLE
 		digivolve_cost = 3
 		digivolve_level = 5
-		digimon_type = "Demon Beast"
+		digimon_type = "Dark Animal"
 		power = 11000
-		effect_text = "<<When Destroyed>> You may choose 1 Purple Lv.4 or below Digimon card from your Trash, and play it without paying its Cost. The <<When Played>> Effects of Digimon that come into play via this Effect will not activate."
+		effect_text = "[On Deletion] You may play a purple Digimon Card with a level of 4 or less from your trash without paying its memory cost. Any [On Play] effects on Digimon played with this effect don't activate."
+		notes = "VenomVamdemon"
 
 class P_021 extends Card:
 	func _init():
@@ -395,19 +464,20 @@ class P_021 extends Card:
 		rarity = Rarity.P
 		id = "P-021"
 		play_cost = 0
-		effect_text = "<<Main>> If you have [Tachikawa Mimi] in play, you may play 1 [Palmon] without paying its Cost; if you do, return 1 of your [Tachikawa Mimi] to your hand."
-		sec_effect_text = "<<Security>> Add this card to your hand."
+		effect_text = "[Main] If you have [Mimi Tachikawa] in play, you may play a [Palmon] from your hand without paying its memory cost to return 1 of your [Mimi Tachikawa] cards to it's owner's hand."
+		sec_effect_text = "[Security] Add this card to your hand."
 
 class P_022 extends Card:
 	func _init():
-		name = "Jogress Evolution: Now, Our Hearts as One"
+		name = "DNA Digivolution - Hearts United"
 		type = Type.OPTION
 		color = ColorGroup.BLUE
 		rarity = Rarity.P
 		id = "P-022"
 		play_cost = 0
-		effect_text = "<<Main>> If you have [Motomiya Daisuke] and [Ichijouji Ken] in play, you may return 1 [XV-mon] card and 1 [Stingmon] card from your hand to the bottom of your deck in any order; if you do, play 1 [Paildramon] from your hand without paying its Cost."
-		sec_effect_text = "<<Security>> Add this card to your hand."
+		effect_text = "[Main] If you have [Davis Motomiya] and [Ken Ichijoji] in play, you may place 1 [ExVeemon] and 1 [Stingmon] from your hand at the bottom of your deck in any order to play 1 [Paildramon] from your hand without paying its memory cost."
+		sec_effect_text = "[Security] Add this card to your hand."
+		notes = "Jogress Evolution Now, Unite Our Hearts"
 
 class P_023 extends Card:
 	func _init():
@@ -417,73 +487,78 @@ class P_023 extends Card:
 		rarity = Rarity.P
 		id = "P-023"
 		play_cost = 0
-		effect_text = "<<Main>> If you have [Takaishi Takeru] in play, place 1 [Patamon] at the bottom of your Security face-down. Discard that Digimon's Evolution Bases."
-		sec_effect_text = "<<Security>> Add this card to your hand."
+		effect_text = "[Main] If you have [T.K. Takaishi] in play, place 1 of your [Patamon] at the bottom of your security stack face down. Trash that Digimon's digivolution cards."
+		sec_effect_text = "[Security] Add this card to your hand."
 
 class P_024 extends Card:
 	func _init():
-		name = "You've Grown So Much, Taichi"
+		name = "Tai's Growing Up!"
 		type = Type.OPTION
 		color = ColorGroup.RED
 		rarity = Rarity.P
 		id = "P-024"
 		play_cost = 0
-		effect_text = "<<Main>> If you have [Yagami Taichi] in play, you may return 1 of your [Agumon] to the bottom of your deck; if you do, <<Draw 3>> (Draw 3 cards from your deck). Discard that Digimon's Evolution Bases."
-		sec_effect_text = "<<Security>> Add this card to your hand."
+		effect_text = "[Main] If you have [Tai Kamiya] in play, place 1 of your [Agumon] at the bottom of its owner's deck to trigger [Draw 3]. Trash that Digimon's digivolution cards."
+		sec_effect_text = "[Security] Add this card to your hand."
+		notes = "Taichi, you're big"
 
 class P_025 extends Card:
 	func _init():
-		name = "Gran Kuwagamon"
+		name = "GranKuwagamon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
 		rarity = Rarity.P
 		id = "P-025"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.MEGA
 		attribute = Attribute.FREE
 		digivolve_color = ColorGroup.GREEN
 		digivolve_cost = 3
 		digivolve_level = 5
-		digimon_type = "Insect"
+		digimon_type = "Insectoid"
 		power = 11000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 of your Digimon; that Digimon gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1) for the rest of this turn."
+		effect_text = "[Main] [Digiburst 2].\n·1 of your digimon gains [Security Attack +1] for the turn."
 
 class P_026 extends Card:
 	func _init():
-		name = "Black War Greymon"
+		name = "BlackWarGreymon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLACK
 		rarity = Rarity.P
 		id = "P-026"
-		play_cost = 11
+		play_cost = 13
 		level = 6
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.MEGA
 		attribute = Attribute.VIRUS
 		digivolve_color = ColorGroup.BLACK
 		digivolve_cost = 3
 		digivolve_level = 5
-		digimon_type = "Dragon Man"
+		digimon_type = "Dragonkin"
 		power = 11000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Turn this Digimon Active."
+		effect_text = "[Main] [Digiburst 2].\n·Unsuspend this Digimon."
 
 class P_027 extends Card:
 	func _init():
-		name = "Metal Garurumon"
+		name = "MetalGarurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
 		rarity = Rarity.P
 		id = "P-027"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.MEGA
 		attribute = Attribute.VIRUS
 		digivolve_color = ColorGroup.PURPLE
 		digivolve_cost = 3
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 11000
-		effect_text = "<<Main>> <<Digiburst 2>> (Choose 2 of this Digimon's Evolution Bases and discard them. If you do, activate the following effect:)\n- Choose 1 Purple Option card from your hand whose Cost is 7 or lower, and use it without paying its Cost."
+		effect_text = "[Main] [Digiburst 2].\n·Use a purple Option card with a memory cost of 7 or less in your hand without paying its memory cost."
+		ruling = [
+					"I have a [Lilithmon] and [MaloMyotismon] and then I use this card's effect to [Digiburst |nocategory] [Ghostmon], when do I use their effects when I use [Heat Viper] with this card?",
+					"The order of effects ''must'' go [Ghostmon], [Lilithmon], and [MaloMyotismon].",
+]
 
 class P_028 extends Card:
 	func _init():
@@ -499,7 +574,266 @@ class P_028 extends Card:
 		digivolve_color = ColorGroup.YELLOW
 		digivolve_cost = 0
 		digivolve_level = 2
-		digimon_type = "Beast Man"
+		digimon_type = "Beastkin"
 		power = 2000
-		effect_text = "<<When Played>> If you have 3 or more cards remaining in your Security, <<Draw 1>> (Draw 1 card from your deck). If you have 3 or less cards remaining in your Security, Memory +1."
+		effect_text = "[On Play] When you have 3 or more security cards, trigger [Draw 1]. When you have 3 or fewer security cards, gain 1 memory."
+
+class P_029 extends Card:
+	func _init():
+		name = "Agunimon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.P
+		id = "P-029"
+		play_cost = 5
+		level = 4
+		stage_level = Stage.HYBRID
+		attribute = ""
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 2
+		digivolve_level = 3
+		digimon_type = "Wizard"
+		power = 4000
+		effect_text = "[When Attacking] You can digivolve this card into a [AncientGreymon] in your hand for a memory cost of 2, ignoring that card's digivolution requirements. At end of turn, delete this Digimon."
+		inherited_effect_text = "[Your Turn] When you would digivolve this Digimon into [AncientGreymon], reduce the digivolution cost by 2."
+		notes = "Agnimon"
+
+class P_030 extends Card:
+	func _init():
+		name = "Lobomon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLUE
+		rarity = Rarity.P
+		id = "P-030"
+		play_cost = 5
+		level = 4
+		stage_level = Stage.HYBRID
+		attribute = ""
+		digivolve_color = ColorGroup.BLUE
+		digivolve_cost = 2
+		digivolve_level = 3
+		digimon_type = "Warrior"
+		power = 4000
+		effect_text = "[When Digivolved] You can digivolve this card into a [AncientGarurumon] in your hand for a memory cost of 1, ignoring that card's digivolution requirements. At the end of this turn, delete this Digimon."
+		inherited_effect_text = "[Your Turn] When you would digivolve this Digimon into [AncientGarurumon] in your hand, reduce the digivolution cost by 2."
+		notes = "Wolfmon"
+
+class P_031 extends Card:
+	func _init():
+		name = "Gatomon"
+		type = Type.DIGIMON
+		color = ColorGroup.YELLOW
+		rarity = Rarity.P
+		id = "P-031"
+		play_cost = 6
+		level = 4
+		stage_level = Stage.CHAMPION
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.YELLOW
+		digivolve_cost = 2
+		digivolve_level = 3
+		digimon_type = "Holy Beast"
+		power = 5000
+		effect_text = "[Opponent Turn] If you have a purple Digimon in play, this Digimon gains [Blocker].\n[On Play] If you have 3 security cards or less, trigger [Recovery +1]."
+		notes = "Tailmon"
+
+class P_032 extends Card:
+	func _init():
+		name = "Palmon"
+		type = Type.DIGIMON
+		color = ColorGroup.GREEN
+		rarity = Rarity.P
+		id = "P-032"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.DATA
+		digivolve_color = ColorGroup.GREEN
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Vegetation"
+		power = 2000
+		inherited_effect_text = "[Your Turn] When this card is trashed due to activating this Digimon's [Digiburst |support], this Digimon gains [Jamming] for the turn."
+
+class P_033 extends Card:
+	func _init():
+		name = "Sunarizamon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLACK
+		rarity = Rarity.P
+		id = "P-033"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.VIRUS
+		digivolve_color = ColorGroup.BLACK
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Reptile"
+		power = 2000
+		effect_text = "[Your Turn] Your black Digimon with 13000 DP or more gain [Piercing]."
+		inherited_effect_text = "[Your Turn] While this Digimon is a black Digimon with 13000 DP or more, it gains [Security Attack +1]."
+
+class P_034 extends Card:
+	func _init():
+		name = "DemiDevimon"
+		type = Type.DIGIMON
+		color = ColorGroup.PURPLE
+		rarity = Rarity.P
+		id = "P-034"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.VIRUS
+		digivolve_color = ColorGroup.PURPLE
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Evil"
+		power = 2000
+		inherited_effect_text = "[On Deletion] If you have 7 or more Digimon cards in your trash with [Devimon], you may play 1 [DanDevimon] from your trash without paying its memory cost."
+		notes = "PicoDevimon"
+
+class P_035 extends Card:
+	func _init():
+		name = "Red Memory Boost!!"
+		type = Type.OPTION
+		color = ColorGroup.RED
+		rarity = Rarity.SR
+		id = "P-035"
+		play_cost = 3
+		effect_text = "[Main] Reveal 4 cards from the top of your Deck. Add 1 Red Digimon card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Place this card in your Battle Area.\n[Main] [Delay] Gain 2 memory."
+		sec_effect_text = "[Security] Place this card in your Battle Area."
+
+class P_035_B extends Card:
+	func _init():
+		name = "Red Memory Boost!!"
+		type = Type.OPTION
+		color = ColorGroup.RED
+		rarity = Rarity.SR
+		id = "P-035 (B)"
+		play_cost = 3
+		effect_text = "[Main] Reveal 4 cards from the top of your Deck. Add 1 Red Digimon card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Place this card in your Battle Area.\n[Main] [Delay] Gain 2 memory."
+		sec_effect_text = "[Security] Place this card in your Battle Area."
+		is_parallel = true
+		notes = "parallel promo"
+
+class P_036 extends Card:
+	func _init():
+		name = "Blue Memory Boost!!"
+		type = Type.OPTION
+		color = ColorGroup.BLUE
+		rarity = Rarity.SR
+		id = "P-036"
+		play_cost = 3
+		effect_text = "[Main] Reveal 4 cards from the top of your Deck. Add 1 Blue Digimon card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Place this card in your Battle Area.\n[Main] [Delay] Gain 2 memory."
+		sec_effect_text = "[Security] Place this card in your Battle Area."
+
+class P_036_B extends Card:
+	func _init():
+		name = "Blue Memory Boost!!"
+		type = Type.OPTION
+		color = ColorGroup.BLUE
+		rarity = Rarity.SR
+		id = "P-036 (B)"
+		play_cost = 3
+		effect_text = "[Main] Reveal 4 cards from the top of your Deck. Add 1 Blue Digimon card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Place this card in your Battle Area.\n[Main] [Delay] Gain 2 memory."
+		sec_effect_text = "[Security] Place this card in your Battle Area."
+		is_parallel = true
+		notes = "parallel promo"
+
+class P_037 extends Card:
+	func _init():
+		name = "Yellow Memory Boost!!"
+		type = Type.OPTION
+		color = ColorGroup.YELLOW
+		rarity = Rarity.SR
+		id = "P-037"
+		play_cost = 3
+		effect_text = "[Main] Reveal 4 cards from the top of your Deck. Add 1 Yellow Digimon card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Place this card in your Battle Area.\n[Main] [Delay] Gain 2 memory."
+		sec_effect_text = "[Security] Place this card in your Battle Area."
+
+class P_037_B extends Card:
+	func _init():
+		name = "Yellow Memory Boost!!"
+		type = Type.OPTION
+		color = ColorGroup.YELLOW
+		rarity = Rarity.SR
+		id = "P-037 (B)"
+		play_cost = 3
+		effect_text = "[Main] Reveal 4 cards from the top of your Deck. Add 1 Yellow Digimon card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Place this card in your Battle Area.\n[Main] [Delay] Gain 2 memory."
+		sec_effect_text = "[Security] Place this card in your Battle Area."
+		is_parallel = true
+		notes = "parallel promo"
+
+class P_038 extends Card:
+	func _init():
+		name = "Green Memory Boost!!"
+		type = Type.OPTION
+		color = ColorGroup.GREEN
+		rarity = Rarity.SR
+		id = "P-038"
+		play_cost = 3
+		effect_text = "[Main] Reveal 4 cards from the top of your Deck. Add 1 Green Digimon card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Place this card in your Battle Area.\n[Main] [Delay] Gain 2 memory."
+		sec_effect_text = "[Security] Place this card in your Battle Area."
+
+class P_038_B extends Card:
+	func _init():
+		name = "Green Memory Boost!!"
+		type = Type.OPTION
+		color = ColorGroup.GREEN
+		rarity = Rarity.SR
+		id = "P-038 (B)"
+		play_cost = 3
+		effect_text = "[Main] Reveal 4 cards from the top of your Deck. Add 1 Green Digimon card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Place this card in your Battle Area.\n[Main] [Delay] Gain 2 memory."
+		sec_effect_text = "[Security] Place this card in your Battle Area."
+		is_parallel = true
+		notes = "parallel promo"
+
+class P_039 extends Card:
+	func _init():
+		name = "Black Memory Boost!!"
+		type = Type.OPTION
+		color = ColorGroup.BLACK
+		rarity = Rarity.SR
+		id = "P-039"
+		play_cost = 3
+		effect_text = "[Main] Reveal 4 cards from the top of your Deck. Add 1 Black Digimon card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Place this card in your Battle Area.\n[Main] [Delay] Gain 2 memory."
+		sec_effect_text = "[Security] Place this card in your Battle Area."
+
+class P_039_B extends Card:
+	func _init():
+		name = "Black Memory Boost!!"
+		type = Type.OPTION
+		color = ColorGroup.BLACK
+		rarity = Rarity.SR
+		id = "P-039 (B)"
+		play_cost = 3
+		effect_text = "[Main] Reveal 4 cards from the top of your Deck. Add 1 Black Digimon card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Place this card in your Battle Area.\n[Main] [Delay] Gain 2 memory."
+		sec_effect_text = "[Security] Place this card in your Battle Area."
+		is_parallel = true
+		notes = "parallel promo"
+
+class P_040 extends Card:
+	func _init():
+		name = "Purple Memory Boost!!"
+		type = Type.OPTION
+		color = ColorGroup.PURPLE
+		rarity = Rarity.SR
+		id = "P-040"
+		play_cost = 3
+		effect_text = "[Main] Reveal 4 cards from the top of your Deck. Add 1 Purple Digimon card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Place this card in your Battle Area.\n[Main] [Delay] Gain 2 memory."
+		sec_effect_text = "[Security] Place this card in your Battle Area."
+
+class P_040_B extends Card:
+	func _init():
+		name = "Purple Memory Boost!!"
+		type = Type.OPTION
+		color = ColorGroup.PURPLE
+		rarity = Rarity.SR
+		id = "P-040 (B)"
+		play_cost = 3
+		effect_text = "[Main] Reveal 4 cards from the top of your Deck. Add 1 Purple Digimon card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Place this card in your Battle Area.\n[Main] [Delay] Gain 2 memory."
+		sec_effect_text = "[Security] Place this card in your Battle Area."
+		is_parallel = true
+		notes = "parallel promo"
 

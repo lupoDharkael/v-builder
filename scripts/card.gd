@@ -55,6 +55,7 @@ var inherited_effect_text : String
 var effect_text : String
 var sec_effect_text : String
 var notes : String
+var ruling : Array
 
 # Digimon specific
 var digivolve_color : String

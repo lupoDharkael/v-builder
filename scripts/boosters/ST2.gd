@@ -11,7 +11,6 @@ static func register_cards():
 	CardDB.add_card(ST2_07.new())
 	CardDB.add_card(ST2_08.new())
 	CardDB.add_card(ST2_08_B.new())
-	CardDB.add_card(ST2_08_C.new())
 	CardDB.add_card(ST2_09.new())
 	CardDB.add_card(ST2_09_B.new())
 	CardDB.add_card(ST2_10.new())
@@ -24,7 +23,7 @@ static func register_cards():
 	CardDB.add_card(ST2_16.new())
 	CardDB.add_card(ST2_16_B.new())
 
-	CardDB.register_booster("ST2", "Cocytus Blue")
+	CardDB.register_booster("ST2", "ST-2: Cocytus Blue")
 
 class ST2_01 extends Card:
 	func _init():
@@ -34,9 +33,9 @@ class ST2_01 extends Card:
 		rarity = Rarity.U
 		id = "ST2-01"
 		level = 2
-		stage_level = Stage.IN_TRAINING
+		stage_level = Stage.HYBRID
 		digimon_type = "Lesser"
-		inherited_effect_text = "<<Your Turn>> As long as you are battling an opponent Digimon that has no Evolution Bases, this Digimon gets +1000 DP."
+		inherited_effect_text = "[Your Turn] This Digimon gets +1000 DP when battling an opponent's Digimon that has no digivolution cards."
 
 class ST2_02 extends Card:
 	func _init():
@@ -47,12 +46,12 @@ class ST2_02 extends Card:
 		id = "ST2-02"
 		play_cost = 2
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 0
 		digivolve_level = 2
-		digimon_type = "Marine Animal"
+		digimon_type = "Sea Beast"
 		power = 3000
 
 class ST2_03 extends Card:
@@ -64,14 +63,18 @@ class ST2_03 extends Card:
 		id = "ST2-03"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 0
 		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		inherited_effect_text = "<<When Attacking>> Choose 1 Lv.5 or below opponent Digimon, and discard its bottom-most Evolution Base."
+		inherited_effect_text = "[When Attacking] Trash the digivolution card at the bottom of 1 of your opponent's Digimon with a level of 5 or less."
+		ruling = [
+					"Can this card's inherited effect be used to delete an opponent's Digimon with no digivolution cards?",
+					"No. This inherited effect does nothing to your opponent's Digimon if they have no digivolution cards.",
+]
 
 class ST2_04 extends Card:
 	func _init():
@@ -82,7 +85,7 @@ class ST2_04 extends Card:
 		id = "ST2-04"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 0
@@ -99,12 +102,12 @@ class ST2_05 extends Card:
 		id = "ST2-05"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 2
 		digivolve_level = 3
-		digimon_type = "Marine Animal"
+		digimon_type = "Sea Beast"
 		power = 5000
 
 class ST2_06 extends Card:
@@ -112,56 +115,69 @@ class ST2_06 extends Card:
 		name = "Garurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
-		rarity = Rarity.U
+		rarity = ""
 		id = "ST2-06"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 2
 		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 4000
-		inherited_effect_text = "<<When Attacking>> Choose 1 opponent Digimon and discard its bottom-most Evolution Base."
+		inherited_effect_text = "[When Attacking] Trash the digivolution card at the bottom of 1 of your opponent's Digimon."
+		ruling = [
+					"Can this card's inherited effect be used to delete an opponent's Digimon with no digivolution cards?",
+					"No. This inherited effect does nothing to your opponent's Digimon if they have no digivolution cards.",
+]
 
 class ST2_06_B extends Card:
 	func _init():
 		name = "Garurumon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
-		rarity = Rarity.U
+		rarity = ""
 		id = "ST2-06 (B)"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 2
 		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 4000
-		inherited_effect_text = "<<When Attacking>> Choose 1 opponent Digimon and discard its bottom-most Evolution Base."
+		inherited_effect_text = "[When Attacking] Trash the digivolution card at the bottom of 1 of your opponent's Digimon."
+		ruling = [
+					"Can this card's inherited effect be used to delete an opponent's Digimon with no digivolution cards?",
+					"No. This inherited effect does nothing to your opponent's Digimon if they have no digivolution cards.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
 class ST2_07 extends Card:
 	func _init():
-		name = "Gryzzlymon"
+		name = "Grizzlymon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
 		rarity = Rarity.C
 		id = "ST2-07"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 2
 		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 6000
-		effect_text = "<<Blocker>> (When the opponent Digimon performs an attack, if this Digimon is in the Active position, you may Rest this Digimon and change the target of the attack to this Digimon.)\n<<When Attacking>> Memory -2."
+		effect_text = "[Blocker].\n[When Attacking] Lose 2 memory."
+		ruling = [
+					"Can this Digimon attack when I have less than 2 memory?",
+					"Yes, it can. Even if this Digimon's attack effect causes your memory to move to 1 or greater on your opponent's side, it doesn't become your opponent's turn until the end of the attack.",
+]
+		notes = "Grizzmon"
 
 class ST2_08 extends Card:
 	func _init():
@@ -172,14 +188,24 @@ class ST2_08 extends Card:
 		id = "ST2-08"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 3
 		digivolve_level = 4
-		digimon_type = "Beast Man"
+		digimon_type = "Beastkin"
 		power = 7000
-		inherited_effect_text = "<<Your Turn>> As long as there is an opponent Digimon in play that has no Evolution Bases, this Digimon gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)."
+		inherited_effect_text = "[Your Turn] While your opponent has a Digimon with no digivolution cards, this Digimon gains [Security Attack +1]."
+		ruling = [
+					"Does this card's inherited effect apply even if my opponent only has 1 Digimon with no digivolution cards?",
+					"Yes, it does.",
+					"One of my Digimon has this card as a digivolution card and attacks one of my opponent's Digimon that has 1 digivolution card. If this Digimon has another When Attacking effect that activates and trashes that digivolution card, does this card's inherited effect activate?",
+					"Yes. Once that Digimon has no digivolution cards left, this card's inherited effect activates.",
+					"Does this card's inherited effect apply if my opponent has a Digimon with no digivolution cards in their breeding area?",
+					"No, it doesn't check Digimon in the breeding area.",
+					"Does this card's inherited effect apply when my opponent doesn't have any Digimon in their battle area?",
+					"No, it doesn't. Your opponent has to have a Digimon in their battle area for it to activate.",
+]
 
 class ST2_08_B extends Card:
 	func _init():
@@ -190,34 +216,24 @@ class ST2_08_B extends Card:
 		id = "ST2-08 (B)"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 3
 		digivolve_level = 4
-		digimon_type = "Beast Man"
+		digimon_type = "Beastkin"
 		power = 7000
-		inherited_effect_text = "<<Your Turn>> As long as there is an opponent Digimon in play that has no Evolution Bases, this Digimon gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)."
-		is_parallel = true
-		notes = "parallel promo"
-
-class ST2_08_C extends Card:
-	func _init():
-		name = "WereGarurumon"
-		type = Type.DIGIMON
-		color = ColorGroup.BLUE
-		rarity = Rarity.R
-		id = "ST2-08 (C)"
-		play_cost = 7
-		level = 5
-		stage_level = Stage.MEGA
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 4
-		digimon_type = "Beast Man"
-		power = 7000
-		inherited_effect_text = "<<Your Turn>> As long as there is an opponent Digimon in play that has no Evolution Bases, this Digimon gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)."
+		inherited_effect_text = "[Your Turn] While your opponent has a Digimon with no digivolution cards, this Digimon gains [Security Attack +1]."
+		ruling = [
+					"Does this card's inherited effect apply even if my opponent only has 1 Digimon with no digivolution cards?",
+					"Yes, it does.",
+					"One of my Digimon has this card as a digivolution card and attacks one of my opponent's Digimon that has 1 digivolution card. If this Digimon has another When Attacking effect that activates and trashes that digivolution card, does this card's inherited effect activate?",
+					"Yes. Once that Digimon has no digivolution cards left, this card's inherited effect activates.",
+					"Does this card's inherited effect apply if my opponent has a Digimon with no digivolution cards in their breeding area?",
+					"No, it doesn't check Digimon in the breeding area.",
+					"Does this card's inherited effect apply when my opponent doesn't have any Digimon in their battle area?",
+					"No, it doesn't. Your opponent has to have a Digimon in their battle area for it to activate.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -230,14 +246,20 @@ class ST2_09 extends Card:
 		id = "ST2-09"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 3
 		digivolve_level = 4
-		digimon_type = "Marine Animal"
+		digimon_type = "Sea Beast"
 		power = 7000
-		effect_text = "<<When Evolving>> Choose 1 opponent Digimon and discard its bottom-most 2 Evolution Bases."
+		effect_text = "[When Digivolved] Trash 2 digivolution cards at the bottom of 1 of your opponent's Digimon."
+		ruling = [
+					"Can this card's inherited effect be used to delete an opponent's Digimon with no digivolution cards?",
+					"No. This inherited effect does nothing to your opponent's Digimon if they have no digivolution cards.",
+					"Can this card's inherited effect be used on an opponent's Digimon that has only 1 digivolution card?",
+					"Yes, it can. In that case, it would only trash that 1 digivolution card.",
+]
 
 class ST2_09_B extends Card:
 	func _init():
@@ -248,14 +270,20 @@ class ST2_09_B extends Card:
 		id = "ST2-09 (B)"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 3
 		digivolve_level = 4
-		digimon_type = "Marine Animal"
+		digimon_type = "Sea Beast"
 		power = 7000
-		effect_text = "<<When Evolving>> Choose 1 opponent Digimon and discard its bottom-most 2 Evolution Bases."
+		effect_text = "[When Digivolved] Trash 2 digivolution cards at the bottom of 1 of your opponent's Digimon."
+		ruling = [
+					"Can this card's inherited effect be used to delete an opponent's Digimon with no digivolution cards?",
+					"No. This inherited effect does nothing to your opponent's Digimon if they have no digivolution cards.",
+					"Can this card's inherited effect be used on an opponent's Digimon that has only 1 digivolution card?",
+					"Yes, it can. In that case, it would only trash that 1 digivolution card.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -268,7 +296,7 @@ class ST2_10 extends Card:
 		id = "ST2-10"
 		play_cost = 10
 		level = 6
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 2
@@ -283,16 +311,24 @@ class ST2_11 extends Card:
 		color = ColorGroup.BLUE
 		rarity = Rarity.SR
 		id = "ST2-11"
-		play_cost = 12
+		play_cost = 11
 		level = 6
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
 		digivolve_color = ColorGroup.BLUE
 		digivolve_cost = 4
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 11000
-		effect_text = "<<When Attacking>> <<Once per Turn>> Turn this Digimon Active."
+		effect_text = "[When Attacking] [Once Per Turn] Unsuspend this Digimon"
+		ruling = [
+					"Does this Digimon unsuspend itself each time it attacks?",
+					"No, it only unsuspends itself once per turn. In other words, it only unsuspends the first time it attacks each turn.",
+					"Does this Digimon's effect only activate once per game?",
+					"No. You can use the effect again during your next turn.",
+					"At what timing does this Digimon unsuspend itself?",
+					"After you declare your attack, suspend the Digimon, then declare your attack target. When performing your security check or resolving a battle with your opponent's Digimon, this Digimon will already be unsuspended.",
+]
 
 class ST2_12 extends Card:
 	func _init():
@@ -302,8 +338,18 @@ class ST2_12 extends Card:
 		rarity = Rarity.R
 		id = "ST2-12"
 		play_cost = 2
-		effect_text = "<<Beginning of Your Turn>> If there is an opponent Digimon in play that has no Evolution Bases, Memory +1."
-		sec_effect_text = "<<Security>> Play this card without paying its Cost."
+		effect_text = "[Start of Your Turn] If your opponent has a Digimon with no Digivolution cards, gain 1 memory."
+		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		ruling = [
+					"Do I gain 1 memory for each Digimon my opponent has without digivolution cards? ",
+					"No. You only gain 1 memory no matter how many Digimon your opponent has without digivolution cards.",
+					"Does this Tamer's effect apply if my opponent has a Digimon with no digivolution cards in their breeding area?",
+					"No, it doesn't check Digimon in the breeding area.",
+					"Does this Tamer's effect apply when my opponent has no Digimon in their battle area?",
+					"No, it doesn't. Your opponent has to have a Digimon in their battle area for it to activate.",
+					"If I have two of this Tamer in play and my opponent has a Digimon with no digivolution cards, do I gain 2 memory from this Tamer's effect?",
+					"Yes. The effect of each copy activates, causing you to gain 2 memory.",
+]
 		notes = "Ishida Yamato"
 
 class ST2_13 extends Card:
@@ -314,8 +360,12 @@ class ST2_13 extends Card:
 		rarity = Rarity.C
 		id = "ST2-13"
 		play_cost = 0
-		effect_text = "<<Main>> Memory +1."
-		sec_effect_text = "<<Security>> Memory +2."
+		effect_text = "[Main] Gain 1 memory."
+		sec_effect_text = "[Security] Gain 2 memory."
+		ruling = [
+					"If the security effect of this card causes the memory counter to move to 1 or higher on my side, does my opponent's turn end?",
+					"Yes, it does. However, this only happens after any attacks resolve. If there are any  effects or attacks that have not resolved, those must resolve before it becomes your turn.",
+]
 
 class ST2_13_B extends Card:
 	func _init():
@@ -325,8 +375,12 @@ class ST2_13_B extends Card:
 		rarity = Rarity.C
 		id = "ST2-13 (B)"
 		play_cost = 0
-		effect_text = "<<Main>> Memory +1."
-		sec_effect_text = "<<Security>> Memory +2."
+		effect_text = "[Main] Gain 1 memory."
+		sec_effect_text = "[Security] Gain 2 memory."
+		ruling = [
+					"If the security effect of this card causes the memory counter to move to 1 or higher on my side, does my opponent's turn end?",
+					"Yes, it does. However, this only happens after any attacks resolve. If there are any  effects or attacks that have not resolved, those must resolve before it becomes your turn.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -338,8 +392,14 @@ class ST2_14 extends Card:
 		rarity = Rarity.C
 		id = "ST2-14"
 		play_cost = 2
-		effect_text = "<<Main>> Choose 1 opponent Digimon that has no Evolution Bases. That Digimon cannot attack or block until the end of the opponent's next turn."
-		sec_effect_text = "<<Security>> Choose 1 opponent Digimon that has no Evolution Bases. That Digimon cannot attack or block until the end of your next turn."
+		effect_text = "[Main] Choose 1 of your opponent's Digimon with no digivolution cards. That Digimon can't attack or block until the end of your opponent's next turn."
+		sec_effect_text = "[Security] Choose 1 of your opponent's Digimon with no digivolution cards. That Digimon can't attack or block until the end of your next turn."
+		ruling = [
+					"If one of my opponent's Digimon has this card's effect used on it and is suspended, can I attack that Digimon?",
+					"Yes, you can.",
+					"If one of my opponent's Digimon has this card's effect used on it and it digivolves and now has 1 or more digivolution cards, how does this card's effect resolve?",
+					"This card can only be used to target cards that meet its requirements upon activation. So the effect would still apply, and even though the target Digimon has gained digivolution cards, it still can't attack or block.",
+]
 
 class ST2_15 extends Card:
 	func _init():
@@ -349,8 +409,18 @@ class ST2_15 extends Card:
 		rarity = Rarity.C
 		id = "ST2-15"
 		play_cost = 4
-		effect_text = "<<Main>> Choose 1 of your Digimon, then choose 1 Digimon card in its Evolution Bases; play that card as a separate Digimon without paying its Cost."
-		sec_effect_text = "<<Security>> Activate this card's <<Main>> effect."
+		effect_text = "[Main] Choose a Digimon digivolution card placed under 1 of your Digimon and play it as another Digimon without paying its memory cost."
+		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"Can I use the effect of this Option card to play a level 2 Digimon that is currently a digivolution card of one of my Digimon?",
+					"No. Level 2 Digimon can't be in the battle area.",
+					"If I use this Option card's effect to play a digivolution card of one of my suspended Digimon, does it come into play suspended?",
+					"No. Since it is played as another Digimon, it is played unsuspended.",
+					"If one of my Digimon has an effect applied to it that lasts a turn, then I use the effect of this Option card to play one of its digivolution cards as a Digimon, does that Digimon come into play with the same effect applied to it?",
+					"No. Since it is played as another Digimon, it is not affected by any effects of the original Digimon it was under.",
+					"Can Digimon played by this card's effect attack the turn they were played?",
+					"No, since it would count as the turn they were played.",
+]
 
 class ST2_16 extends Card:
 	func _init():
@@ -360,8 +430,8 @@ class ST2_16 extends Card:
 		rarity = Rarity.U
 		id = "ST2-16"
 		play_cost = 7
-		effect_text = "<<Main>> Choose 1 opponent Digimon and return it to the opponent's hand. Discard that Digimon's Evolution Bases."
-		sec_effect_text = "<<Security>> Activate this card's <<Main>> effect."
+		effect_text = "[Main] Return one of your opponent's Digimon to its owner's hand. (Trash all of the digivolution cards of that Digimon.)"
+		sec_effect_text = "[Security] Activate this card's [Main] effect."
 
 class ST2_16_B extends Card:
 	func _init():
@@ -371,8 +441,8 @@ class ST2_16_B extends Card:
 		rarity = Rarity.U
 		id = "ST2-16 (B)"
 		play_cost = 7
-		effect_text = "<<Main>> Choose 1 opponent Digimon and return it to the opponent's hand. Discard that Digimon's Evolution Bases."
-		sec_effect_text = "<<Security>> Activate this card's <<Main>> effect."
+		effect_text = "[Main] Return one of your opponent's Digimon to its owner's hand. (Trash all of the digivolution cards of that Digimon.)"
+		sec_effect_text = "[Security] Activate this card's [Main] effect."
 		is_parallel = true
 		notes = "parallel promo"
 

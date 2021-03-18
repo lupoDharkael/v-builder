@@ -4,6 +4,7 @@ static func register_cards():
 	CardDB.add_card(ST1_01.new())
 	CardDB.add_card(ST1_02.new())
 	CardDB.add_card(ST1_03.new())
+	CardDB.add_card(ST1_03_B.new())
 	CardDB.add_card(ST1_04.new())
 	CardDB.add_card(ST1_05.new())
 	CardDB.add_card(ST1_06.new())
@@ -13,7 +14,6 @@ static func register_cards():
 	CardDB.add_card(ST1_08_B.new())
 	CardDB.add_card(ST1_09.new())
 	CardDB.add_card(ST1_09_B.new())
-	CardDB.add_card(ST1_09_C.new())
 	CardDB.add_card(ST1_10.new())
 	CardDB.add_card(ST1_11.new())
 	CardDB.add_card(ST1_12.new())
@@ -24,7 +24,7 @@ static func register_cards():
 	CardDB.add_card(ST1_16.new())
 	CardDB.add_card(ST1_16_B.new())
 
-	CardDB.register_booster("ST1", "Gaia Red")
+	CardDB.register_booster("ST1", "ST-1: Gaia Red")
 
 class ST1_01 extends Card:
 	func _init():
@@ -36,7 +36,11 @@ class ST1_01 extends Card:
 		level = 2
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Lesser"
-		inherited_effect_text = "<<Your Turn>> As long as this Digimon has 4 or more Evolution Bases, this Digimon gets +1000 DP."
+		inherited_effect_text = "[Your Turn] While this Digimon has 4 or more digivolution cards, it gets +1000 DP."
+		ruling = [
+					" This card has the inherited effect, \"While this Digimon has 4 or more digivolution cards, it gets +1000 DP.\" Is this card counted as part of that total?",
+					" Yes, it does.",
+]
 
 class ST1_02 extends Card:
 	func _init():
@@ -54,7 +58,7 @@ class ST1_02 extends Card:
 		digivolve_level = 2
 		digimon_type = "Bird"
 		power = 3000
-		name = "Piyomon"
+		notes = "Piyomon"
 
 class ST1_03 extends Card:
 	func _init():
@@ -72,7 +76,27 @@ class ST1_03 extends Card:
 		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		inherited_effect_text = "<<Your Turn>> This Digimon gets +1000 DP."
+		inherited_effect_text = "[Your Turn] This Digimon gets +1000 DP."
+
+class ST1_03_B extends Card:
+	func _init():
+		name = "Agumon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.U
+		id = "ST1-03 (B)"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Reptile"
+		power = 2000
+		inherited_effect_text = "[Your Turn] This Digimon gets +1000 DP."
+		is_parallel = true
+		notes = "parallel promo"
 
 class ST1_04 extends Card:
 	func _init():
@@ -124,7 +148,11 @@ class ST1_06 extends Card:
 		digivolve_level = 3
 		digimon_type = "Dragon"
 		power = 6000
-		effect_text = "<<Blocker>> (When the opponent Digimon performs an attack, if this Digimon is in the Active position, you may Rest this Digimon and change the target of the attack to this Digimon)\n<<When Attacking>> Memory -2."
+		effect_text = "[Blocker].\n[When Attacking] Lose 2 memory."
+		ruling = [
+					"Can I attack with this Digimon if I don't have 2 or more memory?",
+					" You can attack with it. But when you do, even if the memory counter moves to 1 or higher on your opponent's side, you don't switch turns until the attack is finished.",
+]
 
 class ST1_07 extends Card:
 	func _init():
@@ -142,7 +170,7 @@ class ST1_07 extends Card:
 		digivolve_level = 3
 		digimon_type = "Dinosaur"
 		power = 4000
-		inherited_effect_text = "<<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)"
+		inherited_effect_text = "[Security Attack +1]."
 
 class ST1_07_B extends Card:
 	func _init():
@@ -160,7 +188,7 @@ class ST1_07_B extends Card:
 		digivolve_level = 3
 		digimon_type = "Dinosaur"
 		power = 4000
-		inherited_effect_text = "<<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)"
+		inherited_effect_text = "[Security Attack +1]."
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -173,14 +201,18 @@ class ST1_08 extends Card:
 		id = "ST1-08"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.ULTIMATE
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.RED
 		digivolve_cost = 3
 		digivolve_level = 4
-		digimon_type = "Bird Man"
+		digimon_type = "Birdkin"
 		power = 7000
-		effect_text = "<<When Evolving>> Choose one of your Digimon; that Digimon gets +3000 DP for the rest of this turn."
+		effect_text = "[When Digivolved] 1 of your Digimon gets +3000 DP for the turn."
+		ruling = [
+					"Can this Digimon target itself for its own effect?",
+					" Yes, it can.",
+]
 
 class ST1_08_B extends Card:
 	func _init():
@@ -191,14 +223,18 @@ class ST1_08_B extends Card:
 		id = "ST1-08 (B)"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.ULTIMATE
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.RED
 		digivolve_cost = 3
 		digivolve_level = 4
-		digimon_type = "Bird Man"
+		digimon_type = "Birdkin"
 		power = 7000
-		effect_text = "<<When Evolving>> Choose one of your Digimon; that Digimon gets +3000 DP for the rest of this turn."
+		effect_text = "[When Digivolved] 1 of your Digimon gets +3000 DP for the turn."
+		ruling = [
+					"Can this Digimon target itself for its own effect?",
+					" Yes, it can.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -211,14 +247,18 @@ class ST1_09 extends Card:
 		id = "ST1-09"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.ULTIMATE
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.RED
 		digivolve_cost = 3
 		digivolve_level = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		inherited_effect_text = "<<Your Turn>> When this Digimon is blocked, Memory +3."
+		inherited_effect_text = "[Your Turn] When this Digimon is blocked, gain 3 memory."
+		ruling = [
+					"Does this card's inherited effect activate when I attack my opponent's Digimon?",
+					"No, it only activates if your opponent declares they're blocking the attack with [Blocker].",
+]
 
 class ST1_09_B extends Card:
 	func _init():
@@ -229,34 +269,18 @@ class ST1_09_B extends Card:
 		id = "ST1-09 (B)"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.MEGA
+		stage_level = Stage.ULTIMATE
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.RED
 		digivolve_cost = 3
 		digivolve_level = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		inherited_effect_text = "<<Your Turn>> When this Digimon is blocked, Memory +3."
-		is_parallel = true
-		notes = "parallel promo"
-
-class ST1_09_C extends Card:
-	func _init():
-		name = "MetalGreymon"
-		type = Type.DIGIMON
-		color = ColorGroup.RED
-		rarity = Rarity.R
-		id = "ST1-09 (C)"
-		play_cost = 7
-		level = 5
-		stage_level = Stage.MEGA
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 3
-		digivolve_level = 4
-		digimon_type = "Cyborg"
-		power = 7000
-		inherited_effect_text = "<<Your Turn>> When this Digimon is blocked, Memory +3."
+		inherited_effect_text = "[Your Turn] When this Digimon is blocked, gain 3 memory."
+		ruling = [
+					"Does this card's inherited effect activate when I attack my opponent's Digimon?",
+					"No, it only activates if your opponent declares they're blocking the attack with [Blocker].",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -269,14 +293,13 @@ class ST1_10 extends Card:
 		id = "ST1-10"
 		play_cost = 10
 		level = 6
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.MEGA
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.RED
 		digivolve_cost = 2
 		digivolve_level = 5
 		digimon_type = "Holy Beast"
 		power = 12000
-		notes = "Hououmon"
 
 class ST1_11 extends Card:
 	func _init():
@@ -287,14 +310,18 @@ class ST1_11 extends Card:
 		id = "ST1-11"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.MEGA
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.RED
 		digivolve_cost = 4
 		digivolve_level = 5
-		digimon_type = "Dragon Man"
+		digimon_type = "Dragonkin"
 		power = 12000
-		effect_text = "<<Your Turn>> For every 2 Evolution Bases this Digimon has, this Digimon gains <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1)."
+		effect_text = "[Your Turn] For every 2 digivolution cards this Digimon has, it gains [Security Attack +1]."
+		ruling = [
+					"How does this Digimon's effect work when it has 3 digivolution cards?",
+					"Only multiples of 2 count for this effect, so even if you have 3 digivolution cards, it only gains [Security Attack +1].",
+]
 
 class ST1_12 extends Card:
 	func _init():
@@ -304,8 +331,12 @@ class ST1_12 extends Card:
 		rarity = Rarity.R
 		id = "ST1-12"
 		play_cost = 2
-		effect_text = "<<Your Turn>> All of your Digimon get +1000 DP."
-		sec_effect_text = "<<Security>> Play this card without paying its Cost."
+		effect_text = "[Your Turn] All of your Digimon get +1000 DP."
+		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		ruling = [
+					"Does the effect of this Tamer stack if there are multiple copies in play in my battle area?",
+					"Yes, it does..",
+]
 		notes = "Yagami Taichi"
 
 class ST1_13 extends Card:
@@ -316,8 +347,12 @@ class ST1_13 extends Card:
 		rarity = Rarity.C
 		id = "ST1-13"
 		play_cost = 1
-		effect_text = "<<Main>> Choose one of your Digimon; that Digimon gets +3000 DP for the rest of this turn."
-		sec_effect_text = "<<Security>> All of your Digimon gain <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1) until the end of your next turn."
+		effect_text = "[Main] 1 of your Digimon gets +3000 DP for the turn."
+		sec_effect_text = "[Security] All of your Digimon gain [Security Attack +1] until the end of your next turn."
+		ruling = [
+					"During my next turn after this card's security effect was activated, does it apply to newly played Digimon and Digimon moved from the breeding area to the battle area?",
+					"Yes, it does.",
+]
 
 class ST1_13_B extends Card:
 	func _init():
@@ -327,8 +362,12 @@ class ST1_13_B extends Card:
 		rarity = Rarity.C
 		id = "ST1-13 (B)"
 		play_cost = 1
-		effect_text = "<<Main>> Choose one of your Digimon; that Digimon gets +3000 DP for the rest of this turn."
-		sec_effect_text = "<<Security>> All of your Digimon gain <<Security Attack + 1>> (The number of Security cards this Digimon Checks increases by 1) until the end of your next turn."
+		effect_text = "[Main] 1 of your Digimon gets +3000 DP for the turn."
+		sec_effect_text = "[Security] All of your Digimon gain [Security Attack +1] until the end of your next turn."
+		ruling = [
+					"During my next turn after this card's security effect was activated, does it apply to newly played Digimon and Digimon moved from the breeding area to the battle area?",
+					"Yes, it does.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -340,8 +379,8 @@ class ST1_14 extends Card:
 		rarity = Rarity.C
 		id = "ST1-14"
 		play_cost = 2
-		effect_text = "<<Main>> All of your Security Digimon get +7000 DP until the end of the opponent's next turn."
-		sec_effect_text = "<<Security>> All of your Security Digimon get +7000 DP for the rest of this turn."
+		effect_text = "[Main] All of your Security Digimon get +7000 DP until the end of your opponent's next turn."
+		sec_effect_text = "[Security] All of your Security Digimon get +7000 DP for the turn."
 
 class ST1_15 extends Card:
 	func _init():
@@ -351,8 +390,12 @@ class ST1_15 extends Card:
 		rarity = Rarity.C
 		id = "ST1-15"
 		play_cost = 6
-		effect_text = "<<Main>> Destroy up to 2 opponent Digimon whose DP is 4000 or lower."
-		sec_effect_text = "<<Security>> Activate this card's <<Main>> effect."
+		effect_text = "[Main] Delete up to 2 of your opponent's Digimon with 4000 DP or less."
+		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"What happens to the digivolution cards of a Digimon deleted by this card's main effect? ",
+					"They are sent to their owner's trash. ",
+]
 
 class ST1_16 extends Card:
 	func _init():
@@ -362,8 +405,12 @@ class ST1_16 extends Card:
 		rarity = Rarity.U
 		id = "ST1-16"
 		play_cost = 8
-		effect_text = "<<Main>> Destroy 1 opponent Digimon."
-		sec_effect_text = "<<Security>> Activate this card's <<Main>> effect."
+		effect_text = "[Main] Delete 1 of your opponent's Digimon."
+		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"What happens to the digivolution cards of a Digimon deleted by this card's main effect? ",
+					"They are sent to their owner's trash. ",
+]
 
 class ST1_16_B extends Card:
 	func _init():
@@ -373,8 +420,12 @@ class ST1_16_B extends Card:
 		rarity = Rarity.U
 		id = "ST1-16 (B)"
 		play_cost = 8
-		effect_text = "<<Main>> Destroy 1 opponent Digimon."
-		sec_effect_text = "<<Security>> Activate this card's <<Main>> effect."
+		effect_text = "[Main] Delete 1 of your opponent's Digimon."
+		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"What happens to the digivolution cards of a Digimon deleted by this card's main effect? ",
+					"They are sent to their owner's trash. ",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
