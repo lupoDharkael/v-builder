@@ -9,6 +9,7 @@ logs/
 settings.cfg
 storage/*
 card_images/*.png
+booster_images/*.png
 
 # Imported translations (automatically generated from CSV files)
 *.translation

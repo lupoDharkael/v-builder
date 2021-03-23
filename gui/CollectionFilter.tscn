@@ -43,7 +43,6 @@ margin_right = 752.0
 margin_bottom = 22.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-align = 1
 clear_button_enabled = true
 placeholder_text = "Search"
 
@@ -79,25 +78,22 @@ margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="BoosterMenu" type="MenuButton" parent="VBoxContainer/MenuContainer"]
-margin_right = 328.0
+[node name="BoosterMenu" type="Button" parent="VBoxContainer/MenuContainer"]
+margin_right = 261.0
 margin_bottom = 22.0
-focus_mode = 2
 size_flags_horizontal = 3
-size_flags_stretch_ratio = 1.4
 text = "Booster"
-flat = false
 clip_text = true
 
 [node name="BoosterButton" type="Button" parent="VBoxContainer/MenuContainer"]
-margin_left = 332.0
-margin_right = 352.0
+margin_left = 265.0
+margin_right = 285.0
 margin_bottom = 22.0
 text = "X"
 
 [node name="RarityMenu" type="MenuButton" parent="VBoxContainer/MenuContainer"]
-margin_left = 356.0
-margin_right = 591.0
+margin_left = 289.0
+margin_right = 551.0
 margin_bottom = 22.0
 focus_mode = 2
 size_flags_horizontal = 3
@@ -105,14 +101,14 @@ text = "Rarity"
 flat = false
 
 [node name="RarityButton" type="Button" parent="VBoxContainer/MenuContainer"]
-margin_left = 595.0
-margin_right = 615.0
+margin_left = 555.0
+margin_right = 575.0
 margin_bottom = 22.0
 text = "X"
 
 [node name="TypeMenu" type="MenuButton" parent="VBoxContainer/MenuContainer"]
-margin_left = 619.0
-margin_right = 807.0
+margin_left = 579.0
+margin_right = 788.0
 margin_bottom = 22.0
 focus_mode = 2
 size_flags_horizontal = 3
@@ -121,13 +117,13 @@ text = "Type"
 flat = false
 
 [node name="TypeButton" type="Button" parent="VBoxContainer/MenuContainer"]
-margin_left = 811.0
-margin_right = 831.0
+margin_left = 792.0
+margin_right = 812.0
 margin_bottom = 22.0
 text = "X"
 
 [node name="LevelMenu" type="MenuButton" parent="VBoxContainer/MenuContainer"]
-margin_left = 835.0
+margin_left = 816.0
 margin_right = 1000.0
 margin_bottom = 22.0
 focus_mode = 2

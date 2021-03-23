@@ -3,7 +3,7 @@
 
 extends Control
 
-var booster_menu : MenuButton
+var booster_menu : Button
 var color_menu : MenuButton
 var rarity_menu : MenuButton
 var type_menu : MenuButton
@@ -13,6 +13,8 @@ var search_field : LineEdit
 var count_label : LineEdit
 
 var search_timer : Timer
+
+var booster_selector : WindowDialog
 
 signal filter_changed
 signal sort_changed(sort_type)
@@ -24,6 +26,11 @@ func _input(event) -> void:
 			search_field.grab_focus()
 
 
+func _on_booster_item_selected() -> void:
+	booster_menu.text = _get_button_text(booster_menu.text, !booster_selector.is_empty())
+	emit_filter_changed()
+
+
 func _on_menu_item_selected(item : int, button : MenuButton) -> void:
 	var is_checked := button.get_popup().is_item_checked(item)
 	button.get_popup().set_item_checked(item, !is_checked)
@@ -33,6 +40,12 @@ func _on_menu_item_selected(item : int, button : MenuButton) -> void:
 func emit_filter_changed():
 	emit_signal("filter_changed")
 
+
+func reset_booster_selection():
+	if !booster_selector.is_empty():
+		booster_selector.clear()
+		booster_menu.text = _get_button_text(booster_menu.text, false)
+		emit_filter_changed()
 
 func select_default(menu_button : MenuButton):
 	var content_changed := false
@@ -57,8 +70,15 @@ func set_sort_type(type : String) -> void:
 			break
 
 
+func show_booster_selector() -> void:
+	booster_selector.popup_centered(get_viewport().size * 0.85)
+
 
 func _ready():
+	booster_selector = preload("res://gui/BoosterSelector.tscn").instance()
+	booster_selector.connect("selection_changed", self, "_on_booster_item_selected")
+	add_child(booster_selector)
+	
 	search_field = $VBoxContainer/HBoxContainer/Search
 	search_field.connect("text_changed", self, "on_search_edited")
 	
@@ -79,13 +99,8 @@ func _ready():
 		sort_menu.set_item_icon(i, sort_icon)
 	sort_menu.connect("item_selected", self, "sort_selected")
 	
-	booster_menu = $VBoxContainer/MenuContainer/BoosterMenu as MenuButton
-	booster_menu.get_popup().hide_on_checkable_item_selection = false
-	var booster_list = CardDB.get_booster_list()
-	for i in booster_list.size():
-		booster_menu.get_popup().add_item(booster_list[i].name)
-		booster_menu.get_popup().set_item_as_checkable(i, true)
-	booster_menu.get_popup().connect("id_pressed", self, "_on_menu_item_selected", [booster_menu])
+	booster_menu = $VBoxContainer/MenuContainer/BoosterMenu as Button
+	booster_menu.connect("pressed", self, "show_booster_selector")
 	
 	color_menu = $VBoxContainer/HBoxContainer/ColorMenu as MenuButton
 	color_menu.get_popup().hide_on_checkable_item_selection = false
@@ -154,7 +169,7 @@ func _ready():
 	var type_clear = $VBoxContainer/MenuContainer/TypeButton
 	var level_clear = $VBoxContainer/MenuContainer/LevelButton
 	
-	booster_clear.connect("pressed", self, "select_default", [booster_menu])
+	booster_clear.connect("pressed", self, "reset_booster_selection")
 	color_clear.connect("pressed", self, "select_default", [color_menu])
 	rarity_clear.connect("pressed", self, "select_default", [rarity_menu])
 	type_clear.connect("pressed", self, "select_default", [type_menu])
@@ -170,18 +185,25 @@ func sort_selected(item : int) -> void:
 
 
 func update_menu_button_text(menu_button : MenuButton) -> void:
-	var edited_sufix := " [!]"
 	var has_checked := false
 	for i in menu_button.get_popup().get_item_count():
 		if menu_button.get_popup().is_item_checked(i):
 			has_checked = true
 			break
-	if menu_button.text.ends_with(edited_sufix):
-		if !has_checked:
-			menu_button.text = menu_button.text.substr(0, menu_button.text.length() - edited_sufix.length())
+	menu_button.text = _get_button_text(menu_button.text, has_checked)
+
+
+func _get_button_text(text : String, has_filter) -> String:
+	var edited_sufix := " [!]"
+	var res := text
+	if text.ends_with(edited_sufix):
+		if !has_filter:
+			res = text.substr(0, text.length() - edited_sufix.length())
 	else:
-		if has_checked:
-			menu_button.text = menu_button.text + edited_sufix
+		if has_filter:
+			res = text + edited_sufix
+	return res
+
 
 func filter_collection(collection : CardCollection) -> CardCollection:
 	var res := CardCollection.new()
@@ -212,15 +234,7 @@ func _filter_card(card : Card) -> bool:
 		return false
 	
 	# Booster
-	for i in booster_menu.get_popup().get_item_count():
-		if booster_menu.get_popup().is_item_checked(i):
-			# There are checks in this MenuButton, not valid until we have a match
-			if is_valid:
-				is_valid = false
-			
-			if CardDB.card_is_from_booster_id(card, i):
-				is_valid = true
-				break
+	is_valid = booster_selector.card_is_valid(card)
 	if !is_valid:
 		return false
 	

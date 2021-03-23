@@ -1,0 +1,57 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://thridparty/h_flow_container/h_flow_container.gd" type="Script" id=1]
+[ext_resource path="res://thridparty/big_font.tres" type="DynamicFont" id=2]
+[ext_resource path="res://gui/BoosterSelector.gd" type="Script" id=3]
+
+[node name="BoosterSelector" type="WindowDialog"]
+visible = true
+margin_right = 1022.0
+margin_bottom = 599.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 15.0
+margin_top = 15.0
+margin_right = -15.0
+margin_bottom = -15.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+margin_right = 992.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 0, 60 )
+
+[node name="SearchField" type="LineEdit" parent="VBoxContainer/HBoxContainer"]
+margin_right = 992.0
+margin_bottom = 60.0
+size_flags_horizontal = 3
+custom_fonts/font = ExtResource( 2 )
+align = 1
+placeholder_text = "SEARCH"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
+margin_top = 64.0
+margin_right = 992.0
+margin_bottom = 569.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HFlowContainer" type="Container" parent="VBoxContainer/ScrollContainer"]
+margin_right = 992.0
+margin_bottom = 505.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+horizontal_margin = 20.0
+vertical_margin = 20.0

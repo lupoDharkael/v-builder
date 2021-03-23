@@ -57,6 +57,6 @@ func set_text_edit_content(text_edit : TextEdit, text : String) -> void:
 	text_edit.visible = !text.empty()
 	text_edit.get_parent().get_child(text_edit.get_index() - 1).visible = !text.empty()
 	text_edit.text = text
-	var size := text_edit.get_font("font").get_wordwrap_string_size(text, self.rect_size.x - 20)
+	var size := text_edit.get_font("font").get_wordwrap_string_size(text, self.rect_size.x - 25)
 	size.y *= 2
 	text_edit.rect_min_size = size

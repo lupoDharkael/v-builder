@@ -256,7 +256,7 @@ func _on_card_clicked(cv : Control, e : InputEventMouse) -> void:
 	
 	if e.button_index == BUTTON_MIDDLE and e.pressed:
 		card_detail.set_card_view_item(cv)
-		card_detail.popup_centered(get_viewport().size * 0.8)
+		card_detail.popup_centered(get_viewport().size * 0.85)
 
 
 # Bind with other CollectionView to receive the input from this one

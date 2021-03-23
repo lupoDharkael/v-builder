@@ -91,6 +91,7 @@ func _ready():
 	toolbar_container.mid_button.connect("pressed", self, "change_split_offset", [0.0])
 	toolbar_container.full_button.connect("pressed", self, "change_split_offset", [-1.0])
 	toolbar_container.side_button.connect("pressed", self, "change_split_offset", [0.5])
+	toolbar_container.no_deck_button.connect("pressed", self, "change_split_offset", [1.0])
 	
 	toolbar_container.clear_button.disabled = deck_container.is_empty()
 	toolbar_container.delete_dialog.connect("confirmed", self, "clear_deck")

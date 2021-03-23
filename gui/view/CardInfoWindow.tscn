@@ -18,7 +18,6 @@ scancode = 16777233
 shortcut = SubResource( 3 )
 
 [node name="CardInfoWindow" type="PopupDialog"]
-visible = true
 margin_right = 1023.0
 margin_bottom = 602.0
 mouse_filter = 1
@@ -92,7 +91,7 @@ mouse_filter = 1
 size_flags_horizontal = 3
 
 [node name="CardDetail" parent="HBoxContainer/ScrollContainer" instance=ExtResource( 1 )]
-margin_right = 334.0
+margin_right = 346.0
 margin_bottom = 749.0
 size_flags_horizontal = 3
 

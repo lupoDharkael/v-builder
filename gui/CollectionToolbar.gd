@@ -12,6 +12,7 @@ var clear_button : Button
 var full_button : Button
 var mid_button : Button
 var side_button : Button
+var no_deck_button : Button
 var exit_button : Button
 var plus_one_button : Button
 
@@ -32,6 +33,7 @@ func _ready():
 	full_button = $HBoxContainer/VBoxContainer/HBoxContainer/FullButton
 	mid_button = $HBoxContainer/VBoxContainer/HBoxContainer/MidButton
 	side_button = $HBoxContainer/VBoxContainer/HBoxContainer/SideButton
+	no_deck_button = $HBoxContainer/VBoxContainer/HBoxContainer/NoDeckButton
 	exit_button = $HBoxContainer/ExitButton
 	plus_one_button = $HBoxContainer/VBoxContainer/HBoxContainer/PlusOneButton
 	
@@ -73,6 +75,7 @@ func show_deck_tools(show : bool) -> void:
 	full_button.visible = show
 	mid_button.visible = show
 	side_button.visible = show
+	no_deck_button.visible = show
 	plus_one_button.visible = !show
 	
 	$HBoxContainer/VBoxContainer/HBoxContainer/VSeparator.visible = show

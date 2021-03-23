@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://gui/view/CardViewItem.tscn" type="PackedScene" id=1]
 [ext_resource path="res://gui/deck_list/DeckItem.gd" type="Script" id=2]
+[ext_resource path="res://thridparty/medium_front.tres" type="DynamicFont" id=3]
 [ext_resource path="res://gui/deck_list/deck_styleboxflat.tres" type="StyleBox" id=4]
 [ext_resource path="res://thridparty/big_font.tres" type="DynamicFont" id=5]
 
@@ -80,3 +81,18 @@ __meta__ = {
 }
 
 [node name="Tween" type="Tween" parent="."]
+
+[node name="CountLineEdit" type="LineEdit" parent="."]
+visible = false
+margin_top = 182.756
+margin_right = 60.0
+margin_bottom = 209.756
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_uneditable = Color( 0.792157, 0.784314, 0.784314, 1 )
+text = "4"
+align = 1
+editable = false
+expand_to_text_length = true
+__meta__ = {
+"_edit_use_anchors_": false
+}

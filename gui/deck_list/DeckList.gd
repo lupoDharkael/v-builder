@@ -148,6 +148,7 @@ func sync_with_filesystem() -> void:
 	sort_collections()
 	if (container.get_child_count()):
 		container.get_child(0).grab_focus()
+		container.get_child(0).call_deferred("grab_focus")
 
 
 func sort_collections() -> void:

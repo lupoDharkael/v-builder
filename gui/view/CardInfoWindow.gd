@@ -9,6 +9,12 @@ var rules_label : RichTextLabel
 var prev_button : Button
 var next_button : Button
 
+
+func _notification(what):
+	if what == NOTIFICATION_VISIBILITY_CHANGED && visible:
+		next_button.grab_focus()
+
+
 func _ready():
 	card_detail = $HBoxContainer/ScrollContainer/CardDetail
 	card_texture = $HBoxContainer/VBoxContainer/TextureRect
@@ -19,6 +25,7 @@ func _ready():
 	
 	prev_button.connect("pressed", self, "change_to_sibling", [-1])
 	next_button.connect("pressed", self, "change_to_sibling", [+1])
+	
 
 
 func change_to_sibling(val : int) -> void:

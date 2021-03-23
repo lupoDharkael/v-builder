@@ -27,6 +27,12 @@ func _ready() -> void:
 	name_edit.connect("focus_exited", self, "enable_name_edit", [false])
 
 
+func set_count_num(c : int) -> void:
+	var count_edit = $CountLineEdit
+	count_edit.visible = c != 0
+	count_edit.text = str(c)
+
+
 func reload_texture() -> void:
 	card_preview.reload_texture()
 
@@ -63,6 +69,7 @@ func enable_name_edit(enable : bool) -> void:
 		name_edit.editable = false
 		name_edit.deselect()
 
+
 func set_selected(selected : bool) -> void:
 	_color_rect.visible = selected
 	if selected:
@@ -95,6 +102,9 @@ func set_collection(c : CardCollection, show_lead : bool = true):
 	var lead_card : Card 
 	if show_lead:
 		lead_card = c.get_lead_card()
+	else:
+		set_count_num(c.size())
+	
 	if lead_card:
 		_color_rect.color = lead_card.get_rgb_color()
 	else:
