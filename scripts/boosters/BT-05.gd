@@ -140,7 +140,7 @@ class BT5_001 extends Card:
 		level = 2
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Lesser"
-		inherited_effect_text = "[When Attacking] [Once Per Turn] If this Digimon has [Omnimon], [BurningGreymon], [DexDoruGreymon]}, trigger [Draw 1]."
+		inherited_effect_text = "[When Attacking] [Once Per Turn] If this Digimon's name contains [Greymon] or [Omnimon], trigger [Draw 1]."
 
 class BT5_002 extends Card:
 	func _init():
@@ -152,7 +152,7 @@ class BT5_002 extends Card:
 		level = 2
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Lesser"
-		inherited_effect_text = "[Your Turn] While this Digimon has [Omnimon]}, this Digimon gets +1000 DP."
+		inherited_effect_text = "[Your Turn] While this Digimon's name contains [Garurumon] or [Omnimon], this Digimon gets +1000 DP."
 
 class BT5_003 extends Card:
 	func _init():
@@ -227,7 +227,7 @@ class BT5_007 extends Card:
 		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		effect_text = "[On Play] Reveal 3 cards from the top of your deck. Add 1 Digimon card with [Greymon], [BurningGreymon], [DexDoruGreymon]} and/or 1 Digimon card with [Omnimon] from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		effect_text = "[On Play] Reveal 3 cards from the top of your deck. Add 1 Digimon card with [Greymon] and/or 1 Digimon card with [Omnimon] in its name from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 		ruling = [
 					"For this card's effect, if I do not reveal both a card with [Greymon] and a card with [Omnimon], does that mean I don't get to add them to my hand?",
 					"No, if you only revealed either a Digimon card with [Greymon] or a Digimon card with [Omnimon], you still add either of them to your hand.",
@@ -303,7 +303,7 @@ class BT5_010 extends Card:
 		digimon_type = "Dinosaur"
 		power = 5000
 		effect_text = "[When Digivolved] If this Digimon has [Agumon] in it's Digivolution Cards, gain 1 memory."
-		inherited_effect_text = "[Your Turn] While this Digimon has [Omnimon], [BurningGreymon], [DexDoruGreymon]}, it gets +2000 DP."
+		inherited_effect_text = "[Your Turn] While this Digimon has [Greymon] or [Omnimon] in its name, this Digimon gets +2000 DP."
 
 class BT5_011 extends Card:
 	func _init():
@@ -404,7 +404,7 @@ class BT5_015 extends Card:
 		digimon_type = "Cyborg"
 		power = 8000
 		effect_text = "[When Digivolved] While a Digimon card with [MetalGreymon] is in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 4000 DP or less."
-		inherited_effect_text = "[Your Turn] When this Digimon has [Omnimon], [BurningGreymon], [DexDoruGreymon]}, it gets +2000 DP."
+		inherited_effect_text = "[Your Turn] While this Digimon has [Greymon] or [Omnimon] in its name, it gets +2000 DP."
 
 class BT5_016 extends Card:
 	func _init():
@@ -551,7 +551,7 @@ class BT5_020 extends Card:
 		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		effect_text = "[On Play] Reveal 3 cards from the top of your Deck. Add 1 Digimon card with [Garurumon]} and/or 1 Digimon card with [Omnimon] from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		effect_text = "[On Play] Reveal 3 cards from the top of your Deck. Add 1 Digimon card with [Garurumon] and/or 1 Digimon card with [Omnimon] in its name from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 		ruling = [
 					"For this card's effect, if I do not reveal both a card with [Garurumon] and a card with [Omnimon], does that mean I don't get to add them to my hand?",
 					"No, if you only revealed either a Digimon card with [Garurumon] or a Digimon card with [Omnimon], you still add either of them to your hand.",
@@ -646,7 +646,7 @@ class BT5_024 extends Card:
 		digimon_type = "Beast"
 		power = 5000
 		effect_text = "[When Digivolved] If this Digimon has [Gabumon] in it's Digivolution Cards, gain 1 memory."
-		inherited_effect_text = "[All Turns] While this Digimon has [Omnimon]}, it gets +1000 DP."
+		inherited_effect_text = "[All Turns] While this Digimon has [Garurumon] or [Omnimon] in its name, this Digimon gets +1000 DP."
 
 class BT5_025 extends Card:
 	func _init():
@@ -740,7 +740,7 @@ class BT5_029 extends Card:
 		digimon_type = "Beastkin"
 		power = 8000
 		effect_text = "[When Digivolved] While a Digimon card with [WereGarurumon] is in this Digimon's digivolution cards, this Digimon gains [Jamming]."
-		inherited_effect_text = "[Your Turn] When this Digimon has [Omnimon]}, it gets +1000 DP."
+		inherited_effect_text = "[All Turns] While this Digimon has [Garurumon] or [Omnimon] in its name, this Digimon gets +1000 DP."
 
 class BT5_030 extends Card:
 	func _init():
@@ -2258,7 +2258,7 @@ class BT5_092 extends Card:
 		rarity = Rarity.R
 		id = "BT5-092"
 		play_cost = 3
-		effect_text = "[On Play] You may play 1 [Agumon] or [Gabumon] from your hand without paying its memory cost.\n[Main] When digivolving one of your Digimon into a Digimon card in your hand with [Omnimon], [BurningGreymon], [DexDoruGreymon], or [KendoGarurumon]}, you may suspend this Tamer to reduce the memory cost of the digivolution by 1."
+		effect_text = "[On Play] You may play 1 [Agumon] or 1 [Gabumon] from your hand without paying its memory cost.\n[Main] When digivolving one of your Digimon into a Digimon card in your hand with [Greymon], [Garurumon] or [Omnimon] in its name, you may suspend this Tamer to reduce the memory cost of the digivolution by 1."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		ruling = [
 					"I digivolve a Digimon in my breeding area into a Digimon card with [Greymon], or [Garurumon], or [Omnimon]. Can I use this Tamer's effect to reduce the digivolution cost by 1?",
@@ -2275,7 +2275,7 @@ class BT5_092_B extends Card:
 		rarity = Rarity.R
 		id = "BT5-092 (B)"
 		play_cost = 3
-		effect_text = "[On Play] You may play 1 [Agumon] or [Gabumon] from your hand without paying its memory cost.\n[Main] When digivolving one of your Digimon into a Digimon card in your hand with [Omnimon], [BurningGreymon], [DexDoruGreymon], or [KendoGarurumon]}, you may suspend this Tamer to reduce the memory cost of the digivolution by 1."
+		effect_text = "[On Play] You may play 1 [Agumon] or 1 [Gabumon] from your hand without paying its memory cost.\n[Main] When digivolving one of your Digimon into a Digimon card in your hand with [Greymon], [Garurumon] or [Omnimon] in its name, you may suspend this Tamer to reduce the memory cost of the digivolution by 1."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		ruling = [
 					"I digivolve a Digimon in my breeding area into a Digimon card with [Greymon], or [Garurumon], or [Omnimon]. Can I use this Tamer's effect to reduce the digivolution cost by 1?",
@@ -2338,7 +2338,7 @@ class BT5_095 extends Card:
 		rarity = Rarity.U
 		id = "BT5-095"
 		play_cost = 7
-		effect_text = "[Main] Delete 1 of your opponent's Digimon with 11000 DP or less. If you have a Digimon in play with [Omnimon], [BurningGreymon], [DexDoruGreymon]} , delete 1 of your opponent's Digimon with 15000 DP or less instead."
+		effect_text = "[Main] Delete 1 of your opponents Digimon with 11000 DP or less. If you have a Digimon with [Greymon] or [Omnimon] in its name, delete 1 of your opponents Digimon with 15000 DP or less instead."
 		sec_effect_text = "[Security] Activate this cards [Main] effect."
 		notes = "Grey Sword"
 
@@ -2350,7 +2350,7 @@ class BT5_096 extends Card:
 		rarity = Rarity.C
 		id = "BT5-096"
 		play_cost = 3
-		effect_text = "[Main] Return all of your opponent's Digimon with 3000 DP or less to their owners' hands. If you have a Digimon in play with [Omnimon]} , return all of your opponent's Digimon with 5000 DP or less to their owners' hands instead. Trash all of the digivolution cards of those Digimon."
+		effect_text = "[Main] Return all of your opponents Digimon with 3000 DP or less to their owner's hands. If you have a Digimon with [Garurumon] or [Omnimon] in its name, return all of your opponents Digimon with 5000 DP or less to their owner's hands instead. (Trash the digivolution cards of those Digimon)."
 		sec_effect_text = "[Security] Activate this cards [Main] effect."
 		notes = "Garuru Cannon"
 

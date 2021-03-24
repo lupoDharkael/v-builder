@@ -38,7 +38,6 @@ func _input(event) -> void:
 
 func _on_collection_imported(c : CardCollection) -> void:
 	c.path = get_working_path()
-	print(c.get_file_path())
 	if !Storage.is_collection_in_disk(c):
 		Storage.save_collection(c)
 		add_deck_item(c)
