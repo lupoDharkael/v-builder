@@ -8,8 +8,7 @@ var default_deck_mode := true
 
 
 func _ready():
-	var screen_size = OS.get_screen_size()
-	OS.set_window_size(screen_size)
+	OS.set_window_maximized(true)
 	open_deck_list()
 
 
