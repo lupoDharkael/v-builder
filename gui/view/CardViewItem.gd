@@ -156,9 +156,9 @@ func get_hover_size_factor() -> float:
 
 func set_size_factor(factor : float) -> void:
 	if card_view:
-		size_factor = card_view.set_size_factor(factor)
-	else:
-		size_factor = factor
+		card_view.set_size_factor(factor)
+	
+	size_factor = factor
 	card_holder.rect_min_size = Vector2(card_view.h_base_size * (size_factor + hover_factor), card_view.v_base_size * (size_factor + hover_factor))
 	#card_holder.rect_size = card_holder.rect_size
 	rect_min_size = Vector2()

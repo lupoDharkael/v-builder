@@ -11,7 +11,6 @@ func apply_search_filter(filter : String):
 		visible = true
 	else:
 		visible = $Label.text.findn(filter) != -1 || button.hint_tooltip.findn(filter) != -1
-	print(visible)
 
 
 func set_data(booster_data, id) -> void:

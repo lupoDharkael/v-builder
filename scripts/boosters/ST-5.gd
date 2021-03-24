@@ -83,7 +83,7 @@ class ST5_04 extends Card:
 		digivolve_level = 2
 		digimon_type = "Puppet"
 		power = 2000
-		inherited_effect_text = "[End of Opponent\'s Turn] If your opponent didn't attack with a Digimon this turn, trigger [Draw 1]."
+		inherited_effect_text = "[End of Opponent's Turn] If your opponent didn't attack with a Digimon this turn, trigger [Draw 1]."
 
 class ST5_05 extends Card:
 	func _init():
@@ -118,7 +118,7 @@ class ST5_06 extends Card:
 		digivolve_level = 3
 		digimon_type = "Dinosaur"
 		power = 4000
-		inherited_effect_text = "[End of Opponent\'s Turn] If your opponent didn't attack with a Digimon this turn, trigger [Draw 1]."
+		inherited_effect_text = "[End of Opponent's Turn] If your opponent didn't attack with a Digimon this turn, trigger [Draw 1]."
 
 class ST5_07 extends Card:
 	func _init():
@@ -243,7 +243,7 @@ class ST5_13 extends Card:
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 12000
-		effect_text = "[Security Attack +].\n[Main] [Digiburst 2].\n・1 of your Digimon gets +4000 DP until the end of your opponent's next turn."
+		effect_text = "[Security Attack +1].\n[Main] [Digiburst 2].\n·1 of your Digimon gets +4000 DP until the end of your opponent's next turn."
 
 class ST5_14 extends Card:
 	func _init():

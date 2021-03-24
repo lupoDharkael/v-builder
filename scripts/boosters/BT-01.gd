@@ -12,6 +12,7 @@ static func register_cards():
 	CardDB.add_card(BT1_007.new())
 	CardDB.add_card(BT1_008.new())
 	CardDB.add_card(BT1_009.new())
+	CardDB.add_card(BT1_009_B.new())
 	CardDB.add_card(BT1_010.new())
 	CardDB.add_card(BT1_010_B.new())
 	CardDB.add_card(BT1_011.new())
@@ -23,7 +24,9 @@ static func register_cards():
 	CardDB.add_card(BT1_017.new())
 	CardDB.add_card(BT1_018.new())
 	CardDB.add_card(BT1_019.new())
+	CardDB.add_card(BT1_019_B.new())
 	CardDB.add_card(BT1_020.new())
+	CardDB.add_card(BT1_020_B.new())
 	CardDB.add_card(BT1_021.new())
 	CardDB.add_card(BT1_022.new())
 	CardDB.add_card(BT1_023.new())
@@ -33,6 +36,7 @@ static func register_cards():
 	CardDB.add_card(BT1_026.new())
 	CardDB.add_card(BT1_027.new())
 	CardDB.add_card(BT1_028.new())
+	CardDB.add_card(BT1_028_B.new())
 	CardDB.add_card(BT1_029.new())
 	CardDB.add_card(BT1_029_B.new())
 	CardDB.add_card(BT1_030.new())
@@ -43,8 +47,10 @@ static func register_cards():
 	CardDB.add_card(BT1_035.new())
 	CardDB.add_card(BT1_036.new())
 	CardDB.add_card(BT1_037.new())
+	CardDB.add_card(BT1_037_B.new())
 	CardDB.add_card(BT1_038.new())
 	CardDB.add_card(BT1_038_B.new())
+	CardDB.add_card(BT1_038_C.new())
 	CardDB.add_card(BT1_039.new())
 	CardDB.add_card(BT1_040.new())
 	CardDB.add_card(BT1_041.new())
@@ -284,6 +290,25 @@ class BT1_009 extends Card:
 		digimon_type = "Mini Dragon"
 		power = 3000
 
+class BT1_009_B extends Card:
+	func _init():
+		name = "Monodramon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.C
+		id = "BT1-009 (B)"
+		play_cost = 2
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Mini Dragon"
+		power = 3000
+		is_parallel = true
+		notes = "parallel promo"
+
 class BT1_010 extends Card:
 	func _init():
 		name = "Agumon"
@@ -379,8 +404,8 @@ class BT1_012 extends Card:
 		ruling = [
 					"How long does the 2000 DP boost from this card's inherited effect last?",
 					"It lasts until the end of the turn you activated it.",
-					"What does \"your recycle bin\" refer to?",
-					"\"Your recycle bin\" is another word for \"your trash\" -- it's where cards go when they're deleted or trashed.",
+					"I activate this card's inherited effect to boost its DP. Later, this digivolution card is trashed. Does the DP boost go away?",
+					"Yes, the +2000 DP boost ends.",
 					"Does this card's inherited effect activate when attacking an opponent's Digimon?",
 					"No. If your opponent doesn't announce a block using [Blocker], it doesn't activate.",
 ]
@@ -521,12 +546,31 @@ class BT1_019 extends Card:
 		digimon_type = "Dinosaur"
 		power = 6000
 
+class BT1_019_B extends Card:
+	func _init():
+		name = "DarkTyrannomon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.C
+		id = "BT1-019 (B)"
+		play_cost = 6
+		level = 4
+		stage_level = Stage.CHAMPION
+		attribute = Attribute.VIRUS
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 1
+		digivolve_level = 3
+		digimon_type = "Dinosaur"
+		power = 6000
+		is_parallel = true
+		notes = "parallel promo"
+
 class BT1_020 extends Card:
 	func _init():
 		name = "Groundramon"
 		type = Type.DIGIMON
 		color = ColorGroup.RED
-		rarity = Rarity.U
+		rarity = Rarity.C
 		id = "BT1-020"
 		play_cost = 5
 		level = 5
@@ -537,6 +581,25 @@ class BT1_020 extends Card:
 		digivolve_level = 4
 		digimon_type = "Earth Dragon"
 		power = 6000
+
+class BT1_020_B extends Card:
+	func _init():
+		name = "Groundramon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.C
+		id = "BT1-020 (B)"
+		play_cost = 5
+		level = 5
+		stage_level = Stage.ULTIMATE
+		attribute = Attribute.VIRUS
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 2
+		digivolve_level = 4
+		digimon_type = "Earth Dragon"
+		power = 6000
+		is_parallel = true
+		notes = "parallel promo"
 
 class BT1_021 extends Card:
 	func _init():
@@ -722,6 +785,25 @@ class BT1_028 extends Card:
 		digivolve_level = 2
 		digimon_type = "Mammal"
 		power = 3000
+
+class BT1_028_B extends Card:
+	func _init():
+		name = "Elecmon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLUE
+		rarity = Rarity.C
+		id = "BT1-028 (B)"
+		play_cost = 2
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.DATA
+		digivolve_color = ColorGroup.BLUE
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Mammal"
+		power = 3000
+		is_parallel = true
+		notes = "parallel promo"
 
 class BT1_029 extends Card:
 	func _init():
@@ -928,6 +1010,25 @@ class BT1_037 extends Card:
 		power = 6000
 		notes = "Gorimon"
 
+class BT1_037_B extends Card:
+	func _init():
+		name = "Gorillamon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLUE
+		rarity = Rarity.C
+		id = "BT1-037 (B)"
+		play_cost = 6
+		level = 4
+		stage_level = Stage.CHAMPION
+		attribute = Attribute.DATA
+		digivolve_color = ColorGroup.BLUE
+		digivolve_cost = 1
+		digivolve_level = 3
+		digimon_type = "Beastkin"
+		power = 6000
+		is_parallel = true
+		notes = "parallel promo Gorimon"
+
 class BT1_038 extends Card:
 	func _init():
 		name = "Monzaemon"
@@ -952,6 +1053,25 @@ class BT1_038_B extends Card:
 		color = ColorGroup.BLUE
 		rarity = Rarity.C
 		id = "BT1-038 (B)"
+		play_cost = 5
+		level = 5
+		stage_level = Stage.ULTIMATE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.BLUE
+		digivolve_cost = 2
+		digivolve_level = 4
+		digimon_type = "Puppet"
+		power = 6000
+		is_parallel = true
+		notes = "parallel promo"
+
+class BT1_038_C extends Card:
+	func _init():
+		name = "Monzaemon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLUE
+		rarity = Rarity.C
+		id = "BT1-038 (C)"
 		play_cost = 5
 		level = 5
 		stage_level = Stage.ULTIMATE
@@ -1494,7 +1614,7 @@ class BT1_060 extends Card:
 		digivolve_level = 4
 		digimon_type = "Archangel"
 		power = 6000
-		effect_text = "[On Play] Trigger [Recovery +]."
+		effect_text = "[On Play] Trigger [Recovery +1]."
 		inherited_effect_text = "[Your Turn] This Digimon gets +1000 DP for every 3 security cards you have."
 		ruling = [
 					"I have 2 or fewer security cards left. What happens to this card's inherited effect?",
@@ -1518,7 +1638,7 @@ class BT1_060_B extends Card:
 		digivolve_level = 4
 		digimon_type = "Archangel"
 		power = 6000
-		effect_text = "[On Play] Trigger [Recovery +]."
+		effect_text = "[On Play] Trigger [Recovery +1]."
 		inherited_effect_text = "[Your Turn] This Digimon gets +1000 DP for every 3 security cards you have."
 		ruling = [
 					"I have 2 or fewer security cards left. What happens to this card's inherited effect?",
@@ -1584,7 +1704,7 @@ class BT1_063 extends Card:
 		digivolve_level = 5
 		digimon_type = "Seraph"
 		power = 10000
-		effect_text = "[When Digivolved] Trigger [Recovery +].\n[Your Turn] While you have 3 or more security cards, this Digimon gains [Security Attack +1]."
+		effect_text = "[When Digivolved] Trigger [Recovery +1].\n[Your Turn] While you have 3 or more security cards, this Digimon gains [Security Attack +1]."
 		ruling = [
 					"I have 6 security cards. Does this card's effect give this Digimon [Security Attack +2]?",
 					"No. It only grants [Security Attack +1], no matter how many security cards you have.",
@@ -2308,7 +2428,7 @@ class BT1_087 extends Card:
 		rarity = Rarity.R
 		id = "BT1-087"
 		play_cost = 2
-		effect_text = "[Start of Your Turn] If you have 2 or less memory, set your memory to 3.\n[On Play] Look at your security stack, then reveal 1 card in it and add it to your hand. If that card is yellow, trigger [Recovery +]. Then shuffle your security stack."
+		effect_text = "[Start of Your Turn] If you have 2 or less memory, set your memory to 3.\n[On Play] Look at your security stack, then reveal 1 card in it and add it to your hand. If that card is yellow, trigger [Recovery +1]. Then shuffle your security stack."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		ruling = [
 					"I have both this card and [Matt Ishida] in play. How do I resolve their effects?",
@@ -2328,7 +2448,7 @@ class BT1_087_B extends Card:
 		rarity = Rarity.R
 		id = "BT1-087 (B)"
 		play_cost = 2
-		effect_text = "[Start of Your Turn] If you have 2 or less memory, set your memory to 3.\n[On Play] Look at your security stack, then reveal 1 card in it and add it to your hand. If that card is yellow, trigger [Recovery +]. Then shuffle your security stack."
+		effect_text = "[Start of Your Turn] If you have 2 or less memory, set your memory to 3.\n[On Play] Look at your security stack, then reveal 1 card in it and add it to your hand. If that card is yellow, trigger [Recovery +1]. Then shuffle your security stack."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		ruling = [
 					"I have both this card and [Matt Ishida] in play. How do I resolve their effects?",
@@ -2709,7 +2829,7 @@ class BT1_107 extends Card:
 		rarity = Rarity.C
 		id = "BT1-107"
 		play_cost = 6
-		effect_text = "[Main] Trigger [Recovery +]."
+		effect_text = "[Main] Trigger [Recovery +1]."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
 		ruling = [
 					"I have 1 card in my security stack. My opponent attacks me with a Digimon with [Security Attack +1], and flips over this card during the security check. Its [Recovery +1] activates, adding a card to my empty security stack. Does my opponent continue the security check?",
@@ -2725,7 +2845,7 @@ class BT1_107_B extends Card:
 		rarity = Rarity.C
 		id = "BT1-107 (B)"
 		play_cost = 6
-		effect_text = "[Main] Trigger [Recovery +]."
+		effect_text = "[Main] Trigger [Recovery +1]."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
 		ruling = [
 					"I have 1 card in my security stack. My opponent attacks me with a Digimon with [Security Attack +1], and flips over this card during the security check. Its [Recovery +1] activates, adding a card to my empty security stack. Does my opponent continue the security check?",

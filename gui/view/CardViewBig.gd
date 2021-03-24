@@ -14,10 +14,9 @@ var is_foil : bool
 func _ready():
 	pass
 
-func set_size_factor(factor : float) -> float:
+func set_size_factor(factor : float) -> void:
 	rect_min_size = Vector2(h_base_size * factor, v_base_size * factor)
 	#rect_size = rect_min_size
-	return factor
 
 func set_card(_card : Card) -> void:
 	if _card:

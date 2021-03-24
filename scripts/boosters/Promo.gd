@@ -2,7 +2,7 @@
 
 static func register_cards():
 
-	CardDB.register_booster("Promo", "Promo")
+	CardDB.register_booster("Promo", "Promo: Promotional Cards")
 	CardDB.add_card(P_001.new())
 	CardDB.add_card(P_002.new())
 	CardDB.add_card(P_003.new())
@@ -123,7 +123,7 @@ class P_004 extends Card:
 					"You use an effect that reads \"Return 1 of your opponent's Digimon to their hand. Trash all of the digivolution cards of that Digimon\" to return an opponent's Digimon to their hand. When your opponent's digivolution cards are trashed as a result, can you activate this card's effect?",
 					"No, you can't. \"Trash all of the digivolution cards of those Digimon\" is an explanation of what happens to the digivolution cards of the Digimon when it returns to their hand. It doesn't count as trashing digivolution for the purposes of this card's effect.",
 					"I use [De-Digivolve |] while I have this Digimon as a digivolution card. Can I use the inherited effect of [Gomamon]?",
-					"Yes, you can activate the effect of [Gomamon].",
+					"No, you cannot activate the effect of [Gomamon].",
 					"My opponent trashes a digivolution card with one of their effects like [Omnimon X] or [Digiburst |nocategory]. Can I use this card's effect?",
 					"Yes, you can.",
 ]
@@ -144,7 +144,7 @@ class P_005 extends Card:
 		digivolve_level = 2
 		digimon_type = "Mammal"
 		power = 2000
-		effect_text = "[On Play] If you have 1 or fewer security cards, trigger [Recovery +]."
+		effect_text = "[On Play] If you have 1 or fewer security cards, trigger [Recovery +1]."
 
 class P_006 extends Card:
 	func _init():

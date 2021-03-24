@@ -531,7 +531,7 @@ class BT3_019 extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Unique"
 		power = 14000
-		effect_text = "[Security Attack +].\n[Reboot].\n[When Digivolved] You may place 1 [Durandamon] or [BryweLudramon] from your hand on top of this card's digivolution cards to gain 3 memory."
+		effect_text = "[Security Attack +1].\n[Reboot].\n[When Digivolved] You may place 1 [Durandamon] or [BryweLudramon] from your hand on top of this card's digivolution cards to gain 3 memory."
 		ruling = [
 					"Do I have to activate this card's [When Digivolved] effect if I have either [Durandamon] or [BryweLudramon] in my hand?",
 					"No, you can choose whether or not to activate this card's [When Digivolved] effect.",
@@ -560,7 +560,7 @@ class BT3_019_B extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Unique"
 		power = 14000
-		effect_text = "[Security Attack +].\n[Reboot].\n[When Digivolved] You may place 1 [Durandamon] or [BryweLudramon] from your hand on top of this card's digivolution cards to gain 3 memory."
+		effect_text = "[Security Attack +1].\n[Reboot].\n[When Digivolved] You may place 1 [Durandamon] or [BryweLudramon] from your hand on top of this card's digivolution cards to gain 3 memory."
 		ruling = [
 					"Do I have to activate this card's [When Digivolved] effect if I have either [Durandamon] or [BryweLudramon] in my hand?",
 					"No, you can choose whether or not to activate this card's [When Digivolved] effect.",
@@ -2596,7 +2596,7 @@ class BT3_102 extends Card:
 		rarity = Rarity.U
 		id = "BT3-102"
 		play_cost = 4
-		effect_text = "[Main] Your opponent may trash their top security card. If they don't, trigger [Recovery +]."
+		effect_text = "[Main] Your opponent may trash their top security card. If they don't, trigger [Recovery +1]."
 		ruling = [
 					"When using this card, does my opponent get to decide whether or not they trash one of their security cards?",
 					"Yes, your opponent chooses. If they decide not to trash any security cards, the player who used this card receives the benefits of the [Recovery +1] effect.",
@@ -2623,7 +2623,7 @@ class BT3_103 extends Card:
 					"During the same turn I used this card, I digivolve a green Digimon into a non-green Digimon. Can I use this card's effect to reduce the digivolution cost?",
 					"Yes, you can. As long as you're digivolving from a green Digimon, the effect applies.",
 					"Does activating this card's effect also reduce the digivolution cost of cards in my breeding area?",
-					"No, it doesn't. Since the card doesn't specify breeding areas, the effect doesn't apply to Digimon there.",
+					"No, it doesn't. Since the card doesn't specify breeding areas, the effect doesn't apply to Digimon there.<sup>1</sup>",
 ]
 
 class BT3_104 extends Card:

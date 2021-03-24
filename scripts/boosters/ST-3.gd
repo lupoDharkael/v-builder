@@ -254,7 +254,7 @@ class ST3_09 extends Card:
 		digivolve_level = 4
 		digimon_type = "Archangel"
 		power = 7000
-		effect_text = "[When Digivolved] When you have 3 security cards or less, trigger [Recovery +]."
+		effect_text = "[When Digivolved] When you have 3 security cards or less, trigger [Recovery +1]."
 
 class ST3_09_B extends Card:
 	func _init():
@@ -272,7 +272,7 @@ class ST3_09_B extends Card:
 		digivolve_level = 4
 		digimon_type = "Archangel"
 		power = 7000
-		effect_text = "[When Digivolved] When you have 3 security cards or less, trigger [Recovery +]."
+		effect_text = "[When Digivolved] When you have 3 security cards or less, trigger [Recovery +1]."
 		is_parallel = true
 		notes = "parallel promo"
 

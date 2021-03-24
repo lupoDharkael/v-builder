@@ -25,6 +25,7 @@ static func register_cards():
 	CardDB.add_card(ST1_15.new())
 	CardDB.add_card(ST1_16.new())
 	CardDB.add_card(ST1_16_B.new())
+	CardDB.add_card(ST1_16_C.new())
 
 class ST1_01 extends Card:
 	func _init():
@@ -419,6 +420,23 @@ class ST1_16_B extends Card:
 		color = ColorGroup.RED
 		rarity = Rarity.U
 		id = "ST1-16 (B)"
+		play_cost = 8
+		effect_text = "[Main] Delete 1 of your opponent's Digimon."
+		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"What happens to the digivolution cards of a Digimon deleted by this card's main effect? ",
+					"They are sent to their owner's trash. ",
+]
+		is_parallel = true
+		notes = "parallel promo"
+
+class ST1_16_C extends Card:
+	func _init():
+		name = "Gaia Force"
+		type = Type.OPTION
+		color = ColorGroup.RED
+		rarity = Rarity.U
+		id = "ST1-16 (C)"
 		play_cost = 8
 		effect_text = "[Main] Delete 1 of your opponent's Digimon."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."

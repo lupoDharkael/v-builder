@@ -919,7 +919,7 @@ class BT5_037 extends Card:
 		digivolve_level = 3
 		digimon_type = "Warrior"
 		power = 4000
-		effect_text = "[On Play] You may search your security stack for 1 Digimon card with [Warrior] or [Holy Warrior] in its type, reveal it, and add it to your hand. If you do, trigger [Recovery +]. Then, shuffle your security stack."
+		effect_text = "[On Play] You may search your security stack for 1 Digimon card with [Warrior] or [Holy Warrior] in its type, reveal it, and add it to your hand. If you do, trigger [Recovery +1]. Then, shuffle your security stack."
 		ruling = [
 					"What does [You may search your security stack...reveal it, and add it to your hand..etc] of this card's effect mean exactly?",
 					"Without showing your opponent, you look at all the cards in your Security Stack. Choose 1 card you want to add to your hand, reveal only that card to your opponent before adding it to your hand.",
@@ -1048,7 +1048,7 @@ class BT5_043 extends Card:
 		digivolve_level = 5
 		digimon_type = "Ancient"
 		power = 10000
-		effect_text = "[On Deletion] Trigger [Recovery +]."
+		effect_text = "[On Deletion] Trigger [Recovery +1]."
 
 class BT5_044 extends Card:
 	func _init():
@@ -1112,7 +1112,7 @@ class BT5_046 extends Card:
 		digivolve_level = 2
 		digimon_type = "Beast"
 		power = 1000
-		effect_text = "[Main] [Digiburst 1].\n・Reveal the top card of your deck. Add it to your hand if it's a green Digimon card. Otherwise, place it at the bottom of your deck."
+		effect_text = "[Main] [Digiburst 1].\n·Reveal the top card of your deck. Add it to your hand if it's a green Digimon card. Otherwise, place it at the bottom of your deck."
 
 class BT5_047 extends Card:
 	func _init():
@@ -1299,7 +1299,7 @@ class BT5_056 extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Fairy"
 		power = 11000
-		effect_text = "[Main] [Digiburst 2].\n・All of your Digimon get +2000 DP for the turn.\n[Your Turn] [Once Per Turn] When one of your Digimon activates [Digiburst |support], 1 of your opponent's Digimon can't attack or block until the end of your opponent's next turn."
+		effect_text = "[Main] [Digiburst 2].\n·All of your Digimon get +2000 DP for the turn.\n[Your Turn] [Once Per Turn] When one of your Digimon activates [Digiburst |support], 1 of your opponent's Digimon can't attack or block until the end of your opponent's next turn."
 
 class BT5_057 extends Card:
 	func _init():
@@ -1317,7 +1317,7 @@ class BT5_057 extends Card:
 		digivolve_level = 5
 		digimon_type = "Fairy"
 		power = 11000
-		effect_text = "[Main] [Digiburst 3]\n・All of your Digimon [Digiburst |support] with gain [Security Attack +1] for the turn."
+		effect_text = "[Main] [Digiburst 3]\n·All of your Digimon [Digiburst |support] with gain [Security Attack +1] for the turn."
 
 class BT5_058 extends Card:
 	func _init():
@@ -1434,10 +1434,12 @@ class BT5_063 extends Card:
 		digimon_type = "Unidentified"
 		power = 4000
 		effect_text = "[When Digivolved] If you don't have an [Arata Sanada] card in play, you may play one from your hand without paying its memory cost."
-		inherited_effect_text = "[Your Turn] This Digimon and all of your Digimon that share a name with it gain [Rush]."
+		inherited_effect_text = "[Your Turn] Your other Digimon that share a name with this Digimon gain [Rush]."
 		ruling = [
 					"If a Digimon that has [Rush] from this card's effect is digivolved into a Digimon with a different name, does that mean that Digimon cannot attack anymore on the turn it was played?",
 					"Yes, since that Digimon is now a different name, it has lost [Rush] and cannot attack anymore.",
+					"If I play [Kurisarimon] this turn, and then digivolve it into a new Digimon. Does the Digimon on top of Kurisarimon gain [Rush]?",
+					"No, it does not. It is only other Digimon that share a name that gain [Rush].",
 ]
 		notes = "Chrysalimon"
 
@@ -1562,7 +1564,7 @@ class BT5_069 extends Card:
 		digivolve_level = 5
 		digimon_type = "Dragonkin"
 		power = 12000
-		effect_text = "[Security Attack +].\n[Reboot]."
+		effect_text = "[Security Attack +1].\n[Reboot]."
 
 class BT5_070 extends Card:
 	func _init():
@@ -1580,7 +1582,7 @@ class BT5_070 extends Card:
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 11000
-		effect_text = "[Reboot].\n[When Digivolved] [Digiburst 2].\n・Delete 1 of your opponent's Digimon with a play cost of 6 or less. If no Digimon was deleted by this effect, trash the top card of your opponent's security stack."
+		effect_text = "[Reboot].\n[When Digivolved] [Digiburst 2].\n·Delete 1 of your opponent's Digimon with a play cost of 6 or less. If no Digimon was deleted by this effect, trash the top card of your opponent's security stack."
 		ruling = [
 					"What does this card's [Digiburst |nocategory] effect of \"Delete 1 of your opponent's Digimon with a play cost of 6 or less. If no Digimon was deleted by this effect...\" mean exactly?",
 					"At the point of time when you use this [Digiburst |nocategory],  your opponent does not have any Digimon that are 6 cost or Below, or if there are no Digimon that can be deleted by this effect, It refers to a situation where your opponent does not have a Digimon that can be deleted by this effect.",
@@ -1758,7 +1760,7 @@ class BT5_079 extends Card:
 		digivolve_level = 4
 		digimon_type = "Android"
 		power = 7000
-		effect_text = "[Main] [Digiburst 3].\n・ You may play 1 level 3 purple Digimon card from your trash without paying its memory cost. Any [On Play] effects on Digimon played with this effect don't activate."
+		effect_text = "[Main] [Digiburst 3].\n· You may play 1 level 3 purple Digimon card from your trash without paying its memory cost. Any [On Play] effects on Digimon played with this effect don't activate."
 		inherited_effect_text = "[When Attacking] [Once Per Turn] You may delete 1 of your other Digimon to unsuspend this Digimon."
 		notes = "BlackMegaloGrowmon"
 
@@ -1835,7 +1837,7 @@ class BT5_082 extends Card:
 		digivolve_level = 5
 		digimon_type = "Wizard"
 		power = 11000
-		effect_text = "[When Attacking] Activate 1 of the effects below. If you have no other Digimon in play, activate all of the effects below instead.\n・Gain 1 memory.\n・This Digimon gets +2000 DP for the turn.\n・Delete up to 3 of your opponent's level 3 Digimon."
+		effect_text = "[When Attacking] Activate 1 of the effects below. If you have no other Digimon in play, activate all of the effects below instead.\n·Gain 1 memory.\n·This Digimon gets +2000 DP for the turn.\n·Delete up to 3 of your opponent's level 3 Digimon."
 		ruling = [
 					"For this card's effect, when I have no other Digimon, can I choose any of the 3 effects to activate?",
 					"Yes, that's right.",
@@ -2386,7 +2388,7 @@ class BT5_099 extends Card:
 		rarity = Rarity.U
 		id = "BT5-099"
 		play_cost = 4
-		effect_text = "[Main] For each Digimon you have in play, activate the effect below.\n・1 of your opponents Digimon gets -3000 DP for the turn."
+		effect_text = "[Main] For each Digimon you have in play, activate the effect below.\n·1 of your opponents Digimon gets -3000 DP for the turn."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
 		ruling = [
 					"When I have 2 Digimon, can I use this card's effect of \"1 of your opponent's Digimon gets -3000 DP\" twice on the same Digimon to give it -6000 DP?",

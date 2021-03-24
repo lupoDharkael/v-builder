@@ -27,7 +27,6 @@ func _ready():
 
 
 func _on_search_changed(_t) -> void:
-	print("sss")
 	var text = search_field.text
 	for c in container.get_children():
 		c.apply_search_filter(text)

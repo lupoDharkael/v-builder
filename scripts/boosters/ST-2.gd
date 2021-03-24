@@ -20,6 +20,7 @@ static func register_cards():
 	CardDB.add_card(ST2_12.new())
 	CardDB.add_card(ST2_13.new())
 	CardDB.add_card(ST2_13_B.new())
+	CardDB.add_card(ST2_13_C.new())
 	CardDB.add_card(ST2_14.new())
 	CardDB.add_card(ST2_15.new())
 	CardDB.add_card(ST2_16.new())
@@ -36,6 +37,10 @@ class ST2_01 extends Card:
 		stage_level = Stage.HYBRID
 		digimon_type = "Lesser"
 		inherited_effect_text = "[Your Turn] This Digimon gets +1000 DP when battling an opponent's Digimon that has no digivolution cards."
+		ruling = [
+					"How long does the DP effect [Tsunomon] last?",
+					"It only exists when comparing the DP between two Digimon for a battle. It is not applied during the resolution \"End of battle\" or \"On Deletion\" effects that activated from that same battle.",
+]
 
 class ST2_02 extends Card:
 	func _init():
@@ -374,6 +379,23 @@ class ST2_13_B extends Card:
 		color = ColorGroup.BLUE
 		rarity = Rarity.C
 		id = "ST2-13 (B)"
+		play_cost = 0
+		effect_text = "[Main] Gain 1 memory."
+		sec_effect_text = "[Security] Gain 2 memory."
+		ruling = [
+					"If the security effect of this card causes the memory counter to move to 1 or higher on my side, does my opponent's turn end?",
+					"Yes, it does. However, this only happens after any attacks resolve. If there are any  effects or attacks that have not resolved, those must resolve before it becomes your turn.",
+]
+		is_parallel = true
+		notes = "parallel promo"
+
+class ST2_13_C extends Card:
+	func _init():
+		name = "Hammer Spark"
+		type = Type.OPTION
+		color = ColorGroup.BLUE
+		rarity = Rarity.C
+		id = "ST2-13 (C)"
 		play_cost = 0
 		effect_text = "[Main] Gain 1 memory."
 		sec_effect_text = "[Security] Gain 2 memory."

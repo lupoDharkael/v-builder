@@ -383,7 +383,7 @@ class BT4_012 extends Card:
 		digivolve_level = 3
 		digimon_type = "Dinosaur"
 		power = 5000
-		effect_text = "[Main] [Digiburst 2].\n・Delete 1 of your opponent's Digimon with 4000 DP or less."
+		effect_text = "[Main] [Digiburst 2].\n·Delete 1 of your opponent's Digimon with 4000 DP or less."
 
 class BT4_013 extends Card:
 	func _init():
@@ -471,7 +471,7 @@ class BT4_016 extends Card:
 		digivolve_level = 4
 		digimon_type = "Wizard"
 		power = 7000
-		effect_text = "[Security Attack +].\n[Your Turn] While this Digimon's digivolution cards include a Digimon card with [Hybrid] in its form or a red Tamer card, it gets +4000 DP."
+		effect_text = "[Security Attack +1].\n[Your Turn] While this Digimon's digivolution cards include a Digimon card with [Hybrid] in its form or a red Tamer card, it gets +4000 DP."
 		ruling = [
 					"When this Digimon has both a Hybrid form Digimon card and a Red Tamer card in its digivolution cards, does it get +8000 DP?",
 					"No, even you have have both a Hybrid form Digimon card and a Red Tamer card in its digivolution cards, it only gets +4000 DP.",
@@ -496,7 +496,7 @@ class BT4_017 extends Card:
 		digivolve_level_2 = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		effect_text = "[Your Turn] This Digimon is also treated as yellow.\n[Main] [Digiburst 2].\n・You may play a red or yellow Tamer card with a play cost of 4 or less from your hand without paying its memory cost."
+		effect_text = "[Your Turn] This Digimon is also treated as yellow.\n[Main] [Digiburst 2].\n·You may play a red or yellow Tamer card with a play cost of 4 or less from your hand without paying its memory cost."
 		inherited_effect_text = "[When Attacking] If you have a Tamer in play, 1 of your opponent's Digimon gets -2000 DP for the turn."
 		ruling = [
 					"Is this card also treated as a Yellow card in Hand, Deck, Trash or revealed from Security Check?",
@@ -524,7 +524,7 @@ class BT4_017_B extends Card:
 		digivolve_level_2 = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		effect_text = "[Your Turn] This Digimon is also treated as yellow.\n[Main] [Digiburst 2].\n・You may play a red or yellow Tamer card with a play cost of 4 or less from your hand without paying its memory cost."
+		effect_text = "[Your Turn] This Digimon is also treated as yellow.\n[Main] [Digiburst 2].\n·You may play a red or yellow Tamer card with a play cost of 4 or less from your hand without paying its memory cost."
 		inherited_effect_text = "[When Attacking] If you have a Tamer in play, 1 of your opponent's Digimon gets -2000 DP for the turn."
 		ruling = [
 					"Is this card also treated as a Yellow card in Hand, Deck, Trash or revealed from Security Check?",
@@ -569,7 +569,7 @@ class BT4_019 extends Card:
 		digivolve_level = 5
 		digimon_type = "Dragonkin"
 		power = 12000
-		effect_text = "[When Digivolved] [Digiburst 2].\n・Delete 1 of your opponent's Digimon with 8000 DP or less."
+		effect_text = "[When Digivolved] [Digiburst 2].\n·Delete 1 of your opponent's Digimon with 8000 DP or less."
 
 class BT4_019_B extends Card:
 	func _init():
@@ -587,7 +587,7 @@ class BT4_019_B extends Card:
 		digivolve_level = 5
 		digimon_type = "Dragonkin"
 		power = 12000
-		effect_text = "[When Digivolved] [Digiburst 2].\n・Delete 1 of your opponent's Digimon with 8000 DP or less."
+		effect_text = "[When Digivolved] [Digiburst 2].\n·Delete 1 of your opponent's Digimon with 8000 DP or less."
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -783,7 +783,7 @@ class BT4_026 extends Card:
 		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 5000
-		effect_text = "[Main] [Digiburst 2].\n・[Draw 1]."
+		effect_text = "[Main] [Digiburst 2].\n·[Draw 1]."
 
 class BT4_027 extends Card:
 	func _init():
@@ -913,7 +913,7 @@ class BT4_032 extends Card:
 		digivolve_level = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		effect_text = "[Main] [Digiburst 2].\n・Return 1 of your opponent's level 4 or lower Digimon to its owner's hand. (Trash all of the digivolution cards of that Digimon.)"
+		effect_text = "[Main] [Digiburst 2].\n·Return 1 of your opponent's level 4 or lower Digimon to its owner's hand. (Trash all of the digivolution cards of that Digimon.)"
 		inherited_effect_text = "[Your Turn] While you have a Tamer in play, this Digimon gets +2000 DP."
 		ruling = [
 					"Does this card’s inherited effect activate regardless of the colour of Tamer I have?",
@@ -936,7 +936,7 @@ class BT4_033 extends Card:
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 12000
-		effect_text = "[When Digivolved] [Digiburst 2].\n・Return 1 of your opponent's level 5 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon."
+		effect_text = "[When Digivolved] [Digiburst 2].\n·Return 1 of your opponent's level 5 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon."
 		notes = "Z'd Garurumon"
 
 class BT4_033_B extends Card:
@@ -955,7 +955,7 @@ class BT4_033_B extends Card:
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 12000
-		effect_text = "[When Digivolved] [Digiburst 2].\n・Return 1 of your opponent's level 5 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon."
+		effect_text = "[When Digivolved] [Digiburst 2].\n·Return 1 of your opponent's level 5 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon."
 		is_parallel = true
 		notes = "parallel promo Z'd Garurumon"
 
@@ -1235,7 +1235,7 @@ class BT4_046 extends Card:
 		digivolve_level = 4
 		digimon_type = "Cyborg"
 		power = 7000
-		effect_text = "[Main] [Digiburst 2].\n・1 of your opponent's Digimon gets -4000 DP for the turn."
+		effect_text = "[Main] [Digiburst 2].\n·1 of your opponent's Digimon gets -4000 DP for the turn."
 		inherited_effect_text = "[Your Turn] While you have 3 or fewer security cards, this Digimon gets +1000 DP."
 		notes = "MegaloGrowmon"
 
@@ -1255,11 +1255,11 @@ class BT4_047 extends Card:
 		digivolve_level = 5
 		digimon_type = "Throne"
 		power = 10000
-		effect_text = "[When Digivolved] Trigger [Recovery +2].\n[End of Opponent\'s Turn] Trash the top card of your security stack."
+		effect_text = "[When Digivolved] Trigger [Recovery +2].\n[End of Opponent's Turn] Trash the top card of your security stack."
 		ruling = [
-					"Regarding this card's [End of Opponent\'s Turn] effect, if I have 0 cards in your Security Stack at the end of my opponent's turn, do I lose the game?",
-					"No, as this card's [End of Opponent\'s Turn] effect only trash Security cards, it doesn’t not count as you receiving an attack. The game will just continue as per normal.",
-					"Does the [Security] effect of the card trashed by this card's [End of Opponent\'s Turn] effect activate?",
+					"Regarding this card's [End of Opponent's Turn] effect, if I have 0 cards in your Security Stack at the end of my opponent's turn, do I lose the game?",
+					"No, as this card's [End of Opponent's Turn] effect only trash Security cards, it doesn’t not count as you receiving an attack. The game will just continue as per normal.",
+					"Does the [Security] effect of the card trashed by this card's [End of Opponent's Turn] effect activate?",
 					"No, it does not activate.",
 					"If I have multiples of this Digimon in my Battle Area at the end of my opponent's turn, do I trash as many Security as the number of this Digimon I have?",
 					"Yes, that's right.",
@@ -1335,7 +1335,7 @@ class BT4_049 extends Card:
 		digivolve_level = 5
 		digimon_type = "Holy Bird"
 		power = 11000
-		effect_text = "[Main] [Digiburst 3].\n・All of your opponent's Digimon get -4000 DP for the turn."
+		effect_text = "[Main] [Digiburst 3].\n·All of your opponent's Digimon get -4000 DP for the turn."
 		ruling = [
 					"Does [Varodurumon]'s [Digiburst |nocategory] effect also decrease the DP of Digimon that were played after the activation of its effect?",
 					"Yes, Digimon played after the effect's activation also lose DP.",
@@ -1433,7 +1433,7 @@ class BT4_054 extends Card:
 		digivolve_level = 3
 		digimon_type = "Vegetation"
 		power = 5000
-		effect_text = "[Main] [Digiburst 2].\n・1 of your opponent's suspended Digimon doesn't unsuspend during your opponent's next unsuspend phase."
+		effect_text = "[Main] [Digiburst 2].\n·1 of your opponent's suspended Digimon doesn't unsuspend during your opponent's next unsuspend phase."
 		ruling = [
 					"Can I use this card's effect on my opponent's Unsuspended digimon?",
 					"No you cannot, as this effect specifies to target \"1 of your opponent's Suspended digimon\".",
@@ -1532,7 +1532,7 @@ class BT4_059 extends Card:
 		digivolve_level = 4
 		digimon_type = "Fairy"
 		power = 7000
-		effect_text = "[Main] [Digiburst 2].\n・Suspend 1 of your opponent's Digimon."
+		effect_text = "[Main] [Digiburst 2].\n·Suspend 1 of your opponent's Digimon."
 		inherited_effect_text = "[When Attacking] If you have a Tamer in play, suspend 1 of your opponent's Digimon."
 		ruling = [
 					"Does this card’s inherited effect activate regardless of the colour of Tamer I have?",
@@ -1555,7 +1555,7 @@ class BT4_059_B extends Card:
 		digivolve_level = 4
 		digimon_type = "Fairy"
 		power = 7000
-		effect_text = "[Main] [Digiburst 2].\n・Suspend 1 of your opponent's Digimon."
+		effect_text = "[Main] [Digiburst 2].\n·Suspend 1 of your opponent's Digimon."
 		inherited_effect_text = "[When Attacking] If you have a Tamer in play, suspend 1 of your opponent's Digimon."
 		ruling = [
 					"Does this card’s inherited effect activate regardless of the colour of Tamer I have?",
@@ -1624,7 +1624,7 @@ class BT4_062 extends Card:
 		digivolve_level = 5
 		digimon_type = "Dark Dragon"
 		power = 13000
-		effect_text = "[When Digivolved] [Digiburst 4].\n・Suspend all of your opponent's Digimon with 5000 DP or less. Then, place all of your opponent's suspended Digimon at the bottom of their owners' decks in any order. (Trash all of the digivolution cards of those Digimon.)"
+		effect_text = "[When Digivolved] [Digiburst 4].\n·Suspend all of your opponent's Digimon with 5000 DP or less. Then, place all of your opponent's suspended Digimon at the bottom of their owners' decks in any order. (Trash all of the digivolution cards of those Digimon.)"
 		ruling = [
 					"Does this card's effect also send digimon already suspended prior to this effect to the bottom of my opponent's Deck as well?",
 					"Yes, that's right.",
@@ -1646,7 +1646,7 @@ class BT4_062_B extends Card:
 		digivolve_level = 5
 		digimon_type = "Dark Dragon"
 		power = 13000
-		effect_text = "[When Digivolved] [Digiburst 4].\n・Suspend all of your opponent's Digimon with 5000 DP or less. Then, place all of your opponent's suspended Digimon at the bottom of their owners' decks in any order. (Trash all of the digivolution cards of those Digimon.)"
+		effect_text = "[When Digivolved] [Digiburst 4].\n·Suspend all of your opponent's Digimon with 5000 DP or less. Then, place all of your opponent's suspended Digimon at the bottom of their owners' decks in any order. (Trash all of the digivolution cards of those Digimon.)"
 		ruling = [
 					"Does this card's effect also send digimon already suspended prior to this effect to the bottom of my opponent's Deck as well?",
 					"Yes, that's right.",
@@ -1767,7 +1767,7 @@ class BT4_068 extends Card:
 		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 4000
-		effect_text = "[Main] [Digiburst 2].\n・Trigger [De-Digivolve 1] on 1 of your opponent's Digimon with a play cost of 7 or less ''(Trash 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards)''."
+		effect_text = "[Main] [Digiburst 2].\n·Trigger [De-Digivolve 1] on 1 of your opponent's Digimon with a play cost of 7 or less ''(Trash 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards)''."
 
 class BT4_069 extends Card:
 	func _init():
@@ -1843,7 +1843,7 @@ class BT4_072 extends Card:
 		digivolve_level = 4
 		digimon_type = "Rock"
 		power = 7000
-		effect_text = "[Main] [Digiburst 1].\n・1 of your Digimon gets +2000 DP until the end of your opponent's next turn."
+		effect_text = "[Main] [Digiburst 1].\n·1 of your Digimon gets +2000 DP until the end of your opponent's next turn."
 		inherited_effect_text = "[All Turns] This Digimon gets +1000 DP."
 		ruling = [
 					"Can I use this card's effect on [Gogmamon] itself?",
@@ -1902,7 +1902,7 @@ class BT4_075 extends Card:
 		digivolve_level = 5
 		digimon_type = "Mineral"
 		power = 13000
-		effect_text = "[Security Attack +].\n [When Attacking] Your opponent may choose 1 of their unsuspended Digimon. If they do, switch the target of attack to that Digimon."
+		effect_text = "[Security Attack +1].\n [When Attacking] Your opponent may choose 1 of their unsuspended Digimon. If they do, switch the target of attack to that Digimon."
 		ruling = [
 					"What does this card's [When Attacking] effect mean?",
 					"When this Digimon attacks, regardless of what the attack target is, your opponent player can choose to change the target of that attack to 1 of their Unsuspended digimon.",
@@ -1928,7 +1928,7 @@ class BT4_075_B extends Card:
 		digivolve_level = 5
 		digimon_type = "Mineral"
 		power = 13000
-		effect_text = "[Security Attack +].\n [When Attacking] Your opponent may choose 1 of their unsuspended Digimon. If they do, switch the target of attack to that Digimon."
+		effect_text = "[Security Attack +1].\n [When Attacking] Your opponent may choose 1 of their unsuspended Digimon. If they do, switch the target of attack to that Digimon."
 		ruling = [
 					"What does this card's [When Attacking] effect mean?",
 					"When this Digimon attacks, regardless of what the attack target is, your opponent player can choose to change the target of that attack to 1 of their Unsuspended digimon.",
@@ -2052,7 +2052,7 @@ class BT4_081 extends Card:
 		digivolve_level = 3
 		digimon_type = "Fallen Angel"
 		power = 5000
-		effect_text = "[Main] [Digiburst 2].\n・Delete 1 of your opponent's level 3 Digimon."
+		effect_text = "[Main] [Digiburst 2].\n·Delete 1 of your opponent's level 3 Digimon."
 
 class BT4_082 extends Card:
 	func _init():
@@ -2347,7 +2347,7 @@ class BT4_091 extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Unique"
 		power = 14000
-		effect_text = "[When Digivolved] Activate the following effect twice. \n・1 of your opponent's Digimon gets -7000 DP for the turn. \n[On Deletion] Gain 3 memory."
+		effect_text = "[When Digivolved] Activate the following effect twice. \n·1 of your opponent's Digimon gets -7000 DP for the turn. \n[On Deletion] Gain 3 memory."
 		ruling = [
 					"Can I pick the same 1 of my opponent's Digimon twice for this card's [When Digivolved] effect?",
 					"Yes, you can.",
@@ -2667,7 +2667,7 @@ class BT4_105 extends Card:
 		id = "BT4-105"
 		play_cost = 1
 		effect_text = "[Main] Place 1 of your Digimon on top of your security stack face down. (Trash all of the digivolution cards of that Digimon.)"
-		sec_effect_text = "[Security] Trigger [Recovery +]."
+		sec_effect_text = "[Security] Trigger [Recovery +1]."
 		ruling = [
 					"Does the Digimon added to the Security Stack by this card's effect activate its [On Deletion] effect?",
 					"No, as it was not deleted, the effect does not activate.",
@@ -2873,7 +2873,7 @@ class BT4_115 extends Card:
 		attribute = Attribute.VACCINE
 		digimon_type = "Angel"
 		power = 10000
-		effect_text = "While you have 10 or more cards in your trash, when playing this card from your hand, reduce its play cost by 8.\n[On Play] [Recovery +].\n[All Turns] This Digimon can only digivolve into Digimon with [Lucemon]."
+		effect_text = "While you have 10 or more cards in your trash, when playing this card from your hand, reduce its play cost by 8.\n[On Play] [Recovery +1].\n[All Turns] This Digimon can only digivolve into Digimon with [Lucemon]."
 
 class BT4_115_B extends Card:
 	func _init():
@@ -2888,7 +2888,7 @@ class BT4_115_B extends Card:
 		attribute = Attribute.VACCINE
 		digimon_type = "Angel"
 		power = 10000
-		effect_text = "While you have 10 or more cards in your trash, when playing this card from your hand, reduce its play cost by 8.\n[On Play] [Recovery +].\n[All Turns] This Digimon can only digivolve into Digimon with [Lucemon]."
+		effect_text = "While you have 10 or more cards in your trash, when playing this card from your hand, reduce its play cost by 8.\n[On Play] [Recovery +1].\n[All Turns] This Digimon can only digivolve into Digimon with [Lucemon]."
 		is_parallel = true
 		notes = "parallel promo"
 

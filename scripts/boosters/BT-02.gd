@@ -453,7 +453,7 @@ class BT2_018 extends Card:
 		digivolve_level = 5
 		digimon_type = "Earth Dragon"
 		power = 10000
-		effect_text = "[Security Attack +].\n[On Play] Delete all of your opponent's Digimon with 4000 DP or less."
+		effect_text = "[Security Attack +1].\n[On Play] Delete all of your opponent's Digimon with 4000 DP or less."
 
 class BT2_019 extends Card:
 	func _init():
@@ -859,7 +859,7 @@ class BT2_034 extends Card:
 		digivolve_level = 2
 		digimon_type = "Mammal"
 		power = 2000
-		effect_text = "[On Deletion] If you have 3 or fewer security cards, trigger [Recovery +]."
+		effect_text = "[On Deletion] If you have 3 or fewer security cards, trigger [Recovery +1]."
 		ruling = [
 					"I have 3 cards in my security stack when 2 copies of this Digimon are deleted at the same time. Do the [On Deletion] effects on both cards activate, bringing my security stack up to 5 cards?",
 					"No. Even if both Digimon are deleted simultaneously, the effects trigger one at a time. When the first Salamon's effect resolves, you add 1 cards to your security stack, bringing the total up to 4. This means the \"3 cards or less\" condition for the second Salamon's effect no longer applies. The second Salamon's effect doesn't activate, and your security stack remains at 4 cards.",
@@ -1027,7 +1027,7 @@ class BT2_041 extends Card:
 		digivolve_level = 5
 		digimon_type = "Light Dragon"
 		power = 11000
-		effect_text = "[When Digivolved] Suspend all of your yellow Tamers. For each Tamer you suspend this way, activate the following effect:\n・1 of your opponent's Digimon gets -4000 DP for the turn.\n[Your Turn] This Digimon gets +1000 DP for each Tamer you have in play."
+		effect_text = "[When Digivolved] Suspend all of your yellow Tamers. For each Tamer you suspend this way, activate the following effect:\n·1 of your opponent's Digimon gets -4000 DP for the turn.\n[Your Turn] This Digimon gets +1000 DP for each Tamer you have in play."
 		ruling = [
 					"I use this card's [When Digivolved] effect to suspend 2 or more yellow Tamers. Can I choose 2 or more of my opponent's Digimon and give all of them -4000 DP?",
 					"Yes, the [When Digivolved] effect activates separately for each yellow Tamer you suspend, and you get to choose the target for each effect.",
@@ -1061,7 +1061,7 @@ class BT2_041_B extends Card:
 		digivolve_level = 5
 		digimon_type = "Light Dragon"
 		power = 11000
-		effect_text = "[When Digivolved] Suspend all of your yellow Tamers. For each Tamer you suspend this way, activate the following effect:\n・1 of your opponent's Digimon gets -4000 DP for the turn.\n[Your Turn] This Digimon gets +1000 DP for each Tamer you have in play."
+		effect_text = "[When Digivolved] Suspend all of your yellow Tamers. For each Tamer you suspend this way, activate the following effect:\n·1 of your opponent's Digimon gets -4000 DP for the turn.\n[Your Turn] This Digimon gets +1000 DP for each Tamer you have in play."
 		ruling = [
 					"I use this card's [When Digivolved] effect to suspend 2 or more yellow Tamers. Can I choose 2 or more of my opponent's Digimon and give all of them -4000 DP?",
 					"Yes, the [When Digivolved] effect activates separately for each yellow Tamer you suspend, and you get to choose the target for each effect.",
@@ -2127,8 +2127,8 @@ class BT2_085 extends Card:
 		ruling = [
 					"You use an effect that reads \"Return 1 of your opponent's Digimon to their hand. Trash all of the digivolution cards of that Digimon\" to return an opponent's Digimon to their hand. When your opponent's digivolution cards are trashed as a result, can you activate this card's effect?",
 					"No, you can't. \"Trash all of the digivolution cards of those Digimon\" is an explanation of what happens to the digivolution cards of the Digimon when it returns to their hand. It doesn't count as trashing digivolution for the purposes of this card's effect.",
-					"I use [De-Digivolve |] while I have this Digimon as a digivolution card. Can I use the inherited effect of [Joe Kido]?",
-					"Yes, you can activate the effect of [Joe Kido].",
+					"I use [De-Digivolve |] while I have this Tamer in play. Can I use the inherited effect of [Joe Kido]?",
+					"No, you cannot activate the effect of [Joe Kido].",
 					"My opponent trashes a digivolution card with one of their effects like [Omnimon X] or [Digiburst |nocategory]. Can I use this card's effect?",
 					"Yes, you can.",
 ]
@@ -2147,8 +2147,8 @@ class BT2_085_B extends Card:
 		ruling = [
 					"You use an effect that reads \"Return 1 of your opponent's Digimon to their hand. Trash all of the digivolution cards of that Digimon\" to return an opponent's Digimon to their hand. When your opponent's digivolution cards are trashed as a result, can you activate this card's effect?",
 					"No, you can't. \"Trash all of the digivolution cards of those Digimon\" is an explanation of what happens to the digivolution cards of the Digimon when it returns to their hand. It doesn't count as trashing digivolution for the purposes of this card's effect.",
-					"I use [De-Digivolve |] while I have this Digimon as a digivolution card. Can I use the inherited effect of [Joe Kido]?",
-					"Yes, you can activate the effect of [Joe Kido].",
+					"I use [De-Digivolve |] while I have this Tamer in play. Can I use the inherited effect of [Joe Kido]?",
+					"No, you cannot activate the effect of [Joe Kido].",
 					"My opponent trashes a digivolution card with one of their effects like [Omnimon X] or [Digiburst |nocategory]. Can I use this card's effect?",
 					"Yes, you can.",
 ]

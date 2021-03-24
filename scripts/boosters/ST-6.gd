@@ -244,7 +244,7 @@ class ST6_13 extends Card:
 		digivolve_level = 5
 		digimon_type = "Beast Knight"
 		power = 12000
-		effect_text = "[Security Attack +].\n[Main] [Digiburst 2].\n・Play 1 purple level 3 Digimon card from your trash without paying its memory cost."
+		effect_text = "[Security Attack +1].\n[Main] [Digiburst 2].\n·Play 1 purple level 3 Digimon card from your trash without paying its memory cost."
 
 class ST6_14 extends Card:
 	func _init():

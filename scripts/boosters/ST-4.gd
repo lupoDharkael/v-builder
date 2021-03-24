@@ -244,7 +244,7 @@ class ST4_13 extends Card:
 		digivolve_level = 5
 		digimon_type = "Insectoid"
 		power = 12000
-		effect_text = "[Piercing].\n[Main] [Digiburst 2].\n・Suspend 1 of your opponent's Digimon."
+		effect_text = "[Piercing].\n[Main] [Digiburst 2].\n·Suspend 1 of your opponent's Digimon."
 		notes = "HerakleKabuterimon"
 
 class ST4_14 extends Card:
