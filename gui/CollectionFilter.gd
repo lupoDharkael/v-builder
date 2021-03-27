@@ -116,6 +116,8 @@ func _ready():
 	color_menu.get_popup().set_item_as_checkable(4, true)
 	color_menu.get_popup().add_item(Card.ColorGroup.PURPLE)
 	color_menu.get_popup().set_item_as_checkable(5, true)
+	color_menu.get_popup().add_item(Card.ColorGroup.WHITE)
+	color_menu.get_popup().set_item_as_checkable(6, true)
 	color_menu.get_popup().connect("id_pressed", self, "_on_menu_item_selected", [color_menu])
 	
 	rarity_menu = $VBoxContainer/MenuContainer/RarityMenu as MenuButton
