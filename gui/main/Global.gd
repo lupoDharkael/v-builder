@@ -21,6 +21,7 @@ func text_editor_has_focus() -> bool:
 
 func show_alert_message(msg : String, n : Node) -> void:
 	var alert_dialog = AcceptDialog.new()
+	alert_dialog.set_pass_on_modal_close_click(false)
 	alert_dialog.dialog_text = msg
 	n.add_child(alert_dialog)
 	alert_dialog.popup_centered()

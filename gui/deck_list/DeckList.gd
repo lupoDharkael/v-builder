@@ -89,6 +89,7 @@ func _ready():
 	_on_toggle_pressed(toggle_mode_button.pressed)
 	
 	delete_dialog = ConfirmationDialog.new()
+	delete_dialog.set_pass_on_modal_close_click(false)
 	delete_dialog.window_title = "Confirm Delete"
 	delete_dialog.get_label().align = Label.ALIGN_CENTER
 	delete_dialog.get_ok().text = "DELETE"

@@ -6,6 +6,7 @@ extends WindowDialog
 var available_view : Control
 var missing_view : Control
 
+
 func _ready():
 	available_view = $BackgroundPanel/VBoxContainer/HBoxContainer2/AvailableView
 	missing_view = $BackgroundPanel/VBoxContainer/HBoxContainer2/MissingView
@@ -21,6 +22,11 @@ func _ready():
 	missing_view.set_config(CardViewItem.get_collection_config())
 	missing_view.set_big_mode(true)
 	missing_view.editable = false
+	
+	var close_shortcut := ShortCut.new()
+	close_shortcut.shortcut = InputEventAction.new()
+	close_shortcut.shortcut.action = "ui_cancel"
+	get_close_button().shortcut = close_shortcut
 
 
 func set_missing_collection(c : CardCollection) -> void:

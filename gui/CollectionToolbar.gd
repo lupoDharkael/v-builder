@@ -42,6 +42,7 @@ func _ready():
 	clear_button.connect("pressed", self, "_show_confirm_delete")
 	
 	delete_dialog = ConfirmationDialog.new()
+	delete_dialog.set_pass_on_modal_close_click(false)
 	delete_dialog.window_title = "Confirm Delete"
 	delete_dialog.dialog_text = "Are you sure you want to delete all?"
 	delete_dialog.get_label().align = Label.ALIGN_CENTER
@@ -51,6 +52,7 @@ func _ready():
 	add_child(delete_dialog)
 	
 	name_exists_dialog = ConfirmationDialog.new()
+	name_exists_dialog.set_pass_on_modal_close_click(false)
 	name_exists_dialog.window_title = "Deck Overwrite"
 	name_exists_dialog.dialog_text = "There is other deck with that name. Do you want to save anyway?"
 	name_exists_dialog.get_label().align = Label.ALIGN_CENTER
@@ -60,6 +62,7 @@ func _ready():
 	add_child(name_exists_dialog)
 	
 	exit_dialog = ConfirmationDialog.new()
+	exit_dialog.set_pass_on_modal_close_click(false)
 	exit_dialog.window_title = "Unsaved Changes"
 	exit_dialog.dialog_text = "This deck has unsaved changes. Do you want to save them?"
 	exit_dialog.get_label().align = Label.ALIGN_CENTER

@@ -251,8 +251,8 @@ func add_card(card : Card, amount : int, faved : bool = false) -> Node:
 
 
 func _on_card_clicked(cv : Control, e : InputEventMouse) -> void:
-	if get_viewport().gui_has_modal_stack():
-		return
+	#if get_viewport().gui_has_modal_stack():
+		#return
 	
 	if e.button_index == BUTTON_MIDDLE and e.pressed:
 		card_detail.set_card_view_item(cv)

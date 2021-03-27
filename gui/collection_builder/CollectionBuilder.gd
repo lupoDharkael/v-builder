@@ -11,6 +11,7 @@ var toolbar_container : Control
 var collection : CardCollection
 
 var collection_needs_sync = true
+var change_is_filtering = false
 
 
 func _notification(what):
@@ -106,11 +107,14 @@ func sync_collection() -> void:
 
 
 func on_content_changed() -> void:
-	toolbar_container.save_button.disabled = false
-	collection_needs_sync = true
+	if !change_is_filtering:
+		toolbar_container.save_button.disabled = false
+		collection_needs_sync = true
+	change_is_filtering = false
 
 
 func filter_content() -> void:
+	change_is_filtering = true
 	sync_collection()
 	var c = filter_container.filter_collection(collection)
 	collection_container.set_collection(c)
