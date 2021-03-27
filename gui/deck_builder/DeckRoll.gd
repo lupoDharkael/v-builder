@@ -20,6 +20,7 @@ func _input(event) -> void:
 
 
 func _ready():
+	set_pass_on_modal_close_click(false)
 	card_arr.push_back($MarginContainer/VBoxContainer/CenterContainer/HBoxContainer/CardViewItem)
 	card_arr.push_back($MarginContainer/VBoxContainer/CenterContainer/HBoxContainer/CardViewItem2)
 	card_arr.push_back($MarginContainer/VBoxContainer/CenterContainer/HBoxContainer/CardViewItem3)

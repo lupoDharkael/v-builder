@@ -11,6 +11,7 @@ signal collection_generated(c)
 
 
 func _ready():
+	set_pass_on_modal_close_click(false)
 	name_line_edit = $VBoxContainer/LineEdit
 	content_text = $VBoxContainer/TextEdit
 	import_button = $VBoxContainer/Button

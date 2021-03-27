@@ -14,6 +14,7 @@ func _notification(what):
 
 
 func _ready():
+	set_pass_on_modal_close_click(false)
 	container = $VBoxContainer/ScrollContainer/HFlowContainer
 	search_field = $VBoxContainer/HBoxContainer/SearchField
 	search_field.connect("text_changed", self, "_on_search_changed")

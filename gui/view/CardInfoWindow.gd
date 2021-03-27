@@ -16,6 +16,7 @@ func _notification(what):
 
 
 func _ready():
+	set_pass_on_modal_close_click(false)
 	card_detail = $HBoxContainer/ScrollContainer/CardDetail
 	card_texture = $HBoxContainer/VBoxContainer/TextureRect
 	rules_label = $HBoxContainer/RulingContainer/RichTextLabel

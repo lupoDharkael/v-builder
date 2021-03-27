@@ -11,6 +11,7 @@ var copy_button : Button
 var collection : CardCollection setget set_collection, get_collection
 
 func _ready():
+	set_pass_on_modal_close_click(false)
 	content_edit = $VBoxContainer/TextEdit
 	copy_button = $VBoxContainer/HBoxContainer/CopyButton
 	

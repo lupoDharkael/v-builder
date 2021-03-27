@@ -5,7 +5,6 @@
 [ext_resource path="res://gui/BoosterSelector.gd" type="Script" id=3]
 
 [node name="BoosterSelector" type="WindowDialog"]
-visible = true
 margin_right = 1022.0
 margin_bottom = 599.0
 script = ExtResource( 3 )

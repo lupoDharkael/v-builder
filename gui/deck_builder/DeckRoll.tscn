@@ -6,12 +6,10 @@
 [ext_resource path="res://thridparty/big_font.tres" type="DynamicFont" id=4]
 
 [node name="DeckRoll" type="WindowDialog"]
-visible = true
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_right = -544.0
 margin_bottom = -255.0
-popup_exclusive = true
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
