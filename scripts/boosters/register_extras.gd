@@ -119,7 +119,7 @@ static func register_special_1_0() -> void:
 	booster.add_card("BT1-110 (B)")
 	booster.add_card("BT1-111")
 	booster.add_card("BT1-112")
-	booster.add_card("BT1-113 (B)")
+	booster.add_card("BT1-113")
 	booster.add_card("BT1-114")
 	booster.add_card("BT1-114 (B)")
 	booster.add_card("BT1-115")
