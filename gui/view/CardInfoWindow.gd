@@ -35,7 +35,13 @@ func change_to_sibling(val : int) -> void:
 	
 	var c = card_view.get_parent().get_child_count()
 	var i = (card_view.get_index() + val)
-	var cv = card_view.get_parent().get_child(posmod(i, c))
+	var cv : Control
+	while true:
+		cv = card_view.get_parent().get_child(posmod(i, c))
+		if cv.visible:
+			break
+		else:
+			i += val
 	set_card_view_item(cv)
 
 
