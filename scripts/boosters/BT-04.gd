@@ -199,7 +199,7 @@ class BT4_005 extends Card:
 	func _init():
 		name = "Missimon"
 		type = Type.DIGITAMA
-		color = ColorGroup.PURPLE
+		color = ColorGroup.BLACK
 		rarity = Rarity.U
 		id = "BT4-005"
 		level = 2
