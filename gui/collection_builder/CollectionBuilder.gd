@@ -49,6 +49,7 @@ func _ready():
 	collection_container.connect("size_factor_changed", self, "_save_size_factor")
 	collection_container.set_config(CardViewItem.get_collection_config())
 	set_big_mode(Config.get_value("collection_builder", "big_mode", true))
+	set_show_owned(Config.get_value("collection_builder", "show_owned", false))
 	
 	var sort_type = Config.get_value("collection_builder", "sort_type", CardCollection.SortType.ID)
 	
@@ -85,11 +86,14 @@ func _ready():
 	toolbar_container.exit_button.connect("pressed", self, "checked_exit_to_deck_list")
 	toolbar_container.exit_dialog.connect("confirmed", toolbar_container, "save_and_exit")
 	
-	toolbar_container.plus_one_button.connect("toggled", self, "plus_one_toggled")
+	toolbar_container.plus_one_button.connect("toggled", self, "set_show_owned")
 
 
-func plus_one_toggled(pressed : bool) -> void:
+func set_show_owned(pressed : bool) -> void:
+	print(pressed)
 	collection_container.show_plus_one = pressed
+	toolbar_container.plus_one_button.pressed = pressed
+	Config.set_value("collection_builder", "show_owned", pressed)
 
 
 func set_big_mode(enable : bool) -> void:
