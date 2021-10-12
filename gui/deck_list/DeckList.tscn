@@ -128,23 +128,25 @@ margin_left = 555.0
 margin_right = 559.0
 margin_bottom = 40.0
 
-[node name="Search" type="LineEdit" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
-margin_left = 563.0
-margin_right = 936.0
-margin_bottom = 40.0
-size_flags_horizontal = 3
-clear_button_enabled = true
-placeholder_text = "SEARCH..."
-
 [node name="ModeButton" type="Button" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
-margin_left = 940.0
-margin_right = 970.0
+margin_left = 563.0
+margin_right = 683.0
 margin_bottom = 40.0
+rect_min_size = Vector2( 120, 0 )
 toggle_mode = true
+text = "COLLECTION"
 icon = ExtResource( 11 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Search" type="LineEdit" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
+margin_left = 687.0
+margin_right = 970.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+clear_button_enabled = true
+placeholder_text = "SEARCH..."
 
 [node name="InfoButton" type="Button" parent="BackgroundPanel/VBoxContainer/Toolbar/HBoxContainer"]
 margin_left = 974.0

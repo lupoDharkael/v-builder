@@ -22,6 +22,10 @@ func _input(event) -> void:
 		return
 	
 	if event is InputEventKey:
+		var just_pressed = event.is_pressed() and not event.is_echo()
+		if !just_pressed:
+			return
+		
 		if event.is_action_pressed("ui_delete"):
 			popup_confirm_delete()
 		elif event.is_action_pressed("ui_accept") && focus_is_deck_item():
@@ -139,15 +143,12 @@ func sync_with_filesystem() -> void:
 	for n in container.get_children():
 		container.remove_child(n)
 		n.queue_free()
-	
 	var c_arr := Storage.get_collections_from_path(get_working_path())
 	
 	for c in c_arr:
 		add_deck_item(c, false)
-	
 	sort_collections()
 	if (container.get_child_count()):
-		container.get_child(0).grab_focus()
 		container.get_child(0).call_deferred("grab_focus")
 
 
@@ -183,22 +184,24 @@ func _on_name_changed() -> void:
 
 
 func set_deck_mode(enable : bool) -> void:
+	# _on_toggle_pressed is called
 	toggle_mode_button.pressed = !enable
-	_on_toggle_pressed(toggle_mode_button.pressed)
 
 
 func _on_toggle_pressed(_enabled : bool) -> void:
 	if is_deck_mode():
 		search_field.placeholder_text = "Search Deck"
+		toggle_mode_button.text = "DECK"
 	else:
 		search_field.placeholder_text = "Search Collection"
+		toggle_mode_button.text = "COLLECTION"
 	sync_with_filesystem()
 
 
 func filter_decks(filter : String) -> void:
 	var no_filter = filter.empty()
 	for n in container.get_children():
-		n.visible = no_filter || n.name.findn(filter) != -1 || n.collection.has_card(filter)
+		n.visible = no_filter || n.collection.name.findn(filter) != -1 || n.collection.has_card(filter)
 
 func create_deck() -> void:
 	var c := CardCollection.new()

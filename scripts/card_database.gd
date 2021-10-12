@@ -66,11 +66,16 @@ func _ready():
 	var _ST4 = preload("res://scripts/boosters/ST-4.gd")
 	var _ST5 = preload("res://scripts/boosters/ST-5.gd")
 	var _ST6 = preload("res://scripts/boosters/ST-6.gd")
+	var _ST7 = preload("res://scripts/boosters/ST-7.gd")
+	var _ST8 = preload("res://scripts/boosters/ST-8.gd")
 	var _BT1 = preload("res://scripts/boosters/BT-01.gd")
 	var _BT2 = preload("res://scripts/boosters/BT-02.gd")
 	var _BT3 = preload("res://scripts/boosters/BT-03.gd")
 	var _BT4 = preload("res://scripts/boosters/BT-04.gd")
 	var _BT5 = preload("res://scripts/boosters/BT-05.gd")
+	var _BT6 = preload("res://scripts/boosters/BT-06.gd")
+	var _EX1 = preload("res://scripts/boosters/EX-01.gd")
+	var _BT7 = preload("res://scripts/boosters/BT-07.gd")
 	var _P = preload("res://scripts/boosters/Promo.gd")
 	var _Extra = preload("res://scripts/boosters/register_extras.gd")
 	
@@ -80,11 +85,16 @@ func _ready():
 	_ST4.register_cards()
 	_ST5.register_cards()
 	_ST6.register_cards()
+	_ST7.register_cards()
+	_ST8.register_cards()
 	_BT1.register_cards()
 	_BT2.register_cards()
 	_BT3.register_cards()
 	_BT4.register_cards()
 	_BT5.register_cards()
+	_BT6.register_cards()
+	_EX1.register_cards()
+	_BT7.register_cards()
 	_P.register_cards()
 	_Extra.register_boosters()
 	
@@ -106,7 +116,12 @@ func _load_card_textures(_userdata) -> void:
 	for id in get_card_list():
 		if !keep_processing:
 			return
-		_textures[id] = load("res://card_images/" + id + ".png")
+		var t = load("res://card_images/" + id + ".png")
+		if t:
+			_textures[id] = t
+		else:
+			_textures[id] = _textures["cardback"]
+			print("The card " + id + " is missing texture.")
 		if _textures.size() % 100 == 0:
 			call_deferred("emit_signal", "textures_loaded")
 	call_deferred("emit_signal", "textures_loaded")

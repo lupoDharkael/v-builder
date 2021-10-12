@@ -11,7 +11,6 @@ var toolbar_container : Control
 var collection : CardCollection
 
 var collection_needs_sync = true
-var change_is_filtering = false
 
 
 func _notification(what):
@@ -78,7 +77,7 @@ func _ready():
 	toolbar_container.big_mode_button.connect("toggled", self, "set_big_mode")
 	
 	toolbar_container.save_button.connect("pressed", toolbar_container, "save_collection")
-	toolbar_container.save_button.disabled = Storage.is_collection_in_disk(collection)
+	toolbar_container.save_button.disabled = true #Storage.is_collection_in_disk(collection)
 	
 	toolbar_container.exit_dialog.connect("confirmed", self, "save_and_exit")
 	toolbar_container.exit_dialog.get_cancel().connect("pressed", self, "exit_to_deck_list")
@@ -90,7 +89,6 @@ func _ready():
 
 
 func set_show_owned(pressed : bool) -> void:
-	print(pressed)
 	collection_container.show_plus_one = pressed
 	toolbar_container.plus_one_button.pressed = pressed
 	Config.set_value("collection_builder", "show_owned", pressed)
@@ -111,17 +109,16 @@ func sync_collection() -> void:
 
 
 func on_content_changed() -> void:
-	if !change_is_filtering:
-		toolbar_container.save_button.disabled = false
-		collection_needs_sync = true
-	change_is_filtering = false
+	toolbar_container.save_button.disabled = false
+	collection_needs_sync = true
 
 
 func filter_content() -> void:
-	change_is_filtering = true
 	sync_collection()
 	var c = filter_container.filter_collection(collection)
+	collection_container.emit_content_changed_enabled = false
 	collection_container.set_collection(c)
+	collection_container.emit_content_changed_enabled = true
 
 
 func get_collection() -> CardCollection:

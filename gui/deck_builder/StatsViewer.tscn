@@ -7,7 +7,7 @@
 [node name="StatsViewer" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -124.0
+margin_right = -221.0
 margin_bottom = -520.0
 mouse_filter = 1
 script = ExtResource( 2 )
@@ -29,19 +29,19 @@ __meta__ = {
 }
 
 [node name="Type" type="HBoxContainer" parent="HBoxContainer"]
-margin_right = 288.0
+margin_right = 256.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 
 [node name="Tama" type="VBoxContainer" parent="HBoxContainer/Type"]
-margin_right = 68.0
+margin_right = 61.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Type/Tama"]
-margin_right = 68.0
+margin_right = 61.0
 margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -69,22 +69,23 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="HBoxContainer/Type/Tama"]
 margin_top = 48.0
-margin_right = 68.0
+margin_right = 61.0
 margin_bottom = 70.0
 text = "TAMA"
 align = 1
 valign = 1
+clip_text = true
 
 [node name="Digimon" type="VBoxContainer" parent="HBoxContainer/Type"]
-margin_left = 72.0
-margin_right = 143.0
+margin_left = 65.0
+margin_right = 126.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Type/Digimon"]
-margin_right = 71.0
+margin_right = 61.0
 margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -116,22 +117,23 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="HBoxContainer/Type/Digimon"]
 margin_top = 48.0
-margin_right = 71.0
+margin_right = 61.0
 margin_bottom = 70.0
-text = "DIGIMON"
+text = "DIGI"
 align = 1
 valign = 1
+clip_text = true
 
 [node name="Tamer" type="VBoxContainer" parent="HBoxContainer/Type"]
-margin_left = 147.0
-margin_right = 215.0
+margin_left = 130.0
+margin_right = 191.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Type/Tamer"]
-margin_right = 68.0
+margin_right = 61.0
 margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -159,22 +161,23 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="HBoxContainer/Type/Tamer"]
 margin_top = 48.0
-margin_right = 68.0
+margin_right = 61.0
 margin_bottom = 70.0
 text = "TAMER"
 align = 1
 valign = 1
+clip_text = true
 
 [node name="Option" type="VBoxContainer" parent="HBoxContainer/Type"]
-margin_left = 219.0
-margin_right = 288.0
+margin_left = 195.0
+margin_right = 256.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Type/Option"]
-margin_right = 69.0
+margin_right = 61.0
 margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -202,32 +205,33 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="HBoxContainer/Type/Option"]
 margin_top = 48.0
-margin_right = 69.0
+margin_right = 61.0
 margin_bottom = 70.0
-text = "OPTION"
+text = "OPT"
 align = 1
 valign = 1
+clip_text = true
 
 [node name="VSeparator" type="VSeparator" parent="HBoxContainer"]
-margin_left = 292.0
-margin_right = 296.0
+margin_left = 260.0
+margin_right = 264.0
 margin_bottom = 70.0
 
 [node name="Levels" type="HBoxContainer" parent="HBoxContainer"]
-margin_left = 300.0
-margin_right = 589.0
+margin_left = 268.0
+margin_right = 524.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 
 [node name="Lv2" type="VBoxContainer" parent="HBoxContainer/Levels"]
-margin_right = 44.0
+margin_right = 39.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Levels/Lv2"]
-margin_right = 44.0
+margin_right = 39.0
 margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -255,22 +259,22 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="HBoxContainer/Levels/Lv2"]
 margin_top = 48.0
-margin_right = 44.0
+margin_right = 39.0
 margin_bottom = 70.0
 text = "Lv2"
 align = 1
 valign = 1
 
 [node name="Lv3" type="VBoxContainer" parent="HBoxContainer/Levels"]
-margin_left = 48.0
-margin_right = 93.0
+margin_left = 43.0
+margin_right = 82.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Levels/Lv3"]
-margin_right = 45.0
+margin_right = 39.0
 margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -298,22 +302,22 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="HBoxContainer/Levels/Lv3"]
 margin_top = 48.0
-margin_right = 45.0
+margin_right = 39.0
 margin_bottom = 70.0
 text = "Lv3"
 align = 1
 valign = 1
 
 [node name="Lv4" type="VBoxContainer" parent="HBoxContainer/Levels"]
-margin_left = 97.0
-margin_right = 142.0
+margin_left = 86.0
+margin_right = 125.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Levels/Lv4"]
-margin_right = 45.0
+margin_right = 39.0
 margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -341,22 +345,22 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="HBoxContainer/Levels/Lv4"]
 margin_top = 48.0
-margin_right = 45.0
+margin_right = 39.0
 margin_bottom = 70.0
 text = "Lv4"
 align = 1
 valign = 1
 
 [node name="Lv5" type="VBoxContainer" parent="HBoxContainer/Levels"]
-margin_left = 146.0
-margin_right = 191.0
+margin_left = 129.0
+margin_right = 169.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Levels/Lv5"]
-margin_right = 45.0
+margin_right = 40.0
 margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -384,22 +388,22 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="HBoxContainer/Levels/Lv5"]
 margin_top = 48.0
-margin_right = 45.0
+margin_right = 40.0
 margin_bottom = 70.0
 text = "Lv5"
 align = 1
 valign = 1
 
 [node name="Lv6" type="VBoxContainer" parent="HBoxContainer/Levels"]
-margin_left = 195.0
-margin_right = 240.0
+margin_left = 173.0
+margin_right = 212.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Levels/Lv6"]
-margin_right = 45.0
+margin_right = 39.0
 margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -427,22 +431,22 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="HBoxContainer/Levels/Lv6"]
 margin_top = 48.0
-margin_right = 45.0
+margin_right = 39.0
 margin_bottom = 70.0
 text = "Lv6"
 align = 1
 valign = 1
 
 [node name="Lv7" type="VBoxContainer" parent="HBoxContainer/Levels"]
-margin_left = 244.0
-margin_right = 289.0
+margin_left = 216.0
+margin_right = 256.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 0
 
 [node name="TextureProgress" type="TextureProgress" parent="HBoxContainer/Levels/Lv7"]
-margin_right = 45.0
+margin_right = 40.0
 margin_bottom = 48.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -470,20 +474,20 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="HBoxContainer/Levels/Lv7"]
 margin_top = 48.0
-margin_right = 45.0
+margin_right = 40.0
 margin_bottom = 70.0
 text = "Lv7"
 align = 1
 valign = 1
 
 [node name="VSeparator2" type="VSeparator" parent="HBoxContainer"]
-margin_left = 593.0
-margin_right = 597.0
+margin_left = 528.0
+margin_right = 532.0
 margin_bottom = 70.0
 
 [node name="MarginColors" type="MarginContainer" parent="HBoxContainer"]
-margin_left = 601.0
-margin_right = 890.0
+margin_left = 536.0
+margin_right = 793.0
 margin_bottom = 70.0
 mouse_filter = 1
 size_flags_horizontal = 3
@@ -496,14 +500,14 @@ custom_constants/margin_bottom = 5
 [node name="Background" type="ColorRect" parent="HBoxContainer/MarginColors"]
 margin_left = 5.0
 margin_top = 5.0
-margin_right = 284.0
+margin_right = 252.0
 margin_bottom = 65.0
 color = Color( 0.14902, 0.172549, 0.231373, 1 )
 
 [node name="Colors" type="HBoxContainer" parent="HBoxContainer/MarginColors"]
 margin_left = 5.0
 margin_top = 5.0
-margin_right = 284.0
+margin_right = 252.0
 margin_bottom = 65.0
 rect_min_size = Vector2( 7, 0 )
 size_flags_horizontal = 3
@@ -511,49 +515,49 @@ size_flags_vertical = 3
 custom_constants/separation = 0
 
 [node name="Red" type="ColorRect" parent="HBoxContainer/MarginColors/Colors"]
-margin_right = 39.0
+margin_right = 35.0
 margin_bottom = 60.0
 size_flags_horizontal = 3
 color = Color( 0.8, 0.088, 0.2304, 1 )
 
 [node name="Blue" type="ColorRect" parent="HBoxContainer/MarginColors/Colors"]
-margin_left = 39.0
-margin_right = 79.0
+margin_left = 35.0
+margin_right = 70.0
 margin_bottom = 60.0
 size_flags_horizontal = 3
 color = Color( 0.216, 0.5352, 0.72, 1 )
 
 [node name="Yellow" type="ColorRect" parent="HBoxContainer/MarginColors/Colors"]
-margin_left = 79.0
-margin_right = 119.0
+margin_left = 70.0
+margin_right = 105.0
 margin_bottom = 60.0
 size_flags_horizontal = 3
 color = Color( 0.76, 0.69236, 0.0836, 1 )
 
 [node name="Green" type="ColorRect" parent="HBoxContainer/MarginColors/Colors"]
-margin_left = 119.0
-margin_right = 159.0
+margin_left = 105.0
+margin_right = 141.0
 margin_bottom = 60.0
 size_flags_horizontal = 3
 color = Color( 0.0705882, 0.588235, 0.364706, 1 )
 
 [node name="Black" type="ColorRect" parent="HBoxContainer/MarginColors/Colors"]
-margin_left = 159.0
-margin_right = 199.0
+margin_left = 141.0
+margin_right = 176.0
 margin_bottom = 60.0
 size_flags_horizontal = 3
 color = Color( 0, 0, 0, 1 )
 
 [node name="Purple" type="ColorRect" parent="HBoxContainer/MarginColors/Colors"]
-margin_left = 199.0
-margin_right = 239.0
+margin_left = 176.0
+margin_right = 211.0
 margin_bottom = 60.0
 size_flags_horizontal = 3
 color = Color( 0.388235, 0.333333, 0.627451, 1 )
 
 [node name="White" type="ColorRect" parent="HBoxContainer/MarginColors/Colors"]
-margin_left = 239.0
-margin_right = 279.0
+margin_left = 211.0
+margin_right = 247.0
 margin_bottom = 60.0
 size_flags_horizontal = 3
 color = Color( 0.94902, 1, 0.976471, 1 )

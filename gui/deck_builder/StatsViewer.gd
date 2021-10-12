@@ -5,8 +5,14 @@ extends Control
 
 
 func _ready():
-	pass
+	connect("resized", self, "_on_resized")
 
+func _on_resized():
+	var has_space = rect_size.x > 500
+	var color_container = $HBoxContainer/MarginColors
+	color_container.visible = has_space
+	var separator = $HBoxContainer/VSeparator2
+	separator.visible = has_space
 
 func set_stats(stats : CollectionStats) -> void:
 	# TYPE

@@ -33,6 +33,7 @@ static func copy_collection(collection : CardCollection) -> CardCollection:
 	
 	var dir := Directory.new()
 	dir.copy(collection.get_file_path(), res.get_file_path())
+	res.lead_card = collection.lead_card
 
 	return res
 

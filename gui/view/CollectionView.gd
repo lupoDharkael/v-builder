@@ -22,6 +22,8 @@ const card_view_item = preload("res://gui/view/CardViewItem.tscn")
 
 var card_detail : Popup
 
+var emit_content_changed_enabled = true
+
 
 #signal card_clicked(_card)
 signal count_change_requested(_card, _count)
@@ -301,6 +303,8 @@ func _on_count_change_requested(_card : Card, _count : int) -> void:
 
 
 func _on_content_changed() -> void:
+	if !emit_content_changed_enabled:
+		return
 	# TODO handle individual changes
 	# Update visibility
 	set_show_plus_one(show_plus_one)

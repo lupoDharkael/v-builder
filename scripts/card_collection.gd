@@ -183,12 +183,13 @@ static func compare_by_cost(a : String, b : String):
 	var card_a := CardDB.get_card_by_id(a)
 	var card_b := CardDB.get_card_by_id(b)
 	
-	if card_a.play_cost == 0 && card_b.play_cost == 0:
-		return get_cost_sort_priority(card_a.type) < get_cost_sort_priority(card_b.type)
-	elif card_a.play_cost < card_b.play_cost:
-		return true
+	if card_a.play_cost ==  card_b.play_cost:
+		if card_a.play_cost == 0:
+			return get_cost_sort_priority(card_a.type) < get_cost_sort_priority(card_b.type)
+		else:
+			return card_a.id < card_b.id
 	else:
-		return card_a.id < card_b.id
+		return card_a.play_cost < card_b.play_cost
 
 
 static func get_cost_sort_priority(type : String) -> int:

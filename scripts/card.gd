@@ -34,6 +34,7 @@ class Attribute:
 	const VACCINE = "Vaccine"
 	const UNKNOWN = "Unknown"
 	const FREE = "Free"
+	const VARIABLE = "Variable"
 
 class Stage:
 	const IN_TRAINING = "In-Training"
