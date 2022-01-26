@@ -5,18 +5,22 @@ static func register_cards():
 	CardDB.register_booster("ST-2", "ST-2: Cocytus Blue")
 	CardDB.add_card(ST2_01.new())
 	CardDB.add_card(ST2_02.new())
+	CardDB.add_card(ST2_02_B.new())
 	CardDB.add_card(ST2_03.new())
 	CardDB.add_card(ST2_04.new())
 	CardDB.add_card(ST2_05.new())
 	CardDB.add_card(ST2_06.new())
 	CardDB.add_card(ST2_06_B.new())
 	CardDB.add_card(ST2_07.new())
+	CardDB.add_card(ST2_07_B.new())
+	CardDB.add_card(ST2_07_C.new())
 	CardDB.add_card(ST2_08.new())
 	CardDB.add_card(ST2_08_B.new())
 	CardDB.add_card(ST2_09.new())
 	CardDB.add_card(ST2_09_B.new())
 	CardDB.add_card(ST2_10.new())
 	CardDB.add_card(ST2_11.new())
+	CardDB.add_card(ST2_11_B.new())
 	CardDB.add_card(ST2_12.new())
 	CardDB.add_card(ST2_13.new())
 	CardDB.add_card(ST2_13_B.new())
@@ -40,6 +44,8 @@ class ST2_01 extends Card:
 		ruling = [
 					"How long does the DP effect [Tsunomon] last?",
 					"It only exists when comparing the DP between two Digimon for a battle. It is not applied during the resolution \"End of battle\" or \"On Deletion\" effects that activated from that same battle.",
+					"I attack with [Omnimon X-Anti-body] that has this card as a digivolution card against a 16000 DP Digimon with no sources. Can I use its effect to delete that Digimon?",
+					"No, you cannot. The 1000 DP only exists when comparing the DP between Digimon for a battle. It is not applied during \"when X attacks\" effects.",
 ]
 
 class ST2_02 extends Card:
@@ -58,6 +64,25 @@ class ST2_02 extends Card:
 		digivolve_level = 2
 		digimon_type = "Sea Beast"
 		power = 3000
+
+class ST2_02_B extends Card:
+	func _init():
+		name = "Gomamon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLUE
+		rarity = Rarity.C
+		id = "ST2-02 (B)"
+		play_cost = 2
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.BLUE
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Sea Beast"
+		power = 3000
+		is_parallel = true
+		notes = "parallel promo"
 
 class ST2_03 extends Card:
 	func _init():
@@ -184,6 +209,54 @@ class ST2_07 extends Card:
 ]
 		notes = "Grizzmon"
 
+class ST2_07_B extends Card:
+	func _init():
+		name = "Grizzlymon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLUE
+		rarity = Rarity.C
+		id = "ST2-07 (B)"
+		play_cost = 5
+		level = 4
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.BLUE
+		digivolve_cost = 2
+		digivolve_level = 3
+		digimon_type = "Beast"
+		power = 6000
+		effect_text = "[Blocker].\n[When Attacking] Lose 2 memory."
+		ruling = [
+					"Can this Digimon attack when I have less than 2 memory?",
+					"Yes, it can. Even if this Digimon's attack effect causes your memory to move to 1 or greater on your opponent's side, it doesn't become your opponent's turn until the end of the attack.",
+]
+		is_parallel = true
+		notes = "parallel promo Grizzmon"
+
+class ST2_07_C extends Card:
+	func _init():
+		name = "Grizzlymon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLUE
+		rarity = Rarity.C
+		id = "ST2-07 (C)"
+		play_cost = 5
+		level = 4
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.BLUE
+		digivolve_cost = 2
+		digivolve_level = 3
+		digimon_type = "Beast"
+		power = 6000
+		effect_text = "[Blocker].\n[When Attacking] Lose 2 memory."
+		ruling = [
+					"Can this Digimon attack when I have less than 2 memory?",
+					"Yes, it can. Even if this Digimon's attack effect causes your memory to move to 1 or greater on your opponent's side, it doesn't become your opponent's turn until the end of the attack.",
+]
+		is_parallel = true
+		notes = "parallel promo Grizzmon"
+
 class ST2_08 extends Card:
 	func _init():
 		name = "WereGarurumon"
@@ -204,7 +277,7 @@ class ST2_08 extends Card:
 		ruling = [
 					"Does this card's inherited effect apply even if my opponent only has 1 Digimon with no digivolution cards?",
 					"Yes, it does.",
-					"One of my Digimon has this card as a digivolution card and attacks one of my opponent's Digimon that has 1 digivolution card. If this Digimon has another When Attacking effect that activates and trashes that digivolution card, does this card's inherited effect activate?",
+					"One of my Digimon has this card as a digivolution card and attacks one of my opponent's Digimon that has 1 digivolution card. If this Digimon has another [When Attacking] effect that activates and trashes that digivolution card, does this card's inherited effect activate?",
 					"Yes. Once that Digimon has no digivolution cards left, this card's inherited effect activates.",
 					"Does this card's inherited effect apply if my opponent has a Digimon with no digivolution cards in their breeding area?",
 					"No, it doesn't check Digimon in the breeding area.",
@@ -232,7 +305,7 @@ class ST2_08_B extends Card:
 		ruling = [
 					"Does this card's inherited effect apply even if my opponent only has 1 Digimon with no digivolution cards?",
 					"Yes, it does.",
-					"One of my Digimon has this card as a digivolution card and attacks one of my opponent's Digimon that has 1 digivolution card. If this Digimon has another When Attacking effect that activates and trashes that digivolution card, does this card's inherited effect activate?",
+					"One of my Digimon has this card as a digivolution card and attacks one of my opponent's Digimon that has 1 digivolution card. If this Digimon has another [When Attacking] effect that activates and trashes that digivolution card, does this card's inherited effect activate?",
 					"Yes. Once that Digimon has no digivolution cards left, this card's inherited effect activates.",
 					"Does this card's inherited effect apply if my opponent has a Digimon with no digivolution cards in their breeding area?",
 					"No, it doesn't check Digimon in the breeding area.",
@@ -334,6 +407,34 @@ class ST2_11 extends Card:
 					"At what timing does this Digimon unsuspend itself?",
 					"After you declare your attack, suspend the Digimon, then declare your attack target. When performing your security check or resolving a battle with your opponent's Digimon, this Digimon will already be unsuspended.",
 ]
+
+class ST2_11_B extends Card:
+	func _init():
+		name = "MetalGarurumon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLUE
+		rarity = Rarity.SR
+		id = "ST2-11 (B)"
+		play_cost = 11
+		level = 6
+		stage_level = Stage.HYBRID
+		attribute = Attribute.DATA
+		digivolve_color = ColorGroup.BLUE
+		digivolve_cost = 4
+		digivolve_level = 5
+		digimon_type = "Cyborg"
+		power = 11000
+		effect_text = "[When Attacking] [Once Per Turn] Unsuspend this Digimon"
+		ruling = [
+					"Does this Digimon unsuspend itself each time it attacks?",
+					"No, it only unsuspends itself once per turn. In other words, it only unsuspends the first time it attacks each turn.",
+					"Does this Digimon's effect only activate once per game?",
+					"No. You can use the effect again during your next turn.",
+					"At what timing does this Digimon unsuspend itself?",
+					"After you declare your attack, suspend the Digimon, then declare your attack target. When performing your security check or resolving a battle with your opponent's Digimon, this Digimon will already be unsuspended.",
+]
+		is_parallel = true
+		notes = "parallel promo"
 
 class ST2_12 extends Card:
 	func _init():

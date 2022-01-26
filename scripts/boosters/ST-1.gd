@@ -5,19 +5,27 @@ static func register_cards():
 	CardDB.register_booster("ST-1", "ST-1: Gaia Red")
 	CardDB.add_card(ST1_01.new())
 	CardDB.add_card(ST1_02.new())
+	CardDB.add_card(ST1_02_B.new())
+	CardDB.add_card(ST1_02_C.new())
+	CardDB.add_card(ST1_02_D.new())
 	CardDB.add_card(ST1_03.new())
 	CardDB.add_card(ST1_03_B.new())
+	CardDB.add_card(ST1_03_C.new())
 	CardDB.add_card(ST1_04.new())
 	CardDB.add_card(ST1_05.new())
 	CardDB.add_card(ST1_06.new())
 	CardDB.add_card(ST1_07.new())
 	CardDB.add_card(ST1_07_B.new())
+	CardDB.add_card(ST1_07_C.new())
 	CardDB.add_card(ST1_08.new())
 	CardDB.add_card(ST1_08_B.new())
 	CardDB.add_card(ST1_09.new())
 	CardDB.add_card(ST1_09_B.new())
+	CardDB.add_card(ST1_09_C.new())
 	CardDB.add_card(ST1_10.new())
+	CardDB.add_card(ST1_10_B.new())
 	CardDB.add_card(ST1_11.new())
+	CardDB.add_card(ST1_11_B.new())
 	CardDB.add_card(ST1_12.new())
 	CardDB.add_card(ST1_13.new())
 	CardDB.add_card(ST1_13_B.new())
@@ -61,6 +69,63 @@ class ST1_02 extends Card:
 		power = 3000
 		notes = "Piyomon"
 
+class ST1_02_B extends Card:
+	func _init():
+		name = "Biyomon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.C
+		id = "ST1-02 (B)"
+		play_cost = 2
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Bird"
+		power = 3000
+		is_parallel = true
+		notes = "parallel promo Piyomon"
+
+class ST1_02_C extends Card:
+	func _init():
+		name = "Biyomon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.C
+		id = "ST1-02 (C)"
+		play_cost = 2
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Bird"
+		power = 3000
+		is_parallel = true
+		notes = "parallel promo Piyomon"
+
+class ST1_02_D extends Card:
+	func _init():
+		name = "Biyomon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.C
+		id = "ST1-02 (D)"
+		play_cost = 2
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Bird"
+		power = 3000
+		is_parallel = true
+		notes = "parallel promo Piyomon"
+
 class ST1_03 extends Card:
 	func _init():
 		name = "Agumon"
@@ -86,6 +151,26 @@ class ST1_03_B extends Card:
 		color = ColorGroup.RED
 		rarity = Rarity.U
 		id = "ST1-03 (B)"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Reptile"
+		power = 2000
+		inherited_effect_text = "[Your Turn] This Digimon gets +1000 DP."
+		is_parallel = true
+		notes = "parallel promo"
+
+class ST1_03_C extends Card:
+	func _init():
+		name = "Agumon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.U
+		id = "ST1-03 (C)"
 		play_cost = 3
 		level = 3
 		stage_level = Stage.ROOKIE
@@ -193,6 +278,26 @@ class ST1_07_B extends Card:
 		is_parallel = true
 		notes = "parallel promo"
 
+class ST1_07_C extends Card:
+	func _init():
+		name = "Greymon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.U
+		id = "ST1-07 (C)"
+		play_cost = 5
+		level = 4
+		stage_level = Stage.CHAMPION
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 2
+		digivolve_level = 3
+		digimon_type = "Dinosaur"
+		power = 4000
+		inherited_effect_text = "[Security Attack +1]."
+		is_parallel = true
+		notes = "parallel promo"
+
 class ST1_08 extends Card:
 	func _init():
 		name = "Garudamon"
@@ -285,6 +390,30 @@ class ST1_09_B extends Card:
 		is_parallel = true
 		notes = "parallel promo"
 
+class ST1_09_C extends Card:
+	func _init():
+		name = "MetalGreymon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.R
+		id = "ST1-09 (C)"
+		play_cost = 7
+		level = 5
+		stage_level = Stage.ULTIMATE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 3
+		digivolve_level = 4
+		digimon_type = "Cyborg"
+		power = 7000
+		inherited_effect_text = "[Your Turn] When this Digimon is blocked, gain 3 memory."
+		ruling = [
+					"Does this card's inherited effect activate when I attack my opponent's Digimon?",
+					"No, it only activates if your opponent declares they're blocking the attack with [Blocker].",
+]
+		is_parallel = true
+		notes = "parallel promo"
+
 class ST1_10 extends Card:
 	func _init():
 		name = "Phoenixmon"
@@ -301,6 +430,25 @@ class ST1_10 extends Card:
 		digivolve_level = 5
 		digimon_type = "Holy Beast"
 		power = 12000
+
+class ST1_10_B extends Card:
+	func _init():
+		name = "Phoenixmon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.R
+		id = "ST1-10 (B)"
+		play_cost = 10
+		level = 6
+		stage_level = Stage.MEGA
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 2
+		digivolve_level = 5
+		digimon_type = "Holy Beast"
+		power = 12000
+		is_parallel = true
+		notes = "parallel promo"
 
 class ST1_11 extends Card:
 	func _init():
@@ -323,6 +471,30 @@ class ST1_11 extends Card:
 					"How does this Digimon's effect work when it has 3 digivolution cards?",
 					"Only multiples of 2 count for this effect, so even if you have 3 digivolution cards, it only gains [Security Attack +1].",
 ]
+
+class ST1_11_B extends Card:
+	func _init():
+		name = "WarGreymon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.SR
+		id = "ST1-11 (B)"
+		play_cost = 12
+		level = 6
+		stage_level = Stage.MEGA
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 4
+		digivolve_level = 5
+		digimon_type = "Dragonkin"
+		power = 12000
+		effect_text = "[Your Turn] For every 2 digivolution cards this Digimon has, it gains [Security Attack +1]."
+		ruling = [
+					"How does this Digimon's effect work when it has 3 digivolution cards?",
+					"Only multiples of 2 count for this effect, so even if you have 3 digivolution cards, it only gains [Security Attack +1].",
+]
+		is_parallel = true
+		notes = "parallel promo"
 
 class ST1_12 extends Card:
 	func _init():
@@ -351,7 +523,7 @@ class ST1_13 extends Card:
 		effect_text = "[Main] 1 of your Digimon gets +3000 DP for the turn."
 		sec_effect_text = "[Security] All of your Digimon gain [Security Attack +1] until the end of your next turn."
 		ruling = [
-					"During my next turn after this card's security effect was activated, does it apply to newly played Digimon and Digimon moved from the breeding area to the battle area?",
+					"During my next turn after this card's [Security] effect was activated, does it apply to newly played Digimon and Digimon moved from the breeding area to the battle area?",
 					"Yes, it does.",
 ]
 
@@ -366,7 +538,7 @@ class ST1_13_B extends Card:
 		effect_text = "[Main] 1 of your Digimon gets +3000 DP for the turn."
 		sec_effect_text = "[Security] All of your Digimon gain [Security Attack +1] until the end of your next turn."
 		ruling = [
-					"During my next turn after this card's security effect was activated, does it apply to newly played Digimon and Digimon moved from the breeding area to the battle area?",
+					"During my next turn after this card's [Security] effect was activated, does it apply to newly played Digimon and Digimon moved from the breeding area to the battle area?",
 					"Yes, it does.",
 ]
 		is_parallel = true

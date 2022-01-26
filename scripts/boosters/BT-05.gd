@@ -4,15 +4,20 @@ static func register_cards():
 
 	CardDB.register_booster("BT-05", "BT-05: Battle of Omega")
 	CardDB.add_card(BT5_001.new())
+	CardDB.add_card(BT5_001_B.new())
 	CardDB.add_card(BT5_002.new())
 	CardDB.add_card(BT5_003.new())
 	CardDB.add_card(BT5_004.new())
 	CardDB.add_card(BT5_005.new())
 	CardDB.add_card(BT5_006.new())
 	CardDB.add_card(BT5_007.new())
+	CardDB.add_card(BT5_007_B.new())
+	CardDB.add_card(BT5_007_C.new())
 	CardDB.add_card(BT5_008.new())
 	CardDB.add_card(BT5_009.new())
+	CardDB.add_card(BT5_009_B.new())
 	CardDB.add_card(BT5_010.new())
+	CardDB.add_card(BT5_010_B.new())
 	CardDB.add_card(BT5_011.new())
 	CardDB.add_card(BT5_012.new())
 	CardDB.add_card(BT5_013.new())
@@ -24,6 +29,7 @@ static func register_cards():
 	CardDB.add_card(BT5_019.new())
 	CardDB.add_card(BT5_019_B.new())
 	CardDB.add_card(BT5_020.new())
+	CardDB.add_card(BT5_020_B.new())
 	CardDB.add_card(BT5_021.new())
 	CardDB.add_card(BT5_022.new())
 	CardDB.add_card(BT5_023.new())
@@ -40,14 +46,17 @@ static func register_cards():
 	CardDB.add_card(BT5_034.new())
 	CardDB.add_card(BT5_035.new())
 	CardDB.add_card(BT5_036.new())
+	CardDB.add_card(BT5_036_B.new())
 	CardDB.add_card(BT5_037.new())
 	CardDB.add_card(BT5_038.new())
+	CardDB.add_card(BT5_038_B.new())
 	CardDB.add_card(BT5_039.new())
 	CardDB.add_card(BT5_040.new())
 	CardDB.add_card(BT5_041.new())
 	CardDB.add_card(BT5_042.new())
 	CardDB.add_card(BT5_043.new())
 	CardDB.add_card(BT5_044.new())
+	CardDB.add_card(BT5_044_B.new())
 	CardDB.add_card(BT5_045.new())
 	CardDB.add_card(BT5_046.new())
 	CardDB.add_card(BT5_047.new())
@@ -140,7 +149,21 @@ class BT5_001 extends Card:
 		level = 2
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Lesser"
-		inherited_effect_text = "[When Attacking] [Once Per Turn] If this Digimon's name contains [Greymon] or [Omnimon], trigger [Draw 1]."
+		inherited_effect_text = "[When Attacking] [Once Per Turn] If this Digimon has [Omnimon], [BurningGreymon], [DexDoruGreymon]}, trigger [Draw 1]."
+
+class BT5_001_B extends Card:
+	func _init():
+		name = "Koromon"
+		type = Type.DIGITAMA
+		color = ColorGroup.RED
+		rarity = Rarity.U
+		id = "BT5-001 (B)"
+		level = 2
+		stage_level = Stage.IN_TRAINING
+		digimon_type = "Lesser"
+		inherited_effect_text = "[When Attacking] [Once Per Turn] If this Digimon has [Omnimon], [BurningGreymon], [DexDoruGreymon]}, trigger [Draw 1]."
+		is_parallel = true
+		notes = "parallel promo"
 
 class BT5_002 extends Card:
 	func _init():
@@ -152,7 +175,7 @@ class BT5_002 extends Card:
 		level = 2
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Lesser"
-		inherited_effect_text = "[Your Turn] While this Digimon's name contains [Garurumon] or [Omnimon], this Digimon gets +1000 DP."
+		inherited_effect_text = "[Your Turn] While this Digimon has [Omnimon]}, this Digimon gets +1000 DP."
 
 class BT5_003 extends Card:
 	func _init():
@@ -193,7 +216,7 @@ class BT5_005 extends Card:
 		level = 2
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Unidentified"
-		inherited_effect_text = "[When Attacking] [Once Per Turn] If this Digimon has [Unidentified] in its type, trigger [Draw 1]."
+		inherited_effect_text = "[When Attacking] [Once Per Turn] If this Digimon has [Unidentified], trigger [Draw 1]."
 
 class BT5_006 extends Card:
 	func _init():
@@ -208,7 +231,7 @@ class BT5_006 extends Card:
 		inherited_effect_text = "[Your Turn] [Once Per Turn] When one of your other Digimon is deleted, this Digimon gets +2000 DP for the turn."
 		ruling = [
 					"My Digimon with this card in its digivolution cards and another of my Digimon is reduced to 0 DP at the same time by 1 of my opponent's effects. At this point of time, does this card's inherited effect give itself +2000 DP and stop itself from being deleted due to having 0 DP?",
-					"No, at the point of time when this inherited effect activates, that Digimon is already to be deleted from having 0 DP, you cannot do that.",
+					"No, both Digimon are deleted at the same time, and that Digimon is already to be deleted from having 0 DP, so you cannot do that.",
 ]
 
 class BT5_007 extends Card:
@@ -227,11 +250,59 @@ class BT5_007 extends Card:
 		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		effect_text = "[On Play] Reveal 3 cards from the top of your deck. Add 1 Digimon card with [Greymon] and/or 1 Digimon card with [Omnimon] in its name from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		effect_text = "[On Play] Reveal 3 cards from the top of your deck. Add 1 Digimon card with [Greymon], [BurningGreymon], [DexDoruGreymon]} and/or 1 Digimon card with [Omnimon] from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 		ruling = [
 					"For this card's effect, if I do not reveal both a card with [Greymon] and a card with [Omnimon], does that mean I don't get to add them to my hand?",
 					"No, if you only revealed either a Digimon card with [Greymon] or a Digimon card with [Omnimon], you still add either of them to your hand.",
 ]
+
+class BT5_007_B extends Card:
+	func _init():
+		name = "Agumon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.C
+		id = "BT5-007 (B)"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Reptile"
+		power = 2000
+		effect_text = "[On Play] Reveal 3 cards from the top of your deck. Add 1 Digimon card with [Greymon], [BurningGreymon], [DexDoruGreymon]} and/or 1 Digimon card with [Omnimon] from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		ruling = [
+					"For this card's effect, if I do not reveal both a card with [Greymon] and a card with [Omnimon], does that mean I don't get to add them to my hand?",
+					"No, if you only revealed either a Digimon card with [Greymon] or a Digimon card with [Omnimon], you still add either of them to your hand.",
+]
+		is_parallel = true
+		notes = "parallel promo"
+
+class BT5_007_C extends Card:
+	func _init():
+		name = "Agumon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.C
+		id = "BT5-007 (C)"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Reptile"
+		power = 2000
+		effect_text = "[On Play] Reveal 3 cards from the top of your deck. Add 1 Digimon card with [Greymon], [BurningGreymon], [DexDoruGreymon]} and/or 1 Digimon card with [Omnimon] from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		ruling = [
+					"For this card's effect, if I do not reveal both a card with [Greymon] and a card with [Omnimon], does that mean I don't get to add them to my hand?",
+					"No, if you only revealed either a Digimon card with [Greymon] or a Digimon card with [Omnimon], you still add either of them to your hand.",
+]
+		is_parallel = true
+		notes = "parallel promo"
 
 class BT5_008 extends Card:
 	func _init():
@@ -275,16 +346,43 @@ class BT5_009 extends Card:
 		digivolve_color = ColorGroup.RED
 		digivolve_cost = 0
 		digivolve_level = 2
-		digimon_type = "Small Dragon"
+		digimon_type = "Mini Dragon"
 		power = 1000
-		effect_text = "[On Play] Reveal 5 cards from the top of your deck. Add 1 Digimon card with [Shoutmon] and/or 1 Digimon card with [Advance] from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-		inherited_effect_text = "[Your Turn] While this Digimon has [Advance], it gets +2000 DP."
+		effect_text = "[On Play] Reveal 5 cards from the top of your deck. Add 1 Digimon card with [Shoutmon] and/or 1 Digimon card with [Blitz] from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		inherited_effect_text = "[Your Turn] While this Digimon has [Blitz], it gets +2000 DP."
 		ruling = [
-					"For this card's effect, if I do not reveal both a card with [Shoutmon] and a card with [Advance], does that mean I don't get to add them to my hand?",
-					"No, if you only revealed either a Digimon card with [Shoutmon] or a Digimon card with [Advance], you still add either of them to your hand.",
+					"For this card's effect, if I do not reveal both a card with [Shoutmon] and a card with [Blitz], does that mean I don't get to add them to my hand?",
+					"No, if you only revealed either a Digimon card with [Shoutmon] or a Digimon card with [Blitz], you still add either of them to your hand.",
 					"For this card's effect, if I revealed 2 [Shoutmon DX] from among the 5 revealed cards, can I add them both to my hand?",
-					"Yes, as [Shoutmon DX] can meet either condition of \"Digimon card with [Shoutmon]\" and \"Digimon card with [Advance], you can add them both to your hand.",
+					"Yes, as [Shoutmon DX] can meet either condition of \"Digimon card with [Shoutmon]\" and \"Digimon card with [Blitz], you can add them both to your hand.",
 ]
+
+class BT5_009_B extends Card:
+	func _init():
+		name = "Shoutmon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.U
+		id = "BT5-009 (B)"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.DATA
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Mini Dragon"
+		power = 1000
+		effect_text = "[On Play] Reveal 5 cards from the top of your deck. Add 1 Digimon card with [Shoutmon] and/or 1 Digimon card with [Blitz] from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		inherited_effect_text = "[Your Turn] While this Digimon has [Blitz], it gets +2000 DP."
+		ruling = [
+					"For this card's effect, if I do not reveal both a card with [Shoutmon] and a card with [Blitz], does that mean I don't get to add them to my hand?",
+					"No, if you only revealed either a Digimon card with [Shoutmon] or a Digimon card with [Blitz], you still add either of them to your hand.",
+					"For this card's effect, if I revealed 2 [Shoutmon DX] from among the 5 revealed cards, can I add them both to my hand?",
+					"Yes, as [Shoutmon DX] can meet either condition of \"Digimon card with [Shoutmon]\" and \"Digimon card with [Blitz], you can add them both to your hand.",
+]
+		is_parallel = true
+		notes = "parallel promo"
 
 class BT5_010 extends Card:
 	func _init():
@@ -303,7 +401,28 @@ class BT5_010 extends Card:
 		digimon_type = "Dinosaur"
 		power = 5000
 		effect_text = "[When Digivolved] If this Digimon has [Agumon] in it's Digivolution Cards, gain 1 memory."
-		inherited_effect_text = "[Your Turn] While this Digimon has [Greymon] or [Omnimon] in its name, this Digimon gets +2000 DP."
+		inherited_effect_text = "[Your Turn] While this Digimon has [Omnimon], [BurningGreymon], [DexDoruGreymon]}, it gets +2000 DP."
+
+class BT5_010_B extends Card:
+	func _init():
+		name = "Greymon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.U
+		id = "BT5-010 (B)"
+		play_cost = 5
+		level = 4
+		stage_level = Stage.CHAMPION
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.RED
+		digivolve_cost = 2
+		digivolve_level = 3
+		digimon_type = "Dinosaur"
+		power = 5000
+		effect_text = "[When Digivolved] If this Digimon has [Agumon] in it's Digivolution Cards, gain 1 memory."
+		inherited_effect_text = "[Your Turn] While this Digimon has [Omnimon], [BurningGreymon], [DexDoruGreymon]}, it gets +2000 DP."
+		is_parallel = true
+		notes = "parallel promo"
 
 class BT5_011 extends Card:
 	func _init():
@@ -375,12 +494,12 @@ class BT5_014 extends Card:
 		digimon_type = "Dragonkin"
 		power = 7000
 		effect_text = "Your [Shoutmon] can digivolve into this card in your hand for a memory cost of 4, ignoring this card's digivolution requirements."
-		inherited_effect_text = "While this Digimon has [Advance], it gains [Security Attack +1]."
+		inherited_effect_text = "While this Digimon has [Blitz], it gains [Security Attack +1]."
 		ruling = [
 					"Can I digivolve my [Shoutmon] in Breeding Area into this card?",
 					"No,you cannot Digivolve your [Shoutmon] in Breeding Area into this card with this card's effect.",
-					"For this card's inherited effect, does that Digimon not gain [Security Attack +1] if it's not attacking by using [Advance]?",
-					"No, as long as the Digimon that has this card in its digivolution cards has the [Advance] effect, it gains [Security Attack +1] even if not attacking using [Advance].",
+					"For this card's inherited effect, does that Digimon not gain [Security Attack +1] if it's not attacking by using [Blitz]?",
+					"No, as long as the Digimon that has this card in its digivolution cards has the [Blitz] effect, it gains [Security Attack +1] even if not attacking using [Blitz].",
 ]
 		notes = "OmegaShoutmon"
 
@@ -404,7 +523,7 @@ class BT5_015 extends Card:
 		digimon_type = "Cyborg"
 		power = 8000
 		effect_text = "[When Digivolved] While a Digimon card with [MetalGreymon] is in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 4000 DP or less."
-		inherited_effect_text = "[Your Turn] While this Digimon has [Greymon] or [Omnimon] in its name, it gets +2000 DP."
+		inherited_effect_text = "[Your Turn] When this Digimon has [Omnimon], [BurningGreymon], [DexDoruGreymon]}, it gets +2000 DP."
 
 class BT5_016 extends Card:
 	func _init():
@@ -441,8 +560,8 @@ class BT5_017 extends Card:
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 11000
-		effect_text = "[When Digivolved] [Advance]."
-		inherited_effect_text = "[Your Turn] When this Digimon attacks with [Advance], it can also attack your opponent's unsuspended Digimon."
+		effect_text = "[When Digivolved] [Blitz]."
+		inherited_effect_text = "[Your Turn] When this Digimon attacks with [Blitz], it can also attack your opponent's unsuspended Digimon."
 		notes = "ZekeGreymon"
 
 class BT5_018 extends Card:
@@ -486,7 +605,7 @@ class BT5_019 extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Composition"
 		power = 12000
-		effect_text = "[When Digivolved] [Advance].\n[When Digivolved] You may place 1 red Digimon card from your hand at the top of this Digimon's digivolution cards. Then, for each [OmniShoutmon] or [ZeigGreymon] in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 5000 DP or less."
+		effect_text = "[When Digivolved] [Blitz].\n[When Digivolved] You may place 1 red Digimon card from your hand at the top of this Digimon's digivolution cards. Then, for each [OmniShoutmon] or [ZeigGreymon] in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 5000 DP or less."
 		ruling = [
 					"When I digivolve a Level 5 Digimon into this Digimon, can I put a Red Level 4 or below, or a Level 7 Digimon card from my hand to the top most digivolution cards card?",
 					"Yes, you can.",
@@ -494,10 +613,12 @@ class BT5_019 extends Card:
 					"It becomes a Level 3 Digimon. The digivolution cards under this Digimon remain as they are, and their inherited effects can still activate.",
 					"I use this Digimon's [When Digivolved] effect to put a Level 3 Digimon card on the top of its digivolution cards. This Digimon then receives the effect of [De-Digivolve 2]. How do I resolve this?",
 					"This card itself is trashed due to [De-Digivolve], then this Digimon becomes a Level 3 Digimon. As [De-Digivolve] is unable to trash any further when the Digimon becomes Level 3, the [De-Digivolve] effect ends. The digivolution cards under this Digimon remain as they are, and their inherited effects can still activate.",
-					"Since this card has 2 [When Digivolved] effects, if I choose to resolve [Advance] first, does that mean I resolve the other [When Digivolved] effect after the attack from [Advance] ends?",
-					"No, if you chose to resolve [Advance] first, you will suspend this Digimon, and declare attack. The actual attack will only happen after all other [When Digivolved] effects have finished resolving.",
-					"I use this card's [When Digivolved] effect to put [ZeigGreymon] from my hand to the top of this Digimon's digivolution cards. I then activate [Advance] to attack. Does [ZeigGreymon]'s inherited effect then allow me to attack my opponent's unsuspended Digimon?",
+					"Since this card has 2 [When Digivolved] effects, if I choose to resolve [Blitz] first, does that mean I resolve the other [When Digivolved] effect after the attack from [Blitz] ends?",
+					"No, if you chose to resolve [Blitz] first, you will suspend this Digimon, and declare attack. The actual attack will only happen after all other [When Digivolved] effects have finished resolving. ''(See more in [[Attack Resolution]])''",
+					"I use this card's [When Digivolved] effect to put [ZeigGreymon] from my hand to the top of this Digimon's digivolution cards. I then activate [Blitz] to attack. Does [ZeigGreymon]'s inherited effect then allow me to attack my opponent's unsuspended Digimon?",
 					"Yes, you can attack your opponent's unsuspended Digimon due to [ZeigGreymon]'s inherited effect.",
+					"Can I use this card's effect to delete Digimon even if I don't place a card on its digivolution cards?",
+					"Yes, you can still delete Digimon without doing the first part of the [When Digivolved].",
 ]
 
 class BT5_019_B extends Card:
@@ -519,7 +640,7 @@ class BT5_019_B extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Composition"
 		power = 12000
-		effect_text = "[When Digivolved] [Advance].\n[When Digivolved] You may place 1 red Digimon card from your hand at the top of this Digimon's digivolution cards. Then, for each [OmniShoutmon] or [ZeigGreymon] in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 5000 DP or less."
+		effect_text = "[When Digivolved] [Blitz].\n[When Digivolved] You may place 1 red Digimon card from your hand at the top of this Digimon's digivolution cards. Then, for each [OmniShoutmon] or [ZeigGreymon] in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 5000 DP or less."
 		ruling = [
 					"When I digivolve a Level 5 Digimon into this Digimon, can I put a Red Level 4 or below, or a Level 7 Digimon card from my hand to the top most digivolution cards card?",
 					"Yes, you can.",
@@ -527,10 +648,12 @@ class BT5_019_B extends Card:
 					"It becomes a Level 3 Digimon. The digivolution cards under this Digimon remain as they are, and their inherited effects can still activate.",
 					"I use this Digimon's [When Digivolved] effect to put a Level 3 Digimon card on the top of its digivolution cards. This Digimon then receives the effect of [De-Digivolve 2]. How do I resolve this?",
 					"This card itself is trashed due to [De-Digivolve], then this Digimon becomes a Level 3 Digimon. As [De-Digivolve] is unable to trash any further when the Digimon becomes Level 3, the [De-Digivolve] effect ends. The digivolution cards under this Digimon remain as they are, and their inherited effects can still activate.",
-					"Since this card has 2 [When Digivolved] effects, if I choose to resolve [Advance] first, does that mean I resolve the other [When Digivolved] effect after the attack from [Advance] ends?",
-					"No, if you chose to resolve [Advance] first, you will suspend this Digimon, and declare attack. The actual attack will only happen after all other [When Digivolved] effects have finished resolving.",
-					"I use this card's [When Digivolved] effect to put [ZeigGreymon] from my hand to the top of this Digimon's digivolution cards. I then activate [Advance] to attack. Does [ZeigGreymon]'s inherited effect then allow me to attack my opponent's unsuspended Digimon?",
+					"Since this card has 2 [When Digivolved] effects, if I choose to resolve [Blitz] first, does that mean I resolve the other [When Digivolved] effect after the attack from [Blitz] ends?",
+					"No, if you chose to resolve [Blitz] first, you will suspend this Digimon, and declare attack. The actual attack will only happen after all other [When Digivolved] effects have finished resolving. ''(See more in [[Attack Resolution]])''",
+					"I use this card's [When Digivolved] effect to put [ZeigGreymon] from my hand to the top of this Digimon's digivolution cards. I then activate [Blitz] to attack. Does [ZeigGreymon]'s inherited effect then allow me to attack my opponent's unsuspended Digimon?",
 					"Yes, you can attack your opponent's unsuspended Digimon due to [ZeigGreymon]'s inherited effect.",
+					"Can I use this card's effect to delete Digimon even if I don't place a card on its digivolution cards?",
+					"Yes, you can still delete Digimon without doing the first part of the [When Digivolved].",
 ]
 		is_parallel = true
 		notes = "parallel promo"
@@ -551,11 +674,35 @@ class BT5_020 extends Card:
 		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		effect_text = "[On Play] Reveal 3 cards from the top of your Deck. Add 1 Digimon card with [Garurumon] and/or 1 Digimon card with [Omnimon] in its name from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		effect_text = "[On Play] Reveal 3 cards from the top of your Deck. Add 1 Digimon card with [Garurumon]} and/or 1 Digimon card with [Omnimon] from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 		ruling = [
 					"For this card's effect, if I do not reveal both a card with [Garurumon] and a card with [Omnimon], does that mean I don't get to add them to my hand?",
 					"No, if you only revealed either a Digimon card with [Garurumon] or a Digimon card with [Omnimon], you still add either of them to your hand.",
 ]
+
+class BT5_020_B extends Card:
+	func _init():
+		name = "Gabumon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLUE
+		rarity = Rarity.U
+		id = "BT5-020 (B)"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.DATA
+		digivolve_color = ColorGroup.BLUE
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Reptile"
+		power = 2000
+		effect_text = "[On Play] Reveal 3 cards from the top of your Deck. Add 1 Digimon card with [Garurumon]} and/or 1 Digimon card with [Omnimon] from among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		ruling = [
+					"For this card's effect, if I do not reveal both a card with [Garurumon] and a card with [Omnimon], does that mean I don't get to add them to my hand?",
+					"No, if you only revealed either a Digimon card with [Garurumon] or a Digimon card with [Omnimon], you still add either of them to your hand.",
+]
+		is_parallel = true
+		notes = "parallel promo"
 
 class BT5_021 extends Card:
 	func _init():
@@ -646,7 +793,7 @@ class BT5_024 extends Card:
 		digimon_type = "Beast"
 		power = 5000
 		effect_text = "[When Digivolved] If this Digimon has [Gabumon] in it's Digivolution Cards, gain 1 memory."
-		inherited_effect_text = "[All Turns] While this Digimon has [Garurumon] or [Omnimon] in its name, this Digimon gets +1000 DP."
+		inherited_effect_text = "[All Turns] While this Digimon has [Omnimon]}, it gets +1000 DP."
 
 class BT5_025 extends Card:
 	func _init():
@@ -740,7 +887,7 @@ class BT5_029 extends Card:
 		digimon_type = "Beastkin"
 		power = 8000
 		effect_text = "[When Digivolved] While a Digimon card with [WereGarurumon] is in this Digimon's digivolution cards, this Digimon gains [Jamming]."
-		inherited_effect_text = "[All Turns] While this Digimon has [Garurumon] or [Omnimon] in its name, this Digimon gets +1000 DP."
+		inherited_effect_text = "[Your Turn] When this Digimon has [Omnimon]}, it gets +1000 DP."
 
 class BT5_030 extends Card:
 	func _init():
@@ -754,10 +901,10 @@ class BT5_030 extends Card:
 		stage_level = Stage.MEGA
 		attribute = Attribute.VACCINE
 		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
+		digivolve_cost = 2
 		digivolve_level = 5
 		digimon_type = "Shaman"
-		power = 1000
+		power = 10000
 		effect_text = "[Opponent Turn] This Digimon can't be attacked."
 		ruling = [
 					"This Digimon gained [Blocker] from other effects. I then activate this Digimon's [Blocker] against an opponent's Digimon's attack. What happens?",
@@ -765,7 +912,7 @@ class BT5_030 extends Card:
 					"Can I use [Chaosmon]'s [When Digivolved] effect to choose this Digimon as the target of attack?",
 					"No, you cannot.",
 					"I have this Digimon unsuspended, and my opponent's [Blastmon] attacks. Can I change the attack target to this Digimon due to [Blastmon]'s effect?",
-					"Yes, you can. This Digimon will be treated as the attack target and battle will happen.",
+					"Yes, you can. The attack target will be changed to This Digimon and the battle will happen.",
 ]
 
 class BT5_031 extends Card:
@@ -784,8 +931,16 @@ class BT5_031 extends Card:
 		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 11000
-		effect_text = "[When Digivolved] If this Digimon card with [Garurumon] ''(other than [KendoGarurumon])'' is in this Digimon's digivolution cards, return 1 of your opponent's Digimon with an [On Deletion] effect to the bottom of its owner's deck. Trash all of the digivolution cards of that Digimon."
+		effect_text = "[When Digivolved] If this Digimon card with [Garurumon] ''(other than [KendoGarurumon])'' is in this Digimon's digivolution cards, return 1 of your opponent's Digimon with an , return 1 of your opponent's Digimon with an [On Deletion] effect to the bottom of its owner's deck. Trash all of the digivolution cards of that Digimon."
 		inherited_effect_text = "[When Attacking] [Once Per Turn] Gain 1 memory."
+		ruling = [
+					"If a Digimon has [On Deletion] has an inherited effect, can this Digimon's [When Digivolved] effect target it?",
+					"No, that Digimon does not have [On Deletion].",
+					"If a Digimon was given [On Deletion] from its digivolution card's inherited effect, can this Digimon's [When Digivolved] effect target it?",
+					"Yes, that Digimon was given [On Deletion] while in the battle area.",
+					"If a Digimon was given [On Deletion] from an Option card's effect, can this Digimon's [When Digivolved] effect target it?",
+					"Yes, that Digimon was given [On Deletion] while in the battle area.",
+]
 
 class BT5_032 extends Card:
 	func _init():
@@ -807,10 +962,12 @@ class BT5_032 extends Card:
 		ruling = [
 					"My opponent has no Digimon with no digivolution cards, but when I attack with this Digimon and its [When Attacking] effect trashes my opponent's Digimon's digivolution cards, resulting in my opponent now having a Digimon with no digivolution cards. Does that attack get [Jamming]?",
 					"Yes, even if your opponent only have a Digimon with no digivolution cards because of this card's [When Attacking] effect, it gets [Jamming].",
-					"My opponent has this Digimon in play, my Digimon with [Security Attack +1] attacks my opponent Player, and the Security Check reveals a [Nail Crusher], and its [Security] effect removed all of my attacking Digimon's digivolution cards. Is that attack now interrupted and ends?",
-					"No, as the digivolution cards are lost after the declaration of attack, this card's effect does not interrupt and stop the attack from happening.",
+					"My opponent has this Digimon in play, my Digimon with [Security Attack +1] attacks my opponent Player, and the Security Check reveals a [Howling Crusher], and its [Security] effect removed all of my attacking Digimon's digivolution cards. Is that attack now interrupted and ends?",
+					"No, as the digivolution cards are lost after the declaration of attack, this card's effect does not interrupt and stop the attack from continuing.",
 					"This Digimon with [Security Attack +1] attacks my opponent Player, and a Digimon is Played via its [Security] effect. Since there is now a Digimon with no digivolution cards in my opponent's Battle Area, does my 2nd Check gain [Jamming]?",
-					"No, as this card's [When Attacking] effects has already finished resolving before this, that attack does not gain [Jamming] .",
+					"No, as this card's [When Attacking] effects has already finished resolving before this, that attack does not gain [Jamming]. ''(See more in [[Attack Resolution]])''",
+					"Can my opponent still suspend their Digimon with [Blocker] if they have no digivolution cards?",
+					"Yes, the Digimon can still be suspended but the attack will not be redirected.",
 ]
 
 class BT5_033 extends Card:
@@ -857,7 +1014,7 @@ class BT5_034 extends Card:
 		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		effect_text = "[On Play] Reveal 5 cards from the top of your deck. Add up to 2 yellow Digimon cards with [Warrior] or [Holy Warrior] in their types among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		effect_text = "[On Play] Reveal 5 cards from the top of your deck. Add up to 2 yellow Digimon cards with [Warrior] and/or Holy Warrior among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 
 class BT5_035 extends Card:
 	func _init():
@@ -903,6 +1060,26 @@ class BT5_036 extends Card:
 		power = 3000
 		effect_text = "[On Play] 1 of your opponent's Digimon gain [Security Attack -1] until the end of your opponent's next turn."
 
+class BT5_036_B extends Card:
+	func _init():
+		name = "Renamon"
+		type = Type.DIGIMON
+		color = ColorGroup.YELLOW
+		rarity = Rarity.R
+		id = "BT5-036 (B)"
+		play_cost = 4
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.DATA
+		digivolve_color = ColorGroup.YELLOW
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Beastkin"
+		power = 3000
+		effect_text = "[On Play] 1 of your opponent's Digimon gain [Security Attack -1] until the end of your opponent's next turn."
+		is_parallel = true
+		notes = "parallel promo"
+
 class BT5_037 extends Card:
 	func _init():
 		name = "Gladimon"
@@ -919,12 +1096,16 @@ class BT5_037 extends Card:
 		digivolve_level = 3
 		digimon_type = "Warrior"
 		power = 4000
-		effect_text = "[On Play] You may search your security stack for 1 Digimon card with [Warrior] or [Holy Warrior] in its type, reveal it, and add it to your hand. If you do, trigger [Recovery +1]. Then, shuffle your security stack."
+		effect_text = "[On Play] You may search your security stack for 1 Digimon card with [Warrior], reveal it, and add it to your hand. If you do, trigger [Recovery +1]. Then, shuffle your security stack."
 		ruling = [
-					"What does [You may search your security stack...reveal it, and add it to your hand..etc] of this card's effect mean exactly?",
+					"What does [look at your Security stack...reveal it, and add it to your hand..etc] of this card's effect mean exactly?",
 					"Without showing your opponent, you look at all the cards in your Security Stack. Choose 1 card you want to add to your hand, reveal only that card to your opponent before adding it to your hand.",
 					"What happens when there are no cards in my Security Stack that I can add to my hand with this card's effect?",
 					"Without performing [Recovery +1], shuffle your Security Stack.",
+					"If you have a Holy Warrior, Warrior in Security, do you have to add it to your handif you checked security?",
+					"No, you do not have to add it to your hand.",
+					"Do I have to check the security?",
+					"No, you can choose not to look at your security. If you do not look at security you must still shuffle the security.",
 ]
 
 class BT5_038 extends Card:
@@ -952,6 +1133,34 @@ class BT5_038 extends Card:
 					"My opponent's Security Digimon that has its DP reduced by this card's inherited effect is Played via its [Security] effect. Does that Digimon still has its DP reduced?",
 					"No, as that card is no longer a Security Digimon the moment it is Played, it does not receive the effects of DP reduction anymore.",
 ]
+
+class BT5_038_B extends Card:
+	func _init():
+		name = "Kyubimon"
+		type = Type.DIGIMON
+		color = ColorGroup.YELLOW
+		rarity = Rarity.C
+		id = "BT5-038 (B)"
+		play_cost = 5
+		level = 4
+		stage_level = Stage.CHAMPION
+		attribute = Attribute.DATA
+		digivolve_color = ColorGroup.YELLOW
+		digivolve_cost = 2
+		digivolve_level = 3
+		digimon_type = "Mysterious Beast"
+		power = 4000
+		inherited_effect_text = "[Your Turn] All of your opponent's Security Digimon get -1000 DP."
+		ruling = [
+					"If my opponent's Security Digimon revealed during Security Checks becomes 0 DP from this card's inherited effect, is that Security Digimon trashed without battling?",
+					"No, even if the Security Digimon has 0 DP, a battle still happens.",
+					"If my opponent's Security Digimon revealed during Security Checks that has a [Security] effect becomes 0 DP from this card's inherited effect, what happens?",
+					"The [Security] effect is activated as per normal.",
+					"My opponent's Security Digimon that has its DP reduced by this card's inherited effect is Played via its [Security] effect. Does that Digimon still has its DP reduced?",
+					"No, as that card is no longer a Security Digimon the moment it is Played, it does not receive the effects of DP reduction anymore.",
+]
+		is_parallel = true
+		notes = "parallel promo"
 
 class BT5_039 extends Card:
 	func _init():
@@ -1078,6 +1287,36 @@ class BT5_044 extends Card:
 					"No, as that card is no longer a Security Digimon the moment it is Played, it does not receive the effects of DP Minus anymore.",
 ]
 
+class BT5_044_B extends Card:
+	func _init():
+		name = "Sakuyamon"
+		type = Type.DIGIMON
+		color = ColorGroup.YELLOW
+		rarity = Rarity.R
+		id = "BT5-044 (B)"
+		play_cost = 12
+		level = 6
+		stage_level = Stage.MEGA
+		attribute = Attribute.DATA
+		digivolve_color = ColorGroup.YELLOW
+		digivolve_cost = 3
+		digivolve_level = 5
+		digimon_type = "Shaman"
+		power = 11000
+		effect_text = "[Opponent Turn] When an opponent's Digimon moves from the breeding area to the battle area, it gains [Security Attack -3] for the turn.\n[Your Turn] All of your opponent's Security Digimon get -3000 DP."
+		ruling = [
+					"Does this card's [Opponent Turn] effect activate even if my opponent moves their Digimon from Breeding Area to Battle Area in their Breeding Phase?",
+					"Yes, it activates even in Breeding Phase.",
+					"If my opponent's Security Digimon revealed during Security Checks becomes 0 DP from this card's interited effect, is that Security Digimon trashed without battling?",
+					"No, even if the Security Digimon has 0 DP, a battle still happens.",
+					"If my opponent's Security Digimon revealed during Security Checks that has a [Security] effect becomes 0 DP from this card's interited effect, what happens?",
+					"The [Security] effect is activated as per normal.",
+					"My opponent's Security Digimon that has its DP reduced by this card's interited effect is Played via its [Security] effect. Does that Digimon still has its DP reduced?",
+					"No, as that card is no longer a Security Digimon the moment it is Played, it does not receive the effects of DP Minus anymore.",
+]
+		is_parallel = true
+		notes = "parallel promo"
+
 class BT5_045 extends Card:
 	func _init():
 		name = "LordKnightmon"
@@ -1094,7 +1333,7 @@ class BT5_045 extends Card:
 		digivolve_level = 5
 		digimon_type = "Holy Warrior"
 		power = 11000
-		effect_text = "[When Attacking] You may play a yellow level 3 Digimon card or a yellow Digimon card with [Warrior] in its type from your hand without paying its memory cost.\n[All Turns] For each other Digimon you have in play, this Digimon gets +1000 DP."
+		effect_text = "[When Attacking] You may play a yellow level 3 Digimon card or a yellow Digimon card with [Warrior] from your hand without paying its memory cost.\n[All Turns] For each other Digimon you have in play, this Digimon gets +1000 DP."
 
 class BT5_046 extends Card:
 	func _init():
@@ -1132,8 +1371,8 @@ class BT5_047 extends Card:
 		power = 2000
 		effect_text = "[On Deletion] Place 1 [Palmon] from your trash under 1 of your green Digimon at the bottom of its digivolution cards."
 		ruling = [
-					"For this card's effect, can I choose to put this deleted card itself to the bottom of 1 of my Green Digimon?",
-					"Yes, you can.",
+					"For this card's effect, can I choose to put itself on the bottom of 1 of my Green Digimon?",
+					"Yes, this card's effect can choose itself.",
 ]
 
 class BT5_048 extends Card:
@@ -1223,6 +1462,7 @@ class BT5_052 extends Card:
 		digivolve_level = 4
 		digimon_type = "Mutant"
 		power = 8000
+		notes = "Gerbemon"
 
 class BT5_053 extends Card:
 	func _init():
@@ -1300,6 +1540,10 @@ class BT5_056 extends Card:
 		digimon_type = "Fairy"
 		power = 11000
 		effect_text = "[Main] [Digiburst 2].\n·All of your Digimon get +2000 DP for the turn.\n[Your Turn] [Once Per Turn] When one of your Digimon activates [Digiburst], 1 of your opponent's Digimon can't attack or block until the end of your opponent's next turn."
+		ruling = [
+					"If I digivolve [Rafflesimon] on top of another [Rafflesimon]. Can I use the [Once Per Turn] effect of the new Rafflesimon if the old Rafflesimon used it before?",
+					"Yes, you can.",
+]
 
 class BT5_057 extends Card:
 	func _init():
@@ -1318,6 +1562,14 @@ class BT5_057 extends Card:
 		digimon_type = "Fairy"
 		power = 11000
 		effect_text = "[Main] [Digiburst 3]\n·All of your Digimon [Digiburst] with gain [Security Attack +1] for the turn."
+		ruling = [
+					"If after using this card's [Digiburst] effect, one of my Digimon without [Digiburst] becomes a Digimon with [Digiburst], does that Digimon gain [Security Attack +1]?",
+					"Yes, this effect is applied as a Global Effect. If it satisfies the condition afterwards, it gains [Security Attack +1].",
+					"If after using this card's [Digiburst] effect, one of my Digimon with [Digiburst] becomes a Digimon without [Digiburst], does that Digimon keep the [Security Attack +1]?",
+					"No, this effect is applied as a Global Effect. So if it no longer satisfies the condition then it no longer has the [Security Attack +1].",
+					"If after using this card's [Digiburst] effect, this card leaves the battle area does the [Security Attack +1] continue being applied?",
+					"Yes, as it has already resolved and applied a Global effect, the Global effect continues applying even after Rosemon leaves the battle area.",
+]
 
 class BT5_058 extends Card:
 	func _init():
@@ -1353,7 +1605,7 @@ class BT5_059 extends Card:
 		digivolve_level = 2
 		digimon_type = "Unidentified"
 		power = 2000
-		effect_text = "[On Play] Reveal 5 cards from the top of your deck. Add 1 Digimon card with [Unidentified] in its type and/or 1 [Arata Sanada] card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		effect_text = "[On Play] Reveal 5 cards from the top of your deck. Add 1 Digimon card with [Unidentified] and/or 1 [Arata Sanada] card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 		ruling = [
 					"For this card's effect, if I do not reveal an [Unidentified] Type Digimon card and a [Arata Sanada], does that mean I don't get to add them to my hand?",
 					"No, if you only revealed either an [Unidentified] Type Digimon card or a [Arata Sanada], you still add them to your hand.",
@@ -1434,7 +1686,7 @@ class BT5_063 extends Card:
 		digimon_type = "Unidentified"
 		power = 4000
 		effect_text = "[When Digivolved] If you don't have an [Arata Sanada] card in play, you may play one from your hand without paying its memory cost."
-		inherited_effect_text = "[Your Turn] Your other Digimon that share a name with this Digimon gain [Rush]."
+		inherited_effect_text = "[Your Turn] All of your other Digimon with the same name as this Digimon gain [Rush]."
 		ruling = [
 					"If a Digimon that has [Rush] from this card's effect is digivolved into a Digimon with a different name, does that mean that Digimon cannot attack anymore on the turn it was played?",
 					"Yes, since that Digimon is now a different name, it has lost [Rush] and cannot attack anymore.",
@@ -1632,7 +1884,7 @@ class BT5_072 extends Card:
 		power = 1000
 		effect_text = "[On Deletion]  You may return 1 level 3 Digimon card with an [On Deletion] effect other than [Fake Agumon Expert], from your trash to your hand."
 		ruling = [
-					"For this card's effect, can I return a Level 3 Digimon card that has a [On Deletion] interited effect to my hand?",
+					"For this card's effect, can I return a Level 3 Digimon card that has a [On Deletion] inherited effect to my hand?",
 					"No, you cannot.",
 ]
 		notes = "Nise Agumon Hakase"
@@ -1839,7 +2091,7 @@ class BT5_082 extends Card:
 		power = 11000
 		effect_text = "[When Attacking] Activate 1 of the effects below. If you have no other Digimon in play, activate all of the effects below instead.\n·Gain 1 memory.\n·This Digimon gets +2000 DP for the turn.\n·Delete up to 3 of your opponent's level 3 Digimon."
 		ruling = [
-					"For this card's effect, when I have no other Digimon, can I choose any of the 3 effects to activate?",
+					"For this card's effect, when I have another Digimon, can I choose which of the 3 effects to activate?",
 					"Yes, that's right.",
 					"When I have no other Digimon, in which order do I activate the 3 effects?",
 					"The player can choose which order to activate them in.",
@@ -1910,8 +2162,10 @@ class BT5_085 extends Card:
 		power = 15000
 		effect_text = "When playing this card from your hand, you may delete 1 of your [Diaboromon] to reduce this card's play cost by 12.\n[Rush].\n[All Turns] The [When Digivolved] effects on level 7 Digimon don't activate."
 		ruling = [
-					"When I play this card, can I delete a <nowiki>[</nowiki>[[Diaboromon Token]]] to reduce this card's Play cost by 12 with this card's effect?",
+					"When I play this card, can I delete a <nowiki>[</nowiki>[[Diaboromon Token]] to reduce this card's Play cost by 12 with this card's effect?",
 					"Yes, you can.",
+					"Does this card's effect prevent the effect from triggering or activating?",
+					"The effect does not stop the effect from triggering, it only prevents the player from activating the triggered effect. ''(See more in [[Effect Resolution]])''",
 ]
 		notes = "Armagemon"
 
@@ -1934,16 +2188,18 @@ class BT5_086 extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Holy Warrior"
 		power = 14000
-		effect_text = "[When Digivolved] [Advance]. \n[When Digivolved] Unsuspend this Digimon. \n[All Turns] If an opponent's effect would delete this Digimon or return it to its owner's hand or deck, you may prevent it from leaving play by trashing a level 6 Digimon card in this card's digivolution cards."
+		effect_text = "[When Digivolved] [Blitz]. \n[When Digivolved] Unsuspend this Digimon. \n[All Turns] If an opponent's effect would delete this Digimon or return it to its owner's hand or deck, you may prevent it from leaving play by trashing a level 6 Digimon card in this card's digivolution cards."
 		ruling = [
-					"When digivolving into this card, can I choose to resolve [Advance] first to attack, then unsuspend this Digimon?",
-					"Yes, if you choose to resolve the effects of [Advance] first, you will suspend this Digimon and declare attack, then unsuspend this Digimon. The attack itself only happens after any other effects of the same timing are resolved",
+					"When digivolving into this card, can I choose to resolve [Blitz] first to attack, then unsuspend this Digimon?",
+					"Yes, if you choose to resolve the effects of [Blitz] first, you will suspend this Digimon and declare attack, then unsuspend this Digimon. The attack itself only happens after any other effects of the same timing are resolved",
 					"When I use this Digimon's [All Turns] effect, can I use my other Digimon's [When a Digimon is deleted] effects?",
 					"No, as this card's [All Turns] effects nullifies the effect of it being deleted or returned to hand or deck, it is not treated to have been deleted.",
-					"This Digimon deletes a Digimon with [Retaliation] in battle while it has [Durandamon] in its digivolution cards. Does the Digimon's [Piercing] still resolve?",
+					"This Digimon deletes a Digimon with [Retaliation] in battle while it has [Durandamon] in its digivolution cards. Does the Digimon's security check from [Piercing] still happen?",
 					"Yes, [Piercing] was resolved and as the Digimon is still in play, it can perform security checks.",
-					"If I use this card's effect to trash a digivolution card. Can I use [Joe Kido]'s effect?",
+					"If my opponent uses this card's effect to trash a digivolution card. Can I use [Joe Kido]'s effect?",
 					"Yes, you can.",
+					"This Digimon deletes a Digimon in battle that has 2 copies of the [Retaliation] effect from different sources. If this Digimon prevents one of the effects by trashing a level 6, can the other still delete it?",
+					"Yes, after Omnimon prevents the first Retaliation effect. The second Retaliation effect can be activated by the opponent to try and delete it again.",
 ]
 		notes = "Omegamon"
 
@@ -1966,16 +2222,18 @@ class BT5_086_B extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Holy Warrior"
 		power = 14000
-		effect_text = "[When Digivolved] [Advance]. \n[When Digivolved] Unsuspend this Digimon. \n[All Turns] If an opponent's effect would delete this Digimon or return it to its owner's hand or deck, you may prevent it from leaving play by trashing a level 6 Digimon card in this card's digivolution cards."
+		effect_text = "[When Digivolved] [Blitz]. \n[When Digivolved] Unsuspend this Digimon. \n[All Turns] If an opponent's effect would delete this Digimon or return it to its owner's hand or deck, you may prevent it from leaving play by trashing a level 6 Digimon card in this card's digivolution cards."
 		ruling = [
-					"When digivolving into this card, can I choose to resolve [Advance] first to attack, then unsuspend this Digimon?",
-					"Yes, if you choose to resolve the effects of [Advance] first, you will suspend this Digimon and declare attack, then unsuspend this Digimon. The attack itself only happens after any other effects of the same timing are resolved",
+					"When digivolving into this card, can I choose to resolve [Blitz] first to attack, then unsuspend this Digimon?",
+					"Yes, if you choose to resolve the effects of [Blitz] first, you will suspend this Digimon and declare attack, then unsuspend this Digimon. The attack itself only happens after any other effects of the same timing are resolved",
 					"When I use this Digimon's [All Turns] effect, can I use my other Digimon's [When a Digimon is deleted] effects?",
 					"No, as this card's [All Turns] effects nullifies the effect of it being deleted or returned to hand or deck, it is not treated to have been deleted.",
-					"This Digimon deletes a Digimon with [Retaliation] in battle while it has [Durandamon] in its digivolution cards. Does the Digimon's [Piercing] still resolve?",
+					"This Digimon deletes a Digimon with [Retaliation] in battle while it has [Durandamon] in its digivolution cards. Does the Digimon's security check from [Piercing] still happen?",
 					"Yes, [Piercing] was resolved and as the Digimon is still in play, it can perform security checks.",
-					"If I use this card's effect to trash a digivolution card. Can I use [Joe Kido]'s effect?",
+					"If my opponent uses this card's effect to trash a digivolution card. Can I use [Joe Kido]'s effect?",
 					"Yes, you can.",
+					"This Digimon deletes a Digimon in battle that has 2 copies of the [Retaliation] effect from different sources. If this Digimon prevents one of the effects by trashing a level 6, can the other still delete it?",
+					"Yes, after Omnimon prevents the first Retaliation effect. The second Retaliation effect can be activated by the opponent to try and delete it again.",
 ]
 		is_parallel = true
 		notes = "parallel promo Omegamon"
@@ -1999,16 +2257,18 @@ class BT5_086_C extends Card:
 		digivolve_level_2 = 6
 		digimon_type = "Holy Warrior"
 		power = 14000
-		effect_text = "[When Digivolved] [Advance]. \n[When Digivolved] Unsuspend this Digimon. \n[All Turns] If an opponent's effect would delete this Digimon or return it to its owner's hand or deck, you may prevent it from leaving play by trashing a level 6 Digimon card in this card's digivolution cards."
+		effect_text = "[When Digivolved] [Blitz]. \n[When Digivolved] Unsuspend this Digimon. \n[All Turns] If an opponent's effect would delete this Digimon or return it to its owner's hand or deck, you may prevent it from leaving play by trashing a level 6 Digimon card in this card's digivolution cards."
 		ruling = [
-					"When digivolving into this card, can I choose to resolve [Advance] first to attack, then unsuspend this Digimon?",
-					"Yes, if you choose to resolve the effects of [Advance] first, you will suspend this Digimon and declare attack, then unsuspend this Digimon. The attack itself only happens after any other effects of the same timing are resolved",
+					"When digivolving into this card, can I choose to resolve [Blitz] first to attack, then unsuspend this Digimon?",
+					"Yes, if you choose to resolve the effects of [Blitz] first, you will suspend this Digimon and declare attack, then unsuspend this Digimon. The attack itself only happens after any other effects of the same timing are resolved",
 					"When I use this Digimon's [All Turns] effect, can I use my other Digimon's [When a Digimon is deleted] effects?",
 					"No, as this card's [All Turns] effects nullifies the effect of it being deleted or returned to hand or deck, it is not treated to have been deleted.",
-					"This Digimon deletes a Digimon with [Retaliation] in battle while it has [Durandamon] in its digivolution cards. Does the Digimon's [Piercing] still resolve?",
+					"This Digimon deletes a Digimon with [Retaliation] in battle while it has [Durandamon] in its digivolution cards. Does the Digimon's security check from [Piercing] still happen?",
 					"Yes, [Piercing] was resolved and as the Digimon is still in play, it can perform security checks.",
-					"If I use this card's effect to trash a digivolution card. Can I use [Joe Kido]'s effect?",
+					"If my opponent uses this card's effect to trash a digivolution card. Can I use [Joe Kido]'s effect?",
 					"Yes, you can.",
+					"This Digimon deletes a Digimon in battle that has 2 copies of the [Retaliation] effect from different sources. If this Digimon prevents one of the effects by trashing a level 6, can the other still delete it?",
+					"Yes, after Omnimon prevents the first Retaliation effect. The second Retaliation effect can be activated by the opponent to try and delete it again.",
 ]
 		is_parallel = true
 		notes = "parallel promo Omegamon"
@@ -2036,6 +2296,8 @@ class BT5_087 extends Card:
 		ruling = [
 					"For this card's [When Digivolved] effect, can I choose any 2 Purple or Black Digimon card with Play cost of 8 or less in my Trash even if they were not trashed by this effect?",
 					"Yes, you can Play any Purple or Black Digimon card with Play cost of 8 or less that were originally already in your Trash.",
+					"Can I use this card's [When Digivolved] effect to play 1 Black Digimon and 1 Purple Digimon?",
+					"Yes, you can choose 1 Black Digimon and 1 Purple Digimon to play with this effect.",
 ]
 		notes = "Omegamon Zwart"
 
@@ -2062,6 +2324,8 @@ class BT5_087_B extends Card:
 		ruling = [
 					"For this card's [When Digivolved] effect, can I choose any 2 Purple or Black Digimon card with Play cost of 8 or less in my Trash even if they were not trashed by this effect?",
 					"Yes, you can Play any Purple or Black Digimon card with Play cost of 8 or less that were originally already in your Trash.",
+					"Can I use this card's [When Digivolved] effect to play 1 Black Digimon and 1 Purple Digimon?",
+					"Yes, you can choose 1 Black Digimon and 1 Purple Digimon to play with this effect.",
 ]
 		is_parallel = true
 		notes = "parallel promo Omegamon Zwart"
@@ -2089,6 +2353,8 @@ class BT5_087_C extends Card:
 		ruling = [
 					"For this card's [When Digivolved] effect, can I choose any 2 Purple or Black Digimon card with Play cost of 8 or less in my Trash even if they were not trashed by this effect?",
 					"Yes, you can Play any Purple or Black Digimon card with Play cost of 8 or less that were originally already in your Trash.",
+					"Can I use this card's [When Digivolved] effect to play 1 Black Digimon and 1 Purple Digimon?",
+					"Yes, you can choose 1 Black Digimon and 1 Purple Digimon to play with this effect.",
 ]
 		is_parallel = true
 		notes = "parallel promo Omegamon Zwart"
@@ -2103,6 +2369,7 @@ class BT5_088 extends Card:
 		play_cost = 4
 		effect_text = "[Start of Your Turn] If your opponent has a digimon with no digivolution cards, gain 2 memory.\n[Your Turn] When you attack with a blue Digimon, you may suspend this Tamer to trash up to 2 digivolution cards from the bottom of 1 of your opponent's Digimon."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		notes = "Takenouchi Sora & Kido Jo"
 
 class BT5_088_B extends Card:
 	func _init():
@@ -2115,7 +2382,7 @@ class BT5_088_B extends Card:
 		effect_text = "[Start of Your Turn] If your opponent has a digimon with no digivolution cards, gain 2 memory.\n[Your Turn] When you attack with a blue Digimon, you may suspend this Tamer to trash up to 2 digivolution cards from the bottom of 1 of your opponent's Digimon."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		is_parallel = true
-		notes = "parallel promo"
+		notes = "parallel promo Takenouchi Sora & Kido Jo"
 
 class BT5_089 extends Card:
 	func _init():
@@ -2131,17 +2398,17 @@ class BT5_089 extends Card:
 					"If my opponent has a suspended Digimon with [Reboot], and becomes Active in my Unsuspend Phase, does this card's [Start of Your Turn] effect activate?",
 					"Yes, it does. [Start of Your Turn] effects are activated before your Unsuspend Phase happens.",
 					"For this card's [Your Turn] effect, if my Green Level 5 Digimon attacks and reveals a Green Level 6 Digimon, must I digivolve into that Digimon?",
-					"No, as the effect says [You can], you can choose not to digivolve it.",
+					"No, as the effect says \"you may\", you can choose not to digivolve it.",
 					"For this card's [Your Turn] effect, if 2 or more Green Level 6 Digimon are revealed, can I choose which card to digivolve into?",
 					"Yes, you can choose.",
 					"When my Digimon attacks and digivolves usinig this card's [Your Turn] effect, do I Draw 1 from the Digivolution Bonus?",
 					"Yes, you do.",
-					"For this card's [Your Turn] effect, if I revealed a non-Green Digimon card, can I digivolve into them?",
+					"For this card's [Your Turn] effect, if I revealed a non-Green Level 6 Digimon, can I digivolve into them?",
 					"No, you cannot.",
 					"If I have 2 of this Tamer, and my Green Level 5 Digimon attacks, can I suspended both Tamers and reveal the top 6 cards of my deck to choose a card to digivolve into?",
 					"Although you can activate both Tamer's effect in 1 attack, you are to resolve the 2 Tamer's effect 1 by 1  and not at the same time. First you suspend the 1st Tamer, reveal the top 3 cards of your deck, and choose a card to digivolve into. After that, you can choose to activate the 2nd Tamer's effect or not. If you digivolved into a Green Level 6 Digimon from the 1st Tamer's effect, even if the 2nd Tamer's effect reveals a Green Level 6 Digimon, you cannot digivolve your now Level 6 Digimon into the revealed Green Level 6 Digimon unless it fulfills the digivolution requirement (Like [Rafflesimon] etc).",
 					"If the Level 6 Digimon I digivolve into with this card's [Your Turn] effect has a [When Digivolved] effect, at what timing do they activate>?",
-					"After all of your [When Attacking] or [When your Digimon attack], and your opponent's [When your opponent's Digimon attack] effects are all resolved.",
+					"It activates immediately after you draw the bonus card for digivolving. Even if there are other [When Attacking] or \"When one of your Digimon attacks\" effects, the [When Digivolving] effect activates first as a newly triggered effect. ''(See more in [[Effect Resolution]])''",
 					"If the Level 6 Digimon I digivolve into with this card's [Your Turn] effect has a [When Attacking] effect, does that effect activate?",
 					"No, as it is already passed timing for [When Attacking] effects to activate, they do not activate,.",
 ]
@@ -2160,17 +2427,17 @@ class BT5_089_B extends Card:
 					"If my opponent has a suspended Digimon with [Reboot], and becomes Active in my Unsuspend Phase, does this card's [Start of Your Turn] effect activate?",
 					"Yes, it does. [Start of Your Turn] effects are activated before your Unsuspend Phase happens.",
 					"For this card's [Your Turn] effect, if my Green Level 5 Digimon attacks and reveals a Green Level 6 Digimon, must I digivolve into that Digimon?",
-					"No, as the effect says [You can], you can choose not to digivolve it.",
+					"No, as the effect says \"you may\", you can choose not to digivolve it.",
 					"For this card's [Your Turn] effect, if 2 or more Green Level 6 Digimon are revealed, can I choose which card to digivolve into?",
 					"Yes, you can choose.",
 					"When my Digimon attacks and digivolves usinig this card's [Your Turn] effect, do I Draw 1 from the Digivolution Bonus?",
 					"Yes, you do.",
-					"For this card's [Your Turn] effect, if I revealed a non-Green Digimon card, can I digivolve into them?",
+					"For this card's [Your Turn] effect, if I revealed a non-Green Level 6 Digimon, can I digivolve into them?",
 					"No, you cannot.",
 					"If I have 2 of this Tamer, and my Green Level 5 Digimon attacks, can I suspended both Tamers and reveal the top 6 cards of my deck to choose a card to digivolve into?",
 					"Although you can activate both Tamer's effect in 1 attack, you are to resolve the 2 Tamer's effect 1 by 1  and not at the same time. First you suspend the 1st Tamer, reveal the top 3 cards of your deck, and choose a card to digivolve into. After that, you can choose to activate the 2nd Tamer's effect or not. If you digivolved into a Green Level 6 Digimon from the 1st Tamer's effect, even if the 2nd Tamer's effect reveals a Green Level 6 Digimon, you cannot digivolve your now Level 6 Digimon into the revealed Green Level 6 Digimon unless it fulfills the digivolution requirement (Like [Rafflesimon] etc).",
 					"If the Level 6 Digimon I digivolve into with this card's [Your Turn] effect has a [When Digivolved] effect, at what timing do they activate>?",
-					"After all of your [When Attacking] or [When your Digimon attack], and your opponent's [When your opponent's Digimon attack] effects are all resolved.",
+					"It activates immediately after you draw the bonus card for digivolving. Even if there are other [When Attacking] or \"When one of your Digimon attacks\" effects, the [When Digivolving] effect activates first as a newly triggered effect. ''(See more in [[Effect Resolution]])''",
 					"If the Level 6 Digimon I digivolve into with this card's [Your Turn] effect has a [When Attacking] effect, does that effect activate?",
 					"No, as it is already passed timing for [When Attacking] effects to activate, they do not activate,.",
 ]
@@ -2185,7 +2452,7 @@ class BT5_090 extends Card:
 		rarity = Rarity.R
 		id = "BT5-090"
 		play_cost = 3
-		effect_text = "[Start of Your Turn] If a Digimon card with [Unidentified] in its type in your trash, gain 1 memory.\n[Your Turn] When one of your Digimon digivolves into [Diaboromon], you may suspend this Tamer to play 1 [Diaboromon] Token"
+		effect_text = "[Start of Your Turn] If a Digimon card with [Unidentified] is in your trash, gain 1 memory.\n[Your Turn] When one of your Digimon digivolves into [Diaboromon], you may suspend this Tamer to play 1 [Diaboromon] Token"
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		ruling = [
 					"What is a [Token]?",
@@ -2201,7 +2468,7 @@ class BT5_090_B extends Card:
 		rarity = Rarity.R
 		id = "BT5-090 (B)"
 		play_cost = 3
-		effect_text = "[Start of Your Turn] If a Digimon card with [Unidentified] in its type in your trash, gain 1 memory.\n[Your Turn] When one of your Digimon digivolves into [Diaboromon], you may suspend this Tamer to play 1 [Diaboromon] Token"
+		effect_text = "[Start of Your Turn] If a Digimon card with [Unidentified] is in your trash, gain 1 memory.\n[Your Turn] When one of your Digimon digivolves into [Diaboromon], you may suspend this Tamer to play 1 [Diaboromon] Token"
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		ruling = [
 					"What is a [Token]?",
@@ -2226,7 +2493,9 @@ class BT5_091 extends Card:
 					"If there are 2 of this Tamer in play, when a Level 3 Digimon attacks, does it become Memory -2?",
 					"Yes, as both effects are activated separately, there will be a total of Memory -2.",
 					"I digivolve a Digimon in my breeding area. Can I use this Tamer's effect to [Draw 1]?",
-					"No, digivolving Digimon in your breeding area doesn't activate the effect to [Draw 1].",
+					"No, digivolving Digimon in your breeding area doesn't trigger the effect to [Draw 1].",
+					"I digivolve my Red Tamer into a Digimon with the effect of [Agunimon]. Can I suspend this card to [Draw 1]?",
+					"Yes, you can.",
 ]
 
 class BT5_091_B extends Card:
@@ -2245,7 +2514,9 @@ class BT5_091_B extends Card:
 					"If there are 2 of this Tamer in play, when a Level 3 Digimon attacks, does it become Memory -2?",
 					"Yes, as both effects are activated separately, there will be a total of Memory -2.",
 					"I digivolve a Digimon in my breeding area. Can I use this Tamer's effect to [Draw 1]?",
-					"No, digivolving Digimon in your breeding area doesn't activate the effect to [Draw 1].",
+					"No, digivolving Digimon in your breeding area doesn't trigger the effect to [Draw 1].",
+					"I digivolve my Red Tamer into a Digimon with the effect of [Agunimon]. Can I suspend this card to [Draw 1]?",
+					"Yes, you can.",
 ]
 		is_parallel = true
 		notes = "parallel promo"
@@ -2258,13 +2529,17 @@ class BT5_092 extends Card:
 		rarity = Rarity.R
 		id = "BT5-092"
 		play_cost = 3
-		effect_text = "[On Play] You may play 1 [Agumon] or 1 [Gabumon] from your hand without paying its memory cost.\n[Main] When digivolving one of your Digimon into a Digimon card in your hand with [Greymon], [Garurumon] or [Omnimon] in its name, you may suspend this Tamer to reduce the memory cost of the digivolution by 1."
+		effect_text = "[On Play] You may play 1 [Agumon] or [Gabumon] from your hand without paying its memory cost.\n[Main] When digivolving one of your Digimon into a Digimon card in your hand with [Omnimon], [BurningGreymon], [DexDoruGreymon], or [KendoGarurumon]}, you may suspend this Tamer to reduce the memory cost of the digivolution by 1."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		ruling = [
 					"I digivolve a Digimon in my breeding area into a Digimon card with [Greymon], or [Garurumon], or [Omnimon]. Can I use this Tamer's effect to reduce the digivolution cost by 1?",
-					"No, digivolving Digimon in your breeding area doesn't activate the effect that reduces digivolution cost by 1. ''(From [[Card Rulings:BT2-088]])''",
+					"No, digivolving Digimon in your breeding area doesn't trigger the effect that reduces digivolution cost by 1.",
 					"Does the second effect of this Tamer stack if there are multiple copies in play in my battle area?",
-					"Yes, each copy of this Tamer may be be suspended to reduce the digivolution cost by 1 each. ''(From [[Card Rulings:ST1-12]], [[Card Rulings:ST2-12]], [[Card Rulings:ST3-12]], [[Card Rulings:BT2-088]])''",
+					"Yes, each copy of this Tamer may be be suspended to reduce the digivolution cost by 1 each.",
+					"Why does this card have a [Main] effect?",
+					"The [Main] means you cannot use the effect outside of the main phase.",
+					"Can I play [ToyAgumon] with this card's effect?",
+					"No, [ToyAgumon] is not named [Agumon] or [Gabumon]. The effect to play a Digimon does not have \"in its name\" in the card text.",
 ]
 
 class BT5_092_B extends Card:
@@ -2275,13 +2550,17 @@ class BT5_092_B extends Card:
 		rarity = Rarity.R
 		id = "BT5-092 (B)"
 		play_cost = 3
-		effect_text = "[On Play] You may play 1 [Agumon] or 1 [Gabumon] from your hand without paying its memory cost.\n[Main] When digivolving one of your Digimon into a Digimon card in your hand with [Greymon], [Garurumon] or [Omnimon] in its name, you may suspend this Tamer to reduce the memory cost of the digivolution by 1."
+		effect_text = "[On Play] You may play 1 [Agumon] or [Gabumon] from your hand without paying its memory cost.\n[Main] When digivolving one of your Digimon into a Digimon card in your hand with [Omnimon], [BurningGreymon], [DexDoruGreymon], or [KendoGarurumon]}, you may suspend this Tamer to reduce the memory cost of the digivolution by 1."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		ruling = [
 					"I digivolve a Digimon in my breeding area into a Digimon card with [Greymon], or [Garurumon], or [Omnimon]. Can I use this Tamer's effect to reduce the digivolution cost by 1?",
-					"No, digivolving Digimon in your breeding area doesn't activate the effect that reduces digivolution cost by 1. ''(From [[Card Rulings:BT2-088]])''",
+					"No, digivolving Digimon in your breeding area doesn't trigger the effect that reduces digivolution cost by 1.",
 					"Does the second effect of this Tamer stack if there are multiple copies in play in my battle area?",
-					"Yes, each copy of this Tamer may be be suspended to reduce the digivolution cost by 1 each. ''(From [[Card Rulings:ST1-12]], [[Card Rulings:ST2-12]], [[Card Rulings:ST3-12]], [[Card Rulings:BT2-088]])''",
+					"Yes, each copy of this Tamer may be be suspended to reduce the digivolution cost by 1 each.",
+					"Why does this card have a [Main] effect?",
+					"The [Main] means you cannot use the effect outside of the main phase.",
+					"Can I play [ToyAgumon] with this card's effect?",
+					"No, [ToyAgumon] is not named [Agumon] or [Gabumon]. The effect to play a Digimon does not have \"in its name\" in the card text.",
 ]
 		is_parallel = true
 		notes = "parallel promo"
@@ -2294,7 +2573,7 @@ class BT5_093 extends Card:
 		rarity = Rarity.R
 		id = "BT5-093"
 		play_cost = 4
-		effect_text = "[Start of Your Turn] If your opponent has a level 6 or higher Digimon in play, gain 2 memory.\n[Your Turn] All of your Digimon with [Omnimon] in their names gain [Security Attack +1]."
+		effect_text = "[Start of Your Turn] If your opponent has a level 6 or higher Digimon in play, gain 2 memory.\n[Your Turn] All of your Digimon with Omnimon gain [Security Attack +1]."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		notes = "Yagami Taichi & Ishida Yamato"
 
@@ -2306,7 +2585,7 @@ class BT5_093_B extends Card:
 		rarity = Rarity.R
 		id = "BT5-093 (B)"
 		play_cost = 4
-		effect_text = "[Start of Your Turn] If your opponent has a level 6 or higher Digimon in play, gain 2 memory.\n[Your Turn] All of your Digimon with [Omnimon] in their names gain [Security Attack +1]."
+		effect_text = "[Start of Your Turn] If your opponent has a level 6 or higher Digimon in play, gain 2 memory.\n[Your Turn] All of your Digimon with Omnimon gain [Security Attack +1]."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		is_parallel = true
 		notes = "parallel promo Yagami Taichi & Ishida Yamato"
@@ -2338,7 +2617,7 @@ class BT5_095 extends Card:
 		rarity = Rarity.U
 		id = "BT5-095"
 		play_cost = 7
-		effect_text = "[Main] Delete 1 of your opponents Digimon with 11000 DP or less. If you have a Digimon with [Greymon] or [Omnimon] in its name, delete 1 of your opponents Digimon with 15000 DP or less instead."
+		effect_text = "[Main] Delete 1 of your opponent's Digimon with 11000 DP or less. If you have a Digimon in play with [Omnimon], [BurningGreymon], [DexDoruGreymon]}, delete 1 of your opponent's Digimon with 15000 DP or less instead."
 		sec_effect_text = "[Security] Activate this cards [Main] effect."
 		notes = "Grey Sword"
 
@@ -2350,7 +2629,7 @@ class BT5_096 extends Card:
 		rarity = Rarity.C
 		id = "BT5-096"
 		play_cost = 3
-		effect_text = "[Main] Return all of your opponents Digimon with 3000 DP or less to their owner's hands. If you have a Digimon with [Garurumon] or [Omnimon] in its name, return all of your opponents Digimon with 5000 DP or less to their owner's hands instead. (Trash the digivolution cards of those Digimon)."
+		effect_text = "[Main] Return all of your opponent's Digimon with 3000 DP or less to their owners' hands. If you have a Digimon in play with [Omnimon]}, return all of your opponent's Digimon with 5000 DP or less to their owners' hands instead. Trash all of the digivolution cards of those Digimon."
 		sec_effect_text = "[Security] Activate this cards [Main] effect."
 		notes = "Garuru Cannon"
 
@@ -2445,7 +2724,7 @@ class BT5_103 extends Card:
 		sec_effect_text = "[Security] Your opponent's Digimon can't attack players for the turn. Then, add this card to your hand."
 		ruling = [
 					"After my opponent activate this card's [Security] effect, my Digimon with [Piercing] attacks and deletes my opponent's Digimon in battle. Does a Security Check happen?",
-					"Yes, as attacking Diigmon is still possible, Security Checks from [Piercing] still happen.",
+					"Yes, you can still attack Digimon, and Security Checks from [Piercing] still happen.",
 ]
 		notes = "The Hot, Furious Metal Storm!!"
 
@@ -2477,7 +2756,7 @@ class BT5_105 extends Card:
 		effect_text = "[Main] Trigger [De-Digivolve 3]. Then, delete all of your opponent's Digimon with play costs of 3 or less."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
 		ruling = [
-					"My opponent has no Digimon I can target with [De-Digivolve 3], can I still use this option to delete all of my opponent's Digimon with Play cost of 3 or less?",
+					"My opponent has no Digimon that will be affected [De-Digivolve 3], can I still use this option to delete all of my opponent's Digimon with Play cost of 3 or less?",
 					"Yes, you can.",
 ]
 
@@ -2505,6 +2784,8 @@ class BT5_107 extends Card:
 		ruling = [
 					"Using this card's effect, I played a Digimon with effects that says [When your other Digimon are deleted], does that effect activate since I deleted my 1 of my Digimon with this card?",
 					"No, as that Digimon is Played after the you already deleted your Digimon from this card's effect.",
+					"If I don't have a Digimon to delete can I still play a level 5 or lower Purple Digimon from my trash?",
+					"Yes, you can. \"Then,\" effects are independent of each other.",
 ]
 
 class BT5_108 extends Card:
@@ -2519,7 +2800,7 @@ class BT5_108 extends Card:
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
 		ruling = [
 					"Does this card's effect activate if my opponent does not have both a Level 4 and a Level 5 unsuspended Digimon?",
-					"Yes, even if your opponent does not have either a Level 4 or Level 5 unsuspended Digimon, the effect still activates. You would do as much as you can.",
+					"Yes, even if your opponent does not have either a Level 4 or Level 5 unsuspended Digimon, the effect still activates. If your opponent has one or the other, you would do as much as you can and delete the Level 4 or Level 5 unsuspended Digimon level that your opponent does have.",
 ]
 		notes = "First Tachi"
 
@@ -2536,6 +2817,8 @@ class BT5_109 extends Card:
 		ruling = [
 					"I activate [Mega Digimon Fusion!] and [Breath of the Gods] on a Digimon with [Reboot] then digivolve the Digimon with [Reboot] into a level 7 Digimon, does the level 7 Digimon return to the bottom of the deck at the end of the turn?",
 					"No, it does not return to the bottom of the deck because Breath of the Gods prevent it from happening.",
+					"If I digivolve on top of a tamer using the effect of [Susanoomon], can I use this card's effect to reduce the memory cost?",
+					"Yes, you can.",
 ]
 		notes = "Fuse into the Ultimate Digimon!"
 
@@ -2584,17 +2867,23 @@ class BT5_111 extends Card:
 					"My opponent attacks my Digimon with this Digimon, and uses its [When Attacking] effect to delete the target of attack. Can I still activate my other Digimon's [Blocker] to block that attack?",
 					"Yes, you can. In that scenario, a battle between this Digimon and the blocking Digimon will happen.",
 					"Can I use this card's [Opponent Turn] effect to end my opponent's Digimon's attack before their [When Attacking] effects activate?",
-					"No, as this effect activates at the same time as your opponent's [When Attacking] effects, as the Turn Player, your opponent will resolve their [When Attacking] effects fully before you can activate this effect.",
+					"No, this effect is a [Reaction] effect. So the opponent's [When Attacking] effects will be activated first. ''(See more in [[Attack Resolution]])''",
 					"My opponent Digimon activates their [When Attacking] effect to delete another of their Digimon that has [On Deletion] effects, I then use this card's [Opponent Turn] effect to end that attack. Do those [On Deletion] effects activate?",
-					"Yes, they activate after the attack ends.",
+					"Yes, the [On Deletion] effect activates immediately and before the [Reaction] step. ''(See more in [[Attack Resolution]] and [[Effect Resolution]])''",
 					"When my opponent's Digimon attack, can I activate my [Rosemon]'s effect before activating this card's [Opponent Turn] effect to end that attack?",
 					"Yes, you can.",
 					"Can I use this card's [Opponent Turn] effect to end my opponent's Digimon's attack after the DP comparison from battling?",
-					"No, as it is already passed the timing of [When your opponent's Digimon attacks] at this point of time after battle, you cannot activate this effect.",
+					"No, as it is already passed the timing of [When your opponent's Digimon attacks] at this point of time after battle, you cannot activate this effect. ''(See more in [[Attack Resolution]])''",
 					"After using this card's [Opponent Turn] effect. Is it treated as that attack never happened?",
-					"No, the attack happens, and any [When Attacking] effects still activate.",
+					"No, the attack happens, and any [When Attacking] and [End of Attack] effects still activate.",
 					"If I use this card's effect to trash 2 of this card's Digivolution cards. Can I use [Joe Kido]'s effect?",
 					"Yes, you can.",
+					"My opponent attacks with a Digimon and then uses an effect to delete the attacking Digimon before I use the [Opponent Turn] effect. Can I still use the effect of [Omnimon X-Anti-body] to negate the attack?",
+					"You can still trash the digivolution cards but there is no attack to negate anymore.",
+					"My opponent attacks with a Digimon. I have 2 [Omnimon X-Anti-body]. Can I use both of their effects to negate the attack?",
+					"You can trash the digivolution cards of the second Omnimon X-Anti-body, but there is no longer an attack to negate.",
+					"My opponent attacks with a Digimon. I have this card and a [Blocker]. Can I use this card's effect first and then suspend the [Blocker] Digimon?",
+					"You can suspend your [Blocker] Digimon but the attack will not be redirected.",
 ]
 		notes = "Omegamon X-Anti-body"
 
@@ -2628,17 +2917,23 @@ class BT5_111_B extends Card:
 					"My opponent attacks my Digimon with this Digimon, and uses its [When Attacking] effect to delete the target of attack. Can I still activate my other Digimon's [Blocker] to block that attack?",
 					"Yes, you can. In that scenario, a battle between this Digimon and the blocking Digimon will happen.",
 					"Can I use this card's [Opponent Turn] effect to end my opponent's Digimon's attack before their [When Attacking] effects activate?",
-					"No, as this effect activates at the same time as your opponent's [When Attacking] effects, as the Turn Player, your opponent will resolve their [When Attacking] effects fully before you can activate this effect.",
+					"No, this effect is a [Reaction] effect. So the opponent's [When Attacking] effects will be activated first. ''(See more in [[Attack Resolution]])''",
 					"My opponent Digimon activates their [When Attacking] effect to delete another of their Digimon that has [On Deletion] effects, I then use this card's [Opponent Turn] effect to end that attack. Do those [On Deletion] effects activate?",
-					"Yes, they activate after the attack ends.",
+					"Yes, the [On Deletion] effect activates immediately and before the [Reaction] step. ''(See more in [[Attack Resolution]] and [[Effect Resolution]])''",
 					"When my opponent's Digimon attack, can I activate my [Rosemon]'s effect before activating this card's [Opponent Turn] effect to end that attack?",
 					"Yes, you can.",
 					"Can I use this card's [Opponent Turn] effect to end my opponent's Digimon's attack after the DP comparison from battling?",
-					"No, as it is already passed the timing of [When your opponent's Digimon attacks] at this point of time after battle, you cannot activate this effect.",
+					"No, as it is already passed the timing of [When your opponent's Digimon attacks] at this point of time after battle, you cannot activate this effect. ''(See more in [[Attack Resolution]])''",
 					"After using this card's [Opponent Turn] effect. Is it treated as that attack never happened?",
-					"No, the attack happens, and any [When Attacking] effects still activate.",
+					"No, the attack happens, and any [When Attacking] and [End of Attack] effects still activate.",
 					"If I use this card's effect to trash 2 of this card's Digivolution cards. Can I use [Joe Kido]'s effect?",
 					"Yes, you can.",
+					"My opponent attacks with a Digimon and then uses an effect to delete the attacking Digimon before I use the [Opponent Turn] effect. Can I still use the effect of [Omnimon X-Anti-body] to negate the attack?",
+					"You can still trash the digivolution cards but there is no attack to negate anymore.",
+					"My opponent attacks with a Digimon. I have 2 [Omnimon X-Anti-body]. Can I use both of their effects to negate the attack?",
+					"You can trash the digivolution cards of the second Omnimon X-Anti-body, but there is no longer an attack to negate.",
+					"My opponent attacks with a Digimon. I have this card and a [Blocker]. Can I use this card's effect first and then suspend the [Blocker] Digimon?",
+					"You can suspend your [Blocker] Digimon but the attack will not be redirected.",
 ]
 		is_parallel = true
 		notes = "parallel promo Omegamon X-Anti-body"

@@ -7,12 +7,17 @@ static func register_cards():
 	CardDB.add_card(ST3_02.new())
 	CardDB.add_card(ST3_03.new())
 	CardDB.add_card(ST3_04.new())
+	CardDB.add_card(ST3_04_B.new())
 	CardDB.add_card(ST3_05.new())
 	CardDB.add_card(ST3_05_B.new())
+	CardDB.add_card(ST3_05_C.new())
 	CardDB.add_card(ST3_06.new())
 	CardDB.add_card(ST3_07.new())
+	CardDB.add_card(ST3_07_B.new())
+	CardDB.add_card(ST3_07_C.new())
 	CardDB.add_card(ST3_08.new())
 	CardDB.add_card(ST3_08_B.new())
+	CardDB.add_card(ST3_08_C.new())
 	CardDB.add_card(ST3_09.new())
 	CardDB.add_card(ST3_09_B.new())
 	CardDB.add_card(ST3_10.new())
@@ -98,6 +103,30 @@ class ST3_04 extends Card:
 					"Yes. Since it meets the activation conditions, they all activate.",
 ]
 
+class ST3_04_B extends Card:
+	func _init():
+		name = "Patamon"
+		type = Type.DIGIMON
+		color = ColorGroup.YELLOW
+		rarity = Rarity.U
+		id = "ST3-04 (B)"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.DATA
+		digivolve_color = ColorGroup.YELLOW
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Mammal"
+		power = 1000
+		inherited_effect_text = "[Your Turn] [Once Per Turn] When an opponent's Digimon is deleted by dropping to 0 DP, gain 1 memory."
+		ruling = [
+					"If the DP of an opponent's Digimon is reduced to 0 and deleted, if I have multiple Digimon with this Digimon as digivolution cards, do all of their effects activate?",
+					"Yes. Since it meets the activation conditions, they all activate.",
+]
+		is_parallel = true
+		notes = "parallel promo"
+
 class ST3_05 extends Card:
 	func _init():
 		name = "Angemon"
@@ -127,6 +156,30 @@ class ST3_05_B extends Card:
 		color = ColorGroup.YELLOW
 		rarity = ""
 		id = "ST3-05 (B)"
+		play_cost = 5
+		level = 4
+		stage_level = Stage.CHAMPION
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.YELLOW
+		digivolve_cost = 2
+		digivolve_level = 3
+		digimon_type = "Angel"
+		power = 4000
+		inherited_effect_text = "[When Attacking] If you have 4 or more security cards, gain 1 memory."
+		ruling = [
+					"On attack, if I have 8 cards in my security stack, does this card's inherited effect cause me to gain 2 memory?",
+					"No. If you have 4 or more cards in your security stack, you gain 1 memory. But you can only gain 1 memory from this effect.",
+]
+		is_parallel = true
+		notes = "parallel promo"
+
+class ST3_05_C extends Card:
+	func _init():
+		name = "Angemon"
+		type = Type.DIGIMON
+		color = ColorGroup.YELLOW
+		rarity = ""
+		id = "ST3-05 (C)"
 		play_cost = 5
 		level = 4
 		stage_level = Stage.CHAMPION
@@ -184,6 +237,54 @@ class ST3_07 extends Card:
 					"Yes, it can. Even if this Digimon's attack effect causes your memory to move to 1 or greater on your opponent's side, it doesn't become your opponent's turn until the end of the attack.",
 ]
 
+class ST3_07_B extends Card:
+	func _init():
+		name = "Unimon"
+		type = Type.DIGIMON
+		color = ColorGroup.YELLOW
+		rarity = Rarity.C
+		id = "ST3-07 (B)"
+		play_cost = 5
+		level = 4
+		stage_level = Stage.CHAMPION
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.YELLOW
+		digivolve_cost = 2
+		digivolve_level = 3
+		digimon_type = "Mythical Beast"
+		power = 6000
+		effect_text = "[Blocker].\n[When Attacking] Lose 2 memory."
+		ruling = [
+					"Can this Digimon attack when I have less than 2 memory?",
+					"Yes, it can. Even if this Digimon's attack effect causes your memory to move to 1 or greater on your opponent's side, it doesn't become your opponent's turn until the end of the attack.",
+]
+		is_parallel = true
+		notes = "parallel promo"
+
+class ST3_07_C extends Card:
+	func _init():
+		name = "Unimon"
+		type = Type.DIGIMON
+		color = ColorGroup.YELLOW
+		rarity = Rarity.C
+		id = "ST3-07 (C)"
+		play_cost = 5
+		level = 4
+		stage_level = Stage.CHAMPION
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.YELLOW
+		digivolve_cost = 2
+		digivolve_level = 3
+		digimon_type = "Mythical Beast"
+		power = 6000
+		effect_text = "[Blocker].\n[When Attacking] Lose 2 memory."
+		ruling = [
+					"Can this Digimon attack when I have less than 2 memory?",
+					"Yes, it can. Even if this Digimon's attack effect causes your memory to move to 1 or greater on your opponent's side, it doesn't become your opponent's turn until the end of the attack.",
+]
+		is_parallel = true
+		notes = "parallel promo"
+
 class ST3_08 extends Card:
 	func _init():
 		name = "MagnaAngemon"
@@ -205,10 +306,11 @@ class ST3_08 extends Card:
 					"Can I use this card's inherited effect to target one of my opponent's Digimon with 1000 DP or less and delete it?",
 					"Yes, you can.",
 					"A Digimon with this card as a digivolution card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's inherited effect. What happens to the attack?",
-					"You do not enter battle, then once any other When Attacking effects resolve, the attack ends.",
+					"You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends. ''(See more in [[Attack Resolution]])''",
 					"A Digimon with this card as a digivolution card attacks an opponent's Digimon, then the opponent blocks with a Digimon that has [Blocker]. Can I use this card's inherited effect to reduce the DP of the blocking Digimon to 0 and delete it?",
 					"No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared.",
 ]
+		notes = "HolyAngemon"
 
 class ST3_08_B extends Card:
 	func _init():
@@ -231,12 +333,40 @@ class ST3_08_B extends Card:
 					"Can I use this card's inherited effect to target one of my opponent's Digimon with 1000 DP or less and delete it?",
 					"Yes, you can.",
 					"A Digimon with this card as a digivolution card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's inherited effect. What happens to the attack?",
-					"You do not enter battle, then once any other When Attacking effects resolve, the attack ends.",
+					"You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends. ''(See more in [[Attack Resolution]])''",
 					"A Digimon with this card as a digivolution card attacks an opponent's Digimon, then the opponent blocks with a Digimon that has [Blocker]. Can I use this card's inherited effect to reduce the DP of the blocking Digimon to 0 and delete it?",
 					"No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared.",
 ]
 		is_parallel = true
-		notes = "parallel promo"
+		notes = "parallel promo HolyAngemon"
+
+class ST3_08_C extends Card:
+	func _init():
+		name = "MagnaAngemon"
+		type = Type.DIGIMON
+		color = ColorGroup.YELLOW
+		rarity = Rarity.R
+		id = "ST3-08 (C)"
+		play_cost = 7
+		level = 5
+		stage_level = Stage.ULTIMATE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.YELLOW
+		digivolve_cost = 3
+		digivolve_level = 4
+		digimon_type = "Archangel"
+		power = 7000
+		inherited_effect_text = "[When Attacking] 1 of your opponent's Digimon gets -1000 DP for the turn."
+		ruling = [
+					"Can I use this card's inherited effect to target one of my opponent's Digimon with 1000 DP or less and delete it?",
+					"Yes, you can.",
+					"A Digimon with this card as a digivolution card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's inherited effect. What happens to the attack?",
+					"You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends. ''(See more in [[Attack Resolution]])''",
+					"A Digimon with this card as a digivolution card attacks an opponent's Digimon, then the opponent blocks with a Digimon that has [Blocker]. Can I use this card's inherited effect to reduce the DP of the blocking Digimon to 0 and delete it?",
+					"No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared.",
+]
+		is_parallel = true
+		notes = "parallel promo HolyAngemon"
 
 class ST3_09 extends Card:
 	func _init():
@@ -254,7 +384,7 @@ class ST3_09 extends Card:
 		digivolve_level = 4
 		digimon_type = "Archangel"
 		power = 7000
-		effect_text = "[When Digivolved] When you have 3 security cards or less, trigger [Recovery +1]."
+		effect_text = "[When Digivolved] If you have 3 security cards or less, trigger [Recovery +1]."
 
 class ST3_09_B extends Card:
 	func _init():
@@ -272,7 +402,7 @@ class ST3_09_B extends Card:
 		digivolve_level = 4
 		digimon_type = "Archangel"
 		power = 7000
-		effect_text = "[When Digivolved] When you have 3 security cards or less, trigger [Recovery +1]."
+		effect_text = "[When Digivolved] If you have 3 security cards or less, trigger [Recovery +1]."
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -292,6 +422,7 @@ class ST3_10 extends Card:
 		digivolve_level = 5
 		digimon_type = "Holy Dragon"
 		power = 12000
+		notes = "Holydramon"
 
 class ST3_11 extends Card:
 	func _init():
@@ -314,7 +445,7 @@ class ST3_11 extends Card:
 					"Can I use this card's effect to target one of my opponent's Digimon with 4000 DP or less, reduce its DP to 0, and delete it?",
 					"Yes, you can.",
 					"This card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's effect. What happens to the attack?",
-					"You do not enter battle, then once any other When Attacking effects resolve, the attack ends.",
+					"You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends.",
 					"This card attacks an opponent's Digimon, then my opponent blocks with a Digimon that has [Blocker]. Can I use this card's effect to reduce the DP of the blocking Digimon to 0 and delete it?",
 					"No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared.",
 					"I play [Seven Heavens] to give -10,000 DP to the opponent's rested Rosemon. Then my [Seraphimon] attacks player. Both Seraphimon and Rosemon skills trigger at the same time [When Attacking] Seraphimon -4000 DP to Rosemon, killing it. Can Rosemon still rest an opponent's Digimon?",

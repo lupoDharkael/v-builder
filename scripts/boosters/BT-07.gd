@@ -152,6 +152,10 @@ class BT7_001 extends Card:
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Lesser"
 		inherited_effect_text = "[Your Turn] While you have a Tamer in play, this Digimon gets +1000 DP."
+		ruling = [
+					"Does this card's Inherited Effect activate no matter what colour Tamer I have in play?",
+					"Yes, as colour is not specified, it activates regardless of the colour of Tamer you have in play.",
+]
 
 class BT7_002 extends Card:
 	func _init():
@@ -177,6 +181,10 @@ class BT7_003 extends Card:
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Lesser"
 		inherited_effect_text = "[Your Turn] When this card is trashed due to activating this Digimon's [Digiburst], 1 of your opponent's Digimon gets -1000 DP for the turn."
+		ruling = [
+					"When this card is trashed by [Digiburst], does this card's Inherited Effect activate first or does the [Digiburst] effect activate first?",
+					"The [Digiburst] effect activates first.",
+]
 
 class BT7_004 extends Card:
 	func _init():
@@ -201,6 +209,12 @@ class BT7_005 extends Card:
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Lesser"
 		inherited_effect_text = "[Your Turn] [Once Per Turn] When one of your effects places a digivolution card under this Digimon, [Draw 1]."
+		ruling = [
+					"Does this card's Inherited Effect activate when I digivolve my Digimon that has this card in its digivolution cards with an effect?",
+					"No, even if you digivolve the Digimon with an effect, it does not count as increasing the number of digivolution cards with an effect.",
+					"If I add 2 or more digivolution cards at the same time, do I get to draw that number of cards with this card's Inherited Effect?",
+					"No, regardless of how many digivolution cards were added, you only draw 1 as they were added with one single effect.",
+]
 
 class BT7_006 extends Card:
 	func _init():
@@ -213,6 +227,11 @@ class BT7_006 extends Card:
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Lesser"
 		inherited_effect_text = "[When Attacking] You may reveal the top 3 cards of your deck. Trash 1 Tamer card among them. Place the remaining cards at the bottom of your deck in any order."
+		ruling = [
+					"When revealing cards from this card's Inherited Effect, if Tamer cards were revealed, must I trash 1 Tamer card?",
+					"Yes. It is up to you to choose whether to reveal the cards from your deck, but if you chose to reveal them, and there are Tamer cards among them, you must trash 1 Tamer card from among them.",
+]
+		notes = "Chocomon"
 
 class BT7_007 extends Card:
 	func _init():
@@ -328,6 +347,22 @@ class BT7_011 extends Card:
 		digimon_type = "Dark Dragon"
 		power = 6000
 		effect_text = "You may digivolve this card from your hand onto one of your red Tamers as if the Tamer is a level 3 Digimon for a memory cost of 2.\n[When Digivolved] If a card with [Hybrid] or [Takuya Kanbara] is in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 4000 DP or less."
+		ruling = [
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 3 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolving a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+]
 		notes = "Vritramon"
 
 class BT7_012 extends Card:
@@ -365,6 +400,12 @@ class BT7_013 extends Card:
 		power = 7000
 		effect_text = "[On Play] If you have a Tamer in play, gain 2 memory. If you don't have a tamer, you may play 1 red Tamer card from your hand without paying its memory cost."
 		inherited_effect_text = "[Your Turn] [Once Per Turn] When one of your opponent's Digimon is deleted, gain 1 memory."
+		ruling = [
+					"If I play this card when I do not have a Tamer in play, then play a red Tamer with this card's effect, do I then gain 2 memory as well due to a Tamer being in play now?",
+					"No, when you play this card while you have no Tamer in play, you only play 1 Red Tamer card from your hand.",
+					"When I delete 2 or more of my opponent's Digimon at the same time, do I gain 1 memory for each Digimon deleted from this card's Inherited Effect?",
+					"No, regardless of how many Digimon were deleted, you only gain 1 memory as they were deleted with one single effect.",
+]
 
 class BT7_013_B extends Card:
 	func _init():
@@ -384,6 +425,12 @@ class BT7_013_B extends Card:
 		power = 7000
 		effect_text = "[On Play] If you have a Tamer in play, gain 2 memory. If you don't have a tamer, you may play 1 red Tamer card from your hand without paying its memory cost."
 		inherited_effect_text = "[Your Turn] [Once Per Turn] When one of your opponent's Digimon is deleted, gain 1 memory."
+		ruling = [
+					"If I play this card when I do not have a Tamer in play, then play a red Tamer with this card's effect, do I then gain 2 memory as well due to a Tamer being in play now?",
+					"No, when you play this card while you have no Tamer in play, you only play 1 Red Tamer card from your hand.",
+					"When I delete 2 or more of my opponent's Digimon at the same time, do I gain 1 memory for each Digimon deleted from this card's Inherited Effect?",
+					"No, regardless of how many Digimon were deleted, you only gain 1 memory as they were deleted with one single effect.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -405,6 +452,10 @@ class BT7_014 extends Card:
 		power = 8000
 		effect_text = "When one of your Digimon with a Tamer card in its digivolution cards digivolves into this card in your hand, reduce the memory cost of the digivolution by 2.\n[When Digivolved] If a card with [Hybrid] is in this Digimon's digivolution cards, this Digimon gets +4000 DP for the turn.\n"
 		inherited_effect_text = "[Your Turn] While this Digimon has [Hybrid], it doesn't activate [Security] effects on Option cards it checks."
+		ruling = [
+					"For this card's Inherited Effect, do the [Security] effects of Digimon and Tamer cards activate when checked?",
+					"Yes, [Security] effects of cards other than Option cards activate as per normal.",
+]
 
 class BT7_015 extends Card:
 	func _init():
@@ -414,15 +465,21 @@ class BT7_015 extends Card:
 		rarity = Rarity.U
 		id = "BT7-015"
 		play_cost = 12
-		level = 4
-		stage_level = Stage.CHAMPION
+		level = 6
+		stage_level = Stage.MEGA
 		attribute = Attribute.VIRUS
 		digivolve_color = ColorGroup.RED
 		digivolve_cost = 3
-		digivolve_level = 3
+		digivolve_level = 5
 		digimon_type = "Dragonkin"
 		power = 11000
 		effect_text = "When playing this card from your hand, reduce its memory cost by 1 for each Option card in you and your opponent's trashes.\n[On Play] Return all cards with [Three Musketeers] and all Option cards from both players' trashes to the bottom of their owners' decks. If 7 or more cards were returned using this effect, delete 1 of your opponent's Digimon with [Three Musketeers] or 8000 DP or less."
+		ruling = [
+					"Is this card's Play cost reduced by the number of Option cards in either my trash or my opponent's trash only?",
+					"No, its Play cost is reduced by the number of the total number of Option cards in both you and your opponent's trash added together.",
+					"Who decides the order of cards being returned from trash to the bottom of decks for this card's [On Play] effect?",
+					"The owner of those cards decide the order of the cards returned to the respective player's deck.",
+]
 
 class BT7_016 extends Card:
 	func _init():
@@ -441,6 +498,10 @@ class BT7_016 extends Card:
 		digimon_type = "Dragon Warrior"
 		power = 12000
 		effect_text = "[When Digivolved] [Blitz].\n[Your Turn] [Once Per Turn] When this Digimon is blocked, unsuspend it, and gain 1 memory for each digivolution card this Digimon has with [Hybrid]."
+		ruling = [
+					"When this Digimon attacks, and my opponent's Digimon blocks in reaction. If my opponent has “When your opponent's Digimon attacks” effects that are not activated yet, do those effects activate first, or does this Digimon's [Your Turn] effect activate first?",
+					"This card's effect activates first. As this effect is triggered by your opponent's activation of [Blocker], it will activate first due to the rule that gives priority to effects that are newly triggered.",
+]
 		notes = "KaiserGreymon"
 
 class BT7_016_B extends Card:
@@ -460,6 +521,10 @@ class BT7_016_B extends Card:
 		digimon_type = "Dragon Warrior"
 		power = 12000
 		effect_text = "[When Digivolved] [Blitz].\n[Your Turn] [Once Per Turn] When this Digimon is blocked, unsuspend it, and gain 1 memory for each digivolution card this Digimon has with [Hybrid]."
+		ruling = [
+					"When this Digimon attacks, and my opponent's Digimon blocks in reaction. If my opponent has “When your opponent's Digimon attacks” effects that are not activated yet, do those effects activate first, or does this Digimon's [Your Turn] effect activate first?",
+					"This card's effect activates first. As this effect is triggered by your opponent's activation of [Blocker], it will activate first due to the rule that gives priority to effects that are newly triggered.",
+]
 		is_parallel = true
 		notes = "parallel promo KaiserGreymon"
 
@@ -483,6 +548,10 @@ class BT7_017 extends Card:
 		digimon_type = "Machine"
 		power = 12000
 		effect_text = "Your [Machinedramon] can digivolve into this card in your hand for a memory cost of 1, ignoring this card's digivolution requirements.\n[When Digivolved] You may place 1 red or black level 5 card with [Cyborg] from your hand or trash on top of this card's digivolution cards to delete 1 of your opponent's Digimon with 6000 DP or less for each level 5 card with [Cyborg]  in this Digimon's digivolution cards."
+		ruling = [
+					"If my opponent does not have any 6000 DP or less Digimon in play, can I still activate this card's [When Digivolved] effect to place Red or Black level 5 Digimon cards with [Cyborg] card on top of this Digimon's digivolution cards?",
+					"Yes, you can.",
+]
 
 class BT7_018 extends Card:
 	func _init():
@@ -501,6 +570,10 @@ class BT7_018 extends Card:
 		digimon_type = "Sea Beast"
 		power = 3000
 		effect_text = "[On Play] When played from digivolution cards, [Draw 2]."
+		ruling = [
+					"If my Digimon with this card in its digivolution cards receives the effect of [De-Digivolve], and the top card of the digivolution cards becomes this card, does this card's [On Play] effect activate and allow me [Draw 2]?",
+					"No, even if your Digimon becomes this card due to the effect of [De-Digivolve], it is not counted as being Played, so you do not draw any cards.",
+]
 
 class BT7_018_B extends Card:
 	func _init():
@@ -519,6 +592,10 @@ class BT7_018_B extends Card:
 		digimon_type = "Sea Beast"
 		power = 3000
 		effect_text = "[On Play] When played from digivolution cards, [Draw 2]."
+		ruling = [
+					"If my Digimon with this card in its digivolution cards receives the effect of [De-Digivolve], and the top card of the digivolution cards becomes this card, does this card's [On Play] effect activate and allow me [Draw 2]?",
+					"No, even if your Digimon becomes this card due to the effect of [De-Digivolve], it is not counted as being Played, so you do not draw any cards.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -596,6 +673,23 @@ class BT7_021 extends Card:
 		digimon_type = "Beastkin"
 		power = 4000
 		effect_text = "You may digivolve this card from your hand onto one of your blue Tamers as if the Tamer is a level 3 Digimon.\n[When Digivolved] Trash 1 digivolution card from the bottom of 1 of your opponent's Digimon."
+		ruling = [
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 3 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolve a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+]
+		notes = "Chackmon"
 
 class BT7_022 extends Card:
 	func _init():
@@ -614,6 +708,22 @@ class BT7_022 extends Card:
 		digimon_type = "Cyborg"
 		power = 6000
 		effect_text = "You may digivolve this card from your hand onto one of your blue Tamers as if the Tamer is a level 3 blue Digimon for a memory cost of 2.\n[When Digivolved] If a card with [Hybrid] or [Koji Minamoto] is in this Digimon's digivolution cards, this Digimon gains [Jamming] for the turn."
+		ruling = [
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 3 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolve a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+]
 		notes = "Garummon"
 
 class BT7_023 extends Card:
@@ -636,6 +746,25 @@ class BT7_023 extends Card:
 		digimon_type = "Beast"
 		power = 6000
 		effect_text = "You may digivolve this card from your hand onto one of your blue Tamers as if the Tamer is a level 3 blue Digimon for a memory cost of 2.\n[When Digivolved] If a card with [Hybrid] or [Tommy Himi] is in this Digimon's digivolution cards, 1 of your opponent's Digimon with no digivolution cards can't attack or block until the end of their next turn."
+		ruling = [
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 3 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolve a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+					"A Digimon is unable to attack or block due to this card's [When Digivolved] effect. That Digimon then gains a digivolution card afterwards. Can that Digimon now attack and block?",
+					"No, once a Digimon receives this card's [When Digivolved] effect, it cannot attack and block even if it gains digivolution cards afterwards.",
+]
+		notes = "Blizzarmon"
 
 class BT7_024 extends Card:
 	func _init():
@@ -691,6 +820,10 @@ class BT7_026 extends Card:
 		power = 7000
 		effect_text = "[On Play] If you have a Tamer in play, gain 2 memory. If you don't have a Tamer in play, you may play 1 blue Tamer card from your hand without paying its memory cost."
 		inherited_effect_text = "[Your Turn] [Once Per Turn] When this Digimon becomes unsuspended during your main phase, gain 1 memory."
+		ruling = [
+					"If I play this card when I do not have a Tamer in play, then play a blue Tamer with this card's effect, do I then gain 2 memory as well due to a Tamer being in play now?",
+					"No, when you play this card while you have no Tamer in play, you only play 1 Blue Tamer card from your hand.",
+]
 
 class BT7_026_B extends Card:
 	func _init():
@@ -710,6 +843,10 @@ class BT7_026_B extends Card:
 		power = 7000
 		effect_text = "[On Play] If you have a Tamer in play, gain 2 memory. If you don't have a Tamer in play, you may play 1 blue Tamer card from your hand without paying its memory cost."
 		inherited_effect_text = "[Your Turn] [Once Per Turn] When this Digimon becomes unsuspended during your main phase, gain 1 memory."
+		ruling = [
+					"If I play this card when I do not have a Tamer in play, then play a blue Tamer with this card's effect, do I then gain 2 memory as well due to a Tamer being in play now?",
+					"No, when you play this card while you have no Tamer in play, you only play 1 Blue Tamer card from your hand.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -730,6 +867,12 @@ class BT7_027 extends Card:
 		digimon_type = "Sea Animal"
 		power = 7000
 		effect_text = "[On Play] You may play 1 level 3 Digimon card from one of your Digimon's digivolution cards as another Digimon without paying its memory cost. If you do, you may place 1 blue Digimon card from your hand at the bottom of one of your Digimon's digivolution cards."
+		ruling = [
+					"For this card's [On Play] effect, can I place a Digimon card from my hand to this Digimon's digivolution card even though I just played it?",
+					"Yes, you can.",
+					"When this card's [On Play] effect plays a level 3 Digimon card from the digivolution cards of suspended digimon, is that level 3 Digimon played suspended?",
+					"No, as it is Played as a separate Digimon, it is played unsuspended, and does not have any effects that the Digimon whose digivolution cards it was played from originally received.",
+]
 
 class BT7_028 extends Card:
 	func _init():
@@ -748,6 +891,10 @@ class BT7_028 extends Card:
 		digimon_type = "Sea Animal"
 		power = 11000
 		effect_text = "[When Attacking] You may play 1 level 3 Digimon card or 1 [Whamon] from this Digimon's digivolution cards as another Digimon without paying its memory cost.\n[Your Turn] When you play a Digimon from one of your Digimon's digivolution cards, return 1 of your opponent's level 4 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon."
+		ruling = [
+					"When my Digimon with digivolution cards receive the effects of [De-Digivolve], and becomes a Digimon that was in the digivolution cards, does this Digimon's [Your Turn] effect let me return 1 of my opponent's level 4 or below Digimon to hand?",
+					"No, even if your Digimon becomes another Digimon that was in its digivolution cards, it is not counted as being Played, so this card's [Your Turn] effect does not activate.",
+]
 
 class BT7_029 extends Card:
 	func _init():
@@ -766,6 +913,12 @@ class BT7_029 extends Card:
 		digimon_type = "Cyborg"
 		power = 12000
 		effect_text = "[When Digivolved] [When Attacking] [Once Per Turn] You may return 1 card with [Hybrid] from this Digimon's digivolution cards to your hand to return 1 of your opponent's Digimon with the same level as the returned card to its owner's hand. Trash all of the digivolution cards of that Digimon.\n[Your Turn] [Once Per Turn] When an effect adds a card to your hand, you may unsuspend 1 of your Digimon."
+		ruling = [
+					"This card's effect has 2 timing, [When Digivolved] and [When Attacking]. What does that mean?",
+					"This effect will activate in both timing [When Digivolved] and [When Attacking]. When you digivolving into this Digimon, it will activate as a [When Digivolved] effect, and for the following turns when this Digimon attacks, it will then activate again as a [When Attacking] effect.",
+					"This card's [When Digivolved] [When Attacking] is [Once Per Turn]. Does that mean it activates once when digivolving into this Digimon, and once again when this Digimon attacks in the same turn?",
+					"No, even if the Timing is different, it is still the same effect. If it already activated as a [When Digivolved] effect, it will not activate anymore as a [When Attacking] effect on the same turn.",
+]
 
 class BT7_029_B extends Card:
 	func _init():
@@ -784,6 +937,12 @@ class BT7_029_B extends Card:
 		digimon_type = "Cyborg"
 		power = 12000
 		effect_text = "[When Digivolved] [When Attacking] [Once Per Turn] You may return 1 card with [Hybrid] from this Digimon's digivolution cards to your hand to return 1 of your opponent's Digimon with the same level as the returned card to its owner's hand. Trash all of the digivolution cards of that Digimon.\n[Your Turn] [Once Per Turn] When an effect adds a card to your hand, you may unsuspend 1 of your Digimon."
+		ruling = [
+					"This card's effect has 2 timing, [When Digivolved] and [When Attacking]. What does that mean?",
+					"This effect will activate in both timing [When Digivolved] and [When Attacking]. When you digivolving into this Digimon, it will activate as a [When Digivolved] effect, and for the following turns when this Digimon attacks, it will then activate again as a [When Attacking] effect.",
+					"This card's [When Digivolved] [When Attacking] is [Once Per Turn]. Does that mean it activates once when digivolving into this Digimon, and once again when this Digimon attacks in the same turn?",
+					"No, even if the Timing is different, it is still the same effect. If it already activated as a [When Digivolved] effect, it will not activate anymore as a [When Attacking] effect on the same turn.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -822,6 +981,10 @@ class BT7_031 extends Card:
 		digimon_type = "Mammal"
 		power = 2000
 		inherited_effect_text = "[Your Turn] When this card is trashed due to activating this Digimon's [Digiburst], return this card to its owner's hand."
+		ruling = [
+					"When this card is trashed by [Digiburst], does it return to my hand before or after the [Digiburst] effect activates?",
+					"After the [Digiburst] effect activates.",
+]
 
 class BT7_032 extends Card:
 	func _init():
@@ -894,6 +1057,23 @@ class BT7_035 extends Card:
 		digimon_type = "Fairy"
 		power = 5000
 		effect_text = "You may digivolve this card from your hand onto one of your yellow Tamers as if the Tamer is a level 3 yellow Digimon."
+		ruling = [
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 3 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolve a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+]
+		notes = "Fairimon"
 
 class BT7_036 extends Card:
 	func _init():
@@ -915,6 +1095,23 @@ class BT7_036 extends Card:
 		digimon_type = "Birdkin"
 		power = 6000
 		effect_text = "You may digivolve this card from your hand onto one of your yellow Tamers as if the Tamer is a level 3 yellow Digimon for a memory cost of 2.\n[When Digivolved] If a card with [Hybrid] or [Zoe Orimoto] is in this Digimon's digivolution cards, all of your Security Digimon get +3000 DP until the end of your opponent's next turn."
+		ruling = [
+					"When this card has a Tamer card as a digivolution card, does that Tamer Card's [Security] effect become this card’s inherited effect?",
+					"No, the Tamer card's [Security] effect does not become an inherited effect.",
+					"Can this card digivolve from a LV3 Digimon if the requirements are fulfilled instead of a Tamer Card?",
+					"Yes you can.",
+					"If I use this card's effect to make a tamer card into a digivolution card, is that card affected by effects that say \"trash digivolution cards\"?",
+					"Yes, it is. However, if the effect specifies Digimon cards, Digi-Egg cards, or any other type of card that isn't a tamer card, it can't be targeted by that effect.",
+					"When I digivolve a Tamer card into this card, do I draw a card from the digivolution bonus?",
+					"Yes, you draw a card from the digivolution Bonus even when digivolving from a Tamer.",
+					"Can I attack with this card on the turn its digivolved from a Tamer?",
+					"Yes, as digivolving is not Playing, it can attack.",
+					"Can I attack with this card after digivolving from a Tamer that was Played on the same turn?",
+					"No, even though it digivolved from a Tamer, the restriction of being unable to attack the turn it is played still applies.",
+					"When this Digimon is deleted while having a Tamer card as a digivolution card, what happens to that Tamer card?",
+					"It is trashed.",
+]
+		notes = "Shutumon"
 
 class BT7_037 extends Card:
 	func _init():
@@ -933,6 +1130,10 @@ class BT7_037 extends Card:
 		digimon_type = "Beastkin"
 		power = 7000
 		inherited_effect_text = "[Opponent Turn] When an opponent's Digimon attacks a player, if you have 3 or more security cards, unsuspend this Digimon."
+		ruling = [
+					"When my Digimon with [Blocker] that has this card in its digivolution cards is suspended and my opponent's Digimon attacks, can I activate this card's Inherited Effect to unsuspend this Digimon then Block the attack immediately?",
+					"Yes, it can block.",
+]
 
 class BT7_038 extends Card:
 	func _init():
@@ -970,6 +1171,10 @@ class BT7_039 extends Card:
 		power = 7000
 		effect_text = "[When Digivolved] If this Digimon has 1 digivolution card, you may place up to 2 level 4 or lower yellow Digimon cards from your hand at the bottom of this Digimon's digivolution cards in any order. Then, [Draw 1] for each Digimon card you placed."
 		inherited_effect_text = "[Your Turn] When this card is trashed due to activating this Digimon's [Digiburst], 1 of your Digimon gains [Security Attack +1] for the turn."
+		ruling = [
+					"When this card is trashed by [Digiburst], does this card's Inherited Effect activate before or after the [Digiburst] effect activates?",
+					"After the [Digiburst] effect activates.",
+]
 
 class BT7_040 extends Card:
 	func _init():
@@ -988,6 +1193,14 @@ class BT7_040 extends Card:
 		digimon_type = "Beastkin"
 		power = 11000
 		effect_text = "When digivolving into this card from your hand, the memory cost of the digivolution is equal to the number of cards in your security stack. If you have 0 security cards, the memory cost is 1.\n[Main] [Once Per Turn] [DigiburstUpto 4]\n·1 of your opponent's Digimon gets -3000 DP for the turn for each card trashed by this card's effect."
+		ruling = [
+					"When digivolving into this card from hand, if other effects the reduce digivolution costs are activated, what happens to the digivolution cost?",
+					"You will pay the digivolution cost that is the same number as the number of Security you have minus the digivolution cost reduced by other effects. For example when digivolving into this Digimon while you have 4 Security, and another effect reduces its digivolution cost by 2, you will pay a total of 2 Memory.",
+					"This card's [DigiburstUpto |nocategory] effect trashes up to 4 digivolution cards. Does that mean I can't activate it if there are only 3 or less digivolution cards?",
+					"No, [DigiburstUpto 4] means you can choose any number of digivolution cards to trash between 1 to 4. If there are only 3 or less digivolution cards, you can still activate it by trashing 1 or more digivolution cards.",
+					"I trash 2 digivolution cards with this card's [DigiburstUpto |nocategory] effect. Can I give 2 different Digimon -3000 DP?",
+					"No, this effect can only target 1 Digimon.",
+]
 
 class BT7_040_B extends Card:
 	func _init():
@@ -1006,6 +1219,14 @@ class BT7_040_B extends Card:
 		digimon_type = "Beastkin"
 		power = 11000
 		effect_text = "When digivolving into this card from your hand, the memory cost of the digivolution is equal to the number of cards in your security stack. If you have 0 security cards, the memory cost is 1.\n[Main] [Once Per Turn] [DigiburstUpto 4]\n·1 of your opponent's Digimon gets -3000 DP for the turn for each card trashed by this card's effect."
+		ruling = [
+					"When digivolving into this card from hand, if other effects the reduce digivolution costs are activated, what happens to the digivolution cost?",
+					"You will pay the digivolution cost that is the same number as the number of Security you have minus the digivolution cost reduced by other effects. For example when digivolving into this Digimon while you have 4 Security, and another effect reduces its digivolution cost by 2, you will pay a total of 2 Memory.",
+					"This card's [DigiburstUpto |nocategory] effect trashes up to 4 digivolution cards. Does that mean I can't activate it if there are only 3 or less digivolution cards?",
+					"No, [DigiburstUpto 4] means you can choose any number of digivolution cards to trash between 1 to 4. If there are only 3 or less digivolution cards, you can still activate it by trashing 1 or more digivolution cards.",
+					"I trash 2 digivolution cards with this card's [DigiburstUpto |nocategory] effect. Can I give 2 different Digimon -3000 DP?",
+					"No, this effect can only target 1 Digimon.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -1026,6 +1247,10 @@ class BT7_041 extends Card:
 		digimon_type = "Shaman"
 		power = 12000
 		effect_text = "[When Digivolved] If you have 3 or more security cards, gain 2 memory. If you have 2 or fewer security cards, you may [Recovery +1] until there are 3 cards in your security stack.\n[Your Turn] While you have 3 or more security cards, this Digimon gains [Security Attack +1]."
+		ruling = [
+					"When I have 2 or less Security, and my Security becomes 3 after activating this card's [When Digivolved] effect of [Recovery +1] until I have 3 Security, do I then gain 2 memory from having 3 Security?",
+					"No, if you digivolve into this card while you have 2 or less Security, you only [Recovery +1] until you have 3 Security.",
+]
 
 class BT7_041_B extends Card:
 	func _init():
@@ -1044,6 +1269,10 @@ class BT7_041_B extends Card:
 		digimon_type = "Shaman"
 		power = 12000
 		effect_text = "[When Digivolved] If you have 3 or more security cards, gain 2 memory. If you have 2 or fewer security cards, you may [Recovery +1] until there are 3 cards in your security stack.\n[Your Turn] While you have 3 or more security cards, this Digimon gains [Security Attack +1]."
+		ruling = [
+					"When I have 2 or less Security, and my Security becomes 3 after activating this card's [When Digivolved] effect of [Recovery +1] until I have 3 Security, do I then gain 2 memory from having 3 Security?",
+					"No, if you digivolve into this card while you have 2 or less Security, you only [Recovery +1] until you have 3 Security.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -1151,6 +1380,24 @@ class BT7_046 extends Card:
 		digimon_type = "Cyborg"
 		power = 5000
 		effect_text = "You may digivolve this card from your hand onto one of your green Tamers as if the Tamer is a level 3 Digimon for a memory cost of 2.\n[When Digivolved] Reveal the top 5 cards of your deck. Add 1 card with [Hybrid] and 1 [J.P. Shibayama] among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		ruling = [
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 3 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolve a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+					"For this card's [When Digivolved] effect, am I unable to add any card to hand unless both 1 Digimon card with [Hybrid] and 1 [J.P. Shibayama] are among the 5 cards revealed?",
+					"No, if only either 1 Digimon card with [Hybrid] or 1 [J.P. Shibayama] is among the cards revealed, you can add that card to your hand.",
+]
 		notes = "Blitzmon"
 
 class BT7_047 extends Card:
@@ -1173,7 +1420,23 @@ class BT7_047 extends Card:
 		digimon_type = "Cyborg"
 		power = 6000
 		effect_text = "You may digivolve this card from your hand onto one of your green Tamers as if the Tamer is a level 3 green Digimon for a memory cost of 2.\n[When Digivolved] If a card with [Hybrid] or [J.P. Shibayama] is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon with 6000 DP or less."
-		notes = "Borgmon"
+		ruling = [
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 3 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolve a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+]
+		notes = "Bolgmon"
 
 class BT7_048 extends Card:
 	func _init():
@@ -1209,6 +1472,18 @@ class BT7_049 extends Card:
 		digimon_type = "Mutant"
 		power = 5000
 		effect_text = "[When Attacking] Reveal the top 3 cards of your deck. You may digivolve this Digimon into a green level 6 card among them without paying its memory cost. Place the remaining cards at the bottom of your deck in any order."
+		ruling = [
+					"When this card digivolves into a Green level 6 Digimon by its [When Attacking] effect, does that Digimon's [When Attacking] effect activate?",
+					"No, as the trigger timing for [When Attacking] effects has already passed.",
+					"Must I reveal the top 3 cards of my deck from this card's [When Attacking] effect when this card attacks?",
+					"Yes, if it is possible.",
+					"When this card's [When Attacking] effect reveals a Green level 6 Digimon card, must I digivolve into that card?",
+					"No, as the effect says \"You can digivolve\", you can choose not to digivolve.",
+					"When this card's [When Attacking] effect reveals 2 or more Green level 6 Digimon cards, can I choose which Digimon card to digivolve into?",
+					"Yes, you can choose which card to digivolve into.",
+					"When digivolving from this card's [When Attacking] effect, do I draw 1 card from the digivolution bonus?",
+					"Yes, you do.",
+]
 
 class BT7_050 extends Card:
 	func _init():
@@ -1222,7 +1497,7 @@ class BT7_050 extends Card:
 		stage_level = Stage.ULTIMATE
 		attribute = Attribute.DATA
 		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 3
+		digivolve_cost = 2
 		digivolve_level = 4
 		digimon_type = "Ceratopsian"
 		power = 7000
@@ -1244,6 +1519,16 @@ class BT7_051 extends Card:
 		digimon_type = "Insectoid"
 		power = 8000
 		effect_text = "When one of your Digimon with a Tamer card in its digivolution cards digivolves into this card in your hand, reduce the memory cost of the digivolution by 2.\n[When Attacking] If a card with [Hybrid] is in this Digimon's digivolution cards, this Digimon can digivolve into a Digimon card with [Insectoid] in your hand for a memory cost of 3."
+		ruling = [
+					"When this card attacks, if it has a Digimon cards with [Hybrid] in its digivolution cards, must I digivolve it into 1 Digimon card with [Insectoid] from my hand due to this card's [When Attacking] effect?",
+					"No, as it says “this Digimon can”, you can choose not to digivolve.",
+					"After paying the memory cost to digivolve from this card's [When Attacking] effect, the Memory is put to 1 or more on my opponent's side. What happens to that attack?",
+					"The attack continues. The turn is not passed yet. After the attack, and any effects triggered from attacking are all fully resolved, if the Memory is at 1 or more on your opponent's side, the turn is then passed.",
+					"When my [Kabuterimon] digivolves into this card from its [When Attacking] effect, can I continue to use this card's [When Attacking] effect to digivolve again?",
+					"No, as the trigger timing for [When Attacking] effects has already passed.",
+					"Does this card's [When Attacking] effect allow it digivolve into a Digimon card with [Insectoid] card from my hand while ignoring the digivolution requirements?",
+					"No, you do not ignore the digivolution requirements.",
+]
 
 class BT7_052 extends Card:
 	func _init():
@@ -1316,6 +1601,20 @@ class BT7_055 extends Card:
 		digimon_type = "Holy Beast"
 		power = 13000
 		effect_text = "[When Digivolved] Suspend 1 of your opponent's Digimon. Then, gain 1 memory for each of your opponent's suspended Digimon.\n[Opponent Turn] All of your opponent's Digimon gain “[Your Turn] You must trash 1 card in your hand to unsuspend this Digimon.”"
+		ruling = [
+					"For this card's [Opponent Turn] effect, if my opponent has 2 or more Digimon to be unsuspended, do all of my opponent's Digimon unsuspend if my opponent trashes 1 card from hand?",
+					"No, they must trash 1 card for each Digimon to be unsuspended.",
+					"Must my opponent trash cards from their hand to put their Digimon to Active from this card's [Opponent Turn] effect only when those Digimon are being unsuspended by effects?",
+					"No, other than being unsuspended by effects, your opponent must trash cards from their hand even when they have Digimon to be unsuspended in their Unsuspend Phase.",
+					"My opponent has this Digimon in play, I have 3 Digimon suspended. If I do not have 3 or more cards in hand, does that mean I am unable to trash cards from hand to unsuspend my Digimon?",
+					"No, you can choose whether to trash 1 card from your hand or not for each Digimon to be unsuspended. Only the Digimon chosen to trash 1 card from your hand for will be unsuspended. So it is possible to only put a part of your Digimon to Active even if the number of cards in your hand is less than the number of your Digimon suspended.",
+					"Must I have trash 1 card from hand to put my Tamer suspended to Active due to this card's [Opponent Turn] effect?",
+					"No, as this effect only target Digimon. Tamers can be unsuspended without trashing cards from hand.",
+					"I have 2 of this Digimon in play. Must my opponent trash 2 cards from hand when they are to put 1 of their Digimon to Active on my opponent's turn?",
+					"Yes, as your opponent's Digimon will have 2 effects of \"[Your Turn] When this Digimon is to be unsuspended, this Digimon does not unsuspend unless you trash 1 card from hand\", your opponent's Digimon cannot be unsuspended unless they trash 2 cards from their hand.",
+					"If it would be mandatory to unsuspend a Digimon, is it mandatory to trash a card from your hand?",
+					"No, it is not mandatory. You can choose not to trash a card, but the Digimon will remain suspended.",
+]
 		notes = "Xuanwumon"
 
 class BT7_056 extends Card:
@@ -1336,6 +1635,16 @@ class BT7_056 extends Card:
 		power = 1000
 		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [X-Antibody] and 1 [Kota Domoto] among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 		inherited_effect_text = "[Your Turn] [Once Per Turn] When one of your effects places a digivolution card under this Digimon, gain 1 memory."
+		ruling = [
+					"For this card's [When Digivolved] effect, am I unable to add any card to hand unless both 1 Digimon card with [X-Antibody] and 1 [Kota Domoto] are among the 3 cards revealed?",
+					"No, if only either 1 Digimon card with [X-Antibody] or 1 [Kota Domoto] is among the cards revealed, you can add that card to your hand.",
+					"Does this card's Inherited Effect activate when I digivolve my Digimon that has this card in its digivolution cards with an effect?",
+					"No, even if you digivolve the Digimon with an effect, it does not count as increasing the number of digivolution cards with an effect.",
+					"When my effect increases the number of digivolution cards by 2 or more, does this card's Inherited Effect give me that same amount of Memory?",
+					"No, regardless of how many digivolution cards were increased by, you only gain 1 memory.",
+					"When this card is placed under my Digimon by an effect, does this card's Inherited Effect activate?",
+					"Yes, this card is in that Digimon's digivolution cards at the time the effect would trigger.",
+]
 
 class BT7_056_B extends Card:
 	func _init():
@@ -1355,6 +1664,16 @@ class BT7_056_B extends Card:
 		power = 1000
 		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [X-Antibody] and 1 [Kota Domoto] among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 		inherited_effect_text = "[Your Turn] [Once Per Turn] When one of your effects places a digivolution card under this Digimon, gain 1 memory."
+		ruling = [
+					"For this card's [When Digivolved] effect, am I unable to add any card to hand unless both 1 Digimon card with [X-Antibody] and 1 [Kota Domoto] are among the 3 cards revealed?",
+					"No, if only either 1 Digimon card with [X-Antibody] or 1 [Kota Domoto] is among the cards revealed, you can add that card to your hand.",
+					"Does this card's Inherited Effect activate when I digivolve my Digimon that has this card in its digivolution cards with an effect?",
+					"No, even if you digivolve the Digimon with an effect, it does not count as increasing the number of digivolution cards with an effect.",
+					"When my effect increases the number of digivolution cards by 2 or more, does this card's Inherited Effect give me that same amount of Memory?",
+					"No, regardless of how many digivolution cards were increased by, you only gain 1 memory.",
+					"When this card is placed under my Digimon by an effect, does this card's Inherited Effect activate?",
+					"Yes, this card is in that Digimon's digivolution cards at the time the effect would trigger.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -1394,6 +1713,10 @@ class BT7_058 extends Card:
 		power = 3000
 		effect_text = "[When Attacking] You may trash all of the digivolution cards of 1 of your [DeadlyAxemon] and place it at the bottom of this Digimon's digivolution cards to digivolve this Digimon into a [DarkKnightmon] in your hand without paying its memory cost."
 		inherited_effect_text = "[Your Turn] While this Digimon has [Knightmon], it gains [Security Attack +1]."
+		ruling = [
+					"Can this card's [When Attacking] effect place a [DeadlyAxemon] that has no digivolution cards to the bottom of this card's digivolution cards?",
+					"Yes, you can target a [DeadlyAxemon] with this effect even if it does not have any digivolution cards.",
+]
 
 class BT7_059 extends Card:
 	func _init():
@@ -1431,6 +1754,22 @@ class BT7_060 extends Card:
 		digimon_type = "Demon"
 		power = 5000
 		effect_text = "You may digivolve this card from your hand onto one of your black Tamers as if the Tamer is a level 3 black Digimon."
+		ruling = [
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 3 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolve a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+]
 		notes = "Grottemon"
 
 class BT7_061 extends Card:
@@ -1450,6 +1789,22 @@ class BT7_061 extends Card:
 		digimon_type = "Demon"
 		power = 6000
 		effect_text = "You may digivolve this card from your hand onto one of your black Tamers as if the Tamer is a level 3 black Digimon.\n[Blocker]."
+		ruling = [
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 3 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolve a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+]
 
 class BT7_062 extends Card:
 	func _init():
@@ -1507,7 +1862,19 @@ class BT7_063 extends Card:
 		digivolve_level = 4
 		digimon_type = "Dark Knight"
 		power = 7000
-		effect_text = "[On Play] You may place 1 [SkullKnightmon] and/or 1 [DeadlyAxemon] from your hand and/or trash in this Digimon's digivolution cards in any order.\n[All Turns] When this Digimon is deleted, you may play 1 [SkullKnightmon] and/or 1 [DeadlyAxemon] from this Digimon's digivolution cards suspended without paying their memory costs."
+		effect_text = "[On Play] You may place 1 [SkullKnightmon] and/or 1 [DeadlyAxemon] from your hand and/or trash in this Digimon's digivolution cards in any order.\n[All Turns] When this Digimon would be deleted, you may play 1 [SkullKnightmon] and/or 1 [DeadlyAxemon] from this Digimon's digivolution cards suspended without paying their memory costs."
+		ruling = [
+					"For this card's [On Play] effect am I unable to place [SkullKnightmon] and [DeadlyAxemon] from my hand or trash to the bottom of this card's digivolution cards unless I have both cards in my hand or trash?",
+					"No, if you only have either [SkullKnightmon] or [DeadlyAxemon] in your hand or trash, you can place that card to the bottom of this card's digivolution cards.",
+					"For this card's [On Play] effect, can I place [SkullKnightmon] from my hand, but [DeadlyAxemon] from my trash to the bottom of this card's digivolution cards?",
+					"Yes, you can place [SkullKnightmon] and [DeadlyAxemon] from both your hand and trash to the bottom of this card's digivolution cards.",
+					"For this card's [All Turns] effect, if this Digimon has both [SkullKnightmon] and [DeadlyAxemon] in its digivolution cards, must I Play them both?",
+					"No, as it says \"you may play\", you can choose to whether to play them or not. You can also choose to play only 1 of them.",
+					"When does this card's [All Turns] effect activate?",
+					"This card's [All Turns] effect triggers at the same time as [Decoy]. So it activates before the Digimon has been deleted. Its effect does not prevent its own deletion but you can use [Decoy] after this card's effect to protect it from deletion.",
+					"My opponent plays [Geralt Schwärmer] and I use this card's effect to play [SkullKnightmon] and [DeadlyAxemon] from its digivolution cards. Do those Digimon also get deleted?",
+					"No, the Digimon that were played are not deleted.",
+]
 
 class BT7_063_B extends Card:
 	func _init():
@@ -1525,7 +1892,19 @@ class BT7_063_B extends Card:
 		digivolve_level = 4
 		digimon_type = "Dark Knight"
 		power = 7000
-		effect_text = "[On Play] You may place 1 [SkullKnightmon] and/or 1 [DeadlyAxemon] from your hand and/or trash in this Digimon's digivolution cards in any order.\n[All Turns] When this Digimon is deleted, you may play 1 [SkullKnightmon] and/or 1 [DeadlyAxemon] from this Digimon's digivolution cards suspended without paying their memory costs."
+		effect_text = "[On Play] You may place 1 [SkullKnightmon] and/or 1 [DeadlyAxemon] from your hand and/or trash in this Digimon's digivolution cards in any order.\n[All Turns] When this Digimon would be deleted, you may play 1 [SkullKnightmon] and/or 1 [DeadlyAxemon] from this Digimon's digivolution cards suspended without paying their memory costs."
+		ruling = [
+					"For this card's [On Play] effect am I unable to place [SkullKnightmon] and [DeadlyAxemon] from my hand or trash to the bottom of this card's digivolution cards unless I have both cards in my hand or trash?",
+					"No, if you only have either [SkullKnightmon] or [DeadlyAxemon] in your hand or trash, you can place that card to the bottom of this card's digivolution cards.",
+					"For this card's [On Play] effect, can I place [SkullKnightmon] from my hand, but [DeadlyAxemon] from my trash to the bottom of this card's digivolution cards?",
+					"Yes, you can place [SkullKnightmon] and [DeadlyAxemon] from both your hand and trash to the bottom of this card's digivolution cards.",
+					"For this card's [All Turns] effect, if this Digimon has both [SkullKnightmon] and [DeadlyAxemon] in its digivolution cards, must I Play them both?",
+					"No, as it says \"you may play\", you can choose to whether to play them or not. You can also choose to play only 1 of them.",
+					"When does this card's [All Turns] effect activate?",
+					"This card's [All Turns] effect triggers at the same time as [Decoy]. So it activates before the Digimon has been deleted. Its effect does not prevent its own deletion but you can use [Decoy] after this card's effect to protect it from deletion.",
+					"My opponent plays [Geralt Schwärmer] and I use this card's effect to play [SkullKnightmon] and [DeadlyAxemon] from its digivolution cards. Do those Digimon also get deleted?",
+					"No, the Digimon that were played are not deleted.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -1603,7 +1982,7 @@ class BT7_066 extends Card:
 		digivolve_level = 5
 		digimon_type = "Ancient Mineral"
 		power = 13000
-		effect_text = "[When Digivolved] [De-Digivolve 3] of your opponent's Digimon.\n[On Deletion] You may play 1 black level 4 or lower card with [Hybrid] from your hand without paying its memory cost."
+		effect_text = "[When Digivolved] [De-Digivolve 3] \n[On Deletion] You may play 1 black level 4 or lower card with [Hybrid] from your hand without paying its memory cost."
 		notes = "AncientVolcamon"
 
 class BT7_067 extends Card:
@@ -1697,6 +2076,13 @@ class BT7_070 extends Card:
 		power = 5000
 		effect_text = "[When Digivolved] You may reveal the top 5 cards of your deck. Trash all Tamer cards among them. Place the remaining cards at the bottom of your deck in any order."
 		inherited_effect_text = "[Your Turn] [Once Per Turn] When you play a Tamer, [Draw 1]."
+		ruling = [
+					"Is it possible to not activate this card's [When Digivolved] effect when digivolving into this card?",
+					"Yes, at it says \"You may reveal\", you can choose not to activate it. However, if you chose to reveal the cards, you have to finish the remainder of the effect.",
+					"When revealing the top 5 cards of my deck from this card's [When Digivolved] effect, must I trash all Tamer cards from among them?",
+					"Yes, if you chose to reveal the cards, you must trash all Tamer cards among the cards revealed.",
+]
+		notes = "Wendimon"
 
 class BT7_071 extends Card:
 	func _init():
@@ -1715,6 +2101,22 @@ class BT7_071 extends Card:
 		digimon_type = "Warrior"
 		power = 5000
 		effect_text = "You may digivolve this card from your hand onto one of your purple Tamers as if the Tamer is a level 3 purple Digimon."
+		ruling = [
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 3 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolve a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+]
 
 class BT7_072 extends Card:
 	func _init():
@@ -1733,6 +2135,12 @@ class BT7_072 extends Card:
 		digimon_type = "Dark Dragon"
 		power = 5000
 		effect_text = "When  you trash this card in your hand using one of your effects, if  [Eyesmon: Scatter Mode] is in your trash, you may play this card  without paying its memory cost. \n[Your Turn] For each [Eyesmon: Scatter Mode] in your trash,  this Digimon gets +2000 DP."
+		ruling = [
+					"When I have no [Eyesmon: Scatter Mode] in my trash, and I trash both this card and 1 [Eyesmon: Scatter Mode] at the same time with an effect, can this card be played?",
+					"Yes, it can.",
+					"I discard this card from the [Your Turn] effect of [Ebonwumon]. If this card is suspended by the effect of [Lotosmon] can it still unsuspend during the Unsuspend Phase?",
+					"No, this Digimon was not on the field at the time your Digimon would unsuspend from the Unsuspend Phase.",
+]
 
 class BT7_073 extends Card:
 	func _init():
@@ -1754,6 +2162,22 @@ class BT7_073 extends Card:
 		digimon_type = "Cyborg"
 		power = 6000
 		effect_text = "You may digivolve this card from your hand onto one of your purple Tamers as if the Tamer is a level 3 Digimon for a memory cost of 2.\n[When Digivolved] If a card with [Hybrid] or [Koichi Kimura] is in this Digimon's digivolution cards, this Digimon gains [Retaliation] until the end of your opponent's next turn."
+		ruling = [
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 3 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolve a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+]
 
 class BT7_074 extends Card:
 	func _init():
@@ -1791,6 +2215,10 @@ class BT7_075 extends Card:
 		digimon_type = "Cyborg"
 		power = 7000
 		effect_text = "When one of your Digimon with a Tamer card in its digivolution cards digivolves into this card in your hand, reduce the memory cost of the digivolution by 2.\n[On Deletion] If a card with [Hybrid] is in this Digimon's digivolution cards, you may play 1 purple Tamer card from your trash without paying its memory cost."
+		ruling = [
+					"For this card's [On Deletion] effect, can I play the Tamer card that was in this Digimon's digivolution cards immediately without paying its cost?",
+					"Yes, you can.",
+]
 
 class BT7_076 extends Card:
 	func _init():
@@ -1846,6 +2274,10 @@ class BT7_078 extends Card:
 		digimon_type = "Ancient Mythical Beast"
 		power = 13000
 		effect_text = "[When Digivolved] You may delete 1 of your Digimon with [Ten Warriors] or [Hybrid] to delete 1 of your opponent's Digimon whose level is less than or equal to the deleted Digimon's level.\n[On Deletion] You may play 1 purple level 4 or lower card with [Hybrid] from your hand without paying its memory cost."
+		ruling = [
+					"Can I delete this card itself with its [When Digivolved] effect to delete 1 of my opponent's level 6 or below Digimon?",
+					"Yes, you can.",
+]
 
 class BT7_079 extends Card:
 	func _init():
@@ -1864,6 +2296,10 @@ class BT7_079 extends Card:
 		digimon_type = "Cherub"
 		power = 12000
 		effect_text = "[When Digivolved] You may play 1 purple Tamer card from your trash without paying its memory cost. Then, for each Tamer you have in play, delete 1 of your opponent's level 4 or lower Digimon.\n[On Deletion] For each Tamer you have in play, you may play 1 level 3 Digimon card from your trash without paying its memory cost."
+		ruling = [
+					"For this card's [When Digivolved] effect, if no Purple Tamer card was played from trash, does the “Delete 1 of your opponent's level 4 or below Digimon for each Tamer you have in play” part of the effect still activate?",
+					"Yes, even if no Tamer was played from trash, the remaining part of the effects after “Then,” still activates.",
+]
 
 class BT7_079_B extends Card:
 	func _init():
@@ -1882,6 +2318,10 @@ class BT7_079_B extends Card:
 		digimon_type = "Cherub"
 		power = 12000
 		effect_text = "[When Digivolved] You may play 1 purple Tamer card from your trash without paying its memory cost. Then, for each Tamer you have in play, delete 1 of your opponent's level 4 or lower Digimon.\n[On Deletion] For each Tamer you have in play, you may play 1 level 3 Digimon card from your trash without paying its memory cost."
+		ruling = [
+					"For this card's [When Digivolved] effect, if no Purple Tamer card was played from trash, does the “Delete 1 of your opponent's level 4 or below Digimon for each Tamer you have in play” part of the effect still activate?",
+					"Yes, even if no Tamer was played from trash, the remaining part of the effects after “Then,” still activates.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 
@@ -1899,6 +2339,10 @@ class BT7_080 extends Card:
 		digimon_type = "Beast"
 		power = 2000
 		effect_text = "[On Play] You may play 1 Tamer card with an inherited effect from your hand without paying its memory cost.\n[All Turns] [Once Per Turn] When one of your Digimon with a Tamer card in its digivolution cards is deleted, you may play 1 Tamer card from your trash without paying its memory cost."
+		ruling = [
+					"When my Digimon that has a Tamer card in its digivolution card is deleted, can I play the Tamer card that was in that Digimon's digivolution card immediately without paying its cost with this card's [All Turns] effect?",
+					"Yes, you can.",
+]
 
 class BT7_081 extends Card:
 	func _init():
@@ -1914,6 +2358,10 @@ class BT7_081 extends Card:
 		digimon_type = "Mutant"
 		power = 2000
 		effect_text = "[On Play] Reveal the top 5 cards of your deck. Add 1 card with [Hybrid] and 1 Tamer card among them to your hand. Place the remaining cards at the bottom of your deck in any order.\n[Your Turn] [Once Per Turn] When one of your Tamers digivolves, gain 2 memory."
+		ruling = [
+					"For this card's [On Play] effect, am I unable to add any card to hand unless both 1 Digimon card with [Hybrid] and 1 Digimon card with [Ten Warriors] are among the 5 cards revealed?",
+					"No, if only either 1 Digimon card with [Hybrid] type card is among the cards revealed, you can add that card to your hand.",
+]
 
 class BT7_082 extends Card:
 	func _init():
@@ -1932,6 +2380,12 @@ class BT7_082 extends Card:
 		digimon_type = "Puppet"
 		power = 5000
 		effect_text = "[On Play] You may place 1 [Sistermon Blanc] from your hand or trash at the bottom of this Digimon's digivolution cards to [Recovery +1].\n[On Deletion] Return 1 card with [Jesmon] other than [Sistermon Blanc (Awakened)] from your trash to your hand."
+		ruling = [
+					"Can I place a [Sistermon Blanc (Awakened)] from my hand or trash to the bottom of this card's digivolution cards with this card's [On Play] effect?",
+					"No, you cannot. The target of this effect is specified to be [Sistermon Blanc] only.",
+					"Can I return a [BaoHuckmon], [SaviorHuckmon], or [Sistermon Noir (Awakened)] from my trash to hand with this card's [On Deletion] effect?",
+					"Yes, as those cards have Huckmon, Sistermon, you can add 1 of them to your hand.",
+]
 
 class BT7_083 extends Card:
 	func _init():
@@ -1943,13 +2397,19 @@ class BT7_083 extends Card:
 		play_cost = 6
 		level = 4
 		stage_level = Stage.CHAMPION
-		attribute = Attribute.VACCINE
+		attribute = Attribute.VIRUS
 		digivolve_color = ColorGroup.WHITE
 		digivolve_cost = 2
 		digivolve_level = 4
 		digimon_type = "Puppet"
 		power = 6000
 		effect_text = "[On Play] You may place 1 [Sistermon Noir] from your hand or trash at the bottom of this Digimon's digivolution cards to delete 1 of your opponent's Digimon with a play cost of 5 or less.\n[On Deletion] Return 1 card with [Jesmon] other than [Sistermon Noir (Awakened)] from your trash to your hand."
+		ruling = [
+					"Can I place a [Sistermon Ciel (Awakened)] from my hand or trash to the bottom of this card's digivolution cards with this card's [On Play] effect?",
+					"No, you cannot. The target of this effect is specified to be [Sistermon Ciel] only.",
+					"Can I return a [BaoHuckmon], [SaviorHuckmon], or [Sistermon Blanc (Awakened)] from my trash to hand with this card's [On Deletion] effect?",
+					"Yes, as those cards have Huckmon, Sistermon, you can add 1 of them to your hand.",
+]
 
 class BT7_084 extends Card:
 	func _init():
@@ -1982,6 +2442,12 @@ class BT7_085 extends Card:
 		play_cost = 3
 		effect_text = "[Security] Play this card without paying its memory cost.\n[Main] [Once Per Turn] You may place 5 cards with [Hybrid] from your trash under this Tamer in any order to digivolve this card into an [EmperorGreymon] in your hand for its digivolution cost as if this card is a level 5 red Digimon."
 		sec_effect_text = "[Your Turn] This Digimon gets +2000 DP. While this Digimon has 10000 DP or more, this Digimon gains [Security Attack +1]."
+		ruling = [
+					"This card has an Inherited Effect, but what do I have to do to be able to activate it?",
+					"You will be able to activate it after digivolving this Tamer into a Digimon that can digivolve from Tamers, which will turn this card into a digivolution card.",
+					"Is it possible to not digivolve this card into a [EmperorGreymon] in my hand after activating this card's [Main] effect to place 5 Digimon cards with [Hybrid] from my trash to the bottom of this Tamer?",
+					"Yes, as it says \"You may\", you can place 5 Digimon cards with [Hybrid] from your trash to the bottom of this Tamer without digivolving it into [EmperorGreymon].",
+]
 		notes = "Kanbara Takuya"
 
 class BT7_085_B extends Card:
@@ -1994,6 +2460,12 @@ class BT7_085_B extends Card:
 		play_cost = 3
 		effect_text = "[Security] Play this card without paying its memory cost.\n[Main] [Once Per Turn] You may place 5 cards with [Hybrid] from your trash under this Tamer in any order to digivolve this card into an [EmperorGreymon] in your hand for its digivolution cost as if this card is a level 5 red Digimon."
 		sec_effect_text = "[Your Turn] This Digimon gets +2000 DP. While this Digimon has 10000 DP or more, this Digimon gains [Security Attack +1]."
+		ruling = [
+					"This card has an Inherited Effect, but what do I have to do to be able to activate it?",
+					"You will be able to activate it after digivolving this Tamer into a Digimon that can digivolve from Tamers, which will turn this card into a digivolution card.",
+					"Is it possible to not digivolve this card into a [EmperorGreymon] in my hand after activating this card's [Main] effect to place 5 Digimon cards with [Hybrid] from my trash to the bottom of this Tamer?",
+					"Yes, as it says \"You may\", you can place 5 Digimon cards with [Hybrid] from your trash to the bottom of this Tamer without digivolving it into [EmperorGreymon].",
+]
 		is_parallel = true
 		notes = "parallel promo Kanbara Takuya"
 
@@ -2007,6 +2479,12 @@ class BT7_086 extends Card:
 		play_cost = 3
 		effect_text = "[Security] Play this card without paying its memory cost.\n[On Play] Trash 3 digivolution cards from the bottom of 1 of your opponent's Digimon."
 		sec_effect_text = "[When Attacking] [Once Per Turn] Until the end of your opponent's next turn, 1 of your opponent's Digimon with no digivolution cards can't attack or block."
+		ruling = [
+					"This card has an Inherited Effect, but what do I have to do to be able to activate it?",
+					"You will be able to activate it after digivolving this Tamer into a Digimon that can digivolve from Tamers, which will turn this card into a digivolution card.",
+					"A Digimon cannot attack and block from this card's Inherited Effect. That Digimon then gains digivolution cards after that. Is that Digimon now able to attack and block?",
+					"No, once a Digimon receives this card's Inherited Effect, it will retain the effect of \"Cannot attack and block\" even it gains digivolution cards afterwards.",
+]
 		notes = "Himi Tomoki"
 
 class BT7_086_B extends Card:
@@ -2019,6 +2497,12 @@ class BT7_086_B extends Card:
 		play_cost = 3
 		effect_text = "[Security] Play this card without paying its memory cost.\n[On Play] Trash 3 digivolution cards from the bottom of 1 of your opponent's Digimon."
 		sec_effect_text = "[When Attacking] [Once Per Turn] Until the end of your opponent's next turn, 1 of your opponent's Digimon with no digivolution cards can't attack or block."
+		ruling = [
+					"This card has an Inherited Effect, but what do I have to do to be able to activate it?",
+					"You will be able to activate it after digivolving this Tamer into a Digimon that can digivolve from Tamers, which will turn this card into a digivolution card.",
+					"A Digimon cannot attack and block from this card's Inherited Effect. That Digimon then gains digivolution cards after that. Is that Digimon now able to attack and block?",
+					"No, once a Digimon receives this card's Inherited Effect, it will retain the effect of \"Cannot attack and block\" even it gains digivolution cards afterwards.",
+]
 		is_parallel = true
 		notes = "parallel promo Himi Tomoki"
 
@@ -2032,6 +2516,14 @@ class BT7_087 extends Card:
 		play_cost = 3
 		effect_text = "[Security] Play this card without paying its memory cost.\n[Main] [Once Per Turn] You may place 5 cards with [Hybrid] from your hand under this Tamer in any order to digivolve it into a [MagnaGarurumon] in your hand for its digivolution cost as if this Tamer is a level 5 blue Digimon."
 		sec_effect_text = "[Your Turn] [Once Per Turn] When an effect adds a card to your hand, gain 1 memory. Then, this Digimon can't be blocked for the turn."
+		ruling = [
+					"This card has an Inherited Effect, but what do I have to do to be able to activate it?",
+					"You will be able to activate it after digivolving this Tamer into a Digimon that can digivolve from Tamers, which will turn this card into a digivolution card.",
+					"Does this card's Inherited Effect activate when my Digimon is returned to my hand by my opponent's effect?",
+					"Yes, it does.",
+					"Is it possible to not digivolve this card into a [MagnaGarurumon] in my hand after activating this card's [Main] effect to place 5 Digimon cards with [Hybrid] from my hand to the bottom of this Tamer?",
+					"Yes, as It says \"You may\", you can place 5 Digimon cards with [Hybrid] from your hand to the bottom of this Tamer without digivolving it into [MagnaGarurumon].",
+]
 		notes = "Minamoto Koji"
 
 class BT7_087_B extends Card:
@@ -2044,6 +2536,14 @@ class BT7_087_B extends Card:
 		play_cost = 3
 		effect_text = "[Security] Play this card without paying its memory cost.\n[Main] [Once Per Turn] You may place 5 cards with [Hybrid] from your hand under this Tamer in any order to digivolve it into a [MagnaGarurumon] in your hand for its digivolution cost as if this Tamer is a level 5 blue Digimon."
 		sec_effect_text = "[Your Turn] [Once Per Turn] When an effect adds a card to your hand, gain 1 memory. Then, this Digimon can't be blocked for the turn."
+		ruling = [
+					"This card has an Inherited Effect, but what do I have to do to be able to activate it?",
+					"You will be able to activate it after digivolving this Tamer into a Digimon that can digivolve from Tamers, which will turn this card into a digivolution card.",
+					"Does this card's Inherited Effect activate when my Digimon is returned to my hand by my opponent's effect?",
+					"Yes, it does.",
+					"Is it possible to not digivolve this card into a [MagnaGarurumon] in my hand after activating this card's [Main] effect to place 5 Digimon cards with [Hybrid] from my hand to the bottom of this Tamer?",
+					"Yes, as It says \"You may\", you can place 5 Digimon cards with [Hybrid] from your hand to the bottom of this Tamer without digivolving it into [MagnaGarurumon].",
+]
 		is_parallel = true
 		notes = "parallel promo Minamoto Koji"
 
@@ -2057,6 +2557,14 @@ class BT7_088 extends Card:
 		play_cost = 3
 		effect_text = "[Security] Play this card without paying its memory cost.\n[On Play] You may search your security stack for 1 card with [Hybrid], reveal it, and add it to your hand. If you added a card to your hand, [Recovery +1]. Then, shuffle your security stack."
 		sec_effect_text = "[Opponent Turn] All of your Security Digimon get +3000 DP."
+		ruling = [
+					"This card has an Inherited Effect, but what do I have to do to be able to activate it?",
+					"You will be able to activate it after digivolving this Tamer into a Digimon that can digivolve from Tamers, which will turn this card into a digivolution card.",
+					"If you have a [Hybrid] in Security, do you have to add it to your hand if you checked security?",
+					"No, you do not have to add it to your hand.",
+					"Do I have to check the security?",
+					"No, you can choose not to look at your security. If you do not look at security you must still shuffle the security.",
+]
 		notes = "Orimoto Izumi"
 
 class BT7_088_B extends Card:
@@ -2069,6 +2577,14 @@ class BT7_088_B extends Card:
 		play_cost = 3
 		effect_text = "[Security] Play this card without paying its memory cost.\n[On Play] You may search your security stack for 1 card with [Hybrid], reveal it, and add it to your hand. If you added a card to your hand, [Recovery +1]. Then, shuffle your security stack."
 		sec_effect_text = "[Opponent Turn] All of your Security Digimon get +3000 DP."
+		ruling = [
+					"This card has an Inherited Effect, but what do I have to do to be able to activate it?",
+					"You will be able to activate it after digivolving this Tamer into a Digimon that can digivolve from Tamers, which will turn this card into a digivolution card.",
+					"If you have a [Hybrid] in Security, do you have to add it to your hand if you checked security?",
+					"No, you do not have to add it to your hand.",
+					"Do I have to check the security?",
+					"No, you can choose not to look at your security. If you do not look at security you must still shuffle the security.",
+]
 		is_parallel = true
 		notes = "parallel promo Orimoto Izumi"
 
@@ -2082,6 +2598,10 @@ class BT7_089 extends Card:
 		play_cost = 3
 		effect_text = "[Security] Play this card without paying its memory cost.\n[Your Turn] When this Tamer digivolves into a green Digimon, reduce the memory cost of the digivolution by 1."
 		sec_effect_text = "[Piercing]."
+		ruling = [
+					"This card has an Inherited Effect, but what do I have to do to be able to activate it?",
+					"You will be able to activate it after digivolving this Tamer into a Digimon that can digivolve from Tamers, which will turn this card into a digivolution card.",
+]
 		notes = "Shibayama Junpei"
 
 class BT7_089_B extends Card:
@@ -2094,6 +2614,10 @@ class BT7_089_B extends Card:
 		play_cost = 3
 		effect_text = "[Security] Play this card without paying its memory cost.\n[Your Turn] When this Tamer digivolves into a green Digimon, reduce the memory cost of the digivolution by 1."
 		sec_effect_text = "[Piercing]."
+		ruling = [
+					"This card has an Inherited Effect, but what do I have to do to be able to activate it?",
+					"You will be able to activate it after digivolving this Tamer into a Digimon that can digivolve from Tamers, which will turn this card into a digivolution card.",
+]
 		is_parallel = true
 		notes = "parallel promo Shibayama Junpei"
 
@@ -2132,6 +2656,10 @@ class BT7_091 extends Card:
 		play_cost = 3
 		effect_text = "[Security] Play this card without paying its memory cost.\n[On Play] [Draw 1]. Then, trash 1 card in your hand."
 		sec_effect_text = "[On Deletion] Gain 1 memory."
+		ruling = [
+					"This card has an Inherited Effect, but what do I have to do to be able to activate it?",
+					"You will be able to activate it after digivolving this Tamer into a Digimon that can digivolve from Tamers, which will turn this card into a digivolution card.",
+]
 		notes = "KimuraKoichi"
 
 class BT7_091_B extends Card:
@@ -2144,6 +2672,10 @@ class BT7_091_B extends Card:
 		play_cost = 3
 		effect_text = "[Security] Play this card without paying its memory cost.\n[On Play] [Draw 1]. Then, trash 1 card in your hand."
 		sec_effect_text = "[On Deletion] Gain 1 memory."
+		ruling = [
+					"This card has an Inherited Effect, but what do I have to do to be able to activate it?",
+					"You will be able to activate it after digivolving this Tamer into a Digimon that can digivolve from Tamers, which will turn this card into a digivolution card.",
+]
 		is_parallel = true
 		notes = "parallel promo KimuraKoichi"
 
@@ -2155,12 +2687,12 @@ class BT7_092 extends Card:
 		rarity = Rarity.C
 		id = "BT7-092"
 		play_cost = 3
-		effect_text = "[Main] 1 of your Digimon gains [Security Attack +1] for the turn. Then, place this card in your battle area.  [Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] 1 of your Digimon gains [Security Attack +1] for the turn. Then, place this card in your battle area. \n[Main] [Delay]\n·Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 
 class BT7_093 extends Card:
 	func _init():
-		name = "Flame Memory Boost!"
+		name = "Firedrake Strike"
 		type = Type.OPTION
 		color = ColorGroup.RED
 		rarity = Rarity.U
@@ -2223,6 +2755,10 @@ class BT7_098 extends Card:
 		play_cost = 2
 		effect_text = "[Main] 1 of your opponent's Digimon and all of your opponent's Security Digimon get -3000 DP for the turn."
 		sec_effect_text = "[Security] Add this card to its owner's hand."
+		ruling = [
+					"When my opponent's Security Digimon revealed from a Check has 0 DP due to this card's [Main] effect, does that checked Digimon get deleted without battling?",
+					"No, a battle with the checked Security Digimon happens even if it has 0 DP.",
+]
 
 class BT7_099 extends Card:
 	func _init():
@@ -2245,6 +2781,12 @@ class BT7_100 extends Card:
 		play_cost = 5
 		effect_text = "When using this card from your hand, its memory cost is equal to the number of cards in your security stack.\n [Main] 1 of your opponent's Digimon gets -3000 DP for the turn. Then, 1 of your [Rasenmon] gains [Security Attack +1] for the turn."
 		sec_effect_text = "[Security] Add this card to its owner's hand."
+		ruling = [
+					"Can I use this card for 0 Cost when I have 0 Security?",
+					"Yes, the cost to use this card is 0 if you have 0 Security.",
+					"After using this card to give 1 of my opponent's Digimon -3000 DP, I then play a [Rasenmon]. Can I give that [Rasenmon] [Security Attack +1]?",
+					"No, this card cannot target a [Rasenmon] that is not in your Battle Area at the point of time this card is used.",
+]
 
 class BT7_101 extends Card:
 	func _init():
@@ -2256,6 +2798,10 @@ class BT7_101 extends Card:
 		play_cost = 1
 		effect_text = "[Main] If you have a Digimon with [Hybrid] in play, suspend 1 of your opponent's Digimon."
 		sec_effect_text = "[Security] Add this card to its owner's hand."
+		ruling = [
+					"Can I use this card while I have no Digimon cards with [Hybrid] or [Ten Warriors] type Digimon in play? If I can, what happens to the effect when I use it?",
+					"Although you can use this card, this card's effect will not activate. But it will still trigger effects with the timing \"When you used an Option card\".",
+]
 
 class BT7_102 extends Card:
 	func _init():
@@ -2300,6 +2846,10 @@ class BT7_105 extends Card:
 		play_cost = 4
 		effect_text = "[Main] Reveal the top 3 cards of your deck. You may play 1 black Digimon card with a play cost of 4 or less among them without paying its memory cost. Trash the remaining cards. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
+		ruling = [
+					"When no Black Digimon with Play cost of 4 or less is revealed or played from this card's effect, does this card get trashed without being placed in the Battle Area?",
+					"No, regardless of whether a Digimon is played or not, this card is placed in the Battle Area.",
+]
 
 class BT7_106 extends Card:
 	func _init():
@@ -2311,6 +2861,12 @@ class BT7_106 extends Card:
 		play_cost = 5
 		effect_text = "[Main] Delete 1 of your opponent's Digimon with a play cost of 6 or less. If you have a Digimon with 5 or more digivolution cards and [X-Antibody] in play, you may delete 1 of your opponent's Digimon without [X-Antibody] instead."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"When I have no Digimon with [X-Antibody] with 5 or more digivolution cards in play, can I delete 1 of my opponent's Digimon with [X-Antibody] with play cost of 6 or less with this card's effect?",
+					"Yes, you can.",
+					"When I have a Digimon with [X-Antibody] with 5 or more digivolution cards in play, can I delete 1 of my opponent's Digimon with [X-Antibody] with play cost of 6 or less with this card's effect?",
+					"Yes, you can.",
+]
 
 class BT7_107 extends Card:
 	func _init():
@@ -2322,6 +2878,12 @@ class BT7_107 extends Card:
 		play_cost = 1
 		effect_text = "[Main] Delete 1 of your Digimon. Then, return up to 2 purple Digimon cards from your trash to your hand."
 		sec_effect_text = "[Security] Add this card to its owner's hand."
+		ruling = [
+					"Can I return the Purple Digimon that was deleted by this card's effect to my hand?",
+					"Yes, you can.",
+					"I return a Digimon with a [On Deletion] effect that was deleted by this card's effect to my hand. What happens to that [On Deletion] effect?",
+					"Although the [On Deletion] effect was triggered, the effect does not activate as the Digimon card was removed from trash before the effect can activate.",
+]
 
 class BT7_108 extends Card:
 	func _init():
@@ -2331,7 +2893,7 @@ class BT7_108 extends Card:
 		rarity = Rarity.R
 		id = "BT7-108"
 		play_cost = 6
-		effect_text = "(This is the effect of Dead or Alive) [Main] Play 1 purple level 5 Digimon card from your trash without paying its memory cost. If there are 10 or more cards in your trash, you may play 1 Digimon card with [Lucemon] without paying its memory cost instead."
+		effect_text = "[Main] For each Digimon with [Hybrid]  in its traits and each Tamer you have in play, Delete 1 of your Opponents Level 5 or lower Digimon."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
 
 class BT7_109 extends Card:
@@ -2344,6 +2906,10 @@ class BT7_109 extends Card:
 		play_cost = 8
 		effect_text = "[Main] Play 1 purple level 5 Digimon card from your trash without paying its memory cost. If there are 10 or more cards in your trash, you may play 1 Digimon card with  [Lucemon] without paying its memory cost instead."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"When I have 10 or more cards in my trash, can I play a Purple level 5 Digimon card with this card's effect?",
+					"Yes, you can.",
+]
 
 class BT7_110 extends Card:
 	func _init():
@@ -2355,6 +2921,10 @@ class BT7_110 extends Card:
 		play_cost = 0
 		effect_text = "If you have a Digimon with [Hybrid] in play, you may use this Option card without meeting its color requirements.\n[Main] Your level 4 Digimon can digivolve into 1 Digimon card in your hand with matching colors and [Ten Warriors] for its digivolution cost, ignoring its level."
 		sec_effect_text = "[Security] Add this card to its owner's hand."
+		ruling = [
+					"What does \"If you have a Digimon card with [Hybrid] in play, you can use this Option card while ignoring its colour requirement\" mean exactly?",
+					"While you have a Digimon card with [Hybrid] in your Battle Area, you can Use this Option card even if you do not have any White Tamer or Digimon in play.",
+]
 		notes = "Evolution Ancient"
 
 class BT7_111 extends Card:
@@ -2371,6 +2941,10 @@ class BT7_111 extends Card:
 		digimon_type = "Demon Lord"
 		power = 12000
 		effect_text = "Your [Lucemon] can digivolve into this card in your hand for a memory cost of 7, ignoring this card's digivolution requirements.\nFor every 10 cards in your trash, reduce the memory cost when playing this card from your hand by 3.\n[On Play] [When Digivolved] Delete 1 of your opponent's Tamers or level 6 or lower Digimon."
+		ruling = [
+					"This card's effect has 2 timing, [On Play] and [When Digivolved]. What does that mean?",
+					"This effect will activate in both timing [On Play] and [When Digivolved].",
+]
 		notes = "Lucemon: Falldown Mode"
 
 class BT7_111_B extends Card:
@@ -2387,6 +2961,10 @@ class BT7_111_B extends Card:
 		digimon_type = "Demon Lord"
 		power = 12000
 		effect_text = "Your [Lucemon] can digivolve into this card in your hand for a memory cost of 7, ignoring this card's digivolution requirements.\nFor every 10 cards in your trash, reduce the memory cost when playing this card from your hand by 3.\n[On Play] [When Digivolved] Delete 1 of your opponent's Tamers or level 6 or lower Digimon."
+		ruling = [
+					"This card's effect has 2 timing, [On Play] and [When Digivolved]. What does that mean?",
+					"This effect will activate in both timing [On Play] and [When Digivolved].",
+]
 		is_parallel = true
 		notes = "parallel promo Lucemon: Falldown Mode"
 
@@ -2407,6 +2985,28 @@ class BT7_112 extends Card:
 		digimon_type = "Shaman"
 		power = 15000
 		effect_text = "You may digivolve this card from your hand onto one of your Tamers as if the Tamer is a level 6 Digimon by placing 10 Tamer cards and/or cards with [Hybrid] from your hand and/or trash at the bottom of your deck in any order.\n[Security Attack +2]\n[When Digivolved] Delete 1 of your opponent's Digimon."
+		ruling = [
+					"What is the colour of this card's digivolution requirement showing?",
+					"This card's digivolution requirement icon means it can digivolve from all colours. To be exact, it can digivolve from either a Red, Blue, Yellow, Green, Black, Purple, or White level 6 Digimon.",
+					"For this card's effect of “A total of 10 Digimon cards with [Hybrid] or Tamer cards from your Hand or Trash”, does that mean I must choose to return either 10 cards from my hand or 10 cards from my trash?",
+					"No, the condition is fulfilled as long as you return a total of 10 cards from your hand and trash combined.",
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 6 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolve a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+					"Can I choose not to digivolve into this card even though I placed 10 cards with [Hybrid] or Tamers at the bottom of my deck?",
+					"Yes, but if you do, this card will be trashed. You must have 10 cards in your trash to reveal this card, but you can also do this without a Tamer in the battle area.\nThe procedure is:##Reveal the Susanoomon to the opponent,##Place 10 cards on the bottom of your deck in any order,##Trash the Susanoomon.",
+]
 
 class BT7_112_B extends Card:
 	func _init():
@@ -2425,6 +3025,28 @@ class BT7_112_B extends Card:
 		digimon_type = "Shaman"
 		power = 15000
 		effect_text = "You may digivolve this card from your hand onto one of your Tamers as if the Tamer is a level 6 Digimon by placing 10 Tamer cards and/or cards with [Hybrid] from your hand and/or trash at the bottom of your deck in any order.\n[Security Attack +2]\n[When Digivolved] Delete 1 of your opponent's Digimon."
+		ruling = [
+					"What is the colour of this card's digivolution requirement showing?",
+					"This card's digivolution requirement icon means it can digivolve from all colours. To be exact, it can digivolve from either a Red, Blue, Yellow, Green, Black, Purple, or White level 6 Digimon.",
+					"For this card's effect of “A total of 10 Digimon cards with [Hybrid] or Tamer cards from your Hand or Trash”, does that mean I must choose to return either 10 cards from my hand or 10 cards from my trash?",
+					"No, the condition is fulfilled as long as you return a total of 10 cards from your hand and trash combined.",
+					"When a Tamer card digivolves into this card, does that Tamer's [Security] effect become Inherited Effects?",
+					"No, a Tamer card's [Security] effects do not become Inherited Effects.",
+					"Can I digivolve this card from a level 6 Digimon if the digivolution requirement is fulfilled instead of a Tamer card?",
+					"Yes, you can.",
+					"After digivolve a Tamer card into this Digimon, can that Tamer card receive the effects of you or your opponent's effects that trash digivolution cards?",
+					"Yes, it can. However, if the effect specified to target a non Tamer card, like Digimon cards or Digi-Egg cards, they cannot target this card.",
+					"Do I draw a card from the digivolution bonus if I digivolve a Tamer into this card?",
+					"Yes, you draw a card from the digivolution bonus even if digivolving from a Tamer.",
+					"Can this card attack on the turn it digivolves from a Tamer?",
+					"Yes, it can attack as Digivolving is not Playing.",
+					"Can this card attack on the turn it digivolves from a Tamer if that Tamer was played on the same turn?",
+					"No, even if it digivolves from a Tamer, it is still under the rule of being unable to attack on the turn it was played.",
+					"When this Digimon that has a Tamer card in its digivolution card is deleted, what happens to that Tamer card?",
+					"It is trashed.",
+					"Can I choose not to digivolve into this card even though I placed 10 cards with [Hybrid] or Tamers at the bottom of my deck?",
+					"Yes, but if you do, this card will be trashed. You must have 10 cards in your trash to reveal this card, but you can also do this without a Tamer in the battle area.\nThe procedure is:##Reveal the Susanoomon to the opponent,##Place 10 cards on the bottom of your deck in any order,##Trash the Susanoomon.",
+]
 		is_parallel = true
 		notes = "parallel promo"
 

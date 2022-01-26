@@ -54,6 +54,7 @@ func export_collection(c : CardCollection, format : String) -> String:
 
 func export_collection_to_text(c : CardCollection) -> String:
 	var res := ""
+	c = c.no_alt_art_duplicate()
 	for id in c.data.keys():
 		var card : Card = CardDB.get_card_by_id(id)
 		if card:
@@ -77,7 +78,7 @@ func export_collection_to_tts(c : CardCollection) -> String:
 
 
 func export_collection_to_chronobattle(c : CardCollection) -> String:
-	return export_collection_to_text(c.no_alt_art_duplicate())
+	return export_collection_to_text(c)
 
 
 func export_collection_to_untap(c : CardCollection) -> String:

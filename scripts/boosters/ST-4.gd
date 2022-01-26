@@ -6,13 +6,17 @@ static func register_cards():
 	CardDB.add_card(ST4_01.new())
 	CardDB.add_card(ST4_02.new())
 	CardDB.add_card(ST4_03.new())
+	CardDB.add_card(ST4_03_B.new())
+	CardDB.add_card(ST4_03_C.new())
 	CardDB.add_card(ST4_04.new())
+	CardDB.add_card(ST4_04_B.new())
 	CardDB.add_card(ST4_05.new())
 	CardDB.add_card(ST4_06.new())
 	CardDB.add_card(ST4_07.new())
 	CardDB.add_card(ST4_08.new())
 	CardDB.add_card(ST4_09.new())
 	CardDB.add_card(ST4_10.new())
+	CardDB.add_card(ST4_10_B.new())
 	CardDB.add_card(ST4_11.new())
 	CardDB.add_card(ST4_12.new())
 	CardDB.add_card(ST4_13.new())
@@ -68,6 +72,46 @@ class ST4_03 extends Card:
 		power = 2000
 		effect_text = "[On Play] Reveal the top card of your deck. If it's a green Digimon card, add it to your hand. Otherwise, place it at the bottom of your deck."
 
+class ST4_03_B extends Card:
+	func _init():
+		name = "Tentomon"
+		type = Type.DIGIMON
+		color = ColorGroup.GREEN
+		rarity = Rarity.U
+		id = "ST4-03 (B)"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.GREEN
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Insectoid"
+		power = 2000
+		effect_text = "[On Play] Reveal the top card of your deck. If it's a green Digimon card, add it to your hand. Otherwise, place it at the bottom of your deck."
+		is_parallel = true
+		notes = "parallel promo"
+
+class ST4_03_C extends Card:
+	func _init():
+		name = "Tentomon"
+		type = Type.DIGIMON
+		color = ColorGroup.GREEN
+		rarity = Rarity.U
+		id = "ST4-03 (C)"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.VACCINE
+		digivolve_color = ColorGroup.GREEN
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Insectoid"
+		power = 2000
+		effect_text = "[On Play] Reveal the top card of your deck. If it's a green Digimon card, add it to your hand. Otherwise, place it at the bottom of your deck."
+		is_parallel = true
+		notes = "parallel promo"
+
 class ST4_04 extends Card:
 	func _init():
 		name = "Palmon"
@@ -85,6 +129,38 @@ class ST4_04 extends Card:
 		digimon_type = "Vegetation"
 		power = 2000
 		inherited_effect_text = "[When Attacking] If you attack an opponent's Digimon, this Digimon gets +2000 DP for the turn."
+		ruling = [
+					"I attack my opponent using a Digimon with this card in its digivolution cards. If they block it with one of their Digimon, does this card's effect activate? ",
+					"No, if you declared an attack against your opponent, this card's effect doesn't activate, even if they use another Digimon to block it.",
+					"I attack an opponent's Digimon using a Digimon with this card in its digivolution cards, and use another effect to delete an opponent's Digimon card. Does this card's effect activate? ",
+					"Yes, if you declared an attack against an opponent's Digimon, this effect activates.",
+]
+
+class ST4_04_B extends Card:
+	func _init():
+		name = "Palmon"
+		type = Type.DIGIMON
+		color = ColorGroup.GREEN
+		rarity = Rarity.C
+		id = "ST4-04 (B)"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.ROOKIE
+		attribute = Attribute.DATA
+		digivolve_color = ColorGroup.GREEN
+		digivolve_cost = 0
+		digivolve_level = 2
+		digimon_type = "Vegetation"
+		power = 2000
+		inherited_effect_text = "[When Attacking] If you attack an opponent's Digimon, this Digimon gets +2000 DP for the turn."
+		ruling = [
+					"I attack my opponent using a Digimon with this card in its digivolution cards. If they block it with one of their Digimon, does this card's effect activate? ",
+					"No, if you declared an attack against your opponent, this card's effect doesn't activate, even if they use another Digimon to block it.",
+					"I attack an opponent's Digimon using a Digimon with this card in its digivolution cards, and use another effect to delete an opponent's Digimon card. Does this card's effect activate? ",
+					"Yes, if you declared an attack against an opponent's Digimon, this effect activates.",
+]
+		is_parallel = true
+		notes = "parallel promo"
 
 class ST4_05 extends Card:
 	func _init():
@@ -120,6 +196,12 @@ class ST4_06 extends Card:
 		digimon_type = "Vegetation"
 		power = 4000
 		inherited_effect_text = "[When Attacking] If you attack an opponent's Digimon, this Digimon gets +2000 DP for the turn."
+		ruling = [
+					"I attack my opponent using a Digimon with this card in its digivolution cards. If they block it with one of their Digimon, does this card's effect activate? ",
+					"No, if you declared an attack against your opponent, this card's effect doesn't activate, even if they use another Digimon to block it.",
+					"I attack an opponent's Digimon using a Digimon with this card in its digivolution cards, and use another effect to delete an opponent's Digimon card. Does this card's effect activate? ",
+					"Yes, if you declared an attack against an opponent's Digimon, this effect activates.",
+]
 
 class ST4_07 extends Card:
 	func _init():
@@ -155,6 +237,10 @@ class ST4_08 extends Card:
 		digimon_type = "Insectoid"
 		power = 5000
 		effect_text = "[Blocker].\n [When Attacking] Lose 2 memory."
+		ruling = [
+					"Can this Digimon attack if I have less than 2 memory? ",
+					"Yes, it can. Even if your memory counter moves to 1 on your opponent's side due to this Digimon's [When Attacking] effect, your turn doesn't end until the attack does.",
+]
 
 class ST4_09 extends Card:
 	func _init():
@@ -191,6 +277,26 @@ class ST4_10 extends Card:
 		power = 7000
 		effect_text = "[When Digivolved] Reveal the top 5 cards of your deck. Add 1 level 6 or higher Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 
+class ST4_10_B extends Card:
+	func _init():
+		name = "Lillymon"
+		type = Type.DIGIMON
+		color = ColorGroup.GREEN
+		rarity = Rarity.U
+		id = "ST4-10 (B)"
+		play_cost = 6
+		level = 5
+		stage_level = Stage.ULTIMATE
+		attribute = Attribute.DATA
+		digivolve_color = ColorGroup.GREEN
+		digivolve_cost = 3
+		digivolve_level = 4
+		digimon_type = "Fairy"
+		power = 7000
+		effect_text = "[When Digivolved] Reveal the top 5 cards of your deck. Add 1 level 6 or higher Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		is_parallel = true
+		notes = "parallel promo"
+
 class ST4_11 extends Card:
 	func _init():
 		name = "MegaKabuterimon"
@@ -208,6 +314,12 @@ class ST4_11 extends Card:
 		digimon_type = "Insectoid"
 		power = 7000
 		inherited_effect_text = "[Your Turn] [Once Per Turn] When this Digimon deletes an opponent's Digimon in battle and survives, trash the top card of your opponent's security stack."
+		ruling = [
+					"I use this card's inherited effect to trash an opponent's Security Card. Does the security effect on that card activate? ",
+					"No, [Security] effects only activate when flipped over from the security stack.",
+					"My opponent has an empty security stack. If I have a Digimon with this card in its digivolution cards, and I use it to attack and delete an opponent's Digimon and survive, do I win the game? ",
+					"No, this effect only trashes the top card of your opponent's security stack. It doesn't win you the game if it's empty.",
+]
 		notes = "AtlurKabuterimon"
 
 class ST4_12 extends Card:
@@ -227,6 +339,14 @@ class ST4_12 extends Card:
 		digimon_type = "Fairy"
 		power = 11000
 		effect_text = "[When Digivolved] 1 of your opponent's Digimon can't attack or block until the end of their next turn."
+		ruling = [
+					"I use this card's effect on an opponent's Digimon. Can I attack that Digimon if it's suspended? ",
+					"Yes. The effect simply prevents the Digimon from attacking or blocking. You can still attack it.",
+					"I use this card's effect on an opponent's Digimon. If that Digimon digivolves into a different Digimon, can it attack and block again? ",
+					"No, the effect persists, even if they digivolve.",
+					"I use this card's effect on an opponent's Digimon. If that Digimon activates an effect that allows it to attack other Digimon or players, what happens? ",
+					"The effect preventing it from attacking takes priority. Your opponent's Digimon still can't attack.",
+]
 
 class ST4_13 extends Card:
 	func _init():
@@ -257,6 +377,10 @@ class ST4_14 extends Card:
 		play_cost = 2
 		effect_text = "[Your Turn] When one of your opponent's Digimon becomes suspended, you may suspend this Tamer to gain 1 memory."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		ruling = [
+					"Can I activate this card's effect when my opponent uses [Blocker] to suspend one of their Digimon? ",
+					"Yes, you can.",
+]
 		notes = "Izumi Koshiro"
 
 class ST4_15 extends Card:

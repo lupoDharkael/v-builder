@@ -14,6 +14,10 @@ var lead_card : String
 
 var delete_on_zero := false
 
+var count_exceptions := {
+	"BT6-085": 50,
+	"EX2-046": 50,
+}
 
 func _ready():
 	pass
@@ -135,6 +139,8 @@ func can_add_card(card : Card, amount : int) -> int:
 	# Check card number limits
 	var base_id = card.get_base_id()
 	var id_limit = 4
+	if count_exceptions.has(base_id):
+		id_limit = count_exceptions[base_id]
 	if data.has(base_id):
 		id_limit -= data[base_id]
 	return int(min(amount, id_limit))

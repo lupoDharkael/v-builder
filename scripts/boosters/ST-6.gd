@@ -31,6 +31,10 @@ class ST6_01 extends Card:
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Lesser"
 		inherited_effect_text = "[On Deletion] Trash the top 2 cards of your deck."
+		ruling = [
+					"If this card's effect reduces the number of cards in my deck to 0, do I lose the game? ",
+					"No, you don't lose the game when your deck is empty. You will lose the game if your deck has 0 cards in it at your next draw phase, however.",
+]
 
 class ST6_02 extends Card:
 	func _init():
@@ -84,7 +88,7 @@ class ST6_04 extends Card:
 		digivolve_level = 2
 		digimon_type = "Undead"
 		power = 2000
-		effect_text = "[On Deletion] You may return 1 purple Option card from your trash to your hand."
+		effect_text = "[On Play] You may return 1 purple Option card from your trash to your hand."
 
 class ST6_05 extends Card:
 	func _init():
@@ -155,6 +159,10 @@ class ST6_08 extends Card:
 		digimon_type = "Fallen Angel"
 		power = 5000
 		effect_text = "[Blocker].\n [When Attacking] Lose 2 memory."
+		ruling = [
+					"Can this Digimon attack if I have less than 2 memory? ",
+					"Yes, it can. Even if your memory counter moves to 1 on your opponent's side due to this Digimon's [When Attacking] effect, your turn doesn't end until the attack does.",
+]
 
 class ST6_09 extends Card:
 	func _init():
@@ -226,6 +234,12 @@ class ST6_12 extends Card:
 		digimon_type = "Dark Animal"
 		power = 11000
 		effect_text = "[When Digivolved] Up to 2 of your Digimon gain [Retaliation] until the end of your opponent's next turn."
+		ruling = [
+					" Can I use this card's effect to give this Digimon [Retaliation]? ",
+					"Yes, you can.",
+					"I use this card to give a Digimon [Retaliation]. If that Digimon digivolves into a different Digimon, what happens to [Retaliation]? ",
+					"Digimon retain effects when digivolving or dedigivolving, so [Retaliation] remains.",
+]
 		notes = "VenomVamdemon"
 
 class ST6_13 extends Card:
@@ -245,6 +259,10 @@ class ST6_13 extends Card:
 		digimon_type = "Beast Knight"
 		power = 12000
 		effect_text = "[Security Attack +1].\n[Main] [Digiburst 2].\n·Play 1 purple level 3 Digimon card from your trash without paying its memory cost."
+		ruling = [
+					"I use this card's [Digiburst] to trash a purple level 3 Digimon card in the Digimon with [Digiburst]'s digivolution cards. Can I immediately use the [Digiburst] effect to play that Digimon without paying its memory cost? ",
+					"Yes, you can.",
+]
 
 class ST6_14 extends Card:
 	func _init():
@@ -268,6 +286,12 @@ class ST6_15 extends Card:
 		play_cost = 1
 		effect_text = "[Main] You may delete 1 of your Digimon to delete 1 of your opponent's level 4 or lower Digimon."
 		sec_effect_text = "[Security] Delete 1 of your opponent's level 4 or lower Digimon."
+		ruling = [
+					"I use this card's effect to delete one of my Digimon with a [On Deletion] effect. Can I activate the [On Deletion] effect before this card's \"delete 1 of your opponent's level 4 or lower Digimon\" effect? ",
+					"No. You must fully activate this card's effect, then activate the [On Deletion] effect.",
+					"Does this card's inherited effect activate if your opponent's Digimon were all deleted in battle after attacking? ",
+					"No, it doesn't. They attacked this turn, so the effect doesn't apply.",
+]
 
 class ST6_16 extends Card:
 	func _init():
@@ -279,4 +303,10 @@ class ST6_16 extends Card:
 		play_cost = 7
 		effect_text = "[Main] You may play 1 purple level 3 Digimon card and 1 purple level 4 Digimon card from your trash without paying their memory costs. Any [On Play] effects on Digimon played with this effect don't activate."
 		sec_effect_text = "[Security] You may play 1 purple level 4 or lower Digimon card from your trash without paying its memory cost.\nAny [On Play] effects on Digimon played with this effect don't activate."
+		ruling = [
+					"Can I use this card's effect if I only have either a level 3 or level 4 purple Digimon card in my trash? ",
+					"Yes, you can. If you only have a level 3 or level 4 purple Digimon card in your trash, you can play it.",
+					"If I have both a level 3 and a level 4 in the trash, can I choose to play only one of them? ",
+					"Yes, you can. If you have both a level 3 and a level 4 in the trash, you may play only one of them.",
+]
 

@@ -26,7 +26,11 @@ class ST8_01 extends Card:
 		level = 2
 		stage_level = Stage.IN_TRAINING
 		digimon_type = "Baby Dragon"
-		inherited_effect_text = "[Your Turn] If you have 8 or more cards in your hand,  this Digimon gets +1000 DP."
+		inherited_effect_text = "[Your Turn] While you have 8 or more cards in your hand, this Digimon gets +1000 DP."
+		ruling = [
+					"I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon’s [When Attacking] ability to [Draw 1]. Now that I have 8 cards in hand does the inherited effect from this card give the attacking Digimon DP +1000 for the ensuing Check or Battle?",
+					"Yes. The inherited effect activates the moment you have 8 cards in hand, even mid Attack, giving the attacking Digimon DP +1000",
+]
 		notes = "Chibimon"
 
 class ST8_02 extends Card:
@@ -46,6 +50,10 @@ class ST8_02 extends Card:
 		digimon_type = "Reptile"
 		power = 2000
 		inherited_effect_text = "[All Turns] While you have 8 or more cards in your hand, this Digimon gets +1000 DP."
+		ruling = [
+					"I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon's [When Attacking] ability to [Draw 1]. Now that I have 8 cards in hand does the inherited effect from this card give the attacking Digimon DP+1000 for the ensuing check or battle?",
+					"Yes. The inherited effect becomes active the moment you have 8 cards in hand, even mid-atttack. Giving the attacking Digimon +1000 DP.",
+]
 
 class ST8_03 extends Card:
 	func _init():
@@ -63,7 +71,7 @@ class ST8_03 extends Card:
 		digivolve_level = 2
 		digimon_type = "Dragon"
 		power = 2000
-		effect_text = "[On Play] Reveal the top 3 cards from your Deck. Add 1 Digimon Card with [Dramon] to your hand. Place the remaining cards at the bottom of your deck in any order."
+		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Dramon] among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 
 class ST8_04 extends Card:
 	func _init():
@@ -81,8 +89,8 @@ class ST8_04 extends Card:
 		digivolve_level = 2
 		digimon_type = "Mini Dragon"
 		power = 2000
-		effect_text = "[Your Turn] While your opponent has a level 6 or higher Digimon in play, this Digimon can digivolve into a [UlforceVeedramon] card in your hand for a memory cost of 4, ignoring that card's digivolution requirements."
-		inherited_effect_text = "[When Attacking] If you have 7 of fewer cards in your hand, trigger [Draw 1]."
+		effect_text = "[Your Turn] If your opponent has a level 6 or higher Digimon in play, this Digimon can digivolve into an [UlforceVeedramon] in your hand for a memory cost of 4, ignoring its digivolution requirements."
+		inherited_effect_text = "[When Attacking] If you have 7 or fewer cards in your hand, trigger [Draw 1]."
 		notes = "V-mon"
 
 class ST8_05 extends Card:
@@ -90,7 +98,7 @@ class ST8_05 extends Card:
 		name = "Veedramon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
-		rarity = Rarity.U
+		rarity = Rarity.R
 		id = "ST8-05"
 		play_cost = 4
 		level = 4
@@ -101,7 +109,11 @@ class ST8_05 extends Card:
 		digivolve_level = 3
 		digimon_type = "Mythical Dragon"
 		power = 5000
-		inherited_effect_text = "[When Attacking] If you have 8 or more cards in your hand, return 1 of your opponent's level 3 Digimon to their hand. (Trash all the digivolution cards of that Digimon)."
+		inherited_effect_text = "[When Attacking] If you have 8 or more cards in your hand, return 1 of your opponent's level 3 Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon."
+		ruling = [
+					"I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon’s other [When Attacking] ability to [Draw 1]. Now that I have 8 cards in hand can I use this card’s inherited ability to return one of my opponent’s Lv. 3 Digimon to their hand?",
+					"Yes. So long as you choose to Activate this card’s inherited effect after the [Draw 1] you will have 8 cards in hand when this effect is activated allowing you to return an opponent’s Digimon to their hand",
+]
 
 class ST8_06 extends Card:
 	func _init():
@@ -120,6 +132,14 @@ class ST8_06 extends Card:
 		digimon_type = "Dragon"
 		power = 5000
 		effect_text = "[Security] At the end of the battle, play this card without paying its memory cost.\n[On Play] Trigger [Draw 2]."
+		ruling = [
+					"If this card is Security Checked and deleted in battle does is it still Played via its [Security] effect?",
+					"Yes. The outcome of the battle doesn’t matter, at the end of the battle the Digimon is Played",
+					"If this card is Played via its [Security] does its [On Play] effect activate?",
+					"Yes. The effect activates",
+					"When this card is Security checked and battled, if the attacking Digimon has further security checks to make, does this Digimon get Played or do those Checks occur first? Furthermore, what is the timing for the activation of this card’s [On Play] effect?",
+					"This Digimon is Played prior to the next Security Check. The [On Play] ability also activates as soon as the Digimon is Played, prior to the next Security Check",
+]
 
 class ST8_07 extends Card:
 	func _init():
@@ -144,7 +164,7 @@ class ST8_08 extends Card:
 		name = "AeroVeedramon"
 		type = Type.DIGIMON
 		color = ColorGroup.BLUE
-		rarity = Rarity.U
+		rarity = Rarity.R
 		id = "ST8-08"
 		play_cost = 7
 		level = 5
@@ -157,6 +177,10 @@ class ST8_08 extends Card:
 		power = 7000
 		effect_text = "[Jamming]"
 		inherited_effect_text = "[Your Turn] While you have 8 or more cards in your hand this Digimon gains [Security Attack +1]."
+		ruling = [
+					"I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon’s [When Attacking] ability to [Draw 1]. Now that I have 8 cards in hand does the inherited effect from this card give the attacking Digimon [Security Attack +1] for the ensuing Check?",
+					"Yes. The inherited effect activates the moment you have 8 cards in hand, even mid Attack, giving the attacking Digimon [Security Attack +1]",
+]
 		notes = "AeroV-dramon"
 
 class ST8_09 extends Card:
@@ -175,7 +199,13 @@ class ST8_09 extends Card:
 		digivolve_level = 5
 		digimon_type = "Dragonkin"
 		power = 10000
-		effect_text = "[When Digivolved] This Digimon gains [Security Attack +1] for the turn.\n[Your Turn] This Digimon can't be blocked by your opponent's Digimon."
+		effect_text = "[When Digivolved] This Digimon gains [Security Attack +1] for the turn.\n[Your Turn] This Digimon is unblockable."
+		ruling = [
+					"This card reads, ‘This Digimon is unblockable.’ What exactly does that mean?",
+					"In response to this Digimon attack, an opponent’s Digimon cannot redirect this Digimon's attack when activating the [Blocker] effect.",
+					"Can my opponent still suspend their Digimon with [Blocker]?",
+					"Yes, the Digimon can still be suspended but the attack will not be redirected.",
+]
 
 class ST8_10 extends Card:
 	func _init():
@@ -193,7 +223,11 @@ class ST8_10 extends Card:
 		digivolve_level = 5
 		digimon_type = "Holy Warrior"
 		power = 12000
-		effect_text = "[When Digivolved] Return 1 level 4 or lower Digimon to it's owner's hand. Trash all of the digivolution cards of that Digimon.\n[When Attacking] [Once Per Turn] If you have 8 or more cards in your hand, unsuspend this Digimon."
+		effect_text = "[When Digivolved] Return 1 of your opponent's level 4 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon.\n[When Attacking] [Once Per Turn] If you have 8 or more cards in your hand, unsuspend this Digimon."
+		ruling = [
+					"I have 7 cards in hand and attack this Digimon, activating this Digimon’s other [When Attacking] ability to [Draw 1]. Now that I have 8 cards in hand can I use this card’s [When Attacking] ability to Unsuspend this Digimon?",
+					"Yes. So long as you choose to Activate this card’s inherited effect after the [Draw 1] you will have 8 cards in hand when this effect is activated allowing you to Unsuspend this Digimon",
+]
 		notes = "UlforceV-dramon"
 
 class ST8_11 extends Card:
@@ -204,8 +238,8 @@ class ST8_11 extends Card:
 		rarity = Rarity.U
 		id = "ST8-11"
 		play_cost = 3
-		effect_text = "[Main] Unsuspend 1 of your Blue Digimon."
-		sec_effect_text = "[Security] Add this card to your hand."
+		effect_text = "[Main] Unsuspend 1 of your blue Digimon."
+		sec_effect_text = "[Security] Add this card to its owner's hand."
 		notes = "Ulforce Saber"
 
 class ST8_12 extends Card:
@@ -213,9 +247,9 @@ class ST8_12 extends Card:
 		name = "V-Wing Blade"
 		type = Type.OPTION
 		color = ColorGroup.BLUE
-		rarity = ""
+		rarity = Rarity.C
 		id = "ST8-12"
 		play_cost = 6
-		effect_text = "[Main] Return 1 of your opponent's level 6 or lower Digimon to it's owner's hand. (Trash all of the digivolution cards of that Digimon.)"
+		effect_text = "[Main] Return 1 of your opponent's level 6 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
 
