@@ -51,6 +51,7 @@ func no_alt_art_duplicate() -> CardCollection:
 	var res := get_script().new() as CardCollection
 	res.name = name
 	res.path = path
+	res.lead_card = lead_card
 	res.data = {}
 	for k in data.keys():
 		var c := CardDB.get_card_by_id(k)

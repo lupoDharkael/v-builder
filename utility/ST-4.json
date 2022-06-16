@@ -1,0 +1,505 @@
+{
+    "name": "ST-4: Giga Green",
+    "shortname": "ST-4",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fa/ST4-01.png/revision/latest?cb=20210430124223",
+            "id": "ST4-01",
+            "name": "Motimon",
+            "jpname": "モチモン",
+            "tsname": "Mochimon",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "effect2": "[Your Turn] While this Digimon is level 6 or higher, it gets +1000 DP.",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5b/ST4-02.png/revision/latest?cb=20210430124223",
+            "id": "ST4-02",
+            "name": "Floramon",
+            "jpname": "フローラモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "4000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Vegetation",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "1",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/de/ST4-03.png/revision/latest?cb=20210430124224",
+            "id": "ST4-03",
+            "name": "Tentomon",
+            "jpname": "テントモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Insectoid",
+            "ilustrators": [
+                "sasasi",
+                "Itohiro",
+                "Horaguchi Kayo"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Reveal the top card of your deck. If it's a green Digimon card, add it to your hand. Otherwise, place it at the bottom of your deck.",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Official Tournament Pack Vol. 3",
+                "PB-09: Digimon Card Game Playmat and Card Set 2 -Floral Fun-"
+            ],
+            "jpsets": [
+                "1st Anniversary Adventure Pack",
+                "Memorial Collection 01"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/39/ST4-04.png/revision/latest?cb=20210430124224",
+            "id": "ST4-04",
+            "name": "Palmon",
+            "jpname": "パルモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Vegetation",
+            "ilustrators": [
+                "Tonamikanji",
+                "Horaguchi Kayo"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[When Attacking] If you attack an opponent's Digimon, this Digimon gets +2000 DP for the turn.",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "PB-09: Digimon Card Game Playmat and Card Set 2 -Floral Fun-"
+            ],
+            "jpsets": [
+                "Memorial Collection 01"
+            ],
+            "ruling": [
+                [
+                    "Q: I attack my opponent using a Digimon with this card in its digivolution cards. If they block it with one of their Digimon, does this card's effect activate?",
+                    "A: No, if you declared an attack against your opponent, this card's effect doesn't activate, even if they use another Digimon to block it."
+                ],
+                [
+                    "Q: I attack an opponent's Digimon using a Digimon with this card in its digivolution cards, and use another effect to delete an opponent's Digimon card. Does this card's effect activate?",
+                    "A: Yes, if you declared an attack against an opponent's Digimon, this effect activates."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/11/ST4-05.png/revision/latest?cb=20210430124224",
+            "id": "ST4-05",
+            "name": "Kunemon",
+            "jpname": "クネモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "5000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Larva",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/da/ST4-06.png/revision/latest?cb=20210430124225",
+            "id": "ST4-06",
+            "name": "Togemon",
+            "jpname": "トゲモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Vegetation",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[When Attacking] If you attack an opponent's Digimon, this Digimon gets +2000 DP for the turn.",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: I attack my opponent using a Digimon with this card in its digivolution cards. If they block it with one of their Digimon, does this card's effect activate?",
+                    "A: No, if you declared an attack against your opponent, this card's effect doesn't activate, even if they use another Digimon to block it."
+                ],
+                [
+                    "Q: I attack an opponent's Digimon using a Digimon with this card in its digivolution cards, and use another effect to delete an opponent's Digimon card. Does this card's effect activate?",
+                    "A: Yes, if you declared an attack against an opponent's Digimon, this effect activates."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5b/ST4-07.png/revision/latest?cb=20210430124226",
+            "id": "ST4-07",
+            "name": "Kuwagamon",
+            "jpname": "クワガーモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Insectoid",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/26/ST4-08.png/revision/latest?cb=20210430124226",
+            "id": "ST4-08",
+            "name": "Kabuterimon",
+            "jpname": "カブテリモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Insectoid",
+            "ilustrators": [
+                "sasasi",
+                "koki"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "1",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n [When Attacking] Lose 2 memory.",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Online Regionals - Participation Set",
+                "Online Regionals - Finalist Set",
+                "Online Regionals - Champion Set",
+                "Judge Pack"
+            ],
+            "jpsets": [
+                "Tamer Battle Pack 9"
+            ],
+            "ruling": [
+                [
+                    "Q: Can this Digimon attack if I have less than 2 memory?",
+                    "A: Yes, it can. Even if your memory counter moves to 1 on your opponent's side due to this Digimon's [When Attacking] effect, your turn doesn't end until the attack does."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/22/ST4-09.png/revision/latest?cb=20210430124227",
+            "id": "ST4-09",
+            "name": "Okuwamon",
+            "jpname": "オオクワモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Insectoid",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "2",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/ST4-10.png/revision/latest?cb=20210430124227",
+            "id": "ST4-10",
+            "name": "Lillymon",
+            "jpname": "リリモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Fairy",
+            "ilustrators": [
+                "Tonamikanji",
+                "Banira"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Reveal the top 5 cards of your deck. Add 1 level 6 or higher Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Official Tournament Pack Vol. 3"
+            ],
+            "jpsets": [
+                "1st Anniversary Adventure Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/ST4-11.png/revision/latest?cb=20210430124227",
+            "id": "ST4-11",
+            "name": "MegaKabuterimon",
+            "jpname": "アトラーカブテリモン",
+            "tsname": "AtlurKabuterimon",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Insectoid",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect2": "[Your Turn] (Once Per Turn) When this Digimon deletes an opponent's Digimon in battle and survives, trash the top card of your opponent's security stack.",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: I use this card's inherited effect to trash an opponent's Security Card. Does the security effect on that card activate?",
+                    "A: No, [Security] effects only activate when flipped over from the security stack."
+                ],
+                [
+                    "Q: My opponent has an empty security stack. If I have a Digimon with this card in its digivolution cards, and I use it to attack and delete an opponent's Digimon and survive, do I win the game?",
+                    "A: No, this effect only trashes the top card of your opponent's security stack. It doesn't win you the game if it's empty."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0a/ST4-12.png/revision/latest?cb=20210430125941",
+            "id": "ST4-12",
+            "name": "Rosemon",
+            "jpname": "ロゼモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "10",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Fairy",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] 1 of your opponent's Digimon can't attack or block until the end of their next turn.",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: I use this card's effect on an opponent's Digimon. Can I attack that Digimon if it's suspended?",
+                    "A: Yes. The effect simply prevents the Digimon from attacking or blocking. You can still attack it."
+                ],
+                [
+                    "Q: I use this card's effect on an opponent's Digimon. If that Digimon digivolves into a different Digimon, can it attack and block again?",
+                    "A: No, the effect persists, even if they digivolve."
+                ],
+                [
+                    "Q: I use this card's effect on an opponent's Digimon. If that Digimon activates an effect that allows it to attack other Digimon or players, what happens?",
+                    "A: The effect preventing it from attacking takes priority. Your opponent's Digimon still can't attack."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8b/ST4-13.png/revision/latest?cb=20210430130141",
+            "id": "ST4-13",
+            "name": "HerculesKabuterimon",
+            "jpname": "ヘラクルカブテリモン",
+            "tsname": "HerakleKabuterimon",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Insectoid",
+            "ilustrators": [
+                "sasasi",
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "<Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).\n[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・Suspend 1 of your opponent's Digimon.",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Super Rare",
+            "engsets": [
+                "Event Pack 2"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d2/ST4-14.png/revision/latest?cb=20210430125942",
+            "id": "ST4-14",
+            "name": "Izzy Izumi",
+            "jpname": "泉 光子郎",
+            "tsname": "Izumi Koshiro",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "2",
+            "ilustrators": [],
+            "effect1": "[Your Turn] When one of your opponent's Digimon becomes suspended, you may suspend this Tamer to gain 1 memory.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Can I activate this card's effect when my opponent uses <Blocker> to suspend one of their Digimon?",
+                    "A: Yes, you can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/43/ST4-15.png/revision/latest?cb=20210430125943",
+            "id": "ST4-15",
+            "name": "Needle Spray",
+            "jpname": "チクチクバンバン",
+            "tsname": "Chikuchiku Bang Bang",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [
+                "funbolt"
+            ],
+            "effect1": "[Main] Suspend 1 of your opponent's Digimon.",
+            "effect2": "[Security] Activate this card's [Main] effect. Then, add this card to your hand.",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/57/ST4-16.png/revision/latest?cb=20210430125943",
+            "id": "ST4-16",
+            "name": "Electro Shocker",
+            "jpname": "メガブラスター",
+            "tsname": "Mega Blaster",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Option",
+            "playcost": "5",
+            "ilustrators": [
+                "funbolt"
+            ],
+            "effect1": "[Main] Return 1 of your opponent's suspended Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "ST-4: Starter Deck Giga Green"
+            ],
+            "rarity": "Uncommon"
+        }
+    ]
+}

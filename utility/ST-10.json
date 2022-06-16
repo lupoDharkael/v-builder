@@ -1,0 +1,555 @@
+{
+    "name": "ST-10: Parallel World Tactician",
+    "shortname": "ST-10",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/48/ST10-01.png/revision/latest?cb=20220422124920",
+            "id": "ST10-01",
+            "name": "Nyaromon",
+            "jpname": "ニャロモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Takase"
+            ],
+            "effect2": "[When Attacking] If you have a Yellow Digimon in play, <Draw 1> (Draw 1 card from your deck). If you do, trash 1 card in your hand.",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does this card's inherited effect activate if the Digimon that has this card in its digivolution cards is a yellow Digimon?",
+                    "A: Yes, it activates if the Digimon that has this card in its digivolution cards is yellow."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/39/ST10-02.png/revision/latest?cb=20220422124921",
+            "id": "ST10-02",
+            "name": "Salamon",
+            "jpname": "プロットモン",
+            "tsname": "Plotmon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mammal",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Purple",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect2": "[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve cost.",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: What kind of effect is this card's inherited effect?",
+                    "A: At the end of your turn, the Digimon that has this card in its digivolution card, and 1 of your other Digimon, can DNA digivolve into a Digimon in your hand that can <DNA Digivolve>, before the turn is passed to your opponent."
+                ],
+                [
+                    "Q: Can I use this card's inherited effect to DNA digivolve into a Digimon card in my hand that cannot <DNA Digivolve>?",
+                    "A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve into a Digimon card that cannot <DNA Digivolve>."
+                ],
+                [
+                    "Q: Can I use this card's inherited effect to DNA digivolve my Digimon in play that is not the colour and level specified by the card that can <DNA Digivolve> in my hand?",
+                    "A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve your Digimon that is not the correct colour or level specified by the card that can <DNA Digivolve>."
+                ],
+                [
+                    "Q: This card's [End of Your Turn] effect has triggered, and the Digimon it is underneath is used as part of a DNA Digivolve. Can I still activate this effect?",
+                    "A: No, the Digimon from DNA Digivolve is treated as a new Digimon so the old DIgimon is no longer in the battle area."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/26/ST10-03.png/revision/latest?cb=20220422124921",
+            "id": "ST10-03",
+            "name": "Lopmon",
+            "jpname": "ロップモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "4000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Beast",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Purple",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/ST10-04.png/revision/latest?cb=20220422124921",
+            "id": "ST10-04",
+            "name": "Gatomon",
+            "jpname": "テイルモン",
+            "tsname": "Tailmon",
+            "color": [
+                "Yellow",
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Holy Beast",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "evocolor2": "Purple",
+            "evolevel2": "3",
+            "evocost2": "3",
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 yellow Digimon card and 1 purple Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order.\n[Your Turn] When this Digimon would digivolve into a Digimon with [Archangel], or [Fallen Angel] in its traits, reduce the memory cost of the digivolution by 2.",
+            "effect2": "[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve cost.",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Must I reveal the top 3 cards of my deck for this card's [On Play] effect?",
+                    "A: Yes, as it says to \"Reveal\", you must reveal the top 3 cards from your deck if you are able to."
+                ],
+                [
+                    "Q: For this card's [On Play] effect, if both a yellow and a purple card were revealed, must I add both of them to my hand?",
+                    "A: Yes, at it says to \"Add to your hand\", you must add a revealed card that fulfils the condition to your hand if you are able to."
+                ],
+                [
+                    "Q: What kind of effect is this card's inherited effect?",
+                    "A: At the end of your turn, the Digimon that has this card in its digivolution card, and 1 of your other Digimon, can DNA digivolve into a Digimon in your hand that can <DNA Digivolve>, before the turn is passed to your opponent."
+                ],
+                [
+                    "Q: Can I use this card's inherited effect to DNA digivolve into a Digimon card in my hand that cannot <DNA Digivolve>?",
+                    "A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve into a Digimon card that cannot <DNA Digivolve>."
+                ],
+                [
+                    "Q: Can I use this card's inherited effect to DNA digivolve my Digimon in play that is not the colour and level specified by the card that can <DNA Digivolve> in my hand?",
+                    "A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve your Digimon that is not the correct colour or level specified by the card that can <DNA Digivolve>."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e2/ST10-05.png/revision/latest?cb=20220422124921",
+            "id": "ST10-05",
+            "name": "Angewomon",
+            "jpname": "エンジェウーモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "6000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Archangel",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "evocolor2": "Purple",
+            "evolevel2": "4",
+            "evocost2": "3",
+            "effect1": "[On Play] 1 of your opponent's Digimon gains <Security Attack -2> (This Digimon checks 2 fewer security cards) until the end of your opponent's next turn.",
+            "effect2": "[Your Turn] While you have a purple Digimon in play, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Does this card's inherited effect activate if the Digimon that has this card in its digivolution card is a purple Digimon?",
+                    "A: Yes, it activates if the Digimon that has this card in its digivolution card is purple."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/25/ST10-06.png/revision/latest?cb=20220422124921",
+            "id": "ST10-06",
+            "name": "Mastemon",
+            "jpname": "マスティモン",
+            "color": [
+                "Yellow",
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Angel",
+            "ilustrators": [
+                "Tonamikanji",
+                "Nakano Haito"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "evocolor2": "Purple",
+            "evolevel2": "5",
+            "evocost2": "5",
+            "effect1": "[When Digivolving] Place 1 yellow or purple Digimon card from your trash on top of your security stack face down. When DNA digivolving, you may search your security stack for 1 level 5 or lower Digimon card and play it without paying its memory cost. Then, shuffle your security stack.\n[All Turns] When you play another Digimon using an effect, delete 1 of your opponent's Digimon whose level is less than or equal to the played Digimon's level.",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Super Rare",
+            "engsets": [
+                "Digital Hazard EX-02",
+                "AB-01: Digimon Card Game Adventure Box"
+            ],
+            "ruling": [
+                [
+                    "Q: For this card's [When Digivolving] effect, does it not activate if I don't DNA Digivolve?",
+                    "A: The first part \"Place 1 yellow or purple Digimon card from your trash to the top of your security stack face-down\" activates even if you don't DNA Digivolve. The latter part “You may look at all of your security cards and play a level 5 or below Digimon card from among them without paying its cost\" can only activate if you DNA Digivolved. “Then, shuffle your Security Stack” activates for both digivolutions."
+                ],
+                [
+                    "Q: Does this card's [All Turns] effect activate if my Security Digimon is played as a Digimon by its [Security] effect?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: Does this card's [All Turns] effect activate if I move a Digimon from my Breeding Area to my Battle Area using the effect of [BT1-089 Mimi Tachikawa]?",
+                    "A: No, it does not. As moving a Digimon from Breeding Area is not treated as playing a Digimon."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0d/ST10-07.png/revision/latest?cb=20220422124921",
+            "id": "ST10-07",
+            "name": "Ghostmon",
+            "jpname": "ゴースモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Ghost",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[Opponent's Turn] While you have a yellow Digimon in play, this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/14/ST10-08.png/revision/latest?cb=20220422124921",
+            "id": "ST10-08",
+            "name": "Tsukaimon",
+            "jpname": "ツカイモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Mammal",
+            "ilustrators": [
+                "banira"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Yellow",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 [Angel], [Archangel], or [Fallen Angel] in its traits among them to your hand. Return the remaining cards to the bottom of your deck in any order.",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Must I reveal the top 3 cards of my deck for this card's [On Play] effect?",
+                    "A: Yes, as it says to “Reveal”, you must reveal the top 3 cards from your deck if you are able to."
+                ],
+                [
+                    "Q: For this card's [On Play] effect, if a Digimon card with [Angel], [Archangel], or [Fallen Angel] in its traits was revealed, must I add it to my hand?",
+                    "A: Yes, at it says to \"Add to your hand\", you must add a revealed card that fulfils the condition to your hand if you are able to."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9c/ST10-09.png/revision/latest?cb=20220422124921",
+            "id": "ST10-09",
+            "name": "Witchmon",
+            "jpname": "ウィッチモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Wizard",
+            "ilustrators": [
+                "Ryodan"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[Security] At the end of the battle, play this card without paying its memory cost.\n[On Play] Return 1 purple level 5 or lower Digimon card from your trash to your hand.",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: For this card's [Security] effect, if it lost the battle against the attacking Digimon, can I still play it?",
+                    "A: Yes, it is played at the end of battle regardless of the outcome of that battle."
+                ],
+                [
+                    "Q: Does this card's [On Play] effect activate even if it is played by the effects of this card's [Security] effect?",
+                    "A: Yes, it activates."
+                ],
+                [
+                    "Q: For this card's [Security] effect, if at the end of the battle which this card was checked, the attacking Digimon still has remaining checks not done, does this card's [Security] effect activate first or does the next check happens first?",
+                    "A: As this Digimon is to be played at the end of the battle with the attacking Digimon, it is played before the next check happens. Its [On Play] effect also activates before the next check."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/ST10-10.png/revision/latest?cb=20220422124922",
+            "id": "ST10-10",
+            "name": "Wizardmon",
+            "jpname": "ウィザーモン",
+            "color": [
+                "Purple",
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Wizard",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Yellow",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/85/ST10-11.png/revision/latest?cb=20220422124922",
+            "id": "ST10-11",
+            "name": "Bastemon",
+            "jpname": "バステモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Beastkin",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[On Play] Delete 1 of your opponent's level 3 Digimon.",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fb/ST10-12.png/revision/latest?cb=20220422124922",
+            "id": "ST10-12",
+            "name": "LadyDevimon",
+            "jpname": "レディーデビモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "6000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Fallen Angel",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "evocolor2": "Yellow",
+            "evolevel2": "4",
+            "evocost2": "3",
+            "effect1": "[When Digivolving] You may trash 1 card in your hand to reveal the top 3 cards of your deck. Add 1 yellow and 1 purple Digimon with [Angel], [Archangel], or [Fallen Angel] in their traits among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect2": "[Your Turn] All of your yellow Digimon gain <Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling).",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Must I reveal the top 3 cards of my deck for this card's [When Digivolving] effect?",
+                    "A: No, as it says \"You may trash 1 card from your hand to\", if you choose not to trash a card, the effects that follow  do not activate."
+                ],
+                [
+                    "Q: For this card's [When Digivolving] effect, if both yellow and purple Digimon cards with [Angel], [Archangel], or [Fallen Angel] in their traits were revealed, must I add them both to my hand?",
+                    "A: Yes, at it says to \"Add to your hand\", you must add a revealed card that fulfils the condition to your hand if you are able to."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ed/ST10-13.png/revision/latest?cb=20220422124922",
+            "id": "ST10-13",
+            "name": "Junomon",
+            "jpname": "ユノモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Shaman/Olympos XII",
+            "ilustrators": [
+                "Teppei Tadokoro",
+                "Shin Sasaki"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Yellow",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "effect1": "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)\n[When Digivolving] Trash top 3 cards of your deck. Then, return 1 Digimon card from your trash to your hand.",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Uncommon",
+            "jpsets": [
+                "Tamer Battle Pack 12"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a7/ST10-14.png/revision/latest?cb=20220422124922",
+            "id": "ST10-14",
+            "name": "Chaos Degradation",
+            "jpname": "カオスディグレイド",
+            "tsname": "Chaos Degrade",
+            "color": [
+                "Yellow",
+                "Purple"
+            ],
+            "cardtype": "Option",
+            "playcost": "8",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "effect1": "[Main] Place 1 of your opponent's Digimon face down at the top or bottom of your opponent's security stack. If you do, trash the top card of your opponent's security stack.",
+            "effect2": "[Security] You may place 1 of your opponent's Digimon face down at the top or bottom of its owner's security stack.",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: If I choose to place my opponent's Digimon at the top of their security stack with this card's effect, does that mean the card that was just placed is then trashed?",
+                    "A: Yes, exactly. If you choose to put it on top of the security stack, it will become the actual target of trashing."
+                ],
+                [
+                    "Q: Does the Digimon that was placed in the security stack by this card's effect activate its [On Deletion] effects? Or if there are other Digimon or Tamers with effects that trigger \"When Digimon are deleted\", do they activate?",
+                    "A: No, as the Digimon was not deleted, those effects do not activate."
+                ],
+                [
+                    "Q: if I target [EX2-007 Mother D-Reaper] with this card's effect, what happens?",
+                    "A: [EX2-007 Mother D-Reaper]'s [All Turns] effect will prevent it from being placed in security and because no cards were placed in security by this card's effect a card is not trashed from security."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6c/ST10-15.png/revision/latest?cb=20220422124921",
+            "id": "ST10-15",
+            "name": "Darkness Wave",
+            "jpname": "ダークネスウェーブ",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Option",
+            "playcost": "1",
+            "ilustrators": [
+                "banira"
+            ],
+            "effect1": "[Main] Trash the top 3 cards of your deck. Then, if you have a yellow Digimon in play, return 1 yellow or purple Digimon card from your trash to your hand",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "ST-10: Starter Deck Parallel World Tactician"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can this card's effect return to my hand a yellow or purple Digimon card that was trashed from top of the deck by this card's effect?",
+                    "A: Yes, the effect can return a yellow or purple Digimon card that was trashed from top of the deck by this card's effect to your hand."
+                ]
+            ]
+        }
+    ]
+}

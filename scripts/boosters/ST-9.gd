@@ -9,7 +9,6 @@ static func register_cards():
 	CardDB.add_card(ST9_04.new())
 	CardDB.add_card(ST9_05.new())
 	CardDB.add_card(ST9_06.new())
-	CardDB.add_card(ST9_06_B.new())
 	CardDB.add_card(ST9_07.new())
 	CardDB.add_card(ST9_08.new())
 	CardDB.add_card(ST9_09.new())
@@ -28,9 +27,13 @@ class ST9_01 extends Card:
 		rarity = Rarity.U
 		id = "ST9-01"
 		level = 2
-		stage_level = Stage.IN_TRAINING
+		stage_level = Stage.HYBRID
 		digimon_type = "Larva"
-		inherited_effect_text = "[Your Turn] While you have a Blue Digimon in play, this Digimon gets +1000 DP."
+		inherited_effect_text = "[Your Turn] While you have a blue Digimon in play, this Digimon gets +1000 DP."
+		ruling = [
+					"Q: Does this card's inherited effect activate if the Digimon that has this card in its digivolution cards is a blue Digimon?",
+					"A: Yes, it activates if the Digimon that has this card in its digivolution cards is blue.",
+]
 
 class ST9_02 extends Card:
 	func _init():
@@ -41,17 +44,20 @@ class ST9_02 extends Card:
 		id = "ST9-02"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.GREEN
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 0
 		digivolve_level_2 = 2
 		digimon_type = "Mini Dragon"
 		power = 2000
-		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Free] from among them to your hand. Return the remaining cards to the bottom of your deck in any order."
+		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Free] in its traits among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		ruling = [
+					"Q: Must I reveal the top 3 cards of my deck for this card's [On Play] effect?",
+					"A: Yes, as it says to \"Reveal\", you must reveal the top 3 cards from your deck if you are able to.",
+					"Q: For this card's [On Play] effect, if I revealed a digimon card with [Free] in its traits, must I add it to my hand?",
+					"A: Yes, at it says to “Add to your hand”, you must add a revealed card that fulfils the condition to your hand if you are able to.",
+]
 		notes = "V-mon"
 
 class ST9_03 extends Card:
@@ -63,12 +69,9 @@ class ST9_03 extends Card:
 		id = "ST9-03"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.GREEN
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 0
 		digivolve_level_2 = 2
 		digimon_type = "Amphibian"
@@ -83,18 +86,19 @@ class ST9_04 extends Card:
 		id = "ST9-04"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 2
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.GREEN
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 2
 		digivolve_level_2 = 3
 		digimon_type = "Mythical Beast"
 		power = 4000
-		effect_text = "When playing this card from your hand, if you have a green Digimon in play, reduce its play cost by 1."
+		effect_text = "When you would play this card from your hand, if you have a green Digimon in play, reduce its play cost by 1."
 		inherited_effect_text = "[When Attacking] If you have a green Digimon in play, this Digimon gets +1000 DP for the turn."
+		ruling = [
+					"Q: Does this card's inherited effect activate if the Digimon that has this card in its digivolution card is a Green Digimon?",
+					"A: Yes, it activates if the Digimon that has this card in its digivolution card is Green.",
+]
 		notes = "XV-mon"
 
 class ST9_05 extends Card:
@@ -106,17 +110,18 @@ class ST9_05 extends Card:
 		id = "ST9-05"
 		play_cost = 8
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 4
-		digivolve_level = 4
-		digivolve_color_2 = ColorGroup.GREEN
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 4
 		digivolve_level_2 = 4
 		digimon_type = "Dragonkin"
 		power = 8000
-		effect_text = "<DNA Digivolve: [Blue Level 4] + [Green Level 4]: [0]>\n[When Digivolved] When DNA digivolving, return 1 of your opponent's Digimon with 6000 DP or less to the bottom of its owner's deck.\n[When Attacking] [Once Per Turn] Unsuspend this Digimon."
+		effect_text = "[When Digivolving] When DNA digivolving, return 1 of your opponent's Digimon with 6000 DP or less to the bottom of its owner's deck.\n[When Attacking] (Once Per Turn) Unsuspend this Digimon."
+		ruling = [
+					"Q: For this card's [When Digivolving] effect, does it not activate if I don't DNA digivolve?",
+					"A: Yes, it is an effect that can only activate if you DNA Digivolve.",
+]
 
 class ST9_06 extends Card:
 	func _init():
@@ -127,40 +132,18 @@ class ST9_06 extends Card:
 		id = "ST9-06"
 		play_cost = 13
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 4
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.GREEN
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 4
 		digivolve_level_2 = 5
 		digimon_type = "Ancient Dragon"
 		power = 12000
-		effect_text = "[When Digivolved] You may play 1 blue and 1 green level 4 or lower digivolution cards under this card as another Digimon without paying their memory cost."
-
-class ST9_06_B extends Card:
-	func _init():
-		name = "Imperialdramon Dragon Mode"
-		type = Type.DIGIMON
-		color = ColorGroup.BLUE
-		rarity = Rarity.SR
-		id = "ST9-06 (B)"
-		play_cost = 13
-		level = 6
-		stage_level = Stage.MEGA
-		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 4
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.GREEN
-		digivolve_cost_2 = 4
-		digivolve_level_2 = 5
-		digimon_type = "Ancient Dragon"
-		power = 12000
-		effect_text = "[When Digivolved] You may play 1 blue and 1 green level 4 or lower digivolution cards under this card as another Digimon without paying their memory cost."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "[When Digivolving] You may play 1 level 4 or lower blue Digimon card and/or 1 level 4 or lower green Digimon card from this Digimon's digivolution cards without paying their memory costs."
+		ruling = [
+					"Q: For this card's [When Digivolving] effect, if I have both a level 4 or lower blue Digimon card and a green Digimon card in its digivolution cards, must I play both Digimon?",
+					"A: No, as it says \"You can play\", you can play only 1 of them, or even not play any of them.",
+]
 
 class ST9_07 extends Card:
 	func _init():
@@ -171,14 +154,15 @@ class ST9_07 extends Card:
 		id = "ST9-07"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Insectoid"
 		power = 2000
-		effect_text = "[Opponent Turn] While you have a blue Digimon in play, this Digimon gains [Blocker]."
+		effect_text = "[Opponent's Turn] While you have a blue Digimon in play, this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead)."
+		ruling = [
+					"Q: When my opponent's Digimon attacks and deletes my blue Digimon with its [When Attacking] effect, leaving me with no other blue Digimon in play, can I still use this card's effect to block?",
+					"A: No, as [When Attacking] effects activate before <Blocker> is triggered at the reaction step, at the point of reaction timing this card has lost its <Blocker> effect, so it is unable to block.",
+]
 
 class ST9_08 extends Card:
 	func _init():
@@ -189,17 +173,24 @@ class ST9_08 extends Card:
 		id = "ST9-08"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.BLUE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 0
 		digivolve_level_2 = 2
 		digimon_type = "Larva"
 		power = 3000
-		inherited_effect_text = "[End of Your Turn] You can DNA Digivolve this Digimon and your other Digimon in play into a Digimon card in your hand by paying its DNA Digivolution cost."
+		inherited_effect_text = "[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve cost."
+		ruling = [
+					"Q: What kind of effect is this card's inherited effect?",
+					"A: At the end of your turn, the Digimon that has this card in its digivolution card, and 1 of your other Digimon, can DNA digivolve into a Digimon in your hand that can <DNA Digivolve>, before the turn is passed to your opponent.",
+					"Q: Can I use this card's inherited effect to DNA digivolve into a Digimon card in my hand that cannot <DNA Digivolve>?",
+					"A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve into a Digimon card that cannot <DNA Digivolve>.",
+					"Q: Can I use this card's inherited effect to DNA digivolve my Digimon in play that is not the colour and level specified by the card that can <DNA Digivolve> in my hand?",
+					"A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve your Digimon that is not the correct colour or level specified by the card that can <DNA Digivolve>.",
+					"Q: This card's [End of Your Turn] effect has triggered, and the Digimon it is underneath is used as part of a DNA Digivolve. Can I still activate this effect?",
+					"A: No, the Digimon from DNA Digivolve is treated as a new Digimon so the old DIgimon is no longer in the battle area.",
+]
 
 class ST9_09 extends Card:
 	func _init():
@@ -210,18 +201,19 @@ class ST9_09 extends Card:
 		id = "ST9-09"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 2
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.BLUE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 2
 		digivolve_level_2 = 3
 		digimon_type = "Insectoid"
 		power = 4000
-		effect_text = "When playing this card from your hand, if you have a blue Digimon in play, reduce its play cost by 1."
-		inherited_effect_text = "[When Attacking] If you have a blue Digimon in play, [Draw 1]."
+		effect_text = "When you would play this card from your hand, if you have a blue Digimon in play, reduce its play cost by 1."
+		inherited_effect_text = "[When Attacking] If you have a blue Digimon in play, <Draw 1> (Draw 1 card from your deck)."
+		ruling = [
+					"Q: Does this card's inherited effect activate if the Digimon that has this card in its digivolution card is a blue Digimon?",
+					"A: Yes, it activates if the Digimon that has this card in its digivolution card is blue.",
+]
 
 class ST9_10 extends Card:
 	func _init():
@@ -232,17 +224,22 @@ class ST9_10 extends Card:
 		id = "ST9-10"
 		play_cost = 6
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 2
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.BLUE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 2
 		digivolve_level_2 = 3
 		digimon_type = "Insectoid"
 		power = 4000
 		effect_text = "[Security] At the end of the battle, play this card without paying its memory cost.\n[On Play] Suspend 1 of your opponent's Digimon."
+		ruling = [
+					"Q: For this card's [Security] effect, if it lost the battle against the attacking Digimon, can I still play it?",
+					"A: Yes, it is played at the end of battle regardless of the outcome of that battle.",
+					"Q: Does this card's [On Play] effect activate even if it is played by the effects of this card's [Security] effect?",
+					"A: Yes, it activates.",
+					"Q: For this card's [Security] effect, if at the end of the battle which this card was checked, the attacking Digimon still has remaining checks not done, does this card's [Security] effect activate first or does the next check happens first?",
+					"A: As this Digimon is to be played at the end of the battle with the attacking Digimon, it is played before the next check happens. Its [On Play] effect also activates befeore the next check.",
+]
 
 class ST9_11 extends Card:
 	func _init():
@@ -253,18 +250,21 @@ class ST9_11 extends Card:
 		id = "ST9-11"
 		play_cost = 8
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 4
-		digivolve_level = 4
-		digivolve_color_2 = ColorGroup.BLUE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 4
 		digivolve_level_2 = 4
 		digimon_type = "Mutant"
 		power = 8000
-		effect_text = "<DNA Digivolve: [Green Level 4] + [Blue Level 4]: [0]>\n[When Digivolved] Suspend 1 of your opponent's Digimon. When DNA digivolving, that Digimon doesn't unsuspend during its owner's next unsuspend phase."
+		effect_text = "[When Digivolving] Suspend 1 of your opponent's Digimon. When DNA digivolving, that Digimon doesn't unsuspend during its owner's next unsuspend phase."
 		inherited_effect_text = "[Your Turn] This Digimon gets +1000 DP for each of its colours."
+		ruling = [
+					"Q: For this card's [When Digivolving] effect, does it not activate if I don't DNA Digivolve?",
+					"A: The first part \"suspend 1 of your opponent's Digimon\" activates even if you don't DNA Digivolve. The latter part \"That Digimon is not unsuspended in your opponent's next unsuspend phase\" can only activate if you DNA Digivolved.",
+					"Q: Does this card's inherited effect also count the colours of cards in digivolution cards?",
+					"A: No, this inherited effect only counts the colour of the topmost card. If it is a single-coloured card, it is counted as 1 colour even if there are cards of other colours in the digivolution card.",
+]
 
 class ST9_12 extends Card:
 	func _init():
@@ -275,11 +275,8 @@ class ST9_12 extends Card:
 		id = "ST9-12"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.ULTIMATE
-		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 3
-		digivolve_level = 4
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VACCINE
 		digimon_type = "Insectoid"
 		power = 7000
 
@@ -292,14 +289,11 @@ class ST9_13 extends Card:
 		id = "ST9-13"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 3
-		digivolve_level = 5
 		digimon_type = "Insectoid"
 		power = 11000
-		effect_text = "[Security Attack +1]\n[When Digivolved] This Digimon gets +4000 DP for the turn."
+		effect_text = "<Security Attack +1> (This Digimon checks 1 additional security card)\n[When Digivolving] This Digimon gets +4000 DP for the turn."
 
 class ST9_14 extends Card:
 	func _init():
@@ -309,8 +303,12 @@ class ST9_14 extends Card:
 		rarity = Rarity.R
 		id = "ST9-14"
 		play_cost = 5
-		effect_text = "[Main] Suspend 1 of your opponents Digimon. Then, return 1 of your opponent's suspended digimon to its owner's hand."
+		effect_text = "[Main] Suspend 1 of your opponents Digimon. Then, return 1 of your opponent's suspended Digimon to its owner's hand."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"Q: Can I suspend a Digimon, but return a different Digimon that was already suspended to my opponent's hand with this card's effect?",
+					"A: Yes, you can.",
+]
 
 class ST9_15 extends Card:
 	func _init():
@@ -320,6 +318,10 @@ class ST9_15 extends Card:
 		rarity = Rarity.U
 		id = "ST9-15"
 		play_cost = 1
-		effect_text = "[Main] 1 of your Digimon gets +2000 DP for the turn. Then, if you have a blue Digimon in play, 1 of your Digimon gains [Piercing] for the turn."
-		sec_effect_text = "[Security] Add this card to your hand."
+		effect_text = "[Main] 1 of your Digimon gets +2000 DP for the turn. Then, if you have a blue Digimon in play, 1 of your Digimon gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) for the turn."
+		sec_effect_text = "[Security] Add this card to its owner's hand."
+		ruling = [
+					"Q: Can I give +2000 DP to a Digimon, but give <Piercing> to a different Digimon with this card's effect?",
+					"A: Yes, you can.",
+]
 

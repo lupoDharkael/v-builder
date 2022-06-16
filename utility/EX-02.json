@@ -1,0 +1,2378 @@
+{
+    "name": "EX-02: Digital Hazard",
+    "shortname": "EX-02",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b9/EX2-001-J.png/revision/latest?cb=20211217092406",
+            "id": "EX2-001",
+            "name": "Gigimon",
+            "jpname": "ギギモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Tonamikanji",
+                "Takase"
+            ],
+            "effect2": "[When Attacking] (Once Per Turn) If this Digimon has [Guilmon], [Growlmon], or [Gallantmon] in its name, <Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9e/EX2-002-J.png/revision/latest?cb=20211217092407",
+            "id": "EX2-002",
+            "name": "Xiaomon",
+            "jpname": "シャオモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "effect2": "[All Turns] While this Digimon is level 4, it gets +1000 DP.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/41/EX2-003-J.png/revision/latest?cb=20211217092408",
+            "id": "EX2-003",
+            "name": "Viximon",
+            "jpname": "ポコモン",
+            "tsname": "Pokomon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "As'Maria",
+                "Takase"
+            ],
+            "effect2": "[Your Turn] (Once Per Turn) When you use an Option card with a cost 2 or more, <Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If I use [BT2-099 Glorious Burst] while I have 8 or more of my own yellow tamers, will this card's inherited effect be triggered?",
+                    "A: No, in that case, since the usage cost of [BT2-099 Glorious Burst] has been changed to 1, it is not considered that an option card with a usage cost of 2 or more was used, so it will not be demonstrated."
+                ],
+                [
+                    "Q: If I use [BT7-100 Qualialise Blast] when my security is one, will this card's evolutionary effect be exhibited?",
+                    "A: Yes, [BT7-100 Qualialise Blast] has the effect of \"when this card would be used\", and the use cost of the card has not changed, so the option card still has a memory of 5. Assuming that you have done so, the inherited effect of this card can be activated."
+                ],
+                [
+                    "Q: Does the \"use an option card without paying cost\" effect trigger the inherited effect of this card when an option card with a use cost of 2 or more is used?",
+                    "A: Yes, the effect of \"using an option card without paying the cost\" still applies because the use cost has not changed."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9f/EX2-004-J.png/revision/latest?cb=20211217092408",
+            "id": "EX2-004",
+            "name": "Gummymon",
+            "jpname": "グミモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "GOSSAN",
+                "Takase"
+            ],
+            "effect2": "[Your Turn] (Once Per Turn) When an opponent's Digimon becomes suspended, <Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does the inherited effect of this card also trigger when the opponent's Digimon activates a <Blocker> and suspends?",
+                    "A: Yes, it works."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/EX2-005-J.png/revision/latest?cb=20211217092408",
+            "id": "EX2-005",
+            "name": "Hopmon",
+            "jpname": "ギギモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Baby Dragon",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "effect2": "[Your Turn] While you have a black tamer in play, this Digimon gets +1000 DP.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/85/EX2-006-J.png/revision/latest?cb=20211217092408",
+            "id": "EX2-006",
+            "name": "Yaamon",
+            "jpname": "ヤーモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "sasasi",
+                "Takase"
+            ],
+            "effect2": "[Your Turn] While there are 10 or more cards in your Trash, this Digimon gains +2000 DP.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5e/EX2-007-J.png/revision/latest?cb=20211217092409",
+            "id": "EX2-007",
+            "name": "Mother D-Reaper",
+            "jpname": "マザー デ・リーパー",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digi-Egg",
+            "dp": "15000",
+            "form": "D-Reaper",
+            "type": "Ability Synthesis Agent",
+            "ilustrators": [],
+            "effect1": "[All Turns] This Digimon can't attack and isn't affected by your opponent's effects.\n[Main] (Once Per Turn) If you don't have another [Mother D-Reaper] in play, place 1 of your [ADR-02 Searcher]s from in play or your hand under this Digimon as its bottom digivolution card.\n[Your Turn] (Once Per Turn) When you would play a card with [D-Reaper] in its traits from your hand, you may reduce its play cost by 1 for each of this Digimon's digivolution cards.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Does this card go in the Main deck or the Digi-Egg deck?",
+                    "A: Since it is a Digi-Egg card, you must put it in the Digi-Egg deck."
+                ],
+                [
+                    "Q: When this card is hatched during the Breeding Phase, should it be placed in the breeding area or the battle area?",
+                    "A: It will be placed in the breeding area and become a Digimon without a Lv."
+                ],
+                [
+                    "Q: This card does not have Lv., Can I digivolve from this card?",
+                    "A: No, you can't digivolve from a card without Lv. (Excluding special digivolution requirements)."
+                ],
+                [
+                    "Q: Can this card in the battle area be attacked by an opponent's Digimon that has the effect of \"attacking even an unsuspended Digimon\"?",
+                    "A: Yes, it can be attacked. The effect that \"can attack even an unsuspended Digimon\" is an effect that gives additional targets for an attack by that Digimon, so it cannot be prevented by \"not being affected by the opponent's effect\" on this card."
+                ],
+                [
+                    "Q: Can this card in the battle area be deleted if it is attacked by an opponent's Digimon and has the same DP or a higher opponent?",
+                    "A: Yes, this card can be deleted depending on the result of the battle."
+                ],
+                [
+                    "Q: Does this card receive the effects that I activated, such as \"delete one of your Digimon\" and \"resting one of your Digimon\"?",
+                    "A: Yes, the effects you activate will also affect this card. However, if this card moves to your hand, deck, or security, it's a Digi-Egg card, so instead of moving to those locations, it's placed face down at the bottom of your Digi-Egg deck."
+                ],
+                [
+                    "Q: Can this card in the battle area deleted by my own effect or move to my hand / deck / security?",
+                    "A: Yes. It is possible."
+                ],
+                [
+                    "Q: When the opponent has [BT8-071 Psychemon], is it possible to reduce the play cost of a Digimon [D-Reaper] in its traits by using this Digimon's [Your Turn] effect?",
+                    "A: No, the effect of [BT8-071 Psychemon] does not target this Digimon, so the effect of reducing the play cost by this card will not work."
+                ],
+                [
+                    "Q: If I use the effect of [BT4-105 Tactical Retreat!] to place this card in Security, would this trigger the effect of [BT6-044 Dynasmon]?",
+                    "A: No, it will not. The Digi-Egg card is never placed in Security and just sent straight to the bottom of the Digi-Egg Deck from the Battle Area."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/47/EX2-008-J.png/revision/latest?cb=20211217092409",
+            "id": "EX2-008",
+            "name": "Guilmon",
+            "jpname": "ギルモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Reptile",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 card with [Growlmon], or [Gallantmon] in its name and 1 [Takato Matsuki] among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect2": "[When Attacking] (Once Per Turn) If this Digimon has [Growlmon], or [Gallantmon] in its name, delete 1 of your opponent's Digimon with 3000 DP or less.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Is the effect of this card not added to the hand unless there are both [Growlmon], or [Gallantmon] in its name and [Takato Matsuki] among the four opened cards?",
+                    "A: No, even if you only have a card with [Growlmon], or [Gallantmon] in its name and [Takato Matsuki], you can add it to your hand."
+                ],
+                [
+                    "Q: Due to the effect of this card, if there are both [Growlmon], or [Gallantmon] in its name and [Takato Matsuki] among the four opened cards, add only one of them to your hand. Is it possible to put one back under the deck?",
+                    "A: No, the effect of this card is \"add... and...\", so you should add cards to your hand as much as possible. In this situation, you must add both a card with [Growlmon], or [Gallantmon] in its name and [Takato Matsuki] to your hand one by one."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/df/EX2-009-J.png/revision/latest?cb=20211217092409",
+            "id": "EX2-009",
+            "name": "Growlmon",
+            "jpname": "グラウモン",
+            "tsname": "Growmon",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dark Dragon",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[When Attacking] Delete 1 of your opponent's Digimon with 2000 DP or less. If you have a red tamer in play, delete 1 of your opponent's Digimon with 4000 DP or less instead.",
+            "effect2": "[When Attacking] (Once Per Turn) If this Digimon has [Growlmon], or [Gallantmon] in its name, delete 1 of your opponent's Digimon with 3000 DP or less.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1d/EX2-010-J.png/revision/latest?cb=20211217092410",
+            "id": "EX2-010",
+            "name": "WarGrowlmon",
+            "jpname": "メガログラウモン",
+            "tsname": "MegaloGrowmon",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Attacking] Delete 1 of your opponent's Digimon with 4000 DP or less. If you have a red tamer in play, delete 1 of your opponent's Digimon with 6000 DP or less instead.",
+            "effect2": "[Your Turn] Add 1000 to the maximum DP you can choose with DP-based deletion effects.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: What does the \"Add +1000 DP to the maximum DP of your effects that delete Digimon.\" of this card mean?",
+                    "A: If the effect of selecting the target to be deleted refers to its DP, such as \"Delete Digimon with DP X or less\" and \"Choose any number of your opponent's Digimon whose total DP adds up to 8000 or less and delete them\". This effect would increase the value of the referenced DP by +1000. However, it will not work on an effect taht references the DP not written in the effect text, such as \"Delete 1 of your opponent's Digimon whose DP is less than this Digimon\"."
+                ],
+                [
+                    "Q: Does the inherited effect of this card increase the upper limit of the DP deletion effect that I activated by +1000 even if it is not the effect of this Digimon?",
+                    "A: Yes, that's right."
+                ],
+                [
+                    "Q: Does this card's inherited effect increase the minimum DP deletion of [BT3-109 Plasma Stake] from 12000 DP to 13000 DP?",
+                    "A: No, it does not. It only affects the maximum DP, so [BT3-109 Plasma Stake] will still delete only Digimon with 12000 DP or more."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/88/EX2-011-J.png/revision/latest?cb=20211217092410",
+            "id": "EX2-011",
+            "name": "Gallantmon",
+            "jpname": "デュークモン",
+            "tsname": "Dukemon",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Holy Warrior/Royal Knight",
+            "ilustrators": [
+                "Tonamikanji",
+                "As'Maria"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[Your Turn] This Digimon gets +2000 DP.\n[Your Turn] While you have a red Tamer in play, add 2000 to the maximum DP you can choose with DP-based deletion effects.\n[When Attacking] Choose any number of your opponent's Digimon whose total DP adds up to 6000 or less and delete them.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: What does the \"Add +2000 DP to the maximum DP of your effects that delete Digimon.\" of this card mean?",
+                    "A: If the effect of selecting the target to be deleted refers to its DP, such as \"Delete Digimon with DP X or less\" and \"Choose any number of your opponent's Digimon whose total DP adds up to 8000 or less and delete them\". This effect would increase the value of the referenced DP by +1000. However, it will not work on an effect taht references the DP not written in the effect text, such as \"Delete 1 of your opponent's Digimon whose DP is less than this Digimon\"."
+                ],
+                [
+                    "Q: Does the [When Attacking] effect of this card, \"Choose any number of your opponent's Digimon whose total DP adds up to 6000 or less\", receive the effect of \"Add +2000 DP to the maximum DP of your effects that delete Digimon\"?",
+                    "A: Yes, it will. If you have a Red Tamer in the battle area, you can choose your opponent's Digimon so that the total DP is 8000 or less with this effect."
+                ],
+                [
+                    "Q: Does the effect of \"Add +2000 DP to the maximum DP of your effects that delete Digimon\" of this card increase the maximum DP of a deletion effect that I activated other than the effect of this Digimon by +2000?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: Does this card's inherited effect increase the minimum DP deletion of [BT3-109 Plasma Stake] from 12000 DP to 13000 DP?",
+                    "A: No, it does not. It only affects the maximum DP, so [BT3-109 Plasma Stake] will still delete only Digimon with 12000 DP or more."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2f/EX2-012-J.png/revision/latest?cb=20211217092410",
+            "id": "EX2-012",
+            "name": "Megidramon",
+            "jpname": "メギドラモン",
+            "color": [
+                "Red",
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Evil Dragon/Four Great Dragons",
+            "ilustrators": [
+                "Tonamikanji",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "evocolor2": "Purple",
+            "evolevel2": "5",
+            "evocost2": "5",
+            "effect1": "This card/Digimon is also treated as [ChaosGallantmon].\n[When Digivolving] Delete 1 of your opponent's Digimon with 10000 DP or less. If no Digimon was deleted by this effect, trash the top 5 cards of both players' decks.\n[On Deletion] You may play 1 [Guilmon] and 1 [Takato Matsuki] from your hand and/or trash without paying their memory costs.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: When does the condition for \"If this effect does not delete a Digimon\" from its [When Digivolving] effect be satisfied?",
+                    "A: At the time when the effect is activated, your opponent has no Digimon with 10000 DP or less, or the selected Digimon does not get deleted by this effect."
+                ],
+                [
+                    "Q: If there is an opponent's Digimon with 10000 DP or less, can I discard the top 5 of each player's decks by activating the [When Digivolving] effect of this card and not choosing an opponent's Digimon to delete?",
+                    "A: No, if you have a suitable target, you must delete it. if the deletion is prevented, you can discard the top 5 of each player's decks."
+                ],
+                [
+                    "Q: Can this card be added to my hand as a card with [Gallantmon] in its name when it is opened from the deck with the [On Play] effect of [EX2-008 Guilmon]?",
+                    "A: Yes. It is possible."
+                ],
+                [
+                    "Q: When an opponent's Digimon is deleted by the [When Digivolving] effect of this card, but the opponent activates <Decoy> and the selected Digimon isn't deleted, but the Digimon that activated <Decoy> is deleted. Is the condition of \"If this effect does not delete a Digimon\" fulfilled?",
+                    "A: Yes, the <Decoy> that activated prevents the deletion \"from this effect\" and the condition of \"If this effect does not delete a Digimon\", so the effect of \"trashing 5 cards from the top of each player's deck\" is performed."
+                ],
+                [
+                    "Q: Does this card's effect treat this card as being [ChaosGallantmon] even in the hand, deck, trash, and digivolution cards?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: Does this card's effect treat this card as being [ChaosGallantmon] even in breeding area?",
+                    "A: No, as effects do not activate in the breeding area, this card/Digimon is not treated as being [ChaosGallantmon] in the breeding area."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a2/EX2-013-J.png/revision/latest?cb=20211217092411",
+            "id": "EX2-013",
+            "name": "Labramon",
+            "jpname": "ラブラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Beast",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[When Attacking] (Once Per Turn) If this Digimon has <Jamming>, gain 1 memory.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ee/EX2-014-J.png/revision/latest?cb=20211217092411",
+            "id": "EX2-014",
+            "name": "IceDevimon",
+            "jpname": "アイスデビモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Fallen Angel",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[When Attacking] Return 1 of your opponent's level 4 or lower Digimon with no digivolution cards to its owner's hand.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/EX2-015-J.png/revision/latest?cb=20211217092411",
+            "id": "EX2-015",
+            "name": "Seasarmon",
+            "jpname": "シーサモン",
+            "tsname": "Siesamon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Holy Beast",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "<Jamming> (This Digimon can't be deleted in battles against Security Digimon).",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/59/EX2-016-J.png/revision/latest?cb=20211217092412",
+            "id": "EX2-016",
+            "name": "Gorillamon",
+            "jpname": "ゴリモン",
+            "tsname": "Gorimon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Beastkin",
+            "ilustrators": [
+                "banira"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[On Play] You may play 1 level 3 Digimon card from 1 of your blue Digimon's digivolution cards without paying its memory cost.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/95/EX2-017-J.png/revision/latest?cb=20211217092412",
+            "id": "EX2-017",
+            "name": "Leomon",
+            "jpname": "レオモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Beastkin",
+            "ilustrators": [
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[Opponent's Turn] While you have a Tamer in play this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[On Deletion] Gain 2 memory and <Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/19/EX2-018-J.png/revision/latest?cb=20211217092413",
+            "id": "EX2-018",
+            "name": "MarineAngemon",
+            "jpname": "マリンエンジェモン",
+            "color": [
+                "Blue",
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Fairy",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Yellow",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "[On Play] For each of your opponent's Digimon with no digivolution cards, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack). This effect can't increase the number of cards in your security stack to 6 or more.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: With this card's effect, does the security increase with <Recovery +1 (Deck)> only until the number of cards reaches 5?",
+                    "A: Yes, this effect is \"this effect does not increase the security to 6 or more\", so it will only increase until it reaches 5."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/60/EX2-019-J.png/revision/latest?cb=20211217092413",
+            "id": "EX2-019",
+            "name": "Renamon",
+            "jpname": "レナモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Beastkin",
+            "ilustrators": [
+                "As'Maria"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 card with [Kyubimon], [Taomon], or [Sakuyamon] in its name and 1 [Rika Nonaka] among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect2": "[Your Turn] (Once Per Turn) When you use an Option card with a memory cost of 2 or more, gain 1 memory.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Is the effect of this card not added to the hand unless there are both [Kyubimon], [Taomon], or [Sakuyamon] in its name and [Rika Nonaka] among the four opened cards?",
+                    "A: No, even if you only have a card with [Kyubimon], [Taomon], or [Sakuyamon] in its name and [Rika Nonaka], you can add it to your hand."
+                ],
+                [
+                    "Q: Due to the effect of this card, if there are both [Kyubimon], [Taomon], or [Sakuyamon] in its name and [Rika Nonaka] among the four opened cards, add only one of them to your hand. Is it possible to put one back under the deck?",
+                    "A: No, the effect of this card is \"add... and...\", so you should add cards to your hand as much as possible. In this situation, you must add both a card with [Kyubimon], [Taomon], or [Sakuyamon] in its name and [Rika Nonaka] to your hand one by one."
+                ],
+                [
+                    "Q: If I use [BT2-099 Glorious Burst] while I have 8 or more of my own yellow tamers, will this card's evolutionary effect be exhibited?",
+                    "A: No, in that case, since the usage cost of [BT2-099 Glorious Burst] has been changed to 1, it is not considered that an option card with a usage cost of 2 or more was used, so it will not be demonstrated."
+                ],
+                [
+                    "Q: If I use [BT7-100 Qualialise Blast] when my security is one, will this card's evolutionary effect be exhibited?",
+                    "A: Yes, [BT7-100 Qualialise Blast] has the effect of \"when this card would be used\", and the use cost of the card has not changed, so the option card still has a memory of 5. Assuming that you have done so, the inherited effect of this card can be activated."
+                ],
+                [
+                    "Q: Does the \"use an option card without paying cost\" effect trigger the inherited effect of this card when an option card with a use cost of 2 or more is used?",
+                    "A: Yes, the effect of \"using an option card without paying the cost\" still applies because the use cost has not changed."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/57/EX2-020-J.png/revision/latest?cb=20211217092413",
+            "id": "EX2-020",
+            "name": "Lopmon",
+            "jpname": "ロップモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Beast",
+            "ilustrators": [
+                "koki"
+            ],
+            "effect1": "[On Play] If you have 3 or fewer security cards and [Shu-Chong Wong] in play, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/EX2-021-J.png/revision/latest?cb=20211217092414",
+            "id": "EX2-021",
+            "name": "Kyubimon",
+            "jpname": "キュウビモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Mysterious Beast",
+            "ilustrators": [
+                "As'Maria"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[When Digivolving] Reveal the top 3 cards of your deck. Add 1 Option card with [Plug-In] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect2": "[Your Turn] (Once Per Turn) When you use an Option card with a cost of 2 or more, 1 of your opponent's Digimon gets -2000 DP for the turn.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If I use [BT2-099 Glorious Burst] while I have 8 or more of my own yellow tamers, will this card's inherited effect be exhibited?",
+                    "A: No, in that case, since the usage cost of [BT2-099 Glorious Burst] has been changed to 1, it is not considered that an option card with a usage cost of 2 or more was used, so it will not be demonstrated."
+                ],
+                [
+                    "Q: If I use [BT7-100 Qualialise Blast] when my security is one, will this card's inherited effect be exhibited?",
+                    "A: Yes, [BT7-100 Qualialise Blast] has the effect of \"when this card would be used\", and the use cost of the card has not changed, so the option card still has a memory of 5. Assuming that you have done so, the inherited effect of this card can be activated."
+                ],
+                [
+                    "Q: Does the \"use an option card without paying cost\" effect trigger the inherited effect of this card when an option card with a use cost of 2 or more is used?",
+                    "A: Yes, the effect of \"using an option card without paying the cost\" still applies because the use cost has not changed."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7a/EX2-022-J.png/revision/latest?cb=20211217092414",
+            "id": "EX2-022",
+            "name": "Antylamon",
+            "jpname": "アンティラモン",
+            "tsname": "Andiramon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Holy Beast/Deva",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "If you have [Shu-Chong Wong] in play, your [Lopmon] can digivolve into this card in your hand for a digivolution cost of 3, ignoring its digivolution requirements.\n[When Attacking] (Once Per Turn) You may trash the top card of your security stack to unsuspend this Digimon.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: When digivolving with the effect of \"While you have [Shu-Chong Wong] in play, your [Lopmon] can digivolve into this card in your hand for a digivolution cost of 3, ignoring its digivolution requirements\". Is it possible to reduce the evolution cost by effects such as [EX1-071 Win Rate: 60%!]?",
+                    "A: Yes. It is possible."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/57/EX2-023-J.png/revision/latest?cb=20211217092414",
+            "id": "EX2-023",
+            "name": "Taomon",
+            "jpname": "タオモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Wizard",
+            "ilustrators": [
+                "As'Maria"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] You may play 1 [Rika Nonaka] from your hand without paying its memory cost.",
+            "effect2": "[Your Turn] (Once Per Turn) When you use an Option card with a cost of 2 or more, 1 of your opponent's Digimon gets -2000 DP for the turn.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If I use [BT2-099 Glorious Burst] while I have 8 or more of my own yellow tamers, will this card's evolutionary effect be exhibited?",
+                    "A: No, in that case, since the usage cost of [BT2-099 Glorious Burst] has been changed to 1, it is not considered that an option card with a usage cost of 2 or more was used, so it will not be demonstrated."
+                ],
+                [
+                    "Q: If I use [BT7-100 Qualialise Blast] when my security is one, will this card's evolutionary effect be exhibited?",
+                    "A: Yes, [BT7-100 Qualialise Blast] has the effect of \"when this card would be used\", and the use cost of the card has not changed, so the option card still has a memory of 5. Assuming that you have done so, the inherited effect of this card can be activated."
+                ],
+                [
+                    "Q: Does the \"use an option card without paying cost\" effect trigger the inherited effect of this card when an option card with a use cost of 2 or more is used?",
+                    "A: Yes, the effect of \"using an option card without paying the cost\" still applies because the use cost has not changed."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/49/EX2-024-J.png/revision/latest?cb=20211217092415",
+            "id": "EX2-024",
+            "name": "Sakuyamon",
+            "jpname": "サクヤモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Shaman",
+            "ilustrators": [
+                "As'Maria",
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Unsuspend 1 of your Digimon, and for each Tamer you have in play, return 1 Option card with [Plug-In] in its name from your trash to your hand.\n[Your Turn] When you use an Option card with a cost of 2 or more, 1 of your opponent's Digimon gets -3000 DP for the turn.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: If I use [BT2-099 Glorious Burst] while I have 8 or more of my own yellow tamers, will this card's effect be exhibited?",
+                    "A: No, in that case, since the usage cost of [BT2-099 Glorious Burst] has been changed to 1, it is not considered that an option card with a usage cost of 2 or more was used, so it will not be demonstrated."
+                ],
+                [
+                    "Q: If I use [BT7-100 Qualialise Blast] when my security is one, will this card's effect be exhibited?",
+                    "A: Yes, [BT7-100 Qualialise Blast] has the effect of \"when this card would be used\", and the use cost of the card has not changed, so the option card still has a memory of 5. Assuming that you have done so, the effect of this card can be activated."
+                ],
+                [
+                    "Q: Does the \"use an option card without paying cost\" effect trigger the effect of this card when an option card with a use cost of 2 or more is used?",
+                    "A: Yes, the effect of \"using an option card without paying the cost\" still applies because the use cost has not changed."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ad/EX2-025-J.png/revision/latest?cb=20211217092415",
+            "id": "EX2-025",
+            "name": "Terriermon",
+            "jpname": "テリアモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Beast",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[Your Turn] (Once Per Turn) When you play a green Tamer, gain 1 memory.",
+            "effect2": "[Your Turn] (Once Per Turn) When an opponent's Digimon becomes suspended, this Digimon gets +2000 DP for the turn.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Does the inherited effect of this card also trigger when the opponent's Digimon activates a <Blocker> and suspends?",
+                    "A: Yes, it works."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/54/EX2-026-J.png/revision/latest?cb=20211217092415",
+            "id": "EX2-026",
+            "name": "Gargomon",
+            "jpname": "ガルゴモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Beastkin",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[Your Turn] When this Digimon would digivolve, if you have a green Tamer in play, reduce the digivolution cost by 1.",
+            "effect2": "[Your Turn] (Once Per Turn) When an opponent's Digimon becomes suspended, this Digimon gets +2000 DP for the turn.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does the inherited effect of this card also trigger when the opponent's Digimon activates a <Blocker> and suspends?",
+                    "A: Yes, it works."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/41/EX2-027-J.png/revision/latest?cb=20211217092416",
+            "id": "EX2-027",
+            "name": "Rapidmon",
+            "jpname": "ラピッドモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Cyborg",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] If you have a green Tamer in play, suspend 1 of your opponent's Digimon.",
+            "effect2": "[Your Turn] (Once Per Turn) When an opponent's Digimon becomes suspended, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does the inherited effect of this card also trigger when the opponent's Digimon activates a <Blocker> and suspends?",
+                    "A: Yes, it works."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/EX2-028-J.png/revision/latest?cb=20211217092416",
+            "id": "EX2-028",
+            "name": "Parasitemon",
+            "jpname": "パラサイモン",
+            "tsname": "Parasimon",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11100",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Parasite",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[End of Attack] You may place this Digimon under 1 of your Digimon as its bottom digivolution card.",
+            "effect2": "<Security Attack +1> (This Digimon checks 1 additional security card)\n[Your Turn] This Digimon gets +2000 DP.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: When this Digimon is placed in the digivolution cards of your Digimon with the [End of Attack] effect of this card, what happens to the digivolution cards under this Digimon?",
+                    "A: They will be trashed. This effect is the only card that can be placed in the digivolution cards of your Digimon."
+                ],
+                [
+                    "Q: Is it possible to place this card in the digivolution cards of my Digimon that does not have Lv. With the [End of Attack] effect of this card?",
+                    "A: Yes. It is possible."
+                ],
+                [
+                    "Q: This card has two inherited effects, but if this card becomes a digivolution card, will both be available?",
+                    "A: Yes, you will have both effects."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/56/EX2-029-J.png/revision/latest?cb=20211217092417",
+            "id": "EX2-029",
+            "name": "MegaGargomon",
+            "jpname": "セントガルゴモン",
+            "tsname": "SaintGalgomon",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Machine",
+            "ilustrators": [
+                "GOSSAN",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "effect1": "[When Digivolving] For each green Tamer you have in play, suspend 1 of your opponent's Digimon. They don't unsuspend during your opponent's next unsuspend phase.\n[When Attacking] (Once Per Turn) Return 1 of your opponent's suspended Digimon with DP less than or equal to this Digimon's DP to its owner's hand.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ee/EX2-030-J.png/revision/latest?cb=20211217092417",
+            "id": "EX2-030",
+            "name": "Monodramon",
+            "jpname": "モノドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Mini Dragon",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "effect1": "[On Play] Reveal 4 cards from the top of your deck. Add all black Tamer cards among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c3/EX2-031-J.png/revision/latest?cb=20211217092417",
+            "id": "EX2-031",
+            "name": "Guardromon",
+            "jpname": "ガードロモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Machine",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[On Play] 1 of your Digimon gets +3000 DP until the next time your opponent's turn ends.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d7/EX2-032-J.png/revision/latest?cb=20211217092417",
+            "id": "EX2-032",
+            "name": "Strikedramon",
+            "jpname": "ストライクドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[When Digivolving] Reveal 4 cards from the top of your deck. Add 1 black Tamer card among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect2": "[When Attacking] (Once Per Turn) If you have 2 or more black Tamers in play, gain 1 memory.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does the inherited effect of this card add 2 memory if I have 4 black tamers in play?",
+                    "A: No, if you have two or more, you will only gain 1 memory."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2e/EX2-033-J.png/revision/latest?cb=20211217092418",
+            "id": "EX2-033",
+            "name": "Locomon",
+            "jpname": "ロコモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Machine",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[Your Turn] When this Digimon would digivolve into a [GroundLocomon] in your hand, reduce the memory cost of the digivolution by 1.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9f/EX2-034-J.png/revision/latest?cb=20211217092418",
+            "id": "EX2-034",
+            "name": "Andromon",
+            "jpname": "アンドロモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "6000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[Opponent's Turn] All of your Digimon with <Blocker> get +2000 DP.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d9/EX2-035-J.png/revision/latest?cb=20211217092418",
+            "id": "EX2-035",
+            "name": "Cyberdramon",
+            "jpname": "サイバードラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "10000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] You may play 1 [Ryo Akiyama] from your hand without paying its memory cost.\n[Your Turn] While you don't have a Tamer in play, this Digimon can't attack players.",
+            "effect2": "[When Attacking] (Once Per Turn) If you have 2 or more black Tamers in play, <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards).",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: If this card was given <Piercing> for some effect, and attacks an opponent's Digimon without a tamer in play and deletes the opponent's Digimon in battle. Can this Digimon perform security checks by the effect of <Piercing>?",
+                    "A: Yes, even if you don't have your own tamer, <Piercing> will work as usual."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/73/EX2-036-J.png/revision/latest?cb=20211217092419",
+            "id": "EX2-036",
+            "name": "GroundLocomon",
+            "jpname": "グランドロコモン",
+            "tsname": "GrandLocomon",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Machine",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[Your Turn] This Digimon can't attack your opponent's Digimon.\n[All Turns] For each card in your trash with [Cyborg], or [Machine] in its traits, this Digimon gets +1000 DP.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: What happens if this card attacks a player and is blocked by an opponent's Digimon?",
+                    "A: The effect of this card prevents it from declaring an attack against the opponent's Digimon, so if it is blocked by the opponent's Digimon, it will battle a Digimon as normal."
+                ],
+                [
+                    "Q: This Digimon has [BT8-067 MetalGreymon] in its digivolution cost. Can it attack Digimon with no digivolution cards?",
+                    "A: No, it still cannot declare attacks against Digimon."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/da/EX2-037-J.png/revision/latest?cb=20211217092419",
+            "id": "EX2-037",
+            "name": "Reapermon",
+            "jpname": "ゴクモン",
+            "tsname": "Gokumon",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Cyborg",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "<Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase).\n[Opponent's Turn] (Once Per Turn) When your opponent's Digimon becomes unsuspended, <De-Digivolve  1> on 1 of those Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards).",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can the [Opponent's Turn] effect of this card perform <De-Digivolve> against the opponent's Digimon that unsuspend during the opponent's Unsuspend Phase?",
+                    "A: Yes. It is possible."
+                ],
+                [
+                    "Q: For the [Opponent's Turn] effect of this card, when multiple opponent's Digimon unsuspend during the opponent's active phase, can I choose which Digimon will be <De-Digivolve>?",
+                    "A: Yes, you would choose which Digimon."
+                ],
+                [
+                    "Q: Is it possible for the [Opponent's Turn] effect of this card to not consume (Once Per Turn) without deliberately exerting <De-Digivolve> when the opponent's Digimon is unsuspended?",
+                    "A: No, it is a mandatory effect."
+                ],
+                [
+                    "Q: Is it possible for the [Opponent's Turn] effect of this card to be unable to <De-Digivolve> if the opponent's selected Digimon does not have a digivolution card or it's a level 3 Digimon that unsuspends?",
+                    "A: No, even if the unsuspended Digimon has no digivolution cards or is a level 3 Digimon, <De-Digivolve> will still be attempted."
+                ],
+                [
+                    "Q: If I also have [BT7-055 Ebonwumon] in play, does my opponent get to choose which Digimon is <De-Digivolve> because they choose which Digimon to discard for first?",
+                    "A: No, even if your opponent chooses which Digimon's [Your Turn] effect to activate first and trash from hand for. All Digimon are unsuspended at the same time after all the [Your Turn] effects granted by [BT7-055 Ebonwumon] have been resolved."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/29/EX2-038-J.png/revision/latest?cb=20211217092419",
+            "id": "EX2-038",
+            "name": "Justimon Blitz Arm",
+            "jpname": "ジャスティモン：ブリッツアーム",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Tonamikanji",
+                "sasasi"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Activate 1 of the following effects:\n・This Digimon gets +2000 DP for the turn.\n・Unsuspend this Digimon.\n・Delete 1 of your opponent's Digimon with a play cost of 5 or less.\n[When Attacking] (Once Per Turn) For each Tamer you have in play, activate this Digimon's [When Digivolving] effect.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Does this card's [When Attacking] effect work if I don't have any tamers?",
+                    "A: No, it won't work if you don't have any tamers."
+                ],
+                [
+                    "Q: Is it okay to activate the same effect more than once when there are multiple tamers of this card when using this card's [When Attacking] to activate its [When Digivolving]?",
+                    "A: Yes, you can select and activate the same effect multiple times."
+                ],
+                [
+                    "Q: Can this card's [When Attacking] effect choose another [When Digivolving] effect that was not its original [When Digivolving] effect?",
+                    "A: Yes, you can choose a non-original [When Digivolving] effect that was given to this Digimon."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3a/EX2-039-J.png/revision/latest?cb=20211217092420",
+            "id": "EX2-039",
+            "name": "Impmon",
+            "jpname": "インプモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Evil",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "effect1": "When this card is trashed from your deck, if it wasn't trashed by [EX2-039 Impmon]'s effect, you may trash up to 3 cards from the top of your deck.\n[On Play] Reveal the top 4 cards of your deck. Add 1 Digimon card with [Beelzemon] in its name and 1 [Ai & Mako] among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect2": "[Your Turn] If this Digimon has [Beelzemon] in its name, it gets +3000 DP.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Is the effect of this card not added to the hand unless there are both [Beelzemon] in its name and [Ai & Mako] among the four opened cards?",
+                    "A: No, even if you only have a card with [Beelzemon] in its name and [Ai & Mako], you can add it to your hand."
+                ],
+                [
+                    "Q: Due to the effect of this card, if there are both [Beelzemon] in its name and [Ai & Mako] among the four opened cards, add only one of them to your hand. Is it possible to put one back under the deck?",
+                    "A: No, the effect of this card is \"add... and...\", so you should add cards to your hand as much as possible. In this situation, you must add both a card with [Beelzemon] in its name and [Ai & Mako] to your hand one by one."
+                ],
+                [
+                    "Q: This card was revealed and trashed with the \"Reveal... from your deck\" effect. In that case, will the effect of \"when this card is trashed from the deck\" be triggered?",
+                    "A: No, cards revealed from the deck are not considered to be \"trashed from the deck\" even if they were trashed by that effect."
+                ],
+                [
+                    "Q: If this card is discarded from the deck by the effect of [BT2-068 Impmon], will the effect of \"when this card is trashed from the deck\" be triggered?",
+                    "A: Yes, this effect has a card number specified, so if the card number is different from that of [EX2-039 Impmon], the effect of \"when this card is discarded from the deck\" will be triggered."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/67/EX2-040-J.png/revision/latest?cb=20211217092420",
+            "id": "EX2-040",
+            "name": "Devidramon",
+            "jpname": "デビドラモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Evil Dragon",
+            "ilustrators": [
+                "banira"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)",
+            "effect2": "[When Attacking] You may trash the top 2 cards of your deck.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/EX2-041-J.png/revision/latest?cb=20211217092420",
+            "id": "EX2-041",
+            "name": "Dobermon",
+            "jpname": "ドーベルモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Dark Animal",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "When you would play this card from your hand, reduce its play cost by 2 if you have [Alice McCoy] in play.\n[On Deletion] Trash the top 3 cards of your deck. Then, return 1 purple Digimon card or 1 purple Tamer card from your trash to your hand.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5c/EX2-042-J.png/revision/latest?cb=20211217092421",
+            "id": "EX2-042",
+            "name": "Mephistomon",
+            "jpname": "メフィスモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Fallen Angel",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[On Play] <Draw 2> (Draw 2 cards from your deck). Then, trash 2 cards from your hand.",
+            "effect2": "[When Attacking] (Once Per Turn) You may trash 1 card from your hand to gain 1 memory.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9c/EX2-043-J.png/revision/latest?cb=20211217092421",
+            "id": "EX2-043",
+            "name": "Gulfmon",
+            "jpname": "ガルフモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Dark Animal",
+            "ilustrators": [
+                "Hisashi Fujiwara",
+                "sasasi"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] All players trash cards in their hand until they have 5 cards left.\n[Your Turn] (Once Per Turn) When one of your effects trashes a card in your hand, you may unsuspend 1 of your Digimon.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Which player chooses the cards in hand to be discarded by the [When Digivolving] effect of this card?",
+                    "A: Each player chooses from their own hand."
+                ],
+                [
+                    "Q: When does the [When Digivolving] effect of this card activate before or after the draw from the digivolution bonus?",
+                    "A: It will be after the draw. [When Digivolving] effects trigger when the draw of the digivolution bonus is finished."
+                ],
+                [
+                    "Q: What happens to the [When Digivolving] effect of this card if a player has 5 or less cards in your hand?",
+                    "A: If a player has 5 or less cards in your hand, that player does not discard."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ca/EX2-044-J.png/revision/latest?cb=20211217092422",
+            "id": "EX2-044",
+            "name": "Beelzemon",
+            "jpname": "ベルゼブモン",
+            "tsname": "Beelzebumon",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Demon Lord/Seven Great Demon Lords",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "effect1": "When this card is trashed from your deck, you may play 1 [Impmon] from your trash without paying its memory cost.\n[When Digivolving] [When Attacking] You may trash the top 2 cards of your deck. Then, delete 1 of your opponent's level 3 or lower Digimon. For every 10 cards in your trash, add 1 to the maximum level you can choose with this effect.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: This card was revealed and trashed with the \"Reveal... from your deck\" effect. In that case, will the effect of \"when this card is trashed from the deck\" be triggered?",
+                    "A: No, cards revealed from the deck are not considered to be \"trashed from the deck\" even if they were trashed by that effect."
+                ],
+                [
+                    "Q: There are two timings for this card's effect, [When Digivolving] and [When Attacking]. What does this mean?",
+                    "A: This effect is triggered both [When Digivolving] and [When Attacking]. After digivolving and activating as a [When Digivolving] effect, if you attack with this Digimon next turn, it will be triggered as a [When Attacking] effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9b/EX2-045-J.png/revision/latest?cb=20211217092422",
+            "id": "EX2-045",
+            "name": "Calumon",
+            "jpname": "クルモン",
+            "tsname": "Culumon",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "form": "Unknown",
+            "attribute": "Unknown",
+            "type": "Unknown",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "effect1": "When you would play this card from your hand, reduce its play cost by 2 if you have [Guilmon], [Terriermon], [Renamon], or [Impmon] in play, reduce its play cost by 2.\n[Your Turn] This Digimon can't attack.\n[Your Turn] When one of your Digimon digivolves, you may suspend this Digimon to gain 1 memory, <Draw 1> (Draw 1 card from your deck), and have 1 of your Digimon get +3000 DP for the turn.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: This card does not have a level. Can I digivolve from this card or digivolve into this card?",
+                    "A: No, you can't digivolve from a card without a level and you can't digivolve into this card (except with special digivolution)."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b7/EX2-046-J.png/revision/latest?cb=20211217092422",
+            "id": "EX2-046",
+            "name": "ADR-02 Searcher",
+            "jpname": "ADR-02=サーチャー",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "form": "D-Reaper",
+            "type": "Intel Acquisition Agent",
+            "ilustrators": [],
+            "effect1": "You can include up to 50 copies of cards with this card's card number in your deck.\nWhen you would play this card from your hand, reduce its play cost by 2 if you don't have another [ADR-02 Searcher] in play.\n[Your Turn] This Digimon can't attack players.\n[On Play] <Draw 1> (Draw 1 card from your deck).",
+            "effect2": "[Your Turn] All of your Digimon with [D-Reaper] in their traits get +1000 DP.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: This card does not have a level. Can I digivolve from this card or digivolve into this card?",
+                    "A: No, you can't digivolve from a card without a level and you can't digivolve into this card (except with special digivolution)."
+                ],
+                [
+                    "Q: What does \"You can put up to 50 cards that has the same Card Number as this card in your Deck\" mean exactly?",
+                    "A:  Normally, you are only allowed to put up to 4 copies of a card of the same Card Number. This card's effect changes the number of copies of this exact card allowed in your deck to 50 instead."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2a/EX2-047-J.png/revision/latest?cb=20211217092423",
+            "id": "EX2-047",
+            "name": "ADR-03 Pendulum Feet",
+            "jpname": "ADR-03=ペンデュラムフィート",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "form": "D-Reaper",
+            "type": "AA Defense Agent",
+            "ilustrators": [],
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [D-Reaper] in its traits and 1 [ADR-02 Searcher] among them to your hand. Place the remaining cards on the bottom of your deck in any order.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: This card does not have a level. Can I digivolve from this card or digivolve into this card?",
+                    "A: No, you can't digivolve from a card without a level and you can't digivolve into this card (except with special digivolution)."
+                ],
+                [
+                    "Q: Is the effect of this card not added to the hand unless there are both [D-Reaper] in its traits and [ADR-02 Searcher] among the three opened cards?",
+                    "A: No, even if you only have a card with [D-Reaper] in its traits and [ADR-02 Searcher], you can add it to your hand."
+                ],
+                [
+                    "Q: Due to the effect of this card, if there are both [D-Reaper] in its traits and [ADR-02 Searcher] among the four opened cards, add only one of them to your hand. Is it possible to put one back under the deck?",
+                    "A: No, the effect of this card is \"add... and...\", so you should add cards to your hand as much as possible. In this situation, you must add both a card with [D-Reaper] in its traits and [ADR-02 Searcher] to your hand one by one."
+                ],
+                [
+                    "Q: If the cards I reveal from my deck include 2 [ADR-02 Searcher] cards with [D-Reaper] in their traits, can I add both of those cards to my hand?",
+                    "A: Yes, you may add them both to your hand."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/EX2-048-J.png/revision/latest?cb=20211217092423",
+            "id": "EX2-048",
+            "name": "ADR-04 Bubbles",
+            "jpname": "ADR-04=バブルス",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "form": "D-Reaper",
+            "type": "Ground Combat Agent",
+            "ilustrators": [],
+            "effect1": "[Security] Place 1 of your [ADR-02 Searcher]s from in play or from your hand under 1 of your [Mother D-Reaper]s as its bottom digivolution card.\n[On Play] Place 1 of your [ADR-02 Searcher]s from in play or from your hand under 1 of your [Mother D-Reaper]s as its bottom digivolution card.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: This card does not have a level. Can I digivolve from this card or digivolve into this card?",
+                    "A: No, you can't digivolve from a card without a level and you can't digivolve into this card (except with special digivolution)."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/97/EX2-049-J.png/revision/latest?cb=20211217092423",
+            "id": "EX2-049",
+            "name": "ADR-01 Jeri",
+            "jpname": "ADR-01=ジュリ",
+            "tsname": "ADR-01=Juri",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "form": "D-Reaper",
+            "type": "Espionage Agent",
+            "ilustrators": [],
+            "effect1": "[Main] You may suspend this Digimon to reveal the top 5 cards of your deck. Place 1 [ADR-02 Searcher] among them under 1 of your [Mother D-Reaper]'s as its bottom digivolution card. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: This card does not have a level. Can I digivolve from this card or digivolve into this card?",
+                    "A: No, you can't digivolve from a card without a level and you can't digivolve into this card (except with special digivolution)."
+                ],
+                [
+                    "Q: If I activate the effect of this card without a [Mother D-Reaper]?",
+                    "A: In that case, all revealed cards will be returned to the bottom of the deck."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/da/EX2-050-J.png/revision/latest?cb=20211217092424",
+            "id": "EX2-050",
+            "name": "ADR-05 Creep Hands",
+            "jpname": "ADR-05=クリープハンズ",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "form": "D-Reaper",
+            "type": "Grappling Agent",
+            "ilustrators": [],
+            "effect1": "[Opponent's Turn] While you have a [Mother D-Reaper] in play, this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: This card does not have a level. Can I digivolve from this card or digivolve into this card?",
+                    "A: No, you can't digivolve from a card without a level and you can't digivolve into this card (except with special digivolution)."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/05/EX2-051-J.png/revision/latest?cb=20211217092424",
+            "id": "EX2-051",
+            "name": "ADR-07 Palates Head",
+            "jpname": "ADR-07=パラティスヘッド",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "3000",
+            "form": "D-Reaper",
+            "type": "Reconnaissance Agent",
+            "ilustrators": [],
+            "effect1": "[Main] If you have a [Mother D-Reaper] in play, you may suspend this Digimon to delete 1 of your opponent's Digimon with DP less than or equal to this Digimon's DP.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: This card does not have a level. Can I digivolve from this card or digivolve into this card?",
+                    "A: No, you can't digivolve from a card without a level and you can't digivolve into this card (except with special digivolution)."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e3/EX2-052-J.png/revision/latest?cb=20211217092424",
+            "id": "EX2-052",
+            "name": "ADR-06 Horn Striker",
+            "jpname": "ADR-06=ホーンストライカー",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "form": "D-Reaper",
+            "type": "Commander Agent",
+            "ilustrators": [],
+            "effect1": "[Your Turn] While you have a [Mother D-Reaper] in play, this Digimon gains <Rush> (This Digimon can attack the turn it comes into play).",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: This card does not have a level. Can I digivolve from this card or digivolve into this card?",
+                    "A: No, you can't digivolve from a card without a level and you can't digivolve into this card (except with special digivolution)."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/60/EX2-053-J.png/revision/latest?cb=20211217092424",
+            "id": "EX2-053",
+            "name": "ADR-08 Optimizer",
+            "jpname": "ADR-08=オプティナイザー",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "10",
+            "dp": "9000",
+            "form": "D-Reaper",
+            "type": "Mothership Agent",
+            "ilustrators": [],
+            "effect1": "[On Play] [When Attacking] (Once Per Turn) If one of your [Mother D-Reaper]s has 5 or more digivolution cards, reveal the top 3 cards of your deck. You may play 1 card with [D-Reaper] in its traits and a play cost of 10 or less among them without paying its memory cost. Place the remaining cards at the top of your deck in any order.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: This card does not have a level. Can I digivolve from this card or digivolve into this card?",
+                    "A: No, you can't digivolve from a card without a level and you can't digivolve into this card (except with special digivolution)."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d0/EX2-054-J.png/revision/latest?cb=20211217092425",
+            "id": "EX2-054",
+            "name": "ADR-09 Gatekeeper",
+            "jpname": "ADR-09=ゲートキーパー",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "10000",
+            "form": "D-Reaper",
+            "type": "Base Defense Agent",
+            "ilustrators": [],
+            "effect1": "[Security] Play this card without battling and without paying its memory cost.\n[On Play] If you have a [Mother D-Reaper] in play, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).\n[Opponent's Turn] While you have a [Mother D-Reaper] with 6 or more digivolution cards in play, all of your opponent's Digimon get <Security Attack -1> (This Digimon checks 1 fewer security card).",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: This card does not have a level. Can I digivolve from this card or digivolve into this card?",
+                    "A: No, you can't digivolve from a card without a level and you can't digivolve into this card (except with special digivolution)."
+                ],
+                [
+                    "Q: When this card is played from Security with its [Security] effect is that Digimon treated as a Security Digimon even in the Battle Area?",
+                    "A: No, from the time it is played due to this effect, it will be treated as a normal Digimon."
+                ],
+                [
+                    "Q: An opponent Digimon with <Security Attack +1> attacks the player, this card is turned over at the first check, and is played to the battle area with the [Security] effect. If I have [Mother D-Reaper] in play with 6 or more digivolution cards, can the [Opponent's Turn] effect of this card prevent the opponent's second check?",
+                    "A: Yes, before the second check, the [Opponent's Turn] effect of this card will give <Security Attack -1> (This Digimon checks 1 fewer security card) to the attacking opponent's Digimon, so the second check will not be performed and the attack will finish."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5a/EX2-055-J.png/revision/latest?cb=20211217092425",
+            "id": "EX2-055",
+            "name": "Reaper",
+            "jpname": "リーパー",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "20",
+            "dp": "15000",
+            "form": "D-Reaper",
+            "type": "Ability Synthesis Agent",
+            "ilustrators": [],
+            "effect1": "When you would play this Digimon, you may trash 7 or more digivolution cards from the bottom of 1 of your [Mother D-Reaper]'s to set this Digimon's play cost to 0.\n<Rush> (This Digimon can attack the turn it comes into play)\n[When Attacking] You may place 2 [ADR-02 Searcher]s from your trash under this Digimon in any order as its bottom digivolution cards to unsuspend this Digimon.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: This card does not have a level. Can I digivolve from this card or digivolve into this card?",
+                    "A: No, you can't digivolve from a card without a level and you can't digivolve into this card (except with special digivolution)."
+                ],
+                [
+                    "Q: It says, \"trash 7 or more digivolution cards from the bottom of 1 of your [Mother D-Reaper]\". When this card would be played, can I trash 8 or more digivolution cards?",
+                    "A: Yes, you may."
+                ],
+                [
+                    "Q: If my opponent has [BT8-071 Psychemon] in play, and I would play this card. Does this card's play cost get reduced?",
+                    "A: No, this card's effect \"sets the play cost to 0\" it does not reduce. So [BT8-071 Psychemon] does not prevent this card's play cost from becoming 0."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f5/EX2-056-J.png/revision/latest?cb=20211217092425",
+            "id": "EX2-056",
+            "name": "Takato Matsuki",
+            "jpname": "松田 啓人",
+            "tsname": "Matsuda Takato",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[Your Turn] When an opponent's Digimon is deleted, you may suspend this Tamer to gain 1 memory.\n[Your Turn] When one of your Digimon would digivolve into a Digimon with [Gallantmon], or [Growlmon] in its name, it gains \"[When Digivolving] <Blitz> (If your opponent has 1 or more memory, this Digimon may attack)\" for the turn.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: I gave my Digimon \"[When Digivolving] <Blitz>\" effect of this card. I digivolve into [BT5-086 Omnimon]. Since there are two instances of the same \"[When Digivolving] <Blitz>\" effect, can I activate the first <Blitz>, unsuspend, and then activate the second <Blitz> effect?",
+                    "A: No, you cannot declare an attack while you are in the middle of resolving an attack (from the first <Blitz>). The second <Blitz> will fail to declare an attack."
+                ],
+                [
+                    "Q: If I digivolve into a Digimon with [Growlmon], or [Gallantmon] in its name but the memory remains at 0 or more on my side so <Blitz> cannot activate. If that same Digimon then digivolves into a Digimon without [Growlmon], or [Gallantmon] in its name, can that Digimon activate <Blitz>?",
+                    "A: Yes, the new Digimon keeps the \"[When Digivolving] <Blitz>\" effect and if the memory is at 1 or more on the opponent's side, it can activate <Blitz>. (For more information see Persistent Effects)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/01/EX2-057-J.png/revision/latest?cb=20211217092426",
+            "id": "EX2-057",
+            "name": "Kenta Kitagawa",
+            "jpname": "北川 健太",
+            "tsname": "Kitagawa Kenta",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "2",
+            "ilustrators": [],
+            "effect1": "[Your Turn] When you would play [MarineAngemon] from your hand, reduce its play cost by 1.\n[Your Turn] When you play a blue Digimon, you may suspend this tamer to trash the bottom digivolution card of 1 of your opponent's Digimon. Then, if the Digimon that played is [MarineAngemon], trash the bottom digivolution card of all of your opponent's Digimon.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/60/EX2-058-J.png/revision/latest?cb=20211217092426",
+            "id": "EX2-058",
+            "name": "Jeri Kato",
+            "jpname": "加藤 樹莉",
+            "tsname": "Katō Juri",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[On Play] You may play 1 [Leomon] from your hand without paying its memory cost.\n[Opponent's Turn] When an opponent's Digimon attacks, you may suspend this Tamer to <Draw 1> (Draw 1 card from your deck).",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9d/EX2-059-J.png/revision/latest?cb=20211217092426",
+            "id": "EX2-059",
+            "name": "Shu-Chong Wong",
+            "jpname": "李 小春",
+            "tsname": "Lee Shu-Chong",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[On Play] You may play 1 [Lopmon] from your hand without paying its memory cost.\n[Start of Your Turn] If you have 3 or fewer security cards, <Draw 1> (Draw 1 card from your deck).",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/74/EX2-060-J.png/revision/latest?cb=20211217092427",
+            "id": "EX2-060",
+            "name": "Rika Nonaka",
+            "jpname": "牧野 留姫",
+            "tsname": "Makino Ruki",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Your Turn] When you attack with a Digimon with [Renamon], [Kyubimon], [Taomon], or [Sakuyamon] in its name, you may suspend this Tamer to use 1 Option card with [Plug-In] in its name from your hand without paying its memory cost.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/dd/EX2-061-J.png/revision/latest?cb=20211217092427",
+            "id": "EX2-061",
+            "name": "Henry Wong",
+            "jpname": "李 健良",
+            "tsname": "Lee Jianliang",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Your Turn] When you attack with a Digimon with [Gargomon], or [Rapidmon] in its name, you may suspend this Tamer to suspend 1 of your opponent's Digimon.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/72/EX2-062-J.png/revision/latest?cb=20211217092427",
+            "id": "EX2-062",
+            "name": "Ryo Akiyama",
+            "jpname": "秋山 遼",
+            "tsname": "Akiyama Ryō",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 card with [dramon], or [Justimon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order.\n[Your Turn] When you attack with a black Digimon, you may suspend this Tamer to have that Digimon get +1000 DP until the end of your opponent's turn.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/32/EX2-063-J.png/revision/latest?cb=20211217092427",
+            "id": "EX2-063",
+            "name": "Kazu Shioda",
+            "jpname": "塩田 博和",
+            "tsname": "Shiota Hirokazu",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[Start of Your Main Phase] If you have a Digimon with [Cyborg], or [Machine] in its traits in play, gain 1 memory.\n[All Turns] When one of your Digimon with [Cyborg], or [Machine] in its traits becomes suspended, you may suspend this Tamer to <Draw 1> (Draw 1 card from your deck). Then, trash 1 card from your hand.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a0/EX2-064-J.png/revision/latest?cb=20211217092428",
+            "id": "EX2-064",
+            "name": "Alice McCoy",
+            "jpname": "アリス・マッコイ",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "2",
+            "ilustrators": [],
+            "effect1": "[Your Turn] (Once Per Turn) When one of your Digimon would digivolve from level 5 to level 6, you may delete 1 of your Digimon to reduce the digivolution cost by 3.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Is this card's [Your Turn] effect triggered when my Digimon digivolves from level 5 to level 6 in the breeding area?",
+                    "A: No, it is not triggered by a digivolution in the breeding area."
+                ],
+                [
+                    "Q: When my level 5 digivolves to level 6, what happens if the effect of this card deletes the digivolving level 5 Digimon to disappear?",
+                    "A: It cannot digivolve, and the level 6 Digimon card issued for evolution will be returned to your hand. The level 5 Digimon will be deleted and you will not pay the digivolution cost."
+                ],
+                [
+                    "Q: If I digivolve into a level 6 Digimon card with a [When Digivolving] effect and delete a Digimon with an [On Deletion] effect. Can I choose which effect to activate first?",
+                    "A: Yes, you can choose to use either the [When Digivolving] or [On Deletion] effect first."
+                ],
+                [
+                    "Q: If I digivolve into a level 6 Digimon with <Digisorption>, can I use <Digisorption> to suspend a Digimon and then this card to delete the suspended Digimon?",
+                    "A: Yes, if you do you will reduce the digivolution cost by the total."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/23/EX2-065-J.png/revision/latest?cb=20211217092428",
+            "id": "EX2-065",
+            "name": "Ai & Mako",
+            "jpname": "アイ&マコト",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Your Turn] When you attack with a Digimon, you may suspend this Tamer to trash the top card of your deck. Then, if the attacking Digimon is [Beelzemon], you may digivolve it into a [Beelzemon Blast Mode] in your trash for a digivolution cost of 3.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Is the [Your Turn] triggered when my [Beelzemon Blast Mode] attacks?",
+                    "A: No, it cannot. This effect can only be triggered when a Digimon with the card name [Beelzemon] attacks."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/65/EX2-066-J.png/revision/latest?cb=20211217092428",
+            "id": "EX2-066",
+            "name": "Offensive Plug-In A",
+            "jpname": "攻撃プラグインＡ",
+            "tsname": "Attack Plug-In A",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [],
+            "effect1": "While you have a Tamer in play, you may use this card without meeting its color requirements.\n[Main] 1 of your Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn.",
+            "effect2": "[Security] Reveal the top 3 cards of your deck.  Add 1 Tamer card from among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, add this card to your hand.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7c/EX2-067-J.png/revision/latest?cb=20211217092429",
+            "id": "EX2-067",
+            "name": "Fire Ball",
+            "jpname": "ファイアーボール",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "[Main] Delete 1 of your opponent's Digimon with 3000 DP or less.  less. If an opponent's Digimon wasn't deleted by this effect, <Draw 2> (Draw 2 cards from your deck).",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: When there is an opponent Digimon with 3000 DP or less, can this card <Draw 2> by intentionally not selecting that Digimon?",
+                    "A: No, since the effect does not have \"you may\", if there is a suitable target, it cannot be intentionally excluded."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/81/EX2-068-J.png/revision/latest?cb=20211217092429",
+            "id": "EX2-068",
+            "name": "High-Speed Plug-In D",
+            "jpname": "高速プラグインD",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [],
+            "effect1": "While you have a Tamer in play, you may use this card without meeting its color requirements.\n[Main] For the turn, 1 of your Digimon gains <Jamming> (This Digimon can't be deleted in battles against Security Digimon) and can't be blocked by your opponent's Digimon.",
+            "effect2": "[Security] <Draw 1> (Draw 1 card from your deck). Then, add this card into your hand.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f9/EX2-069-J.png/revision/latest?cb=20211217092429",
+            "id": "EX2-069",
+            "name": "Fist of the Beast King",
+            "jpname": "獣王拳",
+            "tsname": "Jūouken",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [
+                "banira"
+            ],
+            "effect1": "While you have a Digimon with [Beelzemon] in its name in play, you may use this card without meeting its colour requirements.\n[Main] Unsuspend 1 of your Digimon with [Leomon], or [Beelzemon] in its name.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/df/EX2-070-J.png/revision/latest?cb=20211217092430",
+            "id": "EX2-070",
+            "name": "Digivolution Plug-In S",
+            "jpname": "超進化プラグインＳ",
+            "tsname": "Super Evolution Plug-In S",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [],
+            "effect1": "While you have a Tamer in play, you may use this card without meeting its color requirements.\n[Main] <Draw 1> (Draw 1 card from your deck), Then, you may digivolve 1 of your Digimon into a Digimon card in your hand that can digivolve for a digivolution cost of 3 or less without paying its digivolution cost.",
+            "effect2": "[Security] Reveal the top 3 cards of your deck. Add 1 Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, add this card to your hand.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Is it possible to digivolve into a Digimon card with a special digivolution requirement memory cost of 3 or less by the effect of this card?",
+                    "A: Yes. It is possible."
+                ],
+                [
+                    "Q: Can the effect of this card be used to digivolve a Digimon card with a DNA Digivolve with an digivolution cost of 3 or less?",
+                    "A: No, this card is intended for \"1 of your Digimon\", so you cannot be used for DNA Digivolution."
+                ],
+                [
+                    "Q: Can I use this card to digivolve a [Lopmon] into [EX2-022 Antylamon] while I have [Suzie Wong] in play?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: Can I use this card to digivolve a [Machinedramon] into [BT7-017 Chaosdramon]?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: Can I use this card to digivolve into [BT3-056 Ceresmon], if I intend to use <Digisorption>?",
+                    "A: No, <Digisorption> deducts the digivolution cost after the digivolving cards have been decided."
+                ],
+                [
+                    "Q: Can I use this card to digivolve a [Agumon] into a [Agumon - Bond of Bravery] assuming colour is correct, while I have [BT6-087 Tai Kamiya] in play?",
+                    "A: No, the two effects of this card and [BT6-087 Tai Kamiya] cannot interrupt each other."
+                ],
+                [
+                    "Q: Can I use this card to digivolve [BT2-062 Infermon] into [BT2-082 Diaboromon] using this card?",
+                    "A: No, the [Your Turn] effect of [BT2-062 Infermon] deducts the digivolution cost after the digivolving cards have been decided."
+                ],
+                [
+                    "Q: Can I use this card to digivolve [ST7-03 Guilmon] into [ST7-09 Gallantmon]?",
+                    "A: No, even though the digivolution cost of [ST7-09 Gallantmon] is 3, the digivolution condition given by effect of [ST7-03 Guilmon] has a digivolution cost of 4."
+                ],
+                [
+                    "Q: Can this card be used to digivolve a Tamer into a Digimon that treats it as a Digimon, like [BT4-027 KendoGarurumon]?",
+                    "A: No, when you choose the Digimon to digivolve from for this card's effect, the Tamer is still being treated as a Tamer."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/17/EX2-071-J.png/revision/latest?cb=20211217092430",
+            "id": "EX2-071",
+            "name": "Death Slinger",
+            "jpname": "デススリンガー",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Option",
+            "playcost": "4",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "When this card is trashed from your deck, gain 1 memory.\n[Main] Delete 1 of your opponent's level 4 or lower Digimon. For every 10 cards in your trash, add 1 to the maximum level of the Digimon you can choose with this effect.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: This card was revealed and trashed with the \"Reveal... from your deck\" effect. In that case, will the effect of \"when this card is trashed from the deck\" be triggered?",
+                    "A: No, cards revealed from the deck are not considered to be \"trashed from the deck\" even if they were trashed by that effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/92/EX2-072-J.png/revision/latest?cb=20211217092430",
+            "id": "EX2-072",
+            "name": "Blue Card",
+            "jpname": "ブルーカード",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "While you have a Tamer in play, you may use this card without meeting its color requirements.\n[Main] Reveal the top 5 cards of your deck. You may digivolve 1 of your Digimon into 1 non-white Digimon card among them without paying its memory cost. If you don't, add 1 Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect2": "[Security] You may play 1 Tamer card from your hand without paying its memory cost.",
+            "wwsets": [
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Does the effect of this card choose a Digimon that digivolves after revealing the card from the deck?",
+                    "A: Yes, that's right."
+                ],
+                [
+                    "Q: Can the effect of this card digivolve my Digimon ignoring the digivolution requirements?",
+                    "A: No, digivolution requirements cannot be ignored."
+                ],
+                [
+                    "Q: Can the effect of this card digivolve into a Digimon card that can evolve with special requirements?",
+                    "A: Yes. It is possible."
+                ],
+                [
+                    "Q: The effect of this card is that even if the revealed card contains a digivolvable Digimon card, can I add one Digimon card to my hand by intentionally not digivolving it?",
+                    "A: Yes, it's an \"you may\" effect, so it's possible to choose not to digivolve."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d8/EX2-073-J.png/revision/latest?cb=20211217092431",
+            "id": "EX2-073",
+            "name": "Gallantmon Crimson Mode",
+            "jpname": "デュークモン：クリムゾンモード",
+            "tsname": "Dukemon: Crimson Mode",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "15",
+            "dp": "15000",
+            "level": "7",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Holy Warrior",
+            "ilustrators": [
+                "Tonamikanji",
+                "sasasi"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "6",
+            "evocost1": "6",
+            "effect1": "[When Digivolving] Delete all of your opponent's Digimon with the highest DP.\n[When Attacking] Trash the top card of your opponent's security stack. Add 1 to the number of cards trashed by this effect for every 10 cards in your opponent's trash.",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Secret Rare",
+            "ruling": [
+                [
+                    "Q: Does the security card of the opponent trashed by the [When Attacking] effect of this card activate their [Security] effects?",
+                    "A: No, it is not activated because it wasn't revealed in a security check."
+                ],
+                [
+                    "Q: When the opponent's security is 1 or more, it attacks with this Digimon, and the [When Attacking] effect trashes all of the opponent's security. If the attack is not blocked, can I win the game if it has a net positive security attack?",
+                    "A: Yes, you win the game."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7d/EX2-074-J.png/revision/latest?cb=20211217092431",
+            "id": "EX2-074",
+            "name": "Beelzemon Blast Mode",
+            "jpname": "ベルゼブモン：ブラストモード",
+            "tsname": "Beelzebumon: Blast Mode",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "15",
+            "dp": "15000",
+            "level": "7",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Demon Lord",
+            "ilustrators": [
+                "sasasi",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "6",
+            "evocost1": "6",
+            "effect1": "When this card is trashed from your deck, delete 1 of your opponent's level 4 or lower Digimon.\n[When Digivolving] Delete all of your opponent's Digimon with the highest level.\n[Your Turn] For every 10 cards in your trash, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "Digital Hazard EX-02",
+                "Digital Hazard EX-02"
+            ],
+            "rarity": "Secret Rare",
+            "ruling": [
+                [
+                    "Q: This card was revealed and trashed with the \"Reveal... from your deck\" effect. In that case, will the effect of \"when this card is trashed from the deck\" be triggered?",
+                    "A: No, cards revealed from the deck are not considered to be \"trashed from the deck\" even if they were trashed by that effect."
+                ],
+                [
+                    "Q: Can this card's effect delete Digimon with no Level if my opponent does not have any Digimon with a level in play?",
+                    "A: No, this card's effect cannot delete Digimon with no level."
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,481 @@
+{
+    "name": "ST-5: Mugen Black",
+    "shortname": "ST-5",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6e/ST5-01.png/revision/latest?cb=20210430124228",
+            "id": "ST5-01",
+            "name": "Kapurimon",
+            "jpname": "カプリモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "effect2": "[Your Turn] While this Digimon has <Blocker> it gets +1000 DP.",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/67/ST5-02.png/revision/latest?cb=20210430124228",
+            "id": "ST5-02",
+            "name": "Jazamon",
+            "jpname": "ジャザモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "4000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Bird Dragon",
+            "ilustrators": [
+                "TANIMESO"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "1",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/97/ST5-03.png/revision/latest?cb=20210430124229",
+            "id": "ST5-03",
+            "name": "Agumon",
+            "jpname": "アグモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Reptile",
+            "ilustrators": [
+                "Nakano Haito",
+                "Itohiro"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Official Tournament Pack Vol. 3"
+            ],
+            "jpsets": [
+                "1st Anniversary Adventure Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/62/ST5-04.png/revision/latest?cb=20210430124229",
+            "id": "ST5-04",
+            "name": "ToyAgumon",
+            "jpname": "トイアグモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Puppet",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[End of Opponent's Turn] If your opponent didn't attack with a Digimon this turn, trigger <Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's inherited effect activate even if your opponent didn't have a Digimon in play for their entire turn?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: Does this card's inherited effect activate if you activate effects to prevent all of your opponent's Digimon from attacking?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: Does this card's inherited effect activates if you ended an attack with [BT5-111 Omnimon X-Anti-body]?",
+                    "A: No, it does not because your opponent still declared an attack this turn."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c9/ST5-05.png/revision/latest?cb=20210430124230",
+            "id": "ST5-05",
+            "name": "Commandramon",
+            "jpname": "コマンドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "5000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Cyborg/D-Brigade",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4b/ST5-06.png/revision/latest?cb=20210430124230",
+            "id": "ST5-06",
+            "name": "Greymon",
+            "jpname": "グレイモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[End of Opponent's Turn] If your opponent didn't attack with a Digimon this turn, trigger <Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's inherited effect activate even if your opponent didn't have a Digimon in play for their entire turn?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: Does this card's inherited effect activate if you use effects to prevent your opponent's Digimon from attacking?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: Does this card's inherited effect activate if your opponent's Digimon were all deleted in battle after attacking?",
+                    "A: No, it doesn't. They attacked this turn, so the effect doesn't apply."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8a/ST5-07.png/revision/latest?cb=20210430124230",
+            "id": "ST5-07",
+            "name": "Jazardmon",
+            "jpname": "ジャザードモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Machine Dragon",
+            "ilustrators": [
+                "TANIMESO"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d5/ST5-08.png/revision/latest?cb=20210430124231",
+            "id": "ST5-08",
+            "name": "DarkTyrannomon",
+            "jpname": "ダークティラノモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "Kenji Watanabe",
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "1",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n [When Attacking] Lose 2 memory.",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Judge Pack"
+            ],
+            "jpsets": [
+                "Tamer Battle Pack 9"
+            ],
+            "ruling": [
+                [
+                    "Q: Can this Digimon attack if I have less than 2 memory?",
+                    "A: Yes, it can. Even if your memory counter moves to 1 on your opponent's side due to this Digimon's [When Attacking] effect, your turn doesn't end until the attack does."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/87/ST5-09.png/revision/latest?cb=20210430124231",
+            "id": "ST5-09",
+            "name": "MetalGreymon",
+            "jpname": "メタルグレイモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Until the end of your opponent's next turn, 1 of your Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can I use this card's effect to give this Digimon <Blocker>?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: I use this card to give a Digimon <Blocker>. If that Digimon digivolves into a different Digimon, what happens to <Blocker>?",
+                    "A: Digimon retain effects when digivolving or dedigivolving, so <Blocker> remains."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/20/ST5-10.png/revision/latest?cb=20210430124231",
+            "id": "ST5-10",
+            "name": "MetalTyrannomon",
+            "jpname": "メタルティラノモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "9000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/87/ST5-11.png/revision/latest?cb=20210430124232",
+            "id": "ST5-11",
+            "name": "Megadramon",
+            "jpname": "メガドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Cyborg",
+            "ilustrators": [
+                "tyuga"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect2": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9f/ST5-12.png/revision/latest?cb=20210430124232",
+            "id": "ST5-12",
+            "name": "Machinedramon",
+            "jpname": "ムゲンドラモン",
+            "tsname": "Mugendramon",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "10",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Machine",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Up to 2 of your Digimon gain <Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase) until the end of your opponent's next turn.",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Can I use this card's effect to give this Digimon <Reboot>?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: I use this card to give a Digimon <Reboot>. If that Digimon digivolves into a different Digimon, what happens to <Reboot>?",
+                    "A: Digimon retain effects when digivolving or dedigivolving, so <Reboot> remains."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/37/ST5-13.png/revision/latest?cb=20210430125943",
+            "id": "ST5-13",
+            "name": "BlitzGreymon",
+            "jpname": "ブリッツグレイモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "<Security Attack +1> (This Digimon checks 1 additional security card).\n[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・1 of your Digimon gets +4000 DP until the end of your opponent's next turn.",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/22/ST5-14.png/revision/latest?cb=20210430124232",
+            "id": "ST5-14",
+            "name": "Tai Kamiya",
+            "jpname": "八神 太一",
+            "tsname": "Yagami Taichi",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "2",
+            "ilustrators": [],
+            "effect1": "[Opponent's Turn] When you use <Blocker> to suspend one of your Digimon, you may suspend this Tamer to unsuspend 1 of your Digimon.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Can I use this card's effect to unsuspend a Digimon that didn't suspend itself by activating <Blocker>?",
+                    "A: Yes, you can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/52/ST5-15.png/revision/latest?cb=20210430124233",
+            "id": "ST5-15",
+            "name": "Laser Eye",
+            "jpname": "レーザーアイ",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "4",
+            "ilustrators": [
+                "funbolt"
+            ],
+            "effect1": "[Main] Trigger <De-Digivolve  1> on 2 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards).",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/ST5-16.png/revision/latest?cb=20210430125944",
+            "id": "ST5-16",
+            "name": "Dark Side Attack",
+            "jpname": "ジェノサイドアタック",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "5",
+            "ilustrators": [
+                "TANIMESO"
+            ],
+            "effect1": "[Main] Delete 1 of your opponent's Digimon with a play cost of 7 or less.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "ST-5: Starter Deck Machine Black"
+            ],
+            "rarity": "Uncommon"
+        }
+    ]
+}

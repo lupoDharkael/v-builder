@@ -1,0 +1,3583 @@
+{
+    "name": "BT-08: New Hero",
+    "shortname": "BT-08",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5b/BT8-001.png/revision/latest?cb=20220422124923",
+            "id": "BT8-001",
+            "name": "Gurimon",
+            "jpname": "グリモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "effect2": "[When Attacking] (Once Per Turn) If this Digimon has 6000 DP or more, <Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ab/BT8-002.png/revision/latest?cb=20220422124923",
+            "id": "BT8-002",
+            "name": "Hiyarimon",
+            "jpname": "ヒヤリモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Kirita"
+            ],
+            "effect2": "[All Turns] While your opponent has no Digimon with digivolution cards, this Digimon gets +1000 DP.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does this card's effect activate if my opponent does not have a single Digimon in their battle area?",
+                    "A: Yes, it activates."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/70/BT8-003.png/revision/latest?cb=20220422124924",
+            "id": "BT8-003",
+            "name": "Frimon",
+            "jpname": "フリモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Ryodan"
+            ],
+            "effect2": "[Your Turn] While you have 3 or more security cards, this Digimon gets +1000 DP.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If I have 6 security cards, does this card's effect give +2000 DP?",
+                    "A: No, this effect gives +1000 DP even if you have 6 security cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f7/BT8-004.png/revision/latest?cb=20220422124924",
+            "id": "BT8-004",
+            "name": "Bibimon",
+            "jpname": "ビビモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Kirita"
+            ],
+            "effect2": "[Opponent's Turn] While all of your Digimon are suspended, this Digimon gets +1000 DP.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e4/BT8-005.png/revision/latest?cb=20220422124924",
+            "id": "BT8-005",
+            "name": "Kyokyomon",
+            "jpname": "キョキョモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser/X Antibody",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "effect2": "[Your Turn] (Once Per Turn) When an effect places a digivolution card under this Digimon, it gets +1000 DP until the end of your opponent's next turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: When this card itself is added to my Digimon's digivolution cards, does this card's inherited effect activate?",
+                    "A: Yes, it activates."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2d/BT8-006.png/revision/latest?cb=20220422124924",
+            "id": "BT8-006",
+            "name": "DemiMeramon",
+            "jpname": "プチメラモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "koki"
+            ],
+            "effect2": "[Your Turn] (Once Per Turn) When a card is trashed from your deck, <Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does this card's inherited effect activate even if cards are trashed from my deck by my own effects?",
+                    "A: Yes, it activates."
+                ],
+                [
+                    "Q: Does this card's inherited effect activate when an effect reveals cards from my deck and \"trash any remaining cards\"?",
+                    "A: No, cards that revealed from deck then trashed are not treated as \"trashed from deck\"."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e7/BT8-007.png/revision/latest?cb=20220422124924",
+            "id": "BT8-007",
+            "name": "Gazimon",
+            "jpname": "ガジモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Mammal",
+            "ilustrators": [
+                "tessy"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a1/BT8-008.png/revision/latest?cb=20220422124924",
+            "id": "BT8-008",
+            "name": "Gammamon",
+            "jpname": "ガンマモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Ceratopsian",
+            "ilustrators": [
+                "Tonamikanji",
+                "sasasi"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[Your Turn] (Once Per Turn) When you play a red Tamer, <Draw 1> (Draw 1 card from your deck).",
+            "effect2": "[When Attacking] If this Digimon has 6000 DP or more, delete 1 of your opponent's Digimon with 3000 DP or less.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Digimon Card Game Fest - Fest Set"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7d/BT8-009.png/revision/latest?cb=20220422124924",
+            "id": "BT8-009",
+            "name": "Hawkmon",
+            "jpname": "ホークモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Free",
+            "type": "Avian",
+            "ilustrators": [
+                "Kenji Watanabe",
+                "Takase"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Yellow",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 2-color red card among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can I add an option card with 2 colours that includes red to my hand with this card's effect?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: Can I add a card with an effect that says \"This colour of this Digimon is also treated as red\" to my hand with this card's effect?",
+                    "A: No, you cannot."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a5/BT8-010.png/revision/latest?cb=20220422124924",
+            "id": "BT8-010",
+            "name": "Aquilamon",
+            "jpname": "アクィラモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Free",
+            "type": "Giant Bird",
+            "ilustrators": [
+                "shosuke"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Yellow",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect1": "When playing this card from your hand, reduce its play cost by 1 if you have a yellow Digimon in play.",
+            "effect2": "[When Attacking] If you have a yellow Digimon in play, delete 1 of your opponent's Digimon with 5000 DP or less.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's effect reduce its play cost by 2 if I have 2 yellow Digimon in play?",
+                    "A: No, even if you have 2 yellow Digimon in play, this effect only reduces its play cost by 1."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f0/BT8-011.png/revision/latest?cb=20220422124924",
+            "id": "BT8-011",
+            "name": "Cyclonemon",
+            "jpname": "サイクロモン",
+            "tsname": "Cyclomon",
+            "color": [
+                "Red",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Black",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect2": "[When Attacking] Delete 1 of your opponent's Digimon with 2000 DP or less.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a5/BT8-012.png/revision/latest?cb=20220422124925",
+            "id": "BT8-012",
+            "name": "Flamedramon",
+            "jpname": "フレイドラモン",
+            "tsname": "Fladramon",
+            "color": [
+                "Red",
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Armor Form",
+            "attribute": "Free",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "sasasi",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "effect1": "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Attacking] This Digimon gets +3000 DP for the turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: After this card gets +3000 DP from its [When Attacking] effect, if I activate <Armor Purge> to trash this card. What happens to the +3000 DP?",
+                    "A: As the effect has already been activated, the +3000 DP effect will continue \"for the turn\"."
+                ],
+                [
+                    "Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Veemon]>\", written in the text for [BT8-021 Flamedramon], as an effect? Can [BT8-021 Flamedramon] digivolve from [Veemon] in the breeding area?",
+                    "A: Yes, [BT8-021 Flamedramon] can digivolve from [Veemon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/BT8-013.png/revision/latest?cb=20220422124925",
+            "id": "BT8-013",
+            "name": "BetelGammamon",
+            "jpname": "ベテルガンマモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[When Digivolving] <Blitz> (If your opponent has 1 or more memory, this Digimon may attack).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/BT8-014.png/revision/latest?cb=20220422124925",
+            "id": "BT8-014",
+            "name": "SkullMeramon",
+            "jpname": "デスメラモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Flame",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8e/BT8-015.png/revision/latest?cb=20220422124925",
+            "id": "BT8-015",
+            "name": "Silphymon",
+            "jpname": "シルフィーモン",
+            "color": [
+                "Red",
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Free",
+            "type": "Beastkin",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "evocolor2": "Yellow",
+            "evolevel2": "4",
+            "evocost2": "4",
+            "effect1": "[When Digivolving] 1 of your opponent's Digimon gets -5000 DP for the turn. Then, when DNA digivolving, delete 1 of your opponent's Digimon with 5000 DP or less.",
+            "effect2": "[When Attacking] Delete 1 of your opponent's Digimon with 5000 DP or less.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e1/BT8-016.png/revision/latest?cb=20220422124925",
+            "id": "BT8-016",
+            "name": "MasterTyrannomon",
+            "jpname": "マスターティラノモン",
+            "color": [
+                "Red",
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "evocolor2": "Green",
+            "evolevel2": "4",
+            "evocost2": "4",
+            "effect1": "[Your Turn] All of your Digimon with [Tyrannomon] in their name gain <Security Attack +1> (This Digimon checks 1 additional security card).",
+            "effect2": "<Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card count itself as a Digimon with [Tyrannomon] in its name for this card's effect to gain <Security Attack +1>?",
+                    "A: Yes, it does."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e4/BT8-017.png/revision/latest?cb=20220422124925",
+            "id": "BT8-017",
+            "name": "UltimateBrachiomon",
+            "jpname": "アルティメットブラキモン",
+            "tsname": "UltimateBrachimon",
+            "color": [
+                "Red",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "10",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Cyborg/X Antibody",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Black",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ab/BT8-018.png/revision/latest?cb=20220422124926",
+            "id": "BT8-018",
+            "name": "Marsmon",
+            "jpname": "マルスモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Shaman/Olympos XII",
+            "ilustrators": [
+                "Hokyyuu"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[Your Turn] This Digimon can also attack your opponent's unsuspended Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/97/BT8-019.png/revision/latest?cb=20220422124926",
+            "id": "BT8-019",
+            "name": "Zhuqiaomon",
+            "jpname": "スーツェーモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Holy Bird/Four Sovereigns",
+            "ilustrators": [
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "effect1": "[When Digivolving] Your opponent chooses 1 of their Digimon. Delete all Digimon other than this Digimon and your opponent's chosen Digimon. For each Digimon deleted by this effect, gain 1 memory.\n[Your Turn] When an opponent's Digimon is deleted, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn for each of your opponent's Digimon deleted.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: What does this card's [When Digivolving] effect do exactly?",
+                    "A: Other than this Digimon and 1 of your opponent's Digimon that was chosen, delete all of you and your opponent's Digimon, and gain 1 memory for each Digimon that was deleted by this effect."
+                ],
+                [
+                    "Q: Does this card's [When Digivolving] effect also delete Digimon in breeding area?",
+                    "A: No, Digimon in breeding area cannot be a target of any effects, so they are not deleted."
+                ],
+                [
+                    "Q: Can my opponent choose the Digimon in their breeding area for this card's [When Digivolving] effect?",
+                    "A: No, Digimon in breeding area cannot be a target of any effects, so they cannot be chosen. Also, regardless of the choice, this effect does not delete Digimon in breeding area."
+                ],
+                [
+                    "Q: What happens to this card's [When Digivolving] effect if my opponent does not have a single Digimon in their battle area?",
+                    "A: Delete all of your Digimon except this Digimon, then gain 1 memory for each Digimon deleted."
+                ],
+                [
+                    "Q: When Digimon would be deleted by this effect, can my opponent activate <Decoy> or <Armor Purge> etc, to stop their Digimon that was not chosen, from being deleted?",
+                    "A: Yes, they can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/45/BT8-020.png/revision/latest?cb=20220422124926",
+            "id": "BT8-020",
+            "name": "Patamon",
+            "jpname": "パタモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mammal",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Yellow",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect2": "[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: What kind of effect is this card's inherited effect?",
+                    "A: At the end of your turn, the Digimon that has this card in its digivolution cards, and 1 of your other Digimon, can DNA digivolve into a Digimon in your hand that can DNA digivolve, before the turn is passed to your opponent."
+                ],
+                [
+                    "Q: Can I use this card's inherited effect to DNA digivolve into a Digimon card in my hand that does not have a DNA digivolve effect?",
+                    "A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve into a Digimon card without a DNA digovolution effect."
+                ],
+                [
+                    "Q: Can I use this card's inherited effect to DNA digivolve my Digimon in play that is not the colour and level specified by the card with DNA digivolve in my hand?",
+                    "A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve your Digimon that is not the correct colour or level  specified by the card with DNA digivolve."
+                ],
+                [
+                    "Q: This card's [End of Your Turn] effect has triggered, and the Digimon it is underneath is used as part of a DNA Digivolve. Can I still activate this effect?",
+                    "A: No, the Digimon from DNA Digivolve is treated as a new Digimon so the old DIgimon is no longer in the battle area."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/77/BT8-021.png/revision/latest?cb=20220422124926",
+            "id": "BT8-021",
+            "name": "Veemon",
+            "jpname": "ブイモン",
+            "tsname": "V-mon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Free",
+            "type": "Mini Dragon",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Green",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 2-color blue card among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can I add an option card with 2 colours that includes blue to my hand with this card's effect?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: Can I add a card with an effect that says \"This colour of this Digimon is also treated as blue\" to my hand with this card's effect?.",
+                    "A: No, you cannot."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3a/BT8-022.png/revision/latest?cb=20220422124926",
+            "id": "BT8-022",
+            "name": "SnowAgumon",
+            "jpname": "ユキアグモン",
+            "tsname": "YukiAgumon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Trash the top digivolution card of 1 of your opponent's Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/39/BT8-023.png/revision/latest?cb=20220422124926",
+            "id": "BT8-023",
+            "name": "Submarimon",
+            "jpname": "サブマリモン",
+            "color": [
+                "Blue",
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Armor Form",
+            "attribute": "Free",
+            "type": "Aquatic",
+            "ilustrators": [
+                "TANIMESO"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "effect1": "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Digivolving] Trash the bottom digivolution card of 1 of your opponent's Digimon. Then, 1 of your opponent's Digimon with no digivolution cards gets -3000 DP for the turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: For this card's [When Digivolving] effect, if my opponent has no Digimon with digivolution cards, thus no digivolution card can be trashed, does that mean the part of \"1 of your opponent's Digimon without digivolution cards gets -3000 DP\" cannot activate?",
+                    "A: No, even if you couldn't trash any digivolution card of your opponent's Digimon, the effect \"1 of your opponent's Digimon without digivolution cards gets -3000 DP\" will still activate."
+                ],
+                [
+                    "Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Armadillomon]>\", written in the text for [BT8-023 Submarimon], as an effect? Can [BT8-023 Submarimon] digivolve from [Armadillomon] in the breeding area?",
+                    "A: Yes, [BT8-023 Submarimon] can digivolve from [Armadillomon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/12/BT8-024.png/revision/latest?cb=20220422124926",
+            "id": "BT8-024",
+            "name": "Angemon",
+            "jpname": "エンジェモン",
+            "color": [
+                "Blue",
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Angel",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "evocolor2": "Yellow",
+            "evolevel2": "3",
+            "evocost2": "3",
+            "effect1": "[Your Turn] When this Digimon would digivolve, if you have 3 or fewer security cards, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).",
+            "effect2": "[When Attacking] If you have 3 or more security cards, return 1 of your opponent's level 3 Digimon to its owner's hand.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: When exactly is the timing to activate this card's [Your Turn] effect of <Recovery +1 (Deck)>?",
+                    "A: \"When this Digimon would digivolve\" is after declaring a digivolution, but before paying the digivolution cost."
+                ],
+                [
+                    "Q: Does this card's [Your Turn] effect activate even when DNA digivolving?",
+                    "A: Yes, it activates."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/14/BT8-025.png/revision/latest?cb=20220422124927",
+            "id": "BT8-025",
+            "name": "Hookmon",
+            "jpname": "フックモン",
+            "color": [
+                "Blue",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Mutant",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Black",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect2": "[When Attacking] Trash the bottom digivolution card of 1 of your opponent's Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4e/BT8-026.png/revision/latest?cb=20220422124927",
+            "id": "BT8-026",
+            "name": "Halsemon",
+            "jpname": "ホルスモン",
+            "color": [
+                "Blue",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Armor Form",
+            "attribute": "Free",
+            "type": "Beast",
+            "ilustrators": [
+                "GOSSAN",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "effect1": "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Attacking] Delete 1 of your opponent's level 3 Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Hawkmon]>\", written in the text for [BT8-026 Halsemon], as an effect? Can [BT8-026 Halsemon] digivolve from [Hawkmon] in the breeding area?",
+                    "A: Yes, [BT8-026 Halsemon] can digivolve from [Hawkmon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/51/BT8-027.png/revision/latest?cb=20220422124927",
+            "id": "BT8-027",
+            "name": "Scorpiomon",
+            "jpname": "アノマロカリモン",
+            "tsname": "Anomalocarimon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Crustacean",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/BT8-028.png/revision/latest?cb=20220422124927",
+            "id": "BT8-028",
+            "name": "CaptainHookmon",
+            "jpname": "キャプテンフックモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Marine Man",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[All Turns] When your opponent plays a level 5 or higher Digimon, gain 1 memory and <Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's effect activate if my opponent's Digimon digivolves into level 5 or above?",
+                    "A: No, digivolving a Digimon is not playing it, so it does not activate."
+                ],
+                [
+                    "Q: Does this card's effect activate when my opponent moves a level 5 or above Digimon from breeding area to battle area?",
+                    "A: No, moving a Digimon from breeding area is not playing it, so it does not activate."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/24/BT8-029.png/revision/latest?cb=20220422124927",
+            "id": "BT8-029",
+            "name": "Frozomon",
+            "jpname": "フロゾモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Machine",
+            "ilustrators": [
+                "SENNSU"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead)\n[Your Turn] While your opponent has a Digimon with a digivolution card in play, this Digimon can't attack.",
+            "effect2": "[All Turns] (Once Per Turn) When a digivolution card of an opponent's Digimon is trashed, return 1 of your opponent's level 3 Digimon to its owner's hand.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: When my opponent has a Digimon with digivolution cards in their breeding area, does that mean this Digimon cannot attack?",
+                    "A: No, Digimon in breeding area are not referenced for effects, so it can attack."
+                ],
+                [
+                    "Q: Does this card's inherited effect activate when my opponent activates <Digi-Burst>?",
+                    "A: Yes, it activates."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/38/BT8-030.png/revision/latest?cb=20220422124927",
+            "id": "BT8-030",
+            "name": "Surfimon",
+            "jpname": "サーフィモン",
+            "color": [
+                "Blue",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "10",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Black",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/93/BT8-031.png/revision/latest?cb=20220422124927",
+            "id": "BT8-031",
+            "name": "FrosVelgrmon",
+            "jpname": "フロスベルグモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Giant Bird",
+            "ilustrators": [
+                "Hokyyuu"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] Trash the top digivolution card of 1 of your opponent's Digimon. Then, return 1 of your opponent's Digimon with no digivolution cards to its owner's hand.\n[Opponent's Turn] All of your opponent's Digimon gain \"[When Attacking] Trash the bottom digivolution card of this Digimon.\"",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/10/BT8-032.png/revision/latest?cb=20220422124927",
+            "id": "BT8-032",
+            "name": "Imperialdramon Fighter Mode",
+            "jpname": "インペリアルドラモン：ファイターモード",
+            "color": [
+                "Blue",
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Free",
+            "type": "Ancient Dragonkin",
+            "ilustrators": [
+                "sasasi",
+                "Tonamikanji",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "evocolor2": "Green",
+            "evolevel2": "5",
+            "evocost2": "5",
+            "effect1": "[When Digivolving] Return 1 of your opponent's Digimon with 10000 DP or less to its owner's hand.\n[When Attacking] (Once Per Turn) If a blue card is in this Digimon's digivolution cards, unsuspend 1 of your Digimon. If a green card is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Super Rare",
+            "engsets": [
+                "Ultimate Cup"
+            ],
+            "ruling": [
+                [
+                    "Q: Do both of this card's [When Attacking] effects activate if it has both blue and green cards its digivolution cards?",
+                    "A: Yes, both activate."
+                ],
+                [
+                    "Q: Do both of this card's [When Attacking] effects activate if it only has 1 two-coloured card that is both blue and green its digivolution cards?",
+                    "A: Yes, both activate."
+                ],
+                [
+                    "Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 if name contains [Dragon Mode]>\", written in the text for [BT8-032 Imperialdramon Fighter Mode], as an effect? Can [BT8-032 Imperialdramon Fighter Mode] digivolve a Digimon whose name contains [Dragon Mode] in the breeding area?",
+                    "A: Yes, [BT8-032 Imperialdramon Fighter Mode] can digivolve from a Digimon Template:EffectLinkNames in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4a/BT8-033.png/revision/latest?cb=20220422124927",
+            "id": "BT8-033",
+            "name": "Armadillomon",
+            "jpname": "アルマジモン",
+            "tsname": "Armadimon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Free",
+            "type": "Mammal",
+            "ilustrators": [
+                "Kenji Watanabe",
+                "Takase"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Blue",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 2-color yellow card among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can I add an option card with 2 colours that includes yellow to my hand with this card's effect?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: Can I add a card with an effect that says \"This colour of this Digimon is also treated as yellow\" to my hand with this card's effect?",
+                    "A: No, you cannot."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fa/BT8-034.png/revision/latest?cb=20220422124927",
+            "id": "BT8-034",
+            "name": "Elecmon",
+            "jpname": "エレキモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "4000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mammal",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e3/BT8-035.png/revision/latest?cb=20220422124927",
+            "id": "BT8-035",
+            "name": "Candlemon",
+            "jpname": "キャンドモン",
+            "tsname": "Candmon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Flame",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Purple",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect2": "[Your Turn] (Once Per Turn) When you play another purple Digimon, gain 1 memory.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/ff/BT8-036.png/revision/latest?cb=20220422124927",
+            "id": "BT8-036",
+            "name": "Ankylomon",
+            "jpname": "アンキロモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Free",
+            "type": "Ankylosaur",
+            "ilustrators": [
+                "shosuke"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Blue",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect1": "When playing this card from your hand, reduce its play cost by 1 if you have a blue Digimon in play.",
+            "effect2": "[When Attacking] If you have a blue Digimon in play, 1 of your opponent's Digimon gets -3000 DP for the turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's inherited effect activate when the Digimon itself that has this card in its digivolution card is a blue Digimon?",
+                    "A: Yes, it activates."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/12/BT8-037.png/revision/latest?cb=20220422124927",
+            "id": "BT8-037",
+            "name": "Dinohyumon",
+            "jpname": "ディノヒューモン",
+            "color": [
+                "Yellow",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Red",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect2": "[When Attacking] 1 of your opponent's Digimon gets -1000 DP for the turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/BT8-038.png/revision/latest?cb=20220422124927",
+            "id": "BT8-038",
+            "name": "Magnamon",
+            "jpname": "マグナモン",
+            "color": [
+                "Yellow",
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "4",
+            "form": "Armor Form",
+            "attribute": "Free",
+            "type": "Holy Warrior/Royal Knight",
+            "ilustrators": [
+                "Tonamikanji",
+                "sasasi"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "4",
+            "evocolor2": "Blue",
+            "evolevel2": "3",
+            "evocost2": "4",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Digivolving] Unsuspend this Digimon, and it gets +2000 DP until the end of your opponent's next turn for each card with [Armor Form] in their traits in your trash.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: After this card gets +2000 DP for each Digimon card with [Armor Form] in its traits in my trash from its [When Digivolving] effect, if I activate <Armor Purge> to trash this card, what happens to the instances of +2000 DP?",
+                    "A: As the effect has already been activated, the instances of +2000 DP will persist \"until the end of your opponent's next turn\"."
+                ],
+                [
+                    "Q: Do you treat the special digivolution requirements of \"<Digivolve: 3 from [Veemon]>\", written in the text for [BT8-038 Magnamon], as an effect? Can [BT8-038 Magnamon] digivolve from [Veemon] in the breeding area?",
+                    "A: Yes, [BT8-038 Magnamon] can digivolve from [Veemon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fb/BT8-039.png/revision/latest?cb=20220422124927",
+            "id": "BT8-039",
+            "name": "Rapidmon",
+            "jpname": "ラピッドモン",
+            "color": [
+                "Yellow",
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "6000",
+            "level": "4",
+            "form": "Armor Form",
+            "attribute": "Vaccine",
+            "type": "Holy Warrior",
+            "ilustrators": [
+                "Tonamikanji",
+                "sasasi"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "4",
+            "evocolor2": "Green",
+            "evolevel2": "3",
+            "evocost2": "4",
+            "effect1": "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Digivolving] Suspend 1 of your opponent's Digimon for each Tamer you have in play. Then, up to 3 of your opponent's suspended Digimon get -5000 DP for the turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Does this card's [When Digivolving] effect give up to 6 of my opponent's Digimon -5000 DP if I have 2 tamers in play?",
+                    "A: No, regardless of how many tamers you have in play, only up to 3 Digimon get -5000 DP ."
+                ],
+                [
+                    "Q: Do you treat the special digivolution requirements of \"<Digivolve: 3 from [Terriermon]>\", written in the text for [BT8-039 Rapidmon], as an effect? Can [BT8-039 Rapidmon] digivolve from [Terriermon] in the breeding area?",
+                    "A: Yes, [BT8-039 Rapidmon] can digivolve from [Terriermon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/66/BT8-040.png/revision/latest?cb=20220422124927",
+            "id": "BT8-040",
+            "name": "Betsumon",
+            "jpname": "ベツモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Puppet",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] You may trash 1 card in your hand to treat this Digimon as also having the colors of the trashed card for the turn. Then, if this Digimon has 2 or more colors, <Draw 2> (Draw 2 cards from your deck).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If I trash a red card for this card's effect, does this Digimon then count as having 2 colours of yellow & red, letting me draw 2 cards?",
+                    "A: Yes, it counts as having 2 colours, so you draw 2."
+                ],
+                [
+                    "Q: If I trash a blue/green 2-coloured card for this card's effect, does this Digimon then count as having 3 colours of yellow, blue, & green?",
+                    "A: Yes, it is counted as a 3-coloured Digimon."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6d/BT8-041.png/revision/latest?cb=20220422124927",
+            "id": "BT8-041",
+            "name": "Kyukimon",
+            "jpname": "キュウキモン",
+            "color": [
+                "Yellow",
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "9000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Mysterious Beast",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "evocolor2": "Purple",
+            "evolevel2": "4",
+            "evocost2": "3",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d0/BT8-042.png/revision/latest?cb=20220422124927",
+            "id": "BT8-042",
+            "name": "Shakkoumon",
+            "jpname": "シャッコウモン",
+            "color": [
+                "Yellow",
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Free",
+            "type": "Mutant",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "evocolor2": "Blue",
+            "evolevel2": "4",
+            "evocost2": "4",
+            "effect1": "[When Digivolving] If you have 5 or fewer security cards, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack). Then, when DNA digivolving, return 1 of your opponent's Digimon whose level is less than or equal to the number of cards in your security stack to its owner's hand.",
+            "effect2": "[When Attacking] 1 of your opponent's Digimon gets -3000 DP for the turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0e/BT8-043.png/revision/latest?cb=20220422124928",
+            "id": "BT8-043",
+            "name": "Cherubimon",
+            "jpname": "ケルビモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Cherub/Three Great Angels",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Purple",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "When playing this card from your hand, you may delete 1 of your purple [Cherubimon] to reduce this card's play cost by 8.\n[On Play] [When Digivolving] For each Tamer you have in play, activate the effect below.\n・1 of your opponent's Digimon gets <Security Attack -2> (This Digimon checks 2 fewer security cards) until the end of your opponent's next turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: For this card's [On Play] [When Digivolving] effect, when I have multiple tamers in play, can I choose that many separate Digimon to give <Security Attack -2>?",
+                    "A: Yes, this [On Play] [When Digivolving] effect is activated as many times as the number of your tamers in play, so you can choose different targets for each activation."
+                ],
+                [
+                    "Q: When this card's [On Play] [When Digivolving] effect activates 2 or more times, are they considered to be activated in separate different timings?",
+                    "A: No, they are treated to be activated at the same time."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/68/BT8-044.png/revision/latest?cb=20220422124928",
+            "id": "BT8-044",
+            "name": "Azulongmon",
+            "jpname": "チンロンモン",
+            "tsname": "Blue",
+            "color": [
+                "Yellow",
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Holy Dragon/Four Great Dragons/Four Sovereigns",
+            "ilustrators": [
+                "UnnoDaisuke"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Blue",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "effect1": "[When Attacking] You may trash the top card of your security stack to gain 2 memory.\n[Your Turn] (Once Per Turn) When one of your other Digimon digivolves, you may unsuspend it.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: When my suspended digimon digivolves into this Digimon, can its [Your Turn] effect unsuspend this Digimon?",
+                    "A: No, it cannot. This card's [Your Turn] effect is an effect that unsuspends your other Digimon when they digivolve."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/70/BT8-045.png/revision/latest?cb=20220422124928",
+            "id": "BT8-045",
+            "name": "Ekakimon",
+            "jpname": "エカキモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mutant",
+            "ilustrators": [
+                "Kirita"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/BT8-046.png/revision/latest?cb=20220422124928",
+            "id": "BT8-046",
+            "name": "Terriermon",
+            "jpname": "テリアモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Beast",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] You may reveal the top 5 cards of your deck. Add 1 card with [Gargomon], or [Rapidmon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/82/BT8-047.png/revision/latest?cb=20220422124928",
+            "id": "BT8-047",
+            "name": "Pulsemon",
+            "jpname": "パルスモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Beastkin",
+            "ilustrators": [
+                "Minato Sashima"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[All Turns] This Digimon gets +1000 DP for each of your other suspended Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/79/BT8-048.png/revision/latest?cb=20220422124928",
+            "id": "BT8-048",
+            "name": "Shurimon",
+            "jpname": "ホルスモン",
+            "color": [
+                "Green",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Armor Form",
+            "attribute": "Free",
+            "type": "Mutant",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "effect1": "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Digivolving] 1 of your opponent's Digimon with <Blocker> can't attack or block until the end of your opponent's next turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: When a Digimon that was targeted by this card's [When Digivolving] effect loses <Blocker> due to digivolving, DNA digivolving, or losing digivolution cards, does that Digimon then become able to attack and block?",
+                    "A: No, at the point of time when this card's [When Digivolving] effect activates, if a Digimon was a valid target for having <Blocker>, this card's effect will still continue and that Digimon cannot attack and block even if it loses its <Blocker> afterwards."
+                ],
+                [
+                    "Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Hawkmon]>\", written in the text for [BT8-048 Shurimon], as an effect? Can [BT8-048 Shurimon] digivolve from [Hawkmon] in the breeding area?",
+                    "A: Yes, [BT8-048 Shurimon] can digivolve from [Hawkmon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c4/BT8-049.png/revision/latest?cb=20220422124928",
+            "id": "BT8-049",
+            "name": "Namakemon",
+            "jpname": "ナマケモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "3000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Puppet",
+            "ilustrators": [
+                "yuuki."
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[Main] You may suspend this Digimon to reveal the top 3 cards of your deck. Add 1 green Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6e/BT8-050.png/revision/latest?cb=20220422124928",
+            "id": "BT8-050",
+            "name": "Exermon",
+            "jpname": "エキサモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Insectoid",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[When Digivolving] You may suspend 1 of your Digimon to suspend 1 of your opponent's Digimon.",
+            "effect2": "[All Turns] This Digimon gets +1000 DP for each of your other suspended Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: For this card's [When Digivolving] effect, can it suspend itself to suspend 1 of my opponent's Digimon?",
+                    "A: Yes, it can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/35/BT8-051.png/revision/latest?cb=20220422124929",
+            "id": "BT8-051",
+            "name": "Digmon",
+            "jpname": "ディグモン",
+            "color": [
+                "Green",
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Armor Form",
+            "attribute": "Free",
+            "type": "Insectoid",
+            "ilustrators": [
+                "GOSSAN",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "effect1": "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Attacking] 1 of your opponent's suspended Digimon gets -3000 DP for the turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Armadillomon]>\", written in the text for [BT8-051 Digmon], as an effect? Can [BT8-051 Digmon] digivolve from [Armadillomon] in the breeding area?",
+                    "A: Yes, [BT8-051 Digmon] can digivolve from [Armadillomon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/53/BT8-052.png/revision/latest?cb=20220422124928",
+            "id": "BT8-052",
+            "name": "Drimogemon",
+            "jpname": "ドリモゲモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Beast",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "1",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/BT8-053.png/revision/latest?cb=20220422124928",
+            "id": "BT8-053",
+            "name": "Lighdramon",
+            "jpname": "ライドラモン",
+            "color": [
+                "Green",
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Armor Form",
+            "attribute": "Free",
+            "type": "Beast",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "effect1": "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Digivolving] Suspend 1 of your opponent's level 4 or lower Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Veemon]>\", written in the text for [BT8-053 Lighdramon], as an effect? Can [BT8-053 Lighdramon] digivolve from [Veemon] in the breeding area?",
+                    "A: Yes, [BT8-053 Lighdramon] can digivolve from [Veemon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7f/BT8-054.png/revision/latest?cb=20220422124928",
+            "id": "BT8-054",
+            "name": "Pistmon",
+            "jpname": "ピストモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Vegetation",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "<Digisorption -2> (When one of your Digimon digivolves into this card from your hand, you may suspend 1 of your Digimon to reduce the memory cost of the digivolution by 2).",
+            "effect2": "[All Turns] This Digimon gets +1000 DP for each of your other suspended Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/93/BT8-055.png/revision/latest?cb=20220422124928",
+            "id": "BT8-055",
+            "name": "Climbmon",
+            "jpname": "クライモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Insectoid",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "effect1": "[When Digivolving] If this Digimon is suspended, return 1 of your opponent's suspended Digimon with DP less than or equal to this Digimon's DP to its owner's hand.",
+            "effect2": "[Your Turn] When this Digimon becomes unsuspended during your unsuspend phase, suspend 1 of your opponent's Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a0/BT8-056.png/revision/latest?cb=20220422124929",
+            "id": "BT8-056",
+            "name": "Spinomon",
+            "jpname": "スピノモン",
+            "color": [
+                "Green",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "10",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Red",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/50/BT8-057.png/revision/latest?cb=20220422124929",
+            "id": "BT8-057",
+            "name": "Shivamon",
+            "jpname": "シーヴァモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Insectoid",
+            "ilustrators": [
+                "GOSSAN",
+                "Tomotake Kinoshita"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[Opponent's Turn] While all of your Digimon are suspended, your opponent can't use Option cards.\n[Your Turn] When this Digimon becomes unsuspended during your unsuspend phase, trash the top card of your opponent's security stack.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: When my opponent has this Digimon in play, and on my turn after I used option cards such as [BT1-109 Smashed Potatoes] or [EX1-071 Win Rate: 60%] etc, to \"reduce the digivolution cost the next time my Digimon digivolves\", all of my opponent's Digimon then become suspended. In this scenario, do those option cards effects becomes nullified when my Digimon digivolves?",
+                    "A: No, as those option cards are already used and their effects have already activated, they are not nullified by this card's [Opponent's Turn] effect."
+                ],
+                [
+                    "Q: When my opponent has this Digimon in play, can I activate <Delay> of my option card with <Delay> that was already placed in my battle area from before?",
+                    "A: Yes, you can. Activating the effect of <Delay> of an option card that was already placed in your battle area does not count as using an option card."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0d/BT8-058.png/revision/latest?cb=20220422124929",
+            "id": "BT8-058",
+            "name": "Agumon",
+            "jpname": "アグモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Reptile",
+            "ilustrators": [
+                "As'Maria"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Red",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 card with [Greymon] in its name and 1 card with [Dragonkin] in its traits among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d3/BT8-059.png/revision/latest?cb=20220422124929",
+            "id": "BT8-059",
+            "name": "Kokuwamon",
+            "jpname": "コクワモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Machine",
+            "ilustrators": [
+                "funbolt"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[All Turns] Players can't ignore digivolution requirements.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: What kind of effect is this card's effect?",
+                    "A: This effect stops both players from digivolving with effects that says \"ignore digivolution requirements\", or from Digimon that do not meet the digivolution requirements."
+                ],
+                [
+                    "Q: Does this card's effect stop effects of [Hybrid] form card's digivolutions of \"Your red tamer can digivolve into this card in your hand as if it was a red level 3 Digimon\" etc?",
+                    "A: No, as it doesn't say \"Ignore digivolution requirements\", and it is digivolving according to the digivolution requirements while treating the tamer as a Digimon, it can digivolve."
+                ],
+                [
+                    "Q: Does this card's effect stops DNA digivolutions or special digivolutions?",
+                    "A: No, DNA digivolution and special digivolutions written on the cards are treated as the digivolution requirements, so they are not stopped by this card."
+                ],
+                [
+                    "Q: When this Digimon is in play, can the effect \"can digivolve without paying its cost\" activate?",
+                    "A: Yes, as activates, as it is an effect that allows digivolving without paying its cost without ignoring digivolution requirements."
+                ],
+                [
+                    "Q: Can my opponent activate the effect of [BT6-087 Tai Kamiya] to ignore level while this card is in play?",
+                    "A: No, your opponent cannot digivolve ignoring level while this card's [All Turns] effect is active."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ca/BT8-060.png/revision/latest?cb=20220422124929",
+            "id": "BT8-060",
+            "name": "Ryudamon",
+            "jpname": "リュウダモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Beast/X Antibody",
+            "ilustrators": [
+                "Takase",
+                "sasasi"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [X Antibody] in its traits and 1 [Yuji Musha] among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect2": "[All Turns] While this Digimon has [X Antibody] in its traits, it gains <Decoy (Black)>  (When one of your other black Digimon would be deleted by an opponent's effect, you may delete this Digimon to prevent that deletion).",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ab/BT8-061.png/revision/latest?cb=20220422124929",
+            "id": "BT8-061",
+            "name": "Thundermon",
+            "jpname": "サンダーボールモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Mutant",
+            "ilustrators": [
+                "yuuki."
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "The name of this card/Digimon is also treated as [Mamemon].",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's effect treat this card as being [Mamemon] even in the hand, deck, trash, and digivolution cards?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: Does this card's effect treat this card as being [Mamemon] even in breeding area?",
+                    "A: No, as effects do not activate in the breeding area, this card/Digimon is not treated as being [Mamemon] in the breeding area."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a8/BT8-062.png/revision/latest?cb=20220422124929",
+            "id": "BT8-062",
+            "name": "SkullKnightmon Cavalier Mode",
+            "jpname": "スカルナイトモン：騎馬モード",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Enhancement",
+            "ilustrators": [
+                "TANIMESO"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "evocolor2": "Black",
+            "evolevel2": "4",
+            "evocost2": "1",
+            "effect1": "The name of this card/Digimon is also treated as [SkullKnightmon] and [DeadlyAxemon].\n[When Digivolving] This Digimon gains <Jamming> (This Digimon can't be deleted in battles against Security Digimon) and <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead) until the end of your opponent's next turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does this card's effect treat this card as being [SkullKnightmon] or [DeadlyAxemon] even in the hand, deck, trash, and digivolution cards?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: Does this card's effect treat this card as being [SkullKnightmon] or [DeadlyAxemon] even in breeding area?",
+                    "A: No, as effects do not activate in the breeding area, this card/Digimon is not treated as being [SkullKnightmon] or [DeadlyAxemon] in the breeding area."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e1/BT8-063.png/revision/latest?cb=20220422124929",
+            "id": "BT8-063",
+            "name": "Ginryumon",
+            "jpname": "ギンリュウモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Beast Dragon/X Antibody",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[Opponent's Turn] While this Digimon has [X Antibody] in its traits, it gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e2/BT8-064.png/revision/latest?cb=20220422124929",
+            "id": "BT8-064",
+            "name": "Greymon",
+            "jpname": "グレイモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "As'Maria"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Red",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect2": "[Opponent's Turn] While you have a red Digimon in play, this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's inherited effect activate when the Digimon itself that has this card in its digivolution card is a red Digimon?",
+                    "A: Yes, it activates."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/BT8-065.png/revision/latest?cb=20220422124929",
+            "id": "BT8-065",
+            "name": "CatchMamemon",
+            "jpname": "キャッチマメモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Mutant",
+            "ilustrators": [
+                "yuuki."
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] You may return up to 4 Digimon cards with [Mamemon] in their name from your hand and/or trash to the top of your deck in any order. If you return 3 or more cards using this effect, <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: For this card's effect, can I return up to 4 Digimon cards with [Mamemon] in their names from both my hand and trash to the top of my deck?",
+                    "A: Yes, you return up to 4 cards from both your hands and trash."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2d/BT8-066.png/revision/latest?cb=20220422124929",
+            "id": "BT8-066",
+            "name": "Hisyaryumon",
+            "jpname": "ヒシャリュウモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Beast Dragon/X Antibody",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[Your Turn] When one of your effects places a digivolution card under this Digimon, you may digivolve this Digimon into a Digimon card in your hand with [X Antibody] in its traits by paying its digivolution cost. When digivolving with this effect, reduce the digivolution cost by 1.",
+            "effect2": "[Opponent's Turn] While this Digimon has [X Antibody] in its traits, it gains <Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Can I digivolve into any Digimon with [X Antibody] in its traits regardless of digivolution requirements with this card's [Your Turn] effect?",
+                    "A: No, you cannot. As this effect does not allow you to ignore digivolution requirements."
+                ],
+                [
+                    "Q: My [BT8-066 Hisyaryumon] attacks, and digivolves into [BT6-111 Alphamon] via it's own effect. Can I use [BT6-111 Alphamon]'s [When Attacking] effect?",
+                    "A: No, you cannot. As the timing for [When Attacking] effects to trigger has already passed. (From Card Rulings:EX1-040)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/14/BT8-067.png/revision/latest?cb=20220422124929",
+            "id": "BT8-067",
+            "name": "MetalGreymon",
+            "jpname": "メタルグレイモン",
+            "color": [
+                "Black",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Cyborg",
+            "ilustrators": [
+                "As'Maria"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "evocolor2": "Red",
+            "evolevel2": "4",
+            "evocost2": "4",
+            "effect1": "[When Digivolving] <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). Then, delete 1 of your opponent's Digimon with 3000 DP or less.",
+            "effect2": "[Your Turn] While this Digimon has [Dragonkin], or [Machine] in its traits, it can also attack your opponent's unsuspended Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e8/BT8-068.png/revision/latest?cb=20220422124929",
+            "id": "BT8-068",
+            "name": "BanchoMamemon",
+            "jpname": "バンチョーマメモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Mutant/Boss",
+            "ilustrators": [
+                "Tomotake Kinoshita"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] You may reveal the top 3 cards of your deck. For each of your opponent's Digimon, you may play 1 Digimon card with [Mamemon] in its name and a memory cost of 10 or less among the revealed cards without paying its memory cost. Trash the remaining cards.\n[All Turns] While you have another Digimon with [Mamemon] in its name in play, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: What happens for this card's [When Digivolving] effect if my opponent does not have a single Digimon on play?",
+                    "A: After revealing the 3 cards, all of them are trashed. However, since the effect is \"you may reveal the top 3 cards of your deck\", regardless of your opponent's Digimon, you can choose not to activate the effect when digivolving. If the effect is not activated, you do not reveal any cards, and no cards will be trashed."
+                ],
+                [
+                    "Q: For this card's \"play 1 Digimon card with [Mamemon] in their names a memory cost of 10 or less \", which cost is it referring to?",
+                    "A: Play cost."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/05/BT8-069-Errata.png/revision/latest?cb=20220520121335",
+            "id": "BT8-069",
+            "name": "Ouryumon",
+            "jpname": "オウリュウモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Beast Dragon/X Antibody",
+            "ilustrators": [
+                "Tonamikanji",
+                "sasasi"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] You may place 1 card with [X Antibody] in its traits from your hand under this Digimon as its bottom digivolution card to delete 1 of your opponent's Digimon with a play cost of 7 or less.\n[Your Turn] (Once Per Turn) When one of your effects places a digivolution card under one of your Digimon, this Digimon gets +2000 DP and can't be deleted by your opponent's effects until the end of your opponent's next turn.",
+            "effect2": "[End of Attack] (Once Per Turn) If this Digimon has [Alphamon] in its name, unsuspend it.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0c/BT8-070-Errata.png/revision/latest?cb=20220520121235",
+            "id": "BT8-070",
+            "name": "BlackWarGreymon",
+            "jpname": "ブラックウォーグレイモン",
+            "color": [
+                "Black",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "toriyufu",
+                "As'Maria"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Red",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "[When Digivolving] If this Digimon has a red digivolution card, choose any number of your opponent's Digimon. If this Digimon has a black digivolution card, choose any number of your opponent's Tamers. The chosen cards' play costs must add up to 6 or less. Delete the chosen cards.\n[All Turns] (Once Per Turn) When an opponent's Digimon is deleted, you may unsuspend this Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: For this card's [When Digivolving] effect, if there are both red and black cards in its digivolution cards, can I delete my opponent's tamer and Digimon?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: For this card's [When Digivolving] effect, if there are both red and black cards in its digivolution cards, can I choose my opponent's Digimon with play cost of up to 6, and my opponent's tamers with play cost of up to 6 separately?",
+                    "A: No, it must be a combination of Digimon and tamers with an added total of play cost of up to 6."
+                ],
+                [
+                    "Q: Do both of this card's [When Digivolving] effects activate if it only has 1 two-coloured card that is both red and black in its digivolution cards?",
+                    "A: Yes, both activate."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cb/BT8-071.png/revision/latest?cb=20220422124930",
+            "id": "BT8-071",
+            "name": "Psychemon",
+            "jpname": "サイケモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mutant",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[All Turns] Players can't reduce play costs.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: What kind of effect is this card's \"can't reduce play costs.\"?",
+                    "A: It is an effect that nullifies \"reduce memory cost by x\". You and your opponent will be unable to activate effects that reduce play costs, and must pay the play cost written on the cards in order to play them."
+                ],
+                [
+                    "Q: When this Digimon is in play, can \"play without paying its memory cost\" effects activate?",
+                    "A: Yes, \"play without paying its memory cost\" is not an effect that reduces play costs, so it can activate."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/82/BT8-072.png/revision/latest?cb=20220422124930",
+            "id": "BT8-072",
+            "name": "DemiDevimon",
+            "jpname": "ピコデビモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Evil",
+            "ilustrators": [
+                "shosuke"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 Tamer card among them to your hand, and trash 1 purple Digimon card among them. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: For this card's [On Play] effect, must the 1 trashed card among the revealed cards be a purple Digimon card?",
+                    "A: Yes, you can only trash 1 purple Digimon card."
+                ],
+                [
+                    "Q: Does this card's [On Play] effect activate \"when a card is trashed from deck\" effects?",
+                    "A: No."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6f/BT8-073.png/revision/latest?cb=20220422124931",
+            "id": "BT8-073",
+            "name": "Mushroomon",
+            "jpname": "マッシュモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "4000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Vegetation",
+            "ilustrators": [
+                "shosuke"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f0/BT8-074.png/revision/latest?cb=20220422124931",
+            "id": "BT8-074",
+            "name": "Soulmon",
+            "jpname": "ソウルモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Ghost",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[Your Turn] (Once Per Turn) When a card is trashed from your deck, gain 1 memory.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's inherited effect activate when an effect reveals cards from my deck and I must \"trash any remaining cards\"?",
+                    "A: No, cards that revealed from deck that are then trashed are not treated as \"trashed from deck\"."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4d/BT8-075.png/revision/latest?cb=20220422124931",
+            "id": "BT8-075",
+            "name": "Kogamon",
+            "jpname": "コウガモン",
+            "color": [
+                "Purple",
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Mutant",
+            "ilustrators": [
+                "Ryodan"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Green",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect2": "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4c/BT8-076.png/revision/latest?cb=20220422124930",
+            "id": "BT8-076",
+            "name": "Fangmon",
+            "jpname": "ソウルモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Dark Animal",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/39/BT8-077.png/revision/latest?cb=20220422124930",
+            "id": "BT8-077",
+            "name": "BlackGatomon",
+            "jpname": "ブラックテイルモン",
+            "tsname": "BlackTailmon",
+            "color": [
+                "Purple",
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dark Animal",
+            "ilustrators": [
+                "Ryodan"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "evocolor2": "Yellow",
+            "evolevel2": "3",
+            "evocost2": "3",
+            "effect1": "<Rush> (This Digimon can attack the turn it comes into play).",
+            "effect2": "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling).",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a5/BT8-078.png/revision/latest?cb=20220422124930",
+            "id": "BT8-078",
+            "name": "Karatenmon",
+            "jpname": "カラテンモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Wizard",
+            "ilustrators": [
+                "shosuke"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/25/BT8-079.png/revision/latest?cb=20220422124930",
+            "id": "BT8-079",
+            "name": "SkullSatamon",
+            "jpname": "スカルサタモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Undead",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Trash the top 2 cards of your deck. Then, return 1 card with [Demon Lord] in its traits from your trash to your hand.",
+            "effect2": "[Your Turn] (Once Per Turn) When a card is trashed from your deck, gain 1 memory.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's inherited effect activate when an effect reveals cards from my deck and I must \"trash any remaining cards\"?",
+                    "A: No, cards that revealed from deck that are then trashed are not treated as \"trashed from deck\"."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/df/BT8-080.png/revision/latest?cb=20220422124930",
+            "id": "BT8-080",
+            "name": "Myotismon",
+            "jpname": "ヴァンデモン",
+            "tsname": "Vamdemon",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Wizard",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Trash the top 2 cards of your deck. Then, you may play 1 [Yukio Oikawa] from your trash without paying its memory cost.",
+            "effect2": "[On Deletion] If this Digimon has [Myotismon] in its name, you may play 1 [Yukio Oikawa] from your hand or trash suspended without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0b/BT8-081.png/revision/latest?cb=20220422124930",
+            "id": "BT8-081",
+            "name": "Rasenmon Fury Mode",
+            "jpname": "ラセンモン：激昂モード",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Mysterious Beast",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Yellow",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "effect1": "[End of Attack] You may digivolve this Digimon into a [Rasenmon] in your hand without paying its memory cost, ignoring its digivolution requirements.\n[End of Your Turn] Trash the top card of your security stack.",
+            "effect2": "[Your Turn] When this card is trashed as a digivolution card by the effect of [Rasenmon], unsuspend 1 of your Digimon and it gets +3000 DP for the turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fe/BT8-082.png/revision/latest?cb=20220422124930",
+            "id": "BT8-082",
+            "name": "Ophanimon Falldown Mode",
+            "jpname": "オファニモン：フォールダウンモード",
+            "color": [
+                "Purple",
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Fallen Angel",
+            "ilustrators": [
+                "Nakano Haito",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Yellow",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "[When Digivolving] If this Digimon has a purple card in its digivolution cards, delete 1 of your opponent's level 4 or lower Digimon. If this Digimon has a yellow card in its digivolution cards, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).\n[On Deletion] You may play 1 purple or yellow level 4 or lower Digimon card from your trash without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Do both of this card's [When Digivolving] effects activate if it has both purple and yellow cards its digivolution cards?",
+                    "A: Yes, both activate."
+                ],
+                [
+                    "Q: Do both of this card's [When Digivolving] effects activate if it only has 1 2-coloured card that is both purple and yellow its digivolution cards?",
+                    "A: Yes, both activate."
+                ],
+                [
+                    "Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Ophanimon]>\", written in the text for [BT8-082 Ophanimon Falldown Mode], as an effect? Can [BT8-082 Ophanimon Falldown Mode] digivolve from [Ophanimon] in the breeding area?",
+                    "A: Yes, [BT8-082 Ophanimon: Falldown Mode] can digivolve from [Ophanimon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/64/BT8-083.png/revision/latest?cb=20220422124930",
+            "id": "BT8-083",
+            "name": "MaloMyotismon",
+            "jpname": "ベリアルヴァンデモン",
+            "tsname": "BelialVamdemon",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Demon Lord",
+            "ilustrators": [
+                "Ishibashi Yosuke",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[On Play] If there are 5 or more cards with [Myotismon] in their names in your trash, delete 1 of your opponent's unsuspended Digimon and trash the top card of your opponent's security stack.\n[When Digivolving] Trash the top 5 cards of your deck. Then, if there's a card with [Myotismon] in its name in your trash, gain 1 memory.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/49/BT8-084.png/revision/latest?cb=20220422124931",
+            "id": "BT8-084",
+            "name": "Kimeramon",
+            "jpname": "キメラモン",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Composite",
+            "ilustrators": [
+                "GOSSAN",
+                "sasasi"
+            ],
+            "evocolor1": "All",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] You may place 1 level 5 or lower Digimon card from your trash under this Digimon as its bottom digivolution card. Then, up to 4 of your opponent's Digimon get -1000 DP for each of this Digimon's colors until the end of your opponent's next turn.\n[Your Turn] This Digimon is treated as also having the colors of its digivolution cards. While this Digimon has 4 or more colors, it gets +4000 DP.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: What kind of effect is this card's [Your Turn] effect?",
+                    "A: In addition to this card's own colour of \"white\", it is also treated as the colours of the cards in its digivolution cards. For example when this card has a red card and a green card in its digivolution cards, this card is treated as a card with 3 colours, white, red, and green."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8c/BT8-085.png/revision/latest?cb=20220422124930",
+            "id": "BT8-085",
+            "name": "Yolei Inoue",
+            "jpname": "井ノ上京",
+            "tsname": "Inoue Miyako",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[Start of Your Main Phase] If you have a red Digimon in play, gain 1 memory.\n[Your Turn] When one of your Digimon with 2 or more colors attacks, you may suspend this Tamer to delete 1 of your opponent's Digimon with 3000 DP or less.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Does this card's \"When your Digimon with 2 or more colours attacks\", does it count the colour of the attacking Digimon's digivolution cards as well?",
+                    "A: No, regardless of the colour of the cards in digivolution cards, it only counts the colours of that Digimon, and the effect activates if it has 2 or more colours."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f9/BT8-086_P1.png/revision/latest?cb=20220123194814",
+            "id": "BT8-086",
+            "name": "Hiro Amanokawa",
+            "jpname": "天ノ河 宙",
+            "tsname": "Amanokawa Hiro",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Your Turn] When you attack with a Digimon that has [Gammamon] in its name or is level 5 or higher, you may suspend this Tamer to have 1 of your Digimon get +2000 DP for the turn.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Digimon Card Game Fest - Fest Set"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f0/BT8-087.png/revision/latest?cb=20220422124930",
+            "id": "BT8-087",
+            "name": "T.K. Takaishi",
+            "jpname": "高石タケル",
+            "tsname": "Takaishi Takeru",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Opponent's Turn] When one of your opponent's Digimon attacks one of your blue Digimon, you may suspend this Tamer to <Draw 1> (Draw 1 card from your deck).",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does this card's [Opponent's Turn] effect trigger when my opponent's Digimon attacks, and I block with my blue Digimon?",
+                    "A: No, your opponent has to target your blue Digimon when attacking to trigger this effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b0/BT8-088.png/revision/latest?cb=20220422124930",
+            "id": "BT8-088",
+            "name": "Davis Motomiya & Ken Ichijoji",
+            "jpname": "本宮 大輔 & 一乗寺 賢",
+            "tsname": "Motomiya Daisuke & Ichijoji Ken",
+            "color": [
+                "Blue",
+                "Green"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Main Phase] If you have a blue Digimon in play, gain 1 memory. If you have a green Digimon in play, gain 1 memory.\n[Your Turn] When one of your Digimon digivolves into a Digimon with 2 or more colours, you may suspend this Tamer to unsuspend that Digimon.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Do both of this card's [Start of Your Main Phase] effects activate if I have both blue and green Digimon in play?",
+                    "A: Yes, both activate."
+                ],
+                [
+                    "Q: Do both of this card's [Start of Your Main Phase] effects activate if I only have 1 2-coloured Digimon that is both blue and green in play?",
+                    "A: Yes, both activate."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5f/BT8-089.png/revision/latest?cb=20220422124930",
+            "id": "BT8-089",
+            "name": "Cody Hida",
+            "jpname": "火田伊織",
+            "tsname": "Hida Iori",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[Start of Your Main Phase] If you have a yellow Digimon in play, gain 1 memory.\n[Your Turn] When one of your Digimon with 2 or more colors attacks, you may suspend this Tamer to give 1 of your opponent's Digimon -2000 DP for the turn.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Does this card's \"When your Digimon with 2 or more colours attacks\", does it count the colour of the attacking Digimon's digivolution cards as well?",
+                    "A: No, regardless of the colour of the cards in digivolution cards, it only counts the colours of that Digimon, and the effect activates if it has 2 or more colours."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d4/BT8-090.png/revision/latest?cb=20220422124931",
+            "id": "BT8-090",
+            "name": "Kari Kamiya",
+            "jpname": "八神ヒカリ",
+            "tsname": "Yagami Hikari",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Your Turn] When a card is added to your security stack, you may suspend this Tamer to gain 1 memory.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4b/BT8-091.png/revision/latest?cb=20220422124930",
+            "id": "BT8-091",
+            "name": "Willis",
+            "jpname": "ウォレス",
+            "tsname": "Wallace",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[On Play] You may hatch 1 Digi-Egg card to an empty space in your breeding area.\n[Your Turn] When one of your Digimon digivolves into a Digimon with [Gargomon], or [Rapidmon] in their name, you may suspend this Tamer to reduce the digivolution cost by 1.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fa/BT8-092.png/revision/latest?cb=20220422124931",
+            "id": "BT8-092",
+            "name": "Yuji Musha",
+            "jpname": "武者ユージ",
+            "tsname": "Musha Yuuji",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "effect1": "[Your Turn] When one of your Digimon with [X Antibody] in its traits is moved from your breeding area to your battle area, gain 1 memory and <Draw 1> (Draw 1 card from your deck).\n[Your Turn] When one of your black Digimon with [X Antibody] in its traits attacks, you may suspend this Tamer to place 1 card with [X Antibody] in its traits from your hand under that Digimon as its bottom digivolution card.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b7/BT8-093.png/revision/latest?cb=20220422124930",
+            "id": "BT8-093",
+            "name": "Yukio Oikawa",
+            "jpname": "及川悠紀夫",
+            "tsname": "Oikawa Yukio",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[All Turns] When one of your Digimon with [Myotismon] in its name is deleted, you may suspend this Tamer to gain 1 memory.\n [End of Opponent's Turn] If this Tamer is suspended, you may play 1 [MaloMyotismon] from your trash without paying its memory cost by deleting this Tamer.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d2/BT8-094.png/revision/latest?cb=20220422124932",
+            "id": "BT8-094",
+            "name": "Digimon Emperor",
+            "jpname": "デジモンカイザー",
+            "tsname": "Digimon Kaiser",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[All Turns] When one of your opponent's level 5 or lower Digimon is deleted, you may suspend this Tamer to <Draw 1> (Draw 1 card from your deck)\n[Opponent's Turn] When one of your opponent's level 3 Digimon is moved from their breeding area to their battle area, gain 2 memory.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Does this card's[Opponent's Turn] effect activate when my opponent activates the effect of cards such as [BT1-089 Mimi Tachikawa] to move their level 3 Digimon from the breeding area to the battle area when it is not their breeding phase?",
+                    "A: Yes, it activates."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c8/BT8-095.png/revision/latest?cb=20220422124932",
+            "id": "BT8-095",
+            "name": "Fire Rocket",
+            "jpname": "ファイアロケット",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "1",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "While you have a Digimon with [Armor Form] in its traits in play, you may use this card without meeting its color requirements.\n[Main] 1 of your Digimon with 2 or more colors gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn.",
+            "effect2": "[Security] Delete 1 of your opponent's Digimon with <Blocker>.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/BT8-096.png/revision/latest?cb=20220422124932",
+            "id": "BT8-096",
+            "name": "Top Gun",
+            "jpname": "トップガン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "effect1": "[Main] Delete 1 of your opponent's Digimon with 4000 DP or less. If you have a Digimon in play with 2 or more colors, or with 2 or more colors in its digivolution cards, delete 1 of your opponent's Digimon with 7000 DP or less instead.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's \"card with 2 or more colour in its digivolution cards\" include Digimon with 1 red card and 1 blue card in its digivolution cards?",
+                    "A: No, it does not. This effect only counts Digimon that has 1 single card that has 2 or more colours among its digivolution cards."
+                ],
+                [
+                    "Q: Does this card's \"card with 2 or more colour in its digivolution cards\" include Digimon that has cards such as [BT3-040 Shakkoumon] with effects of \"This Digimon's colour is also treated as blue\" in its digivolution cards?",
+                    "A: No, it does not. Effects that add colours do not activate while they are in digivolution cards, it is only treated as a card with 1 colour."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8b/BT8-097.png/revision/latest?cb=20220422124932",
+            "id": "BT8-097",
+            "name": "Crimson Blaze",
+            "jpname": "紅焔",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "6",
+            "ilustrators": [
+                "banira"
+            ],
+            "effect1": "Reduce the memory cost of this card in your hand by 1 for each Digimon your opponent has in play.\n[Main] Delete all of your opponent's Digimon with 6000 DP or less. Your opponent can't play Digimon by effects until the next time your opponent's turn ends.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If my opponent has 7 Digimon in play, and this card's memory cost is reduced by 7 by this card's effect, can I use this card to gain 1 memory?",
+                    "A: No, in this scenario the memory cost is reduced to 0. Use memory does not become negative, and 0 is the lowest value possible."
+                ],
+                [
+                    "Q: After using this card, I attack and the security check reveals a Digimon with an effect of \"[Security] At the end of battle, play this Digimon without paying its memory cost\". What happens to the security Digimon in this scenario?",
+                    "A: After the battle with the security Digimon, since that security Digimon cannot be played by its own effect, it is trashed as normal."
+                ],
+                [
+                    "Q: If this card's [Security] effect is activated on my opponent's turn, when does the \"opponent cannot play cards due to effects\" effect end?",
+                    "A: It ends when the current turn ends."
+                ],
+                [
+                    "Q: If I use this card and a [EX2-003 Viximon] in my Digimon's digivolution cards while my opponent has 5 or more Digimon in play, will that card's inherited effect be triggered?",
+                    "A: No, in that case, since the usage cost of this card has been changed to 1, it is not considered that an option card with a usage cost of 2 or more was used, so it will not be demonstrated."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/88/BT8-098.png/revision/latest?cb=20220422124932",
+            "id": "BT8-098",
+            "name": "Innocence Blizzard",
+            "jpname": "イノセンスブリザード",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "effect1": "[Main] Trash the bottom digivolution card of all of your opponent's Digimon. Then, up to 3 of your opponent's Digimon with no digivolution cards can't attack or block until the end of your opponent's next turn.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: After using this card, my opponent does not have any Digimon without digivolution cards, so I am unable to target any Digimon for the \"cannot attack and block\" effect. Afterwards, if a Digimon without digivolution cards enters my opponent's battle area, can I target that Digimon for the \"cannot attack and block\" effect?",
+                    "A: No, you cannot. You can only target Digimon for the \"cannot attack and block\" effect at the point of time of activating this card's effect."
+                ],
+                [
+                    "Q: If this card's [Security] effect is activated on my opponent's turn, when does the \"cannot attack or block\" effect end?",
+                    "A: It ends when the current turn ends."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ca/BT8-099.png/revision/latest?cb=20220422124932",
+            "id": "BT8-099",
+            "name": "Giga Death",
+            "jpname": "ギガデス",
+            "color": [
+                "Blue",
+                "Green"
+            ],
+            "cardtype": "Option",
+            "playcost": "9",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "[Main] Suspend 1 of your opponent's Digimon. Then, place up to 10 of your opponent's suspended Digimon at the bottom of their owners' decks in any order.",
+            "effect2": "[Security] Suspend 1 of your opponent's Digimon. Then, return 1 of your opponent's suspended Digimon to the bottom of its owner's deck.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/BT8-100.png/revision/latest?cb=20220422124931",
+            "id": "BT8-100",
+            "name": "Disaster Blaster",
+            "jpname": "アラミタマ",
+            "tsname": "Aramitama",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "effect1": "[Main] 1 of your opponent's Digimon gets -3000 DP for the turn. If you have a Digimon in play with 2 or more colors, or with 2 or more colors in its digivolution cards, 1 of your opponent's Digimon gets -6000 DP instead.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's \"card with 2 or more colours in its digivolution cards\" include Digimon with 1 red card and 1 blue card in its digivolution cards?",
+                    "A: No, it does not. This effect only counts Digimon that has 1 single card that has 2 or more colours among its digivolution cards."
+                ],
+                [
+                    "Q: Does this card's \"card with 2 or more colour in its digivolution cards\" include Digimon that has cards such as [BT3-040 Shakkoumon] with effects of \"This Digimon's colour is also treated as blue\" in its digivolution cards?",
+                    "A: No, it does not. Effects that add colours do not activate while they are in digivolution cards, it is only treated as a card with 1 colour."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/16/BT8-101.png/revision/latest?cb=20220422124931",
+            "id": "BT8-101",
+            "name": "Plasma Shot",
+            "jpname": "プラズマシュート",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "4",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "While you have a Digimon with [Armor Form] in its traits in play, you may use this card without meeting its color requirements.\n[Main] 1 of your opponent's Digimon gets -4000 DP for the turn, and all of your opponent's Digimon get -1000 DP for the turn for each card with [Armor Form] in its traits in your trash.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: For this card's effect, if I have 1 Digimon with [Armor Form] in its traits in my trash, does the Digimon that received -4000 DP also get an additional -1000 DP?",
+                    "A: Yes."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f5/BT8-102.png/revision/latest?cb=20220422124931",
+            "id": "BT8-102",
+            "name": "Samādhi Śānti",
+            "jpname": "サマディ・シャンティ",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Option",
+            "playcost": "1",
+            "ilustrators": [
+                "Shin Sasaki",
+                "p!k@ru"
+            ],
+            "effect1": "[Main] You may suspend 1 of your Digimon to suspend 1 of your opponent's Digimon or Tamers. Your opponent's cards suspended with this effect can't unsuspend until the end of their next turn.",
+            "effect2": "[Security] Suspend 1 of your opponent's Digimon or Tamers.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "jpsets": [
+                "Limited Card Set ONLINE"
+            ],
+            "ruling": [
+                [
+                    "Q: If I target my opponent's Digimon or tamer with this card's effect that is already suspended, does the part of the effect that reads \"Your opponent's cards suspended with this effect can't unsuspend until the end of their next turn\" apply to that Digimon?",
+                    "A: No, although you can target your opponent's Digimon or tamer that are already suspended with this card's effect, that card must be \"suspended by this card's effect\" for \"Your opponent's cards suspended with this effect can't unsuspend until the end of their next turn\" to be applicable."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f3/BT8-103.png/revision/latest?cb=20220422124931",
+            "id": "BT8-103",
+            "name": "Lightning Blade",
+            "jpname": "ライトニングブレード",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Option",
+            "playcost": "1",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "While you have a Digimon with [Armor Form] in its traits in play, you may use this card without meeting its color requirements.\n[Main] 1 of your Digimon with 2 or more colors gets +2000 DP and <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) for the turn.",
+            "effect2": "[Security] Suspend 1 of your opponent's Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/79/BT8-104.png/revision/latest?cb=20220422124931",
+            "id": "BT8-104",
+            "name": "Eiseiryūoujin",
+            "jpname": "永世竜王刃",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "4",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "effect1": "[Main] <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). Then, you may place 1 card with [X Antibody] in its traits from your hand as the bottom digivolution card of 1 of your black Digimon with [X Antibody] in its traits to delete 1 of your opponent's Digimon with a play cost of 4 or less.",
+            "effect2": "[Security] <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). Then, delete 1 of your opponent's Digimon with a play cost of 4 or less.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/64/BT8-105.png/revision/latest?cb=20220422124931",
+            "id": "BT8-105",
+            "name": "Dark Gaia Force",
+            "jpname": "暗黒のガイアフォース",
+            "color": [
+                "Black",
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "8",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "[Main]  Choose any number of your opponent's Digimon whose play costs add up to 15 or less and delete them.",
+            "effect2": "[Security] Delete 1 of your opponent's Digimon with a play cost of 15 or less.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: What exactly does \"Choose any number of your opponent's Digimon whose play costs add up to 15 or less\" mean exactly?",
+                    "A: You can choose any number of your opponent's Digimon, as long as the play costs of those Digimon are 15 or less when they are added together. For example, \"1 Digimon with play cost of 3\" + \"1 Digimon of play cost of 12\", or \"1 Digimon with play cost of 2\" + \"2 Digimon with play cost of 6\" etc, the effect that activates targets those Digimon."
+                ],
+                [
+                    "Q: Can I choose in a way so that the total play cost is less than 15 on purpose?",
+                    "A: Yes, you are free to choose in any way as long as the total play cost is 15 or less. However, you must choose at least 1 Digimon with play cost of 15 or less."
+                ],
+                [
+                    "Q: For Digimon that were played with reduced costs, or played without paying their memory costs, do I treat them as that reduced play cost value or 0 play cost for this card's effect?",
+                    "A: No, regardless of what was the memory cost paid when the cards were played, you add together the play costs written on the cards, up to 15."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7c/BT8-106.png/revision/latest?cb=20220422124931",
+            "id": "BT8-106",
+            "name": "Senbon Dokkān",
+            "jpname": "千本爆砕",
+            "tsname": "Thousand Blasting",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "9",
+            "ilustrators": [
+                "banira"
+            ],
+            "effect1": "[Main] Reveal the top 3 cards of your deck. You may play any number of Digimon cards with [Mamemon] in their name whose play costs add up to 15 or less among them without paying their memory costs. Delete 1 of your opponent's Digimon with a play cost of 6 or less for each Digimon played with this effect. Trash the remaining cards.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Can I choose in a way so that the total play cost is less than 15 on purpose?",
+                    "A: Yes, you can freely choose as long as the total play cost is 15 or less."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/80/BT8-107.png/revision/latest?cb=20220422124931",
+            "id": "BT8-107",
+            "name": "Pandemonium Flame",
+            "jpname": "パンデモニウムフレイム",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "effect1": "[Main] You may delete 1 of your Digimon to delete 1 of your opponent's unsuspended Digimon with a level less than or equal to the deleted Digimon's level.",
+            "effect2": "[Security] Delete 1 of your opponent's unsuspended Digimon.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: When my opponent does not have a single Digimon in play, or does not have any Digimon with level equal or lower than my Digimon in play, can I use this card to delete 1 of my Digimon?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: If this card deletes a Digimon without a level, can I delete one of my opponent's Digimon that does not have a level?",
+                    "A: No, you cannot."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a5/BT8-108.png/revision/latest?cb=20220422124931",
+            "id": "BT8-108",
+            "name": "Mist Memory Boost!",
+            "jpname": "ミスト・メモリーブースト‼",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [
+                "tessy"
+            ],
+            "effect1": "[Main] Trash the top 2 cards of your deck and <Draw 1> (Draw 1 card from your deck). Then, place this card in your Battle Area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory.",
+            "effect2": "[Security] Place this card in its owner's battle area.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0e/BT8-109-Errata.png/revision/latest?cb=20220527110319",
+            "id": "BT8-109",
+            "name": "Flame Hellscythe",
+            "jpname": "フレイムヘルサイズ",
+            "color": [
+                "Purple",
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "6",
+            "ilustrators": [
+                "KISUKE"
+            ],
+            "effect1": "[Main] 1 of your opponent's Digimon gets -6000 DP for the turn. Then, you may play 1 purple or yellow Digimon card with 6000 DP or less from your trash without paying its memory cost.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2f/BT8-110-Errata.png/revision/latest?cb=20220527110327",
+            "id": "BT8-110",
+            "name": "Armor Texture!",
+            "jpname": "アーマーテクスチャー‼",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Option",
+            "playcost": "0",
+            "ilustrators": [
+                "banira"
+            ],
+            "effect1": "While you have a Digimon with [Armor Form] in its traits in play, you may use this card without meeting its color requirements.\n[Main]  Trash the top card of 1 of your Digimon with [Armor Form] in its traits. Then, you may digivolve 1 of your Digimon into a Digimon card in your hand with [Armor Form] in its traits for its digivolution cost. If you do, unsuspend that Digimon.",
+            "effect2": "[Security] You may play 1 level 3 Digimon card with [Free] in its traits from your hand or trash without paying its memory cost.",
+            "wwsets": [
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: After using this card, I trash 1 card from the top of my Digimon with [Armor Form] in its traits, can I digivolve another one of my Digimon into a Digimon with [Armor Form] in its traits in my hand instead?",
+                    "A: Yes, you can. In that scenario, you only unsuspend the Digimon that digivolved."
+                ],
+                [
+                    "Q: After using this card, I trash 1 card from the top of my Digimon with [Armor Form] in its traits, can I then choose not to digivolve into an Digimon with [Armor Form] in its traits in my hand?",
+                    "A: Yes, you can. However, in this scenario the part of the effect \"unsuspend that Digimon\" is not applied."
+                ],
+                [
+                    "Q: When I use this card to digivolve my Digimon into an Digimon with [Armor Form] in its traits in my hand, does it allow me to digivolve while ignoring the digivolution requirements?",
+                    "A: No, this card's effect does not ignore digivolution requirements."
+                ],
+                [
+                    "Q: If I target my Digimon [Armor Form] in its traits and no digivolution cards to trash the top card. What happens?",
+                    "A: It cannot be trashed, and as you will not trash any card from your Digimon. You can still perform the rest of the effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fa/BT8-111.png/revision/latest?cb=20220422124931",
+            "id": "BT8-111",
+            "name": "Creepymon",
+            "jpname": "デーモン",
+            "tsname": "Demon",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Demon Lord/Seven Great Demon Lords",
+            "ilustrators": [
+                "Tomotake Kinoshita",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Trash the top 2 cards of your deck for each of your opponent's Digimon in play. If you trash 4 or more cards with this effect, you may play 1 level 5 or lower purple Digimon card from your trash without paying its memory cost.\n[When Attacking] (Once Per Turn) For every 10 cards in your trash, trash the top 3 cards of your opponent's deck, and this Digimon gets +3000 DP for the turn.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Secret Rare",
+            "ruling": [
+                [
+                    "Q: If I trash 8 cards from the top of my deck with this card's [When Digivolving] effect, can I play 2 purple level 5 or lower Digimon cards from my trash without paying their memory costs?",
+                    "A: No, even if you trash more than 4 cards, you can only play 1 purple level 5 or lower Digimon card."
+                ],
+                [
+                    "Q: For this card's [When Attacking] effect, if I have 20 cards in my trash, do I trash 6 cards from the top of my opponent's deck and give this Digimon +6000 DP?",
+                    "A: Yes, as the effect is \"For every 10 cards in your trash\", if you have 20 cards in your trash, you trash 6 cards from the top of your opponent's deck and give this Digimon +6000 DP."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/60/BT8-112.png/revision/latest?cb=20220422124932",
+            "id": "BT8-112",
+            "name": "Imperialdramon Paladin Mode",
+            "jpname": "インペリアルドラモン：パラディンモード",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "15",
+            "dp": "16000",
+            "level": "7",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Ancient Holy Warrior",
+            "ilustrators": [
+                "sasasi",
+                "Tonamikanji",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "6",
+            "evocost1": "7",
+            "evocolor2": "Green",
+            "evolevel2": "6",
+            "evocost2": "7",
+            "effect1": "When one of your Digimon would digivolve into this card in your hand, you may return 1 white level 7 Digimon card from your trash to the bottom of your deck to reduce the digivolution cost by 4.\n[When Digivolving] [When Attacking] You may return 1 2-color card from this Digimon's digivolution cards to the bottom of its owner's deck to trash all of the digivolution cards of 1 of your opponent's Digimon. Then, return all of your opponent's Digimon with no digivolution cards to the bottom of their owners' decks in any order.",
+            "wwsets": [
+                "BT-08: Booster New Awakening",
+                "BT-08: Booster New Awakening"
+            ],
+            "rarity": "Secret Rare",
+            "engsets": [
+                "Ultimate Cup"
+            ],
+            "ruling": [
+                [
+                    "Q: This card's effect has 2 timing, [When Digivolving] and [When Attacking]. What does that mean?",
+                    "A: This effect will activate in both timing [When Digivolving] and [When Attacking]. When you digivolving into this Digimon, it will activate as a [When Digivolving] effect, and for the following turns when this Digimon attacks, it will then activate again as a [When Attacking] effect."
+                ],
+                [
+                    "Q: This card has \"you may <X> to <Y>. Then, <Z>\" If I do not do <X>, am I still allowed to do <Z>?",
+                    "A: No, you cannot. If you do not do <X> you cannot do the rest of the effect. (See more in Effect Structure#Optional and Mandatory Effects"
+                ]
+            ]
+        }
+    ]
+}

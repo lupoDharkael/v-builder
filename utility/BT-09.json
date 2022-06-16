@@ -1,0 +1,3714 @@
+{
+    "name": "BT-09: X Record",
+    "shortname": "BT-09",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/43/BT9-001-J.png/revision/latest?cb=20220218110333",
+            "id": "BT9-001",
+            "name": "Koromon",
+            "jpname": "コロモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "koki",
+                "koki"
+            ],
+            "effect2": "[Your Turn] While this Digimon has [Agumon], or [Greymon] in its name, it gets +1000 DP.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/af/BT9-002-J.png/revision/latest?cb=20220218110335",
+            "id": "BT9-002",
+            "name": "Puyoyomon",
+            "jpname": "プヨヨモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Takase",
+                "Takase"
+            ],
+            "effect2": "[Your Turn] (Once Per Turn) When an effect adds a card to your hand, this Digimon gets +1000 DP for the turn.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does this effect activate when I return my own Digimon to my hand?",
+                    "A: Yes, it will activate."
+                ],
+                [
+                    "Q: Does this effect activate when a card effect allows you to draw and trash card from your hand?",
+                    "A: Yes, it will activate."
+                ],
+                [
+                    "Q: Does this card's effect activate if my card effect performs a digivolution and draws from its digivolution bonus?",
+                    "A: No, it is not treated as drawing from an effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5a/BT9-003-J.png/revision/latest?cb=20220218110336",
+            "id": "BT9-003",
+            "name": "Tokomon (X Antibody)",
+            "jpname": "トコモン X抗体",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser/X Antibody",
+            "ilustrators": [
+                "Takase",
+                "Takase"
+            ],
+            "effect2": "[Your Turn] (Once Per Turn) When a card is added to your security stack, 1 of your opponent's Digimon get -1000 DP for the turn.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Will this card effect activate during the timing of “Add a card from your security to your hand, then perform <Recovery +1 (Deck)>” ?",
+                    "A: Yes, it will activate."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/10/BT9-004-J.png/revision/latest?cb=20220218110337",
+            "id": "BT9-004",
+            "name": "Motimon",
+            "jpname": "モチモン",
+            "tsname": "Mochimon",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "yuuki.",
+                "yuuki."
+            ],
+            "effect2": "[Your Turn] While this Digimon has [Insectoid] in its traits, it gets +1000 DP.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/aa/BT9-005-J.png/revision/latest?cb=20220218110338",
+            "id": "BT9-005",
+            "name": "Tumblemon",
+            "jpname": "ゴロモン",
+            "tsname": "Goromon",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Rock",
+            "ilustrators": [
+                "Sanosuke Sakuma",
+                "Sanosuke Sakuma"
+            ],
+            "effect2": "[Opponent's Turn] While this Digimon has <Blocker>, it gets +1000 DP.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9e/BT9-006-J.png/revision/latest?cb=20220218110339",
+            "id": "BT9-006",
+            "name": "Pagumon",
+            "jpname": "パグモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "yuuki.",
+                "yuuki."
+            ],
+            "effect2": "[When Attacking] You may trash 1 card from your hand to give this Digimon +1000 DP for the turn.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/63/BT9-007-J.png/revision/latest?cb=20220218110339",
+            "id": "BT9-007",
+            "name": "Minidekachimon",
+            "jpname": "ミニデカチモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mini Dragon",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9b/BT9-008-J.png/revision/latest?cb=20220218110340",
+            "id": "BT9-008",
+            "name": "Agumon (X Antibody)",
+            "jpname": "アグモン X抗体",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Dinosaur/X Antibody",
+            "ilustrators": [
+                "Takase",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] [When Digivolving] Reveal 3 cards from the top of your deck. Add 1 [X Antibody] and 1 card with [Greymon], or [Omnimon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9c/BT9-009-J.png/revision/latest?cb=20220218110340",
+            "id": "BT9-009",
+            "name": "Guilmon (X Antibody)",
+            "jpname": "ギルモン X抗体",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Dark Dragon/X Antibody",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[When Digivolving] Delete 1 of your opponent's Digimon with 3000 DP or less.",
+            "effect2": "[Your Turn] Add 1000 to the maximum DP you can choose with DP-based delete effects.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: What does the effect \"Add +1000 DP to the maximum DP of your effects that delete Digimon\" mean?",
+                    "A: This effect refers to deletion effect that states \"Delete Digimon with X DP or less\" and \"Select opponent’s Digimon with the total of X or less\". This effect enables the player to increase the limit by 1000 DP. However, this effect does not apply to effects such as \"Delete the Digimon that has lower DP than this Digimon\"."
+                ],
+                [
+                    "Q: Does this card's inherited effect increase the minimum DP deletion of [BT3-109 Plasma Stake] from 12000 DP to 13000 DP?",
+                    "A: No, it does not. It only affects the maximum DP, so [BT3-109 Plasma Stake] will still delete only Digimon with 12000 DP or more."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/31/BT9-010-J.png/revision/latest?cb=20220218110341",
+            "id": "BT9-010",
+            "name": "Atamadekachimon",
+            "jpname": "アタマデカチモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "7000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c9/BT9-011-J.png/revision/latest?cb=20220218110342",
+            "id": "BT9-011",
+            "name": "Growlmon (X Antibody)",
+            "jpname": "グラウモン X抗体",
+            "tsname": "Growmon (X Antibody)",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dark Dragon/X Antibody",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[Your Turn] Add 1000 to the maximum DP you can choose with DP-based deletion effects.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: What does the effect \"Add +1000 DP to the maximum DP of your effects that delete Digimon\" mean?",
+                    "A: This effect refers to deletion effect that states \"Delete Digimon with X DP or less\" and \"Select opponent’s Digimon with the total of X or less\". This effect enables the player to increase the limit by 1000 DP. However, this effect does not apply to effects such as \"Delete the Digimon that has lower DP than this Digimon\"."
+                ],
+                [
+                    "Q: Does this card's inherited effect increase the minimum DP deletion of [BT3-109 Plasma Stake] from 12000 DP to 13000 DP?",
+                    "A: No, it does not. It only affects the maximum DP, so [BT3-109 Plasma Stake] will still delete only Digimon with 12000 DP or more."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/97/BT9-012-J.png/revision/latest?cb=20220218110343",
+            "id": "BT9-012",
+            "name": "Greymon (X Antibody)",
+            "jpname": "グレイモン X抗体",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Dinosaur/X Antibody",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[All Turns] When this Digimon has [Greymon], or [Omnimon] in its name and an effect would delete it or return it to your hand or deck, you may trash 2 cards of the same level in this Digimon’s digivolution cards to prevent it from leaving play.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does the effect of this card, \"by trashing 2 cards with the same level\", require the 2 cards to be the same level as the current Digimon?",
+                    "A: No, the effect states to trash 2 cards from the digivolution cards that have the same level. For example, by trashing 2 level 5 Digimon cards from its digivolution cards, this Digimon will not be deleted or returned to the deck/hand."
+                ],
+                [
+                    "Q: Is it possible to trash this card when activating this card’s inherited effect?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: Can this inherited effect activate when this Digimon’s DP reaches 0?",
+                    "A: No, it can’t. Due to the fact that when the Digimon’s DP becomes 0 and it will be deleted due to rules and not the effect of the card. It will not be considered as deleted by card effect."
+                ],
+                [
+                    "Q: This card is chosen to be deleted by [BT5-106 Demonic Disaster], if it uses its [All Turns] effect to prevent its deletion do I still get to unsuspend a Digimon?",
+                    "A: No, you cannot unsuspend a Digimon if the Digimon is not deleted."
+                ],
+                [
+                    "Q: My opponent's Digimon with <Piercing> attacked my Digimon, and my Digimon lost the battle. I then activate my Digimon's [All Turns] inherited effect to prevent it from being deleted. What happens to my opponent's <Piercing>?",
+                    "A: As the requirement of \"when this Digimon attacks and deletes an opponent's Digimon and survives the battle\" of <Piercing> was not met, it does not activate."
+                ],
+                [
+                    "Q: My Digimon has <Piercing> gained from an effect such as [BT1-091 Scrap Claw] and battles a Digimon with equal DP. I activate [All Turns] to prevent it from being deleted. Does <Piercing> trigger?",
+                    "A: Yes, because the Digimon will still have <Piercing> and it deleted a Digimon battle and survived it will trigger."
+                ],
+                [
+                    "Q: This card has <Piercing> from [EX1-008 MetalGreymon] in its digivolution cards, this card attacks a Digimon with equal DP and uses its [All Turns] effect to prevent its deletion by trashing [EX1-008 MetalGreymon]. Does <Piercing> still trigger?",
+                    "A: No, it lost <Piercing> before the timing it would trigger and if it doesn't trigger it cannot activate."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/db/BT9-013-J.png/revision/latest?cb=20220218110344",
+            "id": "BT9-013",
+            "name": "OmniShoutmon (X Antibody)",
+            "jpname": "オメガシャウトモン X抗体",
+            "tsname": "OmegaShoutmon X Antibody",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Dragonkin/X Antibody",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] <Blitz> (If your opponent has 1 or more memory, this Digimon may attack).\n[Your Turn] While this Digimon has [OmniShoutmon] or [X Antibody] in its digivolution cards, this Digimon can also attack your opponent's unsuspended Digimon.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: The effect of \"When you have [OmniShoutmon] or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [OmniShoutmon] or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f4/BT9-014-J.png/revision/latest?cb=20220218110344",
+            "id": "BT9-014",
+            "name": "WarGrowlmon (X Antibody)",
+            "jpname": "メガログラウモン X抗体",
+            "tsname": "MegaloGrowmon (X Antibody)",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Cyborg/X Antibody",
+            "ilustrators": [
+                "As'Maria"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Until the end of your opponent's turn, 2 of their Digimon gain \"[On Deletion] Lose 1 memory.\" Then, if [WarGrowlmon] or [X Antibody] is in this Digimon's digivolution cards, choose any number of your opponent's Digimon whose total DP adds up to 6000 or less and delete them.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: The effect of \"If you have [WarGrowlmon] or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it's required to meet the condition you have cards with [WarGrowlmon] or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/29/BT9-015-J.png/revision/latest?cb=20220218110345",
+            "id": "BT9-015",
+            "name": "MetalGreymon (X Antibody)",
+            "jpname": "メタルグレイモン X抗体",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Cyborg/X Antibody",
+            "ilustrators": [
+                "As'Maria"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] This Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) until the end of your opponent's turn. Then, if this Digimon has [MetalGreymon] or [X Antibody] in its digivolution cards, this Digimon gets +3000 DP until the end of your opponent's turn.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: The effect of \"If you have [MetalGreymon] or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [MetalGreymon] or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ],
+                [
+                    "Q: After I digivolve this Digimon, if I place the card [X Antibody] under this card’s digivolution cards in the same turn, do I get +3000 DP due to its effect?",
+                    "A: No, since this effect activates and checks for the card named [MetalGreymon] or [X Antibody] when digivolving, this Digimon does not gain +3000 DP if you place the card [X Antibody] under this card’s digivolution cards after digivolving it."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f7/BT9-016-J.png/revision/latest?cb=20220218110346",
+            "id": "BT9-016",
+            "name": "WarGreymon (X Antibody)",
+            "jpname": "ウォーグレイモン X抗体",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Dragonkin/X Antibody",
+            "ilustrators": [
+                "sasasi",
+                "As'Maria"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[All Turns] When a card is removed from your opponent's security stack, gain 1 memory.\n[End of Attack] (Once Per Turn) If [WarGreymon] or [X Antibody] is in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with DP less than or equal to this Digimon's DP.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: The effect of \"If you have [WarGreymon] or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [WarGreymon] or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ],
+                [
+                    "Q: For this card’s [All Turns] effect, when the player attacks the security and checks a Security Digimon and battles it. Does the player gain 1 memory?",
+                    "A: Since the security will be reduced when performing checks, if there is a [Security] effect during the checks, [Security] effects will be activated first, and this effect will be activated after. After that, if there are no other effects to be activated, you will gain 1 memory before battling the security Digimon."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0b/BT9-017-J.png/revision/latest?cb=20220218110347",
+            "id": "BT9-017",
+            "name": "Gallantmon (X Antibody)",
+            "jpname": "デュークモン X抗体",
+            "tsname": "Dukemon X Antibody",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Holy Warrior/Royal Knight/X Antibody",
+            "ilustrators": [
+                "sasasi",
+                "As'Maria"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] Delete 1 of your opponent's Digimon with the lowest DP. If no Digimon is deleted by this effect, unsuspend this Digimon.\n[Your Turn] (Once Per Turn) When an opponent's Digimon is deleted, if [Gallantmon] or [X Antibody] in this Digimon's digivolution cards, trash the top card of your opponent's security stack.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: What is the effect of [When Digivolving] \"Delete 1 of your opponents Digimon with the lowest DP, if there is no Digimon was deleted by this effect\" meant?",
+                    "A: The effect of [When Digivolving] is when your opponent has no Digimon or Digimon with the lowest DP does not get deleted by this card effect. It also means during the timing when there is no target that can be deleted by this card effect."
+                ],
+                [
+                    "Q: Can I choose not to delete my opponent’s Digimon when I activate this card’s [When Digivolving] effect?",
+                    "A: No, you can’t. You are required to pick a target if possible, during the activation of this effect."
+                ],
+                [
+                    "Q: When an opponent has a Digimon that \"Can’t be deleted by opponent’s card effects\" and the Digimon has the same DP as this Digimon. During the activation of this card’s [When Digivolving] effect, can I choose my opponent’s Digimon that has the effect of \"can’t be deleted by your opponent’s card effect\"?",
+                    "A: Yes, you can. If there are multiple Digimon with the lowest DP you can select either 1 of them as a target. So it’s possible to choose a Digimon that has the effect of \"Can’t be deleted by opponent card effects\" which will allow you to active this Digimon."
+                ],
+                [
+                    "Q: The effect of \"If you have [Gallantmon] or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [Gallantmon] or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5c/BT9-018-J.png/revision/latest?cb=20220218110349",
+            "id": "BT9-018",
+            "name": "Dinorexmon",
+            "jpname": "ディノレクスモン",
+            "color": [
+                "Red",
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Dinosaur/X Antibody",
+            "ilustrators": [
+                "KISUKE"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "evocolor2": "Green",
+            "evolevel2": "5",
+            "evocost2": "5",
+            "effect1": "[When Digivolving] For each Tamer your opponent has in play, suspend 1 of your opponent’s Digimon and gain 1 memory.\n[All Turns] (Once Per Turn) When an opponent’s Digimon with 6000 DP or less becomes suspended, you may delete that Digimon",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Does [When Digivolving] allow you to gain 1 memory for each Tamer your opponent has?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: While my opponent has multiple Tamers and only has 1 Digimon. Can I only suspend the Digimon and gain memory for each Tamer that my opponent has?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: Can I choose not to use the [All Turns] effect?",
+                    "A: It’s a \"You May\" effect. You can choose not to use it and if it's not used (Once Per Turn), it will not be used."
+                ],
+                [
+                    "Q: When I declare an attack. My opponent Digimon with 6000 DP activates <Blocker> and suspends. Due to the [All Turns] effect that Digimon is deleted. What will happen to the attack in this situation?",
+                    "A: Since the blocking Digimon is deleted by this card effect and due to the attack target no longer being present, the attack will end."
+                ],
+                [
+                    "Q: If my opponent declares an attack with [BT7-049 MameTyramon]. If they digivolve into a new Digimon, can this Digimon's effect still delete the newly digivolved Digimon even if it has more than 6000 DP?",
+                    "A: Yes, it had 6000 or less DP at the time it was suspended."
+                ],
+                [
+                    "Q: Is this card's [All Turns] effect on the opponent's turn considered a [Reaction] effect during battle?",
+                    "A: No, it is triggered as soon as the opponent declares an attack suspending the Digimon. (See more in Attack Resolution)"
+                ],
+                [
+                    "Q: Does this card's [All Turns] effect receive the boost from [BT9-009 Guilmon X Antibody]?",
+                    "A: No, it does not. It is not a \"Delete 1 of your opponent's Digimon with X DP or less\" effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d5/BT9-019-J.png/revision/latest?cb=20220218110349",
+            "id": "BT9-019",
+            "name": "Crabmon",
+            "jpname": "ガニモン",
+            "tsname": "Ganimon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Crustacean",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/18/BT9-020-J.png/revision/latest?cb=20220218110350",
+            "id": "BT9-020",
+            "name": "Gabumon (X Antibody)",
+            "jpname": "ガブモン X抗体",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Beast/X Antibody",
+            "ilustrators": [
+                "Takase",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] [When Digivolving] Reveal the top 3 cards of your deck. Add 1 card with [Garurumon], or [Omnimon] in its name and 1 [X Antibody] among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does the effect mean that I can’t add the cards to my hand unless I add both card with [Garurumon], or [Omnimon] in its name and [X Antibody] to my hand from the revealed cards?",
+                    "A: No. You can add the card to your hand even though you only revealed cards with [Garurumon], or [Omnimon] in its name or [X Antibody]."
+                ],
+                [
+                    "Q: If I reveal cards with [Garurumon], or [Omnimon] in its name and [X Antibody], can I choose not to add them to hand?",
+                    "A: No because the effect stated \"Add to hand\", thus you are required to add as much as possible from the revealed cards. You are required to add cards with [Garurumon], or [Omnimon] in its name and [X Antibody] to your hand."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bd/BT9-021-J.png/revision/latest?cb=20220218110350",
+            "id": "BT9-021",
+            "name": "Jellymon",
+            "jpname": "ジェリーモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mollusk",
+            "ilustrators": [
+                "Nakano Haito",
+                "Takase"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[Your Turn] (Once Per Turn) When you play a blue tamer, <Draw 1> (Draw 1 card from your deck).",
+            "effect2": "[Your Turn] (Once Per Turn) When an effect adds a card to your hand, return 1 of your opponent's level 3 Digimon to its owner's hand.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Will this card's inherited effect activate when my Digimon is returned to my hand?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: Does this card's inherited effect activate when a card effect allows you to draw and trash card from your hand?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: Does this card's effect activate if my card effect performs a digivolution and draws from its digivolution bonus?",
+                    "A: No, it is not treated as drawing from an effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/65/BT9-022-J.png/revision/latest?cb=20220218110351",
+            "id": "BT9-022",
+            "name": "Ebidramon",
+            "jpname": "エビドラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Aquatic",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f0/BT9-023-J.png/revision/latest?cb=20220218110352",
+            "id": "BT9-023",
+            "name": "KausGammamon",
+            "jpname": "カウスガンマモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[Your Turn] This Digimon can't be blocked.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d8/BT9-024-J.png/revision/latest?cb=20220218110353",
+            "id": "BT9-024",
+            "name": "Garurumon (X Antibody)",
+            "jpname": "ガルルモン X抗体",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Beast/X Antibody",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "2",
+            "effect2": "[All Turns] When this digimon has [Garurumon], or [Omnimon] in its name and would be deleted in battle, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent that deletion.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does the effect of this card \"By trashing 2 cards with the same level\" require the trashed cards to be the same level as the current Digimon?",
+                    "A: No, the effect states to trash 2 cards from the digivolution cards that have the same level. For example, by trashing 2 level 5 from the digivolution cards, this Digimon will not be deleted or returned to the deck/hand."
+                ],
+                [
+                    "Q: Is it possible to trash this card when activating this card’s inherited effect?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: This card is chosen to be deleted by [BT5-106 Demonic Disaster], if it uses its [All Turns] effect to prevent its deletion do I still get to unsuspend a Digimon?",
+                    "A: No, you cannot unsuspend a Digimon if the Digimon is not deleted."
+                ],
+                [
+                    "Q: My opponent's Digimon with <Piercing> attacked my Digimon, and my Digimon lost the battle. I then activate my Digimon's [All Turns] inherited effect to prevent it from being deleted. What happens to my opponent's <Piercing>?",
+                    "A: As the requirement of \"when this Digimon attacks and deletes an opponent's Digimon and survives the battle\" of <Piercing> was not met, it does not activate."
+                ],
+                [
+                    "Q: My Digimon has <Piercing> gained from an effect such as [BT8-103 Lightning Blade] and battles a Digimon with equal DP. I activate [All Turns] to prevent it from being deleted. Does <Piercing> trigger?",
+                    "A: Yes, because the Digimon will still have <Piercing> and it deleted a Digimon battle and survived it will trigger."
+                ],
+                [
+                    "Q: This card has <Piercing> from [EX1-008 MetalGreymon] in its digivolution cards, this card attacks a Digimon with equal DP and uses its [All Turns] effect to prevent its deletion by trashing [EX1-008 MetalGreymon]. Does <Piercing> still trigger?",
+                    "A: No, it lost <Piercing> before the timing it would trigger and if it doesn't trigger it cannot activate."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/37/BT9-025-J.png/revision/latest?cb=20220218110354",
+            "id": "BT9-025",
+            "name": "TeslaJellymon",
+            "jpname": "テスラジェリーモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Mollusk",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[End of Attack] (Once Per Turn) You may trash 2 cards in your hand to unsuspend this Digimon.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7d/BT9-026-J.png/revision/latest?cb=20220218110355",
+            "id": "BT9-026",
+            "name": "Piranimon",
+            "jpname": "ピラニモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Aquatic",
+            "ilustrators": [
+                "itohiro"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "<Rush> (This Digimon can attack the turn it comes into play).",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/47/BT9-027-J.png/revision/latest?cb=20220218110356",
+            "id": "BT9-027",
+            "name": "Divermon",
+            "jpname": "ハンギョモン",
+            "tsname": "Hangyomon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "type": "Aquabeast",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/80/BT9-028-J.png/revision/latest?cb=20220218110357",
+            "id": "BT9-028",
+            "name": "WereGarurumon (X Antibody)",
+            "jpname": "ワーガルルモン X抗体",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Beastkin/X Antibody",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Unsuspend this Digimon. Then, if [WereGarurumon] or [X Antibody] is in this Digimon's digivolution cards, return 1 of your opponent's level 4 or lower Digimon to its owner's hand.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: The effect of \"If you have [WereGarurumon] or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [WereGarurumon] or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/54/BT9-029-J.png/revision/latest?cb=20220218110357",
+            "id": "BT9-029",
+            "name": "Suijinmon",
+            "jpname": "スイジンモン",
+            "color": [
+                "Blue",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Machine",
+            "ilustrators": [
+                "banira"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Black",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "effect1": "(Hand) [Main] If you have a Digimon with [Justimon], or [Raidenmon] in its name in play, you may pay 1 memory to place this card under that Digimon as its bottom digivolution card.\n[When Digivolving] You may trash 1 Digimon card with [Machine], or [Cyborg] in its traits in your hand to place 1 of your opponent's level 4 or lower Digimon to the bottom of its owner's deck.",
+            "effect2": "[When Attacking] Return 1 of your opponent's level 4 or lower Digimon to its owner's hand.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: When is the timing of this card effect (Hand) [Main] activated?",
+                    "A: This effect will be activated during the Main Phase, by revealing this card from your hand."
+                ],
+                [
+                    "Q: Can I reveal this card in my hand if I don't want to pay 1 memory?",
+                    "A: Yes, you can reveal this card and not pay the cost. The card will be returned to your hand."
+                ],
+                [
+                    "Q: Can I reveal this card in my hand if I don't have a Digimon [Justimon], or [Raidenmon] in its name in play?",
+                    "A: No, you must fulfil the condition to reveal this card from your hand."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/41/BT9-030-J.png/revision/latest?cb=20220218110358",
+            "id": "BT9-030",
+            "name": "MetalPiranimon",
+            "jpname": "メタルピラニモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Aquatic/X Antibody",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Attacking] You may play 1 Digimon card with [Piranimon] in its name from this Digimon's digivolution cards without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bf/BT9-031-J.png/revision/latest?cb=20220218110359",
+            "id": "BT9-031",
+            "name": "MetalGarurumon (X Antibody)",
+            "jpname": "メタルガルルモン X抗体",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Cyborg/X Antibody",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] Unsuspend this Digimon, and it gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead) until the end of your opponent's turn.\n [Your Turn] (Once Per Turn) When this Digimon becomes unsuspended, if [MetalGarurumon] or [X Antibody] is in it's digivolution cards, return all of your opponent's Digimon with the lowest level to their owner's hand.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: The effect of \"If you have [MetalGarurumon] or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [MetalGarurumon] or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ],
+                [
+                    "Q: Can this card [Your Turn] effect be activated during my active phase?",
+                    "A: Yes, you can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b1/BT9-032-J.png/revision/latest?cb=20220218110359",
+            "id": "BT9-032",
+            "name": "ToyAgumon",
+            "jpname": "トイアグモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Puppet",
+            "ilustrators": [
+                "yuuki."
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/26/BT9-033-J.png/revision/latest?cb=20220218110400",
+            "id": "BT9-033",
+            "name": "Pillomon",
+            "jpname": "ピロモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Mammal",
+            "ilustrators": [
+                "Kirita"
+            ],
+            "effect1": "[All Turns] Players can't play Digimon by effects.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Can this Digimon prevent Digimon from being played by the effect of an option card?",
+                    "A: Yes, it can."
+                ],
+                [
+                    "Q: If this Digimon is in the battle area, can play cost be reduced?",
+                    "A: Yes. This effect only applies to card effects that allows a Digimon to be played in the battle area."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/20/BT9-034-J.png/revision/latest?cb=20220218110401",
+            "id": "BT9-034",
+            "name": "Salamon (X Antibody)",
+            "jpname": "プロットモン X抗体",
+            "tsname": "Plotmon X Antibody",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Mammal/X Antibody",
+            "ilustrators": [
+                "Tsunemi Aosa"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[When Digivolving] Look at the top card of your security stack, and you may add it to you hand. If you do, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: What will happen if I don’t add the card to my hand, after I check the top card of the security stack?",
+                    "A: It will remain the top of the security stack."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c8/BT9-035-J.png/revision/latest?cb=20220218110402",
+            "id": "BT9-035",
+            "name": "Starmon",
+            "jpname": "スターモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Mutant",
+            "ilustrators": [
+                "Kirita"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fa/BT9-036-J.png/revision/latest?cb=20220218110403",
+            "id": "BT9-036",
+            "name": "Gatomon (X Antibody)",
+            "jpname": "テイルモン X抗体",
+            "tsname": "Tailmon (X Antibody)",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Holy Beast/X Antibody",
+            "ilustrators": [
+                "Tsunemi Aosa"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[When Attacking] If you have 3 or more security cards, 1 of your opponent's Digimon gets -2000 DP for the turn.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b7/BT9-037-J.png/revision/latest?cb=20220218110404",
+            "id": "BT9-037",
+            "name": "Nefertimon",
+            "jpname": "ネフェルティモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Armor Form",
+            "attribute": "Free",
+            "type": "Holy Beast",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "effect1": "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Attacking] 1 of your opponent's Digimon gets -2000 DP for the turn.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/BT9-038-J.png/revision/latest?cb=20220218110404",
+            "id": "BT9-038",
+            "name": "Pegasusmon",
+            "jpname": "ペガスモン",
+            "tsname": "Pegasmon",
+            "color": [
+                "Yellow",
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Armor Form",
+            "attribute": "Free",
+            "type": "Holy Beast",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "effect1": "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Digivolving] 1 of your opponent's Digimon gains <Security Attack -1> (This Digimon checks 1 fewer security card) until the end of your opponent's turn.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b8/BT9-039-J.png/revision/latest?cb=20220218110405",
+            "id": "BT9-039",
+            "name": "DarkSuperStarmon",
+            "jpname": "ダークスーパースターモン",
+            "color": [
+                "Yellow",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "9000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Mutant",
+            "ilustrators": [
+                "Kirita"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "evocolor2": "Black",
+            "evolevel2": "4",
+            "evocost2": "3",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bd/BT9-040-J.png/revision/latest?cb=20220218110405",
+            "id": "BT9-040",
+            "name": "Angewomon (X Antibody)",
+            "jpname": "エンジェウーモン X抗体",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Archangel",
+            "ilustrators": [
+                "Tsunemi Aosa"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] 1 of your opponent's Digimon gains <Security Attack -1> (This Digimon checks 1 fewer security card) until the end of your opponent's turn. Then, if [Angewomon] or [X Antibody] is in this Digimon’s digivolution cards and you have 5 or fewer security cards, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: The effect of \"If you have [Angewomon] or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [Angewomon] or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a7/BT9-041-J.png/revision/latest?cb=20220218110406",
+            "id": "BT9-041",
+            "name": "RizeGreymon (X Antibody)",
+            "jpname": "ライズグレイモン X抗体",
+            "color": [
+                "Yellow",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Cyborg/X Antibody",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "evocolor2": "Red",
+            "evolevel2": "4",
+            "evocost2": "4",
+            "effect1": "[When Digivolving] You may play 1 red or yellow Tamer card from your hand without paying it's memory cost. Then, if [RizeGreymon] or [X Antibody] is in this Digimon's digivolution cards, 1 of opponent's Digimon gets -2000 DP for each red or yellow Tamer you have in play for the turn.\n[Your Turn] For each Tamer you have in play, this Digimon gets +1000 DP.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: The effect of \"If you have [RizeGreymon] or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [RizeGreymon] or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/BT9-042-J.png/revision/latest?cb=20220218110407",
+            "id": "BT9-042",
+            "name": "Raijinmon",
+            "jpname": "ライジンモン",
+            "color": [
+                "Yellow",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Cyborg",
+            "ilustrators": [
+                "banira"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Black",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "effect1": "(Hand) [Main] If you have a Digimon in play with [Justimon], or [Raidenmon] in its name, you may pay 1 memory to place this card under that Digimon as its bottom digivolution card.\n[When Digivolving] You may trash 1 card with [Machine], or [Cyborg] in its traits in your hand to have 1 of your opponent's Digimon get -4000 DP for the turn.",
+            "effect2": "[When Attacking] 1 of your opponent's Digimon gets -4000 DP for the turn.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: When is the timing of this card effect (Hand) [Main] activated?",
+                    "A: This effect will be activated during the Main Phase, by revealing this card from your hand."
+                ],
+                [
+                    "Q: Can I reveal this card in my hand if I don't want to pay 1 memory?",
+                    "A: Yes, you can reveal this card and not pay the cost. The card will be returned to your hand."
+                ],
+                [
+                    "Q: Can I reveal this card in my hand if I don't have a Digimon [Justimon], or [Raidenmon] in its name in play?",
+                    "A: No, you must fulfil the condition to reveal this card from your hand."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0b/BT9-043-J.png/revision/latest?cb=20220218110408",
+            "id": "BT9-043",
+            "name": "Magnadramon (X Antibody)",
+            "jpname": "ホーリードラモン X抗体",
+            "tsname": "Holydramon X Antibody",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Holy Dragon/Four Great Dragons/X Antibody",
+            "ilustrators": [
+                "Tsunemi Aosa"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] If [Magnadramon] or [X Antibody] is in this Digimon's digivolution cards, all of your opponent's Digimon and Security Digimon get -1000 DP for the turn for each card in your security stack.\n[End of Attack] (Once Per Turn) You may add the top card of your security stack to your hand to unsuspend this Digimon.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: The effect of \"If you have [Magnadramon] or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [Magnadramon] or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e3/BT9-044-J.png/revision/latest?cb=20220218110408",
+            "id": "BT9-044",
+            "name": "Magnamon (X Antibody)",
+            "jpname": "マグナモン X抗体",
+            "color": [
+                "Yellow",
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Holy Warrior/Royal Knight/X Antibody",
+            "ilustrators": [
+                "sasasi",
+                "As'Maria"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Blue",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "effect1": "[Opponent's Turn] When an opponent's Digimon attacks, if a card with [Armor Form] in its traits or [X Antibody] is in this Digimon's digivolution cards, you may switch the target of an attack to this Digimon.\n[All Turns] When this Digimon would be deleted, you may place the top card of this Digimon on top of your security stack face down to prevent that deletion.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: The effect of \"If you have a card with [Armor Form] in its traits or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [Armor Form] in its traits or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cc/BT9-045-J.png/revision/latest?cb=20220218110409",
+            "id": "BT9-045",
+            "name": "Elecmon",
+            "jpname": "エレキモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "4000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mammal",
+            "ilustrators": [
+                "tessy"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7d/BT9-046-J.png/revision/latest?cb=20220218110409",
+            "id": "BT9-046",
+            "name": "Kokuwamon (X Antibody)",
+            "jpname": "コクワモンX抗体",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Machine/X Antibody",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] [When Digivolving] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Insectoid], or [Machine] in its traits and 1 [X Antibody]  among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: By using this card effect, can I add a card with [X Antibody] in its traits to my hand from the 3 revealed cards?",
+                    "A: No, you can’t because it specifies the card name and you can only add a card with the name [X Antibody] to your hand. It does not apply to cards with [X Antibody] in its traits."
+                ],
+                [
+                    "Q: By using this card effect, does it mean that I can’t add both cards unless I add both [Insectoid] in its traits and or [X Antibody]?",
+                    "A: No, even if you only revealed a card with [Insectoid] in its traits or [X Antibody] you can add it to your hand."
+                ],
+                [
+                    "Q: If I reveal cards with [Insectoid] in its traits and or [X Antibody], can I choose not to add them to hand?",
+                    "A: No because the effect states \"Add to hand\", thus you are required to add as much as possible from the revealed cards. You are required to add cards with [Insectoid] in its traits and 1 [X Antibody] to your hand."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5b/BT9-047-J.png/revision/latest?cb=20220218110410",
+            "id": "BT9-047",
+            "name": "Pomumon",
+            "jpname": "ポームモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Vegetation",
+            "ilustrators": [
+                "Ryodan"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[All Turns] Players can't play Digimon by effects.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If this Digimon is present in the battle area, can I move my Digimon from the breeding area to the battle area  using [BT1-089 Mimi Tachikawa]'s effect?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: If this Digimon is in the battle area, can play cost be reduced?",
+                    "A: Yes. This effect only applies to card effects that makes a Digimon to be played in the battle area."
+                ],
+                [
+                    "Q: Can this Digimon prevent Digimon from being played by the effect of an option card?",
+                    "A: Yes, it can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b7/BT9-048-J.png/revision/latest?cb=20220218110410",
+            "id": "BT9-048",
+            "name": "Ninjamon",
+            "jpname": "イガモン",
+            "tsname": "Igamon",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Mutant",
+            "ilustrators": [
+                "yuuki."
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a6/BT9-049-J.png/revision/latest?cb=20220218110411",
+            "id": "BT9-049",
+            "name": "Kuwagamon (X Antibody)",
+            "jpname": "クワガーモン X抗体",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Insectoid/X Antibody",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[Your Turn] While this Digimon has [Insectoid] in its traits, it gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ef/BT9-050-J.png/revision/latest?cb=20220218110412",
+            "id": "BT9-050",
+            "name": "Leomon (X Antibody)",
+            "jpname": "レオモン X抗体",
+            "color": [
+                "Green",
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Beastkin",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Blue",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect1": "[All Turns] When this Digimon would be deleted in battle, you may play 1 [Leomon] from this Digimon's digivolution cards without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Can I play a [Leomon (X Antibody)] from this Digimon’s digivolution cards?",
+                    "A: No, because this card only specifies [Leomon]."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/35/BT9-051-J.png/revision/latest?cb=20220218110412",
+            "id": "BT9-051",
+            "name": "Panjyamon (X Antibody)",
+            "jpname": "パンジャモン Ｘ抗体",
+            "color": [
+                "Green",
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Beastkin/X Antibody",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "evocolor2": "Blue",
+            "evolevel2": "4",
+            "evocost2": "3",
+            "effect1": "Treat this card/Digimon as if it also has [Leomon] in its name.\n[All Turns] When this Digimon would be deleted in battle, you may play 1 [Leomon] from this Digimon's digivolution cards without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: This Digimon is also treated as having [Leomon] in its name. Is it possible to target this card as [Leomon]?",
+                    "A: No. You can’t target this card as [Leomon] as the card name. This effect can’t be applied to cards with [Leomon] in its name."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f2/BT9-052-J.png/revision/latest?cb=20220218110413",
+            "id": "BT9-052",
+            "name": "Okuwamon (X Antibody)",
+            "jpname": "オオクワモンX抗体",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Insectoid/X Antibody",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] If [Okuwamon] or [X Antibody] is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon. Then, if this Digimon is attacking, you may switch the target of the attack to 1 of your opponent's suspended Digimon.\n[Your Turn] When this Digimon would digivolve into a Digimon with [Insectoid] in its traits, reduce the digivolution cost by 1.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: The effect of \"If you have [Okuwamon] or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [Okuwamon] or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b7/BT9-053-J.png/revision/latest?cb=20220218110413",
+            "id": "BT9-053",
+            "name": "Zamielmon",
+            "jpname": "ザミエールモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "9000",
+            "level": "5",
+            "form": "Ultimate",
+            "type": "Wizard/Big Death-Stars",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b3/BT9-054-J.png/revision/latest?cb=20220218110414",
+            "id": "BT9-054",
+            "name": "Fujinmon",
+            "jpname": "フウジンモン",
+            "color": [
+                "Green",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Cyborg",
+            "ilustrators": [
+                "banira"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Black",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "effect1": "(Hand) [Main] If you have a Digimon with [Justimon], or [Raidenmon] in its name in play, you may pay 1 memory to place this card under that Digimon as its bottom digivolution card.\n[When Digivolving] You may trash 1 card with [Machine], or [Cyborg] in its traits in your hand to suspend 1 of your opponent's Digimon.",
+            "effect2": "[When Attacking] Suspend 1 of your opponent's Digimon with 5000 DP or less. That Digimon does not unsuspend in your opponent's next unsuspend phase.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: When is the timing of this card effect (Hand) [Main] activated?",
+                    "A: This effect will be activated during the Main Phase, by revealing this card from your hand."
+                ],
+                [
+                    "Q: Can I reveal this card in my hand if I don't want to pay 1 memory?",
+                    "A: Yes, you can reveal this card and not pay the cost. The card will be returned to your hand."
+                ],
+                [
+                    "Q: Can I reveal this card in my hand if I don't have a Digimon [Justimon], or [Raidenmon] in its name in play?",
+                    "A: No, you must fulfil the condition to reveal this card from your hand."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1f/BT9-055-J.png/revision/latest?cb=20220218110415",
+            "id": "BT9-055",
+            "name": "GrandisKuwagamon",
+            "jpname": "グランディスクワガーモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Insectoid/X Antibody",
+            "ilustrators": [
+                "GOSSAN",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] Suspend 1 of your opponent's Digimon. Then, if this Digimon is attacking, you may switch the target of the attack to 1 of your opponent's suspended Digimon.\n[Your Turn] This Digimon gets +4000 DP.\n[End of Attack] (Once Per Turn) If [GranKuwagamon] or [X Antibody] is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon and unsuspend this digimon.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: By using this Digimon’s [When Digivolving] effect, can I suspend my opponent’s Digimon and change the attack target to that suspended Digimon by this card effect?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: The effect of \"If you have [GranKuwagamon] or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [GranKuwagamon] or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ],
+                [
+                    "Q: If my opponent's Digimon has \"This Digimon cannot be attacked.\", can this card's effect change the attack target to that Digimon?",
+                    "A: Yes, the effect condition only prevents the declaration of an attack on that Digimon."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f7/BT9-056-J.png/revision/latest?cb=20220218110415",
+            "id": "BT9-056",
+            "name": "Dinotigermon",
+            "jpname": "ディノタイガモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Ancient Animal/X Antibody",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Blue",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "[When Attacking] If a card with [Leomon] in its name or [X Antibody] is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon or Tamers.\n[Your Turn] (Once Per Turn) When an opponent's Digimon or Tamer becomes suspended, you may unsuspend this Digimon.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: The effect of \"If you have cards with [Leomon] in its name or [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [Leomon] in its name or [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bc/BT9-057-J.png/revision/latest?cb=20220218110416",
+            "id": "BT9-057",
+            "name": "Bearmon",
+            "jpname": "ベアモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Beast",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/03/BT9-058-J.png/revision/latest?cb=20220218110416",
+            "id": "BT9-058",
+            "name": "Dorumon",
+            "jpname": "ドルモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Beast/X Antibody",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] You may trash 1 card with [X Antibody] in its traits in your hand to <Draw 2> (Draw 2 cards from your deck).",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1c/BT9-059-J.png/revision/latest?cb=20220218110417",
+            "id": "BT9-059",
+            "name": "Tapirmon",
+            "jpname": "バクモン",
+            "tsname": "Bakumon",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Holy Beast",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Red",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect2": "[All Turns] While this Digimon has 2 or more colors, this Digimon gets +1000 DP.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this inherited effect activate when this Digimon has the effect of \"This Digimon is also treated as red\"?",
+                    "A: Yes."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/47/BT9-060-J.png/revision/latest?cb=20220218110417",
+            "id": "BT9-060",
+            "name": "Grizzlymon",
+            "jpname": "グリズモン",
+            "tsname": "Grizzmon",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Beast",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "1",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/30/BT9-061-J.png/revision/latest?cb=20220218110418",
+            "id": "BT9-061",
+            "name": "Monochromon",
+            "jpname": "モノクロモン",
+            "color": [
+                "Black",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Ankylosaur",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Red",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n [When Attacking] Lose 3 memory.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/92/BT9-062-J.png/revision/latest?cb=20220218110419",
+            "id": "BT9-062",
+            "name": "Raptordramon",
+            "jpname": "ラプタードラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Cyborg/X Antibody",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "effect2": "[End of Attack] If this Digimon has [Alphamon] in its name, delete 1  of your opponent's Digimon with a play cost 5 or less.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1e/BT9-063-J.png/revision/latest?cb=20220218110420",
+            "id": "BT9-063",
+            "name": "LoaderLeomon",
+            "jpname": "ローダーレオモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Machine",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card have [Leomon] in its name?",
+                    "A: Yes. This card's Japanese name (ローダーレオモン) has \"Leomon\" (レオモン) in its name."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/10/BT9-064-J.png/revision/latest?cb=20220218110420",
+            "id": "BT9-064",
+            "name": "Grademon",
+            "jpname": "グレイドモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Warrior/X Antibody",
+            "ilustrators": [
+                "sasasi",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Reveal the top 3 cards of your deck. Add 1 card with [Alphamon] in its name among them to your hand, and place 1 card with [X Antibody] in its traits among them under this Digimon as its bottom digivolution card. Trash the rest.",
+            "effect2": "[End of Attack] If this Digimon has [Alphamon] in its name, delete 1  of your opponent's Digimon with a play cost 5 or less.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6d/BT9-065-J.png/revision/latest?cb=20220218110421",
+            "id": "BT9-065",
+            "name": "Megadramon",
+            "jpname": "メガドラモン",
+            "color": [
+                "Black",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Cyborg",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "evocolor2": "Red",
+            "evolevel2": "4",
+            "evocost2": "4",
+            "effect1": "[When Digivolving] Delete 1 of your opponent's Digimon or Tamers with a play cost of 3 or less.",
+            "effect2": "[When Attacking] If this Digimon has [Machine], or [Dragonkin] in its traits, delete 1 of your opponent's Digimon or Tamers with a play cost of 3 or less.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e9/BT9-066-J.png/revision/latest?cb=20220218110422",
+            "id": "BT9-066",
+            "name": "Alphamon",
+            "jpname": "アルファモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Holy Warrior/Royal Knight/X Antibody",
+            "ilustrators": [
+                "sasasi",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Place 1 card with [X Antibody] in its traits from your trash under this Digimon as its bottom digivolution card.\n[Your Turn] (Once Per Turn) When an effect places a digivolution card under this Digimon, <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards).",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/95/BT9-067-J.png/revision/latest?cb=20220218110423",
+            "id": "BT9-067",
+            "name": "Raidenmon",
+            "jpname": "ライデンモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Machine",
+            "ilustrators": [
+                "banira"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Black",
+            "evolevel2": "6",
+            "evocost2": "2",
+            "effect1": "[On Play] [When Digivolving] Place 1 [Fujinmon], [Raijinmon], and [Suijinmon] from your trash under this Digimon in any order as its bottom digivolution cards. Gain 1 memory for each card placed.\n[When Attacking] If the level 6 cards in this Digimon's digivolution cards have 3 or more colors among them, this Digimon gain +3000 DP until the end of your opponent's next turn. If they have 4 or more colors, <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards).",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Does this card’s [When Digivolving] [On Play] effect only activate when there are [Raijinmon], [Suijinmon], and [Fujinmon] in the trash?",
+                    "A: No, even if you have either 1 of them in the trash the effect still activates."
+                ],
+                [
+                    "Q: Does the effect of +3000 DP only activate when there are level 6 Digimon cards with 4 or more colours in its digivolution cards?",
+                    "A: Yes, you will gain +3000 DP and you can <De-Digivolve  1> on 1 of your opponent's Digimon."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7f/BT9-068-J.png/revision/latest?cb=20220218110423",
+            "id": "BT9-068",
+            "name": "Gaiomon",
+            "jpname": "ガイオウモン",
+            "color": [
+                "Black",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Dragonkin/X Antibody",
+            "ilustrators": [
+                "tyuga",
+                "As'Maria"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "evocolor2": "Red",
+            "evolevel2": "5",
+            "evocost2": "5",
+            "effect1": "The name of this card/Digimon is also treated as having [Greymon] in its name.\n<Security Attack +1> (This Digimon checks 1 additional security card).\n<Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase).\n[When Digivolving] If this Digimon has a black digivolution card, <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). If this Digimon has a red digivolution card, <Blitz> (If your opponent has 1 or more memory, this Digimon may attack).",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Does this card's effect treat this card as having [Greymon] in its name even in the hand, deck, trash, and digivolution cards?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: Does this card's effect treat this card as being [Greymon] in its name even in breeding area?",
+                    "A: No, as effects do not activate in the breeding area, this card/Digimon is not treated as being [Greymon] in its name in the breeding area."
+                ],
+                [
+                    "Q: This Digimon is also treated as having [Greymon] in its name. Does this Digimon count as [Greymon]?",
+                    "A: No. This Digimon only has [Greymon] in its name, it does not count as being [Greymon]."
+                ],
+                [
+                    "Q: During the activation of the [When Digivolving] effect, can I use both <Blitz> and <De-Digivolve> when I have both red and black cards in its digivolution cards?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: Does this card have <Blitz> in the deck, when revealed by [BT5-009 Shoutmon]?",
+                    "A: No, it does not."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/BT9-069-J.png/revision/latest?cb=20220218110424",
+            "id": "BT9-069",
+            "name": "Baihumon",
+            "jpname": "バイフーモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Holy Beast/Four Sovereigns",
+            "ilustrators": [
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "effect1": "[When Digivolving] Unsuspend up to 2 Digimon and/or Tamers. Then, gain 1 memory for each of your opponent's unsuspended Digimon and Tamers.\n[End of Your Turn] (Once Per Turn) For every 2 unsuspended Digimon and/or Tamers your opponent has in play, trash 1 card from the top card of your opponent's security stack.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Can I unsuspend my opponent's suspended Tamer by using this Digimon's [When Digivolving] effect?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: Can I use the [When Digivolving] effect to unsuspend 1 of my Tamers and 1 of my opponent’s Tamers?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: Does the [When Digivolving] effect allow me to unsuspend 2 Tamers and 2 Digimon at the same time?",
+                    "A: It will be only be 2 in total. It can be done by unsuspending 2 Tamers or 2 Digimon."
+                ],
+                [
+                    "Q: Does the [End of Your Turn] effect of trashing my opponent’s security cards only apply for each pair of 1 Tamer and 1 Digimon?",
+                    "A: No. Divide the total of unsuspended Digimon and Tamer by 2. For example, if there are 3 unsuspended Digimon and 1 unsuspended Tamer, 2 security will be trashed."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ea/BT9-070-J.png/revision/latest?cb=20220218110425",
+            "id": "BT9-070",
+            "name": "Gazimon (X Antibody)",
+            "jpname": "ガジモン X抗体",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Mammal/X Antibody",
+            "ilustrators": [
+                "Ryodan"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[When Digivolving] Trash the top 3 cards of your deck.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/11/BT9-071-J.png/revision/latest?cb=20220218110425",
+            "id": "BT9-071",
+            "name": "Dracmon",
+            "jpname": "ドラクモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Undead",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Trash 1 of them, and add 1 card with [Undead], or [Dark Animal] in its traits among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "effect2": "[When Attacking] This Digimon may digivolve into a Digimon card with [Undead], or [Dark Animal] in its traits for its digivolution cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: When [On Play] effect is activated, does that mean I can only trash cards with [Undead] in its traits or [Dark Animal] in its traits?",
+                    "A: Yes, you can only add and trash cards with [Undead] in its traits or [Dark Animal] in its traits."
+                ],
+                [
+                    "Q: When I activate [On Play] effect, among the revealed cards there is only 1 [Undead] in its traits or [Dark Animal] in its traits. Can I choose to either trash it or add it to my hand?",
+                    "A: Yes, you can choose to add it or trash it."
+                ],
+                [
+                    "Q: Can this inherited effect digivolve into any Digimon that has [Undead] in its traits or [Dark Animal] in its traits in it’s trait?",
+                    "A: No, you can’t ignore the digivolution requirements with this effect."
+                ],
+                [
+                    "Q: If this Digimon digivolves to a Digimon that has the effect of [When Attacking], can I activate [When Attacking] effect?",
+                    "A: No, because it’s not there during the timing of declaring an attack."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/68/BT9-072-J.png/revision/latest?cb=20220218110426",
+            "id": "BT9-072",
+            "name": "Salamon",
+            "jpname": "プロットモン",
+            "tsname": "Plotmon",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mammal",
+            "ilustrators": [
+                "tessy"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Yellow",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 2-colored purple card among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a2/BT9-073-J.png/revision/latest?cb=20220218110427",
+            "id": "BT9-073",
+            "name": "Sangloupmon",
+            "jpname": "サングルゥモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dark Animal",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[When Attacking] This Digimon may digivolve into a Digimon card with [Undead], or [Dark Animal] in its traits from your trash for its digivolution cards.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Can this inherited effect digivolve into any Digimon that has [Undead] in its traits or [Dark Animal] in its traits in it’s trait?",
+                    "A: No, you can’t ignore the digivolution requirements with this effect."
+                ],
+                [
+                    "Q: If this Digimon digivolves into a Digimon that has the effect of [When Attacking], can I activate [When Attacking] effect?",
+                    "A: No, because it’s not there during the timing of declaring an attack."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/29/BT9-074-J.png/revision/latest?cb=20220218110428",
+            "id": "BT9-074",
+            "name": "Meicoomon",
+            "jpname": "メイクーモン",
+            "color": [
+                "Purple",
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Unknown",
+            "type": "Unknown",
+            "ilustrators": [
+                "Sanosuke Sakuma",
+                "Takase"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "evocolor2": "Yellow",
+            "evolevel2": "3",
+            "evocost2": "3",
+            "effect1": "[Security] At the end of battle, play this card without paying its memory cost.",
+            "effect2": "[On Deletion] If this Digimon has 2 or more colors, gain 2 memory.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: If this card is a digivolution card of a Digimon with effects such as \"This Digimon is also treated as red\", will the inherited effect activate?",
+                    "A: Yes, it will."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/84/BT9-075-J.png/revision/latest?cb=20220218110429",
+            "id": "BT9-075",
+            "name": "DexDorugamon",
+            "jpname": "デクスドルガモン",
+            "tsname": "Death-X-DORUgamon",
+            "color": [
+                "Purple",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Undead/X Antibody",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "evocolor2": "Black",
+            "evolevel2": "3",
+            "evocost2": "3",
+            "effect1": "[When Digivolving] You may trash 1 card with [Dex], or [DeathX] in its name or with [X Antibody] in its traits in your hand to gain 1 memory.\n[When Digivolving] If this Digimon has [Dorugamon] in its digivolution cards or is digivolving from the trash, 1 of your Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead) and <Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling) until the end of your opponent's turn.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/26/BT9-076-J.png/revision/latest?cb=20220218110429",
+            "id": "BT9-076",
+            "name": "Maycrackmon: Vicious Mode",
+            "jpname": "メイクラックモン：ヴィシャスモード",
+            "color": [
+                "Purple",
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "6000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Unknown",
+            "type": "Unknown",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "evocolor2": "Yellow",
+            "evolevel2": "4",
+            "evocost2": "4",
+            "effect1": "[On Play] [When Digivolving] You may trash 1 card in your hand. If you trash a purple card, delete 1 of your opponent's level 3 Digimon. If you trash a yellow card, 1 of your opponent's Digimon gets -3000 DP for the turn.",
+            "effect2": "[On Deletion] If this Digimon has 2 or more colurs, gain 2 memory.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If the card trashed from hand by this card’s [On Play] [When Digivolving] effect was both a yellow and purple dual coloured card, will both effects of \"Delete 1 of opponent’s level 3 Digimon\" and \"During this turn, 1 of your opponent’s Digimon loses -3000 DP\" activate?",
+                    "A: Yes, since dual coloured card is also treated as both colours, both effects will activate."
+                ],
+                [
+                    "Q: If this card is a digivolution card of Digimon with effects such as \"This Digimon is also treated as red\", will the inherited effect activate?",
+                    "A: Yes, it will."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b1/BT9-077-J.png/revision/latest?cb=20220218110430",
+            "id": "BT9-077",
+            "name": "Matadormon",
+            "jpname": "マタドゥルモン",
+            "tsname": "Matadrmon",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Undead",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Attacking] By trash 1 card with [Undead], or [Dark Animal] in its traits from your hand, this Digimon gets +3000 DP for the turn.\n[Your Turn] When this Digimon would digivolve into a Digimon card in your trash, reduce the memory cost of the digivolution by 1.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Can this card’s [Your Turn] effect be used to digivolve from trash?",
+                    "A: No, this card itself can’t be digivolved by its own effect. This effect can be used with another card’s effect to digivolve from the trash by paying the digivolution cost."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a0/BT9-078-J.png/revision/latest?cb=20220218110431",
+            "id": "BT9-078",
+            "name": "DexDoruGreymon",
+            "jpname": "デクスドルグレモン",
+            "tsname": "Death-X-DORUguremon",
+            "color": [
+                "Purple",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Undead/X Antibody",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "evocolor2": "Black",
+            "evolevel2": "4",
+            "evocost2": "4",
+            "effect1": "[When Digivolving] You may trash 1 card with [Dex], or [DeathX] in its name or with [X Antibody] in its traits in your hand to gain 1 memory.\n[When Digivolving] If this Digimon has [DoruGreymon] in its digivolution cards, or is digivolving from the trash, delete 1 of your opponent's level 4 of lower Digimon.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/BT9-079-J.png/revision/latest?cb=20220218110432",
+            "id": "BT9-079",
+            "name": "GranDracmon",
+            "jpname": "グランドラクモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Dark Animal",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "effect1": "[When Digivolving] You may play 1 level purple Digimon card from your trash without paying its memory cost.\n[End of Attack] (Once Per Turn) You may digivolve 1 of your other Digimon in play into a Digimon card with [Undead], or [Dark Animal] in its traits from your trash without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Can this Digimon’s [End of Attack] effect digivolve a card into any Digimon that has [Undead] in its traits or [Dark Animal] in its traits?",
+                    "A: No, you can’t ignore the digivolution requirements with this effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5d/BT9-080-J.png/revision/latest?cb=20220218110433",
+            "id": "BT9-080",
+            "name": "Raguelmon",
+            "jpname": "ラグエルモン",
+            "color": [
+                "Purple",
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Unknown",
+            "type": "Unknown",
+            "ilustrators": [
+                "Takase",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Yellow",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "[On Play] Play 1 purple or yellow Digimon with 6000 DP or less from your trash without paying its memory cost. If your have 1 of fewer security cards, you may play 1 level 6 or lower Digimon card with [Angel], or [Fallen Angel] in its traits from your trash without paying its memory cost instead.\n[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve  cost.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: By using the [On Play] effect can I choose to play a Digimon with 6000 DP or less when I have 1 or less security cards?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: This card’s [On Play] effect, when my security is 1 or less. Can I choose to play a Digimon with [Angel] in its traits or [Fallen Angel] in its traits from my trash?",
+                    "A: Yes, you can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bf/BT9-081-J.png/revision/latest?cb=20220218110433",
+            "id": "BT9-081",
+            "name": "DexDorugoramon",
+            "jpname": "デクスドルゴラモン",
+            "tsname": "Death-X-DORUgoramon",
+            "color": [
+                "Purple",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Undead/X Antibody",
+            "ilustrators": [
+                "Tonamikanji",
+                "sasasi"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "evocolor2": "Black",
+            "evolevel2": "5",
+            "evocost2": "5",
+            "effect1": "[When Digivolving] If this Digimon has [Dorugoramon] in its digivolution cards, or is digivolved from the trash, delete all of your opponent's Digimon with the lowest level.\n[On Deletion] You may play 1 purple or black level 3 Digimon card from your trash without paying its memory cost. If your have 5 or more cards with [Dex], or [DeathX] in their names in your trash, you may play 1 [DeathXmon] from your trash without paying its memory cost instead.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: During the activation of this card’s [On Deletion] effect of this card, does this card count as a card with [Dex] in its name in the trash?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: During the activation of this card’s [On Deletion] effect, can I choose to play a purple or black level 3 Digimon when I have 5 or more Digimon with [Dex] in its name in the trash?",
+                    "A: Yes."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/45/BT9-082-J.png/revision/latest?cb=20220218110434",
+            "id": "BT9-082",
+            "name": "Ordinemon",
+            "jpname": "オルディネモン",
+            "color": [
+                "Purple",
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "15",
+            "dp": "15000",
+            "level": "7",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Fallen Angel",
+            "ilustrators": [
+                "Tonamikanji",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "6",
+            "evocost1": "6",
+            "evocolor2": "Yellow",
+            "evolevel2": "6",
+            "evocost2": "6",
+            "effect1": "[When Digivolving] When DNA digivolving, delete 1 of your opponent's level 6 or higher Digimon and all of their level 5 or lower Digimon. For each Digimon deleted by this effect, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).\n[On Deletion] You may trash the top card of your security stack to play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Will this Digimon come back into play with its digivolution cards during the activation of its [On Deletion] effect?",
+                    "A: No, the digivolution cards will remain in the trash. Only this card will come into play."
+                ],
+                [
+                    "Q: If this Digimon has an inherited effect with an [On Deletion] effect that was deleted  and then comes into play, can I choose the unresolved effect to be resolved when it comes into play?",
+                    "A: No, you can’t because this Digimon will be treated as a new Digimon."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/02/BT9-083-J.png/revision/latest?cb=20220218110435",
+            "id": "BT9-083",
+            "name": "Omnimon: Merciful Mode",
+            "jpname": "オメガモン：マーシフルモード",
+            "tsname": "Omegamon: Merciful Mode",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "15",
+            "dp": "15000",
+            "level": "7",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Holy Warrior",
+            "ilustrators": [
+                "Tonamikanji",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "6",
+            "evocost1": "6",
+            "evocolor2": "Blue",
+            "evolevel2": "6",
+            "evocost2": "6",
+            "evocolor3": "Yellow",
+            "evolevel3": "6",
+            "evocost3": "6",
+            "evocolor4": "Green",
+            "evolevel4": "6",
+            "evocost4": "6",
+            "effect1": "[When Digivolving] For each card with [Mega] in their traits in this Digimon's digivolution cards, delete 1 of your opponent's Digimon. Then, place 10 cards in your opponent's trash at the bottom of their deck in any order.\n[Start of Your Turn] Trash the top card of this Digimon. If you do, trash the top card of your opponent's security stack.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Which player chooses the arrangement order and the cards to be returned to the bottom of them?",
+                    "A: The player of this card chooses."
+                ],
+                [
+                    "Q: Is it possible to return a Digi-Egg to the bottom of the deck with this card effect?",
+                    "A: Yes it is possible to target a Digi-Egg with this effect, however it will be returned to the bottom of the Digi-Egg deck."
+                ],
+                [
+                    "Q: When activating the [When Digivolving] effect, if I have 2 Digimon with [Mega] in its traits, does that mean I can return 20 cards to the bottom of the deck?",
+                    "A: No, you will only return 10 cards to the bottom of your opponent’s deck."
+                ],
+                [
+                    "Q: Can the [When Digivolving] effect activate when my opponent has 9 or less trash?",
+                    "A: Yes, if that is the case do return as much as possible to the bottom of the deck."
+                ],
+                [
+                    "Q: Is it possible not to activate [Start of Your Turn] effect of this card?",
+                    "A: No, this effect is mandatory to be activated."
+                ],
+                [
+                    "Q: Does the [Start of Your Turn] effect not activate when my opponent has 0 security cards?",
+                    "A: No, even if the opponent’s security stack has 0 cards, it will activate. In this case, the security cards of the opponent can’t be trashed, but \"trash the top card of this stack\" will be performed."
+                ],
+                [
+                    "Q: What happens if this card has no digivolution cards, does this Digimon still get trashed?",
+                    "A: No, it cannot be trashed and because of that your opponent does not trash security."
+                ],
+                [
+                    "Q: Can I attempt to delete less Digimon than the number of [Mega] in its traits in this Digimon's digivolution cards?",
+                    "A: No, if there is a valid target and you have not deleted equal to the number of [Mega] in its traits in its digivolution cards you must delete that target."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e1/BT9-084-J.png/revision/latest?cb=20220218110436",
+            "id": "BT9-084",
+            "name": "Tai Kamiya & Kari Kamiya",
+            "jpname": "八神太一 & 八神ヒカリ",
+            "tsname": "Yagami Taichi & Yagami Hikari",
+            "color": [
+                "Red",
+                "Yellow"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Turn] If you have 3 or fewer security cards, gain 1 memory. If your opponent has 3 or fewer security cards, gain 1 memory.\n [Your Turn] When one of your red or yellow Digimon attacks, you may suspend this Tamer to have all of your opponent's Security Digimon get -2000 DP for the turn.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: During the start of the turn, if both my opponent and I each have 3 security card, does that mean I gain 2 memory?",
+                    "A: Yes, you will gain 2 memory due to the conditions being met."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/04/BT9-085-J.png/revision/latest?cb=20220218110436",
+            "id": "BT9-085",
+            "name": "Matt Ishida & Sora Takenouchi",
+            "jpname": "石田ヤマト & 武之内空",
+            "tsname": "Ishida Yamato & Takenouchi Sora",
+            "color": [
+                "Blue",
+                "Red"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Main Phase] If you have 8 or more cards in hand, gain 1 memory. If your opponent has 8 or more cards in hand, gain 1 memory.\n[Your Turn] When one of your blue or red Digimon becomes unsuspended, you may suspend this Tamer to return 1 of your opponent's level 3 Digimon to its owner's hand.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: During the start of the turn, if both my opponent and I each have 8 or more cards in our hands, does that mean I gain 2 memory?",
+                    "A: Yes, you will gain 2 memory due to the conditions being met."
+                ],
+                [
+                    "Q: Does the [Your Turn] effect activate when my red or blue Digimon are active during the Unsuspend Phase?",
+                    "A: Yes, it is possible."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/95/BT9-086-J.png/revision/latest?cb=20220218110437",
+            "id": "BT9-086",
+            "name": "Kiyoshiro Higashimitarai",
+            "jpname": "東御手洗 清司郎",
+            "tsname": "Higashimitarai Kiyoshiro",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Your Turn] When you attack with a Digimon with [Jellymon] in its name or is level 5 or higher, if you have 7 or fewer cards in hand, you may suspend this Tamer to <Draw 1> (Draw 1 card from your deck).",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/57/BT9-087-J.png/revision/latest?cb=20220218110438",
+            "id": "BT9-087",
+            "name": "T.K. Takaishi & Izzy Izumi",
+            "jpname": "高石タケル & 泉 光子郎",
+            "tsname": "Takaishi Takeru & Izumi Koshiro",
+            "color": [
+                "Yellow",
+                "Green"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Main Phase] If you have a level 5 or higher Digimon in play, gain 1 memory. If your opponent has a level 5 or higher Digimon in play, gain 1 memory.\n[Your Turn] When one of your Digimon digivolves into a yellow or green Digimon, you may suspend this Tamer to have 1 of your opponent's Digimon get -1000 DP until the end of your opponent's turn.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: During the start of the turn, if both my opponent and I each have level 5 or higher Digimon, does that mean I gain 2 memory?",
+                    "A: Yes, you will gain 2 memory due to the conditions being met."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/76/BT9-088-J.png/revision/latest?cb=20220218110438",
+            "id": "BT9-088",
+            "name": "Mimi Tachikawa & Joe Kido",
+            "jpname": "太刀川 ミミ & 城戸丈",
+            "tsname": "Tachikawa Mimi & Kido Jo",
+            "color": [
+                "Green",
+                "Blue"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Turn] If you have a suspended Digimon in play, gain 1 memory. If your opponent has a suspended Digimon in play, gain 1 memory.\n [Your Turn] When one of your green or blue Digimon deletes an opponent's Digimon in battle and survives, you may suspend this Tamer to <Draw 1> (Draw 1 card from your deck).",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: During the start of the turn, if both my opponent and I each have a suspended Digimon, does that mean I gain 2 memory?",
+                    "A: Yes, you will gain 2 memory due to the conditions being met."
+                ],
+                [
+                    "Q: If my opponent has a suspended Digimon with <Reboot> or my Digimon is suspended, and becomes unsuspends in my Unsuspend Phase, does this card's [Start of Your Turn] effect gain memory?",
+                    "A: Yes, it does. [Start of Your Turn] effects are activated before Digimon are unsuspended in the Unsuspend Phase."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b7/BT9-089-J.png/revision/latest?cb=20220218110439",
+            "id": "BT9-089",
+            "name": "Daigo Nishijima",
+            "jpname": "西島 大吾",
+            "tsname": "Nishijima Daigo",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[All Turns] When an opponent's Digimon becomes unsuspended during a main phase, you may suspend this Tamer to gain 1 memory.\n[Your Turn] When one of your Digimon digivolves into a black level 6 Digimon, it gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead) until the end of your opponent's turn.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/93/BT9-090-J.png/revision/latest?cb=20220218110441",
+            "id": "BT9-090",
+            "name": "Maki Himekawa",
+            "jpname": "姫川 マキ",
+            "tsname": "Himekawa Maki",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 [Tapirmon] and 1 2-colur black card among them to your hand. Place the rest at the bottom of your deck in any order.\n[Your Turn] When one of your Digimon would digivolve into a 2-colour black Digimon, you may suspend this Tamer to reduce the digivolution cost by 1.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does this effect not allow you to add cards to your hand unless you reveal a [Tapirmon] and a 2-colored black card?",
+                    "A: No, even you only reveal a [Tapirmon] or a 2-colored black card you can add both cards to your hand."
+                ],
+                [
+                    "Q: Can you add a card that has the effect of treating it as another color, such as \"You can treat this card as red\" to your hand?",
+                    "A: No, you can’t."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/60/BT9-091-J.png/revision/latest?cb=20220218110442",
+            "id": "BT9-091",
+            "name": "Meiko Mochizuki",
+            "jpname": "望月 芽心",
+            "tsname": "Mochizuki Meiko",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[On Play] You may reveal the top 3 cards of your deck. Add 1 purple or yellow Digimon card from among them to your hand. Trash the rest.\n[All Turns] When you play a 2-color purple and yellow Digimon, you may suspend this tamer to gain 1 memory.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/06/BT9-092-J.png/revision/latest?cb=20220218110443",
+            "id": "BT9-092",
+            "name": "Cool Boy",
+            "jpname": "クールボーイ",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "2",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [X Antibody] in its traits and 1 Option Card with [X Antibody] in its traits among to your hand. Place the rest at the bottom of your deck in any order.\n[Your Turn] When one of your Digimon digivolves into a same-level Digimon with [X Antibody] in its traits, you may suspend this Tamer to gain 1 memory and <Draw 1> (Draw 1 card from your deck).",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: By using this card's effect, does it mean that I can’t add both cards unless I add both a card with [X Antibody] in its traits and [X Antibody]?",
+                    "A: No, even if you only reveal a card with [X Antibody] in its traits or [X Antibody], you can add it to your hand."
+                ],
+                [
+                    "Q: If I reveal cards with [X Antibody] in its traits and [X Antibody], can I choose not to add them to hand?",
+                    "A: No because the effect stated \"Add to hand\", thus you are required to add as much as possible from the revealed cards. You are required to add cards with [X Antibody] in its traits and [X Antibody] to your hand."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e7/BT9-093-J.png/revision/latest?cb=20220218110444",
+            "id": "BT9-093",
+            "name": "Flare Rock Soul",
+            "jpname": "フレアロックダマシー",
+            "tsname": "Flare Rock Damashī",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "effect1": "[Main] Delete 1 of your opponent's Digimon with 5000 DP or less. Then, you may digivolve 1 of your Digimon into a Digimon card with [Shoutmon] in its name in your hand for its digivolution cost.",
+            "effect2": "[Security] Delete 1 of your opponent's Digimon with 5000 DP or less.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: By using this card’s [Main] effect, can I digivolve my Digimon to any card with [Shoutmon] in its name by ignoring the digivolution requirements?",
+                    "A: No, the digivolution requirements still apply."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/48/BT9-094-J.png/revision/latest?cb=20220218110444",
+            "id": "BT9-094",
+            "name": "Atomic Megalo Blaster",
+            "jpname": "アトミックメガロブラスター",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "6",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "[Main] Choose any number of your opponent's Digimon whose total DP adds up to 10000 or less and delete them.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can this card’s [Main] effect be stacked with \"Add 1000 to the maximum DP you can choose with DP-based deletion effects\" to make it able to delete a Digimon with 11000 DP or lower?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: The card reads, 'Choose any number of your opponent's Digimon whose total DP adds up to 11000 or less'. What does that actually mean?",
+                    "A: Choose any number of your opponent’s Digimon so that the total DP of those Digimon adds up to 11000 or less, such as two 3000 DP Digimon and a 5000 DP Digimon, or two DP 4000 Digimon and a DP 3000 Digimon, and then activate the effect on those Digimon"
+                ],
+                [
+                    "Q: Can I deliberately choose fewer targets so that the total DP is less than 11000?",
+                    "A: Yes. You are free to choose so long as the total DP is 11000 or less. However, you must choose at least 1 Digimon if your opponent has any Digimon with DP 11000 or less."
+                ],
+                [
+                    "Q: If my opponent has [BT4-066 Golemon] and I include Golemon as one of the targeted Digimon my opponent’s other Digimon’s DP will be reduced by 1000 when Golemon is Deleted. Can I include that loss of DP in my calculations when selecting Digimon to target?",
+                    "A: No. Your opponent’s Digimon’s DP will only be reduced after Golemon is Deleted when this card’s effect has finished activating. You may not choose an additional target at that point"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/45/BT9-095-J.png/revision/latest?cb=20220218110445",
+            "id": "BT9-095",
+            "name": "Gaia Force ZERO",
+            "jpname": "グレイファイアーZERO",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "8",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "When you would use this card, if you have a Digimon with [X Antibody] in its digivolution cards in play, reduce the memory cost of this card by 2.\n[Main] Delete 1 of your opponent's Digimon with 13000 DP or less. Then, 1 of your Digimon with [Greymon] in its name can attack your opponent.",
+            "effect2": "[Security] Delete 1 of your opponent's Digimon.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: With this card’s [Main] effect, can I choose my suspended Digimon with [Greymon] in its name to attack the player?",
+                    "A: No, you can’t."
+                ],
+                [
+                    "Q: The effect of \"If you have [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ],
+                [
+                    "Q: By using the [Main] effect to perform an attack, does the [When Attacking] effect of the attacking Digimon activate?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: When using this card’s [Main] effect, If I have a card effect that allows me to attack my opponent’s active Digimon, can I choose to attack the active Digimon instead?",
+                    "A: No, you can’t. This card’s effect only allows you to attack the opponent."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/BT9-096-J.png/revision/latest?cb=20220218110446",
+            "id": "BT9-096",
+            "name": "Startling Thunder",
+            "jpname": "ビビサンダー",
+            "tsname": "Bibi Thunder",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Main] Return 1 of your opponent's level 4 or lower Digimon to its owner's hand. Then, if you have a  Digimon in play with [Jellymon] in its name or with [Jellymon] in its digivolution cards, return 1 of your opponent's Tamers to its owner's hand.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/66/BT9-097-J.png/revision/latest?cb=20220218110447",
+            "id": "BT9-097",
+            "name": "Metal Storm",
+            "jpname": "メタルストーム",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "7",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "When you would use this card, if you have a Digimon with [X Antibody] in its digivolution cards, reduce the memory cost of this card by 2.\n[Main] Return 1 of your opponent's level 6 or lower Digimon to its owner's hand. Then, unsuspend 1 of your Digimon with [Garurumon] in its name.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: The effect of \"If you have [X Antibody] in its digivolution cards\" does that mean I can activate the effect, if I have cards with [X Antibody] in their traits in its digivolution cards?",
+                    "A: No, you can’t because this effect specifies the card name and it’s required to meet the condition you have cards with [X Antibody] in its digivolution cards. It does not refer to the traits of the cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/BT9-098-J.png/revision/latest?cb=20220218110448",
+            "id": "BT9-098",
+            "name": "Awakening of the Golden Knight",
+            "jpname": "黄金騎士の覚醒",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "effect1": "While you have a Digimon with [Armor Form] in its traits in play, you may use this card without meeting its color requirements.\n[Main] You may may digivolve 1 of your Digimon with [Armor Form] in its traits into a Digimon card with [Magnamon] in its name in your hand, ignoring its digivolution requirements and without paying its memory cost. The Digimon that digivolved with this effect can't have its DP reduced by your opponent's card effects until the end of your opponent's turn.",
+            "effect2": "[Security] Return 1 card with [Magnamon] in its name from your trash to your hand, and add this card to your hand.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/23/BT9-099-J.png/revision/latest?cb=20220218110451",
+            "id": "BT9-099",
+            "name": "Sunrise Buster",
+            "jpname": "サンライズバスター",
+            "color": [
+                "Yellow",
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "5",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "[Main] You may play 1 yellow or red Tamer card from your hand without paying for its memory cost. Then, 1 of your opponent's Digimon gets -3000 DP for the turn for each yellow and/or red Tamers you have in play,",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/39/BT9-100-J.png/revision/latest?cb=20220218110452",
+            "id": "BT9-100",
+            "name": "Grandis Scissor",
+            "jpname": "グランディスシザー",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Option",
+            "playcost": "4",
+            "ilustrators": [
+                "itohiro"
+            ],
+            "effect1": "[Main] Suspend 1 of your opponent's Digimon. Then, unsuspend 1 of your Digimon with [Insectoid] in its traits, and it may attack your opponent's Digimon.",
+            "effect2": "[Security] Suspend 1 of your opponent's Digimon or Tamers.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f9/BT9-101-J.png/revision/latest?cb=20220218110452",
+            "id": "BT9-101",
+            "name": "Ground Fang",
+            "jpname": "グラウンドファング",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Option",
+            "playcost": "8",
+            "ilustrators": [
+                "banira"
+            ],
+            "effect1": "[Main] Return 1 of your opponent's suspended Digimon and 1 of their suspended Tamers to the bottom of their owners' decks.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Can this card effect activate even if my opponent only has 1 suspended Digimon or Tamer?",
+                    "A: Yes, it is possible."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/08/BT9-102-J.png/revision/latest?cb=20220218110453",
+            "id": "BT9-102",
+            "name": "Attack of the Heavy Mobile Digimon!",
+            "jpname": "重機動デジモンの進撃!!",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "0",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "effect1": "[Main] You may trash 1 card with [Cyborg], or [Machine] in its traits from your hand to have all of your level 6 Digimon with [Machine] in their traits gain <Rush> (This Digimon can attack the turn it comes into play) and \"[On Play] If this Digimon has a digivolution card, <Blitz> (If your opponent has 1 or more memory, this Digimon may attack)\", for the turn.",
+            "effect2": "[Security] You may trash 1 card with [Cyborg], or [Machine] in its traits in your hand to delete 1 of your opponent's Digimon whose play cost less than or equal to the trashed card's play cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "",
+            "ruling": [
+                [
+                    "Q: After using this card if there is a Digimon that digivolves into a level 6 Digimon with [Machine] in its traits during the turn it was played, or when a level 6 Digimon with [Machine] in its traits comes into play, will that Digimon activate <Blitz> and gain <Rush>?",
+                    "A: Yes, as long the conditions are met. It will activate <Blitz> and gain <Rush>."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6c/BT9-103-J.png/revision/latest?cb=20220218110453",
+            "id": "BT9-103",
+            "name": "Kongou",
+            "jpname": "金剛",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [
+                "banira"
+            ],
+            "effect1": "[Main] Until the end of your opponent's turn, your opponent's Digimon with play costs of 7 or less can't attack players, and cards can't be added security stacks by your opponent's effects.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does the effect of \"Your opponent can’t increase either players' security\" only apply to your opponent’s Digimon with 7 play cost or lower?",
+                    "A: No, it doesn’t. This effect applies to all levels. The part of opponent Digimon with 7 play cost or lower applies to the effect of \"Can’t attack the player\"."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cb/BT9-104-J.png/revision/latest?cb=20220218110454",
+            "id": "BT9-104",
+            "name": "X Digivolution!",
+            "jpname": "ゼヴォリューション!",
+            "tsname": "X Evolution!!",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "type": "X Antibody",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "While you have a Digimon with [X Antibody] in its traits in play, you may use this card without meeting its color requirements.\n[Main] Reveal the top 3 cards of your deck. You may digivolve 1 of your Digimon into a Digimon card with [X Antibody] in its traits without its memory cost. Trash the rest. Then, place 1 card with [X Antibody] in its traitsfrom your trash under 1 of your Digimon with [X Antibody] in its traits as its bottom digivolution card.",
+            "effect2": "[Security] You may reveal the top 3 cards of your deck. You may add 1 card with [X Antibody] in its traits among them to your hand. Trash the rest.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: By using this card’s [Main] effect, can I digivolve my Digimon in to any card with [X Antibody] in its traits by ignoring the digivolution requirements?",
+                    "A: No, the digivolution requirements still apply."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e5/BT9-105-J.png/revision/latest?cb=20220218110455",
+            "id": "BT9-105",
+            "name": "Soul Digitalization",
+            "jpname": "デジタライズ・オブ・ソウル",
+            "tsname": "Digitalize of Soul",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "5",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "effect1": "[Main] Reveal the top 3 cards of your deck. Choose 1 Digimon card with [X Antibody] in its traits among them, and delete 1 of your opponent’s Digimon whose play cost is less than or equal to the chosen card's play cost. Trash the revealed cards. Then, place 1 card with [X Antibody] in its traits from your trash under 1 of your Digimon with [X Antibody] in its traits as its bottom digivolution card.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Is it possible to place the card with [X Antibody] in its traits that was revealed by this card effect and trashed, at the bottom of 1 of your Digimon’s digivolution cards?",
+                    "A: Yes, it is possible."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/aa/BT9-106-J.png/revision/latest?cb=20220218110455",
+            "id": "BT9-106",
+            "name": "DeathXDigivolution!",
+            "jpname": "デクスリューション‼",
+            "tsname": "Death-X-Evolution!!",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Option",
+            "playcost": "0",
+            "type": "X Antibody",
+            "ilustrators": [
+                "itohiro"
+            ],
+            "effect1": "While you have a Digimon with [X Antibody] in its traits in play, you may use this card in your hand ignoring its color requirements.\n[Main] You may digivolve 1 of your Digimon into a Digimon card with [Dex], or [DeathX] in its name from your trash by paying its memory cost.",
+            "effect2": "[Security] Add this card to its owner's hand.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: By using this card’s [Main] effect, can I digivolve my Digimon to any card with [Dex], or [DeathX] in its name by ignoring the digivolution requirements?",
+                    "A: No, the digivolution requirements still apply."
+                ],
+                [
+                    "Q: By digivolving with this cards effect, is it possible to reduce the digivolution cost?",
+                    "A: Yes, it’s possible if the conditions are met."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/80/BT9-107-J.png/revision/latest?cb=20220218110456",
+            "id": "BT9-107",
+            "name": "Metal Impulse",
+            "jpname": "メタルインパルス",
+            "color": [
+                "Purple",
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "6",
+            "ilustrators": [
+                "itohiro"
+            ],
+            "effect1": "[Main] Trash up to 3 cards in your hand. For each card trashed by this card's effect, <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). Then, delete 1 of your opponent's level 4 or lower Digimon.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: During the activation of the [Main] effect if I trash 2 cards from my hand, can I <De-Digivolve  1> on 2 of your opponent's Digimon?",
+                    "A: No, you can’t. It only applied to 1 Digimon. For the effect \"Then, \" you can select another Digimon other than the selected Digimon for <De-Digivolve  1> on 1 of your opponent's Digimon."
+                ],
+                [
+                    "Q: During the activation of the [Main] effect if I trash 2 cards from my hand, will I <De-Digivolve  1> on 1 of your opponent's Digimon twice or <De-Digivolve  1> on 2 of your opponent's Digimon?",
+                    "A: <De-Digivolve  1> on 1 of your opponent's Digimon will be activated twice. If your opponent Digimon <De-Digivolve>s to a Digimon with [All Turns] or [Opponent's Turn] effect, it can be activated right after it <De-Digivolve>s into it. If it becomes a Tamer, <De-Digivolve> will not occur. If it becomes a level 2 Digimon, <De-Digivolve> will stop and it will be trashed."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/BT9-108-J.png/revision/latest?cb=20220218110457",
+            "id": "BT9-108",
+            "name": "Eye of the Gorgon",
+            "jpname": "アイオブザゴーゴン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Option",
+            "playcost": "8",
+            "ilustrators": [
+                "banira"
+            ],
+            "effect1": "[Main] Delete 1 of your opponent's unsuspended Digimon. If you do, you may play 1 purple level 3 Digimon card from your trash without paying its memory cost. Any [On Play] effects on the Digimon played with this effect don't activate.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/79/BT9-109-J.png/revision/latest?cb=20220218110457",
+            "id": "BT9-109",
+            "name": "X Antibody",
+            "jpname": "X抗体",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Option",
+            "playcost": "0",
+            "type": "X Antibody",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "effect1": "While you have a Digimon in play, you may use this card without meeting its color requirements.\n[Security] Gain 1 memory, and add this card to its owner's hand.\n[Main] Place this card under 1 of your Digimon without [X Antibody] in its digivolution cards as its bottom digivolution card.",
+            "effect2": "[All Turns] Effects can't trash [X Antibody] in this Digimon's digivolution cards.\n[When Attacking] This Digimon can digivolve into a Digimon card with [X Antibody] in its traits in your hand by paying its digivolution cost.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: This card is an option card, but it has inherited effect?",
+                    "A: Yes, the [Main] effect allows it to be placed into 1 of your Digimon digivolution cards. Like Digimon and Digi-Egg cards, this card can activate it’s inherited effect when it’s in its digivolution cards."
+                ],
+                [
+                    "Q: By using this card’s [Main] effect, can I digivolve my Digimon to any card with [X Antibody] in its traits by ignoring the digivolution requirements?",
+                    "A: No, the digivolution requirements still apply."
+                ],
+                [
+                    "Q: By digivolving with this card effect, is it possible to reduce the digivolution cost?",
+                    "A: Yes, it’s possible if the conditions are met."
+                ],
+                [
+                    "Q: Can this card be trashed with the effect of <Digi-Burst> ?",
+                    "A: It can't be trashed by <Digi-Burst> effect due to its effect."
+                ],
+                [
+                    "Q: What will happen if this card becomes the top card of a Digimon due to <De-Digivolve> effect?",
+                    "A: It’s like level 2 Digimon, this card can’t exist in the battle area, thus it will be trashed. If there are digivolution cards beneath this card, they will be trashed as well."
+                ],
+                [
+                    "Q: What will happen if my opponent card effect such as \"trash 2 digivolution cards from the bottom of 1 of your opponent Digimon\" when this card is at the bottom of the digivolution cards?",
+                    "A: This card can’t be trashed, however the card above this card will be trashed."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9d/BT9-110-J.png/revision/latest?cb=20220218110458",
+            "id": "BT9-110",
+            "name": "X Program",
+            "jpname": "Xプログラム",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Option",
+            "playcost": "8",
+            "ilustrators": [
+                "itohiro"
+            ],
+            "effect1": "While you have a Digimon with [Dex], or [DeathX] in its name in play, you may use this card without meeting its color requirements.\n[Main] Delete 1 Digimon without [X Antibody] in its traits. If there are 3 or more Digimon in play, delete all Digimon without [X Antibody] in their traits instead.",
+            "effect2": "[Security] Delete 1 Digimon without [X Antibody] in its traits.",
+            "wwsets": [
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does the effect of \"If both players have 3 or more Digimon in play in total\" include both you and your opponent?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: When both players have 3 or more Digimon, is it possible to only delete 1 Digimon without with [X Antibody] in its traits?",
+                    "A: No, all Digimon without [X Antibody] in its traits will be deleted."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fc/BT9-111-J.png/revision/latest?cb=20220218110459",
+            "id": "BT9-111",
+            "name": "Alphamon: Ouryuken",
+            "jpname": "アルファモン：王竜剣",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "15",
+            "dp": "16000",
+            "level": "7",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "NO DATA/Royal Knight/X Antibody",
+            "ilustrators": [
+                "Tonamikanji",
+                "sasasi"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "6",
+            "evocost1": "7",
+            "effect1": "[When Digivolving] Delete all of your opponent's Digimon with the highest play cost.\n[End of Your Turn] (Once Per Turn) You may return up to 7 non-Digi-Egg cards with [X Antibody] in their traits from this Digimon's digivolution cards to the bottom of your deck in any order, if you do, gain 1 memory for each card returned.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Secret Rare",
+            "ruling": [
+                [
+                    "Q: By using the [End of Your Turn] effect, if the memory returns to your side from your opponent’s side, will it be considered as the changing from your turn to your opponent's turn, and then to your turn again?",
+                    "A: No, your current turn will resume without a turn change."
+                ],
+                [
+                    "Q: Can I return [BT9-109 X Antibody] from this Digimon’s digivolution cards to the bottom of the deck when using [End of Your Turn] effect?",
+                    "A: Yes, you can because it’s not considered trashing."
+                ],
+                [
+                    "Q: What happens if I have activated [BT1-090 Gravity Crush] in the same turn as I activate this card's [End of Your Turn] effect?",
+                    "A: You would resolve both the lose 2 memory effect of Gravity Crush and the [End of Your Turn] effect of this card. If after both have resolved, the memory is at 0 or more on your side. Your Main Phase will continue, if the turn would end again Gravity Crush will trigger again. The same will apply for any other [End of Your Turn], [End of All Turns], and [End of Opponent's Turn] effects. (For more information see End of Turn Procedures)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c4/BT9-112-J.png/revision/latest?cb=20220218110500",
+            "id": "BT9-112",
+            "name": "DeathXmon",
+            "jpname": "デクスモン",
+            "color": [
+                "Purple",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "20",
+            "dp": "15000",
+            "level": "7",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Unanalyzable/X Program",
+            "ilustrators": [
+                "Tonamikanji",
+                "sasasi"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "6",
+            "evocost1": "6",
+            "evocolor2": "Black",
+            "evolevel2": "6",
+            "evocost2": "6",
+            "effect1": "When you would play this card, reduce its memory cost by 3 for each Digimon and Tamer your opponent has in play.\n[On Play] [When Digivolving] <De-Digivolve  1> on all of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). Then, delete all of your opponent's level 4 or lower Digimon.\n[End of Opponent's Turn] (Once Per Turn) Delete all of your opponent's Digimon with the lowest play cost.",
+            "wwsets": [
+                "BT-09: Booster X Record",
+                "BT-09: Booster X Record"
+            ],
+            "rarity": "Secret Rare",
+            "ruling": [
+                [
+                    "Q: When this card comes into play, do I reduce 3 cost for each pair of your opponent’s Digimon and Tamers?",
+                    "A: No, it counts the overall total of your opponent’s Digimon and Tamer. If your opponent has 2 Digimon and 1 Tamer, the cost reduction will be 9."
+                ],
+                [
+                    "Q: Can this card's effect delete Level 2 Digimon before they get trashed by Rules Processing?",
+                    "A: Yes, after this card has <De-Digivolve> a Digimon into a Level 2 Digimon, it will be deleted by this effect before it gets trashed."
+                ]
+            ]
+        }
+    ]
+}

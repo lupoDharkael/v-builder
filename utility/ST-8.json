@@ -1,0 +1,386 @@
+{
+    "name": "ST-8: UlforceVeedramon",
+    "shortname": "ST-8",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3c/ST8-01.png/revision/latest?cb=20210921061158",
+            "id": "ST8-01",
+            "name": "DemiVeemon",
+            "jpname": "チビモン",
+            "tsname": "Chibimon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Baby Dragon",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "effect2": "[Your Turn] While you have 8 or more cards in your hand, this Digimon gets +1000 DP.",
+            "wwsets": [
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon’s [When Attacking] ability to <Draw 1>. Now that I have 8 cards in hand does the inherited effect from this card give the attacking Digimon DP +1000 for the ensuing Check or Battle?",
+                    "A: Yes. The inherited effect activates the moment you have 8 cards in hand, even mid Attack, giving the attacking Digimon DP +1000"
+                ],
+                [
+                    "Q: Does this card have [Vee] in its name?",
+                    "A: No. This card's Japanese name (チビモン) does not have \"Vee\" (ブイ) in its name."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/27/ST8-02.png/revision/latest?cb=20210921061158",
+            "id": "ST8-02",
+            "name": "Gabumon",
+            "jpname": "ガブモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Reptile",
+            "ilustrators": [
+                "Sanosuke Sakuma"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[All Turns] While you have 8 or more cards in your hand, this Digimon gets +1000 DP.",
+            "wwsets": [
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon's [When Attacking] ability to <Draw 1>. Now that I have 8 cards in hand does the inherited effect from this card give the attacking Digimon DP+1000 for the ensuing check or battle?",
+                    "A: Yes. The inherited effect becomes active the moment you have 8 cards in hand, even mid-atttack. Giving the attacking Digimon +1000 DP."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4c/ST8-03.png/revision/latest?cb=20210921061159",
+            "id": "ST8-03",
+            "name": "Dracomon",
+            "jpname": "ドラコモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Dragon",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Dramon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c3/ST8-04.png/revision/latest?cb=20210921061159",
+            "id": "ST8-04",
+            "name": "Veemon",
+            "jpname": "ブイモン",
+            "tsname": "V-mon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Free",
+            "type": "Mini Dragon",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[Your Turn] If your opponent has a level 6 or higher Digimon in play, this Digimon can digivolve into an [UlforceVeedramon] in your hand for a memory cost of 4, ignoring its digivolution requirements.",
+            "effect2": "[When Attacking] If you have 7 or fewer cards in your hand, trigger <Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Super Rare",
+            "engsets": [
+                "2022 Regionals - Participation Set",
+                "2022 Regionals - Finalist Set",
+                "2022 Regionals - Champion Set"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/05/ST8-05.png/revision/latest?cb=20210921061200",
+            "id": "ST8-05",
+            "name": "Veedramon",
+            "jpname": "ブイドラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Mythical Dragon",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[When Attacking] If you have 8 or more cards in your hand, return 1 of your opponent's level 3 Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon.",
+            "engsets": [
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon’s other [When Attacking] ability to <Draw 1>. Now that I have 8 cards in hand can I use this card’s inherited ability to return one of my opponent’s Lv. 3 Digimon to their hand?",
+                    "A: Yes. So long as you choose to Activate this card’s inherited effect after the <Draw 1> you will have 8 cards in hand when this effect is activated allowing you to return an opponent’s Digimon to their hand"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/93/ST8-06.png/revision/latest?cb=20210921061202",
+            "id": "ST8-06",
+            "name": "Coredramon",
+            "jpname": "コアドラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Dragon",
+            "ilustrators": [
+                "Itohiro",
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[Security] At the end of the battle, play this card without paying its memory cost.\n[On Play] Trigger <Draw 2> (Draw 2 cards from your deck).",
+            "wwsets": [
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Digimon Card Game Fest - Vault Set",
+                "Store Championship 2022 Participant Pack",
+                "Store Championships 2022"
+            ],
+            "ruling": [
+                [
+                    "Q: If this card is Security Checked and deleted in battle does is it still Played via its [Security] effect?",
+                    "A: Yes. The outcome of the battle doesn’t matter, at the end of the battle the Digimon is Played"
+                ],
+                [
+                    "Q: If this card is Played via its [Security] does its [On Play] effect activate?",
+                    "A: Yes. The effect activates"
+                ],
+                [
+                    "Q: When this card is Security checked and battled, if the attacking Digimon has further security checks to make, does this Digimon get Played or do those Checks occur first? Furthermore, what is the timing for the activation of this card’s [On Play] effect?",
+                    "A: This Digimon is Played prior to the next Security Check. The [On Play] ability also activates as soon as the Digimon is Played, prior to the next Security Check"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e9/ST8-07.png/revision/latest?cb=20210921061203",
+            "id": "ST8-07",
+            "name": "Wingdramon",
+            "jpname": "ウイングドラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Sky Dragon",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/96/ST8-08.png/revision/latest?cb=20210921061203",
+            "id": "ST8-08",
+            "name": "AeroVeedramon",
+            "jpname": "エアロブイドラモン",
+            "tsname": "AeroV-dramon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Holy Dragon",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "<Jamming> (This Digimon can't be deleted in battles against Security Digimon)",
+            "effect2": "[Your Turn] While you have 8 or more cards in your hand this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon’s [When Attacking] ability to <Draw 1>. Now that I have 8 cards in hand does the inherited effect from this card give the attacking Digimon <Security Attack +1> for the ensuing Check?",
+                    "A: Yes. The inherited effect activates the moment you have 8 cards in hand, even mid Attack, giving the attacking Digimon <Security Attack +1>"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cc/ST8-09.png/revision/latest?cb=20210921061204",
+            "id": "ST8-09",
+            "name": "Slayerdramon",
+            "jpname": "スレイヤードラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] This Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn.\n[Your Turn] This Digimon is unblockable.",
+            "wwsets": [
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: This card reads, ‘This Digimon is unblockable.’ What exactly does that mean?",
+                    "A: In response to this Digimon attack, an opponent’s Digimon cannot redirect this Digimon's attack when activating the <Blocker> effect."
+                ],
+                [
+                    "Q: Can my opponent still suspend their Digimon with <Blocker>?",
+                    "A: Yes, the Digimon can still be suspended but the attack will not be redirected."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4f/ST8-10.png/revision/latest?cb=20210921061205",
+            "id": "ST8-10",
+            "name": "UlforceVeedramon",
+            "jpname": "アルフォースブイドラモン",
+            "tsname": "UlforceV-dramon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Holy Warrior/Royal Knight",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] Return 1 of your opponent's level 4 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon.\n[When Attacking] (Once Per Turn) If you have 8 or more cards in your hand, unsuspend this Digimon.",
+            "wwsets": [
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: I have 7 cards in hand and attack this Digimon, activating this Digimon’s other [When Attacking] ability to <Draw 1>. Now that I have 8 cards in hand can I use this card’s [When Attacking] ability to Unsuspend this Digimon?",
+                    "A: Yes. So long as you choose to Activate this card’s inherited effect after the <Draw 1> you will have 8 cards in hand when this effect is activated allowing you to Unsuspend this Digimon"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bb/ST8-11.png/revision/latest?cb=20210921061205",
+            "id": "ST8-11",
+            "name": "Victory Sword",
+            "jpname": "アルフォースセイバー",
+            "tsname": "Ulforce Saber",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "effect1": "[Main] Unsuspend 1 of your blue Digimon.",
+            "effect2": "[Security] Add this card to its owner's hand.",
+            "wwsets": [
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/71/ST8-12.png/revision/latest?cb=20210921070953",
+            "id": "ST8-12",
+            "name": "V-Wing Blade",
+            "jpname": "Ｖウイングブレード",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "6",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "effect1": "[Main] Return 1 of your opponent's level 6 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Common"
+        }
+    ]
+}

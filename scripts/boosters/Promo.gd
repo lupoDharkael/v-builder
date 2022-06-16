@@ -4,11 +4,9 @@ static func register_cards():
 
 	CardDB.register_booster("Promo", "Promo: Promotional Cards")
 	CardDB.add_card(P_001.new())
-	CardDB.add_card(P_001_B.new())
 	CardDB.add_card(P_002.new())
 	CardDB.add_card(P_003.new())
 	CardDB.add_card(P_004.new())
-	CardDB.add_card(P_004_B.new())
 	CardDB.add_card(P_005.new())
 	CardDB.add_card(P_006.new())
 	CardDB.add_card(P_007.new())
@@ -38,26 +36,21 @@ static func register_cards():
 	CardDB.add_card(P_030.new())
 	CardDB.add_card(P_031.new())
 	CardDB.add_card(P_032.new())
+	CardDB.add_card(P_032_B.new())
 	CardDB.add_card(P_033.new())
 	CardDB.add_card(P_034.new())
 	CardDB.add_card(P_035.new())
 	CardDB.add_card(P_035_B.new())
-	CardDB.add_card(P_035_C.new())
 	CardDB.add_card(P_036.new())
 	CardDB.add_card(P_036_B.new())
-	CardDB.add_card(P_036_C.new())
 	CardDB.add_card(P_037.new())
 	CardDB.add_card(P_037_B.new())
-	CardDB.add_card(P_037_C.new())
 	CardDB.add_card(P_038.new())
 	CardDB.add_card(P_038_B.new())
-	CardDB.add_card(P_038_C.new())
 	CardDB.add_card(P_039.new())
 	CardDB.add_card(P_039_B.new())
-	CardDB.add_card(P_039_C.new())
 	CardDB.add_card(P_040.new())
 	CardDB.add_card(P_040_B.new())
-	CardDB.add_card(P_040_C.new())
 	CardDB.add_card(P_041.new())
 	CardDB.add_card(P_042.new())
 	CardDB.add_card(P_043.new())
@@ -77,6 +70,27 @@ static func register_cards():
 	CardDB.add_card(P_057.new())
 	CardDB.add_card(P_058.new())
 	CardDB.add_card(P_059.new())
+	CardDB.add_card(P_060.new())
+	CardDB.add_card(P_061.new())
+	CardDB.add_card(P_062.new())
+	CardDB.add_card(P_063.new())
+	CardDB.add_card(P_064.new())
+	CardDB.add_card(P_065.new())
+	CardDB.add_card(P_066.new())
+	CardDB.add_card(P_067.new())
+	CardDB.add_card(P_068.new())
+	CardDB.add_card(P_069.new())
+	CardDB.add_card(P_070.new())
+	CardDB.add_card(P_071.new())
+	CardDB.add_card(P_072.new())
+	CardDB.add_card(P_073.new())
+	CardDB.add_card(P_074.new())
+	CardDB.add_card(P_075.new())
+	CardDB.add_card(P_076.new())
+	CardDB.add_card(P_077.new())
+	CardDB.add_card(P_079.new())
+	CardDB.add_card(P_080.new())
+	CardDB.add_card(P_081.new())
 
 class P_001 extends Card:
 	func _init():
@@ -87,34 +101,11 @@ class P_001 extends Card:
 		id = "P-001"
 		play_cost = 5
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 3000
 		effect_text = "[On Play] Delete 1 of your opponent's Digimon with 3000 DP or less."
-
-class P_001_B extends Card:
-	func _init():
-		name = "Agumon"
-		type = Type.DIGIMON
-		color = ColorGroup.RED
-		rarity = Rarity.P
-		id = "P-001 (B)"
-		play_cost = 5
-		level = 3
-		stage_level = Stage.ROOKIE
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
-		digimon_type = "Reptile"
-		power = 3000
-		effect_text = "[On Play] Delete 1 of your opponent's Digimon with 3000 DP or less."
-		is_parallel = true
-		notes = "parallel promo"
 
 class P_002 extends Card:
 	func _init():
@@ -125,14 +116,11 @@ class P_002 extends Card:
 		id = "P-002"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Bird"
 		power = 2000
-		inherited_effect_text = "[Your Turn] When this Digimon deletes one of your opponent's Digimon in battle and survives, trigger [Draw 1]."
+		inherited_effect_text = "[Your Turn] When this Digimon deletes one of your opponent's Digimon in battle and survives, trigger <Draw 1> (Draw 1 card from your deck)."
 		notes = "Piyomon"
 
 class P_003 extends Card:
@@ -146,9 +134,6 @@ class P_003 extends Card:
 		level = 3
 		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 3000
 		effect_text = "[On Play] Trash the bottom digivolution card of 1 of your opponent's Digimon."
@@ -166,40 +151,15 @@ class P_004 extends Card:
 		attribute = Attribute.VACCINE
 		digimon_type = "Sea Beast"
 		power = 1000
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When one of your opponent's digivolution cards is trashed, gain 1 memory."
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When one of your opponent's digivolution cards is trashed, gain 1 memory."
 		ruling = [
-					"You use an effect that reads \"Return 1 of your opponent's Digimon to their hand. Trash all of the digivolution cards of that Digimon\" to return an opponent's Digimon to their hand. When your opponent's digivolution cards are trashed as a result, can you activate this card's effect?",
-					"No, you can't. \"Trash all of the digivolution cards of those Digimon\" is an explanation of what happens to the digivolution cards of the Digimon when it returns to their hand. It doesn't count as trashing digivolution for the purposes of this card's effect.",
-					"I use [De-Digivolve] while I have this Digimon as a digivolution card. Can I use the inherited effect of [Gomamon]?",
-					"No, you cannot activate the effect of [Gomamon].",
-					"My opponent trashes a digivolution card with one of their effects like [Omnimon X] or [Digiburst]. Can I use this card's effect?",
-					"Yes, you can.",
+					"Q: You use an effect that reads \"Return 1 of your opponent's Digimon to their hand. Trash all of the digivolution cards of that Digimon\" to return an opponent's Digimon to their hand. When your opponent's digivolution cards are trashed as a result, can you activate this card's effect?",
+					"A: No, you can't. \"Trash all of the digivolution cards of those Digimon\" is an explanation of what happens to the digivolution cards of the Digimon when it returns to their hand. It doesn't count as trashing digivolution for the purposes of this card's effect.",
+					"Q: I use <De-Digivolve> while I have this Digimon as a digivolution card. Can I use the inherited effect of [P-004 Gomamon]?",
+					"A: No, you cannot activate the effect of [P-004 Gomamon].",
+					"Q: My opponent trashes a digivolution card with one of their effects like [BT5-111 Omnimon X] or <Digi-Burst>. Can I use this card's effect?",
+					"A: Yes, you can.",
 ]
-
-class P_004_B extends Card:
-	func _init():
-		name = "Gomamon"
-		type = Type.DIGIMON
-		color = ColorGroup.BLUE
-		rarity = Rarity.P
-		id = "P-004 (B)"
-		play_cost = 3
-		level = 3
-		stage_level = Stage.HYBRID
-		attribute = Attribute.VACCINE
-		digimon_type = "Sea Beast"
-		power = 1000
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When one of your opponent's digivolution cards is trashed, gain 1 memory."
-		ruling = [
-					"You use an effect that reads \"Return 1 of your opponent's Digimon to their hand. Trash all of the digivolution cards of that Digimon\" to return an opponent's Digimon to their hand. When your opponent's digivolution cards are trashed as a result, can you activate this card's effect?",
-					"No, you can't. \"Trash all of the digivolution cards of those Digimon\" is an explanation of what happens to the digivolution cards of the Digimon when it returns to their hand. It doesn't count as trashing digivolution for the purposes of this card's effect.",
-					"I use [De-Digivolve] while I have this Digimon as a digivolution card. Can I use the inherited effect of [Gomamon]?",
-					"No, you cannot activate the effect of [Gomamon].",
-					"My opponent trashes a digivolution card with one of their effects like [Omnimon X] or [Digiburst]. Can I use this card's effect?",
-					"Yes, you can.",
-]
-		is_parallel = true
-		notes = "parallel promo"
 
 class P_005 extends Card:
 	func _init():
@@ -210,14 +170,11 @@ class P_005 extends Card:
 		id = "P-005"
 		play_cost = 4
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Mammal"
 		power = 2000
-		effect_text = "[On Play] If you have 1 or fewer security cards, trigger [Recovery +1]."
+		effect_text = "[On Play] If you have 1 or fewer security cards, trigger <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack)."
 
 class P_006 extends Card:
 	func _init():
@@ -228,11 +185,8 @@ class P_006 extends Card:
 		id = "P-006"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Holy Beast"
 		power = 4000
 		inherited_effect_text = "[Your Turn] While you have 3 or more security cards, this Digimon gets +1000 DP."
@@ -247,14 +201,11 @@ class P_007 extends Card:
 		id = "P-007"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 4000
-		inherited_effect_text = "[When Attacking] If this Digimon has [Garurumon], trigger [Draw 1]."
+		inherited_effect_text = "[When Attacking] If this Digimon has [Garurumon] in its name, trigger <Draw 1> (Draw 1 card from your deck)."
 
 class P_008 extends Card:
 	func _init():
@@ -265,15 +216,12 @@ class P_008 extends Card:
 		id = "P-008"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 2
-		digivolve_level = 4
 		digimon_type = "Beastkin"
 		power = 6000
-		effect_text = "[When Attacking] [Once Per Turn] If this Digimon has a [Garurumon] digivolution card, unsuspend this Digimon."
-		inherited_effect_text = "[Your Turn] While you have 8 or more cards in your hand, this Digimon gains [Security Attack +1]."
+		effect_text = "[When Attacking] (Once Per Turn) If this Digimon has a [Garurumon] digivolution card, unsuspend this Digimon."
+		inherited_effect_text = "[Your Turn] While you have 8 or more cards in your hand, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card)."
 
 class P_009 extends Card:
 	func _init():
@@ -284,14 +232,11 @@ class P_009 extends Card:
 		id = "P-009"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		inherited_effect_text = "[Your Turn] While this Digimon has [Greymon], it gets +2000 DP."
+		inherited_effect_text = "[Your Turn] While this Digimon has [Greymon] in its name, it gets +2000 DP."
 
 class P_010 extends Card:
 	func _init():
@@ -302,17 +247,14 @@ class P_010 extends Card:
 		id = "P-010"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Dinosaur"
 		power = 5000
-		effect_text = "[Your Turn] While this Digimon has an [Agumon] digivolution card, it gains [Security Attack +1]."
+		effect_text = "[Your Turn] While this Digimon has an [Agumon] digivolution card, it gains <Security Attack +1> (This Digimon checks 1 additional security card)."
 		ruling = [
-					"Does this card's effect apply if it has [Agumon Expert] or [ToyAgumon] as a digivolution card?",
-					"No. This card's effect only applies if a card with the exact name [Agumon] is one of its digivolution cards. Despite [Agumon Expert], [ToyAgumon], and other Digimon cards having [Agumon] in their names, the effect doesn't apply if it isn't an exact match.",
+					"Q: Does this card's effect apply if it has [Agumon Expert] or [ToyAgumon] as a digivolution card?",
+					"A: No. This card's effect only applies if a card with the exact name [Agumon] is one of its digivolution cards. Despite [Agumon Expert], [ToyAgumon], and other Digimon cards having [Agumon] in their names, the effect doesn't apply if it isn't an exact match.",
 ]
 
 class P_011 extends Card:
@@ -324,28 +266,25 @@ class P_011 extends Card:
 		id = "P-011"
 		play_cost = 6
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Mythical Dragon"
 		power = 5000
-		effect_text = "[When Attacking] If you have a blue Tamer in play, you may trash the top 3 cards of your deck to give this Digimon +2000 DP for the turn."
-		inherited_effect_text = "[When Attacking] You may place 3 non-Digi-Egg cards from your trash at the bottom of your deck in any order to activate [Draw 1]."
+		effect_text = "[When Attacking] If you have a blue Tamer, you may trash the top 3 cards of your deck to give this Digimon +2000 DP for the turn."
+		inherited_effect_text = "[When Attacking] You may place 3 non-Digi-Egg cards from your trash at the bottom of your deck in any order to activate <Draw 1> (Draw 1 card from your deck)."
 		ruling = [
-					"Do I always have to use this card's effect when I attack?",
-					"No. The effect is voluntary.",
-					"Can I use this card's [When Attacking] effect to trash 6 cards from the top of my deck and give this card +4000 DP?",
-					"No, you can't.",
-					"I attack with this card and activate its [When Attacking] effect to get +2000 DP. I then unsuspend this card using a card effect and attack again. Can I use the [When Attacking] effect again to get an additional +2000 DP?",
-					"Yes, you can.",
-					"Can I activate this card's inherited effect when I have 2 or less non-Digi-Egg cards in my trash?",
-					"No, you can't.",
-					"When using this card's inherited effect to return cards from my trash to the bottom of my deck, is my opponent allowed to check what cards I am returning to my deck?",
-					"Yes. Cards in your trash are considered public information, so please let your opponent confirm which cards you're returning to your deck before you do so.",
-					"Can I use this card's inherited effect to return 3 non-Digi-Egg cards to the bottom of my deck but not activate [Draw 1]?",
-					"No, you can't.",
+					"Q: Do I always have to use this card's effect when I attack?",
+					"A: No. The effect is voluntary.",
+					"Q: Can I use this card's [When Attacking] effect to trash 6 cards from the top of my deck and give this card +4000 DP?",
+					"A: No, you can't.",
+					"Q: I attack with this card and activate its [When Attacking] effect to get +2000 DP. I then unsuspend this card using a card effect and attack again. Can I use the [When Attacking] effect again to get an additional +2000 DP?",
+					"A: Yes, you can.",
+					"Q: Can I activate this card's inherited effect when I have 2 or less non-Digi-Egg cards in my trash?",
+					"A: No, you can't.",
+					"Q: When using this card's inherited effect to return cards from my trash to the bottom of my deck, is my opponent allowed to check what cards I am returning to my deck?",
+					"A: Yes. Cards in your trash are considered public information, so please let your opponent confirm which cards you're returning to your deck before you do so.",
+					"Q: Can I use this card's inherited effect to return 3 non-Digi-Egg cards to the bottom of my deck but not activate <Draw 1>?",
+					"A: No, you can't.",
 ]
 
 class P_012 extends Card:
@@ -356,17 +295,17 @@ class P_012 extends Card:
 		rarity = Rarity.P
 		id = "P-012"
 		play_cost = 2
-		effect_text = "[Main] If you have a Digimon with [Veedramon], you may suspend this Tamer to activate one of the following effects:\n·Trigger [Draw 1].\n·1 of your Digimon gets +1000 DP for the turn."
+		effect_text = "[Main] If you have a Digimon with [Veedramon] in its name, you may suspend this Tamer to activate one of the following effects:\n・Trigger <Draw 1> (Draw 1 card from your deck).\n・1 of your Digimon gets +1000 DP for the turn."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		ruling = [
-					"At what timing does this card's [Main] effect activate?",
-					"You can activate it at any time during your Main Phase, much like you would an Option card.",
-					"Can I use this card's effect if I have a Digimon [Veedramon] in my breeding area?",
-					"No, it doesn't check Digimon in the breeding area.",
-					"If I have two copies of this Tamer as well as one [Veedramon] in play in my battle area, can I active the effects of both Tamers?",
-					"Yes, you can.",
-					"If I have one [Veedramon] in play in my battle area, can I use this card's effect to make a Digimon that doesn't have [Veedramon] in its name get +1000 DP?",
-					"Yes, you can.",
+					"Q: At what timing does this card's [Main] effect activate?",
+					"A: You can activate it at any time during your Main Phase, much like you would an Option card.",
+					"Q: Can I use this card's effect if I have a Digimon [Veedramon] in its name in my breeding area?",
+					"A: No, it doesn't check Digimon in the breeding area.",
+					"Q: If I have two copies of this Tamer as well as one [Veedramon] in play in my battle area, can I active the effects of both Tamers?",
+					"A: Yes, you can.",
+					"Q: If I have one [Veedramon] in play in my battle area, can I use this card's effect to make a Digimon that doesn't have [Veedramon] in its name get +1000 DP?",
+					"A: Yes, you can.",
 ]
 		notes = "Yagami Taichi (Digimon Adventure V-Tamer 01)"
 
@@ -379,14 +318,11 @@ class P_013 extends Card:
 		id = "P-013"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.UNKNOWN
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Unidentified"
 		power = 2000
-		inherited_effect_text = "[Opponent Turn] This Digimon gets +1000 DP."
+		inherited_effect_text = "[Opponent's Turn] This Digimon gets +1000 DP."
 
 class P_014 extends Card:
 	func _init():
@@ -397,14 +333,11 @@ class P_014 extends Card:
 		id = "P-014"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.UNKNOWN
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Unidentified"
 		power = 5000
-		effect_text = "[Blocker].\n [When Attacking] Lose 2 memory."
+		effect_text = "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n [When Attacking] Lose 2 memory."
 		notes = "Chrysalimon"
 
 class P_015 extends Card:
@@ -416,14 +349,11 @@ class P_015 extends Card:
 		id = "P-015"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.UNKNOWN
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Unidentified"
 		power = 7000
-		effect_text = "[On Play] Trigger [De-Digivolve 1]."
+		effect_text = "[On Play] Trigger <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards)."
 
 class P_016 extends Card:
 	func _init():
@@ -434,19 +364,16 @@ class P_016 extends Card:
 		id = "P-016"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.UNKNOWN
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 3
-		digivolve_level = 5
 		digimon_type = "Unidentified"
 		power = 11000
-		effect_text = "[Your Turn] For each [Diaboromon] you have in play, this Digimon gets [Security Attack +1]."
+		effect_text = "[Your Turn] For each [Diaboromon] you have in play, this Digimon gets <Security Attack +1> (This Digimon checks 1 additional security card)."
 		ruling = [
-					"Does a [[Diaboromon Token|<nowiki>[Diaboromon]</nowiki> Token]] count as 1 [Diaboromon] for this card's effect?",
-					"Yes, it does.",
-					"Does this card itself count as 1 [Diaboromon] for its effect?",
-					"Yes, it does.",
+					"Q: Does a [Diaboromon] Token count as 1 [Diaboromon] for this card's effect?",
+					"A: Yes, it does.",
+					"Q: Does this card itself count as 1 [Diaboromon] for its effect?",
+					"A: Yes, it does.",
 ]
 		notes = "Diablomon"
 
@@ -459,17 +386,14 @@ class P_017 extends Card:
 		id = "P-017"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Evil"
 		power = 2000
 		effect_text = "[On Play] Trash the top 2 cards of your deck."
 		ruling = [
-					"Do I always have to activate this card's effect?",
-					"Yes, as long as you are able to.",
+					"Q: Do I always have to activate this card's effect?",
+					"A: Yes, as long as you are able to.",
 ]
 		notes = "PicoDevimon"
 
@@ -482,11 +406,8 @@ class P_018 extends Card:
 		id = "P-018"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Fallen Angel"
 		power = 3000
 		effect_text = "[On Play] Delete 1 of your opponent's level 3 Digimon."
@@ -500,14 +421,11 @@ class P_019 extends Card:
 		id = "P-019"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Undead"
 		power = 7000
-		inherited_effect_text = "[Retaliation]."
+		inherited_effect_text = "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)."
 		notes = "Vamdemon"
 
 class P_020 extends Card:
@@ -519,11 +437,8 @@ class P_020 extends Card:
 		id = "P-020"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 5
 		digimon_type = "Dark Animal"
 		power = 11000
 		effect_text = "[On Deletion] You may play a purple Digimon Card with a level of 4 or less from your trash without paying its memory cost. Any [On Play] effects on Digimon played with this effect don't activate."
@@ -540,8 +455,8 @@ class P_021 extends Card:
 		effect_text = "[Main] If you have [Mimi Tachikawa] in play, you may play a [Palmon] from your hand without paying its memory cost to return 1 of your [Mimi Tachikawa] cards to it's owner's hand."
 		sec_effect_text = "[Security] Add this card to your hand."
 		ruling = [
-					"If I have a [Mimi Tachikawa] in play. Is the effect of this card that I can play a [Palmon] from my hand without paying its cost?",
-					"Yes, that's correct.",
+					"Q: If I have a [Mimi Tachikawa] in play. Is the effect of this card that I can play a [Palmon] from my hand without paying its cost?",
+					"A: Yes, that's correct.",
 ]
 
 class P_022 extends Card:
@@ -555,8 +470,8 @@ class P_022 extends Card:
 		effect_text = "[Main] If you have [Davis Motomiya] and [Ken Ichijoji] in play, you may place 1 [ExVeemon] and 1 [Stingmon] from your hand at the bottom of your deck in any order to play 1 [Paildramon] from your hand without paying its memory cost."
 		sec_effect_text = "[Security] Add this card to your hand."
 		ruling = [
-					"Can I use this card when I only have either \"XV-mon\" or \"Stingmon\" in my hand?",
-					"Yes, uou can use it, but unless you return both a [ExVeemon] and [Stingmon] from your hand to the bottom of the deck, you cannot play [Paildramon] without paying its cost. Also, it is not possible to return only one of [ExVeemon] and [Stingmon] to the bottom of the deck.",
+					"Q: Can I use this card when I only have either \"XV-mon\" or \"Stingmon\" in my hand?",
+					"A: Yes, uou can use it, but unless you return both a [ExVeemon] and [Stingmon] from your hand to the bottom of the deck, you cannot play [Paildramon] without paying its cost. Also, it is not possible to return only one of [ExVeemon] and [Stingmon] to the bottom of the deck.",
 ]
 		notes = "Jogress Evolution Now, Unite Our Hearts"
 
@@ -571,8 +486,8 @@ class P_023 extends Card:
 		effect_text = "[Main] If you have [T.K. Takaishi] in play, place 1 of your [Patamon] at the bottom of your security stack face down. Trash that Digimon's digivolution cards."
 		sec_effect_text = "[Security] Add this card to your hand."
 		ruling = [
-					"Can I use this card when I don't have [Patamon] in play?",
-					"You can use it, but you cannot put anything in your security.",
+					"Q: Can I use this card when I don't have [Patamon] in play?",
+					"A: You can use it, but you cannot put anything in your security.",
 ]
 
 class P_024 extends Card:
@@ -583,15 +498,15 @@ class P_024 extends Card:
 		rarity = Rarity.P
 		id = "P-024"
 		play_cost = 0
-		effect_text = "[Main] If you have [Tai Kamiya] in play, place 1 of your [Agumon] at the bottom of its owner's deck to trigger [Draw 3]. Trash that Digimon's digivolution cards."
+		effect_text = "[Main] If you have [Tai Kamiya] in play, place 1 of your [Agumon] at the bottom of its owner's deck to trigger <Draw 3> (Draw 3 cards from your deck). Trash that Digimon's digivolution cards."
 		sec_effect_text = "[Security] Add this card to your hand."
 		ruling = [
-					"Can I use this card's effect with [Tai Kamiya (V-Tamer)] in play?",
-					"No, it must be a card named [Tai Kamiya].",
-					"Can I return a card with [Agumon] such as [ToyAgumon], [Agumon Expert], or [BushiAgumon]?",
-					"No, it must be a card named [Agumon].",
-					"Can I place an [Agumon] from my hand on the bottom of my deck for this card's effect?",
-					"No, it must be from the battle area.",
+					"Q: Can I use this card's effect with [P-012 Tai Kamiya (V-Tamer)] in play?",
+					"A: No, it must be a card named [Tai Kamiya].",
+					"Q: Can I return a card with [Agumon] in its name such as [ToyAgumon], [Agumon Expert], or [BushiAgumon]?",
+					"A: No, it must be a card named [Agumon].",
+					"Q: Can I place an [Agumon] from my hand on the bottom of my deck for this card's effect?",
+					"A: No, it must be from the battle area.",
 ]
 		notes = "Taichi, you're big"
 
@@ -604,14 +519,11 @@ class P_025 extends Card:
 		id = "P-025"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 3
-		digivolve_level = 5
 		digimon_type = "Insectoid"
 		power = 11000
-		effect_text = "[Main] [Digiburst 2].\n·1 of your digimon gains [Security Attack +1] for the turn."
+		effect_text = "[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・1 of your digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn."
 
 class P_026 extends Card:
 	func _init():
@@ -622,17 +534,14 @@ class P_026 extends Card:
 		id = "P-026"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 3
-		digivolve_level = 5
 		digimon_type = "Dragonkin"
 		power = 11000
-		effect_text = "[Main] [Digiburst 2].\n·Unsuspend this Digimon."
+		effect_text = "[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・Unsuspend this Digimon."
 		ruling = [
-					"Can I use this card's [Digiburst] effect after I digivolved this card on a suspended Digimon and the memory becomes 1 or more on the opponent's side?",
-					"No, you cannot.",
+					"Q: Can I use this card's <Digi-Burst> effect after I digivolved this card on a suspended Digimon and the memory becomes 1 or more on the opponent's side?",
+					"A: No, you cannot.",
 ]
 
 class P_027 extends Card:
@@ -644,19 +553,16 @@ class P_027 extends Card:
 		id = "P-027"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 11000
-		effect_text = "[Main] [Digiburst 2].\n·Use a purple Option card with a memory cost of 7 or less in your hand without paying its memory cost."
+		effect_text = "[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・Use a purple Option card with a memory cost of 7 or less in your hand without paying its memory cost."
 		ruling = [
-					"Does this card's [Digiburst] effect trigger [Mimi Tachikawa]?",
-					"Yes, it does.",
-					"I have a [Lilithmon] and [MaloMyotismon] and then I use this card's effect to [Digiburst] [Ghostmon], what is the order of the effects when I use [Heat Viper] with this card?",
-					"The order of effects goes [MaloMyotismon] and then [Ghostmon] or [Lilithmon].",
+					"Q: Does this card's <Digi-Burst> effect trigger [BT3-096 Mimi Tachikawa]?",
+					"A: Yes, it does.",
+					"Q: I have a [BT3-091 Lilithmon] and [BT3-092 MaloMyotismon] and then I use this card's effect to <Digi-Burst> [BT4-077 Ghostmon], what is the order of the effects when I use [BT2-109 Heat Viper] with this card?",
+					"A: The order of effects goes [BT3-092 MaloMyotismon] and then [BT4-077 Ghostmon] or [BT3-091 Lilithmon].",
 ]
 
 class P_028 extends Card:
@@ -668,17 +574,14 @@ class P_028 extends Card:
 		id = "P-028"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Beastkin"
 		power = 2000
-		effect_text = "[On Play] If you have 3 or more security cards, trigger [Draw 1]. If you have 3 or fewer security cards, gain 1 memory."
+		effect_text = "[On Play] If you have 3 or more security cards, trigger <Draw 1> (Draw 1 card from your deck). If you have 3 or fewer security cards, gain 1 memory."
 		ruling = [
-					"If I have exactly 3 cards in Security do I get to use both effects to [Draw 1] and gain +1 memory?",
-					"Yes, if you have exactly 3 security cards it satisfies both the conditions of [Draw 1] and +1 Memory.",
+					"Q: If I have exactly 3 cards in Security do I get to use both effects to <Draw 1> and gain +1 memory?",
+					"A: Yes, if you have exactly 3 security cards it satisfies both the conditions of <Draw 1> and +1 Memory.",
 ]
 
 class P_028_B extends Card:
@@ -690,17 +593,14 @@ class P_028_B extends Card:
 		id = "P-028 (B)"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Beastkin"
 		power = 2000
-		effect_text = "[On Play] If you have 3 or more security cards, trigger [Draw 1]. If you have 3 or fewer security cards, gain 1 memory."
+		effect_text = "[On Play] If you have 3 or more security cards, trigger <Draw 1> (Draw 1 card from your deck). If you have 3 or fewer security cards, gain 1 memory."
 		ruling = [
-					"If I have exactly 3 cards in Security do I get to use both effects to [Draw 1] and gain +1 memory?",
-					"Yes, if you have exactly 3 security cards it satisfies both the conditions of [Draw 1] and +1 Memory.",
+					"Q: If I have exactly 3 cards in Security do I get to use both effects to <Draw 1> and gain +1 memory?",
+					"A: Yes, if you have exactly 3 security cards it satisfies both the conditions of <Draw 1> and +1 Memory.",
 ]
 		is_parallel = true
 		notes = "parallel promo"
@@ -716,22 +616,21 @@ class P_029 extends Card:
 		level = 4
 		stage_level = Stage.HYBRID
 		attribute = Attribute.VARIABLE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Wizard"
 		power = 4000
 		effect_text = "[When Attacking] This Digimon can digivolve into an [AncientGreymon] in your hand for a memory cost of 2, ignoring its digivolution requirements. If it does, delete this Digimon at the end of the turn."
 		inherited_effect_text = "[Your Turn] When digivolving this Digimon into an [AncientGreymon] in your hand, reduce its digivolution cost by 2."
 		ruling = [
-					"After using this card's [When Attacking] effect to digivolve into [AncientGreymon]. The Digimon digivolves or [De-Digivolve] into another Digimon. Does it still get deleted at the end of the turn?",
-					"Yes, the effect to delete the Digimon at the end of the turn persists.",
-					"After using this card's [When Attacking] effect to digivolve into [AncientGreymon] and then using [Mega Digimon Fusion!] to digivolve into a level 7 Digimon. Since the deletion effect persists, what happens first?",
-					"Since the \"delete this Digimon\" and \"return the Digimon to the bottom of its owner's deck\" trigger at the same time. The player chooses which effect goes first. The effect that happens after is not applied.",
-					"After using [Back for Revenge!] on this Digimon, it then digivolves into [AncientGreymon]. Which Digimon will be played by this effect [Agunimon] or [AncientGreymon]?",
-					"The effect of [Back for Revenge!] will persist on the evolved Digimon. So the [AncientGreymon] is played.",
-					"After using [Parabolic Junk] on this Digimon. I then uses its [When Attacking] to digivolve into [AncientGreymon] putting the memory at 1 on the opponent's side. My opponent has a Digimon with [ToyAgumon] in its digivolution cards. What happens?",
-					"After the attack ends, the [[End of Turn Procedures]] will start and this Digimon will get deleted bringing the memory back 1 on your side. After the opponent resolves [ToyAgumon]'s [End of Opponent's Turn] effect you continue your turn. You would end your turn twice so [End of Your Turn], [End of Opponent's Turn], and [End of All Turns] would trigger twice this turn.",
+					"Q: After using this card's [When Attacking] effect to digivolve into [AncientGreymon]. The Digimon digivolves or <De-Digivolve> into another Digimon. Does it still get deleted at the end of the turn?",
+					"A: Yes, the effect to delete the Digimon at the end of the turn persists.",
+					"Q: After using this card's [When Attacking] effect to digivolve into [AncientGreymon] and then using [BT5-109 Mega Digimon Fusion!] to digivolve into a level 7 Digimon. Since the deletion effect persists, what happens first?",
+					"A: Since the \"delete this Digimon\" and \"return the Digimon to the bottom of its owner's deck\" trigger at the same time. The player chooses which effect goes first. The effect that happens after is not applied.",
+					"Q: After using [BT3-109 Back for Revenge!] on this Digimon, it then digivolves into [AncientGreymon]. Which Digimon will be played by this effect [P-029 Agunimon] or [AncientGreymon]?",
+					"A: The effect of [BT3-109 Back for Revenge!] will persist on the evolved Digimon. So the [AncientGreymon] is played.",
+					"Q: After using [BT6-104 Parabolic Junk] on this Digimon. I then uses its [When Attacking] to digivolve into [AncientGreymon] putting the memory at 1 on the opponent's side. My opponent has a Digimon with [ST5-04 ToyAgumon] in its digivolution cards. What happens?",
+					"A: After the attack ends, the End of Turn Procedures will start and this Digimon will get deleted bringing the memory back 1 on your side. After the opponent resolves [ST5-04 ToyAgumon]'s [End of Opponent's Turn] effect you continue your turn. You would end your turn twice so [End of Your Turn], [End of Opponent's Turn], and [End of All Turns] would trigger twice this turn.",
+					"Q: If I am activating this card's [When Attacking] effect to digivolve, can I reduce its digivolution cost of that effect?",
+					"A: Yes, you can reduce the digivolution cost of 2 with another effect.",
 ]
 		notes = "Agnimon"
 
@@ -746,22 +645,21 @@ class P_030 extends Card:
 		level = 4
 		stage_level = Stage.HYBRID
 		attribute = Attribute.VARIABLE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Warrior"
 		power = 4000
-		effect_text = "[When Digivolved] This Digimon can digivolve into an [AncientGarurumon] in your hand for a memory cost of 1, ignoring its digivolution requirements. If it does, delete this Digimon at the end of the turn."
+		effect_text = "[When Digivolving] This Digimon can digivolve into an [AncientGarurumon] in your hand for a memory cost of 1, ignoring its digivolution requirements. If it does, delete this Digimon at the end of the turn."
 		inherited_effect_text = "[Your Turn] When digivolving this Digimon into an [AncientGarurumon] in your hand, reduce its digivolution cost by 2."
 		ruling = [
-					"After using this card's [When Digivolved] effect to digivolve into [AncientGarurumon]. The Digimon digivolves or [De-Digivolve] into another Digimon. Does it still get deleted at the end of the turn?",
-					"Yes, the effect to delete the Digimon at the end of the turn persists.",
-					"After using this card's [When Digivolved] effect to digivolve into [AncientGarurumon] and then using [Mega Digimon Fusion!] to digivolve into a level 7 Digimon. Since the deletion effect persists, what happens first?",
-					"Since the \"delete this Digimon\" and \"return the Digimon to the bottom of its owner's deck\" trigger at the same time. The player chooses which effect goes first. The effect that happens after is not applied.",
-					"After using [Back for Revenge!] on a Digimon, that Digimon then digivolves into [Lobomon] and then [AncientGarurumon]. Which Digimon will be played by this effect [Lobomon] or [AncientGarurumon]?",
-					"The effect of [Back for Revenge!] will persist on the evolved Digimon. So the [AncientGarurumon] is played.",
-					"I digivolve [Gomamon] into [Lobomon]. The memory passes over to 1 when I use the latter's effect to digivolve into [AncientGarurumon]. My opponent has a Digimon with [ToyAgumon] in its digivolution cards. As my turn '''is ending''', AncientGarurumon is deleted and [Gomamon]'s effect gives me +1 memory moving my memory back to 0. What happens?",
-					"Even though [[End of Turn Procedures]] have started, when your memory moves back to 0, you no longer continue ending your turn, [End of Your Turn], [End of Opponent's Turn], and [End of All Turns] would happen twice in this instance as you would end your turn twice.",
+					"Q: After using this card's [When Digivolving] effect to digivolve into [AncientGarurumon]. The Digimon digivolves or <De-Digivolve> into another Digimon. Does it still get deleted at the end of the turn?",
+					"A: Yes, the effect to delete the Digimon at the end of the turn persists.",
+					"Q: After using this card's [When Digivolving] effect to digivolve into [AncientGarurumon] and then using [BT5-109 Mega Digimon Fusion!] to digivolve into a level 7 Digimon. Since the deletion effect persists, what happens first?",
+					"A: Since the \"delete this Digimon\" and \"return the Digimon to the bottom of its owner's deck\" trigger at the same time. The player chooses which effect goes first. The effect that happens after is not applied.",
+					"Q: After using [BT3-109 Back for Revenge!] on a Digimon, that Digimon then digivolves into [P-030 Lobomon] and then [AncientGarurumon]. Which Digimon will be played by this effect [P-030 Lobomon] or [AncientGarurumon]?",
+					"A: The effect of [BT3-109 Back for Revenge!] will persist on the evolved Digimon. So the [AncientGarurumon] is played.",
+					"Q: I digivolve [BT1-030 Gomamon] into [P-030 Lobomon]. The memory passes over to 1 when I use the latter's effect to digivolve into [BT4-114 AncientGarurumon]. My opponent has a Digimon with [ST5-04 ToyAgumon] in its digivolution cards. As my turn is ending, AncientGarurumon is deleted and [BT1-030 Gomamon]'s effect gives me +1 memory moving my memory back to 0. What happens?",
+					"A: Even though End of Turn Procedures have started, when your memory moves back to 0, you no longer continue ending your turn, [End of Your Turn], [End of Opponent's Turn], and [End of All Turns] would happen twice in this instance as you would end your turn twice.",
+					"Q: If I am using this card's [When Digivolving] effect to digivolve, can I reduce its digivolution cost of that effect?",
+					"A: Yes, you can reduce the digivolution cost of 1 with another effect.",
 ]
 		notes = "Wolfmon"
 
@@ -774,17 +672,14 @@ class P_031 extends Card:
 		id = "P-031"
 		play_cost = 6
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Holy Beast"
 		power = 5000
-		effect_text = "[Opponent Turn] While you have a purple Digimon in play, this Digimon gains [Blocker].\n[On Play] If you have 3 or fewer security cards, trigger [Recovery +1]."
+		effect_text = "[Opponent's Turn] While you have a purple Digimon in play, this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[On Play] If you have 3 or fewer security cards, trigger <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack)."
 		ruling = [
-					"If I have a purple Digimon and this card in play. If my opponent uses a [When Attacking] effect to delete the purple Digimon can this Digimon still use [Blocker] to block the attack?",
-					"No, this Digimon did not have [Blocker] at the [Reaction] timing. So it cannot use [Blocker]. ''(See more in [[Attack Resolution]])''",
+					"Q: If I have a purple Digimon and this card in play. If my opponent uses a [When Attacking] effect to delete the purple Digimon can this Digimon still use <Blocker> to block the attack?",
+					"A: No, this Digimon did not have <Blocker> at the [Reaction] timing. So it cannot use <Blocker>. (See more in Attack Resolution)",
 ]
 		notes = "Tailmon"
 
@@ -793,18 +688,32 @@ class P_032 extends Card:
 		name = "Palmon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
-		rarity = Rarity.P
+		rarity = ""
 		id = "P-032"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Vegetation"
 		power = 2000
-		inherited_effect_text = "[Your Turn] When this card is trashed due to activating this Digimon's [Digiburst], 1 of your Digimon gains [Jamming] for the turn."
+		inherited_effect_text = "[Your Turn] When this card is trashed due to activating this Digimon's <Digi-Burst>, 1 of your Digimon gains <Jamming> (This Digimon can't be deleted in battles against Security Digimon) for the turn."
+
+class P_032_B extends Card:
+	func _init():
+		name = "Palmon"
+		type = Type.DIGIMON
+		color = ColorGroup.GREEN
+		rarity = ""
+		id = "P-032 (B)"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.DATA
+		digimon_type = "Vegetation"
+		power = 2000
+		inherited_effect_text = "[Your Turn] When this card is trashed due to activating this Digimon's <Digi-Burst>, 1 of your Digimon gains <Jamming> (This Digimon can't be deleted in battles against Security Digimon) for the turn."
+		is_parallel = true
+		notes = "parallel promo"
 
 class P_033 extends Card:
 	func _init():
@@ -815,22 +724,19 @@ class P_033 extends Card:
 		id = "P-033"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		effect_text = "[Your Turn] All of your black Digimon with 13000 DP or more gain [Piercing]."
-		inherited_effect_text = "[Your Turn] While this Digimon is black and has 13000 DP or more, this Digimon gains [Security Attack +1]."
+		effect_text = "[Your Turn] All of your black Digimon with 13000 DP or more gain <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would)."
+		inherited_effect_text = "[Your Turn] While this Digimon is black and has 13000 DP or more, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card)."
 		ruling = [
-					"This Digimon is in play, my Black Digimon with 12000 DP attacks and uses its [When Attacking] effect to gain +1000 DP. Can that Digimon activate [Piercing] in that attack?",
-					"Yes, when your opponent's Digimon is deleted by battle your Digimon will have [Piercing] so it can be activated. ''(See more in [[Attack Resolution]])''",
-					"This Digimon is a digivolution card of my Black Digimon with 12000 DP that attacks and uses its [When Attacking] effect to gain +1000 DP. Can that Digimon activate [Security Attack +1] for that attack?",
-					"Yes, when you check security it will have [Security Attack +1]. ''(See more in [[Attack Resolution]])''",
-					"While my Black Digimon with 13000 DP is checking security with this card in its digivolution cards it is hit by a [Security] effect that [De-Digivolve] it to a Digimon with 12000 DP or less. What happens to the [Security Attack +1]?",
-					"The Digimon loses the [Security Attack +1] and if no other effects are increasing its security attack no further checks will be performed and the attack will end.",
+					"Q: This Digimon is in play, my Black Digimon with 12000 DP attacks and uses its [When Attacking] effect to gain +1000 DP. Can that Digimon activate <Piercing> in that attack?",
+					"A: Yes, when your opponent's Digimon is deleted by battle your Digimon will have <Piercing> so it can be activated. (See more in Attack Resolution)",
+					"Q: This Digimon is a digivolution card of my Black Digimon with 12000 DP that attacks and uses its [When Attacking] effect to gain +1000 DP. Can that Digimon activate <Security Attack +1> for that attack?",
+					"A: Yes, when you check security it will have <Security Attack +1>. (See more in Attack Resolution)",
+					"Q: While my Black Digimon with 13000 DP is checking security with this card in its digivolution cards it is hit by a [Security] effect that <De-Digivolve> it to a Digimon with 12000 DP or less. What happens to the <Security Attack +1>?",
+					"A: The Digimon loses the <Security Attack +1> and if no other effects are increasing its security attack no further checks will be performed and the attack will end.",
 ]
 
 class P_034 extends Card:
@@ -842,17 +748,14 @@ class P_034 extends Card:
 		id = "P-034"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Evil"
 		power = 2000
-		inherited_effect_text = "[On Deletion] If you have 7 or more Digimon cards with Devimon in your trash, you may play 1 [DanDevimon] from your trash without paying its memory cost."
+		inherited_effect_text = "[On Deletion] If you have 7 or more Digimon cards with [Devimon] in their name in your trash, you may play 1 [DanDevimon] from your trash without paying its memory cost."
 		ruling = [
-					"My Digimon with this card in its digivolution cards is deleted when I have 6 Digimon cards with [Devimon]. Can I play a [DanDevimon] from my trash with this card's effect?",
-					"Yes, when you activate this effect you will have 7 or more Digimon cards with Devimon in the trash, the [On Deletion] inherited effect be able to play a [DanDevimon] from your trash without paying its memory cost.",
+					"Q: My Digimon with this card in its digivolution cards is deleted when I have 6 Digimon cards with [Devimon] in its name. Can I play a [DanDevimon] from my trash with this card's effect?",
+					"A: Yes, when you activate this effect you will have 7 or more Digimon cards with [Devimon] in their name in the trash, the [On Deletion] inherited effect be able to play a [DanDevimon] from your trash without paying its memory cost.",
 ]
 		notes = "PicoDevimon"
 
@@ -864,13 +767,13 @@ class P_035 extends Card:
 		rarity = Rarity.SR
 		id = "P-035"
 		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 red Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 red Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 		ruling = [
-					"If this card is in my battle area, can I play Red Options even though I do not have a Red Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Red Options.",
-					"Can I activate this card's [Delay] effect even if there is no Red Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
+					"Q: If this card is in my battle area, can I play Red Options even though I do not have a Red Digimon or Tamer in my battle area or breeding area?",
+					"A: No, this card in the battle area does not meet the colour requirement for you to play Red Options.",
+					"Q: Can I activate this card's <Delay> effect even if there is no Red Digimon or Tamer in my battle area or breeding area?",
+					"A: Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
 ]
 
 class P_035_B extends Card:
@@ -881,32 +784,13 @@ class P_035_B extends Card:
 		rarity = Rarity.SR
 		id = "P-035 (B)"
 		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 red Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 red Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 		ruling = [
-					"If this card is in my battle area, can I play Red Options even though I do not have a Red Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Red Options.",
-					"Can I activate this card's [Delay] effect even if there is no Red Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
-]
-		is_parallel = true
-		notes = "parallel promo"
-
-class P_035_C extends Card:
-	func _init():
-		name = "Red Memory Boost!"
-		type = Type.OPTION
-		color = ColorGroup.RED
-		rarity = Rarity.SR
-		id = "P-035 (C)"
-		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 red Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
-		sec_effect_text = "[Security] Place this card in its owner's battle area."
-		ruling = [
-					"If this card is in my battle area, can I play Red Options even though I do not have a Red Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Red Options.",
-					"Can I activate this card's [Delay] effect even if there is no Red Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
+					"Q: If this card is in my battle area, can I play Red Options even though I do not have a Red Digimon or Tamer in my battle area or breeding area?",
+					"A: No, this card in the battle area does not meet the colour requirement for you to play Red Options.",
+					"Q: Can I activate this card's <Delay> effect even if there is no Red Digimon or Tamer in my battle area or breeding area?",
+					"A: Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
 ]
 		is_parallel = true
 		notes = "parallel promo"
@@ -919,13 +803,13 @@ class P_036 extends Card:
 		rarity = Rarity.SR
 		id = "P-036"
 		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 blue Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 blue Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 		ruling = [
-					"If this card is in my battle area, can I play Blue Options even though I do not have a Blue Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Blue Options.",
-					"Can I activate this card's [Delay] effect even if there is no Blue Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
+					"Q: If this card is in my battle area, can I play Blue Options even though I do not have a Blue Digimon or Tamer in my battle area or breeding area?",
+					"A: No, this card in the battle area does not meet the colour requirement for you to play Blue Options.",
+					"Q: Can I activate this card's <Delay> effect even if there is no Blue Digimon or Tamer in my battle area or breeding area?",
+					"A: Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
 ]
 
 class P_036_B extends Card:
@@ -936,32 +820,13 @@ class P_036_B extends Card:
 		rarity = Rarity.SR
 		id = "P-036 (B)"
 		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 blue Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 blue Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 		ruling = [
-					"If this card is in my battle area, can I play Blue Options even though I do not have a Blue Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Blue Options.",
-					"Can I activate this card's [Delay] effect even if there is no Blue Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
-]
-		is_parallel = true
-		notes = "parallel promo"
-
-class P_036_C extends Card:
-	func _init():
-		name = "Blue Memory Boost!"
-		type = Type.OPTION
-		color = ColorGroup.BLUE
-		rarity = Rarity.SR
-		id = "P-036 (C)"
-		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 blue Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
-		sec_effect_text = "[Security] Place this card in its owner's battle area."
-		ruling = [
-					"If this card is in my battle area, can I play Blue Options even though I do not have a Blue Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Blue Options.",
-					"Can I activate this card's [Delay] effect even if there is no Blue Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
+					"Q: If this card is in my battle area, can I play Blue Options even though I do not have a Blue Digimon or Tamer in my battle area or breeding area?",
+					"A: No, this card in the battle area does not meet the colour requirement for you to play Blue Options.",
+					"Q: Can I activate this card's <Delay> effect even if there is no Blue Digimon or Tamer in my battle area or breeding area?",
+					"A: Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
 ]
 		is_parallel = true
 		notes = "parallel promo"
@@ -974,13 +839,13 @@ class P_037 extends Card:
 		rarity = Rarity.SR
 		id = "P-037"
 		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 yellow Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 yellow Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 		ruling = [
-					"If this card is in my battle area, can I play Yellow Options even though I do not have a Yellow Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Yellow Options.",
-					"Can I activate this card's [Delay] effect even if there is no Yellow Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
+					"Q: If this card is in my battle area, can I play Yellow Options even though I do not have a Yellow Digimon or Tamer in my battle area or breeding area?",
+					"A: No, this card in the battle area does not meet the colour requirement for you to play Yellow Options.",
+					"Q: Can I activate this card's <Delay> effect even if there is no Yellow Digimon or Tamer in my battle area or breeding area?",
+					"A: Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
 ]
 
 class P_037_B extends Card:
@@ -991,32 +856,13 @@ class P_037_B extends Card:
 		rarity = Rarity.SR
 		id = "P-037 (B)"
 		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 yellow Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 yellow Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 		ruling = [
-					"If this card is in my battle area, can I play Yellow Options even though I do not have a Yellow Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Yellow Options.",
-					"Can I activate this card's [Delay] effect even if there is no Yellow Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
-]
-		is_parallel = true
-		notes = "parallel promo"
-
-class P_037_C extends Card:
-	func _init():
-		name = "Yellow Memory Boost!"
-		type = Type.OPTION
-		color = ColorGroup.YELLOW
-		rarity = Rarity.SR
-		id = "P-037 (C)"
-		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 yellow Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
-		sec_effect_text = "[Security] Place this card in its owner's battle area."
-		ruling = [
-					"If this card is in my battle area, can I play Yellow Options even though I do not have a Yellow Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Yellow Options.",
-					"Can I activate this card's [Delay] effect even if there is no Yellow Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
+					"Q: If this card is in my battle area, can I play Yellow Options even though I do not have a Yellow Digimon or Tamer in my battle area or breeding area?",
+					"A: No, this card in the battle area does not meet the colour requirement for you to play Yellow Options.",
+					"Q: Can I activate this card's <Delay> effect even if there is no Yellow Digimon or Tamer in my battle area or breeding area?",
+					"A: Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
 ]
 		is_parallel = true
 		notes = "parallel promo"
@@ -1029,13 +875,13 @@ class P_038 extends Card:
 		rarity = Rarity.SR
 		id = "P-038"
 		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 green Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 green Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 		ruling = [
-					"If this card is in my battle area, can I play Green Options even though I do not have a Green Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Green Options.",
-					"Can I activate this card's [Delay] effect even if there is no Green Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
+					"Q: If this card is in my battle area, can I play Green Options even though I do not have a Green Digimon or Tamer in my battle area or breeding area?",
+					"A: No, this card in the battle area does not meet the colour requirement for you to play Green Options.",
+					"Q: Can I activate this card's <Delay> effect even if there is no Green Digimon or Tamer in my battle area or breeding area?",
+					"A: Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
 ]
 
 class P_038_B extends Card:
@@ -1046,32 +892,13 @@ class P_038_B extends Card:
 		rarity = Rarity.SR
 		id = "P-038 (B)"
 		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 green Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 green Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 		ruling = [
-					"If this card is in my battle area, can I play Green Options even though I do not have a Green Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Green Options.",
-					"Can I activate this card's [Delay] effect even if there is no Green Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
-]
-		is_parallel = true
-		notes = "parallel promo"
-
-class P_038_C extends Card:
-	func _init():
-		name = "Green Memory Boost!"
-		type = Type.OPTION
-		color = ColorGroup.GREEN
-		rarity = Rarity.SR
-		id = "P-038 (C)"
-		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 green Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
-		sec_effect_text = "[Security] Place this card in its owner's battle area."
-		ruling = [
-					"If this card is in my battle area, can I play Green Options even though I do not have a Green Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Green Options.",
-					"Can I activate this card's [Delay] effect even if there is no Green Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
+					"Q: If this card is in my battle area, can I play Green Options even though I do not have a Green Digimon or Tamer in my battle area or breeding area?",
+					"A: No, this card in the battle area does not meet the colour requirement for you to play Green Options.",
+					"Q: Can I activate this card's <Delay> effect even if there is no Green Digimon or Tamer in my battle area or breeding area?",
+					"A: Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
 ]
 		is_parallel = true
 		notes = "parallel promo"
@@ -1084,13 +911,13 @@ class P_039 extends Card:
 		rarity = Rarity.SR
 		id = "P-039"
 		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 black Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 black Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 		ruling = [
-					"If this card is in my battle area, can I play Black Options even though I do not have a Black Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Black Options.",
-					"Can I activate this card's [Delay] effect even if there is no Black Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
+					"Q: If this card is in my battle area, can I play Black Options even though I do not have a Black Digimon or Tamer in my battle area or breeding area?",
+					"A: No, this card in the battle area does not meet the colour requirement for you to play Black Options.",
+					"Q: Can I activate this card's <Delay> effect even if there is no Black Digimon or Tamer in my battle area or breeding area?",
+					"A: Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
 ]
 
 class P_039_B extends Card:
@@ -1101,32 +928,13 @@ class P_039_B extends Card:
 		rarity = Rarity.SR
 		id = "P-039 (B)"
 		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 black Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 black Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 		ruling = [
-					"If this card is in my battle area, can I play Black Options even though I do not have a Black Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Black Options.",
-					"Can I activate this card's [Delay] effect even if there is no Black Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
-]
-		is_parallel = true
-		notes = "parallel promo"
-
-class P_039_C extends Card:
-	func _init():
-		name = "Black Memory Boost!"
-		type = Type.OPTION
-		color = ColorGroup.BLACK
-		rarity = Rarity.SR
-		id = "P-039 (C)"
-		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 black Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
-		sec_effect_text = "[Security] Place this card in its owner's battle area."
-		ruling = [
-					"If this card is in my battle area, can I play Black Options even though I do not have a Black Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Black Options.",
-					"Can I activate this card's [Delay] effect even if there is no Black Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
+					"Q: If this card is in my battle area, can I play Black Options even though I do not have a Black Digimon or Tamer in my battle area or breeding area?",
+					"A: No, this card in the battle area does not meet the colour requirement for you to play Black Options.",
+					"Q: Can I activate this card's <Delay> effect even if there is no Black Digimon or Tamer in my battle area or breeding area?",
+					"A: Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
 ]
 		is_parallel = true
 		notes = "parallel promo"
@@ -1139,13 +947,13 @@ class P_040 extends Card:
 		rarity = Rarity.SR
 		id = "P-040"
 		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 purple Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 purple Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 		ruling = [
-					"If this card is in my battle area, can I play Purple Options even though I do not have a Purple Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Purple Options.",
-					"Can I activate this card's [Delay] effect even if there is no Purple Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
+					"Q: If this card is in my battle area, can I play Purple Options even though I do not have a Purple Digimon or Tamer in my battle area or breeding area?",
+					"A: No, this card in the battle area does not meet the colour requirement for you to play Purple Options.",
+					"Q: Can I activate this card's <Delay> effect even if there is no Purple Digimon or Tamer in my battle area or breeding area?",
+					"A: Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
 ]
 		notes = "Violet Memory Boost!!"
 
@@ -1157,32 +965,13 @@ class P_040_B extends Card:
 		rarity = Rarity.SR
 		id = "P-040 (B)"
 		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 purple Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 purple Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 		ruling = [
-					"If this card is in my battle area, can I play Purple Options even though I do not have a Purple Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Purple Options.",
-					"Can I activate this card's [Delay] effect even if there is no Purple Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
-]
-		is_parallel = true
-		notes = "parallel promo Violet Memory Boost!!"
-
-class P_040_C extends Card:
-	func _init():
-		name = "Purple Memory Boost!"
-		type = Type.OPTION
-		color = ColorGroup.PURPLE
-		rarity = Rarity.SR
-		id = "P-040 (C)"
-		play_cost = 3
-		effect_text = "[Main] Reveal the top 4 cards of your deck. Add 1 purple Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, place this card in your battle area.\n[Main] [Delay]\n·Gain 2 memory."
-		sec_effect_text = "[Security] Place this card in its owner's battle area."
-		ruling = [
-					"If this card is in my battle area, can I play Purple Options even though I do not have a Purple Digimon or Tamer in my battle area or breeding area?",
-					"No, this card in the battle area does not meet the colour requirement for you to play Purple Options.",
-					"Can I activate this card's [Delay] effect even if there is no Purple Digimon or Tamer in my battle area or breeding area?",
-					"Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
+					"Q: If this card is in my battle area, can I play Purple Options even though I do not have a Purple Digimon or Tamer in my battle area or breeding area?",
+					"A: No, this card in the battle area does not meet the colour requirement for you to play Purple Options.",
+					"Q: Can I activate this card's <Delay> effect even if there is no Purple Digimon or Tamer in my battle area or breeding area?",
+					"A: Yes, the colour requirement for Options is only applied when using Option cards from your hand.",
 ]
 		is_parallel = true
 		notes = "parallel promo Violet Memory Boost!!"
@@ -1196,14 +985,11 @@ class P_041 extends Card:
 		id = "P-041"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		effect_text = "[When Attacking] Trigger [Draw 1]."
+		effect_text = "[When Attacking] Trigger <Draw 1> (Draw 1 card from your deck)."
 
 class P_042 extends Card:
 	func _init():
@@ -1214,11 +1000,8 @@ class P_042 extends Card:
 		id = "P-042"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
 		effect_text = "[On Play] Reveal the top 5 cards of your deck. Add 1 Tamer card among them to your hand. Place the cards at the bottom of your deck in any order."
@@ -1232,14 +1015,11 @@ class P_043 extends Card:
 		id = "P-043"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Holy Beast"
 		power = 2000
-		effect_text = "[On Play] You may return 1 [Kentaurosmon] from your trash to the bottom of your deck to trigger [Recovery +1]."
+		effect_text = "[On Play] You may return 1 [Kentaurosmon] from your trash to the bottom of your deck to trigger <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack)."
 		inherited_effect_text = "[On Deletion] 1 of your opponent's Digimon gets -1000 DP for the turn."
 
 class P_044 extends Card:
@@ -1251,14 +1031,11 @@ class P_044 extends Card:
 		id = "P-044"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 3
-		digivolve_level = 5
 		digimon_type = "Insectoid"
 		power = 11000
-		effect_text = "[When Digivolved] Suspend 1 of your opponent's Digimon, or 2 of your opponent's Digimon with 5000 DP or less."
+		effect_text = "[When Digivolving] Suspend 1 of your opponent's Digimon, or 2 of your opponent's Digimon with 5000 DP or less."
 		notes = "HerakleKabuterimon"
 
 class P_045 extends Card:
@@ -1270,14 +1047,11 @@ class P_045 extends Card:
 		id = "P-045"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.UNKNOWN
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Unidentified"
 		power = 5000
-		inherited_effect_text = "[All Turns] All of your Digimon with the same name as this Digimon gain [Decoy] ''(When one of your other black or white Digimon would be deleted by an opponent's effect, you may delete this Digimon to prevent that deletion)''."
+		inherited_effect_text = "[All Turns] All of your other Digimon with the same name as this Digimon gain <Decoy (Black/White)> (When one of your other black or white Digimon would be deleted by an opponent's effect, you may delete this Digimon to prevent that deletion)."
 		notes = "Chrysalimon"
 
 class P_046 extends Card:
@@ -1289,14 +1063,11 @@ class P_046 extends Card:
 		id = "P-046"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Wizard"
 		power = 5000
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When you use an option card, gain 1 memory."
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When you use an option card, gain 1 memory."
 		notes = "Wizarmon"
 
 class P_047 extends Card:
@@ -1308,14 +1079,11 @@ class P_047 extends Card:
 		id = "P-047"
 		play_cost = 8
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Holy Dragon"
 		power = 7000
-		effect_text = "[When Digivolved] Trash 3 cards from the top of your deck. Then, if you have a Tamer in play, this Digimon gets +3000 DP for the turn."
+		effect_text = "[When Digivolving] Trash the top 3 cards of your deck. Then, if you have a Tamer in play, this Digimon gets +3000 DP for the turn."
 		inherited_effect_text = "[When Attacking] You may place 3 non Digi-Egg cards from your trash at the bottom of your deck in any order to give this Digimon +2000 DP for the turn."
 		notes = "AeroV-dramon Zero"
 
@@ -1328,14 +1096,15 @@ class P_048 extends Card:
 		id = "P-048"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 4
-		digivolve_level = 5
 		digimon_type = "Holy Warrior"
 		power = 13000
-		effect_text = "[When Digivolved] You may place 3 non Digi-Egg cards from your trash at the bottom of your deck in any order to unsuspend this Digimon and 1 of your Tamers.\n[Your Turn] [Once Per Turn] When you return cards from your trash to your deck, gain 1 memory."
+		effect_text = "[When Digivolving] You may place 3 non Digi-Egg cards from your trash at the bottom of your deck in any order to unsuspend this Digimon and 1 of your Tamers.\n[Your Turn] (Once Per Turn) When a card is returned from your trash to your deck, gain 1 memory."
+		ruling = [
+					"Q: If a card is returned to my Digi-Egg Deck, does this card's [Your Turn] effect activate?",
+					"A: No, the deck and the Digi-Egg deck are considered separate.",
+]
 		notes = "UlforceV-dramon Zero"
 
 class P_049 extends Card:
@@ -1347,14 +1116,11 @@ class P_049 extends Card:
 		id = "P-049"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 3
-		digivolve_level = 5
 		digimon_type = "Holy Beast"
 		power = 11000
-		effect_text = "[When Digivolved] If you have a Tamer in play, this Digimon gains [Security Attack +1] for the turn.\n[Your Turn] [Once Per Turn] When this Digimon is blocked, trash the top card of your opponent's security stack."
+		effect_text = "[When Digivolving] If you have a Tamer in play, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn.\n[Your Turn] (Once Per Turn) When this Digimon is blocked, trash the top card of your opponent's security stack."
 		notes = "Hououmon"
 
 class P_050 extends Card:
@@ -1366,14 +1132,11 @@ class P_050 extends Card:
 		id = "P-050"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 4
-		digivolve_level = 5
 		digimon_type = "Dragonkin"
 		power = 12000
-		effect_text = "[When Digivolved] If you have a Tamer in play, delete 1 of your opponent's Digimon with 13000 DP or more. \n[When Attacking] Delete 1 of your opponent's Digimon with 4000 DP or less"
+		effect_text = "[When Digivolving] If you have a Tamer in play, delete 1 of your opponent's Digimon with 13000 DP or more. \n[When Attacking] Delete 1 of your opponent's Digimon with 4000 DP or less"
 
 class P_051 extends Card:
 	func _init():
@@ -1386,12 +1149,9 @@ class P_051 extends Card:
 		level = 6
 		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 5
 		digimon_type = "Cyborg"
 		power = 1100
-		effect_text = "[When Digivolved] If you have a Tamer in play, [Draw 2].\n[Opponent Turn] This Digimon can't be attacked."
+		effect_text = "[When Digivolving] If you have a Tamer in play, <Draw 2> (Draw 2 cards from your deck).\n[Opponent's Turn] This Digimon can't be attacked."
 
 class P_052 extends Card:
 	func _init():
@@ -1402,14 +1162,11 @@ class P_052 extends Card:
 		id = "P-052"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 4
-		digivolve_level = 5
 		digimon_type = "Beastkin"
 		power = 1100
-		effect_text = "[When Digivolved] If you have a Tamer in play, up to 3 of your opponent's Digimon with no digivolution cards can't attack until the end of your opponent's next turn.\n[When Attacking] [Once Per Turn] Return 1 of your opponent's Digimon with no digivolution cards to its owner's hand."
+		effect_text = "[When Digivolving] If you have a Tamer in play, up to 3 of your opponent's Digimon with no digivolution cards can't attack until the end of your opponent's next turn.\n[When Attacking] (Once Per Turn) Return 1 of your opponent's Digimon with no digivolution cards to its owner's hand."
 
 class P_053 extends Card:
 	func _init():
@@ -1420,14 +1177,11 @@ class P_053 extends Card:
 		id = "P-053"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 3
-		digivolve_level = 5
-		digimon_type = "Throne"
+		digimon_type = "Throne/Three Great Angels"
 		power = 1100
-		effect_text = "[When Digivolved] If you have a Tamer in play, 1 of your opponent's Digimon gets -5000 DP for the turn.\n[When Attacking] 1 of your opponent's Digimon and all of your opponent's Security Digimon get -2000 DP for the turn."
+		effect_text = "[When Digivolving] If you have a Tamer in play, 1 of your opponent's Digimon gets -5000 DP for the turn.\n[When Attacking] 1 of your opponent's Digimon and all of your opponent's Security Digimon get -2000 DP for the turn."
 
 class P_054 extends Card:
 	func _init():
@@ -1438,14 +1192,11 @@ class P_054 extends Card:
 		id = "P-054"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 4
-		digivolve_level = 5
-		digimon_type = "Seraph"
+		digimon_type = "Seraph/Three Great Angels"
 		power = 1100
-		effect_text = "[When Digivolved] If you have a Tamer in play, [Recovery +1].\n[On Deletion] [Recovery +1]."
+		effect_text = "[When Digivolving] If you have a Tamer in play, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).\n[On Deletion] <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack)."
 
 class P_055 extends Card:
 	func _init():
@@ -1456,14 +1207,11 @@ class P_055 extends Card:
 		id = "P-055"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 3
-		digivolve_level = 5
 		digimon_type = "Insectoid"
 		power = 11000
-		effect_text = "[When Digivolved] If you have a Tamer in play, suspend 1 of your opponent's Digimon. \n[Your Turn] When this Digimon deletes an opponent's Digimon in battle and survives, gain 1 memory."
+		effect_text = "[When Digivolving] If you have a Tamer in play, suspend 1 of your opponent's Digimon. \n[Your Turn] When this Digimon deletes an opponent's Digimon in battle and survives, gain 1 memory."
 		notes = "HerakleKabuterimon"
 
 class P_056 extends Card:
@@ -1475,14 +1223,11 @@ class P_056 extends Card:
 		id = "P-056"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 4
-		digivolve_level = 5
 		digimon_type = "Fairy"
 		power = 12000
-		effect_text = "[Digisorption -2]\n[When Digivolved] If you have a Tamer in play, 1 of your opponent's Digimon can't attack or block until the end of their next turn."
+		effect_text = "<Digisorption -2> (When one of your Digimon digivolves into this card from your hand, you may suspend 1 of your Digimon to reduce the memory cost of the digivolution by 2)\n[When Digivolving] If you have a Tamer in play, 1 of your opponent's Digimon can't attack or block until the end of their next turn."
 
 class P_057 extends Card:
 	func _init():
@@ -1493,11 +1238,8 @@ class P_057 extends Card:
 		id = "P-057"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Dinosaur"
 		power = 4000
 		effect_text = "[Your Turn] This Digimon gets +3000 DP"
@@ -1512,11 +1254,8 @@ class P_058 extends Card:
 		id = "P-058"
 		play_cost = 4
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 1
-		digivolve_level = 2
 		digimon_type = "Ceratopsian"
 		power = 4000
 		effect_text = "[Your Turn] While you have a red Tamer in play, this Digimon can attack your opponent's unsuspended Digimon."
@@ -1530,12 +1269,326 @@ class P_059 extends Card:
 		id = "P-059"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Ceratopsian"
 		power = 3000
 		inherited_effect_text = "[Your Turn] While you have a [Hiro Amanokawa] in play, this Digimon gets +2000 DP."
+
+class P_060 extends Card:
+	func _init():
+		name = "Angoramon"
+		type = Type.DIGIMON
+		color = ColorGroup.GREEN
+		rarity = Rarity.P
+		id = "P-060"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VACCINE
+		digimon_type = "Beast"
+		power = 3000
+		inherited_effect_text = "[When Attacking] (Once Per Turn) If you have a [Ruli Tsukiyono] in play, gain 1 memory."
+
+class P_061 extends Card:
+	func _init():
+		name = "Jellymon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLUE
+		rarity = Rarity.P
+		id = "P-061"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.DATA
+		digimon_type = "Mollusk"
+		power = 3000
+		inherited_effect_text = "[When Attacking] (Once Per Turn) If you have a [Kiyoshiro Higashimitarai] in play, <Draw 1> (Draw 1 card from your deck)."
+
+class P_062 extends Card:
+	func _init():
+		name = "Hiro Amanokawa"
+		type = Type.TAMER
+		color = ColorGroup.RED
+		rarity = Rarity.P
+		id = "P-062"
+		play_cost = 3
+		effect_text = "[Your Turn] When you attack with a Digimon that has [Gammamon] in its digivolution cards, you may suspend this Tamer to give that Digimon <Security Attack +1> (This Digimon checks 1 additional security card) for the turn."
+		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		notes = "Amanokawa Hiro"
+
+class P_063 extends Card:
+	func _init():
+		name = "Ruli Tsukiyono"
+		type = Type.TAMER
+		color = ColorGroup.GREEN
+		rarity = Rarity.P
+		id = "P-063"
+		play_cost = 3
+		effect_text = "[Your Turn] When you attack with a Digimon that has [Angoramon] in its digivolution cards, you may suspend this Tamer to have that Digimon get +3000 DP for the turn."
+		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		notes = "Tsukiyono Ruli"
+
+class P_064 extends Card:
+	func _init():
+		name = "Kiyoshiro Higashimitarai"
+		type = Type.TAMER
+		color = ColorGroup.BLUE
+		rarity = Rarity.P
+		id = "P-064"
+		play_cost = 3
+		effect_text = "[Your Turn] When you attack with a Digimon that has [Jellymon] in its digivolution cards, you may suspend this Tamer to have that Digimon gain <Jamming> (This Digimon can't be deleted in battles against Security Digimon) for the turn."
+		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		notes = "Higashimitarai Kiyoshiro"
+
+class P_065 extends Card:
+	func _init():
+		name = "Gammamon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.P
+		id = "P-065"
+		play_cost = 4
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VIRUS
+		digimon_type = "Ceratopsian"
+		power = 2000
+		effect_text = "[On Play] Delete 1 of your opponent's Digimon with 2000 DP or less."
+		inherited_effect_text = "[When Attacking] Delete 1 of your opponent's Digimon with 2000 DP or less."
+
+class P_066 extends Card:
+	func _init():
+		name = "Huckmon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.P
+		id = "P-066"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.DATA
+		digimon_type = "Mini Dragon"
+		power = 2000
+		effect_text = "[Security] At the end of the battle, delete 1 of your opponent's Digimon with 4000 DP or less. If you don't delete an opponent's Digimon with this effect, <Draw 1> (Draw 1 card from your deck). Then, add this card to its owner's hand."
+
+class P_067 extends Card:
+	func _init():
+		name = "Bulucomon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLUE
+		rarity = Rarity.P
+		id = "P-067"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.DATA
+		digimon_type = "Mini Dragon"
+		power = 2000
+		effect_text = "[Security] At the end of the battle, <Draw 2> (Draw 2 cards from your deck). Then, add this card to its owner's hand."
+		notes = "Blucomon"
+
+class P_068 extends Card:
+	func _init():
+		name = "Herissmon"
+		type = Type.DIGIMON
+		color = ColorGroup.YELLOW
+		rarity = Rarity.P
+		id = "P-068"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.DATA
+		digimon_type = "Mammal"
+		power = 2000
+		effect_text = "[Security] At the end of the battle, 1 of your opponent's Digimon gains <Security Attack -1> (This Digimon checks 1 fewer security card) for the turn. Then, add this card to its owner's hand."
+
+class P_069 extends Card:
+	func _init():
+		name = "Pulsemon"
+		type = Type.DIGIMON
+		color = ColorGroup.GREEN
+		rarity = Rarity.P
+		id = "P-069"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VACCINE
+		digimon_type = "Beastkin"
+		power = 2000
+		effect_text = "[Security] At the end of the battle, suspend 1 of your opponent's Digimon. Then, add this card to its owner's hand."
+
+class P_070 extends Card:
+	func _init():
+		name = "Dorumon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLACK
+		rarity = Rarity.P
+		id = "P-070"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.DATA
+		digimon_type = "Beast/X Antibody"
+		power = 2000
+		effect_text = "[Security] At the end of the battle, reveal the top card of your deck. If that card is a black Digimon card with a play cost of 4 or less, you may play it without paying its memory cost. Add any remaining cards to your hand. Then, add this card to its owner's hand."
+
+class P_071 extends Card:
+	func _init():
+		name = "Impmon"
+		type = Type.DIGIMON
+		color = ColorGroup.PURPLE
+		rarity = Rarity.P
+		id = "P-071"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VIRUS
+		digimon_type = "Evil"
+		power = 2000
+		effect_text = "[Security] At the end of the battle, you may play 1 purple level 3 Digimon card from your trash without paying its memory cost. Then, add this card to its owner's hand."
+
+class P_072 extends Card:
+	func _init():
+		name = "MetalGreymon: Alterous Mode"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.P
+		id = "P-072"
+		play_cost = 7
+		level = 5
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VACCINE
+		digimon_type = "Cyborg"
+		power = 7000
+		effect_text = "The name of this card/Digimon is also treated as [MetalGreymon].\n[When Digivolving] If you have a Tamer in play, delete 1 of your opponent's Digimon with 5000 DP or less."
+		inherited_effect_text = "[All Turns] While this Digimon with [Greymon], or [Omnimon] in its name and an effect would delete it or return it to your hand or deck, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent it from leaving play."
+
+class P_073 extends Card:
+	func _init():
+		name = "WereGarurumon: Sagittarius Mode"
+		type = Type.DIGIMON
+		color = ColorGroup.BLUE
+		rarity = Rarity.P
+		id = "P-073"
+		play_cost = 7
+		level = 5
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VACCINE
+		digimon_type = "Beastkin"
+		power = 7000
+		effect_text = "The name of this card/Digimon is also treated as [WereGarurumon].\n[When Digivolving] If you have a Tamer in play, return 2 of your opponent's level 3 Digimon to their owner's hand."
+		inherited_effect_text = "[All Turns] When this Digimon has [Garurumon], or [Omnimon] in its name and would be deleted in battle, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent that deletion."
+
+class P_074 extends Card:
+	func _init():
+		name = "Boutmon"
+		type = Type.DIGIMON
+		color = ColorGroup.YELLOW
+		rarity = Rarity.P
+		id = "P-074"
+		play_cost = 7
+		level = 5
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VACCINE
+		digimon_type = "Beastkin"
+		power = 7000
+		effect_text = "[Your Turn] When this Digimon would digivolve into a card with [Shaman], or [Wizard] in its traits, you may trash up to 3 cards from the top of your security stack. For each security card trashed by this effect, reduce the digivolution cost by 1."
+		inherited_effect_text = "[When Attacking] (Once Per Turn) If you have 3 security cards, unsuspend this Digimon."
+
+class P_075 extends Card:
+	func _init():
+		name = "Okuwamon"
+		type = Type.DIGIMON
+		color = ColorGroup.GREEN
+		rarity = Rarity.P
+		id = "P-075"
+		play_cost = 7
+		level = 5
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VIRUS
+		digimon_type = "Insectoid"
+		power = 7000
+		effect_text = "[Your Turn] When this Digimon would digivolve into a card with [Insectoid] in its traits, all of your opponent's Digimon gain \"[All Turns] When this Digimon becomes suspended, lose 1 memory.\" until the end of your opponent's turn."
+		inherited_effect_text = "[Your Turn] While this Digimon has [Insectoid] in its traits, it gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would)."
+
+class P_076 extends Card:
+	func _init():
+		name = "Deltamon"
+		type = Type.DIGIMON
+		color = ColorGroup.BLACK
+		rarity = Rarity.P
+		id = "P-076"
+		play_cost = 5
+		level = 4
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VIRUS
+		digivolve_color_2 = ""
+		digivolve_cost_2 = 3
+		digivolve_level_2 = 3
+		digimon_type = "Composite"
+		power = 6000
+		effect_text = "[Your Turn] When this Digimon would digivolve into a card with 2 colors or [Composite] in its traits, reduce the digivolution cost by 2."
+		inherited_effect_text = "[When Attacking] For each of this Digimon’s colors, delete 1 of your opponent's Digimon with 3000 DP or less."
+
+class P_077 extends Card:
+	func _init():
+		name = "Wizardmon"
+		type = Type.DIGIMON
+		color = ColorGroup.PURPLE
+		rarity = Rarity.P
+		id = "P-077"
+		play_cost = 5
+		level = 4
+		stage_level = Stage.HYBRID
+		attribute = Attribute.DATA
+		digimon_type = "Wizard"
+		power = 5000
+		effect_text = "When this card is trashed from your Deck, gain 1 memory."
+		inherited_effect_text = "[When Attacking] You may reveal 1 purple card from your hand and place it on top of your deck."
+
+class P_079 extends Card:
+	func _init():
+		name = "Agumon"
+		type = Type.DIGIMON
+		color = ColorGroup.RED
+		rarity = Rarity.P
+		id = "P-079"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VACCINE
+		digimon_type = "Reptile"
+		power = 2000
+		effect_text = "[On Play] If you have a red Tamer in play, delete 1 of your opponent's Digimon with 3000 DP or less."
+
+class P_080 extends Card:
+	func _init():
+		name = "Labramon"
+		type = Type.DIGIMON
+		color = ColorGroup.PURPLE
+		rarity = Rarity.P
+		id = "P-080"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VACCINE
+		digimon_type = "Beast"
+		power = 2000
+		effect_text = "[On Play] If you have a purple Tamer in play, delete 1 of your opponent's level 3 Digimon."
+
+class P_081 extends Card:
+	func _init():
+		name = "Falcomon"
+		type = Type.DIGIMON
+		color = ColorGroup.YELLOW
+		rarity = Rarity.P
+		id = "P-081"
+		play_cost = 3
+		level = 3
+		stage_level = Stage.HYBRID
+		attribute = Attribute.VACCINE
+		digimon_type = "Avian"
+		power = 2000
+		effect_text = "[On Play] If you have a yellow Tamer in play, 1 of your opponent's Digimon gets -2000 DP until the end of their turn."
 

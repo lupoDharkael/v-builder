@@ -1,0 +1,550 @@
+{
+    "name": "ST-3: Heaven's Yellow",
+    "shortname": "ST-3",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d2/ST3-01.png/revision/latest?cb=20201210184950",
+            "id": "ST3-01",
+            "name": "Tokomon",
+            "jpname": "トコモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "effect2": "[Your Turn] (Once Per Turn) When an opponent's Digimon is deleted by dropping to 0 DP, this Digimon gets +1000 DP for the turn.",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If the DP of an opponent's Digimon is reduced to 0 and deleted, if I have multiple Digimon with this Digimon as digivolution cards, do all of their effects activate?",
+                    "A: Yes. Since it meets the activation conditions, they all activate."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0c/ST3-02.png/revision/latest?cb=20201210184950",
+            "id": "ST3-02",
+            "name": "Salamon",
+            "jpname": "プロットモン",
+            "tsname": "Plotmon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Mammal",
+            "ilustrators": [
+                "Tonamikanji",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "Event Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/71/ST3-03.png/revision/latest?cb=20201210184951",
+            "id": "ST3-03",
+            "name": "Tapirmon",
+            "jpname": "バクモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Holy Beast",
+            "ilustrators": [
+                "Ryuda"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/23/ST3-04.png/revision/latest?cb=20201210184951",
+            "id": "ST3-04",
+            "name": "Patamon",
+            "jpname": "パタモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mammal",
+            "ilustrators": [
+                "Nakano Haito",
+                "Qacoro",
+                "Horaguchi Kayo"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[Your Turn] (Once Per Turn) When an opponent's Digimon is deleted by dropping to 0 DP, gain 1 memory.",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Store Championship Participant Pack",
+                "Store Championships",
+                "PB-09: Digimon Card Game Playmat and Card Set 2 -Floral Fun-"
+            ],
+            "jpsets": [
+                "Memorial Collection 01"
+            ],
+            "ruling": [
+                [
+                    "Q: If the DP of an opponent's Digimon is reduced to 0 and deleted, if I have multiple Digimon with this Digimon as digivolution cards, do all of their effects activate?",
+                    "A: Yes. Since it meets the activation conditions, they all activate."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9e/ST3-05.png/revision/latest?cb=20201210184951",
+            "id": "ST3-05",
+            "name": "Angemon",
+            "jpname": "エンジェモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Angel",
+            "ilustrators": [
+                "Nakano Haito",
+                "Qacoro",
+                "Tessy"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[When Attacking] If you have 4 or more security cards, gain 1 memory.",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Tamer Party",
+                "Official Tournament Pack Vol. 3"
+            ],
+            "jpsets": [
+                "Premium Bandai Apparel Promo Cards",
+                "1st Anniversary Adventure Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: On attack, if I have 8 cards in my security stack, does this card's inherited effect cause me to gain 2 memory?",
+                    "A: No. If you have 4 or more cards in your security stack, you gain 1 memory. But you can only gain 1 memory from this effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/25/ST3-06.png/revision/latest?cb=20201210184951",
+            "id": "ST3-06",
+            "name": "Gatomon",
+            "jpname": "テイルモン",
+            "tsname": "Tailmon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Holy Beast",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d9/ST3-07.png/revision/latest?cb=20201210184952",
+            "id": "ST3-07",
+            "name": "Unimon",
+            "jpname": "ユニモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Mythical Beast",
+            "ilustrators": [
+                "Ryuda",
+                "Ryuda",
+                "koki"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[When Attacking] Lose 2 memory.",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "Event Pack",
+                "Official Tournament Pack Vol. 4"
+            ],
+            "jpsets": [
+                "Tamer Battle Pack 7"
+            ],
+            "ruling": [
+                [
+                    "Q: Can this Digimon attack when I have less than 2 memory?",
+                    "A: Yes, it can. Even if this Digimon's attack effect causes your memory to move to 1 or greater on your opponent's side, it doesn't become your opponent's turn until the end of the attack."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9e/ST3-08.png/revision/latest?cb=20201210184952",
+            "id": "ST3-08",
+            "name": "MagnaAngemon",
+            "jpname": "ホーリーエンジェモン",
+            "tsname": "HolyAngemon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Archangel",
+            "ilustrators": [
+                "Nakano Haito",
+                "Tessy"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect2": "[When Attacking] 1 of your opponent's Digimon gets -1000 DP for the turn.",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Promotion",
+                "Official Tournament Pack Vol. 3"
+            ],
+            "jpsets": [
+                "Tamer Battle Pack 2",
+                "1st Anniversary Adventure Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Can I use this card's inherited effect to target one of my opponent's Digimon with 1000 DP or less and delete it?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: A Digimon with this card as a digivolution card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's inherited effect. What happens to the attack?",
+                    "A: You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends. (See more in Attack Resolution)"
+                ],
+                [
+                    "Q: A Digimon with this card as a digivolution card attacks an opponent's Digimon, then the opponent blocks with a Digimon that has <Blocker>. Can I use this card's inherited effect to reduce the DP of the blocking Digimon to 0 and delete it?",
+                    "A: No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/90/ST3-09.png/revision/latest?cb=20201210184952",
+            "id": "ST3-09",
+            "name": "Angewomon",
+            "jpname": "エンジェウーモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Archangel",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] If you have 3 security cards or less, trigger <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow",
+                "Tamer Battle Pack 1"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: I digivolve into this card while I have 4 or more security cards. While this Digimon's [When Digivolving] effect is pending activation, one of my other effects reduces my security cards to 3 or fewer. Do I?",
+                    "A: Yes, you do. This effect behaves the same way as an effect that reads \"If you have 3 or fewer security cards\", so the condition is checked when the effect would be activated."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/56/ST3-10.png/revision/latest?cb=20201210184953",
+            "id": "ST3-10",
+            "name": "Magnadramon",
+            "jpname": "ホーリードラモン",
+            "tsname": "Holydramon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "10",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Holy Dragon/Four Great Dragons",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "2",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/82/ST3-11.png/revision/latest?cb=20201210184953",
+            "id": "ST3-11",
+            "name": "Seraphimon",
+            "jpname": "セラフィモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "10000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Seraph/Three Great Angels",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Attacking] 1 of your opponent's Digimon gets -4000 DP for the turn.",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Can I use this card's effect to target one of my opponent's Digimon with 4000 DP or less, reduce its DP to 0, and delete it?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: This card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's effect. What happens to the attack?",
+                    "A: You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends."
+                ],
+                [
+                    "Q: This card attacks an opponent's Digimon, then my opponent blocks with a Digimon that has <Blocker>. Can I use this card's effect to reduce the DP of the blocking Digimon to 0 and delete it?",
+                    "A: No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared."
+                ],
+                [
+                    "Q: I play [ST3-16 Seven Heavens] to give -10,000 DP to the opponent's rested Rosemon. Then my [ST3-11 Seraphimon] attacks player. Both Seraphimon and Rosemon skills trigger at the same time [When Attacking] Seraphimon -4000 DP to Rosemon, killing it. Can Rosemon still rest an opponent's Digimon?",
+                    "A: Rosemon's condition of \"If this Digimon is at rest\" is no longer fulfilled, so Rosemon cannot rest your other Digimon."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/df/ST3-12.png/revision/latest?cb=20201210184953",
+            "id": "ST3-12",
+            "name": "T.K. Takaishi",
+            "jpname": "高石タケル",
+            "tsname": "Takaishi Takeru",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "2",
+            "ilustrators": [],
+            "effect1": "[Opponent's Turn] All of your Security Digimon get +2000 DP.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow",
+                "Luxury processing ver. Tamer Cards"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Does the effect of this Tamer stack if there are multiple copies in play in my battle area?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: Does this Tamer's effect only affect Security Digimon?",
+                    "A: Yes. It doesn't affect normal Digimon."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/18/ST3-13.png/revision/latest?cb=20201210184956",
+            "id": "ST3-13",
+            "name": "Heaven's Gate",
+            "jpname": "ヘブンズゲート",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "1",
+            "ilustrators": [
+                "MATSUMOTO EIGHT",
+                "Takase"
+            ],
+            "effect1": "[Main] 1 of your Digimon gets +3000 DP for the turn.",
+            "effect2": "[Security] All of your Digimon and Security Digimon get +5000 DP for the turn. Then add this card to its owner's hand.",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow",
+                "PB-01: Tamer's Evolution Box"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "Championship 2021 Finals Tamer's Evolution Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: If there are two copies of this card in my security stack, and both copies are activated in the same turn, do their effects stack?",
+                    "A: Yes, they do."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/26/ST3-14.png/revision/latest?cb=20201210184957",
+            "id": "ST3-14",
+            "name": "Heaven's Charm",
+            "jpname": "ヘブンズチャーム",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [
+                "p!k@ru",
+                "NAKAMURA 8"
+            ],
+            "effect1": "[Main] 1 of your opponent's Digimon gets -2000 DP for the turn.",
+            "effect2": "[Security] Add this card to its owner's hand.",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow",
+                "PB-01: Tamer's Evolution Box"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "Championship 2021 Finals Tamer's Evolution Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Can I use this card's effect to target one of my opponent's Digimon with 2000 DP or less, reduce its DP to 0, and delete it?",
+                    "A: Yes, you can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b0/ST3-15.png/revision/latest?cb=20201210184954",
+            "id": "ST3-15",
+            "name": "Holy Flame",
+            "jpname": "ホーリーフレイム",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [
+                "Takase"
+            ],
+            "effect1": "[Main] 1 of your opponent's Digimon gains <Security Attack -3> (This Digimon checks 3 fewer security cards).",
+            "effect2": "[Security] All of your opponent's Digimon gain <Security Attack -1> (This Digimon checks 1 fewer security card).",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: What happens when a Digimon has a security check number of 0 because of this card's effect and it attacks a player?",
+                    "A: That Digimon can't perform security checks, so the battle ends. Even if your opponent has no cards in their security stack, you would not win the game by attacking with that Digimon."
+                ],
+                [
+                    "Q: This card's effect causes a Digimon to gain <Security Attack -3>, giving them a security check number of 0. How many security cards could that Digimon check if it gained edned <Security Attack +1>",
+                    "A: It would still check 0 cards. In order to check 1 or more security cards, that Digimon would need to gain <Security Attack +3> or higher."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/23/ST3-16.png/revision/latest?cb=20201210184955",
+            "id": "ST3-16",
+            "name": "Seven Heavens",
+            "jpname": "セブンヘブンズ",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "7",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "effect1": "[Main] 1 of your opponent's Digimon gets -10000 DP for the turn.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "ST-3: Starter Deck Heaven's Yellow"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can I use this card's effect to target one of my opponent's Digimon with 10000 DP or less, reduce its DP to 0, and delete it?",
+                    "A: Yes, you can."
+                ]
+            ]
+        }
+    ]
+}

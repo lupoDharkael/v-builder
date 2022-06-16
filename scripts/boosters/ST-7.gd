@@ -6,14 +6,12 @@ static func register_cards():
 	CardDB.add_card(ST7_01.new())
 	CardDB.add_card(ST7_02.new())
 	CardDB.add_card(ST7_03.new())
-	CardDB.add_card(ST7_03_B.new())
 	CardDB.add_card(ST7_04.new())
 	CardDB.add_card(ST7_05.new())
 	CardDB.add_card(ST7_06.new())
 	CardDB.add_card(ST7_07.new())
 	CardDB.add_card(ST7_08.new())
 	CardDB.add_card(ST7_09.new())
-	CardDB.add_card(ST7_09_B.new())
 	CardDB.add_card(ST7_10.new())
 	CardDB.add_card(ST7_11.new())
 	CardDB.add_card(ST7_12.new())
@@ -26,9 +24,9 @@ class ST7_01 extends Card:
 		rarity = Rarity.U
 		id = "ST7-01"
 		level = 2
-		stage_level = Stage.IN_TRAINING
+		stage_level = Stage.HYBRID
 		digimon_type = "Lesser"
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When an opponent's Digimon is deleted, this Digimon gets +2000 DP for the turn."
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When an opponent's Digimon is deleted, this Digimon gets +2000 DP for the turn."
 
 class ST7_02 extends Card:
 	func _init():
@@ -39,17 +37,14 @@ class ST7_02 extends Card:
 		id = "ST7-02"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
-		digimon_type = "Reptile"
+		digimon_type = "Dinosaur"
 		power = 2000
 		inherited_effect_text = "[When Attacking] When this Digimon attacks a player, it gets +2000 DP for the turn."
 		ruling = [
-					"I attack my opponent with this Digimon. If they block it with one of their Digimon, does this Digimon's effect activate?",
-					"Yes. The effect was activated before your opponent blocked it. ''(See more in [[Attack Resolution]])''",
+					"Q: I attack my opponent with this Digimon. If they block it with one of their Digimon, does this Digimon's effect activate?",
+					"A: Yes. The effect was activated before your opponent blocked it. (See more in Attack Resolution)",
 ]
 
 class ST7_03 extends Card:
@@ -61,44 +56,16 @@ class ST7_03 extends Card:
 		id = "ST7-03"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
 		effect_text = "[Your Turn] If your opponent has a level 6 or higher Digimon in play, this Digimon can digivolve into a [Gallantmon] in your hand for a memory cost of 4, ignoring its digivolution requirements."
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When an opponent's Digimon is deleted, trigger [Draw 1]."
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When an opponent's Digimon is deleted, trigger <Draw 1> (Draw 1 card from your deck)."
 		ruling = [
-					"If your Digimon with this card as a source and an opponent’s Digimon are deleted at the same time, can you activate this card’s inherited effect?",
-					"No. Before you can activate the effect this card is moved to the trash and is no longer in the battle area, so you cannot activate the effect",
+					"Q: If your Digimon with this card as a source and an opponent’s Digimon are deleted at the same time, can you activate this card’s inherited effect?",
+					"A: No. Before you can activate the effect this card is moved to the trash and is no longer in the battle area, so you cannot activate the effect",
 ]
-
-class ST7_03_B extends Card:
-	func _init():
-		name = "Guilmon"
-		type = Type.DIGIMON
-		color = ColorGroup.RED
-		rarity = Rarity.SR
-		id = "ST7-03 (B)"
-		play_cost = 3
-		level = 3
-		stage_level = Stage.ROOKIE
-		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
-		digimon_type = "Reptile"
-		power = 2000
-		effect_text = "[Your Turn] If your opponent has a level 6 or higher Digimon in play, this Digimon can digivolve into a [Gallantmon] in your hand for a memory cost of 4, ignoring its digivolution requirements."
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When an opponent's Digimon is deleted, trigger [Draw 1]."
-		ruling = [
-					"If your Digimon with this card as a source and an opponent’s Digimon are deleted at the same time, can you activate this card’s inherited effect?",
-					"No. Before you can activate the effect this card is moved to the trash and is no longer in the battle area, so you cannot activate the effect",
-]
-		is_parallel = true
-		notes = "parallel promo"
 
 class ST7_04 extends Card:
 	func _init():
@@ -109,14 +76,11 @@ class ST7_04 extends Card:
 		id = "ST7-04"
 		play_cost = 4
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Bird"
 		power = 3000
-		effect_text = "[Blocker].\n[Your Turn] This Digimon can't attack players."
+		effect_text = "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[Your Turn] This Digimon can't attack players."
 		notes = "Piyomon"
 
 class ST7_05 extends Card:
@@ -128,17 +92,14 @@ class ST7_05 extends Card:
 		id = "ST7-05"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 2
-		digivolve_level = 2
 		digimon_type = "Dark Dragon"
 		power = 5000
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When an opponent's Digimon is deleted, gain 1 memory."
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When an opponent's Digimon is deleted, gain 1 memory."
 		ruling = [
-					"If your Digimon with this card as a source and an opponent’s Digimon are deleted at the same time, can you activate this card’s inherited effect?",
-					"No. Before you can activate the effect this card is moved to the trash and is no longer in the battle area, so you cannot activate the effect",
+					"Q: If your Digimon with this card as a source and an opponent’s Digimon are deleted at the same time, can you activate this card’s inherited effect?",
+					"A: No. Before you can activate the effect this card is moved to the trash and is no longer in the battle area, so you cannot activate the effect",
 ]
 		notes = "Growmon"
 
@@ -151,23 +112,20 @@ class ST7_06 extends Card:
 		id = "ST7-06"
 		play_cost = 6
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Dinosaur"
 		power = 5000
 		effect_text = "[Security] At the end of the battle, play this card without paying its memory cost.\n[On Play] Delete 1 of your opponent's Digimon with 4000 DP or less."
 		ruling = [
-					"When this Digimon is played due to its [Security] effect is it counted as a Security Digimon?",
-					"No. At the point this Digimon is played via this effect it is considered to be a standard Digimon",
-					"If this card is Security Checked and deleted in battle does is it still Played via its [Security] effect?",
-					"Yes. The outcome of the battle doesn’t matter, at the end of the battle the Digimon is Played",
-					"When this card is Security checked and battled, if the attacking Digimon has further security checks to make, does this Digimon get Played or do those Checks occur first? Furthermore, what is the timing for the activation of this card’s [On Play] effect?",
-					"This Digimon is Played prior to the next Security Check. The [On Play] ability also activates as soon as the Digimon is Played, prior to the next Security Check",
-					"This card is played via its [Security] effect. The attacking Digimon has DP4000 or less but has <Jamming>. Can you use this Digimon’s [On Play] effect to delete the attacking Digimon?",
-					"Yes. You may delete the attacking Digimon",
+					"Q: When this Digimon is played due to its [Security] effect is it counted as a Security Digimon?",
+					"A: No. At the point this Digimon is played via this effect it is considered to be a standard Digimon",
+					"Q: If this card is Security Checked and deleted in battle does is it still Played via its [Security] effect?",
+					"A: Yes. The outcome of the battle doesn’t matter, at the end of the battle the Digimon is Played",
+					"Q: When this card is Security checked and battled, if the attacking Digimon has further security checks to make, does this Digimon get Played or do those Checks occur first? Furthermore, what is the timing for the activation of this card’s [On Play] effect?",
+					"A: This Digimon is Played prior to the next Security Check. The [On Play] ability also activates as soon as the Digimon is Played, prior to the next Security Check",
+					"Q: This card is played via its [Security] effect. The attacking Digimon has DP4000 or less but has <Jamming>. Can you use this Digimon’s [On Play] effect to delete the attacking Digimon?",
+					"A: Yes. You may delete the attacking Digimon",
 ]
 
 class ST7_07 extends Card:
@@ -179,11 +137,8 @@ class ST7_07 extends Card:
 		id = "ST7-07"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Cyborg"
 		power = 7000
 		effect_text = "[On Play] Delete 1 of your opponent's Digimon with 5000 DP or less."
@@ -197,18 +152,15 @@ class ST7_08 extends Card:
 		id = "ST7-08"
 		play_cost = 8
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Cyborg"
 		power = 8000
 		effect_text = "[When Attacking] Delete 1 of your opponent's Digimon with 3000 DP or less."
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When an opponent's Digimon is deleted, this Digimon gains [Security Attack +1]."
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When an opponent's Digimon is deleted, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card)."
 		ruling = [
-					"A Digimon with this card as a source and the [Piercing] effect attacks an opposing Digimon and only the opposing Digimon is deleted. Does the inherited effect of this card grant the attacking Digimon [Security Attack +1] for the ensuing Security Checks granted by [Piercing]?",
-					"Yes. It does",
+					"Q: A Digimon with this card as a source and the <Piercing> effect attacks an opposing Digimon and only the opposing Digimon is deleted. Does the inherited effect of this card grant the attacking Digimon <Security Attack +1> for the ensuing Security Checks granted by <Piercing>?",
+					"A: Yes. It does",
 ]
 		notes = "MegaloGrowmon"
 
@@ -221,51 +173,20 @@ class ST7_09 extends Card:
 		id = "ST7-09"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 3
-		digivolve_level = 5
-		digimon_type = "Holy Warrior"
+		digimon_type = "Holy Warrior/Royal Knight"
 		power = 11000
-		effect_text = "[Security Attack +1]\n[When Attacking] Delete 1 of your opponent's Digimon with 4000 DP or less. If no Digimon was deleted by this effect, this Digimon gets +3000 DP for the turn."
+		effect_text = "<Security Attack +1> (This Digimon checks 1 additional security card)\n[When Attacking] Delete 1 of your opponent's Digimon with 4000 DP or less. If no Digimon was deleted by this effect, this Digimon gets +3000 DP for the turn."
 		ruling = [
-					"This card’s [When Attacking] ability reads, ‘Delete an opponent’s Digimon with DP4000 or less. If an opponent’s Digimon is not deleted by this effect,’ What does this mean?",
-					"This refers to a situation in which there are no opposing Digimon that can be deleted by this Digimon’s [When Attacking] effect, such as if your opponent does not have a Digimon with DP 4000 or less or if they only have Digimon that cannot be deleted by effect",
-					"If my opponent has a Digimon with DP 4000 or less, can I choose not to delete that Digimon to give this Digimon DP +3000?",
-					"No. If this card’s [When Attacking] effect is activated and there is an opposing Digimon with DP 4000 or less you must target that Digimon. If there is an appropriate target for the effect you may not choose to not target it.",
-					"If my opponent has two Digimon with DP 4000 or less, one which cannot be deleted by opponent’s effects and one that can, can I target the Digimon that cannot be deleted by opponent’s effects, fail to delete it, and then give this Digimon DP +3000?",
-					"Yes. You may choose any opposing Digimon with DP 4000 or less. You may deliberately choose a Digimon that cannot be deleted by opponent’s effects to force the deletion to fail.",
+					"Q: This card’s [When Attacking] ability reads, ‘Delete an opponent’s Digimon with DP4000 or less. If an opponent’s Digimon is not deleted by this effect,’ What does this mean?",
+					"A: This refers to a situation in which there are no opposing Digimon that can be deleted by this Digimon’s [When Attacking] effect, such as if your opponent does not have a Digimon with DP 4000 or less or if they only have Digimon that cannot be deleted by effect",
+					"Q: If my opponent has a Digimon with DP 4000 or less, can I choose not to delete that Digimon to give this Digimon DP +3000?",
+					"A: No. If this card’s [When Attacking] effect is activated and there is an opposing Digimon with DP 4000 or less you must target that Digimon. If there is an appropriate target for the effect you may not choose to not target it.",
+					"Q: If my opponent has two Digimon with DP 4000 or less, one which cannot be deleted by opponent’s effects and one that can, can I target the Digimon that cannot be deleted by opponent’s effects, fail to delete it, and then give this Digimon DP +3000?",
+					"A: Yes. You may choose any opposing Digimon with DP 4000 or less. You may deliberately choose a Digimon that cannot be deleted by opponent’s effects to force the deletion to fail.",
 ]
 		notes = "Dukemon"
-
-class ST7_09_B extends Card:
-	func _init():
-		name = "Gallantmon"
-		type = Type.DIGIMON
-		color = ColorGroup.RED
-		rarity = Rarity.SR
-		id = "ST7-09 (B)"
-		play_cost = 11
-		level = 6
-		stage_level = Stage.MEGA
-		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 3
-		digivolve_level = 5
-		digimon_type = "Holy Warrior"
-		power = 11000
-		effect_text = "[Security Attack +1]\n[When Attacking] Delete 1 of your opponent's Digimon with 4000 DP or less. If no Digimon was deleted by this effect, this Digimon gets +3000 DP for the turn."
-		ruling = [
-					"This card’s [When Attacking] ability reads, ‘Delete an opponent’s Digimon with DP4000 or less. If an opponent’s Digimon is not deleted by this effect,’ What does this mean?",
-					"This refers to a situation in which there are no opposing Digimon that can be deleted by this Digimon’s [When Attacking] effect, such as if your opponent does not have a Digimon with DP 4000 or less or if they only have Digimon that cannot be deleted by effect",
-					"If my opponent has a Digimon with DP 4000 or less, can I choose not to delete that Digimon to give this Digimon DP +3000?",
-					"No. If this card’s [When Attacking] effect is activated and there is an opposing Digimon with DP 4000 or less you must target that Digimon. If there is an appropriate target for the effect you may not choose to not target it.",
-					"If my opponent has two Digimon with DP 4000 or less, one which cannot be deleted by opponent’s effects and one that can, can I target the Digimon that cannot be deleted by opponent’s effects, fail to delete it, and then give this Digimon DP +3000?",
-					"Yes. You may choose any opposing Digimon with DP 4000 or less. You may deliberately choose a Digimon that cannot be deleted by opponent’s effects to force the deletion to fail.",
-]
-		is_parallel = true
-		notes = "parallel promo Dukemon"
 
 class ST7_10 extends Card:
 	func _init():
@@ -276,14 +197,11 @@ class ST7_10 extends Card:
 		id = "ST7-10"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 4
-		digivolve_level = 5
 		digimon_type = "Light Dragon"
 		power = 12000
-		effect_text = "[Security Attack +1].\n[Piercing]."
+		effect_text = "<Security Attack +1> (This Digimon checks 1 additional security card).\n<Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would)."
 
 class ST7_11 extends Card:
 	func _init():
@@ -293,11 +211,11 @@ class ST7_11 extends Card:
 		rarity = Rarity.U
 		id = "ST7-11"
 		play_cost = 1
-		effect_text = "[Main] 1 of your Digimon gets +2000 DP for the turn. Then, if the number of cards in your security stack is less than or equal to your opponent's, 1 of your Digimon gains [Security Attack +1] for the turn."
+		effect_text = "[Main] 1 of your Digimon gets +2000 DP for the turn. Then, if the number of cards in your security stack is less than or equal to your opponent's, 1 of your Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn."
 		sec_effect_text = "[Security] Add this card to its owner's hand."
 		ruling = [
-					"Upon using this card you and your opponent have the same number of Security Cards remaining, but then later in the turn your opponent’s number of Security Cards decrease, leaving you with more. Does the [Security Attack +1] granted by this card disappear at that time?",
-					"No. So long as your number of Security Cards remaining is equal or fewer than your opponent’s at the time of Use, you don’t lose the effect even if your opponent’s Security decreases later",
+					"Q: Upon using this card you and your opponent have the same number of Security Cards remaining, but then later in the turn your opponent’s number of Security Cards decrease, leaving you with more. Does the <Security Attack +1> granted by this card disappear at that time?",
+					"A: No. So long as your number of Security Cards remaining is equal or fewer than your opponent’s at the time of Use, you don’t lose the effect even if your opponent’s Security decreases later",
 ]
 		notes = "Royal Saber"
 
@@ -312,11 +230,13 @@ class ST7_12 extends Card:
 		effect_text = "[Main] Choose any number of your opponent's Digimon whose total DP adds up to 8000 or less and delete them."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
 		ruling = [
-					"The card reads, ‘Choose any number of your opponent's Digimon whose total DP adds up to 8000 or less’. What does that actually mean?",
-					"Choose any number of your opponent’s Digimon so that the total DP of those Digimon adds up to 8000 or less, such as a DP 3000 Digimon and a DP 5000 Digimon, or two DP 2000 Digimon and a DP 3000 Digimon, and then activate the effect on those Digimon",
-					"Can I deliberately choose fewer targets so that the total DP is less than 8000?",
-					"Yes. You are free to choose so long as the total DP is 8000 or less. However, you must choose at least 1 Digimon if your opponent has any Digimon with DP 8000 or less",
-					"If my opponent has BT4-066 Golemon and I include Golemon as one of the targeted Digimon my opponent’s other Digimon’s DP will be reduced by 1000 when Golemon is Deleted. Can I include that loss of DP in my calculations when selecting Digimon to target?",
-					"No. Your opponent’s Digimon’s DP will only be reduced after Golemon is Deleted when this card’s effect has finished activating. You may not choose an additional target at that point",
+					"Q: The card reads, 'Choose any number of your opponent's Digimon whose total DP adds up to 8000 or less'. What does that actually mean?",
+					"A: Choose any number of your opponent’s Digimon so that the total DP of those Digimon adds up to 8000 or less, such as a DP 3000 Digimon and a DP 5000 Digimon, or two DP 2000 Digimon and a DP 3000 Digimon, and then activate the effect on those Digimon",
+					"Q: Can I deliberately choose fewer targets so that the total DP is less than 8000?",
+					"A: Yes. You are free to choose so long as the total DP is 8000 or less. However, you must choose at least 1 Digimon if your opponent has any Digimon with DP 8000 or less",
+					"Q: If my opponent has [BT4-066 Golemon] and I include Golemon as one of the targeted Digimon my opponent’s other Digimon’s DP will be reduced by 1000 when Golemon is Deleted. Can I include that loss of DP in my calculations when selecting Digimon to target?",
+					"A: No. Your opponent’s Digimon’s DP will only be reduced after Golemon is Deleted when this card’s effect has finished activating. You may not choose an additional target at that point",
+					"Q: Can this card’s [Main] effect be stacked with \"Add 1000 to the maximum DP you can choose with DP-based deletion effects\" to make it able to delete a Digimon with 11000 DP or lower?",
+					"A: Yes.",
 ]
 

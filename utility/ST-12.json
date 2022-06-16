@@ -1,0 +1,407 @@
+{
+    "name": "ST-12: Starter Deck Jesmon",
+    "shortname": "ST-12",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/51/ST12-01-J.png/revision/latest?cb=20220415091243",
+            "id": "ST12-01",
+            "name": "Gurimon",
+            "jpname": "グリモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "effect2": "[Your Turn] While you have 2 or more Digimon in play, this Digimon gets +1000 DP.",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/db/ST12-02-J.png/revision/latest?cb=20220415091245",
+            "id": "ST12-02",
+            "name": "Candlemon",
+            "jpname": "キャンドモン",
+            "tsname": "Candmon",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "3000",
+            "attribute": "Data",
+            "type": "Flame",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/66/ST12-03-J.png/revision/latest?cb=20220415091245",
+            "id": "ST12-03",
+            "name": "Solarmon",
+            "jpname": "ソーラーモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Machine",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[All Turns] Players can't reduce play costs.",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/81/ST12-04-J.png/revision/latest?cb=20220415091246",
+            "id": "ST12-04",
+            "name": "Huckmon",
+            "jpname": "ハックモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mini Dragon",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[Your Turn] (Once Per Turn) When you play a Digimon with [Sistermon] in its name, gain 1 memory.",
+            "effect2": "[All Turns] While this Digimon has [Huckmon] in its name or [Royal Knight] in its traits, it gets +1000 DP.",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/38/ST12-05-J.png/revision/latest?cb=20220415091246",
+            "id": "ST12-05",
+            "name": "Meramon",
+            "jpname": "メラモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Flame",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "1",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/99/ST12-06-J.png/revision/latest?cb=20220415091246",
+            "id": "ST12-06",
+            "name": "BaoHuckmon",
+            "jpname": "バオハックモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[All Turns] While this Digimon has [Huckmon] in its name or [Royal Knight] in its traits, it gets +1000 DP.",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/02/ST12-07-J.png/revision/latest?cb=20220415091246",
+            "id": "ST12-07",
+            "name": "SkullMeramon",
+            "jpname": "デスメラモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "9000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Flame",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c7/ST12-08-J.png/revision/latest?cb=20220415091246",
+            "id": "ST12-08",
+            "name": "SaviorHuckmon",
+            "jpname": "セイバーハックモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] This Digimon may also attack your opponent's unsuspended Digimon for the turn.",
+            "effect2": "[When Attacking] (Once Per Turn) If this Digimon has [Royal Knight] in its traits, you may play 1 Digimon card with [Sistermon] in its name from your hand or trash without paying its memory cost.",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/de/ST12-09-J.png/revision/latest?cb=20220415091246",
+            "id": "ST12-09",
+            "name": "Volcanomon",
+            "jpname": "ボルケーモン",
+            "tsname": "Volcamon",
+            "color": [
+                "Red",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "9000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Cyborg",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "effect2": "<Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/be/ST12-10-J.png/revision/latest?cb=20220415091247",
+            "id": "ST12-10",
+            "name": "Jesmon",
+            "jpname": "ジエスモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "1200",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Holy Warrior/Royal Knight",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] <Blitz> (If your opponent has 1 or more memory, this Digimon may attack)\n[When Attacking] You may play 1 Digimon card with [Sistermon] in its name from your hand without paying its memory cost.\n[Your Turn] (Once Per Turn) When you play another Digimon by an effect, this Digimon gets +3000 DP and gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn.",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/10/ST12-11-J.png/revision/latest?cb=20220415091247",
+            "id": "ST12-11",
+            "name": "Gankoomon",
+            "jpname": "ガンクゥモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Holy Warrior/Royal Knight",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Red",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "effect1": "[When Digivolving] You may play 1 [Huckmon] or 1 Digimon card with [Sistermon] in its name in your trash without paying its memory cost.\n[Your Turn] (Once Per Turn) When one of your effects plays another Digimon, <De-Digivolve  1> on 2 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards).",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d9/ST12-12-J.png/revision/latest?cb=20220415091246",
+            "id": "ST12-12",
+            "name": "Sistermon Blanc",
+            "jpname": "シスタモン ブラン",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Puppet",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "effect1": "[On Play] By trashing 1 card in your hand, <Draw 2> (Draw 2 cards from your deck).\n[All Turns] While you have a Digimon in play with [Huckmon] in its name or [Royal Knight] in its traits, this Digimon gains <Decoy (Red/Black)> (When one of your other red or black Digimon would be deleted by an opponent's effect, you may delete this Digimon to prevent that deletion).",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ab/ST12-13-J.png/revision/latest?cb=20220415091246",
+            "id": "ST12-13",
+            "name": "Sistermon Noir",
+            "jpname": "シスタモン ノワール",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Puppet",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Huckmon] in its name or [Royal Knight] in its traits among them to your hand. Trash the rest.\n[All Turns] All of your Digimon with [Huckmon] in their names and [Royal Knight] in their traits gain <Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase).",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0b/ST12-14-J.png/revision/latest?cb=20220415091247",
+            "id": "ST12-14",
+            "name": "Aus Generics",
+            "jpname": "アウスジェネリクス",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "1",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "effect1": "[Main] 1 of your Digimon gets +2000 DP for the turn. Then, if you have a Digimon with [Huckmon] in its name or [Royal Knight] in its traits in play, gain 1 memory , and 1 of your Digimon gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) for the turn.",
+            "effect2": "[Security] Gain 1 memory, and add this card to its owner's hand.",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5a/ST12-15-J.png/revision/latest?cb=20220415091247",
+            "id": "ST12-15",
+            "name": "From Master to Disciple",
+            "jpname": "師弟の旅路",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "type": "Royal Knight",
+            "ilustrators": [
+                "Takase"
+            ],
+            "effect1": "[Main] Reveal the top 3 cards of your deck. Add 1 card with [Huckmon], or [Sistermon] in its name or [Royal Knight] in its traits among them to your hand. Trash the rest. Then, place this card in your Battle Area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・The next time one of your Digimon would digivolve this turn, reduce the digivolution cost by 1.",
+            "effect2": "[Security] Reveal the top 3 cards of your deck. Add 1 card with [Huckmon], or [Sistermon] in its name or [Royal Knight] in its traits among them to your hand. Trash the rest. Then, place this card in your battle area.",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/30/ST12-16-J.png/revision/latest?cb=20220415091247",
+            "id": "ST12-16",
+            "name": "Quake! Blast! Fire! Father!",
+            "jpname": "地神！神鳴！神馳！親父！",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "7",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "effect1": "While you have a Digimon with [Huckmon], or [Sistermon] in its name or [Royal Knight] in its traits in play, you may use this card without meeting its color requirements.\n[Main] Delete 1 of your opponent's Digimon with a play cost of 13 or less.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "ST-12: Starter Deck Jesmon"
+            ],
+            "rarity": "Rare"
+        }
+    ]
+}

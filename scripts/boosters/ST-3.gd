@@ -7,26 +7,18 @@ static func register_cards():
 	CardDB.add_card(ST3_02.new())
 	CardDB.add_card(ST3_03.new())
 	CardDB.add_card(ST3_04.new())
-	CardDB.add_card(ST3_04_B.new())
 	CardDB.add_card(ST3_05.new())
 	CardDB.add_card(ST3_05_B.new())
-	CardDB.add_card(ST3_05_C.new())
 	CardDB.add_card(ST3_06.new())
 	CardDB.add_card(ST3_07.new())
-	CardDB.add_card(ST3_07_B.new())
-	CardDB.add_card(ST3_07_C.new())
 	CardDB.add_card(ST3_08.new())
 	CardDB.add_card(ST3_08_B.new())
-	CardDB.add_card(ST3_08_C.new())
 	CardDB.add_card(ST3_09.new())
-	CardDB.add_card(ST3_09_B.new())
 	CardDB.add_card(ST3_10.new())
 	CardDB.add_card(ST3_11.new())
 	CardDB.add_card(ST3_12.new())
 	CardDB.add_card(ST3_13.new())
-	CardDB.add_card(ST3_13_B.new())
 	CardDB.add_card(ST3_14.new())
-	CardDB.add_card(ST3_14_B.new())
 	CardDB.add_card(ST3_15.new())
 	CardDB.add_card(ST3_16.new())
 
@@ -38,12 +30,12 @@ class ST3_01 extends Card:
 		rarity = Rarity.U
 		id = "ST3-01"
 		level = 2
-		stage_level = Stage.IN_TRAINING
+		stage_level = Stage.HYBRID
 		digimon_type = "Lesser"
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When an opponent's Digimon is deleted by dropping to 0 DP, this Digimon gets +1000 DP for the turn."
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When an opponent's Digimon is deleted by dropping to 0 DP, this Digimon gets +1000 DP for the turn."
 		ruling = [
-					"If the DP of an opponent's Digimon is reduced to 0 and deleted, if I have multiple Digimon with this Digimon as digivolution cards, do all of their effects activate?",
-					"Yes. Since it meets the activation conditions, they all activate.",
+					"Q: If the DP of an opponent's Digimon is reduced to 0 and deleted, if I have multiple Digimon with this Digimon as digivolution cards, do all of their effects activate?",
+					"A: Yes. Since it meets the activation conditions, they all activate.",
 ]
 
 class ST3_02 extends Card:
@@ -55,11 +47,8 @@ class ST3_02 extends Card:
 		id = "ST3-02"
 		play_cost = 2
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Mammal"
 		power = 3000
 		notes = "Plotmon"
@@ -73,11 +62,8 @@ class ST3_03 extends Card:
 		id = "ST3-03"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Holy Beast"
 		power = 2000
 
@@ -90,63 +76,33 @@ class ST3_04 extends Card:
 		id = "ST3-04"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Mammal"
 		power = 1000
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When an opponent's Digimon is deleted by dropping to 0 DP, gain 1 memory."
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When an opponent's Digimon is deleted by dropping to 0 DP, gain 1 memory."
 		ruling = [
-					"If the DP of an opponent's Digimon is reduced to 0 and deleted, if I have multiple Digimon with this Digimon as digivolution cards, do all of their effects activate?",
-					"Yes. Since it meets the activation conditions, they all activate.",
+					"Q: If the DP of an opponent's Digimon is reduced to 0 and deleted, if I have multiple Digimon with this Digimon as digivolution cards, do all of their effects activate?",
+					"A: Yes. Since it meets the activation conditions, they all activate.",
 ]
-
-class ST3_04_B extends Card:
-	func _init():
-		name = "Patamon"
-		type = Type.DIGIMON
-		color = ColorGroup.YELLOW
-		rarity = Rarity.U
-		id = "ST3-04 (B)"
-		play_cost = 3
-		level = 3
-		stage_level = Stage.ROOKIE
-		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
-		digimon_type = "Mammal"
-		power = 1000
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When an opponent's Digimon is deleted by dropping to 0 DP, gain 1 memory."
-		ruling = [
-					"If the DP of an opponent's Digimon is reduced to 0 and deleted, if I have multiple Digimon with this Digimon as digivolution cards, do all of their effects activate?",
-					"Yes. Since it meets the activation conditions, they all activate.",
-]
-		is_parallel = true
-		notes = "parallel promo"
 
 class ST3_05 extends Card:
 	func _init():
 		name = "Angemon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
-		rarity = ""
+		rarity = Rarity.U
 		id = "ST3-05"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Angel"
 		power = 4000
 		inherited_effect_text = "[When Attacking] If you have 4 or more security cards, gain 1 memory."
 		ruling = [
-					"On attack, if I have 8 cards in my security stack, does this card's inherited effect cause me to gain 2 memory?",
-					"No. If you have 4 or more cards in your security stack, you gain 1 memory. But you can only gain 1 memory from this effect.",
+					"Q: On attack, if I have 8 cards in my security stack, does this card's inherited effect cause me to gain 2 memory?",
+					"A: No. If you have 4 or more cards in your security stack, you gain 1 memory. But you can only gain 1 memory from this effect.",
 ]
 
 class ST3_05_B extends Card:
@@ -154,45 +110,18 @@ class ST3_05_B extends Card:
 		name = "Angemon"
 		type = Type.DIGIMON
 		color = ColorGroup.YELLOW
-		rarity = ""
+		rarity = Rarity.U
 		id = "ST3-05 (B)"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Angel"
 		power = 4000
 		inherited_effect_text = "[When Attacking] If you have 4 or more security cards, gain 1 memory."
 		ruling = [
-					"On attack, if I have 8 cards in my security stack, does this card's inherited effect cause me to gain 2 memory?",
-					"No. If you have 4 or more cards in your security stack, you gain 1 memory. But you can only gain 1 memory from this effect.",
-]
-		is_parallel = true
-		notes = "parallel promo"
-
-class ST3_05_C extends Card:
-	func _init():
-		name = "Angemon"
-		type = Type.DIGIMON
-		color = ColorGroup.YELLOW
-		rarity = ""
-		id = "ST3-05 (C)"
-		play_cost = 5
-		level = 4
-		stage_level = Stage.CHAMPION
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 2
-		digivolve_level = 3
-		digimon_type = "Angel"
-		power = 4000
-		inherited_effect_text = "[When Attacking] If you have 4 or more security cards, gain 1 memory."
-		ruling = [
-					"On attack, if I have 8 cards in my security stack, does this card's inherited effect cause me to gain 2 memory?",
-					"No. If you have 4 or more cards in your security stack, you gain 1 memory. But you can only gain 1 memory from this effect.",
+					"Q: On attack, if I have 8 cards in my security stack, does this card's inherited effect cause me to gain 2 memory?",
+					"A: No. If you have 4 or more cards in your security stack, you gain 1 memory. But you can only gain 1 memory from this effect.",
 ]
 		is_parallel = true
 		notes = "parallel promo"
@@ -206,11 +135,8 @@ class ST3_06 extends Card:
 		id = "ST3-06"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Holy Beast"
 		power = 5000
 		notes = "Tailmon"
@@ -224,66 +150,15 @@ class ST3_07 extends Card:
 		id = "ST3-07"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Mythical Beast"
 		power = 6000
-		effect_text = "[Blocker].\n[When Attacking] Lose 2 memory."
+		effect_text = "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[When Attacking] Lose 2 memory."
 		ruling = [
-					"Can this Digimon attack when I have less than 2 memory?",
-					"Yes, it can. Even if this Digimon's attack effect causes your memory to move to 1 or greater on your opponent's side, it doesn't become your opponent's turn until the end of the attack.",
+					"Q: Can this Digimon attack when I have less than 2 memory?",
+					"A: Yes, it can. Even if this Digimon's attack effect causes your memory to move to 1 or greater on your opponent's side, it doesn't become your opponent's turn until the end of the attack.",
 ]
-
-class ST3_07_B extends Card:
-	func _init():
-		name = "Unimon"
-		type = Type.DIGIMON
-		color = ColorGroup.YELLOW
-		rarity = Rarity.C
-		id = "ST3-07 (B)"
-		play_cost = 5
-		level = 4
-		stage_level = Stage.CHAMPION
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 2
-		digivolve_level = 3
-		digimon_type = "Mythical Beast"
-		power = 6000
-		effect_text = "[Blocker].\n[When Attacking] Lose 2 memory."
-		ruling = [
-					"Can this Digimon attack when I have less than 2 memory?",
-					"Yes, it can. Even if this Digimon's attack effect causes your memory to move to 1 or greater on your opponent's side, it doesn't become your opponent's turn until the end of the attack.",
-]
-		is_parallel = true
-		notes = "parallel promo"
-
-class ST3_07_C extends Card:
-	func _init():
-		name = "Unimon"
-		type = Type.DIGIMON
-		color = ColorGroup.YELLOW
-		rarity = Rarity.C
-		id = "ST3-07 (C)"
-		play_cost = 5
-		level = 4
-		stage_level = Stage.CHAMPION
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 2
-		digivolve_level = 3
-		digimon_type = "Mythical Beast"
-		power = 6000
-		effect_text = "[Blocker].\n[When Attacking] Lose 2 memory."
-		ruling = [
-					"Can this Digimon attack when I have less than 2 memory?",
-					"Yes, it can. Even if this Digimon's attack effect causes your memory to move to 1 or greater on your opponent's side, it doesn't become your opponent's turn until the end of the attack.",
-]
-		is_parallel = true
-		notes = "parallel promo"
 
 class ST3_08 extends Card:
 	func _init():
@@ -294,21 +169,18 @@ class ST3_08 extends Card:
 		id = "ST3-08"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Archangel"
 		power = 7000
 		inherited_effect_text = "[When Attacking] 1 of your opponent's Digimon gets -1000 DP for the turn."
 		ruling = [
-					"Can I use this card's inherited effect to target one of my opponent's Digimon with 1000 DP or less and delete it?",
-					"Yes, you can.",
-					"A Digimon with this card as a digivolution card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's inherited effect. What happens to the attack?",
-					"You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends. ''(See more in [[Attack Resolution]])''",
-					"A Digimon with this card as a digivolution card attacks an opponent's Digimon, then the opponent blocks with a Digimon that has [Blocker]. Can I use this card's inherited effect to reduce the DP of the blocking Digimon to 0 and delete it?",
-					"No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared.",
+					"Q: Can I use this card's inherited effect to target one of my opponent's Digimon with 1000 DP or less and delete it?",
+					"A: Yes, you can.",
+					"Q: A Digimon with this card as a digivolution card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's inherited effect. What happens to the attack?",
+					"A: You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends. (See more in Attack Resolution)",
+					"Q: A Digimon with this card as a digivolution card attacks an opponent's Digimon, then the opponent blocks with a Digimon that has <Blocker>. Can I use this card's inherited effect to reduce the DP of the blocking Digimon to 0 and delete it?",
+					"A: No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared.",
 ]
 		notes = "HolyAngemon"
 
@@ -321,49 +193,18 @@ class ST3_08_B extends Card:
 		id = "ST3-08 (B)"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Archangel"
 		power = 7000
 		inherited_effect_text = "[When Attacking] 1 of your opponent's Digimon gets -1000 DP for the turn."
 		ruling = [
-					"Can I use this card's inherited effect to target one of my opponent's Digimon with 1000 DP or less and delete it?",
-					"Yes, you can.",
-					"A Digimon with this card as a digivolution card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's inherited effect. What happens to the attack?",
-					"You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends. ''(See more in [[Attack Resolution]])''",
-					"A Digimon with this card as a digivolution card attacks an opponent's Digimon, then the opponent blocks with a Digimon that has [Blocker]. Can I use this card's inherited effect to reduce the DP of the blocking Digimon to 0 and delete it?",
-					"No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared.",
-]
-		is_parallel = true
-		notes = "parallel promo HolyAngemon"
-
-class ST3_08_C extends Card:
-	func _init():
-		name = "MagnaAngemon"
-		type = Type.DIGIMON
-		color = ColorGroup.YELLOW
-		rarity = Rarity.R
-		id = "ST3-08 (C)"
-		play_cost = 7
-		level = 5
-		stage_level = Stage.ULTIMATE
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 3
-		digivolve_level = 4
-		digimon_type = "Archangel"
-		power = 7000
-		inherited_effect_text = "[When Attacking] 1 of your opponent's Digimon gets -1000 DP for the turn."
-		ruling = [
-					"Can I use this card's inherited effect to target one of my opponent's Digimon with 1000 DP or less and delete it?",
-					"Yes, you can.",
-					"A Digimon with this card as a digivolution card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's inherited effect. What happens to the attack?",
-					"You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends. ''(See more in [[Attack Resolution]])''",
-					"A Digimon with this card as a digivolution card attacks an opponent's Digimon, then the opponent blocks with a Digimon that has [Blocker]. Can I use this card's inherited effect to reduce the DP of the blocking Digimon to 0 and delete it?",
-					"No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared.",
+					"Q: Can I use this card's inherited effect to target one of my opponent's Digimon with 1000 DP or less and delete it?",
+					"A: Yes, you can.",
+					"Q: A Digimon with this card as a digivolution card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's inherited effect. What happens to the attack?",
+					"A: You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends. (See more in Attack Resolution)",
+					"Q: A Digimon with this card as a digivolution card attacks an opponent's Digimon, then the opponent blocks with a Digimon that has <Blocker>. Can I use this card's inherited effect to reduce the DP of the blocking Digimon to 0 and delete it?",
+					"A: No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared.",
 ]
 		is_parallel = true
 		notes = "parallel promo HolyAngemon"
@@ -377,34 +218,15 @@ class ST3_09 extends Card:
 		id = "ST3-09"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Archangel"
 		power = 7000
-		effect_text = "[When Digivolved] If you have 3 security cards or less, trigger [Recovery +1]."
-
-class ST3_09_B extends Card:
-	func _init():
-		name = "Angewomon"
-		type = Type.DIGIMON
-		color = ColorGroup.YELLOW
-		rarity = Rarity.U
-		id = "ST3-09 (B)"
-		play_cost = 6
-		level = 5
-		stage_level = Stage.ULTIMATE
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 3
-		digivolve_level = 4
-		digimon_type = "Archangel"
-		power = 7000
-		effect_text = "[When Digivolved] If you have 3 security cards or less, trigger [Recovery +1]."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "[When Digivolving] If you have 3 security cards or less, trigger <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack)."
+		ruling = [
+					"Q: I digivolve into this card while I have 4 or more security cards. While this Digimon's [When Digivolving] effect is pending activation, one of my other effects reduces my security cards to 3 or fewer. Do I?",
+					"A: Yes, you do. This effect behaves the same way as an effect that reads \"If you have 3 or fewer security cards\", so the condition is checked when the effect would be activated.",
+]
 
 class ST3_10 extends Card:
 	func _init():
@@ -415,12 +237,9 @@ class ST3_10 extends Card:
 		id = "ST3-10"
 		play_cost = 10
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 2
-		digivolve_level = 5
-		digimon_type = "Holy Dragon"
+		digimon_type = "Holy Dragon/Four Great Dragons"
 		power = 12000
 		notes = "Holydramon"
 
@@ -433,23 +252,20 @@ class ST3_11 extends Card:
 		id = "ST3-11"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 4
-		digivolve_level = 5
-		digimon_type = "Seraph"
+		digimon_type = "Seraph/Three Great Angels"
 		power = 10000
 		effect_text = "[When Attacking] 1 of your opponent's Digimon gets -4000 DP for the turn."
 		ruling = [
-					"Can I use this card's effect to target one of my opponent's Digimon with 4000 DP or less, reduce its DP to 0, and delete it?",
-					"Yes, you can.",
-					"This card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's effect. What happens to the attack?",
-					"You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends.",
-					"This card attacks an opponent's Digimon, then my opponent blocks with a Digimon that has [Blocker]. Can I use this card's effect to reduce the DP of the blocking Digimon to 0 and delete it?",
-					"No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared.",
-					"I play [Seven Heavens] to give -10,000 DP to the opponent's rested Rosemon. Then my [Seraphimon] attacks player. Both Seraphimon and Rosemon skills trigger at the same time [When Attacking] Seraphimon -4000 DP to Rosemon, killing it. Can Rosemon still rest an opponent's Digimon?",
-					"Rosemon's condition of \"If this Digimon is at rest\" is no longer fulfilled, so Rosemon cannot rest your other Digimon.",
+					"Q: Can I use this card's effect to target one of my opponent's Digimon with 4000 DP or less, reduce its DP to 0, and delete it?",
+					"A: Yes, you can.",
+					"Q: This card attacks an opponent's Digimon, then that Digimon's DP is reduced to 0 and deleted by this card's effect. What happens to the attack?",
+					"A: You do not enter battle, then once any other [When Attacking] and [Reaction] effects resolve, the attack ends.",
+					"Q: This card attacks an opponent's Digimon, then my opponent blocks with a Digimon that has <Blocker>. Can I use this card's effect to reduce the DP of the blocking Digimon to 0 and delete it?",
+					"A: No. When Attacking effects resolve before block declaration, so you can't activate the inherited effect after a blocker has been declared.",
+					"Q: I play [ST3-16 Seven Heavens] to give -10,000 DP to the opponent's rested Rosemon. Then my [ST3-11 Seraphimon] attacks player. Both Seraphimon and Rosemon skills trigger at the same time [When Attacking] Seraphimon -4000 DP to Rosemon, killing it. Can Rosemon still rest an opponent's Digimon?",
+					"A: Rosemon's condition of \"If this Digimon is at rest\" is no longer fulfilled, so Rosemon cannot rest your other Digimon.",
 ]
 
 class ST3_12 extends Card:
@@ -460,13 +276,13 @@ class ST3_12 extends Card:
 		rarity = Rarity.R
 		id = "ST3-12"
 		play_cost = 2
-		effect_text = "[Opponent Turn] All of your Security Digimon get +2000 DP."
+		effect_text = "[Opponent's Turn] All of your Security Digimon get +2000 DP."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		ruling = [
-					"Does the effect of this Tamer stack if there are multiple copies in play in my battle area?",
-					"Yes, it does.",
-					"Does this Tamer's effect only affect Security Digimon?",
-					"Yes. It doesn't affect normal Digimon.",
+					"Q: Does the effect of this Tamer stack if there are multiple copies in play in my battle area?",
+					"A: Yes, it does.",
+					"Q: Does this Tamer's effect only affect Security Digimon?",
+					"A: Yes. It doesn't affect normal Digimon.",
 ]
 		notes = "Takaishi Takeru"
 
@@ -481,26 +297,9 @@ class ST3_13 extends Card:
 		effect_text = "[Main] 1 of your Digimon gets +3000 DP for the turn."
 		sec_effect_text = "[Security] All of your Digimon and Security Digimon get +5000 DP for the turn. Then add this card to its owner's hand."
 		ruling = [
-					"If there are two copies of this card in my security stack, and both copies are activated in the same turn, do their effects stack?",
-					"Yes, they do.",
+					"Q: If there are two copies of this card in my security stack, and both copies are activated in the same turn, do their effects stack?",
+					"A: Yes, they do.",
 ]
-
-class ST3_13_B extends Card:
-	func _init():
-		name = "Heaven's Gate"
-		type = Type.OPTION
-		color = ColorGroup.YELLOW
-		rarity = Rarity.C
-		id = "ST3-13 (B)"
-		play_cost = 1
-		effect_text = "[Main] 1 of your Digimon gets +3000 DP for the turn."
-		sec_effect_text = "[Security] All of your Digimon and Security Digimon get +5000 DP for the turn. Then add this card to its owner's hand."
-		ruling = [
-					"If there are two copies of this card in my security stack, and both copies are activated in the same turn, do their effects stack?",
-					"Yes, they do.",
-]
-		is_parallel = true
-		notes = "parallel promo"
 
 class ST3_14 extends Card:
 	func _init():
@@ -513,26 +312,9 @@ class ST3_14 extends Card:
 		effect_text = "[Main] 1 of your opponent's Digimon gets -2000 DP for the turn."
 		sec_effect_text = "[Security] Add this card to its owner's hand."
 		ruling = [
-					"Can I use this card's effect to target one of my opponent's Digimon with 2000 DP or less, reduce its DP to 0, and delete it?",
-					"Yes, you can.",
+					"Q: Can I use this card's effect to target one of my opponent's Digimon with 2000 DP or less, reduce its DP to 0, and delete it?",
+					"A: Yes, you can.",
 ]
-
-class ST3_14_B extends Card:
-	func _init():
-		name = "Heaven's Charm"
-		type = Type.OPTION
-		color = ColorGroup.YELLOW
-		rarity = Rarity.C
-		id = "ST3-14 (B)"
-		play_cost = 2
-		effect_text = "[Main] 1 of your opponent's Digimon gets -2000 DP for the turn."
-		sec_effect_text = "[Security] Add this card to its owner's hand."
-		ruling = [
-					"Can I use this card's effect to target one of my opponent's Digimon with 2000 DP or less, reduce its DP to 0, and delete it?",
-					"Yes, you can.",
-]
-		is_parallel = true
-		notes = "parallel promo"
 
 class ST3_15 extends Card:
 	func _init():
@@ -542,13 +324,13 @@ class ST3_15 extends Card:
 		rarity = Rarity.C
 		id = "ST3-15"
 		play_cost = 2
-		effect_text = "[Main] 1 of your opponent's Digimon gains [Security Attack -3]."
-		sec_effect_text = "[Security] All of your opponent's Digimon gain [Security Attack -1]."
+		effect_text = "[Main] 1 of your opponent's Digimon gains <Security Attack -3> (This Digimon checks 3 fewer security cards)."
+		sec_effect_text = "[Security] All of your opponent's Digimon gain <Security Attack -1> (This Digimon checks 1 fewer security card)."
 		ruling = [
-					"What happens when a Digimon has a security check number of 0 because of this card's effect and it attacks a player?",
-					"That Digimon can't perform security checks, so the battle ends. Even if your opponent has no cards in their security stack, you would not win the game by attacking with that Digimon.",
-					"This card's effect causes a Digimon to gain [Security Attack -3], giving them a security check number of 0. How many security cards could that Digimon check if it gained edned [Security Attack +1]",
-					"It would still check 0 cards. In order to check 1 or more security cards, that Digimon would need to gain [Security Attack +3] or higher.",
+					"Q: What happens when a Digimon has a security check number of 0 because of this card's effect and it attacks a player?",
+					"A: That Digimon can't perform security checks, so the battle ends. Even if your opponent has no cards in their security stack, you would not win the game by attacking with that Digimon.",
+					"Q: This card's effect causes a Digimon to gain <Security Attack -3>, giving them a security check number of 0. How many security cards could that Digimon check if it gained edned <Security Attack +1>",
+					"A: It would still check 0 cards. In order to check 1 or more security cards, that Digimon would need to gain <Security Attack +3> or higher.",
 ]
 
 class ST3_16 extends Card:
@@ -562,7 +344,7 @@ class ST3_16 extends Card:
 		effect_text = "[Main] 1 of your opponent's Digimon gets -10000 DP for the turn."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
 		ruling = [
-					"Can I use this card's effect to target one of my opponent's Digimon with 10000 DP or less, reduce its DP to 0, and delete it?",
-					"Yes, you can.",
+					"Q: Can I use this card's effect to target one of my opponent's Digimon with 10000 DP or less, reduce its DP to 0, and delete it?",
+					"A: Yes, you can.",
 ]
 

@@ -1,0 +1,471 @@
+{
+    "name": "ST-6: Venomous Violet",
+    "shortname": "ST-6",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0c/ST6-01.png/revision/latest?cb=20210430124233",
+            "id": "ST6-01",
+            "name": "Pagumon",
+            "jpname": "パグモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "effect2": "[On Deletion] Trash the top 2 cards of your deck.",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If this card's effect reduces the number of cards in my deck to 0, do I lose the game?",
+                    "A: No, you don't lose the game when your deck is empty. You will lose the game if your deck has 0 cards in it at your next draw phase, however."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/ST6-02.png/revision/latest?cb=20210430124234",
+            "id": "ST6-02",
+            "name": "DemiDevimon",
+            "jpname": "ピコデビモン",
+            "tsname": "PicoDevimon",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "4000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Evil",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "1",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/76/ST6-03.png/revision/latest?cb=20210430124234",
+            "id": "ST6-03",
+            "name": "Gabumon",
+            "jpname": "ガブモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Reptile",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[When Attacking] Trigger <Draw 1> (Draw 1 card from your deck). Then, trash 1 card in your hand.",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/da/ST6-04.png/revision/latest?cb=20210430124235",
+            "id": "ST6-04",
+            "name": "Dracmon",
+            "jpname": "ドラクモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Undead",
+            "ilustrators": [
+                "yuuki."
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] You may return 1 purple Option card with a memory cost of 1 or 7 from your trash to your hand.",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/ST6-05.png/revision/latest?cb=20210430124236",
+            "id": "ST6-05",
+            "name": "Elecmon",
+            "jpname": "エレキモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "5000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Mammal",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/32/ST6-06.png/revision/latest?cb=20210430124236",
+            "id": "ST6-06",
+            "name": "Garurumon",
+            "jpname": "ガルルモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Beast",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[When Attacking] Trigger <Draw 1> (Draw 1 card from your deck). Then, trash 1 card in your hand.",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/ST6-07.png/revision/latest?cb=20210430124236",
+            "id": "ST6-07",
+            "name": "Youkomon",
+            "jpname": "ヨウコモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Mysterious Beast",
+            "ilustrators": [
+                "As'Maria"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/92/ST6-08.png/revision/latest?cb=20210430124237",
+            "id": "ST6-08",
+            "name": "Devimon",
+            "jpname": "デビモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Fallen Angel",
+            "ilustrators": [
+                "Kenji Watanabe",
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "1",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n [When Attacking] Lose 2 memory.",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Online Regionals - Participation Set",
+                "Online Regionals - Finalist Set",
+                "Online Regionals - Champion Set",
+                "Judge Pack"
+            ],
+            "jpsets": [
+                "Tamer Battle Pack 9"
+            ],
+            "ruling": [
+                [
+                    "Q: Can this Digimon attack if I have less than 2 memory?",
+                    "A: Yes, it can. Even if your memory counter moves to 1 on your opponent's side due to this Digimon's [When Attacking] effect, your turn doesn't end until the attack does."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d8/ST6-09.png/revision/latest?cb=20210430124237",
+            "id": "ST6-09",
+            "name": "Kyukimon",
+            "jpname": "キュウキモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "9000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Mysterious Beast",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b4/ST6-10.png/revision/latest?cb=20210430124238",
+            "id": "ST6-10",
+            "name": "SkullSatamon",
+            "jpname": "スカルサタモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Undead",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] You may return 1 purple Digimon card from your trash to your hand.",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ab/ST6-11.png/revision/latest?cb=20210430124238",
+            "id": "ST6-11",
+            "name": "WereGarurumon",
+            "jpname": "ワーガルルモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Beastkin",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect2": "[Your Turn] While there are 5 or more cards in your trash, this Digimon gets +2000 DP.",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c8/ST6-12.png/revision/latest?cb=20210430124238",
+            "id": "ST6-12",
+            "name": "VenomMyotismon",
+            "jpname": "ヴェノムヴァンデモン",
+            "tsname": "VenomVamdemon",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "10",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Dark Animal",
+            "ilustrators": [
+                "As'Maria"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Up to 2 of your Digimon gain <Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling) until the end of your opponent's next turn.",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q:  Can I use this card's effect to give this Digimon <Retaliation>?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: I use this card to give a Digimon <Retaliation>. If that Digimon digivolves into a different Digimon, what happens to <Retaliation>?",
+                    "A: Digimon retain effects when digivolving or dedigivolving, so <Retaliation> remains."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0d/ST6-13.png/revision/latest?cb=20210430124239",
+            "id": "ST6-13",
+            "name": "CresGarurumon",
+            "jpname": "クーレスガルルモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Beast Knight",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "<Security Attack +1> (This Digimon checks 1 additional security card).\n[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・Play 1 purple level 3 Digimon card from your trash without paying its memory cost.",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: I use this card's <Digi-Burst> to trash a purple level 3 Digimon card in the Digimon with <Digi-Burst>'s digivolution cards. Can I immediately use the <Digi-Burst> effect to play that Digimon without paying its memory cost?",
+                    "A: Yes, you can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b8/ST6-14.png/revision/latest?cb=20210430125944",
+            "id": "ST6-14",
+            "name": "Matt Ishida",
+            "jpname": "石田ヤマト",
+            "tsname": "Ishida Yamato",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "2",
+            "ilustrators": [],
+            "effect1": "[Your Turn] When one of your Digimon is deleted, you may suspend this Tamer to gain 1 memory.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet",
+                "Luxury processing ver. Tamer Cards"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/62/ST6-15.png/revision/latest?cb=20210430125944",
+            "id": "ST6-15",
+            "name": "Death Claw",
+            "jpname": "デスクロウ",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Option",
+            "playcost": "1",
+            "ilustrators": [
+                "funbolt"
+            ],
+            "effect1": "[Main] You may delete 1 of your Digimon to delete 1 of your opponent's level 4 or lower Digimon.",
+            "effect2": "[Security] Delete 1 of your opponent's level 4 or lower Digimon.",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: I use this card's effect to delete one of my Digimon with a [On Deletion] effect. Can I activate the [On Deletion] effect before this card's \"delete 1 of your opponent's level 4 or lower Digimon\" effect?",
+                    "A: No. You must fully activate this card's effect, then activate the [On Deletion] effect."
+                ],
+                [
+                    "Q: Does this card's inherited effect activate if your opponent's Digimon were all deleted in battle after attacking?",
+                    "A: No, it doesn't. They attacked this turn, so the effect doesn't apply."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3c/ST6-16.png/revision/latest?cb=20210430125945",
+            "id": "ST6-16",
+            "name": "Nail Bone",
+            "jpname": "ネイルボーン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Option",
+            "playcost": "7",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "effect1": "[Main] You may play 1 purple level 3 Digimon card and 1 purple level 4 Digimon card from your trash without paying their memory costs. Any [On Play] effects on Digimon played with this effect don't activate.",
+            "effect2": "[Security] You may play 1 purple level 4 or lower Digimon card from your trash without paying its memory cost.\nAny [On Play] effects on Digimon played with this effect don't activate.",
+            "wwsets": [
+                "ST-6: Starter Deck Venomous Violet"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can I use this card's effect if I only have either a level 3 or level 4 purple Digimon card in my trash?",
+                    "A: Yes, you can. If you only have a level 3 or level 4 purple Digimon card in your trash, you can play it."
+                ],
+                [
+                    "Q: If I have both a level 3 and a level 4 in the trash, can I choose to play only one of them?",
+                    "A: Yes, you can. If you have both a level 3 and a level 4 in the trash, you may play only one of them."
+                ],
+                [
+                    "Q: I use this card's [Main] effect to play 2 Digimon. Do I get to trigger \"When you play a Digimon\" twice?",
+                    "A: No, you only trigger that effect once."
+                ]
+            ]
+        }
+    ]
+}

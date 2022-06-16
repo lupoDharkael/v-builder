@@ -1,0 +1,455 @@
+{
+    "name": "ST-13: Starter Deck RagnaLoardmon",
+    "shortname": "ST-13",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b2/ST13-01-J.png/revision/latest?cb=20220415091247",
+            "id": "ST13-01",
+            "name": "Sakuttomon",
+            "jpname": "サクットモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digi-Egg",
+            "type": "Weapon",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "effect2": "[Your Turn] (Once Per Turn) When you play another Digimon with [Legend-Arms] in its traits by an effect, gain 1 memory.",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4c/ST13-02-J.png/revision/latest?cb=20220415091247",
+            "id": "ST13-02",
+            "name": "Zubamon",
+            "jpname": "ズバモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Weapon/Legend-Arms",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Black",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect1": "[On Play] By placing this Digimon under 1 of your other Digimon that's black or has [Legend-Arms] in its traits as its bottom digivolution card, you may reveal the top card of your deck. If that card is a Digimon card with [Legend-Arms] in its traits and a play cost of 7 or less, you may play it without paying its memory cost. Add the rest to your hand.",
+            "effect2": "[When Attacking] If you have a Digimon that's black or has [Legend-Arms] in its traits in play, delete 1 of your opponent's Digimon with 3000 DP or less.",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/32/ST13-03-J.png/revision/latest?cb=20220415091247",
+            "id": "ST13-03",
+            "name": "ZubaEagermon",
+            "jpname": "ズバイガーモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Weapon/Legend-Arms",
+            "ilustrators": [
+                "tessy"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Black",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect1": "[On Play] By placing this Digimon under 1 of your other Digimon that's black or has [Legend-Arms] in its traits as its bottom digivolution card, detele 1 of your opponent's Digimon with 5000 DP or less.",
+            "effect2": "[When Attacking] If you have a Digimon that's black or has [Legend-Arms] in its traits in play, detele 1 of your opponent's Digimon with 3000 DP or less.",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d5/ST13-04-J.png/revision/latest?cb=20220415091247",
+            "id": "ST13-04",
+            "name": "Duramon",
+            "jpname": "デュラモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Weapon/Legend-Arms",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "evocolor2": "Black",
+            "evolevel2": "4",
+            "evocost2": "3",
+            "effect1": "[Your Turn] When this Digimon would digivolve into a card in your hand that's black or has [Legend-Arms] in its traits, reduce the digivolution cost by 1.",
+            "effect2": "[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve cost.",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c3/ST13-05-J.png/revision/latest?cb=20220415091247",
+            "id": "ST13-05",
+            "name": "Durandamon",
+            "jpname": "デュランダモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Holy Sword/Legend-Arms",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Black",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "effect1": "[Your Turn] (Once Per Turn) When one of your effects places a digivolution card under this Digimon, this Digimon gets +3000 DP and gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn.\n[When Attacking] Reveal the top 3 cards of your deck. You may play 1 Digimon card with [Legend-Arms] in its traits and a play cost of 7 or less among them without paying its memory cost. Place the rest at the bottom of your deck in any order.",
+            "effect2": "[Your Turn] While this Digimon is [RagnaLoardmon], it doesn't activate [Security] effects on Option cards it checks.",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/df/ST13-06-J.png/revision/latest?cb=20220415091247",
+            "id": "ST13-06",
+            "name": "RagnaLoardmon",
+            "jpname": "ラグナロードモン",
+            "color": [
+                "Red",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "15",
+            "dp": "15000",
+            "level": "7",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Unique/Legend-Arms",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "6",
+            "evocolor2": "Black",
+            "evolevel2": "5",
+            "evocost2": "6",
+            "effect1": "[When Digivolving] <Blitz> (If your opponent has 1 or more memory, this Digimon may attack).\nWhen  DNA digivolving, for every 4 cards in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with a play cost of 20 or less and trash the top card of your opponent's security stack.\n[All Turns] (Once Per Turn) When a card is removed from a player's security stack, unsuspend this Digimon.",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fe/ST13-07-J.png/revision/latest?cb=20220415091247",
+            "id": "ST13-07",
+            "name": "Kotemon",
+            "jpname": "コテモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "",
+            "playcost": "2",
+            "dp": "3000",
+            "attribute": "Data",
+            "type": "Reptile",
+            "ilustrators": [
+                "koki"
+            ],
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/47/ST13-08-J.png/revision/latest?cb=20220415091247",
+            "id": "ST13-08",
+            "name": "Chikurimon",
+            "jpname": "チクリモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Mine",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[All Turns] Players can't reduce play costs.",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/94/ST13-09-J.png/revision/latest?cb=20220415091248",
+            "id": "ST13-09",
+            "name": "Ludomon",
+            "jpname": "ルドモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Weapon/Legend-Arms",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Red",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect1": "[On Play] By placing this Digimon under 1 of your other Digimon that's red or has [Legend-Arms] in its traits as its bottom digivolution card, you may reveal the top card of your deck. If that card is a Digimon card with [Legend-Arms] in its traits and a play cost of 7 or less, you may play it without paying its memory cost. Add the rest to your hand.",
+            "effect2": "[Opponent's Turn] While you have a Digimon that's red or has [Legend-Arms] in its traits in play, this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d5/ST13-10-J.png/revision/latest?cb=20220415091247",
+            "id": "ST13-10",
+            "name": "Gladimon",
+            "jpname": "グラディモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Warrior",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "1",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/14/ST13-11-J.png/revision/latest?cb=20220415091248",
+            "id": "ST13-11",
+            "name": "TiaLudomon",
+            "jpname": "ティアルドモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Armor/Legend-Arms",
+            "ilustrators": [
+                "tessy"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Red",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect1": "[On Play] By placing this Digimon under 1 of your other Digimon that's red or has [Legend-Arms] in its traits as its bottom digivolution card, 1 of your Digimon gains <Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase) until the end of your opponent's next turn.",
+            "effect2": "[Opponent's Turn] While you have a Digimon that's red or has [Legend-Arms] in its traits in play, this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/37/ST13-12-J.png/revision/latest?cb=20220415091248",
+            "id": "ST13-12",
+            "name": "Knightmon",
+            "jpname": "ナイトモン",
+            "color": [
+                "Black",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Warrior",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "evocolor2": "Red",
+            "evolevel2": "4",
+            "evocost2": "3",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/56/ST13-13-J.png/revision/latest?cb=20220415091248",
+            "id": "ST13-13",
+            "name": "RaijiLudomon",
+            "jpname": "ライジルドモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Armor/Legend-Arms",
+            "ilustrators": [],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "evocolor2": "Red",
+            "evolevel2": "4",
+            "evocost2": "3",
+            "effect1": "[Opponent's Turn] This Digimon can't be deleted by your opponent's effects.",
+            "effect2": "[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve cost.",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c6/ST13-14-J.png/revision/latest?cb=20220415091248",
+            "id": "ST13-14",
+            "name": "BryweLudramon",
+            "jpname": "ブリウエルドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Armor/Legend-Arms",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Red",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "[Your Turn] (Once Per Turn)  When one of your effects places a digivolution card under this Digimon, your opponent's effects can't delete this Digimon or return it to its owner's hand or deck until the end of your opponent's turn.\n[When Digivolving] Reveal the top 3 cards of your deck. You may play 1 Digimon card with [Legend-Arms] in its traits and a play cost of 7 or less among them without paying its memory cost. Place the rest at the bottom of your deck in any order.",
+            "effect2": "[Opponent's Turn] While this Digimon is [RagnaLoardmon], it isn't affected by the effects of your opponent's Digimon.",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: If this Digimon is underneath a suspended [RagnaLoardmon] and is targeted for the effect of [BT3-057 MegaGargomon], does this card unsuspend during the next unsuspend Phase?",
+                    "A: No, even though the Digimon is unaffected by the effects they have been applied and during your unsuspend phase it is no longer unaffected by your opponent's Digimon effects."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ad/ST13-15-J.png/revision/latest?cb=20220415091248",
+            "id": "ST13-15",
+            "name": "Direct Smasher",
+            "jpname": "ディレクトスマッシャー",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "7",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "effect1": "While you have a Digimon with [Legend-Arms] in its traits in play, you may use this card without meeting its color requirements.\n[Main] Delete 1 of your opponent's Digimon with the highest DP.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5c/ST13-16-J.png/revision/latest?cb=20220415091248",
+            "id": "ST13-16",
+            "name": "Legend-Arms Alliance",
+            "jpname": "矛盾共闘",
+            "tsname": "Contradictory Coalition",
+            "color": [
+                "Black",
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "4",
+            "type": "Legend-Arms",
+            "ilustrators": [
+                "Takase"
+            ],
+            "effect1": "[Main] You may play 1 Digimon card with [Legend-Arms] in its traits and a play cost of 7 or less in your hand without paying its memory cost. Then, place this card in your Battle Area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Reveal the top 4 cards of your deck. Place those cards on the top or bottom of your deck in any order.",
+            "effect2": "[Security] You may play 1 Digimon card with [Legend-Arms] in its traits and a play cost of 7 or less in your hand without paying its memory cost. Then, place this card in your battle area.",
+            "wwsets": [
+                "ST-13: Starter Deck RagnaLoardmon"
+            ],
+            "rarity": "Common"
+        }
+    ]
+}

@@ -24,7 +24,7 @@ def get_register_cards_gds_code(booster_data : dict) -> str:
     res += '\n	CardDB.register_booster("{0}", "{1}")\n'.format(booster_data['shortname'], booster_data['name'])
 
     for card_data in booster_data['cards']:
-        class_name = card_data['setnumber'].replace('-', '_')
+        class_name = card_data['id'].replace('-', '_')
         res += '	CardDB.add_card({0}.new())\n'.format(class_name)
         
         set_count = get_set_count(card_data)
@@ -40,7 +40,7 @@ def get_register_cards_gds_code(booster_data : dict) -> str:
 
 def get_color_str(color : str) -> str:
     res = '""'
-    color = color.lower()
+    color = color[0].lower() # TO DO list
     if color == 'red':
         res = 'ColorGroup.RED'
     elif color == 'blue':
@@ -61,17 +61,17 @@ def get_color_str(color : str) -> str:
 def get_rarity_str(card_data : dict) -> str:
     res = '""'
     rarity = card_data['rarity']
-    if rarity == 'C':
+    if rarity == 'Common':
         res = 'Rarity.C'
-    elif rarity == 'U':
+    elif rarity == 'Uncommon':
         res = 'Rarity.U'
-    elif rarity == 'R':
+    elif rarity == 'Rare':
         res = 'Rarity.R'
-    elif rarity == 'SR':
+    elif rarity == 'Super Rare':
         res = 'Rarity.SR'
-    elif rarity == 'P':
+    elif rarity == 'Promo':
         res = 'Rarity.P'
-    elif rarity == 'SEC':
+    elif rarity == 'Secret Rare':
         res = 'Rarity.SEC'
     return res
 
@@ -114,7 +114,7 @@ def get_stage_level_str(card_data : dict) -> str:
     elif stage == '7':
         res = 'Stage.MEGA'
     else:
-        print(card_data['setnumber'], "Card without stage detected!")
+        print(card_data['id'], "Card without stage detected!")
     return res
 
 
@@ -130,68 +130,13 @@ def get_card_type_str(card_data : dict) -> str:
     return res
 
 
-regex_replaces = {
-    'DNADigivolve': lambda x: r'<DNA Digivolve: [\3] + [\4]: [\2]>',
-    'DigivolveFrom': lambda x: r'Digivolve from [\3] for [\2] cost',
-    'ArmorPurge': lambda x: r'[Armor Release]',
-    'DigivolveName': lambda x: r'Digivolve from [\3] for [\2] cost',
-    'StartYourMain': lambda x: r'[Start of Your Main Phase]',
-    'ToCard': lambda x: r'[\3]',
-    'Archetype': lambda x: r'[\2]',
-    'Advance': lambda x: r'[Advance]',
-    'Block': lambda x: r'[Blocker]',
-    'Decoy': lambda x: r'[Decoy]',
-    'Pierce': lambda x: r'[Piercing]',
-    'EffectLink': lambda x: r'[\2]',
-    'EffectLinkForm': lambda x: r'[\2]',
-    'EffectLinkTrait': lambda x: r'[\2]',
-    'EffectLinkTraits': lambda x: r'[\2]', # TODO
-    'EffectLinkName': lambda x: r'[\2]',
-    'EffectLinkAttribute': lambda x: r'[\2]',
-    'EffectLinkForms': lambda x: r'[\2]',
-    'EffectLinkType': lambda x: r'[\2]',
-    'EffectLinkTypes': lambda x: r', '.join([i for i in x.groups() if i is not None][1:]),
-    'EffectLinkNames': lambda x: r', '.join([i for i in x.groups() if i is not None][1:]),
-    'SecurityAttackPlus': lambda x: r'[Security Attack +\2]' if x.group(2) else r'[Security Attack +1]',
-    'SecurityAttackMinus': lambda x: r'[Security Attack -\2]' if x.group(2) else r'[Security Attack -1]',
-    'Once': lambda x: r'[Twice Per Turn]' if x.group(2) == '2' else r'[Once Per Turn]',
-    'Jamming': lambda x: r'[Jamming]',
-    'MainTiming': lambda x: r'[Main]',
-    'OnPlay': lambda x: r'[On Play]',
-    'Security': lambda x: r'[Security]',
-    'Retaliation': lambda x: r'[Retaliation]',
-    'WhenAttacking': lambda x: r'[When Attacking]',
-    'WhenDigivolve': lambda x: r'[When Digivolved]',
-    'Draw': lambda x: r'[Draw \2]',
-    'OnDelete': lambda x: r'[On Deletion]',
-    'YourTurn': lambda x: r'[Your Turn]',
-    'AllTurns': lambda x: r'[All Turns]',
-    'Digiburst': lambda x: r'[Digiburst \2]' if x.group(2) and x.group(2) != '|nocategory' and x.group(2) != '|support' else r'[Digiburst]',
-    'DigiburstUpto': lambda x: r'[DigiburstUpto \2]',
-    'DeDigivolve': lambda x: r'[De-Digivolve \2]' if x.group(2) and not x.group(3) == 'nocategory' else r'[De-Digivolve]',
-    'Digisorption': lambda x: r'[Digisorption -\2]' if x.group(2) and x.group(2) != '|nocategory' and x.group(2) != '|support' else r'[Digisorption]',
-    'Recover': lambda x: r'[Recovery +\2]' if x.group(2) else r'[Recovery +1]',
-    'OppTurn': lambda x: r'[Opponent Turn]',
-    'Reboot': lambda x: r'[Reboot]',
-    'Delay': lambda x: r'[Delay]',
-    'Rush': lambda x: r'[Rush]',
-    'Blitz': lambda x: r'[Blitz]',
-    'EndOfAttack': lambda x: r'[End of Attack]',
-    'StartYourTurn': lambda x: r'[Start of Your Turn]',
-    'DiaboromonToken': lambda x: r'[Diaboromon] Token',
-    'EndOppTurn': lambda x: r"[End of Opponent's Turn]",
-    'EndYourTurn': lambda x: r"[End of Your Turn]",
-    'EndAllTurn': lambda x: r"[End of All Turns]",
-}
-
-def normalize_card_terms(string):
-    pattern = re.compile(r"{{(.+?)(?:\|(.+?))?(?:\|(.+?))?(?:\|(.+?))?}}")
-    return pattern.sub(lambda x: [print("-------", x.groups()), x.expand(regex_replaces[x.group(1)](x))][1], string)
+def norm_eff(effect_text):
+    return effect_text.replace('"', '\\"').replace("\n", "\\n")
 
 
 def get_card_gds_code(card_data : dict) -> str:
     global error_context
-    error_context = card_data['setnumber']
+    error_context = card_data['id']
 
     is_tama = bool(card_data['cardtype'] == 'Digi-Egg')
     is_digimon = bool(card_data['cardtype'] == 'Digimon')
@@ -204,7 +149,7 @@ def get_card_gds_code(card_data : dict) -> str:
 
     template += '		name = "{0}"\n'.format(card_data['name'])
     template += '		type = {0}\n'.format(get_card_type_str(card_data))
-    template += '		color = {0}\n'.format(get_color_str(card_data['colour']))
+    template += '		color = {0}\n'.format(get_color_str(card_data['color']))
     template += '		rarity = {0}\n'.format(get_rarity_str(card_data))
     template += '		id = "{1}"\n'
 
@@ -221,34 +166,35 @@ def get_card_gds_code(card_data : dict) -> str:
     if is_digimon:
         template += '		attribute = {0}\n'.format(get_attribute_str(card_data))
     if is_digimon and 'evocost' in card_data:
-        template += '		digivolve_color = {0}\n'.format(get_color_str(card_data['evocol']))
+        template += '		digivolve_color = {0}\n'.format(get_color_str(card_data['evocolor1']))
         template += '		digivolve_cost = {0}\n'.format(card_data['evocost'])
-        template += '		digivolve_level = {0}\n'.format(card_data['evolvl'])
+        template += '		digivolve_level = {0}\n'.format(card_data['evolevel1'])
     if is_digimon and 'evocost2' in card_data and card_data['evocost2'] != '-':
-        template += '		digivolve_color_2 = {0}\n'.format(get_color_str(card_data['evocol2']))
+        template += '		digivolve_color_2 = {0}\n'.format(get_color_str(card_data['evocolor2']))
         template += '		digivolve_cost_2 = {0}\n'.format(card_data['evocost2'])
-        template += '		digivolve_level_2 = {0}\n'.format(card_data['evolvl2'])
+        template += '		digivolve_level_2 = {0}\n'.format(card_data['evolevel2'])
     if is_digimon or is_tama:
         template += '		digimon_type = "{0}"\n'.format(card_data['type'])
     if is_digimon:
         template += '		power = {0}\n'.format(card_data['dp'])
-    if 'effect' in card_data:
-        template += '		effect_text = "{0}"\n'.format(normalize_card_terms(card_data['effect']))
-    if 'inheriteff' in card_data:
+    if 'effect1' in card_data:
+        template += '		effect_text = "{0}"\n'.format(norm_eff(card_data['effect1']))
+    if 'effect2' in card_data:
         if is_digimon or is_tama:
-            template += '		inherited_effect_text = "{0}"\n'.format(normalize_card_terms(card_data['inheriteff']))
+            template += '		inherited_effect_text = "{0}"\n'.format(norm_eff(card_data['effect2']))
         else:
-            template += '		sec_effect_text = "{0}"\n'.format(normalize_card_terms(card_data['inheriteff']))
+            template += '		sec_effect_text = "{0}"\n'.format(norm_eff(card_data['effect2']))
     
     if 'ruling' in card_data:
         ruling_str = '		ruling = [\n'
         for r in card_data['ruling']:
-            ruling_str += '					"' + r + '",\n'
+            ruling_str += '					"' + norm_eff(r[0]) + '",\n'
+            ruling_str += '					"' + norm_eff(r[1]) + '",\n'
         ruling_str += ']\n'
-        ruling_str = normalize_card_terms(ruling_str)
+        ruling_str = ruling_str
         template += ruling_str
     
-    card_id = card_data['setnumber'] # BT1-005
+    card_id = card_data['id'] # BT1-005
     class_name = card_id.replace('-', '_') # BT1_005
     res = template.format(class_name, card_id)
     if 'tsname' in card_data:

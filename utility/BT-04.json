@@ -1,0 +1,3891 @@
+{
+    "name": "BT-04: Great Legend",
+    "shortname": "BT-04",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/50/BT4-001.png/revision/latest?cb=20210430124156",
+            "id": "BT4-001",
+            "name": "Sakuttomon",
+            "jpname": "サクットモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Weapon",
+            "ilustrators": [
+                "Takase"
+            ],
+            "effect2": "[When Attacking] (Once Per Turn) If this Digimon is level 7, gain 1 memory.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/dd/BT4-002.png/revision/latest?cb=20210430124158",
+            "id": "BT4-002",
+            "name": "Bukamon",
+            "jpname": "プカモン",
+            "tsname": "Pukamon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "shosuke"
+            ],
+            "effect2": "[When Attacking] Trash the bottom digivolution card of 1 of your opponent's level 4 or lower Digimon.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/24/BT4-003.png/revision/latest?cb=20210430124159",
+            "id": "BT4-003",
+            "name": "Koromon",
+            "jpname": "コロモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "yuuki."
+            ],
+            "effect2": "[When Attacking] (Once Per Turn) If you have 3 or fewer security cards, 1 of your opponent's Digimon gets -1000 DP for the turn.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/88/BT4-004.png/revision/latest?cb=20210430124159",
+            "id": "BT4-004",
+            "name": "Budmon",
+            "jpname": "バドモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Vegetation",
+            "ilustrators": [
+                "yuuki."
+            ],
+            "effect2": "[Your Turn] While this Digimon has <Digi-Burst>, it gets +1000 DP.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: When this card is in the digivolution cards of a Digimon with <Digi-Burst> with the timing of [On Play], [When Digivolving] or other timings, does this card’s inherited effect not activate outside those timings?",
+                    "A: No, this card’s inherited effect activates even outside the respective <Digi-Burst> activation timings."
+                ],
+                [
+                    "Q: When this card is a digivolution card of a Digimon that has <Digi-Burst>, but that Digimon does not have the required number of digivolution cards to activate its <Digi-Burst>, does this effect not activate?",
+                    "A: This card's inherited effect is applied even if the Digimon doesn't have enough digivolution cards to activate <Digi-Burst>."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/81/BT4-005.png/revision/latest?cb=20210430124200",
+            "id": "BT4-005",
+            "name": "Missimon",
+            "jpname": "ミサイモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Machine",
+            "ilustrators": [
+                "Sanosuke Sakuma",
+                "Kirita"
+            ],
+            "effect2": "[Your Turn] While this Digimon has [D-Brigade] in its type, it gets +1000 DP.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack",
+                "Event Pack",
+                "Championship 2021 Finals - Event Pack Alt-Art Gold Stamp Set",
+                "Digimon Card Game Fest - Digi-Egg Set"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ce/BT4-006.png/revision/latest?cb=20210430124200",
+            "id": "BT4-006",
+            "name": "Xiaomon",
+            "jpname": "シャオモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "Sanosuke Sakuma"
+            ],
+            "effect2": "[Your Turn] While there are 10 or more cards in your trash, this Digimon gains <Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling).",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack",
+                "Digimon Card Game Fest - Digi-Egg Set"
+            ],
+            "ruling": [
+                [
+                    "Q: When I have 9 cards in Trash, and my Digimon with this card as a digivolution card is deleted. That Digimon along with this card as a digivolution card was then sent to Trash due to being deleted, giving me 10 or more Trash. Does this card's <Retaliation> activate?",
+                    "A: No, this card did not have <Retaliation> at the time of being deleted."
+                ],
+                [
+                    "Q: I have 10 or more cards in my trash and a Digimon with this card as a digivolution card is deleted in battle. Before this card's effect has a chance to activate, another effect activates and reduces the number of cards in my trash to 9 or less. Does this card's <Retaliation> activate?",
+                    "A: Yes, the Digimon that was deleted has <Retaliation> at the time of deletion. As long as the Digimon is still in the trash it can be activated."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/41/BT4-007.png/revision/latest?cb=20210430124201",
+            "id": "BT4-007",
+            "name": "Otamamon",
+            "jpname": "オタマモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "5000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Amphibian",
+            "ilustrators": [
+                "Kirita"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/60/BT4-008.png/revision/latest?cb=20210430124201",
+            "id": "BT4-008",
+            "name": "Agumon",
+            "jpname": "アグモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "tessy"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[Your Turn] When this card is trashed due to activating this Digimon's <Digi-Burst>, return this card to its owner's hand.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If this card is a digivolution card and is trashed by <Digi-Burst>, when does this card return to hand: before or after the additional effect activates?",
+                    "A: After <Digi-Burst> activates. It is triggered after the whole <Digi-Burst> effect is resolved."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a5/BT4-009.png/revision/latest?cb=20210430124202",
+            "id": "BT4-009",
+            "name": "Flamemon",
+            "jpname": "フレイモン",
+            "tsname": "Flamon",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Hybrid",
+            "attribute": "Variable",
+            "type": "Wizard",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Hybrid] in its form and 1 red Tamer card among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: This card's effect reveals a Digimon card with [Hybrid] and a red Tamer card from my deck. Can I add both cards to my hand?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: This card's effect reveals a Digimon card with [Hybrid] and a red Tamer card from my deck. Can I add only 1 of the cards to my hand?",
+                    "A: No, you must add both cards to your hand. This card's Japanese text does not specify \"or\" in its card text."
+                ],
+                [
+                    "Q: If the cards I reveal from my deck include only either [Hybrid] or a red Tamer card, can I add a card to my hand?",
+                    "A: Yes, if you only reveal one or the other, you add that card to your hand."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4a/BT4-010.png/revision/latest?cb=20210430124202",
+            "id": "BT4-010",
+            "name": "Fugamon",
+            "jpname": "フーガモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Demon",
+            "ilustrators": [
+                "koki",
+                "shosuke"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "1",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "ST-11: Starter Deck Special Entry Deck"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bf/BT4-011.png/revision/latest?cb=20210430124203",
+            "id": "BT4-011",
+            "name": "Agunimon",
+            "jpname": "アグニモン",
+            "tsname": "Agnimon",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Hybrid",
+            "attribute": "Variable",
+            "type": "Wizard",
+            "ilustrators": [
+                "sasasi",
+                "As'Maria",
+                "Nakano Haito"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "You may digivolve this card from your hand onto one of your red Tamers as if the Tamer is a level 3 red Digimon.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend",
+                "PB-06: Tamer's Evolution Box 2"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: When this card has a Tamer card as a digivolution card, does that Tamer Card's [Security] effect become this card’s inherited effect?",
+                    "A: No, the Tamer card's [Security] effect does not become an inherited effect."
+                ],
+                [
+                    "Q: Can this card digivolve from a LV3 Digimon if the requirements are fulfilled instead of a Tamer Card?",
+                    "A: Yes you can."
+                ],
+                [
+                    "Q: If I use this card's effect to make a tamer card into a digivolution card, is that card affected by effects that say \"trash digivolution cards\"?",
+                    "A: Yes, it is. However, if the effect specifies Digimon cards, Digi-Egg cards, or any other type of card that isn't a tamer card, it can't be targeted by that effect."
+                ],
+                [
+                    "Q: When I digivolve a Tamer card into this card, do I draw a card from the digivolution bonus?",
+                    "A: Yes, you draw a card from the digivolution Bonus even when digivolving from a Tamer."
+                ],
+                [
+                    "Q: Can I attack with this card on the turn its digivolved from a Tamer?",
+                    "A: Yes, as digivolving is not Playing, it can attack."
+                ],
+                [
+                    "Q: Can I attack with this card after digivolving from a Tamer that was Played on the same turn?",
+                    "A: No, even though it digivolved from a Tamer, the restriction of being unable to attack the turn it is played still applies."
+                ],
+                [
+                    "Q: When this Digimon is deleted while having a Tamer card as a digivolution card, what happens to that Tamer card?",
+                    "A: It is trashed."
+                ],
+                [
+                    "Q: If I digivolve my dual-coloured Red-Green Tamer into this card, can I use the effect of [BT3-103 Hidden Potential Discovered!]?",
+                    "A: No, this card's effect treats the tamer as a pure Red Digimon, so it is not counted as green."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/53/BT4-012.png/revision/latest?cb=20210430124204",
+            "id": "BT4-012",
+            "name": "GeoGreymon",
+            "jpname": "ジオグレイモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "tessy"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・Delete 1 of your opponent's Digimon with 4000 DP or less.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8e/BT4-013.png/revision/latest?cb=20210416140037",
+            "id": "BT4-013",
+            "name": "BurningGreymon",
+            "jpname": "ヴリトラモン",
+            "tsname": "Vritramon",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "6000",
+            "level": "4",
+            "form": "Hybrid",
+            "attribute": "Variable",
+            "type": "Dark Dragon",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "effect1": "You may digivolve this card from your hand onto one of your red Tamers as if the Tamer is a level 3 red Digimon.\n[Your Turn] This Digimon gets +3000 DP.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: When this card has a Tamer card as a digivolution card, does that Tamer Card's [Security] effect become this card’s inherited effect?",
+                    "A: No, the Tamer card's [Security] effect does not become an inherited effect."
+                ],
+                [
+                    "Q: Can this card digivolve from aLV3 Digimon if the requirements are fulfilled instead of a Tamer Card?",
+                    "A: Yes you can."
+                ],
+                [
+                    "Q: If I use this card's effect to make a tamer card into a digivolution card, is that card affected by effects that say \"trash digivolution cards\"?",
+                    "A: Yes, it is. However, if the effect specifies Digimon cards, Digi-Egg cards, or any other type of card that isn't a tamer card, it can't be targeted by that effect."
+                ],
+                [
+                    "Q: When I digivolve a Tamer card into this card, do I draw a card from the digivolution bonus?",
+                    "A: Yes, you draw a card from the digivolution Bonus even when digivolving from a Tamer."
+                ],
+                [
+                    "Q: Can I attack with this card on the turn its digivolved from a Tamer?",
+                    "A: Yes, as digivolving is not Playing, it can attack."
+                ],
+                [
+                    "Q: Can I attack with this card after digivolving from a Tamer that was Played on the same turn?",
+                    "A: No, even though it digivolved from a Tamer, the restriction of being unable to attack the turn it is played still applies."
+                ],
+                [
+                    "Q: When this Digimon is deleted while having a Tamer card as a digivolution card, what happens to that Tamer card?",
+                    "A: It is trashed."
+                ],
+                [
+                    "Q: Does this card have [Greymon] in its name?",
+                    "A: No. This card's Japanese name (ヴリトラモン) does not have \"Greymon\" (グレイモン) in its name."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/22/BT4-014.png/revision/latest?cb=20210430124204",
+            "id": "BT4-014",
+            "name": "Vermilimon",
+            "jpname": "ヴァーミリモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Ankylosaur",
+            "ilustrators": [
+                "KISUKE"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cb/BT4-015.png/revision/latest?cb=20210430124205",
+            "id": "BT4-015",
+            "name": "Volcdramon",
+            "jpname": "ヴォルクドラモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Dragon",
+            "ilustrators": [
+                "Kazumasa Yasukuni",
+                "Nakano Haito"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect2": "<Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "ST-11: Starter Deck Special Entry Deck"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/55/BT4-016.png/revision/latest?cb=20210430124205",
+            "id": "BT4-016",
+            "name": "Aldamon",
+            "jpname": "アルダモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "7000",
+            "level": "5",
+            "form": "Hybrid",
+            "attribute": "Variable",
+            "type": "Wizard",
+            "ilustrators": [
+                "sasasi",
+                "Nakano Haito"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "<Security Attack +1> (This Digimon checks 1 additional security card).\n[Your Turn] While this Digimon's digivolution cards include a Digimon card with [Hybrid] in its form or a red Tamer card, it gets +4000 DP.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Super Rare",
+            "engsets": [
+                "1-Year Anniversary Promo Pack"
+            ],
+            "jpsets": [
+                "1st year Anniversary BT-06 Special Box Topper"
+            ],
+            "ruling": [
+                [
+                    "Q: When this Digimon has both a Hybrid form Digimon card and a Red Tamer card in its digivolution cards, does it get +8000 DP?",
+                    "A: No, even you have have both a Hybrid form Digimon card and a Red Tamer card in its digivolution cards, it only gets +4000 DP."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/df/BT4-017.png/revision/latest?cb=20210430124206",
+            "id": "BT4-017",
+            "name": "RizeGreymon",
+            "jpname": "ライズグレイモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Tonamikanji",
+                "As'Maria"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "evocolor2": "Yellow",
+            "evolevel2": "4",
+            "evocost2": "3",
+            "effect1": "[Your Turn] This Digimon is also treated as yellow.\n[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・You may play a red or yellow Tamer card with a play cost of 4 or less from your hand without paying its memory cost.",
+            "effect2": "[When Attacking] If you have a Tamer in play, 1 of your opponent's Digimon gets -2000 DP for the turn.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Is this card also treated as a Yellow card in Hand, Deck, Trash or revealed from Security Check?",
+                    "A: No, as [Your Turn] effects only activate in the Battle Area, it is treated only as a Red card."
+                ],
+                [
+                    "Q: Can I digivolve this card in my Breeding Area into a Digimon that can digivolve from a Yellow Digimon?",
+                    "A: No, as [Your Turn] effects do not activate in Breeding Area, this card is not treated as a Yellow Digimon in Breeding Area, thus unable to digivolve into a Digimon that can digivolve from a Yellow Digimon."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/18/BT4-018.png/revision/latest?cb=20210430124206",
+            "id": "BT4-018",
+            "name": "Spinomon",
+            "jpname": "スピノモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "10",
+            "dp": "10000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "2",
+            "effect1": "[Your Turn] This Digimon gets +3000 DP.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/24/BT4-019.png/revision/latest?cb=20210430124207",
+            "id": "BT4-019",
+            "name": "VictoryGreymon",
+            "jpname": "ビクトリーグレイモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "Ishibashi Yosuke",
+                "As'Maria"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・Delete 1 of your opponent's Digimon with 8000 DP or less.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e0/BT4-020.png/revision/latest?cb=20210430124208",
+            "id": "BT4-020",
+            "name": "ShineGreymon",
+            "jpname": "シャイングレイモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Light Dragon",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "evocolor2": "Yellow",
+            "evolevel2": "5",
+            "evocost2": "3",
+            "effect1": "[Your Turn] When one of your red or yellow Tamers is suspended, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: When 2 of my Red or Yellow Tamers are suspended at the same time, does this Digimon get <Security Attack +2>?",
+                    "A: No, even if multiple Red or Yellow Tamer are suspended at the same time, as there is only 1 effect timing where Tamers are being suspended, it only gets <Security Attack +1>. (See more in Effect Resolution)"
+                ],
+                [
+                    "Q: When 2 of my Red or Yellow Tamers are suspended at different effect timings, does this Digimon get <Security Attack +2>?",
+                    "A: Yes, as there are 2 effect timings where Red or Yellow Tamers are suspended, it gets <Security Attack +1> twice, giving it a total of <Security Attack +2>. (See more in Effect Resolution)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/60/BT4-021.png/revision/latest?cb=20210430124208",
+            "id": "BT4-021",
+            "name": "Gaomon",
+            "jpname": "ガオモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Beast",
+            "ilustrators": [
+                "TANIMESO"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[Your Turn] When this card is trashed due to activating this Digimon's <Digi-Burst>, return this card to its owner's hand.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If this card is a digivolution card and is trashed by <Digi-Burst>, when does this card return to hand: before or after the additional effect activates?",
+                    "A: After <Digi-Burst> activates. It is triggered after the whole <Digi-Burst> effect is resolved."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/38/BT4-022.png/revision/latest?cb=20210430124208",
+            "id": "BT4-022",
+            "name": "Sangomon",
+            "jpname": "サンゴモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "4000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mollusk",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/01/BT4-023.png/revision/latest?cb=20210430124209",
+            "id": "BT4-023",
+            "name": "Strabimon",
+            "jpname": "ストラビモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Hybrid",
+            "attribute": "Variable",
+            "type": "Beastkin",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Hybrid] in its form and 1 blue Tamer card among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: This card's effect reveals a Digimon card with [Hybrid] and a blue Tamer card from my deck. Can I add both cards to my hand?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: This card's effect reveals a Digimon card with [Hybrid] and a blue Tamer card from my deck. Can I add only 1 of the cards to my hand?",
+                    "A: No, you must add both cards to your hand. This card's Japanese text does not specify \"or\" in its card text."
+                ],
+                [
+                    "Q: If the cards I reveal from my deck include only either [Hybrid] or a blue Tamer card, can I add a card to my hand?",
+                    "A: Yes, if you only reveal one or the other, you add that card to your hand."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/69/BT4-024.png/revision/latest?cb=20210430124209",
+            "id": "BT4-024",
+            "name": "Tobiumon",
+            "jpname": "トビウモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Aquatic",
+            "ilustrators": [
+                "funbolt"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "1",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/de/BT4-025.png/revision/latest?cb=20210430124210",
+            "id": "BT4-025",
+            "name": "Lobomon",
+            "jpname": "ヴォルフモン",
+            "tsname": "Wolfmon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Hybrid",
+            "attribute": "Variable",
+            "type": "Warrior",
+            "ilustrators": [
+                "Tonamikanji",
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "You may digivolve this card from your hand onto one of your blue Tamers as if the Tamer is a level 3 blue Digimon.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: When this card has a Tamer card as a digivolution card, does that Tamer Card's [Security] effect become this card’s inherited effect?",
+                    "A: No, the Tamer card's [Security] effect does not become an inherited effect."
+                ],
+                [
+                    "Q: Can this card digivolve from aLV3 Digimon if the requirements are fulfilled instead of a Tamer Card?",
+                    "A: Yes you can."
+                ],
+                [
+                    "Q: If I use this card's effect to make a tamer card into a digivolution card, is that card affected by effects that say \"trash digivolution cards\"?",
+                    "A: Yes, it is. However, if the effect specifies Digimon cards, Digi-Egg cards, or any other type of card that isn't a tamer card, it can't be targeted by that effect."
+                ],
+                [
+                    "Q: When I digivolve a Tamer card into this card, do I draw a card from the digivolution bonus?",
+                    "A: Yes, you draw a card from the digivolution Bonus even when digivolving from a Tamer."
+                ],
+                [
+                    "Q: Can I attack with this card on the turn its digivolved from a Tamer?",
+                    "A: Yes, as digivolving is not Playing, it can attack."
+                ],
+                [
+                    "Q: Can I attack with this card after digivolving from a Tamer that was Played on the same turn?",
+                    "A: No, even though it digivolved from a Tamer, the restriction of being unable to attack the turn it is played still applies."
+                ],
+                [
+                    "Q: When this Digimon is deleted while having a Tamer card as a digivolution card, what happens to that Tamer card?",
+                    "A: It is trashed."
+                ],
+                [
+                    "Q: If I digivolve my dual-coloured Blue-Green Tamer into this card, can I use the effect of [BT3-103 Hidden Potential Discovered!]?",
+                    "A: No, this card's effect treats the tamer as a pure Blue Digimon, so it is not counted as green."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2c/BT4-026.png/revision/latest?cb=20210430124211",
+            "id": "BT4-026",
+            "name": "Gaogamon",
+            "jpname": "ガオガモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Beast",
+            "ilustrators": [
+                "TANIMESO"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・<Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/06/BT4-027.png/revision/latest?cb=20210416140044",
+            "id": "BT4-027",
+            "name": "KendoGarurumon",
+            "jpname": "ガルムモン",
+            "tsname": "Garummon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "6000",
+            "level": "4",
+            "form": "Hybrid",
+            "attribute": "Variable",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Tonamikanji"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "effect1": "You may digivolve this card from your hand onto one of your blue Tamers as if the Tamer is a level 3 blue Digimon.\n[When Attacking] Return 1 of your opponent's level 3 Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: When this card has a Tamer card as a digivolution card, does that Tamer Card's [Security] effect become this card’s inherited effect?",
+                    "A: No, the Tamer card's [Security] effect does not become an inherited effect."
+                ],
+                [
+                    "Q: Can this card digivolve from aLV3 Digimon if the requirements are fulfilled instead of a Tamer Card?",
+                    "A: Yes you can."
+                ],
+                [
+                    "Q: If I use this card's effect to make a tamer card into a digivolution card, is that card affected by effects that say \"trash digivolution cards\"?",
+                    "A: Yes, it is. However, if the effect specifies Digimon cards, Digi-Egg cards, or any other type of card that isn't a tamer card, it can't be targeted by that effect."
+                ],
+                [
+                    "Q: When I digivolve a Tamer card into this card, do I draw a card from the digivolution bonus?",
+                    "A: Yes, you draw a card from the digivolution Bonus even when digivolving from a Tamer."
+                ],
+                [
+                    "Q: Can I attack with this card on the turn its digivolved from a Tamer?",
+                    "A: Yes, as digivolving is not Playing, it can attack."
+                ],
+                [
+                    "Q: Can I attack with this card after digivolving from a Tamer that was Played on the same turn?",
+                    "A: No, even though it digivolved from a Tamer, the restriction of being unable to attack the turn it is played still applies."
+                ],
+                [
+                    "Q: When this Digimon is deleted while having a Tamer card as a digivolution card, what happens to that Tamer card?",
+                    "A: It is trashed."
+                ],
+                [
+                    "Q: Does this card have [Garurumon] in its name?",
+                    "A: No. This card's Japanese name Garummon (ガルムモン) does not have \"Garurumon\" (ガルルモン) in its name."
+                ],
+                [
+                    "Q: If I digivolve my dual-coloured Blue-Green Tamer into this card, can I use the effect of [BT3-103 Hidden Potential Discovered!]?",
+                    "A: No, this card's effect treats the tamer as a pure Blue Digimon, so it is not counted as green."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/BT4-028.png/revision/latest?cb=20210430124211",
+            "id": "BT4-028",
+            "name": "Piranimon",
+            "jpname": "ピラニモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Aquatic",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect2": "[When Attacking] Trash the top digivolution card of 1 of your opponent's Digimon.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7a/BT4-029.png/revision/latest?cb=20210430124212",
+            "id": "BT4-029",
+            "name": "Gusokumon",
+            "jpname": "グソクモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "10000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Crustacean",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/71/BT4-030.png/revision/latest?cb=20210430124212",
+            "id": "BT4-030",
+            "name": "Beowolfmon",
+            "jpname": "ベオウルフモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Hybrid",
+            "attribute": "Variable",
+            "type": "Warrior",
+            "ilustrators": [
+                "Tonamikanji",
+                "TANIMESO"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "<Jamming> (This Digimon can't be deleted in battles against Security Digimon).\n[Opponent's Turn] While this Digimon's digivolution cards include a Digimon card with [Hybrid] in its form or a blue Tamer card, it can't be attacked.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Super Rare",
+            "engsets": [
+                "Event Pack 2"
+            ],
+            "ruling": [
+                [
+                    "Q: What does this card's effect of cannot be attacked on opponent's turn mean?",
+                    "A: When the condition is met, your opponent cannot choose this Digimon as a target of attack."
+                ],
+                [
+                    "Q: What happens if this Digimon activates a <Blocker> effect in response to my opponent's attack?",
+                    "A: The effect only stops the opponent from declaring an attack on this card, <Blocker> will resolve as per normal."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/85/BT4-031.png/revision/latest?cb=20210430124212",
+            "id": "BT4-031",
+            "name": "MarinChimairamon",
+            "jpname": "マリンキメラモン",
+            "tsname": "MarineKimeramon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Composite",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[On Play] You may return 1 of your other Digimon to its owner's hand to return 1 of your opponent's Digimon with no digivolution cards to its owner's hand. (Trash all of the digivolution cards of that Digimon.)",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6c/BT4-032.png/revision/latest?cb=20210430124213",
+            "id": "BT4-032",
+            "name": "MachGaogamon",
+            "jpname": "マッハガオガモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Cyborg",
+            "ilustrators": [
+                "TANIMESO"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・Return 1 of your opponent's level 4 or lower Digimon to its owner's hand. (Trash all of the digivolution cards of that Digimon.)",
+            "effect2": "[Your Turn] While you have a Tamer in play, this Digimon gets +2000 DP.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Does this card’s inherited effect activate regardless of the colour of Tamer I have?",
+                    "A: Yes, as no colour is specified by the effect, it activates regardless of the colour of the Tamer."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/05/BT4-033.png/revision/latest?cb=20210430124213",
+            "id": "BT4-033",
+            "name": "ZeedGarurumon",
+            "jpname": "ズィードガルルモン",
+            "tsname": "Z'd Garurumon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Ishibashi Yosuke",
+                "Itohiro"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・Return 1 of your opponent's level 5 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/19/BT4-034.png/revision/latest?cb=20210430124214",
+            "id": "BT4-034",
+            "name": "Regalecusmon",
+            "jpname": "レガレクスモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Aquatic",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Attacking] Trash the bottom digivolution card of 1 of your opponent's Digimon. When you do, trigger <Draw 1> (Draw 1 card from your deck) and gain 1 memory.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: When this Digimon attacks, and my opponent has no Digimon with digivolution cards, so the [When Attacking] effect does not trash any digivolution card. Does the <Draw 1> and Memory +1 still activate?",
+                    "A: No, if this card's [When Attacking] effect does not trash any digivolution card of your opponent's Digimon at all, you do not get the <Draw 1> and Memory +1 effects."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/BT4-035.png/revision/latest?cb=20210430124215",
+            "id": "BT4-035",
+            "name": "MirageGaogamon",
+            "jpname": "ミラージュガオガモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Beast Knight",
+            "ilustrators": [
+                "TANIMESO",
+                "Itohiro"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] Gain 1 memory for every 4 cards in your opponent's hand.\n[Your Turn] This Digimon is unblockable.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: When I Digivolve into this Digimon, and my opponent has 3 or less cards in hand, does this Digimon's [When Digivolving] effect plus any Memory?",
+                    "A: No, when your opponent has 3 or less cards in hand, there is no plus memory."
+                ],
+                [
+                    "Q: This card reads, ‘This Digimon is unblockable.’ What exactly does that mean?",
+                    "A: In response to this Digimon attack, an opponent’s Digimon cannot redirect this Digimon's attack when activating the <Blocker> effect."
+                ],
+                [
+                    "Q: Can my opponent still suspend their Digimon with <Blocker>?",
+                    "A: Yes, the Digimon can still be suspended but the attack will not be redirected."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/64/BT4-036.png/revision/latest?cb=20210430124215",
+            "id": "BT4-036",
+            "name": "Falcomon",
+            "jpname": "ファルコモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "5000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Avian",
+            "ilustrators": [
+                "Sanosuke Sakuma"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/BT4-037-errata.png/revision/latest?cb=20210917131723",
+            "id": "BT4-037",
+            "name": "Kudamon",
+            "jpname": "クダモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Holy Beast",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] You may trash the top card of your security stack to have 1 of your opponent's Digimon get -2000 DP for the turn.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: When I have 0 cards in your Security Stack, can I still give my opponent's Digimon -2000 DP from this card's [On Play] effect?",
+                    "A: No, if you are unable to trash your Security, this effect cannot be used."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/34/BT4-038.png/revision/latest?cb=20210430124216",
+            "id": "BT4-038",
+            "name": "BushiAgumon",
+            "jpname": "ブシアグモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "Takase",
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "<Rush> (This Digimon can attack the turn it comes into play).",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack",
+                "Event Pack 2"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fe/BT4-039.png/revision/latest?cb=20210430124216",
+            "id": "BT4-039",
+            "name": "Growlmon",
+            "jpname": "グラウモン",
+            "tsname": "Growmon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Dark Dragon",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[Your Turn] While you have 3 or fewer security cards, this Digimon gets +1000 DP.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/28/BT4-040.png/revision/latest?cb=20210430124217",
+            "id": "BT4-040",
+            "name": "Diatrymon",
+            "jpname": "ディアトリモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Ancient Bird",
+            "ilustrators": [
+                "banira"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e9/BT4-041-Errata.png/revision/latest?cb=20210528225229",
+            "id": "BT4-041",
+            "name": "Meicoomon",
+            "jpname": "メイクーモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Unknown",
+            "type": "Unknown",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[On Play] If you have 3 or fewer security cards, 1 of your opponent's Digimon gets -4000 DP for the turn.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d3/BT4-042.png/revision/latest?cb=20210430124218",
+            "id": "BT4-042",
+            "name": "Piddomon",
+            "jpname": "ピッドモン",
+            "tsname": "Pidmon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Angel",
+            "ilustrators": [
+                "Ryuda",
+                "tessy"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "1",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[When Attacking] Lose 2 memory.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "Judge Pack"
+            ],
+            "jpsets": [
+                "Tamer Battle Pack 10"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bd/BT4-043.png/revision/latest?cb=20210430124218",
+            "id": "BT4-043",
+            "name": "Crowmon",
+            "jpname": "ヤタガラモン",
+            "tsname": "Yatagaramon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Mysterious Bird",
+            "ilustrators": [
+                "funbolt"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/59/BT4-044.png/revision/latest?cb=20210430125201",
+            "id": "BT4-044",
+            "name": "HippoGryphonmon",
+            "jpname": "ヒポグリフォモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "6000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Mythical Beast",
+            "ilustrators": [
+                "Ryodan"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Attacking] If you have 3 or fewer security cards, 1 of your opponent's Digimon gets -3000 DP for the turn.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/27/BT4-045.png/revision/latest?cb=20210430125203",
+            "id": "BT4-045",
+            "name": "Maycrackmon",
+            "jpname": "メイクラックモン",
+            "tsname": "Meicrackmon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Beastkin",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[Opponent's Turn] While you have 3 or fewer security cards, all of your Security Digimon get +4000 DP.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/32/BT4-046.png/revision/latest?cb=20210430125203",
+            "id": "BT4-046",
+            "name": "WarGrowlmon",
+            "jpname": "メガログラウモン",
+            "tsname": "MegaloGrowmon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・1 of your opponent's Digimon gets -4000 DP for the turn.",
+            "effect2": "[Your Turn] While you have 3 or fewer security cards, this Digimon gets +1000 DP.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b5/BT4-047.png/revision/latest?cb=20210430125204",
+            "id": "BT4-047",
+            "name": "Rasielmon",
+            "jpname": "ラジエルモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "10",
+            "dp": "10000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Throne",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] Trigger <Recovery +2 (Deck)> (Place the top 2 cards of your deck on top of your security stack).\n[End of Opponent's Turn] Trash the top card of your security stack.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Regarding this card's [End of Opponent's Turn] effect, if I have 0 cards in your Security Stack at the end of my opponent's turn, do I lose the game?",
+                    "A: No, as this card's [End of Opponent's Turn] effect only trash Security cards, it doesn’t not count as you receiving an attack. The game will just continue as per normal."
+                ],
+                [
+                    "Q: Does the [Security] effect of the card trashed by this card's [End of Opponent's Turn] effect activate?",
+                    "A: No, it does not activate."
+                ],
+                [
+                    "Q: If I have multiples of this Digimon in my Battle Area at the end of my opponent's turn, do I trash as many Security as the number of this Digimon I have?",
+                    "A: Yes, that's right."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/52/BT4-048.png/revision/latest?cb=20210430125204",
+            "id": "BT4-048",
+            "name": "WarGreymon",
+            "jpname": "ウォーグレイモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "tyuga",
+                "As'Maria"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Attacking] (Once Per Turn) You may add the top card of your security stack to your hand to unsuspend this Digimon and have 1 of your opponent's Digimon get -6000 DP for the turn.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Super Rare",
+            "engsets": [
+                "Judge Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Must I use this card's effect as long as it attacks?",
+                    "A: No, you can choose to use it or not."
+                ],
+                [
+                    "Q: When I have 0 cards in your Security Stack, can I use this card's [When Attacking] effect?",
+                    "A: No, if you are unable to add your Security to hand, you cannot use this effect."
+                ],
+                [
+                    "Q: When I use this Digimon's [When Attacking] effect to give 1 of my opponent's Digimon -6000 DP, then put this Digimon to Active, then attack again in the same turn, can I give my opponent's Digimon -6000 DP again?",
+                    "A: No, the (Once Per Turn) restriction stops this effect from activating at all in the 2nd attack, including the part where 1 of your opponent's Digimon gets -6000 DP."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d1/BT4-049.png/revision/latest?cb=20210430125205",
+            "id": "BT4-049",
+            "name": "Varodurumon",
+            "jpname": "ヴァロドゥルモン",
+            "tsname": "Valdurmon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Holy Bird",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[Main] <Digi-Burst 3> (You may trash 3 of this Digimon's digivolution cards to activate the effect below).\n・All of your opponent's Digimon get -4000 DP for the turn.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Does [BT4-049 Varodurumon]'s <Digi-Burst> effect also decrease the DP of Digimon that were played after the activation of its effect?",
+                    "A: Yes, Digimon played after the effect's activation also lose DP."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9c/BT4-050.png/revision/latest?cb=20210430125206",
+            "id": "BT4-050",
+            "name": "Liollmon",
+            "jpname": "レオルモン",
+            "tsname": "Leollmon",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "5000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Holy Beast",
+            "ilustrators": [
+                "Teppei Tadokoro"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f1/BT4-051.png/revision/latest?cb=20210430125206",
+            "id": "BT4-051",
+            "name": "DoKunemon",
+            "jpname": "ドクネモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Larva",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with <Digi-Burst> among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3d/BT4-052.png/revision/latest?cb=20210430125207",
+            "id": "BT4-052",
+            "name": "Lalamon",
+            "jpname": "ララモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Vegetation",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[Your Turn] When this card is trashed due to activating this Digimon's <Digi-Burst>, return this card to its owner's hand.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: If this card is a digivolution card and is trashed by <Digi-Burst>, when does this card return to hand: before or after the additional effect activates?",
+                    "A: After <Digi-Burst> activates. It is triggered after the whole <Digi-Burst> effect is resolved."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ad/BT4-053.png/revision/latest?cb=20210430125207",
+            "id": "BT4-053",
+            "name": "Roachmon",
+            "jpname": "ゴキモン",
+            "tsname": "Gokimon",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "3000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Insectoid",
+            "ilustrators": [
+                "shosuke"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "1",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/BT4-054.png/revision/latest?cb=20210430125208",
+            "id": "BT4-054",
+            "name": "Sunflowmon",
+            "jpname": "サンフラウモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Vegetation",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・1 of your opponent's suspended Digimon doesn't unsuspend during your opponent's next unsuspend phase.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Can I use this card's effect on my opponent's Unsuspended digimon?",
+                    "A: No you cannot, as this effect specifies to target \"1 of your opponent's Suspended digimon\"."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b5/BT4-055.png/revision/latest?cb=20210430125208",
+            "id": "BT4-055",
+            "name": "Leomon",
+            "jpname": "レオモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Beastkin",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[When Digivolving] Suspend 1 of your opponent's Digimon with 3000 DP or less.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/48/BT4-056.png/revision/latest?cb=20210430125209",
+            "id": "BT4-056",
+            "name": "SkullScorpiomon",
+            "jpname": "スコピオモン",
+            "tsname": "Scorpiomon",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Insectoid",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ef/BT4-057.png/revision/latest?cb=20210430125209",
+            "id": "BT4-057",
+            "name": "GrapLeomon",
+            "jpname": "グラップレオモン",
+            "tsname": "GrappuLeomon",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "6000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Beastkin",
+            "ilustrators": [
+                "KISUKE"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "2",
+            "effect1": "[When Attacking] Gain 1 memory.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/75/BT4-058.png/revision/latest?cb=20210430125209",
+            "id": "BT4-058",
+            "name": "Orochimon",
+            "jpname": "オロチモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Dark Dragon",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] 1 of your Digimon gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) for the turn.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Can I use this card's effect on [Orochimon] itself?",
+                    "A: Yes, you can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/BT4-059.png/revision/latest?cb=20210430125210",
+            "id": "BT4-059",
+            "name": "Lilamon",
+            "jpname": "ライラモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Fairy",
+            "ilustrators": [
+                "Nakano Haito",
+                "Takase"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・Suspend 1 of your opponent's Digimon.",
+            "effect2": "[When Attacking] If you have a Tamer in play, suspend 1 of your opponent's Digimon.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Does this card’s inherited effect activate regardless of the colour of Tamer I have?",
+                    "A: Yes, as no colour is specified by the effect, it activates regardless of the colour of Tamer."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/87/BT4-060.png/revision/latest?cb=20210430125211",
+            "id": "BT4-060",
+            "name": "Lotosmon",
+            "jpname": "ロトスモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Fairy",
+            "ilustrators": [
+                "yuuki."
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[All Turns] When you or your opponent play a level 4 or lower Digimon, suspend it.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Does this card's effect also suspend my digimon?",
+                    "A: Yes, as long as the Digimon is LV4 or below, it is suspended regardless of being Played by you or your opponent."
+                ],
+                [
+                    "Q: Does this card's effect suspend Digimon that digivolve into a level 4 Digimon?",
+                    "A: No, as digivolving is not Playing, they are not suspended."
+                ],
+                [
+                    "Q: Does this card's effect suspend level 4 or below Digimon moved from Breeding Area to Battle Area?",
+                    "A: No, as moving from Breeding Area is not Playing, it is not suspended."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/53/BT4-061.png/revision/latest?cb=20210430125211",
+            "id": "BT4-061",
+            "name": "BanchoLeomon",
+            "jpname": "バンチョーレオモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Beastkin/Boss",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[On Deletion] Suspend up to 2 of your opponent's Digimon.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/BT4-062.png/revision/latest?cb=20210430125211",
+            "id": "BT4-062",
+            "name": "Nidhoggmon",
+            "jpname": "ニーズヘッグモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Dark Dragon",
+            "ilustrators": [
+                "Hisashi Fujiwara",
+                "KISUKE"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "effect1": "[When Digivolving] <Digi-Burst 4> (You may trash 4 of this Digimon's digivolution cards to activate the effect below).\n・Suspend all of your opponent's Digimon with 5000 DP or less. Then, place all of your opponent's suspended Digimon at the bottom of their owners' decks in any order. (Trash all of the digivolution cards of those Digimon.)",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Does this card's effect also send digimon already suspended prior to this effect to the bottom of my opponent's Deck as well?",
+                    "A: Yes, it will."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/42/BT4-063.png/revision/latest?cb=20210430125212",
+            "id": "BT4-063",
+            "name": "Commandramon",
+            "jpname": "コマンドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Cyborg/D-Brigade",
+            "ilustrators": [
+                "kaz"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Deletion] Reveal the top 3 cards of your deck. You may play 1 [Commandramon] among them without paying its memory cost. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9c/BT4-064.png/revision/latest?cb=20210430125213",
+            "id": "BT4-064",
+            "name": "Sunarizamon",
+            "jpname": "スナリザモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Reptile",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[Your Turn] When this card is trashed due to activating this Digimon's <Digi-Burst>, return this card to its owner's hand.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: If this card is a digivolution card and is trashed by <Digi-Burst>, when does this card return to hand: before or after the additional effect activates?",
+                    "A: After <Digi-Burst> activates. It is triggered after the whole <Digi-Burst> effect is resolved."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c6/BT4-065.png/revision/latest?cb=20210430125213",
+            "id": "BT4-065",
+            "name": "Gotsumon",
+            "jpname": "ゴツモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "6000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Rock",
+            "ilustrators": [
+                "yuuki."
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "1",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b8/BT4-066.png/revision/latest?cb=20210430125214",
+            "id": "BT4-066",
+            "name": "Golemon",
+            "jpname": "ゴーレモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "3000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Mineral",
+            "ilustrators": [
+                "GOSSAN"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[All Turns] All of your black Digimon get +1000 DP.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's effect apply to [Golemon] itself as well?",
+                    "A: Yes, it does."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/23/BT4-067.png/revision/latest?cb=20210430125214",
+            "id": "BT4-067",
+            "name": "Sealsdramon",
+            "jpname": "シールズドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Cyborg/D-Brigade",
+            "ilustrators": [
+                "kaz",
+                "kaz"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[When Attacking] Lose 2 memory.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack",
+                "Event Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/BT4-068.png/revision/latest?cb=20210430125214",
+            "id": "BT4-068",
+            "name": "Baboongamon",
+            "jpname": "バブンガモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Beast",
+            "ilustrators": [
+                "Shin Sasaki"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・Trigger <De-Digivolve  1> on 1 of your opponent's Digimon with a play cost of 7 or less (Trash 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards).",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/44/BT4-069.png/revision/latest?cb=20210430125215",
+            "id": "BT4-069",
+            "name": "Blimpmon",
+            "jpname": "ブリンプモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Machine",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/48/BT4-070.png/revision/latest?cb=20210430125215",
+            "id": "BT4-070",
+            "name": "Meteormon",
+            "jpname": "インセキモン",
+            "tsname": "Insekimon",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Rock",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "<Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase).",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/23/BT4-071.png/revision/latest?cb=20210430125216",
+            "id": "BT4-071",
+            "name": "Tankdramon",
+            "jpname": "タンクドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Machine/D-Brigade",
+            "ilustrators": [
+                "kaz"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[Your Turn] When one of your other Digimon with [D-Brigade] in its type is deleted, reveal the top 2 cards of your deck. You may play 1 [Commandramon] among them without paying its memory cost. Place the remaining cards at the bottom of your deck in any order.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: I have 2 copies of this Digimon in my battle area, and both are deleted at the same time by an opponent's skill. Do both copies activate their [Your Turn] skills?",
+                    "A: No. The effects for both copies are triggered, but since the cards themselves have been deleted and sent to the trash, they're no longer in the battle area, which means their effects can't be activated."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/15/BT4-072.png/revision/latest?cb=20210430125216",
+            "id": "BT4-072",
+            "name": "Gogmamon",
+            "jpname": "ゴグマモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Rock",
+            "ilustrators": [
+                "Tonamikanji",
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[Main] <Digi-Burst 1> (You may trash 1 of this Digimon's digivolution cards to activate the effect below).\n・1 of your Digimon gets +2000 DP until the end of your opponent's next turn.",
+            "effect2": "[All Turns] This Digimon gets +1000 DP.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Super Rare",
+            "engsets": [
+                "Event Pack 2"
+            ],
+            "ruling": [
+                [
+                    "Q: Can I use this card's [Main] effect on [Gogmamon] itself?",
+                    "A: Yes, you can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b0/BT4-073.png/revision/latest?cb=20210430125217",
+            "id": "BT4-073",
+            "name": "BanchoGolemon",
+            "jpname": "バンチョーゴーレモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Mineral/Boss",
+            "ilustrators": [
+                "funbolt"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[Opponent's Turn] While your opponent has 3 or more Digimon in play, this Digimon gets +3000 DP.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/67/BT4-074.png/revision/latest?cb=20210430125217",
+            "id": "BT4-074",
+            "name": "Darkdramon",
+            "jpname": "ダークドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Cyborg/D-Brigade",
+            "ilustrators": [
+                "kaz"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "<Rush> (This Digimon can attack the turn it comes into play).\n [On Play] Return up to 5 Digimon cards with [D-Brigade] in their types from your trash to the top of your deck in any order, and for each card you return this way, gain 2 memory.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack",
+                "Digimon Card Game Fest - Fest Set"
+            ],
+            "ruling": [
+                [
+                    "Q: When I use this card's effect to return multiple cards to my deck, do I need to tell my opponent the order I return the cards in?",
+                    "A: Yes. The order you return cards in is public information."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9e/BT4-075.png/revision/latest?cb=20210430125218",
+            "id": "BT4-075",
+            "name": "Blastmon",
+            "jpname": "ブラストモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Mineral",
+            "ilustrators": [
+                "GOSSAN",
+                "Nakano Haito"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "<Security Attack +1> (This Digimon checks 1 additional security card).\n[When Attacking] Your opponent may choose 1 of their unsuspended Digimon. If they do, switch the target of attack to that Digimon.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: What does this card's [When Attacking] effect mean?",
+                    "A: When this Digimon attacks, regardless of what the attack target is, your opponent player can choose to change the target of that attack to 1 of their Unsuspended digimon."
+                ],
+                [
+                    "Q: When attacking with this card, am I required to announce the target of attack?",
+                    "A: Yes, you are."
+                ],
+                [
+                    "Q: Can I attack my opponent's Unsuspended digimon with this card's [When Attacking] effect?",
+                    "A: It is not an effect that lets you attack your opponent's Unsuspended digimon. You only attack your opponent’s Unsuspended digimon when your opponent chooses to change the target of that attack to 1 of their Unsuspended digimon."
+                ],
+                [
+                    "Q: Your opponent attacks with [Blastmon]. If you have an unsuspended Digimon in play, are you forced to switch the target of attack to it?",
+                    "A: No, the player who is currently being attacked gets to decide whether or not to switch the target because it says \"your opponent may\" (相手は...を選べる). If they choose not to, the attack proceeds as it was originally declared."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e9/BT4-076.png/revision/latest?cb=20210430125219",
+            "id": "BT4-076",
+            "name": "Gabumon",
+            "jpname": "ガブモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "4000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Reptile",
+            "ilustrators": [
+                "Ryodan"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ea/BT4-077.png/revision/latest?cb=20210430125219",
+            "id": "BT4-077",
+            "name": "Ghostmon",
+            "jpname": "ゴースモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Ghost",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[Your Turn] When this card is trashed due to activating this Digimon's <Digi-Burst>, return this card to its owner's hand.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: If this card is a digivolution card and is trashed by <Digi-Burst>, when does this card return to hand: before or after the additional effect activates?",
+                    "A: After <Digi-Burst> activates. It is triggered after the whole <Digi-Burst> effect is resolved."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/af/BT4-078.png/revision/latest?cb=20210430125220",
+            "id": "BT4-078",
+            "name": "Soundbirdmon",
+            "jpname": "サウンドバードモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Avian",
+            "ilustrators": [
+                "Kirita"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[When Attacking] You may trash 1 Option card in your hand to gain 1 memory.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack",
+                "Event Pack 2"
+            ],
+            "ruling": [
+                [
+                    "Q: For this card's effect, can I trash 2 Option cards from hand to get Memory +2?",
+                    "A: No, you can only trash 1 Option card to get Memory +1 in 1 attack."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/24/BT4-079.png/revision/latest?cb=20210430125220",
+            "id": "BT4-079",
+            "name": "Labramon",
+            "jpname": "ラブラモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Beast",
+            "ilustrators": [
+                "Kirita"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Trigger <Draw 1> (Draw 1 card from your deck). Then, trash 1 card in your hand.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b8/BT4-080.png/revision/latest?cb=20210430125221",
+            "id": "BT4-080",
+            "name": "Bakemon",
+            "jpname": "バケモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Ghost",
+            "ilustrators": [
+                "shosuke"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/BT4-081.png/revision/latest?cb=20210430125221",
+            "id": "BT4-081",
+            "name": "Devimon",
+            "jpname": "デビモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Fallen Angel",
+            "ilustrators": [
+                "shosuke"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・Delete 1 of your opponent's level 3 Digimon.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/BT4-082.png/revision/latest?cb=20210430125222",
+            "id": "BT4-082",
+            "name": "Dobermon",
+            "jpname": "ドーベルモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Dark Animal",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/26/BT4-083.png/revision/latest?cb=20210430125222",
+            "id": "BT4-083",
+            "name": "Cerberusmon",
+            "jpname": "ケルベロモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "6000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Dark Animal",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[On Deletion] Trigger <Draw 2> (Draw 2 cards from your deck). Then, trash 1 card in your hand.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/43/BT4-084.png/revision/latest?cb=20210430125223",
+            "id": "BT4-084",
+            "name": "NeoDevimon",
+            "jpname": "ネオデビモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Fallen Angel",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[Opponent's Turn] When an opponent plays a Tamer, gain 3 memory.",
+            "effect2": "[Opponent's Turn] When an opponent's Tamer becomes suspended, gain 1 memory.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "2022 Regionals - Participation Set",
+                "2022 Regionals - Finalist Set",
+                "2022 Regionals - Champion Set"
+            ],
+            "ruling": [
+                [
+                    "Q: For this card's effect, when my opponent suspends multiple of their Tamers by using the effect of [BT2-041 ShineGreymon], do I get Memory +1 for each Tamer suspended?",
+                    "A: No, even if multiple Tamers are suspended at the same time, as there is only 1 effect timing where Tamers are suspended, you only get Memory +1."
+                ],
+                [
+                    "Q: I have a [BT1-086 Matt Ishida] in play. My opponent has a Digimon with [BT4-084 NeoDevimon] in its digivolution cards. I play a Blue Digimon and then use Matt's effect to remove NeoDevimon from its sources. Can the effect of NeoDevimon be used?",
+                    "A: No, even though the effect was triggered it cannot be activated because the Digimon no longer has the effect. (See more in Effect Resolution)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/82/BT4-085.png/revision/latest?cb=20210430125223",
+            "id": "BT4-085",
+            "name": "Phantomon",
+            "jpname": "ファントモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "10000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Ghost",
+            "ilustrators": [
+                "shosuke"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/83/BT4-086.png/revision/latest?cb=20210430125224",
+            "id": "BT4-086",
+            "name": "Cerberusmon: Werewolf Mode",
+            "jpname": "ケルベロモン：人狼モード",
+            "tsname": "Cerberumon: Werewolf Mode",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "9",
+            "dp": "9000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Wizard",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "<Rush> (This Digimon can attack the turn it comes into play).\n [On Play] You may delete 1 of your [Cerberusmon] to gain 9 memory.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Can I destroy this card itself with its [On Play] effect to get Memory +9?",
+                    "A: No, as this card's [On Play] effect specified to target [Cerberusmon] this effect."
+                ],
+                [
+                    "Q: Can I destroy another 1 of my [Cerberusmon: Werewolf Mode] to get Memory +9?",
+                    "A: No, as this card's [On Play] effect specified to target [Cerberusmon], you cannot choose [Cerberusmon: Werewolf Mode] as the target of this effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c5/BT4-087.png/revision/latest?cb=20210430125224",
+            "id": "BT4-087",
+            "name": "Anubismon",
+            "jpname": "アヌビモン",
+            "tsname": "Anubimon",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "10000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Shaman",
+            "ilustrators": [
+                "As'Maria",
+                "Ryodan"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] You may play 1 level 3 Digimon card from your trash without paying its memory cost. \n[Your Turn] When you play Digimon from your trash, those Digimon gain <Rush> (This Digimon can attack the turn it comes into play) for the turn.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack",
+                "Event Pack 2"
+            ],
+            "ruling": [
+                [
+                    "Q: Does the Digimon Played by this card's [When Digivolving] effect also get <Rush> from this card's [Your Turn] effect?",
+                    "A: Yes, that's right."
+                ],
+                [
+                    "Q: If the Digimon Played from Trash by this card's effect digivolves, can that Digimon still attack with the effect of <Rush>?",
+                    "A: Yes, it does. Digimon that gain <Rush> from this card's effect keep it after Digivolving, and can attack the turn they come into play."
+                ],
+                [
+                    "Q: If [BT4-087 Anubismon] is played from the trash by the effect of [BT3-109 Back for Revenge!], does it get <Rush>?",
+                    "A: Yes, Anubismon gets <Rush> from its own effect when played from the trash."
+                ],
+                [
+                    "Q: If I use [BT5-107 Revive from the Darkness!!] to delete [BT4-087 Anubismon] and play a Digimon. Does that Digimon gain <Rush>?",
+                    "A: No, Anubismon was not on the field at the time the Digimon was played."
+                ],
+                [
+                    "Q: If I use [ST6-16 Nail Bone] to play multiple Digimon at the same time. Does only 1 Digimon gain <Rush> like [EX2-037 Reapermon]?",
+                    "A: No, all Digimon played gain <Rush>."
+                ],
+                [
+                    "Q: If I digivolve my Level 5 Purple Digimon into this card while under the effects of [EX1-071 Win Rate 60%], and trash [BT6-078 SkullGreymon]. Can I use the [When Digivolving] effect of this card before the \"when this card is trashed from your hand\" effect of SkullGreymon?",
+                    "A: Yes, they both trigger at the same time. So you can choose which effect to activate first."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6b/BT4-088.png/revision/latest?cb=20210430125225",
+            "id": "BT4-088",
+            "name": "DanDevimon",
+            "jpname": "ダンデビモン",
+            "tsname": "DoneDevimon",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Fallen Angel",
+            "ilustrators": [
+                "Kenji Watanabe",
+                "Ryuda",
+                "GOSSAN"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[Opponent's Turn] (Once Per Turn) When a card is removed from your security stack, trash the top card of your opponent's security stack. \n[On Deletion] Your opponent trashes 2 cards in their hand.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Super Rare",
+            "engsets": [
+                "Event Pack",
+                "Championship 2021 Finals - Event Pack Alt-Art Gold Stamp Set"
+            ],
+            "ruling": [
+                [
+                    "Q: Do the cards trashed by this cards' [Opponent's Turn] effect activate their [Security] effects?",
+                    "A: No they do not."
+                ],
+                [
+                    "Q: For this card's [On Deletion] effect, does the player whose cards in hand are to be trashed choose what to trash?",
+                    "A: Yes, the player who is trashing chooses 2 cards from their hand to trash."
+                ],
+                [
+                    "Q: When I have this Digimon in my Battle Area, my opponent's Digimon checks [BT1-107 Holy Wave] from my Security, and I gain 1 card in your Security Stack from the [Security] effect. Although the number of Security I end up with is the same, does this card's [Opponent's Turn] effect activate?",
+                    "A: Yes, as your Security was reduced once, it activates."
+                ],
+                [
+                    "Q: When I have 2 of this Digimon in my Battle Area, my opponent’s Digimon performs a Check and reduced 1 of my Security. Do both Digimon's [Opponent's Turn] activate, trashing 2 of my opponent's Security?",
+                    "A: Yes, as both Digimon's effect activates, you trash 2 of your opponent's Security cards."
+                ],
+                [
+                    "Q: When my Security Stack is reduced by being trashed from effects such as [BT2-020 Gallantmon] etc. instead of from Security Check, does this card's effect still activate?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: I check a card with a [Security] effect. Can I choose to use this card's effect first before the [Security] effect?",
+                    "A: No, you cannot. The [Security] effect must be activated before [Opponent's Turn]'s effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/66/BT4-089.png/revision/latest?cb=20210430125226",
+            "id": "BT4-089",
+            "name": "Plutomon",
+            "jpname": "プルートモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Shaman",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] Trigger <Draw 2> (Draw 2 cards from your deck). Then, you may use a purple Option card with a memory cost of 6 or less in your hand without paying its memory cost.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7a/BT4-090.png/revision/latest?cb=20210430125226",
+            "id": "BT4-090",
+            "name": "Chaosmon",
+            "jpname": "カオスモン",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "15",
+            "dp": "14000",
+            "level": "7",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Unique",
+            "ilustrators": [
+                "funbolt",
+                "Nakano Haito"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "6",
+            "evocost1": "6",
+            "evocolor2": "Black",
+            "evolevel2": "6",
+            "evocost2": "6",
+            "effect1": "<Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).\n[When Digivolving] Unsuspend this Digimon. Then, it can attack your opponent's Digimon. This effect allows you to attack unsuspended Digimon as well.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack",
+                "Online Regionals - Participation Set",
+                "Online Regionals - Finalist Set",
+                "Online Regionals - Champion Set"
+            ],
+            "jpsets": [
+                "Special Promotion Pack 2021"
+            ],
+            "ruling": [
+                [
+                    "Q: Can I attack with this card's [When Digivolving] effect even if the Memory is moved to 1 or more on my opponent's side after digivolving?",
+                    "A: Yes, you can. The turn can only be passed after the attack, or if you declared not to attack."
+                ],
+                [
+                    "Q: Can this card attack when digivolving from a Digimon that was played on the same turn?",
+                    "A: No, as the restriction of \"Digimon cannot attack on the turn it's Played\" cannot be nullified by this effect, it cannot attack."
+                ],
+                [
+                    "Q: For this card's [When Digivolving] effect, If there are other effects that activate from digivolving Digimon, can I finish the attack before resolving those effects first?",
+                    "A: No, although you declare an attack from this card's effect first, the attack itself is only resolved after all effects activated from digivolving Digimon are resolved. (See more in Attack Resolution)"
+                ],
+                [
+                    "Q: When this Digimon attacks not by the effect of its [When Digivolving] effect, can I target my opponent's Unsuspended digimon?",
+                    "A: No you cannot."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5a/BT4-091.png/revision/latest?cb=20210430125227",
+            "id": "BT4-091",
+            "name": "Chaosmon: Valdur Arm",
+            "jpname": "カオスモン：ヴァロドゥルアーム",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "15",
+            "dp": "14000",
+            "level": "7",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Unique",
+            "ilustrators": [
+                "As'Maria",
+                "GOSSAN"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "6",
+            "evocost1": "6",
+            "evocolor2": "Yellow",
+            "evolevel2": "6",
+            "evocost2": "6",
+            "effect1": "[When Digivolving] Activate the following effect twice. \n・1 of your opponent's Digimon gets -7000 DP for the turn. \n[On Deletion] Gain 3 memory.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Super Rare",
+            "engsets": [
+                "1-Year Anniversary Promo Pack"
+            ],
+            "jpsets": [
+                "1st year Anniversary BT-06 Special Box Topper"
+            ],
+            "ruling": [
+                [
+                    "Q: Can I pick the same 1 of my opponent's Digimon twice for this card's [When Digivolving] effect?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: For this card's [When Digivolving] effect, after using it once for the 1st time, can I take some other actions first, then use the 2nd time?",
+                    "A: No, you cannot."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2f/BT4-092.png/revision/latest?cb=20210430125227",
+            "id": "BT4-092",
+            "name": "Marcus Damon",
+            "jpname": "大門大",
+            "tsname": "Daimon Masaru",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Your Turn] When one of your Digimon with [Greymon] in its name attacks (other than [DoruGreymon], [BurningGreymon], or [DexDoruGreymon]), you may suspend this Tamer to gain 1 memory.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/BT4-093.png/revision/latest?cb=20210430125228",
+            "id": "BT4-093",
+            "name": "Thomas H. Norstein",
+            "jpname": "トーマ・H・ノルシュタイン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[On Play] Trigger <Draw 1> (Draw 1 card from your deck).\n[Main] If your opponent has 8 or more cards in their hand, you may suspend this Tamer to unsuspend 1 of your Digimon with [Gao] in its name.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b9/BT4-094.png/revision/latest?cb=20210430125229",
+            "id": "BT4-094",
+            "name": "Tai Kamiya",
+            "jpname": "八神太一",
+            "tsname": "Yagami Taichi",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[Your Turn] While you have 3 or fewer security cards, all of your Digimon get +1000 DP. \n[Your Turn] When an opponent's Digimon is deleted by dropping to 0 DP, you may suspend this Tamer to gain 1 memory.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: When I have 3 or less cards in your Security Stack, do my Digimon of any colour get +1000 DP from this card's effect?",
+                    "A: Yes, as no colour is specified, Digimon of any colour gets +1000 DP."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/BT4-095.png/revision/latest?cb=20210430125230",
+            "id": "BT4-095",
+            "name": "Yoshino Fujieda",
+            "jpname": "藤枝淑乃",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[On Play] Return 1 Digi-Egg card from your trash to the bottom of your Digi-Egg deck. \n[Your Turn] When digivolving one of your Digimon into a Digimon card in your hand with <Digi-Burst>, you may suspend this Tamer to reduce the digivolution cost by 1.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Can I only use this card's [Your Turn] effect when digivolving into a Digimon with a <Digi-Burst> effect with the [When Digivolving] timing?",
+                    "A: You can use it when digivolving into Digimon with <Digi-Burst> with any trigger timing."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a8/BT4-096.png/revision/latest?cb=20210430125231",
+            "id": "BT4-096",
+            "name": "Izzy Izumi",
+            "jpname": "泉光子郎",
+            "tsname": "Izumi Koshiro",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "4",
+            "ilustrators": [],
+            "effect1": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3. \n[On Play] Reveal the top 3 cards of your deck. If all of the revealed cards are black, gain 1 memory. Place the cards on top of your deck in any order.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend",
+                "Luxury processing ver. Tamer Cards"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: When I use this card's effect to return multiple cards to my deck, do I need to tell my opponent the order I return the cards in?",
+                    "A: Yes. The order you return cards in is public information."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e8/BT4-097.png/revision/latest?cb=20210430125231",
+            "id": "BT4-097",
+            "name": "Kari Kamiya",
+            "jpname": "八神ヒカリ",
+            "tsname": "Yagami Hikari",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [],
+            "effect1": "[All Turns] When a card is removed from your security stack, you may suspend this Tamer to gain 1 memory.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: When my opponent's Digimon performs a Security Check from attacking, and I use this card's effect to get Memory +1, putting the Memory to 1 or more on my side. If that attacking Digimon still has Security not Checked yet from <Security Attack +1>, does that attack get stopped?",
+                    "A: No, all attacks and effects are to be resolved before the turn can be passed, the attack is not stopped."
+                ],
+                [
+                    "Q: When I have this Tamer in my Battle Area, my opponent's Digimon checks [BT1-107 Holy Wave] from my Security, and I gain 1 card from my Security Stack from the [Security] effect. Although the number of Security cards I end up with is the same, can I suspend this card to get Memory +1?",
+                    "A: Yes, as your Security Stack was reduced once, you can."
+                ],
+                [
+                    "Q: When I have this Tamer in my Battle Area, and I Play [BT1-087 T.K. Takaishi] and activate its [On Play] effect to add a Yellow Card from my Security to Hand, then activate <Recovery +1 (Deck)> . Although the number of Security cards I end up with is the same, can I suspend this card to get Memory +1?",
+                    "A: Yes, as your Security was reduced once, you can."
+                ],
+                [
+                    "Q: When my Security is reduced by being trashed from effects, like of Digimon like [BT2-020 Gallantmon] etc. instead of from Security Check, does this card's effect still activate?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: Can I use this card's effect when I reduce my Security Stack by my own card's effects like [BT4-104 Blinding Ray] etc?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: I check a card with a [Security] effect. Can I choose to use this card's effect first before the [Security] effect?",
+                    "A: No, you cannot. The [Security] effect must be activated before [All Turns]'s effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/07/BT4-098.png/revision/latest?cb=20210430125232",
+            "id": "BT4-098",
+            "name": "Atomic Inferno",
+            "jpname": "ブラフマストラ",
+            "tsname": "Brahmastra",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "1",
+            "ilustrators": [
+                "p!k@ru"
+            ],
+            "effect1": "[Main] 1 of your Digimon with [Hybrid] in its form gets +3000 DP, <Security Attack +1> (This Digimon checks 1 additional security card), and \"[Your Turn] When this Digimon is blocked, gain +3 memory\" for the turn.",
+            "effect2": "[Security] All of your Digimon gain <Security Attack +1> (This Digimon checks 1 additional security card) until the end of your next turn.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: When my Digimon under the effect of this card attacks my opponent's Digimon, do I get Memory +3?",
+                    "A: No, if your opponent does not declare to use their <Blocker> effect to block that attack, you do not get Memory +3."
+                ],
+                [
+                    "Q: Does my Digimon moved from Breeding Area to Battle Area on my next turn also get <Security Attack +1> from this card's [Security] effect on my next turn after it was activated?",
+                    "A: Yes, as the target of this effect is all of your Digimon, even Digimon that are put to your Battle Area afterwards also receive the effect."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1e/BT4-099.png/revision/latest?cb=20210430125232",
+            "id": "BT4-099",
+            "name": "Heir of Dragons",
+            "jpname": "竜の力を継ぐもの",
+            "tsname": "The One Who Inherits the Power of Dragons",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [
+                "Kenji Watanabe",
+                "banira"
+            ],
+            "effect1": "[Main] Trigger <Draw 2> (Draw 2 cards from your deck). Then, if one of your Digimon has [Greymon] in its name or [Dramon] in its name, delete 1 of your opponent's Digimon with 4000 DP or less.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "ST-11: Starter Deck Special Entry Deck"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/35/BT4-100.png/revision/latest?cb=20210430125233",
+            "id": "BT4-100",
+            "name": "Trident Revolver",
+            "jpname": "トライデントリボルバー",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "6",
+            "ilustrators": [
+                "Ryuda"
+            ],
+            "effect1": "[Main] Delete 1 of your opponent's Digimon with 6000 DP or less. Then, you may play 1 Tamer card with a play cost of 4 or less from your hand without paying its memory cost.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Can I use this card when my opponent does not have any Digimon that are 6000 DP or less to Play a 4 Cost or less Tamer card from my hand without paying its cost?",
+                    "A: Yes, you can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2b/BT4-101.png/revision/latest?cb=20210430125233",
+            "id": "BT4-101",
+            "name": "I'll Drag You Into the Depths!",
+            "jpname": "水底に引きずり込め！！",
+            "tsname": "I'll Drag You Into the Depths of the Ocean!!",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "1",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "effect1": "[Main] All of your Digimon gain \"[Your Turn] When attacking an opponent's Digimon with no digivolution cards, delete that Digimon\" for the turn.",
+            "effect2": "[Security] Add this card to its owner's hand.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: When my Digimon under the effect of this card attacks my opponent's Digimon without digivolution cards, do those of my opponent's Digimon count as being \"deleted by battle\"?",
+                    "A: No, they are deleted by effects and not by battle."
+                ],
+                [
+                    "Q: On my opponent's turn, my opponent uses this card, and attacks my Digimon without digivolution cards. Can I use my other Digimon's <Blocker> to prevent my attacked Digimon from being deleted?",
+                    "A: No, you cannot. This card's effect is resolved before the declaration of Blocking. (See more in Attack Resolution)"
+                ],
+                [
+                    "Q: On my opponent's turn, my opponent uses this card, and attacks my Digimon without digivolution cards. Can I use my other Digimon's <Blocker> to start a battle?",
+                    "A: Yes, you can. (See more in Attack Resolution)"
+                ],
+                [
+                    "Q: On my opponent's turn, my opponent uses this card, and attacks my Digimon. I then activate <Blocker> of my other Digimon that has no digivolution cards. Does my Digimon that Blocked get deleted?",
+                    "A: No, as this card's effect must be resolved before declaration of <Blocker>, even if you Block with a Digimon with no digivolution cards, the effect does not happen, and your Blocking Digimon enters battle."
+                ],
+                [
+                    "Q: My Digimon under the effect of this card attacks a Digimon without digivolution cards that has higher DP than my Digimon. Does my attacking Digimon lose the battle and get deleted?",
+                    "A: No, as that Digimon with higher DP was deleted before battle happens, the attacking Digimon is not deleted. So the battle ends."
+                ],
+                [
+                    "Q: My Digimon with <Piercing> under the effect of this card attacks my opponent's Digimon without digivolution cards, does its <Piercing> effect activate?",
+                    "A: No, as <Piercing> requires your Digimon to destroy your opponent's Digimon in battle and survive, if your opponent's Digimon was deleted by this card's effect instead, <Piercing> does not activate."
+                ],
+                [
+                    "Q: My Digimon with effects that requires my Digimon to destroy my opponent's Digimon in battle to put itself to Active, like [BT1-112 Dimension Scissor] etc, attacks my opponent's Digimon without digivolution cards and destroys it by this card's effect, do I put my Digimon to Active?",
+                    "A: No, as that Digimon was deleted by effects and not battle, your Digimon is not unsuspended."
+                ],
+                [
+                    "Q: My Digimon under this card's effect attacks my opponent's Digimon with 1 digivolution card, then my Digimon's other [When Attacking] effect trash that 1 digivolution card, what happens to my opponent's Digimon?",
+                    "A: The Digimon is not deleted, as its trigger condition of \"declaring an attack on a Digimon with no digivolution cards\" was not fulfilled. The effect cannot be used to delete the Digimon. (See more in Effect Resolution)"
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d5/BT4-102.png/revision/latest?cb=20210430125234",
+            "id": "BT4-102",
+            "name": "Aqua Viper",
+            "jpname": "アクア・バイパー",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [
+                "UnnoDaisuke"
+            ],
+            "effect1": "[Main] Return 1 of your Digimon to its owner's hand to return up to 2 of your opponent's level 4 or lower Digimon to their owners' hands. (Trash all of the digivolution cards of those Digimon.)",
+            "effect2": "[Security] Add this card to its owner's hand.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If this card returns my [EX2-007 Mother D-Reaper] to my hand, can I return my opponent's Digimon to the hand?",
+                    "A: No, you cannot. Mother D-Reaper was returned to the bottom of your Digi-Egg Deck instead so the condition of \"return 1 Digimon to your hand\" was not fulfilled."
+                ],
+                [
+                    "Q: If this card returns a Token to my hand, can I return my opponent's Digimon to the hand?",
+                    "A: No, you cannot. The Token was removed from play instead so the condition of \"return 1 Digimon to your hand\" was not fulfilled."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e0/BT4-103.png/revision/latest?cb=20210430125234",
+            "id": "BT4-103",
+            "name": "Full Moon Blaster",
+            "jpname": "フルムーンブラスター",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "5",
+            "ilustrators": [
+                "UnnoDaisuke"
+            ],
+            "effect1": "[Main] Return 1 of your opponent's level 5 or lower Digimon to its owner's hand. If your opponent has 8 or more cards in their hand, instead return 1 of your opponent's level 5 or lower Digimon to the bottom of its owner's deck. (Trash all of the digivolution cards of that Digimon.)",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: My opponent has 7 cards in hand when I used this card, resulting in my opponent having 8 cards in hand. Does the targeted Digimon that was returned to my opponent's hand, now return to the bottom of the deck instead?",
+                    "A: No, as that Digimon was already returned to your opponent's hand by this card's effect, you cannot activate this effect again to return that Digimon to the bottom of the deck instead."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f9/BT4-104.png/revision/latest?cb=20210430125234",
+            "id": "BT4-104",
+            "name": "Blinding Ray",
+            "jpname": "絶光衝",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "0",
+            "ilustrators": [
+                "p!k@ru"
+            ],
+            "effect1": "[Main] Trash the top card of your security stack. Then, gain 2 memory.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Can I use this card when I have 0 cards in my Security Stack to get Memory +2?",
+                    "A: Yes, as trashing the top 1 card of your Security Stack is not a requirement, you get Memory +2 when using this card even with 0 cards in your Security Stack."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/75/BT4-105.png/revision/latest?cb=20210430125235",
+            "id": "BT4-105",
+            "name": "Tactical Retreat!",
+            "jpname": "戦術的後退！！",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "1",
+            "ilustrators": [
+                "Takase"
+            ],
+            "effect1": "[Main] Place 1 of your Digimon on top of your security stack face down. (Trash all of the digivolution cards of that Digimon.)",
+            "effect2": "[Security] Trigger <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Does the Digimon added to the Security Stack by this card's effect activate its [On Deletion] effect?",
+                    "A: No, as it was not deleted, the effect does not activate."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/09/BT4-106.png/revision/latest?cb=20210430125235",
+            "id": "BT4-106",
+            "name": "Purge Shine",
+            "jpname": "パージシャイン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "4",
+            "ilustrators": [
+                "UnnoDaisuke"
+            ],
+            "effect1": "[Main] All of your opponent's Digimon get -3000 DP for the turn.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d8/BT4-107.png/revision/latest?cb=20210430125236",
+            "id": "BT4-107",
+            "name": "Pollen Spray",
+            "jpname": "アン・ドゥ・ポラン",
+            "tsname": "Un Deux Pollen",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [
+                "p!k@ru"
+            ],
+            "effect1": "[Main] Reveal the top 3 cards of your deck. Add all Digimon cards with <Digi-Burst> among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, suspend 1 of your opponent's Digimon for each card added to your hand by this effect.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/df/BT4-108.png/revision/latest?cb=20210430125236",
+            "id": "BT4-108",
+            "name": "Cyclonic Kick",
+            "jpname": "旋風タービン蹴り",
+            "tsname": "Senpū Turbine Geri",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Option",
+            "playcost": "4",
+            "ilustrators": [
+                "p!k@ru"
+            ],
+            "effect1": "[Main] Unsuspend 1 of your Digimon and suspend 1 of your opponent's Digimon.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Can I use this card when I don't have any Digimon, to suspend 1 of my opponent's Digimon, or when my opponent doesn't have any Digimon, to unsuspend 1 of my Digimon?",
+                    "A: Yes, you can do either."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/dd/BT4-109.png/revision/latest?cb=20210430125237",
+            "id": "BT4-109",
+            "name": "Final Zubagon Punch",
+            "jpname": "ファイナルズバゴーンパンチ",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [
+                "UnnoDaisuke"
+            ],
+            "effect1": "[Main] 1 of your Digimon gets +3000 DP until the end of your opponent's next turn. Then, if that Digimon has 16000 DP or more, that Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead), <Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase), and <Security Attack +1> (This Digimon checks 1 additional security card) until the end of your opponent's next turn.",
+            "effect2": "[Security] Add this card to its owner's hand.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If my Digimon becomes 16000DP or more after receiving this card's +3000DP effect, does it then get <Blocker>, <Reboot>, <Security Attack +1>?",
+                    "A: Yes, that's right. Even if your Digimon's original DP is not 16000, and only becomes 16000 or more after receving this effect's +3000DP, it gets <Blocker>, <Reboot>, <Security Attack +1>."
+                ],
+                [
+                    "Q: When my Digimon that gained <Blocker>, <Reboot>, <Security Attack +1> from this card's effect has its DP reduced to 15000 or less by other effects, does it then lose its <Blocker>,<Reboot>,<Security Attack +1>?",
+                    "A: No, as the Digimon was selected for it to get <Blocker>, <Reboot>, <Security Attack +1> from this card's effect, those effects will not be lost until the end of you opponent's next turn even if its DP is reduced to 15000 or less."
+                ],
+                [
+                    "Q: My Digimon's DP is 15000 or less after receiving the effects of this card. Its DP is then raised to 16000 or more by other effects. Does it get <Blocker>, <Reboot>, <Security Attack +1> at this point of time?",
+                    "A: No, if your Digimon's DP is not at 16000 or more from resolving this card's effect, it does not get <Blocker>, <Reboot>, <Security Attack +1>."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a1/BT4-110.png/revision/latest?cb=20210430125237",
+            "id": "BT4-110",
+            "name": "Dark Roar",
+            "jpname": "ダークロアー",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [
+                "Ryuda"
+            ],
+            "effect1": "[Main] Delete 1 of your opponent's Digimon with a play cost of 3 or less. For each of your Digimon with [D-Brigade] in its type, add +1 to the maximum play cost of the Digimon you can choose with this effect.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: What does this card's \"For each [D-Brigade] type Digimon you have, +1 to the Play Cost you can choose for this effect.\" mean?",
+                    "A: If you have 1 Digimon with [D-Brigade] type, you can target your opponent's Digimon with Play Cost of 4 or less for this card's effect.If you have 2 Digimon with [D-Brigade] type, you can target your opponent's Digimon with Play Cost of 5 or less for this card's effect.In this manner, you add 1 to the selectable range of Play Cost of your opponent's Digimon you can target for this card's effect for each [D-Brigade] type Digimon you have."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7a/BT4-111.png/revision/latest?cb=20210430125238",
+            "id": "BT4-111",
+            "name": "Jack Raid",
+            "jpname": "ジャックレイド",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Option",
+            "playcost": "0",
+            "ilustrators": [
+                "Ryuda"
+            ],
+            "effect1": "[Main] Gain 1 memory for every 10 cards in your trash.",
+            "effect2": "[Security] Gain 2 memory.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: I have 9 cards in Trash when I use this card, then this card becomes the 10th card in my Trash. Do I get Memory +1?",
+                    "A: No, as Option cards are only put to Trash after resolving their effects, this card itself is not counted."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f5/BT4-112.png/revision/latest?cb=20210430125238",
+            "id": "BT4-112",
+            "name": "Hell’s Gate",
+            "jpname": "ヘルズゲート",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Option",
+            "playcost": "6",
+            "ilustrators": [
+                "p!k@ru"
+            ],
+            "effect1": "[Main] Delete 1 of your opponent's level 6 or higher Digimon.",
+            "effect2": "[Security] Add this card to its owner's hand.",
+            "wwsets": [
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Great Legend Pre-Release Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fe/BT4-113.png/revision/latest?cb=20210430125238",
+            "id": "BT4-113",
+            "name": "AncientGreymon",
+            "jpname": "エンシェントグレイモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Ancient Dragon/Ten Warriors",
+            "ilustrators": [
+                "sasasi",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "effect1": "[Your Turn] For each Digimon card in this Digimon's digivolution cards with [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon]) or [Hybrid] in its form, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card).\n[On Deletion] You may play 1 red level 4 or below Digimon card with [Hybrid] in its form from your hand without paying its cost.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Secret Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/01/BT4-114.png/revision/latest?cb=20210430125239",
+            "id": "BT4-114",
+            "name": "AncientGarurumon",
+            "jpname": "エンシェントガルルモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Ancient Animal/Ten Warriors",
+            "ilustrators": [
+                "Tonamikanji",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "effect1": "[When Attacking] (Once Per Turn) Unsuspend up to 2 of your Digimon with [Garurumon] in their names (other than [KendoGarurumon]) or [Hybrid] in their forms.\n[On Deletion] You may play 1 blue level 4 or below Digimon card with [Hybrid] in its form from your hand without paying its memory cost.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Secret Rare",
+            "ruling": [
+                [
+                    "Q: Can I unsuspend [AncientGarurumon] this card's [When Attacking] effect?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: If I have suspended Digimon that can be targeted with this card's effect, am I required to unsuspend 1 or more of them?",
+                    "A: Yes, AncientGarurumon's Japanese text does not specify \"you may\" (できる). Effects that specify \"up to\" must also choose at least 1 card."
+                ],
+                [
+                    "Q: If this Digimon attacks and is unsuspended by another effect first. Then I declare this card's [When Attacking] effect but don't unsuspend anything. Can I use its [When Attacking] effect on the second attack?",
+                    "A: No, as the effect must be activated on the first time you declare an attack with this card. You must also suspend at least 1 Digimon. If you don't have anything to unsuspend the effect was activated and the (Once Per Turn) effect cannot be activated again."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d4/BT4-115.png/revision/latest?cb=20210430125240",
+            "id": "BT4-115",
+            "name": "Lucemon",
+            "jpname": "ルーチェモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "10000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Angel",
+            "ilustrators": [
+                "Nakano Haito",
+                "Naochika Morishita"
+            ],
+            "effect1": "While you have 10 or more cards in your trash, when playing this card from your hand, reduce its play cost by 8.\n[On Play] <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).\n[All Turns] This Digimon can only digivolve into Digimon with [Lucemon] in their name.",
+            "wwsets": [
+                "BT-04: Booster Great Legend",
+                "BT-04: Booster Great Legend"
+            ],
+            "rarity": "Secret Rare"
+        }
+    ]
+}

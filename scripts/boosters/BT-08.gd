@@ -11,13 +11,10 @@ static func register_cards():
 	CardDB.add_card(BT8_006.new())
 	CardDB.add_card(BT8_007.new())
 	CardDB.add_card(BT8_008.new())
-	CardDB.add_card(BT8_008_B.new())
 	CardDB.add_card(BT8_009.new())
-	CardDB.add_card(BT8_009_B.new())
 	CardDB.add_card(BT8_010.new())
 	CardDB.add_card(BT8_011.new())
 	CardDB.add_card(BT8_012.new())
-	CardDB.add_card(BT8_012_B.new())
 	CardDB.add_card(BT8_013.new())
 	CardDB.add_card(BT8_014.new())
 	CardDB.add_card(BT8_015.new())
@@ -32,24 +29,19 @@ static func register_cards():
 	CardDB.add_card(BT8_024.new())
 	CardDB.add_card(BT8_025.new())
 	CardDB.add_card(BT8_026.new())
-	CardDB.add_card(BT8_026_B.new())
 	CardDB.add_card(BT8_027.new())
 	CardDB.add_card(BT8_028.new())
 	CardDB.add_card(BT8_029.new())
 	CardDB.add_card(BT8_030.new())
 	CardDB.add_card(BT8_031.new())
 	CardDB.add_card(BT8_032.new())
-	CardDB.add_card(BT8_032_B.new())
 	CardDB.add_card(BT8_033.new())
-	CardDB.add_card(BT8_033_B.new())
 	CardDB.add_card(BT8_034.new())
 	CardDB.add_card(BT8_035.new())
 	CardDB.add_card(BT8_036.new())
 	CardDB.add_card(BT8_037.new())
 	CardDB.add_card(BT8_038.new())
-	CardDB.add_card(BT8_038_B.new())
 	CardDB.add_card(BT8_039.new())
-	CardDB.add_card(BT8_039_B.new())
 	CardDB.add_card(BT8_040.new())
 	CardDB.add_card(BT8_041.new())
 	CardDB.add_card(BT8_042.new())
@@ -62,18 +54,15 @@ static func register_cards():
 	CardDB.add_card(BT8_049.new())
 	CardDB.add_card(BT8_050.new())
 	CardDB.add_card(BT8_051.new())
-	CardDB.add_card(BT8_051_B.new())
 	CardDB.add_card(BT8_052.new())
 	CardDB.add_card(BT8_053.new())
 	CardDB.add_card(BT8_054.new())
 	CardDB.add_card(BT8_055.new())
 	CardDB.add_card(BT8_056.new())
 	CardDB.add_card(BT8_057.new())
-	CardDB.add_card(BT8_057_B.new())
 	CardDB.add_card(BT8_058.new())
 	CardDB.add_card(BT8_059.new())
 	CardDB.add_card(BT8_060.new())
-	CardDB.add_card(BT8_060_B.new())
 	CardDB.add_card(BT8_061.new())
 	CardDB.add_card(BT8_062.new())
 	CardDB.add_card(BT8_063.new())
@@ -83,9 +72,7 @@ static func register_cards():
 	CardDB.add_card(BT8_067.new())
 	CardDB.add_card(BT8_068.new())
 	CardDB.add_card(BT8_069.new())
-	CardDB.add_card(BT8_069_B.new())
 	CardDB.add_card(BT8_070.new())
-	CardDB.add_card(BT8_070_B.new())
 	CardDB.add_card(BT8_071.new())
 	CardDB.add_card(BT8_072.new())
 	CardDB.add_card(BT8_073.new())
@@ -98,22 +85,14 @@ static func register_cards():
 	CardDB.add_card(BT8_080.new())
 	CardDB.add_card(BT8_081.new())
 	CardDB.add_card(BT8_082.new())
-	CardDB.add_card(BT8_082_B.new())
 	CardDB.add_card(BT8_083.new())
-	CardDB.add_card(BT8_083_B.new())
 	CardDB.add_card(BT8_084.new())
-	CardDB.add_card(BT8_084_B.new())
 	CardDB.add_card(BT8_085.new())
-	CardDB.add_card(BT8_085_B.new())
 	CardDB.add_card(BT8_086.new())
 	CardDB.add_card(BT8_087.new())
-	CardDB.add_card(BT8_087_B.new())
 	CardDB.add_card(BT8_088.new())
-	CardDB.add_card(BT8_088_B.new())
 	CardDB.add_card(BT8_089.new())
-	CardDB.add_card(BT8_089_B.new())
 	CardDB.add_card(BT8_090.new())
-	CardDB.add_card(BT8_090_B.new())
 	CardDB.add_card(BT8_091.new())
 	CardDB.add_card(BT8_092.new())
 	CardDB.add_card(BT8_093.new())
@@ -135,9 +114,7 @@ static func register_cards():
 	CardDB.add_card(BT8_109.new())
 	CardDB.add_card(BT8_110.new())
 	CardDB.add_card(BT8_111.new())
-	CardDB.add_card(BT8_111_B.new())
 	CardDB.add_card(BT8_112.new())
-	CardDB.add_card(BT8_112_B.new())
 
 class BT8_001 extends Card:
 	func _init():
@@ -147,9 +124,9 @@ class BT8_001 extends Card:
 		rarity = Rarity.U
 		id = "BT8-001"
 		level = 2
-		stage_level = Stage.IN_TRAINING
+		stage_level = Stage.HYBRID
 		digimon_type = "Lesser"
-		inherited_effect_text = "[When Attacking] [Once Per Turn] If this Digimon has 6000 DP or more, [Draw 1]."
+		inherited_effect_text = "[When Attacking] (Once Per Turn) If this Digimon has 6000 DP or more, <Draw 1> (Draw 1 card from your deck)."
 
 class BT8_002 extends Card:
 	func _init():
@@ -159,9 +136,13 @@ class BT8_002 extends Card:
 		rarity = Rarity.U
 		id = "BT8-002"
 		level = 2
-		stage_level = Stage.IN_TRAINING
+		stage_level = Stage.HYBRID
 		digimon_type = "Lesser"
 		inherited_effect_text = "[All Turns] While your opponent has no Digimon with digivolution cards, this Digimon gets +1000 DP."
+		ruling = [
+					"Q: Does this card's effect activate if my opponent does not have a single Digimon in their battle area?",
+					"A: Yes, it activates.",
+]
 
 class BT8_003 extends Card:
 	func _init():
@@ -171,9 +152,13 @@ class BT8_003 extends Card:
 		rarity = Rarity.U
 		id = "BT8-003"
 		level = 2
-		stage_level = Stage.IN_TRAINING
+		stage_level = Stage.HYBRID
 		digimon_type = "Lesser"
 		inherited_effect_text = "[Your Turn] While you have 3 or more security cards, this Digimon gets +1000 DP."
+		ruling = [
+					"Q: If I have 6 security cards, does this card's effect give +2000 DP?",
+					"A: No, this effect gives +1000 DP even if you have 6 security cards.",
+]
 
 class BT8_004 extends Card:
 	func _init():
@@ -183,9 +168,9 @@ class BT8_004 extends Card:
 		rarity = Rarity.U
 		id = "BT8-004"
 		level = 2
-		stage_level = Stage.IN_TRAINING
+		stage_level = Stage.HYBRID
 		digimon_type = "Lesser"
-		inherited_effect_text = "[Opponent Turn] While all of your Digimon are suspended, this Digimon gets +1000 DP."
+		inherited_effect_text = "[Opponent's Turn] While all of your Digimon are suspended, this Digimon gets +1000 DP."
 
 class BT8_005 extends Card:
 	func _init():
@@ -195,9 +180,13 @@ class BT8_005 extends Card:
 		rarity = Rarity.U
 		id = "BT8-005"
 		level = 2
-		stage_level = Stage.IN_TRAINING
-		digimon_type = "Lesser"
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When an effect places a digivolution card under this Digimon, it gets +1000 DP until the end of your opponent's next turn."
+		stage_level = Stage.HYBRID
+		digimon_type = "Lesser/X Antibody"
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When an effect places a digivolution card under this Digimon, it gets +1000 DP until the end of your opponent's next turn."
+		ruling = [
+					"Q: When this card itself is added to my Digimon's digivolution cards, does this card's inherited effect activate?",
+					"A: Yes, it activates.",
+]
 
 class BT8_006 extends Card:
 	func _init():
@@ -207,9 +196,15 @@ class BT8_006 extends Card:
 		rarity = Rarity.U
 		id = "BT8-006"
 		level = 2
-		stage_level = Stage.IN_TRAINING
+		stage_level = Stage.HYBRID
 		digimon_type = "Lesser"
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When a card is trashed from your deck, [Draw 1]."
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When a card is trashed from your deck, <Draw 1> (Draw 1 card from your deck)."
+		ruling = [
+					"Q: Does this card's inherited effect activate even if cards are trashed from my deck by my own effects?",
+					"A: Yes, it activates.",
+					"Q: Does this card's inherited effect activate when an effect reveals cards from my deck and \"trash any remaining cards\"?",
+					"A: No, cards that revealed from deck then trashed are not treated as \"trashed from deck\".",
+]
 
 class BT8_007 extends Card:
 	func _init():
@@ -220,11 +215,8 @@ class BT8_007 extends Card:
 		id = "BT8-007"
 		play_cost = 2
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Mammal"
 		power = 3000
 
@@ -237,36 +229,12 @@ class BT8_008 extends Card:
 		id = "BT8-008"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Ceratopsian"
 		power = 2000
-		effect_text = "[Your Turn] [Once Per Turn] When you play a red Tamer, [Draw 1]."
+		effect_text = "[Your Turn] (Once Per Turn) When you play a red Tamer, <Draw 1> (Draw 1 card from your deck)."
 		inherited_effect_text = "[When Attacking] If this Digimon has 6000 DP or more, delete 1 of your opponent's Digimon with 3000 DP or less."
-
-class BT8_008_B extends Card:
-	func _init():
-		name = "Gammamon"
-		type = Type.DIGIMON
-		color = ColorGroup.RED
-		rarity = Rarity.R
-		id = "BT8-008 (B)"
-		play_cost = 3
-		level = 3
-		stage_level = Stage.ROOKIE
-		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
-		digimon_type = "Ceratopsian"
-		power = 2000
-		effect_text = "[Your Turn] [Once Per Turn] When you play a red Tamer, [Draw 1]."
-		inherited_effect_text = "[When Attacking] If this Digimon has 6000 DP or more, delete 1 of your opponent's Digimon with 3000 DP or less."
-		is_parallel = true
-		notes = "parallel promo"
 
 class BT8_009 extends Card:
 	func _init():
@@ -277,40 +245,20 @@ class BT8_009 extends Card:
 		id = "BT8-009"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.YELLOW
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 0
 		digivolve_level_2 = 2
 		digimon_type = "Avian"
 		power = 2000
 		effect_text = "[On Play] Reveal the top 4 cards of your deck. Add 1 2-color red card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-
-class BT8_009_B extends Card:
-	func _init():
-		name = "Hawkmon"
-		type = Type.DIGIMON
-		color = ColorGroup.RED
-		rarity = Rarity.U
-		id = "BT8-009 (B)"
-		play_cost = 3
-		level = 3
-		stage_level = Stage.ROOKIE
-		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.YELLOW
-		digivolve_cost_2 = 0
-		digivolve_level_2 = 2
-		digimon_type = "Avian"
-		power = 2000
-		effect_text = "[On Play] Reveal the top 4 cards of your deck. Add 1 2-color red card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-		is_parallel = true
-		notes = "parallel promo"
+		ruling = [
+					"Q: Can I add an option card with 2 colours that includes red to my hand with this card's effect?",
+					"A: Yes, you can.",
+					"Q: Can I add a card with an effect that says \"This colour of this Digimon is also treated as red\" to my hand with this card's effect?",
+					"A: No, you cannot.",
+]
 
 class BT8_010 extends Card:
 	func _init():
@@ -321,18 +269,19 @@ class BT8_010 extends Card:
 		id = "BT8-010"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 2
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.YELLOW
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 2
 		digivolve_level_2 = 3
 		digimon_type = "Giant Bird"
 		power = 4000
 		effect_text = "When playing this card from your hand, reduce its play cost by 1 if you have a yellow Digimon in play."
 		inherited_effect_text = "[When Attacking] If you have a yellow Digimon in play, delete 1 of your opponent's Digimon with 5000 DP or less."
+		ruling = [
+					"Q: Does this card's effect reduce its play cost by 2 if I have 2 yellow Digimon in play?",
+					"A: No, even if you have 2 yellow Digimon in play, this effect only reduces its play cost by 1.",
+]
 
 class BT8_011 extends Card:
 	func _init():
@@ -343,12 +292,9 @@ class BT8_011 extends Card:
 		id = "BT8-011"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 2
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.BLACK
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 2
 		digivolve_level_2 = 3
 		digimon_type = "Dragonkin"
@@ -367,33 +313,16 @@ class BT8_012 extends Card:
 		level = 4
 		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 3
-		digivolve_level = 3
 		digimon_type = "Dragonkin"
 		power = 5000
-		effect_text = "Digivolve from [Veemon] for [2] cost[Armor Release].\n[When Attacking] This Digimon gets +3000 DP for the turn."
+		effect_text = "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Attacking] This Digimon gets +3000 DP for the turn."
+		ruling = [
+					"Q: After this card gets +3000 DP from its [When Attacking] effect, if I activate <Armor Purge> to trash this card. What happens to the +3000 DP?",
+					"A: As the effect has already been activated, the +3000 DP effect will continue \"for the turn\".",
+					"Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Veemon]>\", written in the text for [BT8-021 Flamedramon], as an effect? Can [BT8-021 Flamedramon] digivolve from [Veemon] in the breeding area?",
+					"A: Yes, [BT8-021 Flamedramon] can digivolve from [Veemon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area.",
+]
 		notes = "Fladramon"
-
-class BT8_012_B extends Card:
-	func _init():
-		name = "Flamedramon"
-		type = Type.DIGIMON
-		color = ColorGroup.RED
-		rarity = Rarity.R
-		id = "BT8-012 (B)"
-		play_cost = 5
-		level = 4
-		stage_level = Stage.HYBRID
-		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 3
-		digivolve_level = 3
-		digimon_type = "Dragonkin"
-		power = 5000
-		effect_text = "Digivolve from [Veemon] for [2] cost[Armor Release].\n[When Attacking] This Digimon gets +3000 DP for the turn."
-		is_parallel = true
-		notes = "parallel promo Fladramon"
 
 class BT8_013 extends Card:
 	func _init():
@@ -404,14 +333,11 @@ class BT8_013 extends Card:
 		id = "BT8-013"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Dragonkin"
 		power = 6000
-		effect_text = "[When Digivolved] [Blitz]."
+		effect_text = "[When Digivolving] <Blitz> (If your opponent has 1 or more memory, this Digimon may attack)."
 
 class BT8_014 extends Card:
 	func _init():
@@ -422,11 +348,8 @@ class BT8_014 extends Card:
 		id = "BT8-014"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 2
-		digivolve_level = 4
 		digimon_type = "Flame"
 		power = 7000
 
@@ -439,17 +362,14 @@ class BT8_015 extends Card:
 		id = "BT8-015"
 		play_cost = 8
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 4
-		digivolve_level = 4
-		digivolve_color_2 = ColorGroup.YELLOW
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 4
 		digivolve_level_2 = 4
 		digimon_type = "Beastkin"
 		power = 8000
-		effect_text = "<DNA Digivolve: [Red] + [4|Yellow|4]: [0]>\n[When Digivolved] 1 of your opponent's Digimon gets -5000 DP for the turn. Then, when DNA digivolving, delete 1 of your opponent's Digimon with 5000 DP or less."
+		effect_text = "[When Digivolving] 1 of your opponent's Digimon gets -5000 DP for the turn. Then, when DNA digivolving, delete 1 of your opponent's Digimon with 5000 DP or less."
 		inherited_effect_text = "[When Attacking] Delete 1 of your opponent's Digimon with 5000 DP or less."
 
 class BT8_016 extends Card:
@@ -461,18 +381,19 @@ class BT8_016 extends Card:
 		id = "BT8-016"
 		play_cost = 8
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 4
-		digivolve_level = 4
-		digivolve_color_2 = ColorGroup.GREEN
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 4
 		digivolve_level_2 = 4
 		digimon_type = "Dinosaur"
 		power = 8000
-		effect_text = "[Your Turn] All of your Digimon with Tyrannomon, text=in their name gain [Security Attack +1]."
-		inherited_effect_text = "[Security Attack +1]."
+		effect_text = "[Your Turn] All of your Digimon with [Tyrannomon] in their name gain <Security Attack +1> (This Digimon checks 1 additional security card)."
+		inherited_effect_text = "<Security Attack +1> (This Digimon checks 1 additional security card)."
+		ruling = [
+					"Q: Does this card count itself as a Digimon with [Tyrannomon] in its name for this card's effect to gain <Security Attack +1>?",
+					"A: Yes, it does.",
+]
 
 class BT8_017 extends Card:
 	func _init():
@@ -483,15 +404,12 @@ class BT8_017 extends Card:
 		id = "BT8-017"
 		play_cost = 10
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 3
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.BLACK
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 3
 		digivolve_level_2 = 5
-		digimon_type = "Cyborg"
+		digimon_type = "Cyborg/X Antibody"
 		power = 13000
 		notes = "UltimateBrachimon"
 
@@ -504,12 +422,9 @@ class BT8_018 extends Card:
 		id = "BT8-018"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 3
-		digivolve_level = 5
-		digimon_type = "Shaman"
+		digimon_type = "Shaman/Olympos XII"
 		power = 11000
 		effect_text = "[Your Turn] This Digimon can also attack your opponent's unsuspended Digimon."
 
@@ -522,14 +437,23 @@ class BT8_019 extends Card:
 		id = "BT8-019"
 		play_cost = 13
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.RED
-		digivolve_cost = 5
-		digivolve_level = 5
-		digimon_type = "Holy Bird"
+		digimon_type = "Holy Bird/Four Sovereigns"
 		power = 13000
-		effect_text = "[When Digivolved] Your opponent chooses 1 of their Digimon. Delete all Digimon other than this Digimon and your opponent's chosen Digimon. For each Digimon deleted by this effect, gain 1 memory.\n[Your Turn] When an opponent's Digimon is deleted, this Digimon gains [Security Attack +1] for the turn for each of your opponent's Digimon deleted."
+		effect_text = "[When Digivolving] Your opponent chooses 1 of their Digimon. Delete all Digimon other than this Digimon and your opponent's chosen Digimon. For each Digimon deleted by this effect, gain 1 memory.\n[Your Turn] When an opponent's Digimon is deleted, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn for each of your opponent's Digimon deleted."
+		ruling = [
+					"Q: What does this card's [When Digivolving] effect do exactly?",
+					"A: Other than this Digimon and 1 of your opponent's Digimon that was chosen, delete all of you and your opponent's Digimon, and gain 1 memory for each Digimon that was deleted by this effect.",
+					"Q: Does this card's [When Digivolving] effect also delete Digimon in breeding area?",
+					"A: No, Digimon in breeding area cannot be a target of any effects, so they are not deleted.",
+					"Q: Can my opponent choose the Digimon in their breeding area for this card's [When Digivolving] effect?",
+					"A: No, Digimon in breeding area cannot be a target of any effects, so they cannot be chosen. Also, regardless of the choice, this effect does not delete Digimon in breeding area.",
+					"Q: What happens to this card's [When Digivolving] effect if my opponent does not have a single Digimon in their battle area?",
+					"A: Delete all of your Digimon except this Digimon, then gain 1 memory for each Digimon deleted.",
+					"Q: When Digimon would be deleted by this effect, can my opponent activate <Decoy> or <Armor Purge> etc, to stop their Digimon that was not chosen, from being deleted?",
+					"A: Yes, they can.",
+]
 
 class BT8_020 extends Card:
 	func _init():
@@ -540,17 +464,24 @@ class BT8_020 extends Card:
 		id = "BT8-020"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.YELLOW
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 0
 		digivolve_level_2 = 2
 		digimon_type = "Mammal"
 		power = 3000
 		inherited_effect_text = "[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve cost."
+		ruling = [
+					"Q: What kind of effect is this card's inherited effect?",
+					"A: At the end of your turn, the Digimon that has this card in its digivolution cards, and 1 of your other Digimon, can DNA digivolve into a Digimon in your hand that can DNA digivolve, before the turn is passed to your opponent.",
+					"Q: Can I use this card's inherited effect to DNA digivolve into a Digimon card in my hand that does not have a DNA digivolve effect?",
+					"A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve into a Digimon card without a DNA digovolution effect.",
+					"Q: Can I use this card's inherited effect to DNA digivolve my Digimon in play that is not the colour and level specified by the card with DNA digivolve in my hand?",
+					"A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve your Digimon that is not the correct colour or level  specified by the card with DNA digivolve.",
+					"Q: This card's [End of Your Turn] effect has triggered, and the Digimon it is underneath is used as part of a DNA Digivolve. Can I still activate this effect?",
+					"A: No, the Digimon from DNA Digivolve is treated as a new Digimon so the old DIgimon is no longer in the battle area.",
+]
 
 class BT8_021 extends Card:
 	func _init():
@@ -561,17 +492,20 @@ class BT8_021 extends Card:
 		id = "BT8-021"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.GREEN
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 0
 		digivolve_level_2 = 2
 		digimon_type = "Mini Dragon"
 		power = 2000
 		effect_text = "[On Play] Reveal the top 4 cards of your deck. Add 1 2-color blue card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		ruling = [
+					"Q: Can I add an option card with 2 colours that includes blue to my hand with this card's effect?",
+					"A: Yes, you can.",
+					"Q: Can I add a card with an effect that says \"This colour of this Digimon is also treated as blue\" to my hand with this card's effect?.",
+					"A: No, you cannot.",
+]
 		notes = "V-mon"
 
 class BT8_022 extends Card:
@@ -583,7 +517,7 @@ class BT8_022 extends Card:
 		id = "BT8-022"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
 		digimon_type = "Dinosaur"
 		power = 2000
@@ -601,12 +535,15 @@ class BT8_023 extends Card:
 		level = 4
 		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 3
-		digimon_type = "Sea Animal"
+		digimon_type = "Aquatic"
 		power = 4000
-		effect_text = "Digivolve from [Armadillomon] for [2] cost[Armor Release].\n[When Digivolved] Trash the bottom digivolution card of 1 of your opponent's Digimon. Then, 1 of your opponent's Digimon with no digivolution cards gets -3000 DP for the turn."
+		effect_text = "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Digivolving] Trash the bottom digivolution card of 1 of your opponent's Digimon. Then, 1 of your opponent's Digimon with no digivolution cards gets -3000 DP for the turn."
+		ruling = [
+					"Q: For this card's [When Digivolving] effect, if my opponent has no Digimon with digivolution cards, thus no digivolution card can be trashed, does that mean the part of \"1 of your opponent's Digimon without digivolution cards gets -3000 DP\" cannot activate?",
+					"A: No, even if you couldn't trash any digivolution card of your opponent's Digimon, the effect \"1 of your opponent's Digimon without digivolution cards gets -3000 DP\" will still activate.",
+					"Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Armadillomon]>\", written in the text for [BT8-023 Submarimon], as an effect? Can [BT8-023 Submarimon] digivolve from [Armadillomon] in the breeding area?",
+					"A: Yes, [BT8-023 Submarimon] can digivolve from [Armadillomon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)",
+]
 
 class BT8_024 extends Card:
 	func _init():
@@ -617,18 +554,21 @@ class BT8_024 extends Card:
 		id = "BT8-024"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.YELLOW
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 3
 		digivolve_level_2 = 3
 		digimon_type = "Angel"
 		power = 6000
-		effect_text = "[Your Turn] When this Digimon would digivolve, if you have 3 or fewer security cards, [Recovery +1]."
+		effect_text = "[Your Turn] When this Digimon would digivolve, if you have 3 or fewer security cards, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack)."
 		inherited_effect_text = "[When Attacking] If you have 3 or more security cards, return 1 of your opponent's level 3 Digimon to its owner's hand."
+		ruling = [
+					"Q: When exactly is the timing to activate this card's [Your Turn] effect of <Recovery +1 (Deck)>?",
+					"A: \"When this Digimon would digivolve\" is after declaring a digivolution, but before paying the digivolution cost.",
+					"Q: Does this card's [Your Turn] effect activate even when DNA digivolving?",
+					"A: Yes, it activates.",
+]
 
 class BT8_025 extends Card:
 	func _init():
@@ -639,12 +579,9 @@ class BT8_025 extends Card:
 		id = "BT8-025"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 2
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.BLACK
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 2
 		digivolve_level_2 = 3
 		digimon_type = "Mutant"
@@ -662,32 +599,13 @@ class BT8_026 extends Card:
 		level = 4
 		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 5000
-		effect_text = "Digivolve from [Hawkmon] for [2] cost[Armor Release].\n[When Attacking] Delete 1 of your opponent's level 3 Digimon."
-
-class BT8_026_B extends Card:
-	func _init():
-		name = "Halsemon"
-		type = Type.DIGIMON
-		color = ColorGroup.BLUE
-		rarity = Rarity.R
-		id = "BT8-026 (B)"
-		play_cost = 5
-		level = 4
-		stage_level = Stage.HYBRID
-		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 3
-		digimon_type = "Beast"
-		power = 5000
-		effect_text = "Digivolve from [Hawkmon] for [2] cost[Armor Release].\n[When Attacking] Delete 1 of your opponent's level 3 Digimon."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Attacking] Delete 1 of your opponent's level 3 Digimon."
+		ruling = [
+					"Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Hawkmon]>\", written in the text for [BT8-026 Halsemon], as an effect? Can [BT8-026 Halsemon] digivolve from [Hawkmon] in the breeding area?",
+					"A: Yes, [BT8-026 Halsemon] can digivolve from [Hawkmon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)",
+]
 
 class BT8_027 extends Card:
 	func _init():
@@ -698,11 +616,8 @@ class BT8_027 extends Card:
 		id = "BT8-027"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 0
-		digivolve_level = 4
 		digimon_type = "Crustacean"
 		power = 8000
 		notes = "Anomalocarimon"
@@ -716,14 +631,17 @@ class BT8_028 extends Card:
 		id = "BT8-028"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Marine Man"
 		power = 7000
-		effect_text = "[All Turns] When your opponent plays a level 5 or higher Digimon, gain 1 memory and [Draw 1]."
+		effect_text = "[All Turns] When your opponent plays a level 5 or higher Digimon, gain 1 memory and <Draw 1> (Draw 1 card from your deck)."
+		ruling = [
+					"Q: Does this card's effect activate if my opponent's Digimon digivolves into level 5 or above?",
+					"A: No, digivolving a Digimon is not playing it, so it does not activate.",
+					"Q: Does this card's effect activate when my opponent moves a level 5 or above Digimon from breeding area to battle area?",
+					"A: No, moving a Digimon from breeding area is not playing it, so it does not activate.",
+]
 
 class BT8_029 extends Card:
 	func _init():
@@ -734,15 +652,18 @@ class BT8_029 extends Card:
 		id = "BT8-029"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Machine"
 		power = 7000
-		effect_text = "[Blocker]\n[Your Turn] While your opponent has a Digimon with a digivolution card in play, this Digimon can't attack."
-		inherited_effect_text = "[All Turns] [Once Per Turn] When a digivolution card of an opponent's Digimon is trashed, return 1 of your opponent's level 3 Digimon to its owner's hand."
+		effect_text = "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead)\n[Your Turn] While your opponent has a Digimon with a digivolution card in play, this Digimon can't attack."
+		inherited_effect_text = "[All Turns] (Once Per Turn) When a digivolution card of an opponent's Digimon is trashed, return 1 of your opponent's level 3 Digimon to its owner's hand."
+		ruling = [
+					"Q: When my opponent has a Digimon with digivolution cards in their breeding area, does that mean this Digimon cannot attack?",
+					"A: No, Digimon in breeding area are not referenced for effects, so it can attack.",
+					"Q: Does this card's inherited effect activate when my opponent activates <Digi-Burst>?",
+					"A: Yes, it activates.",
+]
 
 class BT8_030 extends Card:
 	func _init():
@@ -753,12 +674,9 @@ class BT8_030 extends Card:
 		id = "BT8-030"
 		play_cost = 10
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.BLACK
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 3
 		digivolve_level_2 = 5
 		digimon_type = "Cyborg"
@@ -773,14 +691,11 @@ class BT8_031 extends Card:
 		id = "BT8-031"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 4
-		digivolve_level = 5
 		digimon_type = "Giant Bird"
 		power = 12000
-		effect_text = "[When Digivolved] Trash the top digivolution card of 1 of your opponent's Digimon. Then, return 1 of your opponent's Digimon with no digivolution cards to its owner's hand.\n[Opponent Turn] All of your opponent's Digimon gain \"[When Attacking] Trash the bottom digivolution card of this Digimon.\""
+		effect_text = "[When Digivolving] Trash the top digivolution card of 1 of your opponent's Digimon. Then, return 1 of your opponent's Digimon with no digivolution cards to its owner's hand.\n[Opponent's Turn] All of your opponent's Digimon gain \"[When Attacking] Trash the bottom digivolution card of this Digimon.\""
 
 class BT8_032 extends Card:
 	func _init():
@@ -791,40 +706,22 @@ class BT8_032 extends Card:
 		id = "BT8-032"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 5
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.GREEN
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 5
 		digivolve_level_2 = 5
 		digimon_type = "Ancient Dragonkin"
 		power = 13000
-		effect_text = "Digivolve from [Dragon Mode] for [2] cost[When Digivolved] Return 1 of your opponent's Digimon with 10000 DP or less to its owner's hand.\n[When Attacking] [Once Per Turn] If a blue card is in this Digimon's digivolution cards, unsuspend 1 of your Digimon. If a green card is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon."
-
-class BT8_032_B extends Card:
-	func _init():
-		name = "Imperialdramon Fighter Mode"
-		type = Type.DIGIMON
-		color = ColorGroup.BLUE
-		rarity = Rarity.SR
-		id = "BT8-032 (B)"
-		play_cost = 12
-		level = 6
-		stage_level = Stage.MEGA
-		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 5
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.GREEN
-		digivolve_cost_2 = 5
-		digivolve_level_2 = 5
-		digimon_type = "Ancient Dragonkin"
-		power = 13000
-		effect_text = "Digivolve from [Dragon Mode] for [2] cost[When Digivolved] Return 1 of your opponent's Digimon with 10000 DP or less to its owner's hand.\n[When Attacking] [Once Per Turn] If a blue card is in this Digimon's digivolution cards, unsuspend 1 of your Digimon. If a green card is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "[When Digivolving] Return 1 of your opponent's Digimon with 10000 DP or less to its owner's hand.\n[When Attacking] (Once Per Turn) If a blue card is in this Digimon's digivolution cards, unsuspend 1 of your Digimon. If a green card is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon."
+		ruling = [
+					"Q: Do both of this card's [When Attacking] effects activate if it has both blue and green cards its digivolution cards?",
+					"A: Yes, both activate.",
+					"Q: Do both of this card's [When Attacking] effects activate if it only has 1 two-coloured card that is both blue and green its digivolution cards?",
+					"A: Yes, both activate.",
+					"Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 if name contains [Dragon Mode]>\", written in the text for [BT8-032 Imperialdramon Fighter Mode], as an effect? Can [BT8-032 Imperialdramon Fighter Mode] digivolve a Digimon whose name contains [Dragon Mode] in the breeding area?",
+					"A: Yes, [BT8-032 Imperialdramon Fighter Mode] can digivolve from a Digimon Template:EffectLinkNames in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)",
+]
 
 class BT8_033 extends Card:
 	func _init():
@@ -835,41 +732,21 @@ class BT8_033 extends Card:
 		id = "BT8-033"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.BLUE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 0
 		digivolve_level_2 = 2
 		digimon_type = "Mammal"
 		power = 2000
 		effect_text = "[On Play] Reveal the top 4 cards of your deck. Add 1 2-color yellow card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		ruling = [
+					"Q: Can I add an option card with 2 colours that includes yellow to my hand with this card's effect?",
+					"A: Yes, you can.",
+					"Q: Can I add a card with an effect that says \"This colour of this Digimon is also treated as yellow\" to my hand with this card's effect?",
+					"A: No, you cannot.",
+]
 		notes = "Armadimon"
-
-class BT8_033_B extends Card:
-	func _init():
-		name = "Armadillomon"
-		type = Type.DIGIMON
-		color = ColorGroup.YELLOW
-		rarity = Rarity.U
-		id = "BT8-033 (B)"
-		play_cost = 3
-		level = 3
-		stage_level = Stage.ROOKIE
-		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.BLUE
-		digivolve_cost_2 = 0
-		digivolve_level_2 = 2
-		digimon_type = "Mammal"
-		power = 2000
-		effect_text = "[On Play] Reveal the top 4 cards of your deck. Add 1 2-color yellow card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-		is_parallel = true
-		notes = "parallel promo Armadimon"
 
 class BT8_034 extends Card:
 	func _init():
@@ -880,7 +757,7 @@ class BT8_034 extends Card:
 		id = "BT8-034"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
 		digimon_type = "Mammal"
 		power = 4000
@@ -894,17 +771,14 @@ class BT8_035 extends Card:
 		id = "BT8-035"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.PURPLE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 0
 		digivolve_level_2 = 2
 		digimon_type = "Flame"
 		power = 2000
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When you play another purple Digimon, gain 1 memory."
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When you play another purple Digimon, gain 1 memory."
 		notes = "Candmon"
 
 class BT8_036 extends Card:
@@ -916,18 +790,19 @@ class BT8_036 extends Card:
 		id = "BT8-036"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 2
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.BLUE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 2
 		digivolve_level_2 = 3
 		digimon_type = "Ankylosaur"
 		power = 4000
 		effect_text = "When playing this card from your hand, reduce its play cost by 1 if you have a blue Digimon in play."
 		inherited_effect_text = "[When Attacking] If you have a blue Digimon in play, 1 of your opponent's Digimon gets -3000 DP for the turn."
+		ruling = [
+					"Q: Does this card's inherited effect activate when the Digimon itself that has this card in its digivolution card is a blue Digimon?",
+					"A: Yes, it activates.",
+]
 
 class BT8_037 extends Card:
 	func _init():
@@ -938,12 +813,9 @@ class BT8_037 extends Card:
 		id = "BT8-037"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 2
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.RED
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 2
 		digivolve_level_2 = 3
 		digimon_type = "Dragonkin"
@@ -961,38 +833,18 @@ class BT8_038 extends Card:
 		level = 4
 		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 4
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.BLUE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 4
 		digivolve_level_2 = 3
-		digimon_type = "Holy Warrior"
+		digimon_type = "Holy Warrior/Royal Knight"
 		power = 7000
-		effect_text = "Digivolve from [Veemon] for [3] cost[Blocker].\n[Armor Release].\n[When Digivolved] Unsuspend this Digimon, and it gets +2000 DP until the end of your opponent's next turn for each card with [Armor Form] in your trash."
-
-class BT8_038_B extends Card:
-	func _init():
-		name = "Magnamon"
-		type = Type.DIGIMON
-		color = ColorGroup.YELLOW
-		rarity = Rarity.SR
-		id = "BT8-038 (B)"
-		play_cost = 7
-		level = 4
-		stage_level = Stage.HYBRID
-		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 4
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.BLUE
-		digivolve_cost_2 = 4
-		digivolve_level_2 = 3
-		digimon_type = "Holy Warrior"
-		power = 7000
-		effect_text = "Digivolve from [Veemon] for [3] cost[Blocker].\n[Armor Release].\n[When Digivolved] Unsuspend this Digimon, and it gets +2000 DP until the end of your opponent's next turn for each card with [Armor Form] in your trash."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Digivolving] Unsuspend this Digimon, and it gets +2000 DP until the end of your opponent's next turn for each card with [Armor Form] in their traits in your trash."
+		ruling = [
+					"Q: After this card gets +2000 DP for each Digimon card with [Armor Form] in its traits in my trash from its [When Digivolving] effect, if I activate <Armor Purge> to trash this card, what happens to the instances of +2000 DP?",
+					"A: As the effect has already been activated, the instances of +2000 DP will persist \"until the end of your opponent's next turn\".",
+					"Q: Do you treat the special digivolution requirements of \"<Digivolve: 3 from [Veemon]>\", written in the text for [BT8-038 Magnamon], as an effect? Can [BT8-038 Magnamon] digivolve from [Veemon] in the breeding area?",
+					"A: Yes, [BT8-038 Magnamon] can digivolve from [Veemon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)",
+]
 
 class BT8_039 extends Card:
 	func _init():
@@ -1005,38 +857,18 @@ class BT8_039 extends Card:
 		level = 4
 		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 4
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.GREEN
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 4
 		digivolve_level_2 = 3
 		digimon_type = "Holy Warrior"
 		power = 6000
-		effect_text = "Digivolve from [Terriermon] for [3] cost[Armor Release].\n[When Digivolved] Suspend 1 of your opponent's Digimon for each Tamer you have in play. Then, up to 3 of your opponent's suspended Digimon get -5000 DP for the turn."
-
-class BT8_039_B extends Card:
-	func _init():
-		name = "Rapidmon"
-		type = Type.DIGIMON
-		color = ColorGroup.YELLOW
-		rarity = Rarity.SR
-		id = "BT8-039 (B)"
-		play_cost = 6
-		level = 4
-		stage_level = Stage.HYBRID
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 4
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.GREEN
-		digivolve_cost_2 = 4
-		digivolve_level_2 = 3
-		digimon_type = "Holy Warrior"
-		power = 6000
-		effect_text = "Digivolve from [Terriermon] for [3] cost[Armor Release].\n[When Digivolved] Suspend 1 of your opponent's Digimon for each Tamer you have in play. Then, up to 3 of your opponent's suspended Digimon get -5000 DP for the turn."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Digivolving] Suspend 1 of your opponent's Digimon for each Tamer you have in play. Then, up to 3 of your opponent's suspended Digimon get -5000 DP for the turn."
+		ruling = [
+					"Q: Does this card's [When Digivolving] effect give up to 6 of my opponent's Digimon -5000 DP if I have 2 tamers in play?",
+					"A: No, regardless of how many tamers you have in play, only up to 3 Digimon get -5000 DP .",
+					"Q: Do you treat the special digivolution requirements of \"<Digivolve: 3 from [Terriermon]>\", written in the text for [BT8-039 Rapidmon], as an effect? Can [BT8-039 Rapidmon] digivolve from [Terriermon] in the breeding area?",
+					"A: Yes, [BT8-039 Rapidmon] can digivolve from [Terriermon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)",
+]
 
 class BT8_040 extends Card:
 	func _init():
@@ -1047,14 +879,17 @@ class BT8_040 extends Card:
 		id = "BT8-040"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Puppet"
 		power = 7000
-		effect_text = "[When Digivolved] You may trash 1 card in your hand to treat this Digimon as also having the colors of the trashed card for the turn. Then, if this Digimon has 2 or more colors, [Draw 2]."
+		effect_text = "[When Digivolving] You may trash 1 card in your hand to treat this Digimon as also having the colors of the trashed card for the turn. Then, if this Digimon has 2 or more colors, <Draw 2> (Draw 2 cards from your deck)."
+		ruling = [
+					"Q: If I trash a red card for this card's effect, does this Digimon then count as having 2 colours of yellow & red, letting me draw 2 cards?",
+					"A: Yes, it counts as having 2 colours, so you draw 2.",
+					"Q: If I trash a blue/green 2-coloured card for this card's effect, does this Digimon then count as having 3 colours of yellow, blue, & green?",
+					"A: Yes, it is counted as a 3-coloured Digimon.",
+]
 
 class BT8_041 extends Card:
 	func _init():
@@ -1065,12 +900,9 @@ class BT8_041 extends Card:
 		id = "BT8-041"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 3
-		digivolve_level = 4
-		digivolve_color_2 = ColorGroup.PURPLE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 3
 		digivolve_level_2 = 4
 		digimon_type = "Mysterious Beast"
@@ -1085,17 +917,14 @@ class BT8_042 extends Card:
 		id = "BT8-042"
 		play_cost = 8
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 4
-		digivolve_level = 4
-		digivolve_color_2 = ColorGroup.BLUE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 4
 		digivolve_level_2 = 4
 		digimon_type = "Mutant"
 		power = 8000
-		effect_text = "<DNA Digivolve: [Yellow] + [4|Blue|4]: [0]>\n[When Digivolved] If you have 5 or fewer security cards, [Recovery +1]. Then, when DNA digivolving, return 1 of your opponent's Digimon whose level is less than or equal to the number of cards in your security stack to its owner's hand."
+		effect_text = "[When Digivolving] If you have 5 or fewer security cards, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack). Then, when DNA digivolving, return 1 of your opponent's Digimon whose level is less than or equal to the number of cards in your security stack to its owner's hand."
 		inherited_effect_text = "[When Attacking] 1 of your opponent's Digimon gets -3000 DP for the turn."
 
 class BT8_043 extends Card:
@@ -1107,17 +936,20 @@ class BT8_043 extends Card:
 		id = "BT8-043"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 4
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.PURPLE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 4
 		digivolve_level_2 = 5
-		digimon_type = "Cherub"
+		digimon_type = "Cherub/Three Great Angels"
 		power = 12000
-		effect_text = "When playing this card from your hand, you may delete 1 of your purple [Cherubimon] to reduce this card's play cost by 8.\n[On Play] [When Digivolved] For each Tamer you have in play, activate the effect below.\n·1 of your opponent's Digimon gets [Security Attack -2] until the end of your opponent's next turn."
+		effect_text = "When playing this card from your hand, you may delete 1 of your purple [Cherubimon] to reduce this card's play cost by 8.\n[On Play] [When Digivolving] For each Tamer you have in play, activate the effect below.\n・1 of your opponent's Digimon gets <Security Attack -2> (This Digimon checks 2 fewer security cards) until the end of your opponent's next turn."
+		ruling = [
+					"Q: For this card's [On Play] [When Digivolving] effect, when I have multiple tamers in play, can I choose that many separate Digimon to give <Security Attack -2>?",
+					"A: Yes, this [On Play] [When Digivolving] effect is activated as many times as the number of your tamers in play, so you can choose different targets for each activation.",
+					"Q: When this card's [On Play] [When Digivolving] effect activates 2 or more times, are they considered to be activated in separate different timings?",
+					"A: No, they are treated to be activated at the same time.",
+]
 
 class BT8_044 extends Card:
 	func _init():
@@ -1128,17 +960,18 @@ class BT8_044 extends Card:
 		id = "BT8-044"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 3
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.BLUE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 3
 		digivolve_level_2 = 5
-		digimon_type = "Holy Dragon"
+		digimon_type = "Holy Dragon/Four Great Dragons/Four Sovereigns"
 		power = 11000
-		effect_text = "[When Attacking] You may trash the top card of your security stack to gain 2 memory.\n[Your Turn] [Once Per Turn] When one of your other Digimon digivolves, you may unsuspend it."
+		effect_text = "[When Attacking] You may trash the top card of your security stack to gain 2 memory.\n[Your Turn] (Once Per Turn) When one of your other Digimon digivolves, you may unsuspend it."
+		ruling = [
+					"Q: When my suspended digimon digivolves into this Digimon, can its [Your Turn] effect unsuspend this Digimon?",
+					"A: No, it cannot. This card's [Your Turn] effect is an effect that unsuspends your other Digimon when they digivolve.",
+]
 		notes = "Blue"
 
 class BT8_045 extends Card:
@@ -1150,11 +983,8 @@ class BT8_045 extends Card:
 		id = "BT8-045"
 		play_cost = 2
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Mutant"
 		power = 3000
 
@@ -1167,14 +997,11 @@ class BT8_046 extends Card:
 		id = "BT8-046"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Beast"
 		power = 2000
-		effect_text = "[On Play] You may reveal the top 5 cards of your deck. Add 1 card with Gargomon, Rapidmon, text=in their name among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		effect_text = "[On Play] You may reveal the top 5 cards of your deck. Add 1 card with [Gargomon], or [Rapidmon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 
 class BT8_047 extends Card:
 	func _init():
@@ -1183,13 +1010,10 @@ class BT8_047 extends Card:
 		color = ColorGroup.GREEN
 		rarity = Rarity.C
 		id = "BT8-047"
-		play_cost = 2
+		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Beastkin"
 		power = 2000
 		inherited_effect_text = "[All Turns] This Digimon gets +1000 DP for each of your other suspended Digimon."
@@ -1205,12 +1029,15 @@ class BT8_048 extends Card:
 		level = 4
 		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 3
-		digivolve_level = 3
 		digimon_type = "Mutant"
 		power = 4000
-		effect_text = "Digivolve from [Hawkmon] for [2] cost[Armor Release].\n[When Digivolved] 1 of your opponent's Digimon with [Blocker] can't attack or block until the end of your opponent's next turn."
+		effect_text = "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Digivolving] 1 of your opponent's Digimon with <Blocker> can't attack or block until the end of your opponent's next turn."
+		ruling = [
+					"Q: When a Digimon that was targeted by this card's [When Digivolving] effect loses <Blocker> due to digivolving, DNA digivolving, or losing digivolution cards, does that Digimon then become able to attack and block?",
+					"A: No, at the point of time when this card's [When Digivolving] effect activates, if a Digimon was a valid target for having <Blocker>, this card's effect will still continue and that Digimon cannot attack and block even if it loses its <Blocker> afterwards.",
+					"Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Hawkmon]>\", written in the text for [BT8-048 Shurimon], as an effect? Can [BT8-048 Shurimon] digivolve from [Hawkmon] in the breeding area?",
+					"A: Yes, [BT8-048 Shurimon] can digivolve from [Hawkmon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)",
+]
 
 class BT8_049 extends Card:
 	func _init():
@@ -1221,11 +1048,8 @@ class BT8_049 extends Card:
 		id = "BT8-049"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Puppet"
 		power = 3000
 		effect_text = "[Main] You may suspend this Digimon to reveal the top 3 cards of your deck. Add 1 green Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order."
@@ -1239,15 +1063,16 @@ class BT8_050 extends Card:
 		id = "BT8-050"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Insectoid"
 		power = 5000
-		effect_text = "[When Digivolved] You may suspend 1 of your Digimon to suspend 1 of your opponent's Digimon."
+		effect_text = "[When Digivolving] You may suspend 1 of your Digimon to suspend 1 of your opponent's Digimon."
 		inherited_effect_text = "[All Turns] This Digimon gets +1000 DP for each of your other suspended Digimon."
+		ruling = [
+					"Q: For this card's [When Digivolving] effect, can it suspend itself to suspend 1 of my opponent's Digimon?",
+					"A: Yes, it can.",
+]
 
 class BT8_051 extends Card:
 	func _init():
@@ -1260,32 +1085,13 @@ class BT8_051 extends Card:
 		level = 4
 		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 3
-		digivolve_level = 3
 		digimon_type = "Insectoid"
 		power = 5000
-		effect_text = "Digivolve from [Armadillomon] for [2] cost[Armor Release].\n[When Attacking] 1 of your opponent's suspended Digimon gets -3000 DP for the turn."
-
-class BT8_051_B extends Card:
-	func _init():
-		name = "Digmon"
-		type = Type.DIGIMON
-		color = ColorGroup.GREEN
-		rarity = Rarity.R
-		id = "BT8-051 (B)"
-		play_cost = 5
-		level = 4
-		stage_level = Stage.HYBRID
-		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 3
-		digivolve_level = 3
-		digimon_type = "Insectoid"
-		power = 5000
-		effect_text = "Digivolve from [Armadillomon] for [2] cost[Armor Release].\n[When Attacking] 1 of your opponent's suspended Digimon gets -3000 DP for the turn."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Attacking] 1 of your opponent's suspended Digimon gets -3000 DP for the turn."
+		ruling = [
+					"Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Armadillomon]>\", written in the text for [BT8-051 Digmon], as an effect? Can [BT8-051 Digmon] digivolve from [Armadillomon] in the breeding area?",
+					"A: Yes, [BT8-051 Digmon] can digivolve from [Armadillomon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)",
+]
 
 class BT8_052 extends Card:
 	func _init():
@@ -1296,11 +1102,8 @@ class BT8_052 extends Card:
 		id = "BT8-052"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 1
-		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 5000
 
@@ -1309,18 +1112,19 @@ class BT8_053 extends Card:
 		name = "Lighdramon"
 		type = Type.DIGIMON
 		color = ColorGroup.GREEN
-		rarity = Rarity.SR
+		rarity = Rarity.R
 		id = "BT8-053"
 		play_cost = 5
 		level = 4
 		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 3
-		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 5000
-		effect_text = "Digivolve from [Veemon] for [2] cost[Armor Release].\n[When Digivolved] Suspend 1 of your opponent's level 4 or lower Digimon."
+		effect_text = "<Armor Purge>  (When this Digimon would be deleted, you may trash the top card of this Digimon to prevent that deletion).\n[When Digivolving] Suspend 1 of your opponent's level 4 or lower Digimon."
+		ruling = [
+					"Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Veemon]>\", written in the text for [BT8-053 Lighdramon], as an effect? Can [BT8-053 Lighdramon] digivolve from [Veemon] in the breeding area?",
+					"A: Yes, [BT8-053 Lighdramon] can digivolve from [Veemon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)",
+]
 
 class BT8_054 extends Card:
 	func _init():
@@ -1331,14 +1135,11 @@ class BT8_054 extends Card:
 		id = "BT8-054"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Vegetation"
 		power = 7000
-		effect_text = "[Digisorption -2]."
+		effect_text = "<Digisorption -2> (When one of your Digimon digivolves into this card from your hand, you may suspend 1 of your Digimon to reduce the memory cost of the digivolution by 2)."
 		inherited_effect_text = "[All Turns] This Digimon gets +1000 DP for each of your other suspended Digimon."
 
 class BT8_055 extends Card:
@@ -1350,11 +1151,11 @@ class BT8_055 extends Card:
 		id = "BT8-055"
 		play_cost = 8
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
 		digimon_type = "Insectoid"
 		power = 8000
-		effect_text = "[When Digivolved] If this Digimon is suspended, return 1 of your opponent's suspended Digimon with DP less than or equal to this Digimon's DP to its owner's hand."
+		effect_text = "[When Digivolving] If this Digimon is suspended, return 1 of your opponent's suspended Digimon with DP less than or equal to this Digimon's DP to its owner's hand."
 		inherited_effect_text = "[Your Turn] When this Digimon becomes unsuspended during your unsuspend phase, suspend 1 of your opponent's Digimon."
 
 class BT8_056 extends Card:
@@ -1366,12 +1167,9 @@ class BT8_056 extends Card:
 		id = "BT8-056"
 		play_cost = 10
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 3
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.RED
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 3
 		digivolve_level_2 = 5
 		digimon_type = "Dinosaur"
@@ -1386,34 +1184,17 @@ class BT8_057 extends Card:
 		id = "BT8-057"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 4
-		digivolve_level = 5
 		digimon_type = "Insectoid"
 		power = 12000
-		effect_text = "[Opponent Turn] While all of your Digimon are suspended, your opponent can't use Option cards.\n[Your Turn] When this Digimon becomes unsuspended during your unsuspend phase, trash the top card of your opponent's security stack."
-
-class BT8_057_B extends Card:
-	func _init():
-		name = "Shivamon"
-		type = Type.DIGIMON
-		color = ColorGroup.GREEN
-		rarity = Rarity.SR
-		id = "BT8-057 (B)"
-		play_cost = 12
-		level = 6
-		stage_level = Stage.MEGA
-		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.GREEN
-		digivolve_cost = 4
-		digivolve_level = 5
-		digimon_type = "Insectoid"
-		power = 12000
-		effect_text = "[Opponent Turn] While all of your Digimon are suspended, your opponent can't use Option cards.\n[Your Turn] When this Digimon becomes unsuspended during your unsuspend phase, trash the top card of your opponent's security stack."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "[Opponent's Turn] While all of your Digimon are suspended, your opponent can't use Option cards.\n[Your Turn] When this Digimon becomes unsuspended during your unsuspend phase, trash the top card of your opponent's security stack."
+		ruling = [
+					"Q: When my opponent has this Digimon in play, and on my turn after I used option cards such as [BT1-109 Smashed Potatoes] or [EX1-071 Win Rate: 60%] etc, to \"reduce the digivolution cost the next time my Digimon digivolves\", all of my opponent's Digimon then become suspended. In this scenario, do those option cards effects becomes nullified when my Digimon digivolves?",
+					"A: No, as those option cards are already used and their effects have already activated, they are not nullified by this card's [Opponent's Turn] effect.",
+					"Q: When my opponent has this Digimon in play, can I activate <Delay> of my option card with <Delay> that was already placed in my battle area from before?",
+					"A: Yes, you can. Activating the effect of <Delay> of an option card that was already placed in your battle area does not count as using an option card.",
+]
 
 class BT8_058 extends Card:
 	func _init():
@@ -1424,17 +1205,14 @@ class BT8_058 extends Card:
 		id = "BT8-058"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.RED
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 0
 		digivolve_level_2 = 2
 		digimon_type = "Reptile"
 		power = 2000
-		effect_text = "[On Play] Reveal the top 4 cards of your deck. Add 1 card with Greymon and 1 card with [Dragonkin] among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		effect_text = "[On Play] Reveal the top 4 cards of your deck. Add 1 card with [Greymon] in its name and 1 card with [Dragonkin] in its traits among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 
 class BT8_059 extends Card:
 	func _init():
@@ -1445,14 +1223,23 @@ class BT8_059 extends Card:
 		id = "BT8-059"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Machine"
 		power = 3000
 		effect_text = "[All Turns] Players can't ignore digivolution requirements."
+		ruling = [
+					"Q: What kind of effect is this card's effect?",
+					"A: This effect stops both players from digivolving with effects that says \"ignore digivolution requirements\", or from Digimon that do not meet the digivolution requirements.",
+					"Q: Does this card's effect stop effects of [Hybrid] form card's digivolutions of \"Your red tamer can digivolve into this card in your hand as if it was a red level 3 Digimon\" etc?",
+					"A: No, as it doesn't say \"Ignore digivolution requirements\", and it is digivolving according to the digivolution requirements while treating the tamer as a Digimon, it can digivolve.",
+					"Q: Does this card's effect stops DNA digivolutions or special digivolutions?",
+					"A: No, DNA digivolution and special digivolutions written on the cards are treated as the digivolution requirements, so they are not stopped by this card.",
+					"Q: When this Digimon is in play, can the effect \"can digivolve without paying its cost\" activate?",
+					"A: Yes, as activates, as it is an effect that allows digivolving without paying its cost without ignoring digivolution requirements.",
+					"Q: Can my opponent activate the effect of [BT6-087 Tai Kamiya] to ignore level while this card is in play?",
+					"A: No, your opponent cannot digivolve ignoring level while this card's [All Turns] effect is active.",
+]
 
 class BT8_060 extends Card:
 	func _init():
@@ -1463,36 +1250,12 @@ class BT8_060 extends Card:
 		id = "BT8-060"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 0
-		digivolve_level = 2
-		digimon_type = "Beast"
+		digimon_type = "Beast/X Antibody"
 		power = 1000
-		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [X-Antibody] and 1 [Yuji Musha] among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-		inherited_effect_text = "[All Turns] While this Digimon has [X-Antibody], it gains [Decoy]."
-
-class BT8_060_B extends Card:
-	func _init():
-		name = "Ryudamon"
-		type = Type.DIGIMON
-		color = ColorGroup.BLACK
-		rarity = Rarity.U
-		id = "BT8-060 (B)"
-		play_cost = 3
-		level = 3
-		stage_level = Stage.ROOKIE
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 0
-		digivolve_level = 2
-		digimon_type = "Beast"
-		power = 1000
-		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [X-Antibody] and 1 [Yuji Musha] among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-		inherited_effect_text = "[All Turns] While this Digimon has [X-Antibody], it gains [Decoy]."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [X Antibody] in its traits and 1 [Yuji Musha] among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		inherited_effect_text = "[All Turns] While this Digimon has [X Antibody] in its traits, it gains <Decoy (Black)>  (When one of your other black Digimon would be deleted by an opponent's effect, you may delete this Digimon to prevent that deletion)."
 
 class BT8_061 extends Card:
 	func _init():
@@ -1503,35 +1266,41 @@ class BT8_061 extends Card:
 		id = "BT8-061"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Mutant"
 		power = 6000
 		effect_text = "The name of this card/Digimon is also treated as [Mamemon]."
+		ruling = [
+					"Q: Does this card's effect treat this card as being [Mamemon] even in the hand, deck, trash, and digivolution cards?",
+					"A: Yes.",
+					"Q: Does this card's effect treat this card as being [Mamemon] even in breeding area?",
+					"A: No, as effects do not activate in the breeding area, this card/Digimon is not treated as being [Mamemon] in the breeding area.",
+]
 
 class BT8_062 extends Card:
 	func _init():
-		name = "SkullKnightmon: Cavalier Mode"
+		name = "SkullKnightmon Cavalier Mode"
 		type = Type.DIGIMON
 		color = ColorGroup.BLACK
 		rarity = Rarity.U
 		id = "BT8-062"
-		play_cost = 5
+		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 2
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.BLACK
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 1
 		digivolve_level_2 = 4
 		digimon_type = "Enhancement"
 		power = 5000
-		effect_text = "The name of this card/Digimon is also treated as [SkullKnightmon] and [DeadlyAxemon].\n[When Digivolved] This Digimon gains [Jamming] and [Blocker] until the end of your opponent's next turn."
+		effect_text = "The name of this card/Digimon is also treated as [SkullKnightmon] and [DeadlyAxemon].\n[When Digivolving] This Digimon gains <Jamming> (This Digimon can't be deleted in battles against Security Digimon) and <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead) until the end of your opponent's next turn."
+		ruling = [
+					"Q: Does this card's effect treat this card as being [SkullKnightmon] or [DeadlyAxemon] even in the hand, deck, trash, and digivolution cards?",
+					"A: Yes.",
+					"Q: Does this card's effect treat this card as being [SkullKnightmon] or [DeadlyAxemon] even in breeding area?",
+					"A: No, as effects do not activate in the breeding area, this card/Digimon is not treated as being [SkullKnightmon] or [DeadlyAxemon] in the breeding area.",
+]
 
 class BT8_063 extends Card:
 	func _init():
@@ -1542,14 +1311,11 @@ class BT8_063 extends Card:
 		id = "BT8-063"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 3
-		digivolve_level = 3
-		digimon_type = "Beast Dragon"
+		digimon_type = "Beast Dragon/X Antibody"
 		power = 6000
-		inherited_effect_text = "[Opponent Turn] While this Digimon has [X-Antibody], it gains [Blocker]."
+		inherited_effect_text = "[Opponent's Turn] While this Digimon has [X Antibody] in its traits, it gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead)."
 
 class BT8_064 extends Card:
 	func _init():
@@ -1560,17 +1326,18 @@ class BT8_064 extends Card:
 		id = "BT8-064"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 2
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.RED
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 2
 		digivolve_level_2 = 3
 		digimon_type = "Dinosaur"
 		power = 6000
-		inherited_effect_text = "[Opponent Turn] While you have a red Digimon in play, this Digimon gains [Blocker]."
+		inherited_effect_text = "[Opponent's Turn] While you have a red Digimon in play, this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead)."
+		ruling = [
+					"Q: Does this card's inherited effect activate when the Digimon itself that has this card in its digivolution card is a red Digimon?",
+					"A: Yes, it activates.",
+]
 
 class BT8_065 extends Card:
 	func _init():
@@ -1581,14 +1348,15 @@ class BT8_065 extends Card:
 		id = "BT8-065"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Mutant"
 		power = 7000
-		effect_text = "[When Digivolved] You may return up to 4 Digimon cards with Mamemon, text=in their name from your hand and/or trash to the top of your deck in any order. If you return 3 or more cards using this effect, [De-Digivolve 1]."
+		effect_text = "[When Digivolving] You may return up to 4 Digimon cards with [Mamemon] in their name from your hand and/or trash to the top of your deck in any order. If you return 3 or more cards using this effect, <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards)."
+		ruling = [
+					"Q: For this card's effect, can I return up to 4 Digimon cards with [Mamemon] in their names from both my hand and trash to the top of my deck?",
+					"A: Yes, you return up to 4 cards from both your hands and trash.",
+]
 
 class BT8_066 extends Card:
 	func _init():
@@ -1599,15 +1367,18 @@ class BT8_066 extends Card:
 		id = "BT8-066"
 		play_cost = 8
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 3
-		digivolve_level = 4
-		digimon_type = "Beast Dragon"
+		digimon_type = "Beast Dragon/X Antibody"
 		power = 8000
-		effect_text = "[Your Turn] When one of your effects places a digivolution card under this Digimon, you may digivolve this Digimon into a Digimon card in your hand with [X-Antibody] by paying its digivolution cost. When digivolving with this effect, reduce the digivolution cost by 1."
-		inherited_effect_text = "[Opponent Turn] While this Digimon has [X-Antibody], it gains [Reboot]."
+		effect_text = "[Your Turn] When one of your effects places a digivolution card under this Digimon, you may digivolve this Digimon into a Digimon card in your hand with [X Antibody] in its traits by paying its digivolution cost. When digivolving with this effect, reduce the digivolution cost by 1."
+		inherited_effect_text = "[Opponent's Turn] While this Digimon has [X Antibody] in its traits, it gains <Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase)."
+		ruling = [
+					"Q: Can I digivolve into any Digimon with [X Antibody] in its traits regardless of digivolution requirements with this card's [Your Turn] effect?",
+					"A: No, you cannot. As this effect does not allow you to ignore digivolution requirements.",
+					"Q: My [BT8-066 Hisyaryumon] attacks, and digivolves into [BT6-111 Alphamon] via it's own effect. Can I use [BT6-111 Alphamon]'s [When Attacking] effect?",
+					"A: No, you cannot. As the timing for [When Attacking] effects to trigger has already passed. (From Card Rulings:EX1-040)",
+]
 
 class BT8_067 extends Card:
 	func _init():
@@ -1618,18 +1389,15 @@ class BT8_067 extends Card:
 		id = "BT8-067"
 		play_cost = 8
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 4
-		digivolve_level = 4
-		digivolve_color_2 = ColorGroup.RED
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 4
 		digivolve_level_2 = 4
 		digimon_type = "Cyborg"
 		power = 8000
-		effect_text = "[When Digivolved] [De-Digivolve 1]. Then, delete 1 of your opponent's Digimon with 3000 DP or less."
-		inherited_effect_text = "[Your Turn] While this Digimon has [Dragonkin], it can also attack your opponent's unsuspended Digimon."
+		effect_text = "[When Digivolving] <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). Then, delete 1 of your opponent's Digimon with 3000 DP or less."
+		inherited_effect_text = "[Your Turn] While this Digimon has [Dragonkin], or [Machine] in its traits, it can also attack your opponent's unsuspended Digimon."
 
 class BT8_068 extends Card:
 	func _init():
@@ -1640,14 +1408,17 @@ class BT8_068 extends Card:
 		id = "BT8-068"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 3
-		digivolve_level = 5
-		digimon_type = "Mutant"
+		digimon_type = "Mutant/Boss"
 		power = 11000
-		effect_text = "[When Digivolved] You may reveal the top 3 cards of your deck. For each of your opponent's Digimon, you may play 1 Digimon card with Mamemon and a memory cost of 10 or less among the revealed cards without paying its memory cost. Trash the remaining cards.\n[All Turns] While you have another Digimon with Mamemon in play, this Digimon gains [Security Attack +1]."
+		effect_text = "[When Digivolving] You may reveal the top 3 cards of your deck. For each of your opponent's Digimon, you may play 1 Digimon card with [Mamemon] in its name and a memory cost of 10 or less among the revealed cards without paying its memory cost. Trash the remaining cards.\n[All Turns] While you have another Digimon with [Mamemon] in its name in play, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card)."
+		ruling = [
+					"Q: What happens for this card's [When Digivolving] effect if my opponent does not have a single Digimon on play?",
+					"A: After revealing the 3 cards, all of them are trashed. However, since the effect is \"you may reveal the top 3 cards of your deck\", regardless of your opponent's Digimon, you can choose not to activate the effect when digivolving. If the effect is not activated, you do not reveal any cards, and no cards will be trashed.",
+					"Q: For this card's \"play 1 Digimon card with [Mamemon] in their names a memory cost of 10 or less \", which cost is it referring to?",
+					"A: Play cost.",
+]
 
 class BT8_069 extends Card:
 	func _init():
@@ -1658,36 +1429,12 @@ class BT8_069 extends Card:
 		id = "BT8-069"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 4
-		digivolve_level = 5
-		digimon_type = "Beast Dragon"
+		digimon_type = "Beast Dragon/X Antibody"
 		power = 12000
-		effect_text = "[When Digivolved] You may place 1 card with [X-Antibody] from your hand under this Digimon as its bottom digivolution card to delete 1 of your opponent's Digimon with a play cost of 7 or less.\n[Your Turn] [Once Per Turn] When one of your effects places a digivolution card under your Digimon, this Digimon gets +2000 DP and can't be deleted by your opponent's effects until the end of your opponent's next turn."
-		inherited_effect_text = "[End of Attack] [Once Per Turn] If this Digimon has Alphamon, unsuspend it."
-
-class BT8_069_B extends Card:
-	func _init():
-		name = "Ouryumon"
-		type = Type.DIGIMON
-		color = ColorGroup.BLACK
-		rarity = Rarity.SR
-		id = "BT8-069 (B)"
-		play_cost = 12
-		level = 6
-		stage_level = Stage.MEGA
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 4
-		digivolve_level = 5
-		digimon_type = "Beast Dragon"
-		power = 12000
-		effect_text = "[When Digivolved] You may place 1 card with [X-Antibody] from your hand under this Digimon as its bottom digivolution card to delete 1 of your opponent's Digimon with a play cost of 7 or less.\n[Your Turn] [Once Per Turn] When one of your effects places a digivolution card under your Digimon, this Digimon gets +2000 DP and can't be deleted by your opponent's effects until the end of your opponent's next turn."
-		inherited_effect_text = "[End of Attack] [Once Per Turn] If this Digimon has Alphamon, unsuspend it."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "[When Digivolving] You may place 1 card with [X Antibody] in its traits from your hand under this Digimon as its bottom digivolution card to delete 1 of your opponent's Digimon with a play cost of 7 or less.\n[Your Turn] (Once Per Turn) When one of your effects places a digivolution card under one of your Digimon, this Digimon gets +2000 DP and can't be deleted by your opponent's effects until the end of your opponent's next turn."
+		inherited_effect_text = "[End of Attack] (Once Per Turn) If this Digimon has [Alphamon] in its name, unsuspend it."
 
 class BT8_070 extends Card:
 	func _init():
@@ -1698,40 +1445,22 @@ class BT8_070 extends Card:
 		id = "BT8-070"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 4
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.RED
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 4
 		digivolve_level_2 = 5
 		digimon_type = "Dragonkin"
 		power = 12000
-		effect_text = "[When Digivolved] If this Digimon has a red digivolution card, choose any number of your opponent's Digimon. If this Digimon has a black digivolution card, choose any number of your opponent's Tamers. The chosen cards' play costs must add up to 6 or less. Delete the chosen cards.\n[All Turns] [Once Per Turn] When an opponent's Digimon is deleted, unsuspend this Digimon."
-
-class BT8_070_B extends Card:
-	func _init():
-		name = "BlackWarGreymon"
-		type = Type.DIGIMON
-		color = ColorGroup.BLACK
-		rarity = Rarity.SR
-		id = "BT8-070 (B)"
-		play_cost = 12
-		level = 6
-		stage_level = Stage.MEGA
-		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.BLACK
-		digivolve_cost = 4
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.RED
-		digivolve_cost_2 = 4
-		digivolve_level_2 = 5
-		digimon_type = "Dragonkin"
-		power = 12000
-		effect_text = "[When Digivolved] If this Digimon has a red digivolution card, choose any number of your opponent's Digimon. If this Digimon has a black digivolution card, choose any number of your opponent's Tamers. The chosen cards' play costs must add up to 6 or less. Delete the chosen cards.\n[All Turns] [Once Per Turn] When an opponent's Digimon is deleted, unsuspend this Digimon."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "[When Digivolving] If this Digimon has a red digivolution card, choose any number of your opponent's Digimon. If this Digimon has a black digivolution card, choose any number of your opponent's Tamers. The chosen cards' play costs must add up to 6 or less. Delete the chosen cards.\n[All Turns] (Once Per Turn) When an opponent's Digimon is deleted, you may unsuspend this Digimon."
+		ruling = [
+					"Q: For this card's [When Digivolving] effect, if there are both red and black cards in its digivolution cards, can I delete my opponent's tamer and Digimon?",
+					"A: Yes, you can.",
+					"Q: For this card's [When Digivolving] effect, if there are both red and black cards in its digivolution cards, can I choose my opponent's Digimon with play cost of up to 6, and my opponent's tamers with play cost of up to 6 separately?",
+					"A: No, it must be a combination of Digimon and tamers with an added total of play cost of up to 6.",
+					"Q: Do both of this card's [When Digivolving] effects activate if it only has 1 two-coloured card that is both red and black in its digivolution cards?",
+					"A: Yes, both activate.",
+]
 
 class BT8_071 extends Card:
 	func _init():
@@ -1742,14 +1471,17 @@ class BT8_071 extends Card:
 		id = "BT8-071"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Mutant"
 		power = 3000
 		effect_text = "[All Turns] Players can't reduce play costs."
+		ruling = [
+					"Q: What kind of effect is this card's \"can't reduce play costs.\"?",
+					"A: It is an effect that nullifies \"reduce memory cost by x\". You and your opponent will be unable to activate effects that reduce play costs, and must pay the play cost written on the cards in order to play them.",
+					"Q: When this Digimon is in play, can \"play without paying its memory cost\" effects activate?",
+					"A: Yes, \"play without paying its memory cost\" is not an effect that reduces play costs, so it can activate.",
+]
 
 class BT8_072 extends Card:
 	func _init():
@@ -1760,14 +1492,17 @@ class BT8_072 extends Card:
 		id = "BT8-072"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Evil"
 		power = 2000
 		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 Tamer card among them to your hand, and trash 1 purple Digimon card among them. Place the remaining cards at the bottom of your deck in any order."
+		ruling = [
+					"Q: For this card's [On Play] effect, must the 1 trashed card among the revealed cards be a purple Digimon card?",
+					"A: Yes, you can only trash 1 purple Digimon card.",
+					"Q: Does this card's [On Play] effect activate \"when a card is trashed from deck\" effects?",
+					"A: No.",
+]
 
 class BT8_073 extends Card:
 	func _init():
@@ -1778,11 +1513,8 @@ class BT8_073 extends Card:
 		id = "BT8-073"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Vegetation"
 		power = 4000
 
@@ -1793,16 +1525,17 @@ class BT8_074 extends Card:
 		color = ColorGroup.PURPLE
 		rarity = Rarity.C
 		id = "BT8-074"
-		play_cost = 5
+		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Ghost"
 		power = 4000
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When a card is trashed from your deck, gain 1 memory."
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When a card is trashed from your deck, gain 1 memory."
+		ruling = [
+					"Q: Does this card's inherited effect activate when an effect reveals cards from my deck and I must \"trash any remaining cards\"?",
+					"A: No, cards that revealed from deck that are then trashed are not treated as \"trashed from deck\".",
+]
 
 class BT8_075 extends Card:
 	func _init():
@@ -1813,17 +1546,14 @@ class BT8_075 extends Card:
 		id = "BT8-075"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 2
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.GREEN
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 2
 		digivolve_level_2 = 3
 		digimon_type = "Mutant"
 		power = 4000
-		inherited_effect_text = "[Retaliation]."
+		inherited_effect_text = "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)."
 
 class BT8_076 extends Card:
 	func _init():
@@ -1834,14 +1564,11 @@ class BT8_076 extends Card:
 		id = "BT8-076"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Dark Animal"
 		power = 4000
-		effect_text = "[Retaliation]."
+		effect_text = "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)."
 
 class BT8_077 extends Card:
 	func _init():
@@ -1852,18 +1579,15 @@ class BT8_077 extends Card:
 		id = "BT8-077"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.YELLOW
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 3
 		digivolve_level_2 = 3
 		digimon_type = "Dark Animal"
 		power = 6000
-		effect_text = "[Rush]."
-		inherited_effect_text = "[Retaliation]."
+		effect_text = "<Rush> (This Digimon can attack the turn it comes into play)."
+		inherited_effect_text = "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)."
 		notes = "BlackTailmon"
 
 class BT8_078 extends Card:
@@ -1875,11 +1599,8 @@ class BT8_078 extends Card:
 		id = "BT8-078"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 2
-		digivolve_level = 4
 		digimon_type = "Wizard"
 		power = 7000
 
@@ -1892,15 +1613,16 @@ class BT8_079 extends Card:
 		id = "BT8-079"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Undead"
 		power = 7000
-		effect_text = "[When Digivolved] Trash the top 2 cards of your deck. Then, return 1 card with [Demon Lord] from your trash to your hand."
-		inherited_effect_text = "[Your Turn] [Once Per Turn] When a card is trashed from your deck, gain 1 memory."
+		effect_text = "[When Digivolving] Trash the top 2 cards of your deck. Then, return 1 card with [Demon Lord] in its traits from your trash to your hand."
+		inherited_effect_text = "[Your Turn] (Once Per Turn) When a card is trashed from your deck, gain 1 memory."
+		ruling = [
+					"Q: Does this card's inherited effect activate when an effect reveals cards from my deck and I must \"trash any remaining cards\"?",
+					"A: No, cards that revealed from deck that are then trashed are not treated as \"trashed from deck\".",
+]
 
 class BT8_080 extends Card:
 	func _init():
@@ -1911,32 +1633,26 @@ class BT8_080 extends Card:
 		id = "BT8-080"
 		play_cost = 8
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Wizard"
 		power = 8000
-		effect_text = "[When Digivolved] Trash the top 2 cards of your deck. Then, you may play 1 [Yukio Oikawa] from your trash without paying its memory cost."
-		inherited_effect_text = "[On Deletion] If this Digimon has Myotismon, you may play 1 [Yukio Oikawa] from your hand or trash suspended without paying its memory cost."
+		effect_text = "[When Digivolving] Trash the top 2 cards of your deck. Then, you may play 1 [Yukio Oikawa] from your trash without paying its memory cost."
+		inherited_effect_text = "[On Deletion] If this Digimon has [Myotismon] in its name, you may play 1 [Yukio Oikawa] from your hand or trash suspended without paying its memory cost."
 		notes = "Vamdemon"
 
 class BT8_081 extends Card:
 	func _init():
-		name = "Rasenmon: Fury Mode"
+		name = "Rasenmon Fury Mode"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
 		rarity = Rarity.U
 		id = "BT8-081"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.YELLOW
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 3
 		digivolve_level_2 = 5
 		digimon_type = "Mysterious Beast"
@@ -1946,47 +1662,29 @@ class BT8_081 extends Card:
 
 class BT8_082 extends Card:
 	func _init():
-		name = "Ophanimon: Falldown Mode"
+		name = "Ophanimon Falldown Mode"
 		type = Type.DIGIMON
 		color = ColorGroup.PURPLE
 		rarity = Rarity.SR
 		id = "BT8-082"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 4
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.YELLOW
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 4
 		digivolve_level_2 = 5
 		digimon_type = "Fallen Angel"
 		power = 12000
-		effect_text = "Digivolve from [Ophanimon] for [2] cost[When Digivolved] If this Digimon has a purple card in its digivolution cards, delete 1 of your opponent's level 4 or lower Digimon. If this Digimon has a yellow card in its digivolution cards, [Recovery +1].\n[On Deletion] You may play 1 purple or yellow level 4 or lower Digimon card from your trash without paying its memory cost."
-
-class BT8_082_B extends Card:
-	func _init():
-		name = "Ophanimon: Falldown Mode"
-		type = Type.DIGIMON
-		color = ColorGroup.PURPLE
-		rarity = Rarity.SR
-		id = "BT8-082 (B)"
-		play_cost = 12
-		level = 6
-		stage_level = Stage.MEGA
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 4
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.YELLOW
-		digivolve_cost_2 = 4
-		digivolve_level_2 = 5
-		digimon_type = "Fallen Angel"
-		power = 12000
-		effect_text = "Digivolve from [Ophanimon] for [2] cost[When Digivolved] If this Digimon has a purple card in its digivolution cards, delete 1 of your opponent's level 4 or lower Digimon. If this Digimon has a yellow card in its digivolution cards, [Recovery +1].\n[On Deletion] You may play 1 purple or yellow level 4 or lower Digimon card from your trash without paying its memory cost."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "[When Digivolving] If this Digimon has a purple card in its digivolution cards, delete 1 of your opponent's level 4 or lower Digimon. If this Digimon has a yellow card in its digivolution cards, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).\n[On Deletion] You may play 1 purple or yellow level 4 or lower Digimon card from your trash without paying its memory cost."
+		ruling = [
+					"Q: Do both of this card's [When Digivolving] effects activate if it has both purple and yellow cards its digivolution cards?",
+					"A: Yes, both activate.",
+					"Q: Do both of this card's [When Digivolving] effects activate if it only has 1 2-coloured card that is both purple and yellow its digivolution cards?",
+					"A: Yes, both activate.",
+					"Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Ophanimon]>\", written in the text for [BT8-082 Ophanimon Falldown Mode], as an effect? Can [BT8-082 Ophanimon Falldown Mode] digivolve from [Ophanimon] in the breeding area?",
+					"A: Yes, [BT8-082 Ophanimon: Falldown Mode] can digivolve from [Ophanimon] in the breeding area. Special digivolutions are a digivolution requirements with reference to special conditions, not effects. Therefore, special digivolution conditions can be fulfilled even in the breeding area. (From Card Rulings:BT8-012)",
+]
 
 class BT8_083 extends Card:
 	func _init():
@@ -1997,35 +1695,12 @@ class BT8_083 extends Card:
 		id = "BT8-083"
 		play_cost = 13
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 4
-		digivolve_level = 5
 		digimon_type = "Demon Lord"
 		power = 12000
-		effect_text = "[On Play] If there are 5 or more cards with Myotismon, text=in their names in your trash, delete 1 of your opponent's unsuspended Digimon and trash the top card of your opponent's security stack.\n[When Digivolved] Trash the top 5 cards of your deck. Then, if there's a card with Myotismon in your trash, gain 1 memory."
+		effect_text = "[On Play] If there are 5 or more cards with [Myotismon] in their names in your trash, delete 1 of your opponent's unsuspended Digimon and trash the top card of your opponent's security stack.\n[When Digivolving] Trash the top 5 cards of your deck. Then, if there's a card with [Myotismon] in its name in your trash, gain 1 memory."
 		notes = "BelialVamdemon"
-
-class BT8_083_B extends Card:
-	func _init():
-		name = "MaloMyotismon"
-		type = Type.DIGIMON
-		color = ColorGroup.PURPLE
-		rarity = Rarity.SR
-		id = "BT8-083 (B)"
-		play_cost = 13
-		level = 6
-		stage_level = Stage.MEGA
-		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 4
-		digivolve_level = 5
-		digimon_type = "Demon Lord"
-		power = 12000
-		effect_text = "[On Play] If there are 5 or more cards with Myotismon, text=in their names in your trash, delete 1 of your opponent's unsuspended Digimon and trash the top card of your opponent's security stack.\n[When Digivolved] Trash the top 5 cards of your deck. Then, if there's a card with Myotismon in your trash, gain 1 memory."
-		is_parallel = true
-		notes = "parallel promo BelialVamdemon"
 
 class BT8_084 extends Card:
 	func _init():
@@ -2036,34 +1711,15 @@ class BT8_084 extends Card:
 		id = "BT8-084"
 		play_cost = 8
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ""
-		digivolve_cost = 4
-		digivolve_level = 4
 		digimon_type = "Composite"
 		power = 8000
-		effect_text = "<DNA Digivolve: [|4] + [|4]: [0]>\n[When Digivolved] You may place 1 level 5 or lower Digimon card from your trash under this Digimon as its bottom digivolution card. Then, up to 4 of your opponent's Digimon get -1000 DP for each of this Digimon's colors until the end of your opponent's next turn.\n[Your Turn] This Digimon is treated as also having the colors of its digivolution cards. While this Digimon has 4 or more colors, it gets +4000 DP."
-
-class BT8_084_B extends Card:
-	func _init():
-		name = "Kimeramon"
-		type = Type.DIGIMON
-		color = ColorGroup.WHITE
-		rarity = Rarity.SR
-		id = "BT8-084 (B)"
-		play_cost = 8
-		level = 5
-		stage_level = Stage.ULTIMATE
-		attribute = Attribute.DATA
-		digivolve_color = ""
-		digivolve_cost = 4
-		digivolve_level = 4
-		digimon_type = "Composite"
-		power = 8000
-		effect_text = "<DNA Digivolve: [|4] + [|4]: [0]>\n[When Digivolved] You may place 1 level 5 or lower Digimon card from your trash under this Digimon as its bottom digivolution card. Then, up to 4 of your opponent's Digimon get -1000 DP for each of this Digimon's colors until the end of your opponent's next turn.\n[Your Turn] This Digimon is treated as also having the colors of its digivolution cards. While this Digimon has 4 or more colors, it gets +4000 DP."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "[When Digivolving] You may place 1 level 5 or lower Digimon card from your trash under this Digimon as its bottom digivolution card. Then, up to 4 of your opponent's Digimon get -1000 DP for each of this Digimon's colors until the end of your opponent's next turn.\n[Your Turn] This Digimon is treated as also having the colors of its digivolution cards. While this Digimon has 4 or more colors, it gets +4000 DP."
+		ruling = [
+					"Q: What kind of effect is this card's [Your Turn] effect?",
+					"A: In addition to this card's own colour of \"white\", it is also treated as the colours of the cards in its digivolution cards. For example when this card has a red card and a green card in its digivolution cards, this card is treated as a card with 3 colours, white, red, and green.",
+]
 
 class BT8_085 extends Card:
 	func _init():
@@ -2075,20 +1731,11 @@ class BT8_085 extends Card:
 		play_cost = 3
 		effect_text = "[Start of Your Main Phase] If you have a red Digimon in play, gain 1 memory.\n[Your Turn] When one of your Digimon with 2 or more colors attacks, you may suspend this Tamer to delete 1 of your opponent's Digimon with 3000 DP or less."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		ruling = [
+					"Q: Does this card's \"When your Digimon with 2 or more colours attacks\", does it count the colour of the attacking Digimon's digivolution cards as well?",
+					"A: No, regardless of the colour of the cards in digivolution cards, it only counts the colours of that Digimon, and the effect activates if it has 2 or more colours.",
+]
 		notes = "Inoue Miyako"
-
-class BT8_085_B extends Card:
-	func _init():
-		name = "Yolei Inoue"
-		type = Type.TAMER
-		color = ColorGroup.RED
-		rarity = Rarity.R
-		id = "BT8-085 (B)"
-		play_cost = 3
-		effect_text = "[Start of Your Main Phase] If you have a red Digimon in play, gain 1 memory.\n[Your Turn] When one of your Digimon with 2 or more colors attacks, you may suspend this Tamer to delete 1 of your opponent's Digimon with 3000 DP or less."
-		sec_effect_text = "[Security] Play this card without paying its memory cost."
-		is_parallel = true
-		notes = "parallel promo Inoue Miyako"
 
 class BT8_086 extends Card:
 	func _init():
@@ -2098,7 +1745,7 @@ class BT8_086 extends Card:
 		rarity = Rarity.R
 		id = "BT8-086"
 		play_cost = 4
-		effect_text = "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Your Turn] When you attack with a Digimon that has Gammamon or is level 5 or higher, you may suspend this Tamer to have 1 of your Digimon get +2000 DP for the turn."
+		effect_text = "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Your Turn] When you attack with a Digimon that has [Gammamon] in its name or is level 5 or higher, you may suspend this Tamer to have 1 of your Digimon get +2000 DP for the turn."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		notes = "Amanokawa Hiro"
 
@@ -2110,22 +1757,13 @@ class BT8_087 extends Card:
 		rarity = Rarity.U
 		id = "BT8-087"
 		play_cost = 4
-		effect_text = "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Opponent Turn] When one of your opponent's Digimon attacks one of your blue Digimon, you may suspend this Tamer to [Draw 1]."
+		effect_text = "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Opponent's Turn] When one of your opponent's Digimon attacks one of your blue Digimon, you may suspend this Tamer to <Draw 1> (Draw 1 card from your deck)."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		ruling = [
+					"Q: Does this card's [Opponent's Turn] effect trigger when my opponent's Digimon attacks, and I block with my blue Digimon?",
+					"A: No, your opponent has to target your blue Digimon when attacking to trigger this effect.",
+]
 		notes = "Takaishi Takeru"
-
-class BT8_087_B extends Card:
-	func _init():
-		name = "T.K. Takaishi"
-		type = Type.TAMER
-		color = ColorGroup.BLUE
-		rarity = Rarity.U
-		id = "BT8-087 (B)"
-		play_cost = 4
-		effect_text = "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Opponent Turn] When one of your opponent's Digimon attacks one of your blue Digimon, you may suspend this Tamer to [Draw 1]."
-		sec_effect_text = "[Security] Play this card without paying its memory cost."
-		is_parallel = true
-		notes = "parallel promo Takaishi Takeru"
 
 class BT8_088 extends Card:
 	func _init():
@@ -2137,20 +1775,13 @@ class BT8_088 extends Card:
 		play_cost = 4
 		effect_text = "[Start of Your Main Phase] If you have a blue Digimon in play, gain 1 memory. If you have a green Digimon in play, gain 1 memory.\n[Your Turn] When one of your Digimon digivolves into a Digimon with 2 or more colours, you may suspend this Tamer to unsuspend that Digimon."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		ruling = [
+					"Q: Do both of this card's [Start of Your Main Phase] effects activate if I have both blue and green Digimon in play?",
+					"A: Yes, both activate.",
+					"Q: Do both of this card's [Start of Your Main Phase] effects activate if I only have 1 2-coloured Digimon that is both blue and green in play?",
+					"A: Yes, both activate.",
+]
 		notes = "Motomiya Daisuke & Ichijoji Ken"
-
-class BT8_088_B extends Card:
-	func _init():
-		name = "Davis Motomiya & Ken Ichijoji"
-		type = Type.TAMER
-		color = ColorGroup.BLUE
-		rarity = Rarity.R
-		id = "BT8-088 (B)"
-		play_cost = 4
-		effect_text = "[Start of Your Main Phase] If you have a blue Digimon in play, gain 1 memory. If you have a green Digimon in play, gain 1 memory.\n[Your Turn] When one of your Digimon digivolves into a Digimon with 2 or more colours, you may suspend this Tamer to unsuspend that Digimon."
-		sec_effect_text = "[Security] Play this card without paying its memory cost."
-		is_parallel = true
-		notes = "parallel promo Motomiya Daisuke & Ichijoji Ken"
 
 class BT8_089 extends Card:
 	func _init():
@@ -2162,20 +1793,11 @@ class BT8_089 extends Card:
 		play_cost = 3
 		effect_text = "[Start of Your Main Phase] If you have a yellow Digimon in play, gain 1 memory.\n[Your Turn] When one of your Digimon with 2 or more colors attacks, you may suspend this Tamer to give 1 of your opponent's Digimon -2000 DP for the turn."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		ruling = [
+					"Q: Does this card's \"When your Digimon with 2 or more colours attacks\", does it count the colour of the attacking Digimon's digivolution cards as well?",
+					"A: No, regardless of the colour of the cards in digivolution cards, it only counts the colours of that Digimon, and the effect activates if it has 2 or more colours.",
+]
 		notes = "Hida Iori"
-
-class BT8_089_B extends Card:
-	func _init():
-		name = "Cody Hida"
-		type = Type.TAMER
-		color = ColorGroup.YELLOW
-		rarity = Rarity.R
-		id = "BT8-089 (B)"
-		play_cost = 3
-		effect_text = "[Start of Your Main Phase] If you have a yellow Digimon in play, gain 1 memory.\n[Your Turn] When one of your Digimon with 2 or more colors attacks, you may suspend this Tamer to give 1 of your opponent's Digimon -2000 DP for the turn."
-		sec_effect_text = "[Security] Play this card without paying its memory cost."
-		is_parallel = true
-		notes = "parallel promo Hida Iori"
 
 class BT8_090 extends Card:
 	func _init():
@@ -2189,19 +1811,6 @@ class BT8_090 extends Card:
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		notes = "Yagami Hikari"
 
-class BT8_090_B extends Card:
-	func _init():
-		name = "Kari Kamiya"
-		type = Type.TAMER
-		color = ColorGroup.YELLOW
-		rarity = Rarity.U
-		id = "BT8-090 (B)"
-		play_cost = 4
-		effect_text = "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.\n[Your Turn] When a card is added to your security stack, you may suspend this Tamer to gain 1 memory."
-		sec_effect_text = "[Security] Play this card without paying its memory cost."
-		is_parallel = true
-		notes = "parallel promo Yagami Hikari"
-
 class BT8_091 extends Card:
 	func _init():
 		name = "Willis"
@@ -2210,7 +1819,7 @@ class BT8_091 extends Card:
 		rarity = Rarity.R
 		id = "BT8-091"
 		play_cost = 3
-		effect_text = "[On Play] You may hatch 1 Digi-Egg card to an empty space in your breeding area.\n[Your Turn] When one of your Digimon digivolves into a Digimon with Gargomon, Rapidmon, text=in their name, you may suspend this Tamer to reduce the digivolution cost by 1."
+		effect_text = "[On Play] You may hatch 1 Digi-Egg card to an empty space in your breeding area.\n[Your Turn] When one of your Digimon digivolves into a Digimon with [Gargomon], or [Rapidmon] in their name, you may suspend this Tamer to reduce the digivolution cost by 1."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		notes = "Wallace"
 
@@ -2222,7 +1831,7 @@ class BT8_092 extends Card:
 		rarity = Rarity.R
 		id = "BT8-092"
 		play_cost = 3
-		effect_text = "[Your Turn] When one of your Digimon with [X-Antibody] is moved from your breeding area to your battle area, gain 1 memory and [Draw 1].\n[Your Turn] When one of your black Digimon with [X-Antibody] attacks, you may suspend this Tamer to place 1 card with [X-Antibody] from your hand under that Digimon as its bottom digivolution card."
+		effect_text = "[Your Turn] When one of your Digimon with [X Antibody] in its traits is moved from your breeding area to your battle area, gain 1 memory and <Draw 1> (Draw 1 card from your deck).\n[Your Turn] When one of your black Digimon with [X Antibody] in its traits attacks, you may suspend this Tamer to place 1 card with [X Antibody] in its traits from your hand under that Digimon as its bottom digivolution card."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		notes = "Musha Yuuji"
 
@@ -2234,7 +1843,7 @@ class BT8_093 extends Card:
 		rarity = Rarity.R
 		id = "BT8-093"
 		play_cost = 3
-		effect_text = "[All Turns] When one of your Digimon with Myotismon is deleted, you may suspend this Tamer to gain 1 memory.\n [End of Opponent's Turn] If this Tamer is suspended, you may delete this Tamer to play 1 [MaloMyotismon]  from your trash without paying its memory cost."
+		effect_text = "[All Turns] When one of your Digimon with [Myotismon] in its name is deleted, you may suspend this Tamer to gain 1 memory.\n [End of Opponent's Turn] If this Tamer is suspended, you may play 1 [MaloMyotismon] from your trash without paying its memory cost by deleting this Tamer."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
 		notes = "Oikawa Yukio"
 
@@ -2246,8 +1855,12 @@ class BT8_094 extends Card:
 		rarity = Rarity.R
 		id = "BT8-094"
 		play_cost = 3
-		effect_text = "[All Turns] When one of your opponent's level 5 or lower Digimon is deleted, you may suspend this Tamer to [Draw 1]\n[Opponent Turn] When one of your opponent's level 3 Digimon is moved from their breeding area to their battle area, gain 2 memory."
+		effect_text = "[All Turns] When one of your opponent's level 5 or lower Digimon is deleted, you may suspend this Tamer to <Draw 1> (Draw 1 card from your deck)\n[Opponent's Turn] When one of your opponent's level 3 Digimon is moved from their breeding area to their battle area, gain 2 memory."
 		sec_effect_text = "[Security] Play this card without paying its memory cost."
+		ruling = [
+					"Q: Does this card's[Opponent's Turn] effect activate when my opponent activates the effect of cards such as [BT1-089 Mimi Tachikawa] to move their level 3 Digimon from the breeding area to the battle area when it is not their breeding phase?",
+					"A: Yes, it activates.",
+]
 		notes = "Digimon Kaiser"
 
 class BT8_095 extends Card:
@@ -2258,8 +1871,8 @@ class BT8_095 extends Card:
 		rarity = Rarity.C
 		id = "BT8-095"
 		play_cost = 1
-		effect_text = "While you have a Digimon with [Armor Form] in play, you may use this card without meeting its color requirements.\n[Main] 1 of your Digimon with 2 or more colors gains [Security Attack +1] for the turn."
-		sec_effect_text = "[Security] Delete 1 of your opponent's Digimon with [Blocker]."
+		effect_text = "While you have a Digimon with [Armor Form] in its traits in play, you may use this card without meeting its color requirements.\n[Main] 1 of your Digimon with 2 or more colors gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn."
+		sec_effect_text = "[Security] Delete 1 of your opponent's Digimon with <Blocker>."
 
 class BT8_096 extends Card:
 	func _init():
@@ -2271,6 +1884,12 @@ class BT8_096 extends Card:
 		play_cost = 3
 		effect_text = "[Main] Delete 1 of your opponent's Digimon with 4000 DP or less. If you have a Digimon in play with 2 or more colors, or with 2 or more colors in its digivolution cards, delete 1 of your opponent's Digimon with 7000 DP or less instead."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"Q: Does this card's \"card with 2 or more colour in its digivolution cards\" include Digimon with 1 red card and 1 blue card in its digivolution cards?",
+					"A: No, it does not. This effect only counts Digimon that has 1 single card that has 2 or more colours among its digivolution cards.",
+					"Q: Does this card's \"card with 2 or more colour in its digivolution cards\" include Digimon that has cards such as [BT3-040 Shakkoumon] with effects of \"This Digimon's colour is also treated as blue\" in its digivolution cards?",
+					"A: No, it does not. Effects that add colours do not activate while they are in digivolution cards, it is only treated as a card with 1 colour.",
+]
 
 class BT8_097 extends Card:
 	func _init():
@@ -2280,8 +1899,18 @@ class BT8_097 extends Card:
 		rarity = Rarity.U
 		id = "BT8-097"
 		play_cost = 6
-		effect_text = "Reduce the memory cost of this card in your hand by 1 for each Digimon your opponent has in play.\n[Main] Delete all of your opponent's Digimon with 6000 DP or less. Your opponent can't play Digimon by effects until the end of their next turn."
+		effect_text = "Reduce the memory cost of this card in your hand by 1 for each Digimon your opponent has in play.\n[Main] Delete all of your opponent's Digimon with 6000 DP or less. Your opponent can't play Digimon by effects until the next time your opponent's turn ends."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"Q: If my opponent has 7 Digimon in play, and this card's memory cost is reduced by 7 by this card's effect, can I use this card to gain 1 memory?",
+					"A: No, in this scenario the memory cost is reduced to 0. Use memory does not become negative, and 0 is the lowest value possible.",
+					"Q: After using this card, I attack and the security check reveals a Digimon with an effect of \"[Security] At the end of battle, play this Digimon without paying its memory cost\". What happens to the security Digimon in this scenario?",
+					"A: After the battle with the security Digimon, since that security Digimon cannot be played by its own effect, it is trashed as normal.",
+					"Q: If this card's [Security] effect is activated on my opponent's turn, when does the \"opponent cannot play cards due to effects\" effect end?",
+					"A: It ends when the current turn ends.",
+					"Q: If I use this card and a [EX2-003 Viximon] in my Digimon's digivolution cards while my opponent has 5 or more Digimon in play, will that card's inherited effect be triggered?",
+					"A: No, in that case, since the usage cost of this card has been changed to 1, it is not considered that an option card with a usage cost of 2 or more was used, so it will not be demonstrated.",
+]
 
 class BT8_098 extends Card:
 	func _init():
@@ -2293,6 +1922,12 @@ class BT8_098 extends Card:
 		play_cost = 3
 		effect_text = "[Main] Trash the bottom digivolution card of all of your opponent's Digimon. Then, up to 3 of your opponent's Digimon with no digivolution cards can't attack or block until the end of your opponent's next turn."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"Q: After using this card, my opponent does not have any Digimon without digivolution cards, so I am unable to target any Digimon for the \"cannot attack and block\" effect. Afterwards, if a Digimon without digivolution cards enters my opponent's battle area, can I target that Digimon for the \"cannot attack and block\" effect?",
+					"A: No, you cannot. You can only target Digimon for the \"cannot attack and block\" effect at the point of time of activating this card's effect.",
+					"Q: If this card's [Security] effect is activated on my opponent's turn, when does the \"cannot attack or block\" effect end?",
+					"A: It ends when the current turn ends.",
+]
 
 class BT8_099 extends Card:
 	func _init():
@@ -2315,6 +1950,12 @@ class BT8_100 extends Card:
 		play_cost = 3
 		effect_text = "[Main] 1 of your opponent's Digimon gets -3000 DP for the turn. If you have a Digimon in play with 2 or more colors, or with 2 or more colors in its digivolution cards, 1 of your opponent's Digimon gets -6000 DP instead."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"Q: Does this card's \"card with 2 or more colours in its digivolution cards\" include Digimon with 1 red card and 1 blue card in its digivolution cards?",
+					"A: No, it does not. This effect only counts Digimon that has 1 single card that has 2 or more colours among its digivolution cards.",
+					"Q: Does this card's \"card with 2 or more colour in its digivolution cards\" include Digimon that has cards such as [BT3-040 Shakkoumon] with effects of \"This Digimon's colour is also treated as blue\" in its digivolution cards?",
+					"A: No, it does not. Effects that add colours do not activate while they are in digivolution cards, it is only treated as a card with 1 colour.",
+]
 		notes = "Aramitama"
 
 class BT8_101 extends Card:
@@ -2325,8 +1966,12 @@ class BT8_101 extends Card:
 		rarity = Rarity.U
 		id = "BT8-101"
 		play_cost = 4
-		effect_text = "While you have a Digimon with [Armor Form] in play, you may use this card without meeting its color requirements.\n[Main] 1 of your opponent's Digimon gets -4000 DP for the turn, and all of your opponent's Digimon get -1000 DP for the turn for each card with [Armor Form] in your trash."
+		effect_text = "While you have a Digimon with [Armor Form] in its traits in play, you may use this card without meeting its color requirements.\n[Main] 1 of your opponent's Digimon gets -4000 DP for the turn, and all of your opponent's Digimon get -1000 DP for the turn for each card with [Armor Form] in its traits in your trash."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"Q: For this card's effect, if I have 1 Digimon with [Armor Form] in its traits in my trash, does the Digimon that received -4000 DP also get an additional -1000 DP?",
+					"A: Yes.",
+]
 
 class BT8_102 extends Card:
 	func _init():
@@ -2336,8 +1981,12 @@ class BT8_102 extends Card:
 		rarity = Rarity.U
 		id = "BT8-102"
 		play_cost = 1
-		effect_text = "[Main] You may suspend 1 of your opponent's Digimon or Tamers by suspending 1 of your Digimon. Your opponent's cards suspended with this effect can't unsuspend until the end of their next turn."
+		effect_text = "[Main] You may suspend 1 of your Digimon to suspend 1 of your opponent's Digimon or Tamers. Your opponent's cards suspended with this effect can't unsuspend until the end of their next turn."
 		sec_effect_text = "[Security] Suspend 1 of your opponent's Digimon or Tamers."
+		ruling = [
+					"Q: If I target my opponent's Digimon or tamer with this card's effect that is already suspended, does the part of the effect that reads \"Your opponent's cards suspended with this effect can't unsuspend until the end of their next turn\" apply to that Digimon?",
+					"A: No, although you can target your opponent's Digimon or tamer that are already suspended with this card's effect, that card must be \"suspended by this card's effect\" for \"Your opponent's cards suspended with this effect can't unsuspend until the end of their next turn\" to be applicable.",
+]
 
 class BT8_103 extends Card:
 	func _init():
@@ -2347,7 +1996,7 @@ class BT8_103 extends Card:
 		rarity = Rarity.C
 		id = "BT8-103"
 		play_cost = 1
-		effect_text = "While you have a Digimon with [Armor Form] in play, you may use this card without meeting its color requirements.\n[Main] 1 of your Digimon with 2 or more colors gets +2000 DP and [Piercing] for the turn."
+		effect_text = "While you have a Digimon with [Armor Form] in its traits in play, you may use this card without meeting its color requirements.\n[Main] 1 of your Digimon with 2 or more colors gets +2000 DP and <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) for the turn."
 		sec_effect_text = "[Security] Suspend 1 of your opponent's Digimon."
 
 class BT8_104 extends Card:
@@ -2358,8 +2007,8 @@ class BT8_104 extends Card:
 		rarity = Rarity.U
 		id = "BT8-104"
 		play_cost = 4
-		effect_text = "[Main] [De-Digivolve 1]. Then, you may place 1 card with [X-Antibody] from your hand as the bottom digivolution card of 1 of your black Digimon with [X-Antibody] to delete 1 of your opponent's Digimon with a play cost of 4 or less."
-		sec_effect_text = "[Security] [De-Digivolve 1]. Then, delete 1 of your opponent's Digimon with a play cost of 4 or less."
+		effect_text = "[Main] <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). Then, you may place 1 card with [X Antibody] in its traits from your hand as the bottom digivolution card of 1 of your black Digimon with [X Antibody] in its traits to delete 1 of your opponent's Digimon with a play cost of 4 or less."
+		sec_effect_text = "[Security] <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). Then, delete 1 of your opponent's Digimon with a play cost of 4 or less."
 
 class BT8_105 extends Card:
 	func _init():
@@ -2371,6 +2020,14 @@ class BT8_105 extends Card:
 		play_cost = 8
 		effect_text = "[Main]  Choose any number of your opponent's Digimon whose play costs add up to 15 or less and delete them."
 		sec_effect_text = "[Security] Delete 1 of your opponent's Digimon with a play cost of 15 or less."
+		ruling = [
+					"Q: What exactly does \"Choose any number of your opponent's Digimon whose play costs add up to 15 or less\" mean exactly?",
+					"A: You can choose any number of your opponent's Digimon, as long as the play costs of those Digimon are 15 or less when they are added together. For example, \"1 Digimon with play cost of 3\" + \"1 Digimon of play cost of 12\", or \"1 Digimon with play cost of 2\" + \"2 Digimon with play cost of 6\" etc, the effect that activates targets those Digimon.",
+					"Q: Can I choose in a way so that the total play cost is less than 15 on purpose?",
+					"A: Yes, you are free to choose in any way as long as the total play cost is 15 or less. However, you must choose at least 1 Digimon with play cost of 15 or less.",
+					"Q: For Digimon that were played with reduced costs, or played without paying their memory costs, do I treat them as that reduced play cost value or 0 play cost for this card's effect?",
+					"A: No, regardless of what was the memory cost paid when the cards were played, you add together the play costs written on the cards, up to 15.",
+]
 
 class BT8_106 extends Card:
 	func _init():
@@ -2380,8 +2037,12 @@ class BT8_106 extends Card:
 		rarity = Rarity.C
 		id = "BT8-106"
 		play_cost = 9
-		effect_text = "[Main] Reveal the top 3 cards of your deck. You may play any number of Digimon cards with Mamemon, text=in their name whose play costs add up to 15 or less among them without paying their memory costs. Delete 1 of your opponent's Digimon with a play cost of 6 or less for each Digimon played with this effect. Trash the remaining cards."
+		effect_text = "[Main] Reveal the top 3 cards of your deck. You may play any number of Digimon cards with [Mamemon] in their name whose play costs add up to 15 or less among them without paying their memory costs. Delete 1 of your opponent's Digimon with a play cost of 6 or less for each Digimon played with this effect. Trash the remaining cards."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"Q: Can I choose in a way so that the total play cost is less than 15 on purpose?",
+					"A: Yes, you can freely choose as long as the total play cost is 15 or less.",
+]
 		notes = "Thousand Blasting"
 
 class BT8_107 extends Card:
@@ -2394,6 +2055,12 @@ class BT8_107 extends Card:
 		play_cost = 2
 		effect_text = "[Main] You may delete 1 of your Digimon to delete 1 of your opponent's unsuspended Digimon with a level less than or equal to the deleted Digimon's level."
 		sec_effect_text = "[Security] Delete 1 of your opponent's unsuspended Digimon."
+		ruling = [
+					"Q: When my opponent does not have a single Digimon in play, or does not have any Digimon with level equal or lower than my Digimon in play, can I use this card to delete 1 of my Digimon?",
+					"A: Yes, you can.",
+					"Q: If this card deletes a Digimon without a level, can I delete one of my opponent's Digimon that does not have a level?",
+					"A: No, you cannot.",
+]
 
 class BT8_108 extends Card:
 	func _init():
@@ -2403,7 +2070,7 @@ class BT8_108 extends Card:
 		rarity = Rarity.C
 		id = "BT8-108"
 		play_cost = 3
-		effect_text = "[Main] Trash the top 2 cards of your deck and [Draw 1]. Then, place this card in your Battle Area.\n[Main] [Delay]\n·Gain 2 memory."
+		effect_text = "[Main] Trash the top 2 cards of your deck and <Draw 1> (Draw 1 card from your deck). Then, place this card in your Battle Area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory."
 		sec_effect_text = "[Security] Place this card in its owner's battle area."
 
 class BT8_109 extends Card:
@@ -2414,7 +2081,7 @@ class BT8_109 extends Card:
 		rarity = Rarity.R
 		id = "BT8-109"
 		play_cost = 6
-		effect_text = "[Main] 1 of your opponent's Digimon gets -6000 DP for the turn. Then, play 1 purple or yellow Digimon card with 6000 DP or less from your trash without paying its memory cost."
+		effect_text = "[Main] 1 of your opponent's Digimon gets -6000 DP for the turn. Then, you may play 1 purple or yellow Digimon card with 6000 DP or less from your trash without paying its memory cost."
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
 
 class BT8_110 extends Card:
@@ -2425,8 +2092,18 @@ class BT8_110 extends Card:
 		rarity = Rarity.C
 		id = "BT8-110"
 		play_cost = 0
-		effect_text = "While you have a Digimon with [Armor Form] in play, you may use this card without meeting its color requirements.\n[Main]  Trash the top card of 1 of your Digimon with [Armor Form]. Then, you may digivolve 1 of your Digimon into a Digimon card in your hand with [Armor Form] for its digivolution cost. If you do, unsuspend that Digimon."
-		sec_effect_text = "[Security] Play 1 level 3 Digimon card with [Free] from your hand or trash without paying its memory cost."
+		effect_text = "While you have a Digimon with [Armor Form] in its traits in play, you may use this card without meeting its color requirements.\n[Main]  Trash the top card of 1 of your Digimon with [Armor Form] in its traits. Then, you may digivolve 1 of your Digimon into a Digimon card in your hand with [Armor Form] in its traits for its digivolution cost. If you do, unsuspend that Digimon."
+		sec_effect_text = "[Security] You may play 1 level 3 Digimon card with [Free] in its traits from your hand or trash without paying its memory cost."
+		ruling = [
+					"Q: After using this card, I trash 1 card from the top of my Digimon with [Armor Form] in its traits, can I digivolve another one of my Digimon into a Digimon with [Armor Form] in its traits in my hand instead?",
+					"A: Yes, you can. In that scenario, you only unsuspend the Digimon that digivolved.",
+					"Q: After using this card, I trash 1 card from the top of my Digimon with [Armor Form] in its traits, can I then choose not to digivolve into an Digimon with [Armor Form] in its traits in my hand?",
+					"A: Yes, you can. However, in this scenario the part of the effect \"unsuspend that Digimon\" is not applied.",
+					"Q: When I use this card to digivolve my Digimon into an Digimon with [Armor Form] in its traits in my hand, does it allow me to digivolve while ignoring the digivolution requirements?",
+					"A: No, this card's effect does not ignore digivolution requirements.",
+					"Q: If I target my Digimon [Armor Form] in its traits and no digivolution cards to trash the top card. What happens?",
+					"A: It cannot be trashed, and as you will not trash any card from your Digimon. You can still perform the rest of the effect.",
+]
 
 class BT8_111 extends Card:
 	func _init():
@@ -2437,35 +2114,18 @@ class BT8_111 extends Card:
 		id = "BT8-111"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 5
-		digimon_type = "Demon Lord"
+		digimon_type = "Demon Lord/Seven Great Demon Lords"
 		power = 11000
-		effect_text = "[When Digivolved] Trash the top 2 cards of your deck for each of your opponent's Digimon in play. If you trash 4 or more cards with this effect, you may play 1 level 5 or lower purple Digimon card from your trash without paying its memory cost.\n[When Attacking] [Once Per Turn] For every 10 cards in your trash, trash the top 3 cards of your opponent's deck, and this Digimon gets +3000 DP for the turn."
+		effect_text = "[When Digivolving] Trash the top 2 cards of your deck for each of your opponent's Digimon in play. If you trash 4 or more cards with this effect, you may play 1 level 5 or lower purple Digimon card from your trash without paying its memory cost.\n[When Attacking] (Once Per Turn) For every 10 cards in your trash, trash the top 3 cards of your opponent's deck, and this Digimon gets +3000 DP for the turn."
+		ruling = [
+					"Q: If I trash 8 cards from the top of my deck with this card's [When Digivolving] effect, can I play 2 purple level 5 or lower Digimon cards from my trash without paying their memory costs?",
+					"A: No, even if you trash more than 4 cards, you can only play 1 purple level 5 or lower Digimon card.",
+					"Q: For this card's [When Attacking] effect, if I have 20 cards in my trash, do I trash 6 cards from the top of my opponent's deck and give this Digimon +6000 DP?",
+					"A: Yes, as the effect is \"For every 10 cards in your trash\", if you have 20 cards in your trash, you trash 6 cards from the top of your opponent's deck and give this Digimon +6000 DP.",
+]
 		notes = "Demon"
-
-class BT8_111_B extends Card:
-	func _init():
-		name = "Creepymon"
-		type = Type.DIGIMON
-		color = ColorGroup.PURPLE
-		rarity = Rarity.SEC
-		id = "BT8-111 (B)"
-		play_cost = 12
-		level = 6
-		stage_level = Stage.MEGA
-		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 5
-		digimon_type = "Demon Lord"
-		power = 11000
-		effect_text = "[When Digivolved] Trash the top 2 cards of your deck for each of your opponent's Digimon in play. If you trash 4 or more cards with this effect, you may play 1 level 5 or lower purple Digimon card from your trash without paying its memory cost.\n[When Attacking] [Once Per Turn] For every 10 cards in your trash, trash the top 3 cards of your opponent's deck, and this Digimon gets +3000 DP for the turn."
-		is_parallel = true
-		notes = "parallel promo Demon"
 
 class BT8_112 extends Card:
 	func _init():
@@ -2476,38 +2136,18 @@ class BT8_112 extends Card:
 		id = "BT8-112"
 		play_cost = 15
 		level = 7
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 7
-		digivolve_level = 6
-		digivolve_color_2 = ColorGroup.GREEN
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 7
 		digivolve_level_2 = 6
 		digimon_type = "Ancient Holy Warrior"
 		power = 16000
-		effect_text = "When one of your Digimon would digivolve into this card in your hand, you may return 1 white level 7 Digimon card from your trash to the bottom of your deck to reduce the digivolution cost by 4.\n[When Digivolved] [When Attacking] You may return 1 2-color card from this Digimon's digivolution cards to the bottom of its owner's deck to trash all of the digivolution cards of 1 of your opponent's Digimon. Then, return all of your opponent's Digimon with no digivolution cards to the bottom of their owners' decks in any order."
-
-class BT8_112_B extends Card:
-	func _init():
-		name = "Imperialdramon Paladin Mode"
-		type = Type.DIGIMON
-		color = ColorGroup.WHITE
-		rarity = Rarity.SEC
-		id = "BT8-112 (B)"
-		play_cost = 15
-		level = 7
-		stage_level = Stage.MEGA
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 7
-		digivolve_level = 6
-		digivolve_color_2 = ColorGroup.GREEN
-		digivolve_cost_2 = 7
-		digivolve_level_2 = 6
-		digimon_type = "Ancient Holy Warrior"
-		power = 16000
-		effect_text = "When one of your Digimon would digivolve into this card in your hand, you may return 1 white level 7 Digimon card from your trash to the bottom of your deck to reduce the digivolution cost by 4.\n[When Digivolved] [When Attacking] You may return 1 2-color card from this Digimon's digivolution cards to the bottom of its owner's deck to trash all of the digivolution cards of 1 of your opponent's Digimon. Then, return all of your opponent's Digimon with no digivolution cards to the bottom of their owners' decks in any order."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "When one of your Digimon would digivolve into this card in your hand, you may return 1 white level 7 Digimon card from your trash to the bottom of your deck to reduce the digivolution cost by 4.\n[When Digivolving] [When Attacking] You may return 1 2-color card from this Digimon's digivolution cards to the bottom of its owner's deck to trash all of the digivolution cards of 1 of your opponent's Digimon. Then, return all of your opponent's Digimon with no digivolution cards to the bottom of their owners' decks in any order."
+		ruling = [
+					"Q: This card's effect has 2 timing, [When Digivolving] and [When Attacking]. What does that mean?",
+					"A: This effect will activate in both timing [When Digivolving] and [When Attacking]. When you digivolving into this Digimon, it will activate as a [When Digivolving] effect, and for the following turns when this Digimon attacks, it will then activate again as a [When Attacking] effect.",
+					"Q: This card has \"you may <X> to <Y>. Then, <Z>\" If I do not do <X>, am I still allowed to do <Z>?",
+					"A: No, you cannot. If you do not do <X> you cannot do the rest of the effect. (See more in Effect Structure#Optional and Mandatory Effects",
+]
 

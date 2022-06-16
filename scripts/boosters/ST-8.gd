@@ -24,12 +24,14 @@ class ST8_01 extends Card:
 		rarity = Rarity.U
 		id = "ST8-01"
 		level = 2
-		stage_level = Stage.IN_TRAINING
+		stage_level = Stage.HYBRID
 		digimon_type = "Baby Dragon"
 		inherited_effect_text = "[Your Turn] While you have 8 or more cards in your hand, this Digimon gets +1000 DP."
 		ruling = [
-					"I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon’s [When Attacking] ability to [Draw 1]. Now that I have 8 cards in hand does the inherited effect from this card give the attacking Digimon DP +1000 for the ensuing Check or Battle?",
-					"Yes. The inherited effect activates the moment you have 8 cards in hand, even mid Attack, giving the attacking Digimon DP +1000",
+					"Q: I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon’s [When Attacking] ability to <Draw 1>. Now that I have 8 cards in hand does the inherited effect from this card give the attacking Digimon DP +1000 for the ensuing Check or Battle?",
+					"A: Yes. The inherited effect activates the moment you have 8 cards in hand, even mid Attack, giving the attacking Digimon DP +1000",
+					"Q: Does this card have [Vee] in its name?",
+					"A: No. This card's Japanese name (チビモン) does not have \"Vee\" (ブイ) in its name.",
 ]
 		notes = "Chibimon"
 
@@ -44,15 +46,12 @@ class ST8_02 extends Card:
 		level = 3
 		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
 		inherited_effect_text = "[All Turns] While you have 8 or more cards in your hand, this Digimon gets +1000 DP."
 		ruling = [
-					"I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon's [When Attacking] ability to [Draw 1]. Now that I have 8 cards in hand does the inherited effect from this card give the attacking Digimon DP+1000 for the ensuing check or battle?",
-					"Yes. The inherited effect becomes active the moment you have 8 cards in hand, even mid-atttack. Giving the attacking Digimon +1000 DP.",
+					"Q: I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon's [When Attacking] ability to <Draw 1>. Now that I have 8 cards in hand does the inherited effect from this card give the attacking Digimon DP+1000 for the ensuing check or battle?",
+					"A: Yes. The inherited effect becomes active the moment you have 8 cards in hand, even mid-atttack. Giving the attacking Digimon +1000 DP.",
 ]
 
 class ST8_03 extends Card:
@@ -64,14 +63,11 @@ class ST8_03 extends Card:
 		id = "ST8-03"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Dragon"
 		power = 2000
-		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Dramon] among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Dramon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order."
 
 class ST8_04 extends Card:
 	func _init():
@@ -82,15 +78,12 @@ class ST8_04 extends Card:
 		id = "ST8-04"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.FREE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Mini Dragon"
 		power = 2000
 		effect_text = "[Your Turn] If your opponent has a level 6 or higher Digimon in play, this Digimon can digivolve into an [UlforceVeedramon] in your hand for a memory cost of 4, ignoring its digivolution requirements."
-		inherited_effect_text = "[When Attacking] If you have 7 or fewer cards in your hand, trigger [Draw 1]."
+		inherited_effect_text = "[When Attacking] If you have 7 or fewer cards in your hand, trigger <Draw 1> (Draw 1 card from your deck)."
 		notes = "V-mon"
 
 class ST8_05 extends Card:
@@ -102,17 +95,14 @@ class ST8_05 extends Card:
 		id = "ST8-05"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Mythical Dragon"
 		power = 5000
 		inherited_effect_text = "[When Attacking] If you have 8 or more cards in your hand, return 1 of your opponent's level 3 Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon."
 		ruling = [
-					"I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon’s other [When Attacking] ability to [Draw 1]. Now that I have 8 cards in hand can I use this card’s inherited ability to return one of my opponent’s Lv. 3 Digimon to their hand?",
-					"Yes. So long as you choose to Activate this card’s inherited effect after the [Draw 1] you will have 8 cards in hand when this effect is activated allowing you to return an opponent’s Digimon to their hand",
+					"Q: I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon’s other [When Attacking] ability to <Draw 1>. Now that I have 8 cards in hand can I use this card’s inherited ability to return one of my opponent’s Lv. 3 Digimon to their hand?",
+					"A: Yes. So long as you choose to Activate this card’s inherited effect after the <Draw 1> you will have 8 cards in hand when this effect is activated allowing you to return an opponent’s Digimon to their hand",
 ]
 
 class ST8_06 extends Card:
@@ -124,21 +114,18 @@ class ST8_06 extends Card:
 		id = "ST8-06"
 		play_cost = 6
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Dragon"
 		power = 5000
-		effect_text = "[Security] At the end of the battle, play this card without paying its memory cost.\n[On Play] Trigger [Draw 2]."
+		effect_text = "[Security] At the end of the battle, play this card without paying its memory cost.\n[On Play] Trigger <Draw 2> (Draw 2 cards from your deck)."
 		ruling = [
-					"If this card is Security Checked and deleted in battle does is it still Played via its [Security] effect?",
-					"Yes. The outcome of the battle doesn’t matter, at the end of the battle the Digimon is Played",
-					"If this card is Played via its [Security] does its [On Play] effect activate?",
-					"Yes. The effect activates",
-					"When this card is Security checked and battled, if the attacking Digimon has further security checks to make, does this Digimon get Played or do those Checks occur first? Furthermore, what is the timing for the activation of this card’s [On Play] effect?",
-					"This Digimon is Played prior to the next Security Check. The [On Play] ability also activates as soon as the Digimon is Played, prior to the next Security Check",
+					"Q: If this card is Security Checked and deleted in battle does is it still Played via its [Security] effect?",
+					"A: Yes. The outcome of the battle doesn’t matter, at the end of the battle the Digimon is Played",
+					"Q: If this card is Played via its [Security] does its [On Play] effect activate?",
+					"A: Yes. The effect activates",
+					"Q: When this card is Security checked and battled, if the attacking Digimon has further security checks to make, does this Digimon get Played or do those Checks occur first? Furthermore, what is the timing for the activation of this card’s [On Play] effect?",
+					"A: This Digimon is Played prior to the next Security Check. The [On Play] ability also activates as soon as the Digimon is Played, prior to the next Security Check",
 ]
 
 class ST8_07 extends Card:
@@ -150,14 +137,11 @@ class ST8_07 extends Card:
 		id = "ST8-07"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Sky Dragon"
 		power = 7000
-		effect_text = "[Blocker]."
+		effect_text = "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead)."
 
 class ST8_08 extends Card:
 	func _init():
@@ -168,18 +152,15 @@ class ST8_08 extends Card:
 		id = "ST8-08"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Holy Dragon"
 		power = 7000
-		effect_text = "[Jamming]"
-		inherited_effect_text = "[Your Turn] While you have 8 or more cards in your hand this Digimon gains [Security Attack +1]."
+		effect_text = "<Jamming> (This Digimon can't be deleted in battles against Security Digimon)"
+		inherited_effect_text = "[Your Turn] While you have 8 or more cards in your hand this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card)."
 		ruling = [
-					"I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon’s [When Attacking] ability to [Draw 1]. Now that I have 8 cards in hand does the inherited effect from this card give the attacking Digimon [Security Attack +1] for the ensuing Check?",
-					"Yes. The inherited effect activates the moment you have 8 cards in hand, even mid Attack, giving the attacking Digimon [Security Attack +1]",
+					"Q: I have 7 cards in hand and attack with a Digimon that has this card as a source, activating that Digimon’s [When Attacking] ability to <Draw 1>. Now that I have 8 cards in hand does the inherited effect from this card give the attacking Digimon <Security Attack +1> for the ensuing Check?",
+					"A: Yes. The inherited effect activates the moment you have 8 cards in hand, even mid Attack, giving the attacking Digimon <Security Attack +1>",
 ]
 		notes = "AeroV-dramon"
 
@@ -192,19 +173,16 @@ class ST8_09 extends Card:
 		id = "ST8-09"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 3
-		digivolve_level = 5
 		digimon_type = "Dragonkin"
-		power = 10000
-		effect_text = "[When Digivolved] This Digimon gains [Security Attack +1] for the turn.\n[Your Turn] This Digimon is unblockable."
+		power = 11000
+		effect_text = "[When Digivolving] This Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn.\n[Your Turn] This Digimon is unblockable."
 		ruling = [
-					"This card reads, ‘This Digimon is unblockable.’ What exactly does that mean?",
-					"In response to this Digimon attack, an opponent’s Digimon cannot redirect this Digimon's attack when activating the [Blocker] effect.",
-					"Can my opponent still suspend their Digimon with [Blocker]?",
-					"Yes, the Digimon can still be suspended but the attack will not be redirected.",
+					"Q: This card reads, ‘This Digimon is unblockable.’ What exactly does that mean?",
+					"A: In response to this Digimon attack, an opponent’s Digimon cannot redirect this Digimon's attack when activating the <Blocker> effect.",
+					"Q: Can my opponent still suspend their Digimon with <Blocker>?",
+					"A: Yes, the Digimon can still be suspended but the attack will not be redirected.",
 ]
 
 class ST8_10 extends Card:
@@ -216,17 +194,14 @@ class ST8_10 extends Card:
 		id = "ST8-10"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.BLUE
-		digivolve_cost = 4
-		digivolve_level = 5
-		digimon_type = "Holy Warrior"
+		digimon_type = "Holy Warrior/Royal Knight"
 		power = 12000
-		effect_text = "[When Digivolved] Return 1 of your opponent's level 4 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon.\n[When Attacking] [Once Per Turn] If you have 8 or more cards in your hand, unsuspend this Digimon."
+		effect_text = "[When Digivolving] Return 1 of your opponent's level 4 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon.\n[When Attacking] (Once Per Turn) If you have 8 or more cards in your hand, unsuspend this Digimon."
 		ruling = [
-					"I have 7 cards in hand and attack this Digimon, activating this Digimon’s other [When Attacking] ability to [Draw 1]. Now that I have 8 cards in hand can I use this card’s [When Attacking] ability to Unsuspend this Digimon?",
-					"Yes. So long as you choose to Activate this card’s inherited effect after the [Draw 1] you will have 8 cards in hand when this effect is activated allowing you to Unsuspend this Digimon",
+					"Q: I have 7 cards in hand and attack this Digimon, activating this Digimon’s other [When Attacking] ability to <Draw 1>. Now that I have 8 cards in hand can I use this card’s [When Attacking] ability to Unsuspend this Digimon?",
+					"A: Yes. So long as you choose to Activate this card’s inherited effect after the <Draw 1> you will have 8 cards in hand when this effect is activated allowing you to Unsuspend this Digimon",
 ]
 		notes = "UlforceV-dramon"
 

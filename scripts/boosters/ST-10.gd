@@ -9,7 +9,6 @@ static func register_cards():
 	CardDB.add_card(ST10_04.new())
 	CardDB.add_card(ST10_05.new())
 	CardDB.add_card(ST10_06.new())
-	CardDB.add_card(ST10_06_B.new())
 	CardDB.add_card(ST10_07.new())
 	CardDB.add_card(ST10_08.new())
 	CardDB.add_card(ST10_09.new())
@@ -28,9 +27,13 @@ class ST10_01 extends Card:
 		rarity = Rarity.U
 		id = "ST10-01"
 		level = 2
-		stage_level = Stage.IN_TRAINING
+		stage_level = Stage.HYBRID
 		digimon_type = "Lesser"
-		inherited_effect_text = "[When Attacking] If you have a Yellow Digimon in play, [Draw 1]. If you do, trash 1 card in your hand."
+		inherited_effect_text = "[When Attacking] If you have a Yellow Digimon in play, <Draw 1> (Draw 1 card from your deck). If you do, trash 1 card in your hand."
+		ruling = [
+					"Q: Does this card's inherited effect activate if the Digimon that has this card in its digivolution cards is a yellow Digimon?",
+					"A: Yes, it activates if the Digimon that has this card in its digivolution cards is yellow.",
+]
 
 class ST10_02 extends Card:
 	func _init():
@@ -41,17 +44,24 @@ class ST10_02 extends Card:
 		id = "ST10-02"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.PURPLE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 0
 		digivolve_level_2 = 2
 		digimon_type = "Mammal"
 		power = 2000
-		inherited_effect_text = "[End of Your Turn] You can DNA Digivolve this Digimon and your other Digimon in play into a Digimon card in your hand by paying its DNA Digivolution cost."
+		inherited_effect_text = "[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve cost."
+		ruling = [
+					"Q: What kind of effect is this card's inherited effect?",
+					"A: At the end of your turn, the Digimon that has this card in its digivolution card, and 1 of your other Digimon, can DNA digivolve into a Digimon in your hand that can <DNA Digivolve>, before the turn is passed to your opponent.",
+					"Q: Can I use this card's inherited effect to DNA digivolve into a Digimon card in my hand that cannot <DNA Digivolve>?",
+					"A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve into a Digimon card that cannot <DNA Digivolve>.",
+					"Q: Can I use this card's inherited effect to DNA digivolve my Digimon in play that is not the colour and level specified by the card that can <DNA Digivolve> in my hand?",
+					"A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve your Digimon that is not the correct colour or level specified by the card that can <DNA Digivolve>.",
+					"Q: This card's [End of Your Turn] effect has triggered, and the Digimon it is underneath is used as part of a DNA Digivolve. Can I still activate this effect?",
+					"A: No, the Digimon from DNA Digivolve is treated as a new Digimon so the old DIgimon is no longer in the battle area.",
+]
 		notes = "Plotmon"
 
 class ST10_03 extends Card:
@@ -63,12 +73,9 @@ class ST10_03 extends Card:
 		id = "ST10-03"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.PURPLE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 0
 		digivolve_level_2 = 2
 		digimon_type = "Beast"
@@ -83,18 +90,27 @@ class ST10_04 extends Card:
 		id = "ST10-04"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 3
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.PURPLE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 3
 		digivolve_level_2 = 3
 		digimon_type = "Holy Beast"
 		power = 4000
-		effect_text = "[On Play] Reveal the top 3 cards of your deck. You may add 1 Purple and 1 Yellow Digimon card among them to your hand. Return the remaining cards to the bottom of your deck in any order.\n[Your Turn] When this Digimon digivolves into a Digimon with [Archangel], reduce the digivolution cost by 2."
-		inherited_effect_text = "[End of Your Turn] You can DNA Digivolve this Digimon and your other Digimon in play into a Digimon card in your hand by paying its DNA Digivolution cost."
+		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 yellow Digimon card and 1 purple Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order.\n[Your Turn] When this Digimon would digivolve into a Digimon with [Archangel], or [Fallen Angel] in its traits, reduce the memory cost of the digivolution by 2."
+		inherited_effect_text = "[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve cost."
+		ruling = [
+					"Q: Must I reveal the top 3 cards of my deck for this card's [On Play] effect?",
+					"A: Yes, as it says to \"Reveal\", you must reveal the top 3 cards from your deck if you are able to.",
+					"Q: For this card's [On Play] effect, if both a yellow and a purple card were revealed, must I add both of them to my hand?",
+					"A: Yes, at it says to \"Add to your hand\", you must add a revealed card that fulfils the condition to your hand if you are able to.",
+					"Q: What kind of effect is this card's inherited effect?",
+					"A: At the end of your turn, the Digimon that has this card in its digivolution card, and 1 of your other Digimon, can DNA digivolve into a Digimon in your hand that can <DNA Digivolve>, before the turn is passed to your opponent.",
+					"Q: Can I use this card's inherited effect to DNA digivolve into a Digimon card in my hand that cannot <DNA Digivolve>?",
+					"A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve into a Digimon card that cannot <DNA Digivolve>.",
+					"Q: Can I use this card's inherited effect to DNA digivolve my Digimon in play that is not the colour and level specified by the card that can <DNA Digivolve> in my hand?",
+					"A: No, as digivolution requirements cannot be ignored. You cannot DNA digivolve your Digimon that is not the correct colour or level specified by the card that can <DNA Digivolve>.",
+]
 		notes = "Tailmon"
 
 class ST10_05 extends Card:
@@ -106,18 +122,19 @@ class ST10_05 extends Card:
 		id = "ST10-05"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 3
-		digivolve_level = 4
-		digivolve_color_2 = ColorGroup.PURPLE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 3
 		digivolve_level_2 = 4
 		digimon_type = "Archangel"
 		power = 6000
-		effect_text = "[On Play] 1 of your opponent's Digimon gains [Security Attack -2] until the end of your opponent's next turn."
-		inherited_effect_text = "[Your Turn] While you have a Purple Digimon in play, this Digimon gains [Security Attack +1]."
+		effect_text = "[On Play] 1 of your opponent's Digimon gains <Security Attack -2> (This Digimon checks 2 fewer security cards) until the end of your opponent's next turn."
+		inherited_effect_text = "[Your Turn] While you have a purple Digimon in play, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card)."
+		ruling = [
+					"Q: Does this card's inherited effect activate if the Digimon that has this card in its digivolution card is a purple Digimon?",
+					"A: Yes, it activates if the Digimon that has this card in its digivolution card is purple.",
+]
 
 class ST10_06 extends Card:
 	func _init():
@@ -128,40 +145,22 @@ class ST10_06 extends Card:
 		id = "ST10-06"
 		play_cost = 13
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 5
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.PURPLE
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 5
 		digivolve_level_2 = 5
 		digimon_type = "Angel"
 		power = 13000
-		effect_text = "<DNA Digivolve: [Yellow Level 5] + [Purple Level 5]: [0]>\n[When Digivolved] Place 1 yellow or purple Digimon card from your trash on top of your security stack face down. When DNA digivolving, you may search your security stack for 1 level 5 or lower Digimon card and play it without paying its memory cost. Then, shuffle your security stack.\n[All Turns] When you play another Digimon using an effect, delete 1 of your opponent's Digimon whose level is less than or equal to the played Digimon's level."
-
-class ST10_06_B extends Card:
-	func _init():
-		name = "Mastemon"
-		type = Type.DIGIMON
-		color = ColorGroup.YELLOW
-		rarity = Rarity.SR
-		id = "ST10-06 (B)"
-		play_cost = 13
-		level = 6
-		stage_level = Stage.MEGA
-		attribute = Attribute.VACCINE
-		digivolve_color = ColorGroup.YELLOW
-		digivolve_cost = 5
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.PURPLE
-		digivolve_cost_2 = 5
-		digivolve_level_2 = 5
-		digimon_type = "Angel"
-		power = 13000
-		effect_text = "<DNA Digivolve: [Yellow Level 5] + [Purple Level 5]: [0]>\n[When Digivolved] Place 1 yellow or purple Digimon card from your trash on top of your security stack face down. When DNA digivolving, you may search your security stack for 1 level 5 or lower Digimon card and play it without paying its memory cost. Then, shuffle your security stack.\n[All Turns] When you play another Digimon using an effect, delete 1 of your opponent's Digimon whose level is less than or equal to the played Digimon's level."
-		is_parallel = true
-		notes = "parallel promo"
+		effect_text = "[When Digivolving] Place 1 yellow or purple Digimon card from your trash on top of your security stack face down. When DNA digivolving, you may search your security stack for 1 level 5 or lower Digimon card and play it without paying its memory cost. Then, shuffle your security stack.\n[All Turns] When you play another Digimon using an effect, delete 1 of your opponent's Digimon whose level is less than or equal to the played Digimon's level."
+		ruling = [
+					"Q: For this card's [When Digivolving] effect, does it not activate if I don't DNA Digivolve?",
+					"A: The first part \"Place 1 yellow or purple Digimon card from your trash to the top of your security stack face-down\" activates even if you don't DNA Digivolve. The latter part “You may look at all of your security cards and play a level 5 or below Digimon card from among them without paying its cost\" can only activate if you DNA Digivolved. “Then, shuffle your Security Stack” activates for both digivolutions.",
+					"Q: Does this card's [All Turns] effect activate if my Security Digimon is played as a Digimon by its [Security] effect?",
+					"A: Yes, it does.",
+					"Q: Does this card's [All Turns] effect activate if I move a Digimon from my Breeding Area to my Battle Area using the effect of [BT1-089 Mimi Tachikawa]?",
+					"A: No, it does not. As moving a Digimon from Breeding Area is not treated as playing a Digimon.",
+]
 
 class ST10_07 extends Card:
 	func _init():
@@ -172,14 +171,11 @@ class ST10_07 extends Card:
 		id = "ST10-07"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Ghost"
 		power = 2000
-		effect_text = "[Opponent Turn] While you have a yellow Digimon in play, this Digimon gains [Blocker]."
+		effect_text = "[Opponent's Turn] While you have a yellow Digimon in play, this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead)."
 
 class ST10_08 extends Card:
 	func _init():
@@ -190,17 +186,20 @@ class ST10_08 extends Card:
 		id = "ST10-08"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 0
-		digivolve_level = 2
-		digivolve_color_2 = ColorGroup.YELLOW
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 0
 		digivolve_level_2 = 2
 		digimon_type = "Mammal"
 		power = 2000
-		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 [Angel] among them to your hand. Return the remaining cards to the bottom of your deck in any order."
+		effect_text = "[On Play] Reveal the top 3 cards of your deck. Add 1 [Angel], [Archangel], or [Fallen Angel] in its traits among them to your hand. Return the remaining cards to the bottom of your deck in any order."
+		ruling = [
+					"Q: Must I reveal the top 3 cards of my deck for this card's [On Play] effect?",
+					"A: Yes, as it says to “Reveal”, you must reveal the top 3 cards from your deck if you are able to.",
+					"Q: For this card's [On Play] effect, if a Digimon card with [Angel], [Archangel], or [Fallen Angel] in its traits was revealed, must I add it to my hand?",
+					"A: Yes, at it says to \"Add to your hand\", you must add a revealed card that fulfils the condition to your hand if you are able to.",
+]
 
 class ST10_09 extends Card:
 	func _init():
@@ -211,14 +210,19 @@ class ST10_09 extends Card:
 		id = "ST10-09"
 		play_cost = 6
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Wizard"
 		power = 4000
-		effect_text = "[Security] At the end of battle, play this card without paying its cost.\n[On Play] Return 1 purple level 5 or lower Digimon card from your trash to your hand."
+		effect_text = "[Security] At the end of the battle, play this card without paying its memory cost.\n[On Play] Return 1 purple level 5 or lower Digimon card from your trash to your hand."
+		ruling = [
+					"Q: For this card's [Security] effect, if it lost the battle against the attacking Digimon, can I still play it?",
+					"A: Yes, it is played at the end of battle regardless of the outcome of that battle.",
+					"Q: Does this card's [On Play] effect activate even if it is played by the effects of this card's [Security] effect?",
+					"A: Yes, it activates.",
+					"Q: For this card's [Security] effect, if at the end of the battle which this card was checked, the attacking Digimon still has remaining checks not done, does this card's [Security] effect activate first or does the next check happens first?",
+					"A: As this Digimon is to be played at the end of the battle with the attacking Digimon, it is played before the next check happens. Its [On Play] effect also activates before the next check.",
+]
 
 class ST10_10 extends Card:
 	func _init():
@@ -229,12 +233,9 @@ class ST10_10 extends Card:
 		id = "ST10-10"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 2
-		digivolve_level = 3
-		digivolve_color_2 = ColorGroup.YELLOW
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 2
 		digivolve_level_2 = 3
 		digimon_type = "Wizard"
@@ -249,11 +250,8 @@ class ST10_11 extends Card:
 		id = "ST10-11"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Beastkin"
 		power = 7000
 		effect_text = "[On Play] Delete 1 of your opponent's level 3 Digimon."
@@ -267,18 +265,21 @@ class ST10_12 extends Card:
 		id = "ST10-12"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 4
-		digivolve_color_2 = ColorGroup.YELLOW
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 3
 		digivolve_level_2 = 4
 		digimon_type = "Fallen Angel"
 		power = 6000
-		effect_text = "[When Digivolved] You may trash 1 card in your hand to reveal the top 3 cards of your deck. You can add 1 Yellow and 1 Purple Digimon with [Angel] among them to your hand. Place the remaining cards at the bottom of your deck in any order."
-		inherited_effect_text = "[Your Turn] All of your Yellow Digimon gain [Retaliation]."
+		effect_text = "[When Digivolving] You may trash 1 card in your hand to reveal the top 3 cards of your deck. Add 1 yellow and 1 purple Digimon with [Angel], [Archangel], or [Fallen Angel] in their traits among them to your hand. Place the remaining cards at the bottom of your deck in any order."
+		inherited_effect_text = "[Your Turn] All of your yellow Digimon gain <Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)."
+		ruling = [
+					"Q: Must I reveal the top 3 cards of my deck for this card's [When Digivolving] effect?",
+					"A: No, as it says \"You may trash 1 card from your hand to\", if you choose not to trash a card, the effects that follow  do not activate.",
+					"Q: For this card's [When Digivolving] effect, if both yellow and purple Digimon cards with [Angel], [Archangel], or [Fallen Angel] in their traits were revealed, must I add them both to my hand?",
+					"A: Yes, at it says to \"Add to your hand\", you must add a revealed card that fulfils the condition to your hand if you are able to.",
+]
 
 class ST10_13 extends Card:
 	func _init():
@@ -289,17 +290,14 @@ class ST10_13 extends Card:
 		id = "ST10-13"
 		play_cost = 11
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 5
-		digivolve_color_2 = ColorGroup.YELLOW
+		digivolve_color_2 = ""
 		digivolve_cost_2 = 3
 		digivolve_level_2 = 5
-		digimon_type = "Shaman"
+		digimon_type = "Shaman/Olympos XII"
 		power = 11000
-		effect_text = "[Retaliation]\n[When Digivolved] Trash top 3 cards of your deck. Then, return 1 Digimon card from your trash to your hand."
+		effect_text = "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)\n[When Digivolving] Trash top 3 cards of your deck. Then, return 1 Digimon card from your trash to your hand."
 
 class ST10_14 extends Card:
 	func _init():
@@ -309,8 +307,16 @@ class ST10_14 extends Card:
 		rarity = Rarity.R
 		id = "ST10-14"
 		play_cost = 8
-		effect_text = "[Main] Place 1 of your opponent's Digimon at the top or the bottom of their security stack face down. If you did, trash the top card of your opponent's security stack."
-		sec_effect_text = "[Security] You may place 1 of your opponent's Digimon at the top or bottom of their security stack face down."
+		effect_text = "[Main] Place 1 of your opponent's Digimon face down at the top or bottom of your opponent's security stack. If you do, trash the top card of your opponent's security stack."
+		sec_effect_text = "[Security] You may place 1 of your opponent's Digimon face down at the top or bottom of its owner's security stack."
+		ruling = [
+					"Q: If I choose to place my opponent's Digimon at the top of their security stack with this card's effect, does that mean the card that was just placed is then trashed?",
+					"A: Yes, exactly. If you choose to put it on top of the security stack, it will become the actual target of trashing.",
+					"Q: Does the Digimon that was placed in the security stack by this card's effect activate its [On Deletion] effects? Or if there are other Digimon or Tamers with effects that trigger \"When Digimon are deleted\", do they activate?",
+					"A: No, as the Digimon was not deleted, those effects do not activate.",
+					"Q: if I target [EX2-007 Mother D-Reaper] with this card's effect, what happens?",
+					"A: [EX2-007 Mother D-Reaper]'s [All Turns] effect will prevent it from being placed in security and because no cards were placed in security by this card's effect a card is not trashed from security.",
+]
 		notes = "Chaos Degrade"
 
 class ST10_15 extends Card:
@@ -323,4 +329,8 @@ class ST10_15 extends Card:
 		play_cost = 1
 		effect_text = "[Main] Trash the top 3 cards of your deck. Then, if you have a yellow Digimon in play, return 1 yellow or purple Digimon card from your trash to your hand"
 		sec_effect_text = "[Security] Activate this card's [Main] effect."
+		ruling = [
+					"Q: Can this card's effect return to my hand a yellow or purple Digimon card that was trashed from top of the deck by this card's effect?",
+					"A: Yes, the effect can return a yellow or purple Digimon card that was trashed from top of the deck by this card's effect to your hand.",
+]
 

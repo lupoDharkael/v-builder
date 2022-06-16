@@ -28,12 +28,12 @@ class ST6_01 extends Card:
 		rarity = Rarity.U
 		id = "ST6-01"
 		level = 2
-		stage_level = Stage.IN_TRAINING
+		stage_level = Stage.HYBRID
 		digimon_type = "Lesser"
 		inherited_effect_text = "[On Deletion] Trash the top 2 cards of your deck."
 		ruling = [
-					"If this card's effect reduces the number of cards in my deck to 0, do I lose the game? ",
-					"No, you don't lose the game when your deck is empty. You will lose the game if your deck has 0 cards in it at your next draw phase, however.",
+					"Q: If this card's effect reduces the number of cards in my deck to 0, do I lose the game?",
+					"A: No, you don't lose the game when your deck is empty. You will lose the game if your deck has 0 cards in it at your next draw phase, however.",
 ]
 
 class ST6_02 extends Card:
@@ -45,11 +45,8 @@ class ST6_02 extends Card:
 		id = "ST6-02"
 		play_cost = 2
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 1
-		digivolve_level = 2
 		digimon_type = "Evil"
 		power = 4000
 		notes = "PicoDevimon"
@@ -63,14 +60,11 @@ class ST6_03 extends Card:
 		id = "ST6-03"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Reptile"
 		power = 2000
-		inherited_effect_text = "[When Attacking] Trigger [Draw 1]. Then, trash 1 card in your hand."
+		inherited_effect_text = "[When Attacking] Trigger <Draw 1> (Draw 1 card from your deck). Then, trash 1 card in your hand."
 
 class ST6_04 extends Card:
 	func _init():
@@ -81,14 +75,11 @@ class ST6_04 extends Card:
 		id = "ST6-04"
 		play_cost = 3
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Undead"
 		power = 2000
-		effect_text = "[On Play] You may return 1 purple Option card from your trash to your hand."
+		effect_text = "[On Play] You may return 1 purple Option card with a memory cost of 1 or 7 from your trash to your hand."
 
 class ST6_05 extends Card:
 	func _init():
@@ -99,11 +90,8 @@ class ST6_05 extends Card:
 		id = "ST6-05"
 		play_cost = 4
 		level = 3
-		stage_level = Stage.ROOKIE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 0
-		digivolve_level = 2
 		digimon_type = "Mammal"
 		power = 5000
 
@@ -116,14 +104,11 @@ class ST6_06 extends Card:
 		id = "ST6-06"
 		play_cost = 4
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Beast"
 		power = 4000
-		inherited_effect_text = "[When Attacking] Trigger [Draw 1]. Then, trash 1 card in your hand."
+		inherited_effect_text = "[When Attacking] Trigger <Draw 1> (Draw 1 card from your deck). Then, trash 1 card in your hand."
 
 class ST6_07 extends Card:
 	func _init():
@@ -134,11 +119,8 @@ class ST6_07 extends Card:
 		id = "ST6-07"
 		play_cost = 5
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 2
-		digivolve_level = 3
 		digimon_type = "Mysterious Beast"
 		power = 6000
 
@@ -151,17 +133,14 @@ class ST6_08 extends Card:
 		id = "ST6-08"
 		play_cost = 6
 		level = 4
-		stage_level = Stage.CHAMPION
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 1
-		digivolve_level = 3
 		digimon_type = "Fallen Angel"
 		power = 5000
-		effect_text = "[Blocker].\n [When Attacking] Lose 2 memory."
+		effect_text = "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n [When Attacking] Lose 2 memory."
 		ruling = [
-					"Can this Digimon attack if I have less than 2 memory? ",
-					"Yes, it can. Even if your memory counter moves to 1 on your opponent's side due to this Digimon's [When Attacking] effect, your turn doesn't end until the attack does.",
+					"Q: Can this Digimon attack if I have less than 2 memory?",
+					"A: Yes, it can. Even if your memory counter moves to 1 on your opponent's side due to this Digimon's [When Attacking] effect, your turn doesn't end until the attack does.",
 ]
 
 class ST6_09 extends Card:
@@ -173,11 +152,8 @@ class ST6_09 extends Card:
 		id = "ST6-09"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Mysterious Beast"
 		power = 9000
 
@@ -190,14 +166,11 @@ class ST6_10 extends Card:
 		id = "ST6-10"
 		play_cost = 6
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Undead"
 		power = 7000
-		effect_text = "[When Digivolved] You may return 1 purple Digimon card from your trash to your hand."
+		effect_text = "[When Digivolving] You may return 1 purple Digimon card from your trash to your hand."
 
 class ST6_11 extends Card:
 	func _init():
@@ -208,11 +181,8 @@ class ST6_11 extends Card:
 		id = "ST6-11"
 		play_cost = 7
 		level = 5
-		stage_level = Stage.ULTIMATE
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 4
 		digimon_type = "Beastkin"
 		power = 7000
 		inherited_effect_text = "[Your Turn] While there are 5 or more cards in your trash, this Digimon gets +2000 DP."
@@ -226,19 +196,16 @@ class ST6_12 extends Card:
 		id = "ST6-12"
 		play_cost = 10
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.VIRUS
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 3
-		digivolve_level = 5
 		digimon_type = "Dark Animal"
 		power = 11000
-		effect_text = "[When Digivolved] Up to 2 of your Digimon gain [Retaliation] until the end of your opponent's next turn."
+		effect_text = "[When Digivolving] Up to 2 of your Digimon gain <Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling) until the end of your opponent's next turn."
 		ruling = [
-					" Can I use this card's effect to give this Digimon [Retaliation]? ",
-					"Yes, you can.",
-					"I use this card to give a Digimon [Retaliation]. If that Digimon digivolves into a different Digimon, what happens to [Retaliation]? ",
-					"Digimon retain effects when digivolving or dedigivolving, so [Retaliation] remains.",
+					"Q:  Can I use this card's effect to give this Digimon <Retaliation>?",
+					"A: Yes, you can.",
+					"Q: I use this card to give a Digimon <Retaliation>. If that Digimon digivolves into a different Digimon, what happens to <Retaliation>?",
+					"A: Digimon retain effects when digivolving or dedigivolving, so <Retaliation> remains.",
 ]
 		notes = "VenomVamdemon"
 
@@ -251,17 +218,14 @@ class ST6_13 extends Card:
 		id = "ST6-13"
 		play_cost = 12
 		level = 6
-		stage_level = Stage.MEGA
+		stage_level = Stage.HYBRID
 		attribute = Attribute.DATA
-		digivolve_color = ColorGroup.PURPLE
-		digivolve_cost = 4
-		digivolve_level = 5
 		digimon_type = "Beast Knight"
 		power = 12000
-		effect_text = "[Security Attack +1].\n[Main] [Digiburst 2].\n·Play 1 purple level 3 Digimon card from your trash without paying its memory cost."
+		effect_text = "<Security Attack +1> (This Digimon checks 1 additional security card).\n[Main] <Digi-Burst 2> (You may trash 2 of this Digimon's digivolution cards to activate the effect below).\n・Play 1 purple level 3 Digimon card from your trash without paying its memory cost."
 		ruling = [
-					"I use this card's [Digiburst] to trash a purple level 3 Digimon card in the Digimon with [Digiburst]'s digivolution cards. Can I immediately use the [Digiburst] effect to play that Digimon without paying its memory cost? ",
-					"Yes, you can.",
+					"Q: I use this card's <Digi-Burst> to trash a purple level 3 Digimon card in the Digimon with <Digi-Burst>'s digivolution cards. Can I immediately use the <Digi-Burst> effect to play that Digimon without paying its memory cost?",
+					"A: Yes, you can.",
 ]
 
 class ST6_14 extends Card:
@@ -287,10 +251,10 @@ class ST6_15 extends Card:
 		effect_text = "[Main] You may delete 1 of your Digimon to delete 1 of your opponent's level 4 or lower Digimon."
 		sec_effect_text = "[Security] Delete 1 of your opponent's level 4 or lower Digimon."
 		ruling = [
-					"I use this card's effect to delete one of my Digimon with a [On Deletion] effect. Can I activate the [On Deletion] effect before this card's \"delete 1 of your opponent's level 4 or lower Digimon\" effect? ",
-					"No. You must fully activate this card's effect, then activate the [On Deletion] effect.",
-					"Does this card's inherited effect activate if your opponent's Digimon were all deleted in battle after attacking? ",
-					"No, it doesn't. They attacked this turn, so the effect doesn't apply.",
+					"Q: I use this card's effect to delete one of my Digimon with a [On Deletion] effect. Can I activate the [On Deletion] effect before this card's \"delete 1 of your opponent's level 4 or lower Digimon\" effect?",
+					"A: No. You must fully activate this card's effect, then activate the [On Deletion] effect.",
+					"Q: Does this card's inherited effect activate if your opponent's Digimon were all deleted in battle after attacking?",
+					"A: No, it doesn't. They attacked this turn, so the effect doesn't apply.",
 ]
 
 class ST6_16 extends Card:
@@ -304,9 +268,11 @@ class ST6_16 extends Card:
 		effect_text = "[Main] You may play 1 purple level 3 Digimon card and 1 purple level 4 Digimon card from your trash without paying their memory costs. Any [On Play] effects on Digimon played with this effect don't activate."
 		sec_effect_text = "[Security] You may play 1 purple level 4 or lower Digimon card from your trash without paying its memory cost.\nAny [On Play] effects on Digimon played with this effect don't activate."
 		ruling = [
-					"Can I use this card's effect if I only have either a level 3 or level 4 purple Digimon card in my trash? ",
-					"Yes, you can. If you only have a level 3 or level 4 purple Digimon card in your trash, you can play it.",
-					"If I have both a level 3 and a level 4 in the trash, can I choose to play only one of them? ",
-					"Yes, you can. If you have both a level 3 and a level 4 in the trash, you may play only one of them.",
+					"Q: Can I use this card's effect if I only have either a level 3 or level 4 purple Digimon card in my trash?",
+					"A: Yes, you can. If you only have a level 3 or level 4 purple Digimon card in your trash, you can play it.",
+					"Q: If I have both a level 3 and a level 4 in the trash, can I choose to play only one of them?",
+					"A: Yes, you can. If you have both a level 3 and a level 4 in the trash, you may play only one of them.",
+					"Q: I use this card's [Main] effect to play 2 Digimon. Do I get to trigger \"When you play a Digimon\" twice?",
+					"A: No, you only trigger that effect once.",
 ]
 
