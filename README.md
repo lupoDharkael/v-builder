@@ -1,7 +1,12 @@
 # V-Builder
 
-Victory Builder is a Digimon Card Game deck builder.
+<p align="center">
+    <img src="images/v-logo.svg" width="200" alt="Godot Engine logo">
+</p>
 
+<p align="center">
+    Victory Builder is a Digimon Card Game deck builder.
+</p>
 
 
 ## Missing files
