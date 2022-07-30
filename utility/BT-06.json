@@ -158,6 +158,7 @@
             "rarity": "Uncommon",
             "engsets": [
                 "Double Diamond Pre-Release Pack",
+                "Demo Deck",
                 "Digimon Card Game Fest - Digi-Egg Set"
             ]
         },
@@ -291,7 +292,7 @@
             "evocolor1": "Red",
             "evolevel1": "2",
             "evocost1": "0",
-            "effect1": "[On Play] Reveal the top 5 cards of your deck. Add up to 2 Digimon cards with [Huckmon], [Jesmon], or [Sistermon] in their name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect1": "[On Play] Reveal the top 5 cards of your deck. Add up to 2 Digimon cards with [Huckmon], [Jesmon] or [Sistermon] in their name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
             "wwsets": [
                 "BT-06: Booster Double Diamond"
             ],
@@ -302,7 +303,7 @@
             ],
             "ruling": [
                 [
-                    "Q: For this cards' effect, if I reveal 2 of the same card with [Huckmon], [Jesmon], or [Sistermon] in their name, can I add both of them to my hand?",
+                    "Q: For this cards' effect, if I reveal 2 of the same card with [Huckmon], [Jesmon] or [Sistermon] in their name, can I add both of them to my hand?",
                     "A:  Yes you can."
                 ]
             ]
@@ -329,7 +330,7 @@
             "evocolor1": "Red",
             "evolevel1": "2",
             "evocost1": "0",
-            "effect2": "[Your Turn] While this Digimon has [Hybrid], or [Ten Warriors] in its form or type, it gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).",
+            "effect2": "[Your Turn] While this Digimon has [Hybrid] or [Ten Warriors] in its form or type, it gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).",
             "wwsets": [
                 "BT-06: Booster Double Diamond"
             ],
@@ -764,7 +765,7 @@
             "evocolor1": "Blue",
             "evolevel1": "2",
             "evocost1": "0",
-            "effect2": "[When Attacking] (Once Per Turn) If this Digimon has [Hybrid], or [Ten Warriors] in its form or type, gain 1 memory.",
+            "effect2": "[When Attacking] (Once Per Turn) If this Digimon has [Hybrid] or [Ten Warriors] in its form or type, gain 1 memory.",
             "wwsets": [
                 "BT-06: Booster Double Diamond"
             ],
@@ -1946,7 +1947,8 @@
             ],
             "rarity": "Uncommon",
             "engsets": [
-                "Double Diamond Pre-Release Pack"
+                "Double Diamond Pre-Release Pack",
+                "Demo Deck"
             ]
         },
         {
@@ -2084,7 +2086,8 @@
             ],
             "rarity": "Rare",
             "engsets": [
-                "Double Diamond Pre-Release Pack"
+                "Double Diamond Pre-Release Pack",
+                "Revision Pack"
             ]
         },
         {
@@ -2260,7 +2263,11 @@
                 "BT-06: Booster Double Diamond",
                 "BT-06: Booster Double Diamond"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "engsets": [
+                "Revision Pack",
+                "Revision Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7a/BT6-065.png/revision/latest?cb=20210921061251",
@@ -2401,7 +2408,7 @@
             "evocolor1": "Purple",
             "evolevel1": "2",
             "evocost1": "0",
-            "effect1": "[On Play] You may trash 1 card in your hand. If you do, return 1 Digimon card with [Seven Great Demon Lords], or [Three Musketeers] in its type from your trash to your hand.",
+            "effect1": "[On Play] You may trash 1 card in your hand. If you do, return 1 Digimon card with [Seven Great Demon Lords] or [Three Musketeers] in its type from your trash to your hand.",
             "wwsets": [
                 "BT-06: Booster Double Diamond",
                 "BT-06: Booster Double Diamond"
@@ -2413,7 +2420,7 @@
             "ruling": [
                 [
                     "Q: For this card's effect, must I trash 1 card from my hand when this card is played?",
-                    "A: ' No, as it says \"You may trash\". It is up to you to choose to trash or not. However if you did not trash a card, you do not return a Digimon with [Seven Great Demon Lords], or [Three Musketeers] in its type from your trash to your hand."
+                    "A: ' No, as it says \"You may trash\". It is up to you to choose to trash or not. However if you did not trash a card, you do not return a Digimon with [Seven Great Demon Lords] or [Three Musketeers] in its type from your trash to your hand."
                 ]
             ]
         },
@@ -2633,7 +2640,7 @@
                 ],
                 [
                     "Q: If I have both [BT6-073 Ginkakumon] and [BT6-071 Kinkakumon] in my trash. Can I choose to place only 1 of them into this card's digivolution cards?",
-                    "A: Yes, you can choose only 1 of them to put underneath this card."
+                    "A: No, if you choose to place cards underneath this card you must do as much as possible or none at all. If you have one, you can place one but if you have both you must place both."
                 ]
             ]
         },
@@ -2949,6 +2956,16 @@
             "jpsets": [
                 "BT-06: Booster Double Diamond",
                 "BT-06: Booster Double Diamond"
+            ],
+            "ruling": [
+                [
+                    "Q: If this card is in the hand or breeding area. Is this card still treated as \"[Sistermon Ciel] and [Data] Attribute\"?",
+                    "A: Yes, it is treated as \"[Sistermon Ciel] and [Data] Attribute\" because it is a special rule and not an effect."
+                ],
+                [
+                    "Q: Does this card have four traits, [Champion], [Puppet], [Virus], and [Virus]?",
+                    "A: Yes, this card is treated as both [Virus] and [Virus], but it is treated as one card number, and it is treated as having three traits in total including [Champion] and [Puppet]."
+                ]
             ]
         },
         {
@@ -3032,7 +3049,7 @@
             "cardtype": "Tamer",
             "playcost": "3",
             "ilustrators": [],
-            "effect1": "[Your Turn] When one of your Digimon with [Agumon], or [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon]) moves from the breeding area to the battle area, gain 1 memory and trigger <Draw 1> (Draw 1 card from your deck).\n[Main] (Once Per Turn) You can digivolve your [Agumon] into 1 [Agumon - Bond of Bravery] in your hand for its digivolution cost, ignoring its level. If you do, trash the top 2 cards of your security stack. Then, if you have 1 or more security cards, delete that Digimon at the end of the turn.",
+            "effect1": "[Your Turn] When one of your Digimon with [Agumon] or [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon]) moves from the breeding area to the battle area, gain 1 memory and trigger <Draw 1> (Draw 1 card from your deck).\n[Main] (Once Per Turn) You can digivolve your [Agumon] into 1 [Agumon - Bond of Bravery] in your hand for its digivolution cost, ignoring its level. If you do, trash the top 2 cards of your security stack. Then, if you have 1 or more security cards, delete that Digimon at the end of the turn.",
             "effect2": "[Security] Play this card without paying its memory cost.",
             "wwsets": [
                 "BT-06: Booster Double Diamond"
@@ -3072,7 +3089,7 @@
             "cardtype": "Tamer",
             "playcost": "3",
             "ilustrators": [],
-            "effect1": "[Your Turn] When one of your Digimon with [Gabumon], or [Garurumon] in its name (other than [KendoGarurumon]) moves from the breeding area to the battle area, gain 1 memory and trigger <Draw 1> (Draw 1 card from your deck).\n[Main] (Once Per Turn) You can digivolve your [Gabumon] into 1 [Gabumon - Bond of Friendship] in your hand for its digivolution cost, ignoring its level. If you do, trash the top 2 cards of your security stack. Then, if you have 1 or more security cards, delete that Digimon at the end of the turn.",
+            "effect1": "[Your Turn] When one of your Digimon with [Gabumon] or [Garurumon] in its name (other than [KendoGarurumon]) moves from the breeding area to the battle area, gain 1 memory and trigger <Draw 1> (Draw 1 card from your deck).\n[Main] (Once Per Turn) You can digivolve your [Gabumon] into 1 [Gabumon - Bond of Friendship] in your hand for its digivolution cost, ignoring its level. If you do, trash the top 2 cards of your security stack. Then, if you have 1 or more security cards, delete that Digimon at the end of the turn.",
             "effect2": "[Security] Play this card without paying its memory cost.",
             "wwsets": [
                 "BT-06: Booster Double Diamond"
@@ -3722,7 +3739,7 @@
             "evocolor1": "Black",
             "evolevel1": "5",
             "evocost1": "3",
-            "effect1": "[Security] At the end of the battle, add this card to your hand. Then, if a Digimon with [Royal Knight], or [X Antibody] in its type is in play, up to 12 of your opponent's Digimon can't attack players for the turn.\n[When Attacking] You may pay up to 5 memory. If you do, this Digimon gets +1000 DP for the turn for each memory paid.\n[End of Attack] Gain 2 memory.",
+            "effect1": "[Security] At the end of the battle, add this card to your hand. Then, if a Digimon with [Royal Knight] or [X Antibody] in its type is in play, up to 12 of your opponent's Digimon can't attack players for the turn.\n[When Attacking] You may pay up to 5 memory. If you do, this Digimon gets +1000 DP for the turn for each memory paid.\n[End of Attack] Gain 2 memory.",
             "wwsets": [
                 "BT-06: Booster Double Diamond",
                 "BT-06: Booster Double Diamond",

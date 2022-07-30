@@ -133,7 +133,7 @@
             "evocolor2": "Purple",
             "evolevel2": "3",
             "evocost2": "3",
-            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 yellow Digimon card and 1 purple Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order.\n[Your Turn] When this Digimon would digivolve into a Digimon with [Archangel], or [Fallen Angel] in its traits, reduce the memory cost of the digivolution by 2.",
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 yellow Digimon card and 1 purple Digimon card among them to your hand. Place the remaining cards at the bottom of your deck in any order.\n[Your Turn] When this Digimon would digivolve into a Digimon with [Archangel] or [Fallen Angel] in its traits, reduce the memory cost of the digivolution by 2.",
             "effect2": "[End of Your Turn] You may DNA digivolve this Digimon and one of your other Digimon in play into a Digimon card in your hand by paying its DNA digivolve cost.",
             "wwsets": [
                 "ST-10: Starter Deck Parallel World Tactician"
@@ -227,11 +227,12 @@
             "evocost2": "5",
             "effect1": "[When Digivolving] Place 1 yellow or purple Digimon card from your trash on top of your security stack face down. When DNA digivolving, you may search your security stack for 1 level 5 or lower Digimon card and play it without paying its memory cost. Then, shuffle your security stack.\n[All Turns] When you play another Digimon using an effect, delete 1 of your opponent's Digimon whose level is less than or equal to the played Digimon's level.",
             "wwsets": [
-                "ST-10: Starter Deck Parallel World Tactician"
+                "ST-10: Starter Deck Parallel World Tactician",
+                "BT-10: Booster Xros Encounter"
             ],
             "rarity": "Super Rare",
             "engsets": [
-                "Digital Hazard EX-02",
+                "EX-02: Theme Booster Digital Hazard",
                 "AB-01: Digimon Card Game Adventure Box"
             ],
             "ruling": [
@@ -246,6 +247,10 @@
                 [
                     "Q: Does this card's [All Turns] effect activate if I move a Digimon from my Breeding Area to my Battle Area using the effect of [BT1-089 Mimi Tachikawa]?",
                     "A: No, it does not. As moving a Digimon from Breeding Area is not treated as playing a Digimon."
+                ],
+                [
+                    "Q: When an effect plays multiple Digimon with different levels at the same time, what happens for its [All Turns] effect?",
+                    "A: You choose 1 of those Digimon, and delete a Digimon whose level is equal to or lower than that Digimon's level."
                 ]
             ]
         },
@@ -300,7 +305,7 @@
             "evocolor2": "Yellow",
             "evolevel2": "2",
             "evocost2": "0",
-            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 [Angel], [Archangel], or [Fallen Angel] in its traits among them to your hand. Return the remaining cards to the bottom of your deck in any order.",
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 [Angel], [Archangel] or [Fallen Angel] in its traits among them to your hand. Return the remaining cards to the bottom of your deck in any order.",
             "wwsets": [
                 "ST-10: Starter Deck Parallel World Tactician"
             ],
@@ -311,7 +316,7 @@
                     "A: Yes, as it says to “Reveal”, you must reveal the top 3 cards from your deck if you are able to."
                 ],
                 [
-                    "Q: For this card's [On Play] effect, if a Digimon card with [Angel], [Archangel], or [Fallen Angel] in its traits was revealed, must I add it to my hand?",
+                    "Q: For this card's [On Play] effect, if a Digimon card with [Angel], [Archangel] or [Fallen Angel] in its traits was revealed, must I add it to my hand?",
                     "A: Yes, at it says to \"Add to your hand\", you must add a revealed card that fulfils the condition to your hand if you are able to."
                 ]
             ]
@@ -438,7 +443,7 @@
             "evocolor2": "Yellow",
             "evolevel2": "4",
             "evocost2": "3",
-            "effect1": "[When Digivolving] You may trash 1 card in your hand to reveal the top 3 cards of your deck. Add 1 yellow and 1 purple Digimon with [Angel], [Archangel], or [Fallen Angel] in their traits among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect1": "[When Digivolving] You may trash 1 card in your hand to reveal the top 3 cards of your deck. Add 1 yellow and 1 purple Digimon with [Angel], [Archangel] or [Fallen Angel] in their traits among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
             "effect2": "[Your Turn] All of your yellow Digimon gain <Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling).",
             "wwsets": [
                 "ST-10: Starter Deck Parallel World Tactician"
@@ -450,7 +455,7 @@
                     "A: No, as it says \"You may trash 1 card from your hand to\", if you choose not to trash a card, the effects that follow  do not activate."
                 ],
                 [
-                    "Q: For this card's [When Digivolving] effect, if both yellow and purple Digimon cards with [Angel], [Archangel], or [Fallen Angel] in their traits were revealed, must I add them both to my hand?",
+                    "Q: For this card's [When Digivolving] effect, if both yellow and purple Digimon cards with [Angel], [Archangel] or [Fallen Angel] in their traits were revealed, must I add them both to my hand?",
                     "A: Yes, at it says to \"Add to your hand\", you must add a revealed card that fulfils the condition to your hand if you are able to."
                 ]
             ]

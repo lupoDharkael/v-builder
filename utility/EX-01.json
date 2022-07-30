@@ -23,8 +23,8 @@
             "evocost1": "0",
             "effect2": "[When Attacking] (Once Per Turn) Reveal the top 3 cards of your deck. Add 1 Tamer card or 1 Digimon Card with [Agumon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon",
             "ruling": [
@@ -60,8 +60,8 @@
             "evocost1": "0",
             "effect2": "[When Attacking] (Once Per Turn) When this Digimon attacks a player, <Draw 1> (Draw 1 card from your deck).",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -92,7 +92,7 @@
             "evocost1": "2",
             "effect2": "[When Attacking] When this Digimon attacks a player, delete 1 of your opponent's Digimon with 3000 DP or less.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon",
             "ruling": [
@@ -123,8 +123,8 @@
             "evocost1": "2",
             "effect2": "[When Attacking] (Once Per Turn) You may play 1 [Tai Kamiya] with a play cost of 3 or less from your hand without paying its memory cost.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -159,8 +159,8 @@
             "effect1": "[When Digivolving] If you don't have a [Taiga] in play, you may play one from your hand without paying its memory cost.\n[Your Turn] This Digimon is also treated as green.",
             "effect2": "[Your Turn] While this Digimon has [Tyrannomon] in its name, it gets +2000 DP.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare",
             "ruling": [
@@ -199,8 +199,8 @@
             "evocost1": "3",
             "effect2": "[When Attacking] (Once Per Turn) When this Digimon attacks a player, gain 1 memory.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -235,7 +235,7 @@
             "effect1": "[On Play] Delete up to 2 of your opponent's Digimon with 3000 DP or less.",
             "effect2": "[Your Turn] While this Digimon has [Machine] in its traits, it gains <Security Attack +1> (This Digimon checks 1 additional security card).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "engsets": [
@@ -267,15 +267,15 @@
             "evolevel2": "4",
             "evocost2": "3",
             "effect1": "[When Attacking] When this Digimon attacks a player, delete 1 of your opponent's Digimon with 4000 DP or less.",
-            "effect2": "[Your Turn] While this Digimon has [Machine], or [Dragonkin] in its traits, it gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).",
+            "effect2": "[Your Turn] While this Digimon has [Machine] or [Dragonkin] in its traits, it gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare",
             "ruling": [
                 [
-                    "Q: My Digimon has <Piercing> from this card's inherited effect also has <Security Attack +1> from another card's effect. This Digimon then attacked my opponent's Digimon and performs Security Check due to its <Piercing>. The 1st check's Security effect activates <De-Digivolve  1> on my attacking Digimon, discarding 1 card from this Digimon stack from the top. This Digimon then becomes a Digimon that does not have [Machine], or [Dragonkin] in their type, hence losing its <Piercing>. Do I still make the second security check?",
+                    "Q: My Digimon has <Piercing> from this card's inherited effect also has <Security Attack +1> from another card's effect. This Digimon then attacked my opponent's Digimon and performs Security Check due to its <Piercing>. The 1st check's Security effect activates <De-Digivolve  1> on my attacking Digimon, discarding 1 card from this Digimon stack from the top. This Digimon then becomes a Digimon that does not have [Machine] or [Dragonkin] in their type, hence losing its <Piercing>. Do I still make the second security check?",
                     "A: Yes, as <Piercing> has already activated, you continue to perform the rest of the security checks."
                 ],
                 [
@@ -305,8 +305,8 @@
             "evocost1": "4",
             "effect1": "[When Digivolving] <Blitz> (If your opponent has 1 or more memory, this Digimon may attack)\n[When Attacking] When this Digimon attacks a player, if you have a Tamer in play, delete 1 of your opponent's Digimon with <Blocker>.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Super Rare",
             "ruling": [
@@ -342,8 +342,8 @@
             "evocost1": "3",
             "effect1": "<Security Attack +1> (This Digimon checks 1 additional security card)\n[When Attacking] When this Digimon attacks a player, <Draw 2> (Draw 2 cards from your deck).",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon",
             "ruling": [
@@ -374,8 +374,8 @@
             "evocost1": "0",
             "effect2": "[When Attacking] (Once Per Turn) Reveal the top 3 cards of your deck. Add 1 Tamer card or 1 Digimon Card with [Gabumon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon",
             "ruling": [
@@ -410,8 +410,8 @@
             "evocost1": "0",
             "effect1": "[On Play] Trash 1 digivolution card from the bottom of 1 of your opponent's Digimon.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common"
         },
@@ -439,7 +439,7 @@
             "evocost1": "0",
             "effect2": "[Your Turn] (Once Per Turn) When this Digimon becomes unsuspended during your main phase, gain 1 memory.",
             "wwsets": [
-                "Classic Collection EX-01",
+                "EX-01: Theme Booster Classic Collection",
                 "PB-06: Tamer's Evolution Box 2"
             ],
             "rarity": "Rare",
@@ -478,7 +478,7 @@
             "effect1": "<Jamming> (This Digimon can't be deleted in battles against Security Digimon)",
             "effect2": "[Your Turn] While this Digimon has [Imperialdramon] in its name or [Free] in its traits, it gains <Jamming> (This Digimon can't be deleted in battles against Security Digimon).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "engsets": [
@@ -506,8 +506,8 @@
             "evocost1": "2",
             "effect2": "[When Attacking] (Once Per Turn) You may play 1 [Matt Ishida] with a play cost of 3 or less from your hand without paying its memory cost.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon",
             "ruling": [
@@ -538,7 +538,7 @@
             "evocost1": "2",
             "effect1": "[Your Turn] This Digimon can also attack your opponent's unsuspended Digimon with no digivolution cards.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common"
         },
@@ -564,8 +564,8 @@
             "effect1": "[When Digivolving] <Draw 1> (Draw 1 card from your deck)",
             "effect2": "[When Attacking] (Once Per Turn) If you have 8 or more cards in your hand, gain 1 memory.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common"
         },
@@ -590,8 +590,8 @@
             "evocost1": "3",
             "effect1": "[When Digivolving] Trash 1 digivolution card from the bottom of 1 of your opponent's Digimon.\n[Your Turn] This Digimon can also attack your opponent's unsuspended Digimon with no digivolution cards.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common"
         },
@@ -620,8 +620,8 @@
             "effect1": "[When Digivolving] If a Digimon card with [Free] in its traits is in this Digimon's digivolution cards, unsuspend this Digimon.",
             "effect2": "[Your Turn] While this Digimon has [Imperialdramon] in its name, it can't be blocked.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare",
             "ruling": [
@@ -660,7 +660,7 @@
             "evocost1": "3",
             "effect1": "[Your Turn] (Once Per Turn) When one of your opponent's digivolution cards is trashed, <Draw 2> (Draw 2 cards from your deck).\n[Your Turn] This Digimon can also attack your opponent's unsuspended Digimon with no digivolution cards.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon"
         },
@@ -685,8 +685,8 @@
             "evocost1": "4",
             "effect1": "[When Digivolving] Gain 1 memory for every 4 cards in your hand.\n[When Attacking] If you have 8 or more cards in your hand and a Tamer in play, return 1 of your opponent's Digimon that has an [On Deletion] effect to the bottom of its owners deck. Trash all of the digivolution cards of that Digimon.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Super Rare",
             "ruling": [
@@ -724,8 +724,8 @@
             "evocost2": "3",
             "effect1": "[When Digivolving] If a Digimon card with [Free] in its traits is in this Digimon's digivolution cards, unsuspend this Digimon and suspend 1 of your opponent's Digimon.\n[Your Turn] For each color in this Digimon's digivolution cards, it gets +1000 DP.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Super Rare",
             "ruling": [
@@ -756,7 +756,7 @@
             "evocost1": "0",
             "effect2": "[On Deletion] 1 of your opponent's Digimon gains <Security Attack -1> (This Digimon checks 1 fewer security card) for the turn.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common"
         },
@@ -779,10 +779,10 @@
             "evocolor1": "Yellow",
             "evolevel1": "2",
             "evocost1": "0",
-            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 Digimon card with [Angel], [Archangel], or [Three Great Angels] in its traits among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 Digimon card with [Angel], [Archangel] or [Three Great Angels] in its traits among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare"
         },
@@ -810,7 +810,7 @@
             "evocost1": "0",
             "effect2": "[When Attacking] (Once Per Turn) If you have 3 or more security cards, <Draw 1> (Draw 1 card from your deck).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "jpsets": [
@@ -839,8 +839,8 @@
             "evocost1": "2",
             "effect2": "[When Attacking] (Once Per Turn) If you have 3 or more Security Cards, 1 of your opponent's Digimon gets -2000 DP for the turn.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon",
             "ruling": [
@@ -873,9 +873,12 @@
             "evocost1": "2",
             "effect1": "[Security] At the end of the battle, if you have 3 security cards or fewer, trigger <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "X Record Pre-Release Promotion"
+            ],
             "jpsets": [
                 "Tamer Battle Pack 11"
             ],
@@ -907,7 +910,7 @@
             "evocost1": "2",
             "effect2": "[When Attacking] (Once Per Turn) If you have 3 or more security cards, this Digimon gets +1000 DP until the end of your opponent's next turn.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -940,8 +943,8 @@
             "effect1": "[When Attacking] While you have 3 or more security cards, this Digimon gets +4000 DP until the end of your opponent's next turn.",
             "effect2": "[Your Turn] (Once Per Turn) When a card is added to your security stack, gain 1 memory.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Super Rare",
             "ruling": [
@@ -977,8 +980,8 @@
             "effect1": "[When Attacking] If you have 3 or more security cards, 1 of your opponent's Digimon and all of your opponent's security Digimon get -3000 DP for the turn.",
             "effect2": "[Your Turn] (Once Per Turn) When a card is added to your security stack, 1 of your opponent's Digimon gets -2000 DP for the turn.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Super Rare",
             "ruling": [
@@ -1013,7 +1016,7 @@
             "evocost1": "4",
             "effect1": "[When Digivolving] Trigger <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).\n[Opponent's Turn] While this Digimon is suspended, all of your Security Digimon get +5000 DP.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare"
         },
@@ -1039,7 +1042,7 @@
             "evocost1": "3",
             "effect1": "[When Digivolving] You may trash the top card of your security stack to unsuspend this Digimon.\n[When Attacking] (Once Per Turn) trigger, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -1068,10 +1071,10 @@
             "evocolor1": "Green",
             "evolevel1": "2",
             "evocost1": "0",
-            "effect2": "[When Attacking] The next time one of your Digimon would digivolve into a Digimon card with [Insectoid], or [Ancient Insectoid] in its traits this turn, reduce the memory cost of the digivolution by 1.",
+            "effect2": "[When Attacking] The next time one of your Digimon would digivolve into a Digimon card with [Insectoid] or [Ancient Insectoid] in its traits this turn, reduce the memory cost of the digivolution by 1.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -1080,20 +1083,20 @@
                     "A: Yes, the digivolution cost is reduced by 1 even when you digivolve this Digimon or your other Digimon as long as the condition is met."
                 ],
                 [
-                    "Q: After this card's inherited effect activates, I digivolve my Digimon into a Digimon card that does not have [Insectoid], or [Ancient Insectoid] in their form. Does this inherited effect then become nullified?",
-                    "A: No, as long as it's the same turn, the effect continues until the next time you evolve your Digimon into a Digimon card that has [Insectoid], or [Ancient Insectoid] in their form."
+                    "Q: After this card's inherited effect activates, I digivolve my Digimon into a Digimon card that does not have [Insectoid] or [Ancient Insectoid] in their form. Does this inherited effect then become nullified?",
+                    "A: No, as long as it's the same turn, the effect continues until the next time you evolve your Digimon into a Digimon card that has [Insectoid] or [Ancient Insectoid] in their form."
                 ],
                 [
                     "Q: My Digimon with this card in its digivolution Source attacks 2 or more times in the same turn due to other effects. Does the effect of reducing digivolution cost by 1 stack?",
-                    "A: Yes, as long as it’s the same turn, you reduce the digivolution cost by 1 for each attack. However, the mumber of digivolution cost reduced is reset once you evolve your Digimon into a Digimon card that has [Insectoid], or [Ancient Insectoid] in their form."
+                    "A: Yes, as long as it’s the same turn, you reduce the digivolution cost by 1 for each attack. However, the mumber of digivolution cost reduced is reset once you evolve your Digimon into a Digimon card that has [Insectoid] or [Ancient Insectoid] in their form."
                 ],
                 [
                     "Q: Does this card's inherited effect also reduce the digivolution cost by 1 when I evolve my Digimon in my breeding area?",
                     "A: No, the digivolution cost reduction from this card's effect cannot be used in evolutions in your breeding area."
                 ],
                 [
-                    "Q: When my Digimon that has [Insectoid], or [Ancient Insectoid] in its type in my Battle Area evolves, is the digivolution cost reduced by 1 from this card's inherited effect?",
-                    "A: No, the digivolution cost is only reduced by 1 when you are evolving your Digimon into a Digimon card in your hand that has [Insectoid], or [Ancient Insectoid] in its type."
+                    "Q: When my Digimon that has [Insectoid] or [Ancient Insectoid] in its type in my Battle Area evolves, is the digivolution cost reduced by 1 from this card's inherited effect?",
+                    "A: No, the digivolution cost is only reduced by 1 when you are evolving your Digimon into a Digimon card in your hand that has [Insectoid] or [Ancient Insectoid] in its type."
                 ],
                 [
                     "Q: If a Digimon with this card in its digivolution cards attacks and is deleted during the attack. Can I still reduce the digivolution cost of the next time I digivolve?",
@@ -1122,8 +1125,8 @@
             "evocost1": "0",
             "effect1": "[On Deletion] Suspend 1 of your opponent's Digimon with 5000 DP or less.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common"
         },
@@ -1148,7 +1151,7 @@
             "evocost1": "2",
             "effect1": "[When Attacking] This Digimon can digivolve into a Digimon card with [Insectoid] in its traits in your hand for its digivolution cost.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon",
             "ruling": [
@@ -1161,11 +1164,11 @@
                     "A: The attack continues as per normal. The turn does not pass until that attack ends"
                 ],
                 [
-                    "Q: Must I evolve this Digimon from its [When Attacking] effect as long as if I have a Digimon card in my hand that has [Insectoid], or [Ancient Insectoid] in its type?",
+                    "Q: Must I evolve this Digimon from its [When Attacking] effect as long as if I have a Digimon card in my hand that has [Insectoid] or [Ancient Insectoid] in its type?",
                     "A: No, as it says [You can evolve], it doesn't have to evolve."
                 ],
                 [
-                    "Q: Can I evolve my Digimon into a Digimon card in my hand that has [Insectoid], or [Ancient Insectoid] in their form while ignoring its Evolution conditions with this card's [When Attacking] effect?",
+                    "Q: Can I evolve my Digimon into a Digimon card in my hand that has [Insectoid] or [Ancient Insectoid] in their form while ignoring its Evolution conditions with this card's [When Attacking] effect?",
                     "A: No, you cannot ignore the digivolution conditions."
                 ]
             ]
@@ -1191,7 +1194,7 @@
             "evocost1": "2",
             "effect2": "[Your Turn] (Once Per Turn) When one of your opponent's Digimon becomes suspended, this Digimon gets +2000 DP for the turn.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common"
         },
@@ -1217,8 +1220,8 @@
             "effect1": "[Start of Your Turn] Suspend 1 of your opponent's Digimon with 3000 DP or less.",
             "effect2": "[Your Turn] When this Digimon deletes one of your opponent's Digimon in battle and survives, 1 of your opponent's suspended Digimon doesn't unsuspend during their next unsuspend phase.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare"
         },
@@ -1247,7 +1250,7 @@
             "effect1": "<Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would)",
             "effect2": "[Your Turn] While this Digimon has [Imperialdramon] in its name or [Free] in its traits, it gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -1272,14 +1275,17 @@
             "form": "Ultimate",
             "attribute": "Data",
             "type": "Fairy",
-            "ilustrators": [],
+            "ilustrators": [
+                "poroze"
+            ],
             "evocolor1": "Green",
             "evolevel1": "4",
             "evocost1": "3",
             "effect2": "[Your Turn] (Once Per Turn) When one of your opponent's Digimon becomes suspended, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection",
+                "Digimon Illustration Competition Promotion Pack"
             ],
             "rarity": "Uncommon"
         },
@@ -1303,11 +1309,11 @@
             "evocolor1": "Green",
             "evolevel1": "4",
             "evocost1": "3",
-            "effect1": "[When Attacking] This Digimon can digivolve into a Digimon card with [Insectoid], or [Ancient Insectoid] in its traits in its traits in your hand for its digivolution cost.",
+            "effect1": "[When Attacking] This Digimon can digivolve into a Digimon card with [Insectoid] or [Ancient Insectoid] in its traits in its traits in your hand for its digivolution cost.",
             "effect2": "[Your Turn] When this Digimon deletes an opponent's Digimon in battle and survives, gain 1 memory.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare",
             "ruling": [
@@ -1320,11 +1326,11 @@
                     "A: No, you cannot. As the timing for [When Attacking] effects to trigger has already passed."
                 ],
                 [
-                    "Q: Must I evolve this Digimon from its [When Attacking] effect as long as if I have a Digimon card in my hand that has [Insectoid], or [Ancient Insectoid] in its type?",
+                    "Q: Must I evolve this Digimon from its [When Attacking] effect as long as if I have a Digimon card in my hand that has [Insectoid] or [Ancient Insectoid] in its type?",
                     "A: No, as it says [You can evolve], it doesn't have to evolve."
                 ],
                 [
-                    "Q: Can I evolve my Digimon into a Digimon card in my hand that has [Insectoid], or [Ancient Insectoid] in their form while ignoring its Evolution conditions with this card's [When Attacking] effect?",
+                    "Q: Can I evolve my Digimon into a Digimon card in my hand that has [Insectoid] or [Ancient Insectoid] in their form while ignoring its Evolution conditions with this card's [When Attacking] effect?",
                     "A: No, you cannot ignore the digivolution conditions."
                 ]
             ]
@@ -1354,7 +1360,7 @@
             "effect1": "[When Digivolving] If a Digimon card with [Free] in its traits is in this Digimon's digivolution cards, suspend 1 of your opponent's Digimon with 5000 DP or less.",
             "effect2": "[Your Turn] When one of your Digimon with [Imperialdramon] in its name deletes an opponent's Digimon in battle and survives, gain 1 memory.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common"
         },
@@ -1381,7 +1387,7 @@
             "evocost1": "3",
             "effect1": "[Your Turn] his Digimon gets +1000 DP for each of your opponent's suspended Digimon.\n [When Attacking] Suspend 1 of your opponent's Digimon.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon"
         },
@@ -1405,16 +1411,16 @@
             "evocolor1": "Green",
             "evolevel1": "5",
             "evocost1": "4",
-            "effect1": "[Your Turn] (Once Per Turn) When one of your Digimon with [Insectoid], or [Ancient Insectoid] in its traits deletes an opponent's Digimon in battle and survives, you may unsuspend this Digimon. \n[Your Turn] For each Digimon card with [Insectoid] in its traits in this Digimon's digivolution cards, it gets +1000 DP.",
+            "effect1": "[Your Turn] (Once Per Turn) When one of your Digimon with [Insectoid] or [Ancient Insectoid] in its traits deletes an opponent's Digimon in battle and survives, you may unsuspend this Digimon. \n[Your Turn] For each Digimon card with [Insectoid] in its traits in this Digimon's digivolution cards, it gets +1000 DP.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon",
             "ruling": [
                 [
                     "Q: Does this Digimon become Active from its effect only when this Digimon itself destroys an opponent's Digimon in battle and survives?",
-                    "A: No, this Digimon becomes active even when your other Digimon with [Insectoid], or [Ancient Insectoid] in its type destroys an opponent's Digimon in battle and survives."
+                    "A: No, this Digimon becomes active even when your other Digimon with [Insectoid] or [Ancient Insectoid] in its type destroys an opponent's Digimon in battle and survives."
                 ]
             ]
         },
@@ -1439,7 +1445,7 @@
             "evocost1": "0",
             "effect2": "[Your Turn] For each other Digimon you have in play with the same name as this Digimon, this Digimon gets +1000 DP.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -1468,9 +1474,9 @@
             "evocolor1": "Black",
             "evolevel1": "2",
             "evocost1": "0",
-            "effect1": "[On Play] You may trash 1 Digimon card with [Machine], or [Cyborg] in its traits in your hand to <Draw 2> (Draw 2 cards from your deck).",
+            "effect1": "[On Play] You may trash 1 Digimon card with [Machine] or [Cyborg] in its traits in your hand to <Draw 2> (Draw 2 cards from your deck).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common"
         },
@@ -1496,7 +1502,7 @@
             "evocost1": "2",
             "effect2": "[Your Turn] (Once Per Turn) When one of your other Digimon with the same name as this Digimon is deleted, unsuspend this Digimon.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -1526,9 +1532,9 @@
             "evolevel1": "3",
             "evocost1": "2",
             "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[Your Turn] This Digimon can't attack.",
-            "effect2": "[When Attacking] You may trash 1 Digimon card with [Machine], or [Cyborg] in its traits in your hand to <Draw 2> (Draw 2 cards from your deck).",
+            "effect2": "[When Attacking] You may trash 1 Digimon card with [Machine] or [Cyborg] in its traits in your hand to <Draw 2> (Draw 2 cards from your deck).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common"
         },
@@ -1554,7 +1560,7 @@
             "effect1": "[When Digivolving] You may reveal the top 3 cards of your deck. Add 1 level 6 card with [Machine] in its traits among them to your hand. Trash the remaining cards.",
             "effect2": "[Opponent's Turn] While this Digimon has [Machine] in its traits, it gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "engsets": [
@@ -1591,7 +1597,7 @@
             "effect1": "[When Digivolving] You may reveal the top 3 cards of your deck. Add 1 level 6 card with [Machine] in its traits among them to your hand. Trash the remaining cards.",
             "effect2": "[Opponent's Turn] While this Digimon has [Machine] in its traits, it gains <Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -1625,7 +1631,7 @@
             "effect1": "[When Digivolving] You may reveal the top 3 cards of your deck. Add 1 level 6 card with [Machine] in its traits among them to your hand. Trash the remaining cards.",
             "effect2": "[When Attacking] While this Digimon has [Machine] in its traits, delete 1 of your opponent's Digimon with a Play Cost of 5 or less.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "engsets": [
@@ -1661,7 +1667,7 @@
             "effect1": "[Opponent's Turn] (Once Per Turn) When an opponent's Digimon digivolves into a level 5 or higher Digimon, gain 1 memory.",
             "effect2": "[All Turns] All of your other Digimon with the same name as this Digimon get +2000 DP.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare",
             "ruling": [
@@ -1701,7 +1707,7 @@
             "effect1": "[Your Turn] When this Digimon digivolves into a Digimon card with [Etemon] in its name in your hand, reduce the memory cost of the digivolution by 1.",
             "effect2": "[Your Turn]While this Digimon has [Etemon] in its name , it gains <Jamming> (This Digimon can't be deleted in battles against Security Digimon).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon",
             "ruling": [
@@ -1732,7 +1738,7 @@
             "evocost1": "3",
             "effect1": "[Opponent's Turn] For each Digimon card with [Etemon] in its name in your trash, this Digimon gets +1000 DP.\n[On Deletion] trigger <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon"
         },
@@ -1757,7 +1763,7 @@
             "evocost1": "4",
             "effect1": "<Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase)\n[When Digivolving] Trigger <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon"
         },
@@ -1783,7 +1789,7 @@
             "evocost1": "0",
             "effect2": "[Your Turn] (Once Per Turn) When one of your other Digimon is deleted, <Draw 1> (Draw 1 card from your deck).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -1815,7 +1821,7 @@
             "evocost1": "0",
             "effect1": "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)\n[Your Turn] While you don't have a Digimon with [Myotismon] in its name in play, this Digimon can't attack your opponent's Digimon.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -1852,7 +1858,7 @@
             "effect1": "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling)",
             "effect2": "[Your Turn] All of your Digimon with <Retaliation> gain <Rush> (This Digimon can attack the turn it comes into play).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common"
         },
@@ -1877,7 +1883,7 @@
             "evocost1": "2",
             "effect2": "[On Deletion] Return 1 purple level 4 or lower Digimon card from your trash to your hand.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Common",
             "ruling": [
@@ -1913,8 +1919,8 @@
             "effect1": "[When Attacking] You may trash 1 card in your hand to have this Digimon gain <Security Attack +1> (This Digimon checks 1 additional security card) for the turn.",
             "effect2": "[When Attacking] You may trash 1 card in your hand to have this Digimon get +2000 DP for the turn.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare"
         },
@@ -1940,7 +1946,7 @@
             "effect1": "[When Digivolving] You may trash the top 3 cards of your deck.",
             "effect2": "[Your Turn] (Once Per Turn) When you play a Digimon from your trash, gain 1 memory.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon",
             "ruling": [
@@ -1975,7 +1981,7 @@
             "effect1": "[Your Turn] When this Digimon digivolves into a Digimon with [Myotismon] in its name from your hand, reduce the memory cost of the digivolution by 1.",
             "effect2": "[Your Turn] While this Digimon has [Myotismon] in its name, all your Digimon with <Retaliation> can attack your opponent's unsuspended level 4 or lower Digimon.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare",
             "jpsets": [
@@ -2012,7 +2018,7 @@
             "evocost2": "3",
             "effect1": "<Security Attack +1> (This Digimon checks 1 additional security card)\n[End of Attack] Delete this Digimon.\n[On Deletion] You may play 1 [Agumon] from your trash suspended without paying its memory cost.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare",
             "ruling": [
@@ -2048,8 +2054,8 @@
             "evocost1": "4",
             "effect1": "<Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling).\n[When Attacking] (Once Per Turn) You may play 1 purple level 4 or lower Digimon card with <Retaliation> from your trash without paying its memory cost. Any [On Play] effects on Digimon played with this effect don't activate.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Super Rare",
             "ruling": [
@@ -2081,7 +2087,7 @@
             "evocost1": "3",
             "effect1": "[On Play] Delete 4 of your opponent's unsuspended level 4 or lower Digimon.\n[Your Turn] (Once Per Turn) When one of your opponent's Digimon is deleted, <Draw 1> (Draw 1 card from your deck).",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Uncommon",
             "ruling": [
@@ -2113,8 +2119,8 @@
             "evocost1": "3",
             "effect1": "[Security] At the end of the battle, you may play 1 [Diaboromon] Token without paying its memory cost. (Diaboromon Tokens are level 6 white Digimon with a memory cost of 14, 3000 DP, and are Mega form, Unidentified type, and Unknown attribute.)\n[Opponent's Turn] All of your [Diaboromon] gain <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Super Rare",
             "ruling": [
@@ -2149,8 +2155,8 @@
             "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card among them to your hand. Trash the remaining cards.\n[All Turns] When one of your level 5 or higher Digimon with digivolution cards is deleted, you may suspend this Tamer. If you do, gain 1 memory, then hatch 1 Digi-Egg card to an empty space in your Breeding Area.",
             "effect2": "[Security] Play this card without paying its memory cost.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare",
             "ruling": [
@@ -2174,7 +2180,7 @@
             "effect1": "[Main] Delete 1 of your opponent's Digimon with 6000 DP or less and <Blocker>.",
             "effect2": "[Security] Activate this card's [Main] effect.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare",
             "ruling": [
@@ -2198,7 +2204,7 @@
             "effect1": "[Main] All of your opponent's Digimon gain \"[When Attacking] lose 2 memory\" until the end of your opponent's next turn.",
             "effect2": "[Security] Gain 2 memory.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare",
             "ruling": [
@@ -2230,7 +2236,7 @@
             "effect1": "[Main] You may trash 1 level 5 Digimon card with [Cyborg] in its traits in your hand to gain 2 memory and <Draw 1> (Draw 1 card from your deck).",
             "effect2": "[Security] Activate this card's [Main] effect.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare"
         },
@@ -2248,7 +2254,7 @@
             "effect1": "[Main] Play 1 purple level 4 or lower Digimon card from your trash without paying its memory cost. Then, if you have a Digimon with [Myotismon] in its name in play, 1 of your Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead) until the end of your opponent's next turn.",
             "effect2": "[Security] Play 1 purple level 4 or lower Digimon card from your trash without paying its memory cost.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare"
         },
@@ -2268,7 +2274,7 @@
             "effect1": "If you have a Tamer in play, you may use this Option card without meeting its color requirements.\n[Main] The next time one of your Digimon digivolves this turn, you may trash 1 Digimon card in your hand of the same color as the digivolving Digimon to reduce the memory cost of the digivolution by 4.",
             "effect2": "[Security] Add this card to its owner's hand.",
             "wwsets": [
-                "Classic Collection EX-01",
+                "EX-01: Theme Booster Classic Collection",
                 "PB-06: Tamer's Evolution Box 2"
             ],
             "rarity": "Rare",
@@ -2329,7 +2335,7 @@
             "effect1": "[Main] Your opponent can't use Option cards until the end of their next turn.",
             "effect2": "[Security] Your opponent can't use Option cards this turn. Then, add this card to its owner's hand.",
             "wwsets": [
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Rare",
             "ruling": [
@@ -2370,8 +2376,9 @@
             "evocost2": "3",
             "effect1": "[On Play] You may place up to 5 level 5 red and/or black cards with [Cyborg] in their traits and different card numbers from your hand and/or trash in this card's digivolution cards to gain 1 memory for each card placed.\n[All Turns] This Digimon's DP can't be reduced.\n[All Turns] When this Digimon would be deleted, you may trash 2 level 5 Digimon cards in this Digimon's digivolution cards to prevent this Digimon from being deleted.",
             "wwsets": [
-                "Classic Collection EX-01",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection",
+                "EX-01: Theme Booster Classic Collection",
+                "BT-10: Booster Xros Encounter"
             ],
             "rarity": "Secret Rare",
             "ruling": [

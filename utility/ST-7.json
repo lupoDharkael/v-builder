@@ -152,6 +152,9 @@
                 "ST-7: Starter Deck Gallantmon"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "DC-1 2022"
+            ],
             "ruling": [
                 [
                     "Q: If your Digimon with this card as a source and an opponent’s Digimon are deleted at the same time, can you activate this card’s inherited effect?",
@@ -186,7 +189,10 @@
             ],
             "rarity": "Uncommon",
             "engsets": [
-                "Digimon Card Game Fest - Vault Set"
+                "Digimon Card Game Fest - Vault Set",
+                "2022 August Regionals - Participation Set",
+                "2022 August Regionals - Finalist Set",
+                "2022 August Regionals - Champion Set"
             ],
             "ruling": [
                 [
@@ -262,6 +268,9 @@
                 "ST-7: Starter Deck Gallantmon"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "DC-1 2022"
+            ],
             "ruling": [
                 [
                     "Q: A Digimon with this card as a source and the <Piercing> effect attacks an opposing Digimon and only the opposing Digimon is deleted. Does the inherited effect of this card grant the attacking Digimon <Security Attack +1> for the ensuing Security Checks granted by <Piercing>?",
@@ -365,6 +374,9 @@
                 "ST-7: Starter Deck Gallantmon"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "DC-1 2022"
+            ],
             "ruling": [
                 [
                     "Q: Upon using this card you and your opponent have the same number of Security Cards remaining, but then later in the turn your opponent’s number of Security Cards decrease, leaving you with more. Does the <Security Attack +1> granted by this card disappear at that time?",

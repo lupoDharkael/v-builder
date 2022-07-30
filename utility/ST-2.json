@@ -1,0 +1,568 @@
+{
+    "name": "ST-2: Cocytus Blue",
+    "shortname": "ST-2",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/be/ST2-01.png/revision/latest?cb=20201210184945",
+            "id": "ST2-01",
+            "name": "Tsunomon",
+            "jpname": "ツノモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "As'Maria"
+            ],
+            "effect2": "[Your Turn] This Digimon gets +1000 DP when battling an opponent's Digimon that has no digivolution cards.",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: How long does the DP effect [ST2-01 Tsunomon] last?",
+                    "A: It only exists when comparing the DP between two Digimon for a battle. It is not applied during the resolution \"End of battle\" or \"On Deletion\" effects that activated from that same battle."
+                ],
+                [
+                    "Q: I attack with [BT5-111 Omnimon X-Anti-body] that has this card as a digivolution card against a 16000 DP Digimon with no sources. Can I use its effect to delete that Digimon?",
+                    "A: No, you cannot. The 1000 DP only exists when comparing the DP between Digimon for a battle. It is not applied during \"when X attacks\" effects."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/80/ST2-02.png/revision/latest?cb=20201210184945",
+            "id": "ST2-02",
+            "name": "Gomamon",
+            "jpname": "ゴマモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Sea Beast",
+            "ilustrators": [
+                "Takumi Kousaka",
+                "koki",
+                "Takumi Kousaka"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "Event Pack",
+                "Official Tournament Pack Vol. 3"
+            ],
+            "jpsets": [
+                "1st Anniversary Adventure Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4c/ST2-03.png/revision/latest?cb=20201210184947",
+            "id": "ST2-03",
+            "name": "Gabumon",
+            "jpname": "ガブモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Reptile",
+            "ilustrators": [
+                "As'Maria"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[When Attacking] Trash the digivolution card at the bottom of 1 of your opponent's Digimon with a level of 5 or less.",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can this card's inherited effect be used to delete an opponent's Digimon with no digivolution cards?",
+                    "A: No. This inherited effect does nothing to your opponent's Digimon if they have no digivolution cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b5/ST2-04.png/revision/latest?cb=20201210184946",
+            "id": "ST2-04",
+            "name": "Bearmon",
+            "jpname": "ベアモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "4000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Beast",
+            "ilustrators": [
+                "Ryuda"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ae/ST2-05.png/revision/latest?cb=20201210184945",
+            "id": "ST2-05",
+            "name": "Ikkakumon",
+            "jpname": "イッカクモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Sea Beast",
+            "ilustrators": [
+                "Takumi Kousaka"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/20/ST2-06.png/revision/latest?cb=20201210184946",
+            "id": "ST2-06",
+            "name": "Garurumon",
+            "jpname": "ガルルモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Beast",
+            "ilustrators": [
+                "As'Maria",
+                "koki"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[When Attacking] Trash the digivolution card at the bottom of 1 of your opponent's Digimon.",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Tamer Party"
+            ],
+            "jpsets": [
+                "Premium Bandai Apparel Promo Cards"
+            ],
+            "ruling": [
+                [
+                    "Q: Can this card's inherited effect be used to delete an opponent's Digimon with no digivolution cards?",
+                    "A: No. This inherited effect does nothing to your opponent's Digimon if they have no digivolution cards."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/df/ST2-07.png/revision/latest?cb=20201210184946",
+            "id": "ST2-07",
+            "name": "Grizzlymon",
+            "jpname": "グリズモン",
+            "tsname": "Grizzmon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Beast",
+            "ilustrators": [
+                "Ryuda",
+                "koki",
+                "Ryuda"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[When Attacking] Lose 2 memory.",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "Event Pack",
+                "Official Tournament Pack Vol. 4"
+            ],
+            "jpsets": [
+                "Tamer Battle Pack 6"
+            ],
+            "ruling": [
+                [
+                    "Q: Can this Digimon attack when I have less than 2 memory?",
+                    "A: Yes, it can. Even if this Digimon's attack effect causes your memory to move to 1 or greater on your opponent's side, it doesn't become your opponent's turn until the end of the attack."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7c/ST2-08.png/revision/latest?cb=20201210184947",
+            "id": "ST2-08",
+            "name": "WereGarurumon",
+            "jpname": "ワーガルルモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Beastkin",
+            "ilustrators": [
+                "As'Maria",
+                "tessy",
+                "tessy"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect2": "[Your Turn] While your opponent has a Digimon with no digivolution cards, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Tamer Party Vol.2",
+                "Official Tournament Pack Vol. 2"
+            ],
+            "jpsets": [
+                "Tamer Battle Pack 2",
+                "Tamer Battle Pack 2 Winner"
+            ],
+            "ruling": [
+                [
+                    "Q: Does this card's inherited effect apply even if my opponent only has 1 Digimon with no digivolution cards?",
+                    "A: Yes, it does."
+                ],
+                [
+                    "Q: One of my Digimon has this card as a digivolution card and attacks one of my opponent's Digimon that has 1 digivolution card. If this Digimon has another [When Attacking] effect that activates and trashes that digivolution card, does this card's inherited effect activate?",
+                    "A: Yes. Once that Digimon has no digivolution cards left, this card's inherited effect activates."
+                ],
+                [
+                    "Q: Does this card's inherited effect apply if my opponent has a Digimon with no digivolution cards in their breeding area?",
+                    "A: No, it doesn't check Digimon in the breeding area."
+                ],
+                [
+                    "Q: Does this card's inherited effect apply when my opponent doesn't have any Digimon in their battle area?",
+                    "A: No, it doesn't. Your opponent has to have a Digimon in their battle area for it to activate."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e8/ST2-09.png/revision/latest?cb=20201210184946",
+            "id": "ST2-09",
+            "name": "Zudomon",
+            "jpname": "ズドモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Sea Beast",
+            "ilustrators": [
+                "Takumi Kousaka"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Trash 2 digivolution cards at the bottom of 1 of your opponent's Digimon.",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue",
+                "Tamer Battle Pack 1"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can this card's [When Digivolving] effect be used to delete an opponent's Digimon with no digivolution cards?",
+                    "A: No. This inherited effect does nothing to your opponent's Digimon if they have no digivolution cards."
+                ],
+                [
+                    "Q: Can this card's [When Digivolving] effect be used on an opponent's Digimon that has only 1 digivolution card?",
+                    "A: Yes, it can. In that case, it would only trash that 1 digivolution card."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6b/ST2-10.png/revision/latest?cb=20201210184947",
+            "id": "ST2-10",
+            "name": "Plesiomon",
+            "jpname": "プレシオモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "10",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Plesiosaur",
+            "ilustrators": [
+                "Takumi Kousaka"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "2",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/04/ST2-11.png/revision/latest?cb=20201210184947",
+            "id": "ST2-11",
+            "name": "MetalGarurumon",
+            "jpname": "メタルガルルモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Cyborg",
+            "ilustrators": [
+                "As'Maria",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[When Attacking] (Once Per Turn) Unsuspend this Digimon",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Super Rare",
+            "engsets": [
+                "Event Pack",
+                "Championship 2021 Finals - Event Pack Alt-Art Gold Stamp Set"
+            ],
+            "ruling": [
+                [
+                    "Q: Does this Digimon unsuspend itself each time it attacks?",
+                    "A: No, it only unsuspends itself once per turn. In other words, it only unsuspends the first time it attacks each turn."
+                ],
+                [
+                    "Q: Does this Digimon's effect only activate once per game?",
+                    "A: No. You can use the effect again during your next turn."
+                ],
+                [
+                    "Q: At what timing does this Digimon unsuspend itself?",
+                    "A: After you declare your attack, suspend the Digimon, then declare your attack target. When performing your security check or resolving a battle with your opponent's Digimon, this Digimon will already be unsuspended."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/74/ST2-12.png/revision/latest?cb=20201210184947",
+            "id": "ST2-12",
+            "name": "Matt Ishida",
+            "jpname": "石田 ヤマト",
+            "tsname": "Ishida Yamato",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "2",
+            "ilustrators": [],
+            "effect1": "[Start of Your Turn] If your opponent has a Digimon with no Digivolution cards, gain 1 memory.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Do I gain 1 memory for each Digimon my opponent has without digivolution cards?",
+                    "A: No. You only gain 1 memory no matter how many Digimon your opponent has without digivolution cards."
+                ],
+                [
+                    "Q: Does this Tamer's effect apply if my opponent has a Digimon with no digivolution cards in their breeding area?",
+                    "A: No, it doesn't check Digimon in the breeding area."
+                ],
+                [
+                    "Q: Does this Tamer's effect apply when my opponent has no Digimon in their battle area?",
+                    "A: No, it doesn't. Your opponent has to have a Digimon in their battle area for it to activate."
+                ],
+                [
+                    "Q: If I have two of this Tamer in play and my opponent has a Digimon with no digivolution cards, do I gain 2 memory from this Tamer's effect?",
+                    "A: Yes. The effect of each copy activates, causing you to gain 2 memory."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/27/ST2-13.png/revision/latest?cb=20201210184947",
+            "id": "ST2-13",
+            "name": "Hammer Spark",
+            "jpname": "ハンマースパーク",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "0",
+            "ilustrators": [
+                "p!k@ru",
+                "Naochika Morishita",
+                "As'Maria"
+            ],
+            "effect1": "[Main] Gain 1 memory.",
+            "effect2": "[Security] Gain 2 memory.",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue",
+                "PB-01: Tamer's Evolution Box",
+                "ST-8: Starter Deck UlforceVeedramon"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "Championship 2021 Finals Tamer's Evolution Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: If the security effect of this card causes the memory counter to move to 1 or higher on my side, does my opponent's turn end?",
+                    "A: Yes, it does. However, this only happens after any attacks resolve. If there are any  effects or attacks that have not resolved, those must resolve before it becomes your turn."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/92/ST2-14.png/revision/latest?cb=20201210184948",
+            "id": "ST2-14",
+            "name": "Sorrow Blue",
+            "jpname": "ソローブルー",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [
+                "satsuki may"
+            ],
+            "effect1": "[Main] Choose 1 of your opponent's Digimon with no digivolution cards. That Digimon can't attack or block until the end of your opponent's next turn.",
+            "effect2": "[Security] Choose 1 of your opponent's Digimon with no digivolution cards. That Digimon can't attack or block until the end of your next turn.",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If one of my opponent's Digimon has this card's effect used on it and is suspended, can I attack that Digimon?",
+                    "A: Yes, you can."
+                ],
+                [
+                    "Q: If one of my opponent's Digimon has this card's effect used on it and it digivolves and now has 1 or more digivolution cards, how does this card's effect resolve?",
+                    "A: This card can only be used to target cards that meet its requirements upon activation. So the effect would still apply, and even though the target Digimon has gained digivolution cards, it still can't attack or block."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/ST2-15.png/revision/latest?cb=20201210184948",
+            "id": "ST2-15",
+            "name": "Kaiser Nail",
+            "jpname": "カイザーネイル",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "4",
+            "ilustrators": [
+                "Shigeo Niwa"
+            ],
+            "effect1": "[Main] Choose a Digimon digivolution card placed under 1 of your Digimon and play it as another Digimon without paying its memory cost.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue"
+            ],
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Can I use the effect of this Option card to play a level 2 Digimon that is currently a digivolution card of one of my Digimon?",
+                    "A: No. Level 2 Digimon can't be in the battle area."
+                ],
+                [
+                    "Q: If I use this Option card's effect to play a digivolution card of one of my suspended Digimon, does it come into play suspended?",
+                    "A: No. Since it is played as another Digimon, it is played unsuspended."
+                ],
+                [
+                    "Q: If one of my Digimon has an effect applied to it that lasts a turn, then I use the effect of this Option card to play one of its digivolution cards as a Digimon, does that Digimon come into play with the same effect applied to it?",
+                    "A: No. Since it is played as another Digimon, it is not affected by any effects of the original Digimon it was under."
+                ],
+                [
+                    "Q: Can Digimon played by this card's effect attack the turn they were played?",
+                    "A: No, since it would count as the turn they were played."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2f/ST2-16.png/revision/latest?cb=20201210184949",
+            "id": "ST2-16",
+            "name": "Cocytus Breath",
+            "jpname": "コキュートスブレス",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "7",
+            "ilustrators": [
+                "p!k@ru",
+                "Ishibashi Yosuke"
+            ],
+            "effect1": "[Main] Return one of your opponent's Digimon to its owner's hand. (Trash all of the digivolution cards of that Digimon.)",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "ST-2: Starter Deck Cocytus Blue",
+                "PB-01: Tamer's Evolution Box"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Championship 2021 Finals Tamer's Evolution Pack"
+            ]
+        }
+    ]
+}

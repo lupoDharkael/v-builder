@@ -3317,8 +3317,8 @@
                     "A: No, even though Lilithmon's effect was triggered its effect cannot be activated unless Lilithmon is in the battle area. (See more in Effect Resolution)"
                 ],
                 [
-                    "Q: I activate [BT4-100 Trident Revolver] with Lilithmon on board, I played a Tamer with a [On Play] effect and deleted a Digimon with an [On Deletion] effect. What effects go first?",
-                    "A: After resolving [BT4-100 Trident Revolver] Lilithmon's effect triggered first and activates last. Next the [On Play] and [On Deletion] triggered at the same time, so the turn player chooses their [On Play] effect to go first. The opposing player then uses [On Deletion]. After both the [On Play] and [On Deletion] are resolved, then Lilithmon can be activated. (See more in Effect Resolution)"
+                    "Q: If I have a Digimon in play, and use [EX2-070 Digivolution Plug-In S] to digivolve a Digimon into this card. Does this card's [Your Turn] effect trigger?",
+                    "A: No, the effect was not active when the Option card was used."
                 ]
             ]
         },
@@ -3346,7 +3346,8 @@
             "evocost1": "5",
             "effect1": "<Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).\n [All Turns] When another Digimon is deleted, gain 1 memory for each Digimon deleted.",
             "engsets": [
-                "BT01-03: Release Special Booster Ver.1.5"
+                "BT01-03: Release Special Booster Ver.1.5",
+                "Revision Pack"
             ],
             "rarity": "Rare",
             "jpsets": [
@@ -3522,7 +3523,8 @@
             "effect1": "[Main] 1 of your Digimon gains \"This Digimon doesn't activate the [Security] effects of any Option cards it checks\" for the turn.",
             "effect2": "[Security] Add this card to your hand.",
             "engsets": [
-                "BT01-03: Release Special Booster Ver.1.5"
+                "BT01-03: Release Special Booster Ver.1.5",
+                "Revision Pack"
             ],
             "rarity": "Uncommon",
             "jpsets": [
@@ -3995,6 +3997,9 @@
             "evolevel2": "5",
             "evocost2": "5",
             "effect1": "When one of your [Paildramon] or [Dinobeemon] would digivolve into this card in your hand, reduce the memory cost of the digivolution by 2.\n<Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).\n[Your Turn] (Once Per Turn) When this Digimon deletes an opponent's Digimon in battle and survives, unsuspend this Digimon.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
             "engsets": [
                 "BT01-03: Release Special Booster Ver.1.5",
                 "BT01-03: Release Special Booster Ver.1.5"

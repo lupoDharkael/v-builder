@@ -15,7 +15,7 @@ dest_files=[ "res://.import/EX1-004 (B).png-5f49905ff59b73f5bca19fada0b77684.ste
 [params]
 
 compress/mode=1
-compress/lossy_quality=0.85
+compress/lossy_quality=0.25
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=2

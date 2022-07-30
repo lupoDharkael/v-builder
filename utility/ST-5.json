@@ -364,14 +364,16 @@
             "attribute": "Virus",
             "type": "Machine",
             "ilustrators": [
-                "Tonamikanji"
+                "Tonamikanji",
+                "Atarime"
             ],
             "evocolor1": "Black",
             "evolevel1": "5",
             "evocost1": "3",
             "effect1": "[When Digivolving] Up to 2 of your Digimon gain <Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase) until the end of your opponent's next turn.",
             "wwsets": [
-                "ST-5: Starter Deck Machine Black"
+                "ST-5: Starter Deck Machine Black",
+                "Digimon Illustration Competition Promotion Pack"
             ],
             "rarity": "Rare",
             "ruling": [

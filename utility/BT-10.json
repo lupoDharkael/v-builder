@@ -21,7 +21,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Will a 2 color red card meet the requirements for this effect?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c5/BT10-002-J.png/revision/latest?cb=20220520104216",
@@ -84,7 +90,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does this effect also activate when your own Digimon are suspended?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c7/BT10-005-J.png/revision/latest?cb=20220520104216",
@@ -126,7 +138,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does this effect also activate when this card is trashed by your own effect?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/de/BT10-007-J.png/revision/latest?cb=20220520104218",
@@ -180,7 +198,21 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does the tamer card also need [Xros Heart] in its traits?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If the effect only reveals 1 card with [Xros Heart] in its traits do I add it to my hand even without having a 2nd card to add?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If both a Digimon card and tamer card with [Xros Heart] in their traits are revealed with this effect, must I add both of them to hand?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a3/BT10-009-J.png/revision/latest?cb=20220520104219",
@@ -211,7 +243,21 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: If I choose not to move all digivolution cards from under this Digimon to under a tamer, will this Digimon still be deleted at the [End of Attack]?",
+                    "A: No."
+                ],
+                [
+                    "Q: Even without digivolution cards, can I activate the [End of Attack] effect?",
+                    "A: No, because there is no action being taken if you have no digivolution cards the effect cannot be activated if you have no digivolution cards."
+                ],
+                [
+                    "Q: Can the tamer being unsuspended and the tamer being given the digivolution cards be different tamers?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c0/BT10-010-J.png/revision/latest?cb=20220520104219",
@@ -267,7 +313,29 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: When multiple tamers are suspended at the same time, can I get more than 2000 DP?",
+                    "A: No, no matter how many tamers are suspended at the same time you will only get 2000 DP."
+                ],
+                [
+                    "Q: If [BT8-013 BetelGammamon] is in the digivolution cards, does the [All Turns] effect let me attack with <Blitz>?",
+                    "A: Yes, provided memory is on the opponent's side."
+                ],
+                [
+                    "Q: if BT8-013 BetelGammamon digivolves into [BT8-084 Kimeramon], and Kimeramon places this card into its digivolution cards with its [When Digivolving] effect, does this card's [All Turns] effect allow Kimeramon to attack with <Blitz>?",
+                    "A: No, if this card is added to Kimeramon's digivolution cards with its [When Digivolving] effect it will gain BetelGammamon's <Blitz>, but the time to trigger that effect has passed."
+                ],
+                [
+                    "Q: If there are multiple cards with [Gammamon] in their names does the [All Turns] effect give me access to all of their effects?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: Does the [All Turns] effect give me access to inherited effects as well?",
+                    "A: No, inherited effects are not targeted by this effect."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2a/BT10-012-J.png/revision/latest?cb=20220520104219",
@@ -418,7 +486,21 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: If Jesmon is in the digivolution cards and I control a Digimon with [Sistermon] in its name, does the when digivolving effect give me 4000 DP?",
+                    "A: No."
+                ],
+                [
+                    "Q: Will the benefits of the [When Digivolving] effect be gained by Digimon newly entering the battle area after the fact?",
+                    "A: No."
+                ],
+                [
+                    "Q:  Will the benefits of the [When Digivolving] effect be gained by Digimon newly entering the battle area after the fact?",
+                    "A:  Yes, however the rule that \"A Digimon cannot attack the turn it was played\" cannot be ignored."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/24/BT10-017-J.png/revision/latest?cb=20220520104221",
@@ -491,12 +573,18 @@
             "evocolor1": "Blue",
             "evolevel1": "3",
             "evocost1": "2",
-            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 2 cards with [Blue Flare] in their traits among them to your hand. Place the rest at the bottom of your deck in any order. If you have a [Christopher Aonuma] in play, you may return 1 [MetalGreymon] from your trash to your hand instead.\n[On Deletion] <Save> (You may place this card under one of your Tamers).",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 2 cards with [Blue Flare] in their traits among them to your hand. Place the rest at the bottom of your deck in any order. If you have a [Kiriha Aonuma] in play, you may return 1 [MetalGreymon] from your trash to your hand instead.\n[On Deletion] <Save> (You may place this card under one of your Tamers).",
             "effect2": "[When Attacking] (Once Per Turn) If this Digimon has [Blue Flare] in its traits and your opponent has 2 or more Digimon in play, unsuspend this Digimon.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: The [On Play] effect says: \"Reveal the top 4 cards of your deck. Add 2 cards with [Blue Flare] in their traits among them to your hand.\" and it says: \"you may return 1 [MetalGreymon] from your trash to your hand\", if I have a [Kiriha Aonuma] in play, can I choose which of these actions to perform?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/12/BT10-020-J.png/revision/latest?cb=20220520104222",
@@ -547,7 +635,7 @@
             "evocolor1": "Blue",
             "evolevel1": "3",
             "evocost1": "2",
-            "effect1": "[On Play] If you have a [Christopher Aonuma] in play, you may return 1 [MetalGreymon] from your trash to your hand. If you don't have a [Christopher Aonuma] in play, you may play one from your hand without paying its memory cost.\n[On Deletion] <Save> (You may place this card under one of your Tamers).",
+            "effect1": "[On Play] If you have a [Kiriha Aonuma] in play, you may return 1 [MetalGreymon] from your trash to your hand. If you don't have a [Kiriha Aonuma] in play, you may play one from your hand without paying its memory cost.\n[On Deletion] <Save> (You may place this card under one of your Tamers).",
             "effect2": "[When Attacking] (Once Per Turn) If this Digimon has [Blue Flare] in its traits and your opponent has 2 or more Digimon in play, 1 of your opponent's Digimon can't attack or block until your opponent's next end of turn.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
@@ -611,7 +699,13 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: For the [When Digivolving] effect is the condition of having 6 or less cards in my hand checked after I draw for digivolution?",
+                    "A: Yes, if the bonus card you draw for digivolution results in your hand having 7cards, this effect will not activate."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ed/BT10-024-J.png/revision/latest?cb=20220520104222",
@@ -640,7 +734,17 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Can the [On Play] effect target opponent's Digimon that have no digivolution cards?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If I target a Digimon with less/equal digivolution cards than/to this Digimon with the [On Play] effect and later on that Digimon's digivolution cards surpass this Digimon's digivolution cards is it then able to attack and block?",
+                    "A: No."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/51/BT10-025-J.png/revision/latest?cb=20220520104222",
@@ -660,6 +764,9 @@
             "ilustrators": [
                 "sasasi"
             ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
             "effect1": "(Hand) [Main] If you have a Digimon with [Blue Flare] in its traits in play, by paying 3 memory, place this card under that Digimon as its bottom digivolution card. Then, unsuspend that Digimon.",
             "effect2": "[All Turns] While your opponent has 2 or more Digimon in play, this Digimon gets +1000 DP.",
             "wwsets": [
@@ -722,7 +829,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If I have both a Level 3 and level 4 Digimon card in this Digimon's digivolution cards, may I choose to play just one of them with the [When Attacking] effect?",
+                    "A: No, if both a level 3 and level 4 are present, please choose to either play both of them or neither of them, you cannot play just one of them."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/BT10-028-J.png/revision/latest?cb=20220520104223",
@@ -808,7 +921,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If I target a level 5 or lower Digimon with the [On Play] effect and later on that Digimon becomes level 6 or higher, does it still have <Security Attack -1>?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/21/BT10-031-J.png/revision/latest?cb=20220520104223",
@@ -821,6 +940,8 @@
             "cardtype": "Digimon",
             "playcost": "3",
             "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
             "attribute": "Vaccine",
             "type": "Beastkin",
             "ilustrators": [
@@ -858,7 +979,29 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If the effect only reveals either an option with [Plug-In] in its name or a yellow tamer but not both, do I add that card to my hand?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If both a Plug-in option and yellow tamer are revealed with this effect, must I add both of them to hand?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If the option card is used without paying its cost or if its cost is reduced to below 2 will the inherited effect activate?",
+                    "A: Yes, how much you pay to use the option card does not matter, however, a card like [BT2-099 Glorious Burst] modifies its own cost while the card is in you hand, if such a card is used while its cost in you hand is 1 or less this effect will not activate."
+                ],
+                [
+                    "Q: If I activate the <Delay> effect of an option card in my battle area can I activate the inherited effect?",
+                    "A: No, you must use an option card from your hand, or with an effect that says to \"use\" an option, in order to activate the inherited effect."
+                ],
+                [
+                    "Q: If I use an option card that has no target for its effect can I activate the inherited effect?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1a/BT10-033-J.png/revision/latest?cb=20220520104223",
@@ -912,7 +1055,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If this card is in the digivolution cards of a Digimon with [Shoutmon] in its name, and a different Digimon of mine attacks the opponent, will the security Digimon still be reduced by 2000 DP?",
+                    "A: Yes, the effect applies no matter which of your Digimon is attacking."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/8e/BT10-035-J.png/revision/latest?cb=20220520104223",
@@ -1077,7 +1226,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: If I have exactly 3 security when I attack do I apply both parts of the [When Attacking] effect?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/26/BT10-041-J.png/revision/latest?cb=20220520104224",
@@ -1110,7 +1265,17 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: If my opponent used [BT9-103 Kongo], what happens to the option I use with the[When Digivolving] effect?",
+                    "A: It cannot be added to your security stack, so after the option's effect hasresolved, it will be sent to the trash."
+                ],
+                [
+                    "Q: With the [When Digivolving] effect if I use an option that says \"Then, place this card in your Battle Area\", what happens?",
+                    "A: It will be placed in the Battle Area, this card's effect is to place it on top of your security when the option card would be placed in your trash, but if the option card is in your Battle Area at the resolution of the option's effect then it would never be placed in your trash, so it can't be placed in your security either."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3d/BT10-042-J.png/revision/latest?cb=20220520104224",
@@ -1139,7 +1304,37 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Does the [Opponent's Turn] effect affect Digimon with <Security Attack +X> and Digimon with <Security Attack -X> ?",
+                    "A: Yes, it affects Digimon with either condition."
+                ],
+                [
+                    "Q: If my opponent has this Digimon, and I digivolve into a Digimon with a [When Digivolving] effect and <Security Attack +1> can I activate the [When Digivolving] effect?",
+                    "A: No, <Security Attack +1> will always apply from the moment digivolution is complete, so activating the [When Digivolving] effect is impossible."
+                ],
+                [
+                    "Q: What does <Security Attack> mean?",
+                    "A: It refers both to <Security Attack +X> and <Security Attack -X> ."
+                ],
+                [
+                    "Q: If a Digimon has both <Security Attack +1> and <Security Attack -1> does that mean they cancel each other out and the Digimon will be treated as not having <Security Attack> ?",
+                    "A: No, even if the Digimon has both <Security Attack +1> and <Security Attack -1> the Digimon will still be treated as having <Security Attack> ."
+                ],
+                [
+                    "Q: If my opponent controls this Digimon and my MetalGreymon digivolves into [BT9-015 MetalGreymon (X Antibody)] will its [When Digivolving] effect fully resolve?",
+                    "A: Yes it will fully resolve, however as it will gain <Security Attack +1> during the effect, it will immediately be affected by this card's effect from that moment onwards."
+                ],
+                [
+                    "Q: If a Digimon only gains <Security Attack +X> while meeting certain conditions, such as \"While you have a Tamer in play\", will it be affected by this cards effect while those conditions are not being met?",
+                    "A: No."
+                ],
+                [
+                    "Q: This card's effect stops the opponent from activating [When Attacking] effects, if the Digimon did not have <Security Attack> and activated a [When Attacking] effect that also applies \"at the end of turn\", does the \"at the end of turn\" still activate if it gains <Security Attack> ?",
+                    "A: Yes, the [When Attacking] has already activated."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e6/BT10-043-J.png/revision/latest?cb=20220520104224",
@@ -1245,11 +1440,25 @@
             "evocolor1": "Green",
             "evolevel1": "2",
             "evocost1": "0",
-            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 card with [Vegetation], or [Plant] in one of its traits, and 1 card with [Fairy] in its traits among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 card with [Vegetation] or [Plant] in one of its traits, and 1 card with [Fairy] in its traits among them to your hand. Place the rest at the bottom of your deck in any order.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can I also add cards to my hand with [Ancient Plant] or [Carnivorous Plant] in their traits with this effect?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If the effect only reveals either a card with [Vegetation], [Plant] or [Fairy] in one of its traits but not both, do I add that card to my hand?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If both a card with [Vegetation], [Plant] or [Fairy] in one of its traits are revealed with this effect, must I add both of them to hand?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/00/BT10-047-J.png/revision/latest?cb=20220520104224",
@@ -1295,7 +1504,7 @@
             "ilustrators": [
                 "koki"
             ],
-            "effect1": "[When Digivolving] By suspending 1 of your green Digimon, you may play 1 Digimon card with [Vegetation], [Plant], or [Fairy] in one of its traits and 3000 DP or less from your hand without paying its play cost.",
+            "effect1": "[When Digivolving] By suspending 1 of your green Digimon, you may play 1 Digimon card with [Vegetation], [Plant] or [Fairy] in one of its traits and 3000 DP or less from your hand without paying its play cost.",
             "effect2": "[Your Turn] (Once Per Turn) When an effect suspends one of your Digimon, <Draw 1> (Draw 1 card from your deck).",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
@@ -1404,11 +1613,21 @@
             "evocolor1": "Green",
             "evolevel1": "4",
             "evocost1": "3",
-            "effect1": "<Digisorption -2> (When one of your Digimon digivolves into this card from your hand, you may suspend 1 of your Digimon to reduce the memory cost of the digivolution by 2).\n[Your Turn] (Once Per Turn)  When an opponent's Digimon attacks, you may switch the target of attack to 1 of your suspended Digimon.",
+            "effect1": "<Digisorption -2> (When one of your Digimon digivolves into this card from your hand, you may suspend 1 of your Digimon to reduce the memory cost of the digivolution by 2).\n[Opponent's Turn] (Once Per Turn)  When an opponent's Digimon attacks, you may switch the target of attack to 1 of your suspended Digimon.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If the opponent attacks while this Digimon itself is suspended, can I change the attack target to this Digimon?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: My opponent's Digimon attacks and activates a [When Attacking] effect to digivolve it into [BT9-055 GrandisKuwagamon], with the [When Digivolving] effect they change the attack target to one of my suspended Digimon, after that is it possible to change the attack target again to a different suspended Digimon with this card's effect?",
+                    "A: Yes, this card's [Opponent's Turn] effect is a reaction timing effect, so GrandisKuwagamon's [When Digivolving] effect will always be activated first, and you'll be able to activate this card's effect afterwards."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ed/BT10-053-J.png/revision/latest?cb=20220520104225",
@@ -1431,12 +1650,22 @@
             "evocolor1": "Green",
             "evolevel1": "4",
             "evocost1": "3",
-            "effect1": "[Main] (Once Per Turn) By suspending 1 of your green Digimon, you may play 1 Digimon card with [Vegetation], [Plant], or [Fairy] in one of its traits and 3000 DP or less from your hand without paying its memory cost.",
+            "effect1": "[Main] (Once Per Turn) By suspending 1 of your green Digimon, you may play 1 Digimon card with [Vegetation], [Plant] or [Fairy] in one of its traits and 3000 DP or less from your hand without paying its memory cost.",
             "effect2": "[Your Turn] (Once Per Turn) When an effect suspends one of your Digimon, gain 1 memory.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can I suspend this Digimon itself to activate the [Main] effect?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: When a Digimon attacks and suspends with <Blitz>, can I activate the inherited effect?",
+                    "A: No, it is the attack declaration that causes your Digimon to be suspended, not <Blitz> directly, so the inherited effect cannot activate."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/17/BT10-054-J.png/revision/latest?cb=20220520104225",
@@ -1518,11 +1747,17 @@
             "evocolor1": "Green",
             "evolevel1": "5",
             "evocost1": "4",
-            "effect1": "[When Digivolving] Suspend 1 of your opponent's Digimon. It doesn't unsuspend during your opponent's next unsuspend phase.\n[Opponent's Turn] All of your other Digimon with [Vegetation], [Plant], or [Fairy] in one of their traits gain \"[On Deletion] Gain 2 memory, and return 1 Digimon card with 3000 DP or less from your trash to your hand.\"",
+            "effect1": "[When Digivolving] Suspend 1 of your opponent's Digimon. It doesn't unsuspend during your opponent's next unsuspend phase.\n[Opponent's Turn] All of your other Digimon with [Vegetation], [Plant] or [Fairy] in one of their traits gain \"[On Deletion] Gain 2 memory, and return 1 Digimon card with 3000 DP or less from your trash to your hand.\"",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: During my opponent's turn multiple of my Digimon with [Vegetation], [Plant] or [Fairy] in their traits are deleted simultaneously, does this card's [Opponent's Turn] effect allow all of them to activate the [On Deletion] effect being granted?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3b/BT10-057-J.png/revision/latest?cb=20220520104225",
@@ -1546,12 +1781,26 @@
             "evocolor1": "Green",
             "evolevel1": "5",
             "evocost1": "4",
-            "effect1": "[When Digivolving] You may suspend 1 of your Digimon. Then, gain 1 memory for each suspended Digimon with [Vegetation], [Plant], or [Fairy] in one of their traits you have in play. If you gain 2 or more memory by this effect, unsuspend this Digimon and it gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) for the turn.\n[Your Turn] For every 2 suspended Digimon you have in play, this Digimon gets +2000 DP and gains <Security Attack +1> (This Digimon checks 1 additional security card).",
+            "effect1": "[When Digivolving] You may suspend 1 of your Digimon. Then, gain 1 memory for each suspended Digimon with [Vegetation], [Plant] or [Fairy] in one of their traits you have in play. If you gain 2 or more memory by this effect, unsuspend this Digimon and it gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) for the turn.\n[Your Turn] For every 2 suspended Digimon you have in play, this Digimon gets +2000 DP and gains <Security Attack +1> (This Digimon checks 1 additional security card).",
             "wwsets": [
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Is it possible to utilize the [When Digivolving] effect to suspend this Digimon itself, so that I gain 2 memory, in order to immediately unsuspend this Digimon and give it <Piercing>?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If I have 4 suspended Digimon do I get 4000 DP and <Security Attack +2>?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If this Digimon itself is suspended, do I count it for the [Your Turn] effect?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/df/BT10-058-J.png/revision/latest?cb=20220520104225",
@@ -1573,11 +1822,25 @@
             "evocolor1": "Black",
             "evolevel1": "2",
             "evocost1": "0",
-            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 2 cards that are either black with [Knightmon], or [DeadlyAxemon] in their names or with [Twilight] in their traits among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 2 cards that are either black with [Knightmon] or [DeadlyAxemon] in their names or with [Twilight] in their traits among them to your hand. Place the rest at the bottom of your deck in any order.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: What happens to the cards that I don't add to my hand?",
+                    "A: Place them at the bottom of your deck in any order, Please see the official site for details."
+                ],
+                [
+                    "Q: If the effect only reveals 1 card that I can add to my hand, do I add it to my hand even without having a 2nd card to add?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If the effect reveals 2 cards that can be added to hand, must I add both of them to hand?",
+                    "A: Yes. However, if you reveal a black card with [Knightmon] or [DeadlyAxemon] in its name that also has [Twilight] in its traits, you can choose to treat it as a card with [Twilight] in its traits when adding it to your hand, in which case you cannot add any other revealed card with [Twilight] in its traits, and if you did not reveal any other black cards with [Knightmon] or [DeadlyAxemon] in its name then you will only add 1 card to hand with this effect even if you revealed 2 or more that you could add."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/30/BT10-059-J.png/revision/latest?cb=20220520104226",
@@ -1604,12 +1867,18 @@
             "evocolor2": "Red",
             "evolevel2": "2",
             "evocost2": "1",
-            "effect1": "[On Play] By placing this Digimon under 1 of your Digimon with [Legend-Arms], or [Xros Heart] in its traits as its bottom digivolution card, <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards).",
-            "effect2": "[When Attacking] (Once Per Turn) Reveal the top 3 cards of your deck. Add 1 card with [Legend-Arms], or [Xros Heart] in its traits among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "effect1": "[On Play] By placing this Digimon under 1 of your Digimon with [Legend-Arms] or [Xros Heart] in its traits as its bottom digivolution card, <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards).",
+            "effect2": "[When Attacking] (Once Per Turn) Reveal the top 3 cards of your deck. Add 1 card with [Legend-Arms] or [Xros Heart] in its traits among them to your hand. Place the rest at the bottom of your deck in any order.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If my opponent does not have a target for this card's <De-Digivolve  1> on 1 of your opponent's Digimon, is it still possible to place this card into the digivolution cards of one of my Digimon?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e7/BT10-060-J.png/revision/latest?cb=20220520104226",
@@ -1630,8 +1899,8 @@
                 "TANIMESO",
                 "Takase"
             ],
-            "effect1": "[All Turns] While you have another Digimon or Tamer with [Xros Heart], or [Twilight] in its traits in play, this Digimon gets +3000 DP.\n[On Deletion] <Save> (You may place this card under one of your Tamers).",
-            "effect2": "[Opponent's Turn] While this Digimon has [Shoutmon], or [Mervamon] in its name, it gains <Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase).",
+            "effect1": "[All Turns] While you have another Digimon or Tamer with [Xros Heart] or [Twilight] in its traits in play, this Digimon gets +3000 DP.\n[On Deletion] <Save> (You may place this card under one of your Tamers).",
+            "effect2": "[Opponent's Turn] While this Digimon has [Shoutmon] or [Mervamon] in its name, it gains <Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase).",
             "wwsets": [
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
@@ -1663,7 +1932,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If I'm unable to add any of the revealed cards to my hand, am I still able to delete one of my opponent's Digimon with a Play Cost of 4 or less when DigiXrossing with 2 cards?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f4/BT10-062-J.png/revision/latest?cb=20220520104226",
@@ -1793,7 +2068,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: If I am unable to play a Digimon with the [All Turns] effect, is it still possible to add a card from this Digimon's digivolution cards to my hand?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/BT10-067-J.png/revision/latest?cb=20220520104226",
@@ -1852,7 +2133,13 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: If because of this card's [When Digivolving] effect my Digimon's DP cannot be reduced, but one of my Digimon already had its  DP reduced earlier, what happens to that Digimon's  DP?",
+                    "A: Your Digimon's  DP is returned to its original value, and on top of that their  DP is increased by 2000 more because of the other part of this card's [When Digivolving] effect."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/94/BT10-069-J.png/revision/latest?cb=20220520104226",
@@ -1885,7 +2172,17 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: If neither player controls a tamer to delete with the \"Then\" part of the [When Digivolving] effect, does this Digimon still unsuspend?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: With the \"Then\" part of the [When Digivolving] effect, if only I control a tamer, do I have to delete it?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/72/BT10-070-J.png/revision/latest?cb=20220520104226",
@@ -1912,6 +2209,14 @@
             ],
             "rarity": "Uncommon",
             "ruling": [
+                [
+                    "Q: If a level 4 or lower Digimon attacks, can I delete it with this card's effect before it has a chance to activate any [When Attacking] effects?",
+                    "A: No, this card's [Opponent's Turn] effect is a reaction timing effect, so all of your opponent's [When Attacking] effects will have to activate first, and you'll be able to activate this card's effect afterwards."
+                ],
+                [
+                    "Q: For this card's [On Play] effect, if I have 4 or more digivolution cards, can I activate <Blitz>?",
+                    "A: No, you must have exactly 3 to activate <Blitz>."
+                ],
                 [
                     "Q: Does this card have <Blitz> in the deck, when revealed by [BT5-009 Shoutmon]?",
                     "A: No, it does not."
@@ -1947,7 +2252,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: There are 9 cards in my trash, if the Digimon that this card was in the digivolution cards of was deleted in battle and that put the trash to 10 cards, will the inherited effect of <Retaliation> activate?",
+                    "A: No, it was after the Digimon was deleted that the trash increased to 10 cards, so the timing does not work."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/78/BT10-072-J.png/revision/latest?cb=20220520104228",
@@ -1995,12 +2306,22 @@
             "evocolor1": "Purple",
             "evolevel1": "2",
             "evocost1": "0",
-            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 Digimon card with [Bagra Army] in its traits and 1 [Ewan Amano] among them to your hand. Place the rest at the bottom of your deck in any order.\n[On Deletion] <Save> (You may place this card under one of your Tamers).",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 Digimon card with [Bagra Army] in its traits and 1 [Yuu Amano] among them to your hand. Place the rest at the bottom of your deck in any order.\n[On Deletion] <Save> (You may place this card under one of your Tamers).",
             "effect2": "[Opponent's Turn] When this card is trashed from digivolution cards by an effect, gain 1 memory.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If the effect only reveals either a Digimon card with [Bagra Army] in its traits or a [Yuu Amano] but not both, do I add that card to my hand?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If both a Digimon card with [Bagra Army] in its traits and [Yuu Amano] are revealed with this effect, must I add both of them to hand?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cb/BT10-074-J.png/revision/latest?cb=20220520104228",
@@ -2050,7 +2371,7 @@
             "evocolor1": "Purple",
             "evolevel1": "3",
             "evocost1": "0",
-            "effect1": "[On Play] [When Digivolving] If you don't have an [Ewan Amano] in play, you may play one from your hand without paying its memory cost.\n[On Deletion] <Save> (You may place this card under one of your Tamers).",
+            "effect1": "[On Play] [When Digivolving] If you don't have an [Yuu Amano] in play, you may play one from your hand without paying its memory cost.\n[On Deletion] <Save> (You may place this card under one of your Tamers).",
             "effect2": "[Opponent's Turn] When this card is trashed from digivolution cards by an effect, gain 1 memory.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
@@ -2111,7 +2432,17 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: In regards to the [Opponent's Turn] effect, if my opponent attacks with a Digimon and activates 2 [When Attacking] effects that each <Draw 1>, can I cause them to trash 2 cards in their hand?",
+                    "A: No, when an opponent triggers 2 effects at the same time that will <Draw 1>, this effect can activate in response to either of those effect activations, but not both at once, in either case <Draw 1> will only add 1 card to their hand, so they will only trash 1 card when this effect is activated."
+                ],
+                [
+                    "Q: In regards to the [Opponent's Turn] effect, when the opponent activates an effect like \"<Draw 2> then trash 2\" resulting in a net change of 0 to their hand size, can I activate this effect?",
+                    "A: Yes, they added 2 cards to their hand with their effect, so this effect will cause them to trash 2 cards, in regards to the example given they will end up trashing 4 cards total, 2 from their own effect and 2 from yours."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ae/BT10-078-J.png/revision/latest?cb=20220520104229",
@@ -2184,11 +2515,17 @@
             "ilustrators": [
                 "koki"
             ],
-            "effect1": "When this card is trashed from your hand by one of your effects, if it's your turn, you may digivolve 1 of your Digimon into 1 purple Digimon card with [Undead], or [Dark Animal] in its traits from your trash for its digivolution cost.\n[When Digivolving] If digivolving from the trash, this Digimon gains \"[On Deletion] delete 1 of your opponent's Digimon.\" until the end of your opponent's turn.",
+            "effect1": "When this card is trashed from your hand by one of your effects, if it's your turn, you may digivolve 1 of your Digimon into 1 purple Digimon card with [Undead] or [Dark Animal] in its traits from your trash for its digivolution cost.\n[When Digivolving] If digivolving from the trash, this Digimon gains \"[On Deletion] delete 1 of your opponent's Digimon.\" until the end of your opponent's turn.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: When activation this card's effect to digivolve into a Digimon card from thetrash, can this card itself be the card I select to digivolve into?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6e/BT10-081-J.png/revision/latest?cb=20220520104229",
@@ -2215,7 +2552,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: There are 9 cards in my trash, if this Digimon being deleted puts the trash to10 cards, will the [On Deletion] effect activate?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9c/BT10-082-J.png/revision/latest?cb=20220520104229",
@@ -2299,7 +2642,25 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: In regards to the [Opponent's Turn] effect, can I also activate this effect in response to my opponents effects that trash my digivolution cards?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: This Digimon has only 1 digivolution card, when one of my other Digimon with 2digivolution cards would be affected by an effect such as \"Trash 2 digivolution cards\", can the [Opponent's Turn] effect be activated?",
+                    "A: No, if the number of digivolution cards that would be trashed exceeds the number of digivolution cards this Digimon has, the effect cannot be activated."
+                ],
+                [
+                    "Q: When 2 of my other Digimon would be affected by an effect such as \"Trash 1 digivolution card\" at the same time, can I activate this Digimon's [Opponent's Turn] effect so that only this Digimon's digivolution cards get trashed?",
+                    "A: Yes, in that case trash the same total number of digivolution cards from under this Digimon as would have been trashed from under your other Digimon, in regards to the example given 2 of this Digimon's digivolution cards would be trashed."
+                ],
+                [
+                    "Q: When one of my other Digimon with only 1 digivolution card would be affected by an effect such as \"Trash 2 digivolution cards\", I decide to active this Digimon's [Opponent's Turn] effect, how many of this Digimon's digivolution cards do I need to trash?",
+                    "A: Just 1, the amount of cards that could be trashed by the effect does not matter, only the amount that would have been trashed as a result of that specific activation."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a9/BT10-085-J.png/revision/latest?cb=20220520104231",
@@ -2358,12 +2719,18 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: When the opponent's security are revealed with this card's effect, who gets to choose which card is trashed?",
+                    "A: The player that activated the effect chooses which card is trash."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/83/BT10-087-J.png/revision/latest?cb=20220520104231",
             "id": "BT10-087",
-            "name": "Mikey Kudo",
+            "name": "Taiki Kudo",
             "jpname": "工藤タイキ",
             "tsname": "Kudo Taiki",
             "color": [
@@ -2379,12 +2746,26 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: What does the [Your Turn] effect do?",
+                    "A: Normally when you DigiXros the requirements can only be placed from your hand or battle area, but with this card's effect you can also place requirements from under your tamers as well."
+                ],
+                [
+                    "Q: Can I place requirements from under my other tamers as well? Not just this tamer?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If I have a tamer in the digivolution cards of a Digimon, can I also place requirements from under that tamer as well?",
+                    "A: No."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d5/BT10-088-J.png/revision/latest?cb=20220520104231",
             "id": "BT10-088",
-            "name": "Christopher Aonuma",
+            "name": "Kiriha Aonuma",
             "jpname": "蒼沼キリハ",
             "tsname": "Aonuma Kiriha",
             "color": [
@@ -2400,12 +2781,26 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: What does the [Your Turn] effect do?",
+                    "A: Normally when you DigiXros the requirements can only be placed from your hand or battle area, but with this card's effect you can also place requirements from under your tamers as well."
+                ],
+                [
+                    "Q: Can I place requirements from under my other tamers as well? Not just thistamer?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If I have a tamer in the digivolution cards of a Digimon, can I also place requirements from under that tamer as well?",
+                    "A: No."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/91/BT10-089-J.png/revision/latest?cb=20220520104231",
             "id": "BT10-089",
-            "name": "Angie Hinomoto",
+            "name": "Akari Hinomoto",
             "jpname": "陽ノ本アカリ",
             "tsname": "Hinomoto Akari",
             "color": [
@@ -2420,12 +2815,18 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: If I have a tamer in the digivolution cards of a Digimon, can I play a [Dorulumon] from under that tamer?",
+                    "A: No."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/38/BT10-090-J.png/revision/latest?cb=20220520104231",
             "id": "BT10-090",
-            "name": "Jeremy Tsurugi",
+            "name": "Zenjiro Tsurugi",
             "jpname": "剣ゼンジロウ",
             "tsname": "Tsurugi Zenjiro",
             "color": [
@@ -2441,7 +2842,13 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: If I have a tamer in the digivolution cards of a Digimon, can I play a [Ballistamon] from under that tamer?",
+                    "A: No."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c7/BT10-091-J.png/revision/latest?cb=20220520104231",
@@ -2474,18 +2881,24 @@
             "playcost": "3",
             "type": "General/Twilight",
             "ilustrators": [],
-            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 card with [Knightmon], or [DeadlyAxemon] in its name or [Twilight] in its traits among them to your hand. Place the rest at the bottom of your deck in any order.\n[Opponent's Turn] All of your Digimon with h [DarkKnightmon] in their names or [Twilight] in their traits gain <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[On Deletion] Gain 2 memory.",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 card with [Knightmon] or [DeadlyAxemon] in its name or [Twilight] in its traits among them to your hand. Place the rest at the bottom of your deck in any order.\n[Opponent's Turn] All of your Digimon with h [DarkKnightmon] in their names or [Twilight] in their traits gain <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[On Deletion] Gain 2 memory.",
             "effect2": "[Security] Play this card without paying its memory cost.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: What happens to the cards that I don't add to my hand?",
+                    "A: Place them at the bottom of your deck in any order, Please see the official site for detail."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/74/BT10-093-J.png/revision/latest?cb=20220520104232",
             "id": "BT10-093",
-            "name": "Ewan Amano",
+            "name": "Yuu Amano",
             "jpname": "天野ユウ",
             "color": [
                 "Purple"
@@ -2494,13 +2907,19 @@
             "playcost": "3",
             "type": "General/Bagra Army",
             "ilustrators": [],
-            "effect1": "[All Turns] (Once Per Turn) When a purple card is placed under this Tamer, <Draw 1> (Draw 1 card from your deck).\n[Your Turn] (Once Per Turn) When you would play a level 4 or higher Digimon card with  [Bagra Army] in its traits, by placing up to 3 purple Digimon cards from under your Tamers in the digivolution cards of the Digimon card played, reduce the memory cost of that Digimon by 2 for each card placed.",
+            "effect1": "[All Turns] (Once Per Turn) When a purple card is placed under this Tamer, <Draw 1> (Draw 1 card from your deck) and memory +1.\n[Your Turn] (Once Per Turn) When you would play a level 4 or higher Digimon card with  [Bagra Army] in its traits, by placing up to 3 purple Digimon cards from under your Tamers in the digivolution cards of the Digimon card played, reduce the memory cost of that Digimon by 2 for each card placed.",
             "effect2": "[Security] Play this card without paying its memory cost.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: When my DigiXros Digimon would be played, is it possible to separately place cards into its digivolution cards by both its own DigiXros and this tamer's effect?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f4/BT10-094-J.png/revision/latest?cb=20220520104232",
@@ -2555,11 +2974,25 @@
                 "SENNSU"
             ],
             "effect1": "[Main] Choose 1 of your level 4 or higher Digimon with [Shoutmon] in its name. Delete 1 of your opponent's Digimon with DP less than or equal to the chosen Digimon.",
-            "effect2": "[Security] Reveal the top 3 cards of your deck. Add 1 Digimon card card with [Xros Heart] in its traits among them to your hand, and you may play 1 [Mikey Kudo] among them without paying its memory cost. Place the rest at the bottom of your deck in any order.",
+            "effect2": "[Security] Reveal the top 3 cards of your deck. Add 1 Digimon card card with [Xros Heart] in its traits among them to your hand, and you may play 1 [Taiki Kudo] among them without paying its memory cost. Place the rest at the bottom of your deck in any order.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Does this card's security effect let me play a [Taiki Kudo] in its traits revealed from the top of my deck?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If among the revealed cards there is no Digimon card with [Xros Heart] in its traits, may I still play a revealed [Taiki Kudo] in its traits?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If I reveal both a Digimon with [Xros Heart] in its traits and [Taiki Kudo] in its traits, may I choose to just add a Digimon with [Xros Heart] in its traits to my hand and not play a revealed Taiki Kudo? Or vice versa?",
+                    "A: No, if both a Digimon with [Xros Heart] in its traits and [Taiki Kudo] in its traits are revealed, please choose to either perform both of those actions or perform neither of them, you cannot perform just one of them."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c8/BT10-097-J.png/revision/latest?cb=20220520104232",
@@ -2575,12 +3008,26 @@
             "ilustrators": [
                 "Shin Sasaki"
             ],
-            "effect1": "[Main] Reveal the top 6 cards of your deck. Add 2 cards with [Blue Flare] in their traits among them to your hand, and you may play 1 [Christopher Aonuma] among them without paying its memory cost. Place the rest at the bottom of your deck in any order. Then, place this card in your Battle Area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory.",
+            "effect1": "[Main] Reveal the top 6 cards of your deck. Add 2 cards with [Blue Flare] in their traits among them to your hand, and you may play 1 [Kiriha Aonuma] among them without paying its memory cost. Place the rest at the bottom of your deck in any order. Then, place this card in your Battle Area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Gain 2 memory.",
             "effect2": "[Security] Place this card in its owner's battle area.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Does this card's effect let me play a [Kiriha Aonuma] revealed from the top of my deck?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If among the revealed cards there is only 1 card with [Blue Flare] in its traits can I add it to my hand?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If I reveal both a card(s) with [Blue Flare] in its traits and [Kiriha Aonuma], may I choose to just add a card(s) with [Blue Flare] in its traits to my hand and not play a revealed [Kiriha Aonuma]? Or vice versa?",
+                    "A: No, if both a card(s) with [Blue Flare] in its traits and [Kiriha Aonuma] are revealed, please choose to either perform both of those actions or perform neither of them, you cannot perform just one of them."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/63/BT10-098-J.png/revision/latest?cb=20220520104232",
@@ -2640,7 +3087,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If I don't play a [Pulsemon] from my hand, do I still place this card into the battle area?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/58/BT10-101-J.png/revision/latest?cb=20220520104232",
@@ -2660,7 +3113,17 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If I have exactly 3 security do I apply both parts of the effect?",
+                    "A: Yes."
+                ],
+                [
+                    "Q: If I have 4 security when my opponent performs a security check, and this is the revealed card, for this effect do I count as having 3 security?",
+                    "A: Yes, by the time the security effect is activated this card will no longer be counted as part of the security stack."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e9/BT10-102-J.png/revision/latest?cb=20220520104232",
@@ -2698,7 +3161,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Can the Digimon suspended by this effect, and the Digimon returned to deck bythis effect, be different Digimon?",
+                    "A: Yes."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/93/BT10-104-J.png/revision/latest?cb=20220520104233",
@@ -2775,7 +3244,7 @@
                 "banira"
             ],
             "effect1": "[Main] Reveal the top 3 cards of your deck. Add up to 1 card with [Bagra Army] in its traits among them to your hand. Trash the rest. Then, you may place 1 Digimon card with [Bagra Army] in its traits from your trash under one of your Tamers.",
-            "effect2": "[Security] You may play 1 [Ewan Amano] from your hand or trash without paying its memory cost. Then, add this card to its owner's hand.",
+            "effect2": "[Security] You may play 1 [Yuu Amano] from your hand or trash without paying its memory cost. Then, add this card to its owner's hand.",
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
@@ -2799,7 +3268,13 @@
             "wwsets": [
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If this card is revealed from the top of the deck and trashed from among those revealed cards, do I add this card to my hand with its effect?",
+                    "A: No, a card being revealed from the top of the deck does not count as being in the deck."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ad/BT10-109-J.png/revision/latest?cb=20220520104233",
@@ -2869,7 +3344,17 @@
                 "BT-10: Booster Xros Encounter",
                 "BT-10: Booster Xros Encounter"
             ],
-            "rarity": "Secret Rare"
+            "rarity": "Secret Rare",
+            "ruling": [
+                [
+                    "Q: \"When you would DigiXros this turn, this Digimon may replace 1 of the DigiXros requirements.\" What does that mean?",
+                    "A: It means this Digimon may be treated as if it were 1 of the listed requirements for that DigiXros, for example if the listed requirements are [Shoutmon X4] +[Beelzemon], this Digimon may be treated as [Shoutmon X4] or [Beelzemon] for that DigiXros."
+                ],
+                [
+                    "Q: If this is the first card I place into the digivolution cards when digixrossing, can I continue treating it as other additional requirements and meet all of them with just 1 card?",
+                    "A: No, this effect only let's you treat it as 1 requirement for the DigiXros."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/47/BT10-112-J.png/revision/latest?cb=20220520104233",

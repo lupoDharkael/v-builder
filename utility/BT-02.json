@@ -138,7 +138,8 @@
             ],
             "effect2": "[Your Turn] While this Digimon has <Reboot>, it gets +1000 DP.",
             "engsets": [
-                "BT01-03: Release Special Booster Ver.1.0"
+                "BT01-03: Release Special Booster Ver.1.0",
+                "Demo Deck"
             ],
             "rarity": "Common",
             "jpsets": [
@@ -1072,7 +1073,8 @@
             "evocost1": "3",
             "effect1": "[Your Turn] When one of your blue Tamers becomes suspended, unsuspend this Digimon.\n[Your Turn] (Once Per Turn) When this Digimon becomes unsuspended during your main phase, gain 1 memory.",
             "wwsets": [
-                "DC-1 Grand Prix"
+                "DC-1 Grand Prix",
+                "BT-10: Booster Xros Encounter"
             ],
             "engsets": [
                 "BT01-03: Release Special Booster Ver.1.5",
@@ -1222,7 +1224,7 @@
             "type": "Holy Beast",
             "ilustrators": [
                 "Teppei Tadokoro",
-                "Horaguchi Kayo"
+                "Kayo Horaguchi"
             ],
             "evocolor1": "Yellow",
             "evolevel1": "3",
@@ -1938,13 +1940,18 @@
             "attribute": "Virus",
             "type": "Mollusk",
             "ilustrators": [
-                "koki"
+                "koki",
+                "Yuki Mukai"
             ],
             "evocolor1": "Black",
             "evolevel1": "3",
             "evocost1": "1",
+            "wwsets": [
+                "Digimon Illustration Competition Promotion Pack"
+            ],
             "engsets": [
-                "BT01-03: Release Special Booster Ver.1.0"
+                "BT01-03: Release Special Booster Ver.1.0",
+                "Demo Deck"
             ],
             "rarity": "Common",
             "jpsets": [
@@ -2243,7 +2250,7 @@
                 "BT01-03: Release Special Booster Ver.1.0",
                 "BT01-03: Release Special Booster Ver.1.0",
                 "GB-01: Digimon Card Game Gift Box",
-                "Classic Collection EX-01"
+                "EX-01: Theme Booster Classic Collection"
             ],
             "rarity": "Super Rare",
             "jpsets": [
@@ -3292,7 +3299,8 @@
             "effect1": "[Main] 3 of your opponent's level 3 Digimon get -4000 DP for the turn.",
             "effect2": "[Security] Activate this card's [Main] effect.",
             "engsets": [
-                "BT01-03: Release Special Booster Ver.1.5"
+                "BT01-03: Release Special Booster Ver.1.5",
+                "Revision Pack"
             ],
             "rarity": "Common",
             "jpsets": [

@@ -19,7 +19,17 @@
             "wwsets": [
                 "ST-13: Starter Deck RagnaLoardmon"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If 2 or more of my Digimon with [Legend-Arms] in its traits are played at the same time, does this card's inherited effect gain 1 memory for each Digimon that was played?",
+                    "A: No, even if two or more Digimon with [Legend-Arms] in its traits are played at the same time with one effect, this card's inherited effect will only gain 1 memory."
+                ],
+                [
+                    "Q: If there are Digimon with this card in their digivolution cards. If a Digimon with [Legend-Arms] in its traits is played. Will each inherited effect be activated and gain a total of 2 memory?",
+                    "A: Yes, in that case, the total memory from both effects will be 2 memory."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4c/ST13-02-J.png/revision/latest?cb=20220415091247",
@@ -50,7 +60,21 @@
             "wwsets": [
                 "ST-13: Starter Deck RagnaLoardmon"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Is it possible to not activate the [On Play] effect of this card?",
+                    "A: Yes, \"By placing this Digimon under 1 of your other Digimon that's black or has [Legend-Arms] in its traits as its bottom digivolution card\" is a cost, so you can choose not to place it as a digivolution card. If you do, you will not proceed the rest of the effect."
+                ],
+                [
+                    "Q: If after revealing a Digimon card with a play cost of 7 or less and [Legend-Arms] in its traits from the top of the deck. Is it possible to not play the Digimon card with this card's [On Play] effect?",
+                    "A: Yes, it is optional to play the Digimon. If you do not play it, add it to your hand liek any other card."
+                ],
+                [
+                    "Q: If my opponent has has [BT9-047 Pomumon] in play, what happens to a Digimon card with a play cost of 7 or less and [Legend-Arms] in its traits that was revealed from the deck due to this card's [On Play] effect?",
+                    "A: Since it cannot be played due to the effect of [BT9-047 Pomumon]'s [All Turns] effect, the card is add it to your hand in the same way as other revealed cards."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/32/ST13-03-J.png/revision/latest?cb=20220415091247",
@@ -81,7 +105,13 @@
             "wwsets": [
                 "ST-13: Starter Deck RagnaLoardmon"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Is it possible to not activate the [On Play] effect of this card?",
+                    "A: Yes, \"By placing this Digimon under 1 of your other Digimon\" is a cost, so you can choose not to place it as a digivolution card. If you do, you will not delete a Digimon with this effect."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d5/ST13-04-J.png/revision/latest?cb=20220415091247",
@@ -112,7 +142,21 @@
             "wwsets": [
                 "ST-13: Starter Deck RagnaLoardmon"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: How does this card's [End of Your Turn] effect work?",
+                    "A: At the end of your turn, the Digimon that has this card as a digivolution card and another Digimon, can be used to <DNA Digivolution> into a Digimon card that has <DNA Digivolution> in your hand before it becomes the opponent's turn."
+                ],
+                [
+                    "Q: Can this card's inherited effect digivolve into a Digimon card that doesn't have <DNA Digivolution> in your hand?",
+                    "A: No, you can't ignore digivolution conditions, so you can't DNA Digivolve into a Digimon card that doesn't have <DNA Digivolution>."
+                ],
+                [
+                    "Q: Is it possible to evolve DNA Digivolve with a Digimon of a colour or level that is not specified in the <DNA Digivolution> conditions of the card in hand?",
+                    "A: No, you can't ignore digivolution conditions, so it is not possible to evolve DNA DIgivolve with a Digimon of a colour or level not specified in the <DNA Digivolution> conditions."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c3/ST13-05-J.png/revision/latest?cb=20220415091247",
@@ -143,7 +187,17 @@
             "wwsets": [
                 "ST-13: Starter Deck RagnaLoardmon"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Is it possible to not play a revealed Digimon card with a play cost of 7 or less and [Legend-Arms] in its traits from the deck with the [When Attacking] effect of this card?",
+                    "A: Yes, it is \"you may\", so you can choose not to play the Digimon card. If you do, put it on the bottom of your deck like any other card."
+                ],
+                [
+                    "Q: If my opponent has has [BT9-047 Pomumon] in play, what happens to a Digimon card with a play cost of 7 or less and [Legend-Arms] in its traits that was revealed from the deck due to this card's [When Attacking] effect?",
+                    "A: Since it cannot be played due to the effect of [BT9-047 Pomumon]'s [All Turns] effect, the card is add it to your hand in the same way as other revealed cards."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/df/ST13-06-J.png/revision/latest?cb=20220415091247",
@@ -174,7 +228,21 @@
             "wwsets": [
                 "ST-13: Starter Deck RagnaLoardmon"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: Can this card perform <Blitz> when performing a DNA Digivolution?",
+                    "A: Yes, it works as long as the memory is 1 or more on the opponent's side."
+                ],
+                [
+                    "Q: If this Digimon has 8 digivolution cards, does this card's [When Digivolving] effect after DNA Digivolving, delete 2 of my opponent's Digimon both with a play cost of 20 or less, and trash 2 cards from the top of my opponent's security?",
+                    "A: Yes, that's right."
+                ],
+                [
+                    "Q: When DNA Digivolving into this card and the memory was 1 or more on the other side, and it activates <Blitz>. If this Digimon has a [When Attacking] effect. Is it possible to activate the [When Attacking] effect before applying the rest of this Digimon's [When Digivolving] effect?",
+                    "A: No, <Blitz> and \"for every 4 cards in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with a play cost of 20 or less and trash the top card of your opponent's security stack.\" are on effect. So if it was DNA Digivolved, you must finish activating the above effects, after declaring an attack with <Blitz>, the effects will continue activating. Afterwards, you can activate [When Attacking] effects."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fe/ST13-07-J.png/revision/latest?cb=20220415091247",
@@ -222,7 +290,17 @@
             "wwsets": [
                 "ST-13: Starter Deck RagnaLoardmon"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: What kind of effect is this card's \"can't reduce play costs.\"?",
+                    "A: It is an effect that nullifies \"reduce memory cost by x\". You and your opponent will be unable to activate effects that reduce play costs, and must pay the play cost written on the cards in order to play them."
+                ],
+                [
+                    "Q: When this Digimon is in play, can \"play without paying its memory cost\" effects activate?",
+                    "A: Yes, \"play without paying its memory cost\" is not an effect that reduces play costs, so it can activate."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/94/ST13-09-J.png/revision/latest?cb=20220415091248",
@@ -253,7 +331,21 @@
             "wwsets": [
                 "ST-13: Starter Deck RagnaLoardmon"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Is it possible to not activate the [On Play] effect of this card?",
+                    "A: Yes, \"By placing this Digimon under 1 of your other Digimon that's black or has [Legend-Arms] in its traits as its bottom digivolution card\" is a cost, so you can choose not to place it as a digivolution card. If you do, you will not proceed the rest of the effect."
+                ],
+                [
+                    "Q: If after revealing a Digimon card with a play cost of 7 or less and [Legend-Arms] in its traits from the top of the deck. Is it possible to not play the Digimon card with this card's [On Play] effect?",
+                    "A: Yes, it is optional to play the Digimon. If you do not play it, add it to your hand liek any other card."
+                ],
+                [
+                    "Q: If my opponent has has [BT9-047 Pomumon] in play, what happens to a Digimon card with a play cost of 7 or less and [Legend-Arms] in its traits that was revealed from the deck due to this card's [On Play] effect?",
+                    "A: Since it cannot be played due to the effect of [BT9-047 Pomumon]'s [All Turns] effect, the card is add it to your hand in the same way as other revealed cards."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d5/ST13-10-J.png/revision/latest?cb=20220415091247",
@@ -310,7 +402,13 @@
             "wwsets": [
                 "ST-13: Starter Deck RagnaLoardmon"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Is it possible to not activate the [On Play] effect of this card?",
+                    "A: Yes, \"By placing this Digimon under 1 of your other Digimon\" is a cost, so you can choose not to place it as a digivolution card. If you do, your Digimon will not gain <Reboot>."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/37/ST13-12-J.png/revision/latest?cb=20220415091248",
@@ -369,7 +467,25 @@
             "wwsets": [
                 "ST-13: Starter Deck RagnaLoardmon"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: How does this card's [End of Your Turn] effect work?",
+                    "A: At the end of your turn, the Digimon that has this card as a digivolution card and another Digimon, can be used to <DNA Digivolution> into a Digimon card that has <DNA Digivolution> in your hand before it becomes the opponent's turn."
+                ],
+                [
+                    "Q: Can this card's inherited effect digivolve into a Digimon card that doesn't have <DNA Digivolution> in your hand?",
+                    "A: No, you can't ignore digivolution conditions, so you can't DNA Digivolve into a Digimon card that doesn't have <DNA Digivolution>."
+                ],
+                [
+                    "Q: Is it possible to evolve DNA Digivolve with a Digimon of a colour or level that is not specified in the <DNA Digivolution> conditions of the card in hand?",
+                    "A: No, you can't ignore digivolution conditions, so it is not possible to evolve DNA DIgivolve with a Digimon of a colour or level not specified in the <DNA Digivolution> conditions."
+                ],
+                [
+                    "Q: What does \"can't be deleted by your opponent's effects\" on this card's [All Turns] effect refer to, exactly?",
+                    "A: Card text that specifically specify \"delete,\" such as \"Delete 1 of your opponent's Digimon,\" can't be used to delete this Digimon. They can still be deleted by losing a battle or being reduced to 0 DP."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c6/ST13-14-J.png/revision/latest?cb=20220415091248",
@@ -403,6 +519,18 @@
             "rarity": "Rare",
             "ruling": [
                 [
+                    "Q: Is it possible to not play a revealed Digimon card with a play cost of 7 or less and [Legend-Arms] in its traits from the deck with the [When Digivolving] effect of this card?",
+                    "A: Yes, it is \"you may\", so you can choose not to play the Digimon card. If you do, put it on the bottom of your deck like any other card."
+                ],
+                [
+                    "Q: If my opponent has has [BT9-047 Pomumon] in play, what happens to a Digimon card with a play cost of 7 or less and [Legend-Arms] in its traits that was revealed from the deck due to this card's [When Digivolving] effect?",
+                    "A: Since it cannot be played due to the effect of [BT9-047 Pomumon]'s [All Turns] effect, the card is add it to your hand in the same way as other revealed cards."
+                ],
+                [
+                    "Q: If the opponent has [BT9-112 DeathXmon], and it activates its [End of Opponent's Turn] effect. Will the Digimon with this card's inherited [Opponent's Turn] effect be deleted?",
+                    "A: Yes, the timing of this card's inherited effect is [Opponent's Turn], and since the turn has not changed yet at the end of the turn, the inherited  effect of this card is not applied, and the effect of the opponent's [BT9-112 DeathXmon] will not be prevented."
+                ],
+                [
                     "Q: If this Digimon is underneath a suspended [RagnaLoardmon] and is targeted for the effect of [BT3-057 MegaGargomon], does this card unsuspend during the next unsuspend Phase?",
                     "A: No, even though the Digimon is unaffected by the effects they have been applied and during your unsuspend phase it is no longer unaffected by your opponent's Digimon effects."
                 ]
@@ -426,7 +554,13 @@
             "wwsets": [
                 "ST-13: Starter Deck RagnaLoardmon"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Can this card's [Main] effect delete all of the opponent's Digimon with the highest DP?",
+                    "A: No, only one Digimon can be deleted with this card. If there are multiple opponents with the highest DP, the player of this card selects the target to be deleted."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5c/ST13-16-J.png/revision/latest?cb=20220415091248",
@@ -449,7 +583,17 @@
             "wwsets": [
                 "ST-13: Starter Deck RagnaLoardmon"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Can the [Main] effect be used when you don't have a Digimon card with a play cost of 7 or less and [Legend-Arms] in its traits in your hand, so that only the effect of placing this card in the battle area is applied?",
+                    "A: Yes, it is possible."
+                ],
+                [
+                    "Q: Is it possible to separately return the revealed cards to the top and bottom of the deck for this card's <Delay> effect?",
+                    "A: No, you cannot. You must choose whether to return all revealed cards to the top of the deck in any order or all revealed cards to the bottom of the deck in any order."
+                ]
+            ]
         }
     ]
 }

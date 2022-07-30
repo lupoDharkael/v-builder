@@ -18,7 +18,7 @@
                 "Sanosuke Sakuma",
                 "TANIMESO"
             ],
-            "effect2": "[When Attacking] (Once Per Turn) If this Digimon has [Omnimon], or [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon]), trigger <Draw 1> (Draw 1 card from your deck).",
+            "effect2": "[When Attacking] (Once Per Turn) If this Digimon has [Omnimon] or [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon]), trigger <Draw 1> (Draw 1 card from your deck).",
             "wwsets": [
                 "BT-05: Booster Battle Of Omni"
             ],
@@ -47,7 +47,7 @@
             "ilustrators": [
                 "Sanosuke Sakuma"
             ],
-            "effect2": "[Your Turn] While this Digimon has [Omnimon], or [Garurumon] in its name (other than [KendoGarurumon]), this Digimon gets +1000 DP.",
+            "effect2": "[Your Turn] While this Digimon has [Omnimon] or [Garurumon] in its name (other than [KendoGarurumon]), this Digimon gets +1000 DP.",
             "wwsets": [
                 "BT-05: Booster Battle Of Omni"
             ],
@@ -324,7 +324,7 @@
             "evolevel1": "3",
             "evocost1": "2",
             "effect1": "[When Digivolving] If this Digimon has [Agumon] in it's Digivolution Cards, gain 1 memory.",
-            "effect2": "[Your Turn] While this Digimon has [Omnimon], or [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon]), it gets +2000 DP.",
+            "effect2": "[Your Turn] While this Digimon has [Omnimon] or [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon]), it gets +2000 DP.",
             "wwsets": [
                 "BT-05: Booster Battle Of Omni"
             ],
@@ -491,7 +491,7 @@
             "evolevel2": "5",
             "evocost2": "1",
             "effect1": "[When Digivolving] While a Digimon card with [MetalGreymon] in its name is in this Digimon's digivolution cards, delete 1 of your opponent's Digimon with 4000 DP or less.",
-            "effect2": "[Your Turn] When this Digimon has [Omnimon], or [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon]), it gets +2000 DP.",
+            "effect2": "[Your Turn] When this Digimon has [Omnimon] or [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon]), it gets +2000 DP.",
             "wwsets": [
                 "BT-05: Booster Battle Of Omni"
             ],
@@ -687,7 +687,8 @@
             "engsets": [
                 "Battle of Omni Pre-Release Pack",
                 "Event Pack 2",
-                "Winner Pack New Awakening"
+                "Winner Pack New Awakening",
+                "X Record Pre-Release Promotion"
             ],
             "jpsets": [
                 "Tamer Battle Pack 8",
@@ -842,7 +843,7 @@
             "evolevel1": "3",
             "evocost1": "2",
             "effect1": "[When Digivolving] If this Digimon has [Gabumon] in it's Digivolution Cards, gain 1 memory.",
-            "effect2": "[All Turns] While this Digimon has [Omnimon], or [Garurumon] in its name (other than [KendoGarurumon]), it gets +1000 DP.",
+            "effect2": "[All Turns] While this Digimon has [Omnimon] or [Garurumon] in its name (other than [KendoGarurumon]), it gets +1000 DP.",
             "wwsets": [
                 "BT-05: Booster Battle Of Omni"
             ],
@@ -994,7 +995,7 @@
             "evolevel2": "5",
             "evocost2": "1",
             "effect1": "[When Digivolving] While a Digimon card with [WereGarurumon] in its name is in this Digimon's digivolution cards, this Digimon gains <Jamming> (This Digimon can't be deleted in battles against Security Digimon).",
-            "effect2": "[Your Turn] When this Digimon has [Omnimon], or [Garurumon] in its name (other than [KendoGarurumon]), it gets +1000 DP.",
+            "effect2": "[Your Turn] When this Digimon has [Omnimon] or [Garurumon] in its name (other than [KendoGarurumon]), it gets +1000 DP.",
             "wwsets": [
                 "BT-05: Booster Battle Of Omni"
             ],
@@ -1320,7 +1321,7 @@
             "evocolor1": "Yellow",
             "evolevel1": "3",
             "evocost1": "2",
-            "effect1": "[On Play] You may search your security stack for 1 Digimon card with [Warrior], or [Holy Warrior] in its type, reveal it, and add it to your hand. If you do, trigger <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack). Then, shuffle your security stack.",
+            "effect1": "[On Play] You may search your security stack for 1 Digimon card with [Warrior] or [Holy Warrior] in its type, reveal it, and add it to your hand. If you do, trigger <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack). Then, shuffle your security stack.",
             "wwsets": [
                 "BT-05: Booster Battle Of Omni"
             ],
@@ -1335,7 +1336,7 @@
                     "A: Without performing <Recovery +1 (Deck)>, shuffle your Security Stack."
                 ],
                 [
-                    "Q: If you have a [Holy Warrior], or [Warrior] in their type in Security, do you have to add it to your handif you checked security?",
+                    "Q: If you have a [Holy Warrior] or [Warrior] in their type in Security, do you have to add it to your handif you checked security?",
                     "A: No, you do not have to add it to your hand."
                 ],
                 [
@@ -2131,7 +2132,10 @@
             "wwsets": [
                 "BT-05: Booster Battle Of Omni"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "engsets": [
+                "Demo Deck"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9f/BT5-062.png/revision/latest?cb=20210720175547",
@@ -2227,7 +2231,10 @@
             "wwsets": [
                 "BT-05: Booster Battle Of Omni"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "engsets": [
+                "Demo Deck"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d4/BT5-065.png/revision/latest?cb=20210720175548",
@@ -2300,7 +2307,8 @@
             ],
             "rarity": "Rare",
             "engsets": [
-                "Battle of Omni Pre-Release Pack"
+                "Battle of Omni Pre-Release Pack",
+                "Demo Deck"
             ],
             "jpsets": [
                 "Tamer Battle Pack 12"
@@ -2373,7 +2381,10 @@
             "wwsets": [
                 "BT-05: Booster Battle Of Omni"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "engsets": [
+                "Demo Deck"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4b/BT5-069.png/revision/latest?cb=20210720175550",
@@ -2402,7 +2413,8 @@
             ],
             "rarity": "Rare",
             "engsets": [
-                "Battle of Omni Pre-Release Pack"
+                "Battle of Omni Pre-Release Pack",
+                "Demo Deck"
             ]
         },
         {
@@ -2477,7 +2489,10 @@
             ],
             "rarity": "Uncommon",
             "engsets": [
-                "Battle of Omni Pre-Release Pack"
+                "Battle of Omni Pre-Release Pack",
+                "2022 August Regionals - Participation Set",
+                "2022 August Regionals - Finalist Set",
+                "2022 August Regionals - Champion Set"
             ],
             "ruling": [
                 [
@@ -3227,7 +3242,7 @@
             "cardtype": "Tamer",
             "playcost": "3",
             "ilustrators": [],
-            "effect1": "[On Play] You may play 1 [Agumon] or [Gabumon] from your hand without paying its memory cost.\n[Main] When one of your Digimon would digivolve into a Digimon card in your hand with [Omnimon], [Greymon], or [Garurumon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon], or [KendoGarurumon]), you may suspend this Tamer to reduce the memory cost of the digivolution by 1.",
+            "effect1": "[On Play] You may play 1 [Agumon] or [Gabumon] from your hand without paying its memory cost.\n[Main] When one of your Digimon would digivolve into a Digimon card in your hand with [Omnimon], [Greymon] or [Garurumon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon], or [KendoGarurumon]), you may suspend this Tamer to reduce the memory cost of the digivolution by 1.",
             "effect2": "[Security] Play this card without paying its memory cost.",
             "wwsets": [
                 "BT-05: Booster Battle Of Omni",
@@ -3239,7 +3254,7 @@
             ],
             "ruling": [
                 [
-                    "Q: I digivolve a Digimon in my breeding area into a Digimon card with [Greymon], [Garurumon], or [Omnimon] in its name. Can I use this Tamer's effect to reduce the digivolution cost by 1?",
+                    "Q: I digivolve a Digimon in my breeding area into a Digimon card with [Greymon], [Garurumon] or [Omnimon] in its name. Can I use this Tamer's effect to reduce the digivolution cost by 1?",
                     "A: No, digivolving Digimon in your breeding area doesn't trigger the effect that reduces digivolution cost by 1."
                 ],
                 [
@@ -3327,7 +3342,7 @@
             "ilustrators": [
                 "Nakano Haito"
             ],
-            "effect1": "[Main] Delete 1 of your opponent's Digimon with 11000 DP or less. If you have a Digimon in play with [Omnimon], or [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon]), delete 1 of your opponent's Digimon with 15000 DP or less instead.",
+            "effect1": "[Main] Delete 1 of your opponent's Digimon with 11000 DP or less. If you have a Digimon in play with [Omnimon] or [Greymon] in its name (other than [DoruGreymon], [BurningGreymon], [DexDoruGreymon]), delete 1 of your opponent's Digimon with 15000 DP or less instead.",
             "effect2": "[Security] Activate this cards [Main] effect.",
             "wwsets": [
                 "BT-05: Booster Battle Of Omni"
@@ -3351,7 +3366,7 @@
             "ilustrators": [
                 "Nakano Haito"
             ],
-            "effect1": "[Main] Return all of your opponent's Digimon with 3000 DP or less to their owners' hands. If you have a Digimon in play with [Omnimon], or [Garurumon] in its name (other than [KendoGarurumon]), return all of your opponent's Digimon with 5000 DP or less to their owners' hands instead. Trash all of the digivolution cards of those Digimon.",
+            "effect1": "[Main] Return all of your opponent's Digimon with 3000 DP or less to their owners' hands. If you have a Digimon in play with [Omnimon] or [Garurumon] in its name (other than [KendoGarurumon]), return all of your opponent's Digimon with 5000 DP or less to their owners' hands instead. Trash all of the digivolution cards of those Digimon.",
             "effect2": "[Security] Activate this cards [Main] effect.",
             "wwsets": [
                 "BT-05: Booster Battle Of Omni"
@@ -3379,7 +3394,8 @@
             ],
             "rarity": "Uncommon",
             "engsets": [
-                "Battle of Omni Pre-Release Pack"
+                "Battle of Omni Pre-Release Pack",
+                "Summer 2022 Dash Pack"
             ],
             "jpsets": [
                 "Limited Card Set ONLINE"

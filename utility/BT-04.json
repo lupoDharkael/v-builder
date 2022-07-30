@@ -1438,7 +1438,10 @@
             "wwsets": [
                 "BT-04: Booster Great Legend"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "engsets": [
+                "Revision Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d3/BT4-042.png/revision/latest?cb=20210430124218",

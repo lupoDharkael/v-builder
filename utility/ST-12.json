@@ -21,7 +21,17 @@
             "wwsets": [
                 "ST-12: Starter Deck Jesmon"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Does this card's inherited effect also count the Digimon on top of this card?",
+                    "A: Yes, it is counted."
+                ],
+                [
+                    "Q: Will the Digimon with this card's inherited effect get +2000 DP if I have 4 Digimon in play?",
+                    "A: No, it does not. It will only have +1000 DP from this effect."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/db/ST12-02-J.png/revision/latest?cb=20220415091245",
@@ -73,13 +83,24 @@
             "wwsets": [
                 "ST-12: Starter Deck Jesmon"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: What kind of effect is this card's \"can't reduce play costs.\"?",
+                    "A: It is an effect that nullifies \"reduce memory cost by x\". You and your opponent will be unable to activate effects that reduce play costs, and must pay the play cost written on the cards in order to play them."
+                ],
+                [
+                    "Q: When this Digimon is in play, can \"play without paying its memory cost\" effects activate?",
+                    "A: Yes, \"play without paying its memory cost\" is not an effect that reduces play costs, so it can activate."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/81/ST12-04-J.png/revision/latest?cb=20220415091246",
             "id": "ST12-04",
             "name": "Huckmon",
             "jpname": "ハックモン",
+            "tsname": "Hackmon",
             "color": [
                 "Red"
             ],
@@ -101,7 +122,13 @@
             "wwsets": [
                 "ST-12: Starter Deck Jesmon"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: If an effect plays 2 or more Digimon with [Sistermon] in their name, will this Digimon gain 1 memory for each Digimon that is played?",
+                    "A: No, it will only gain 1 memory when 2 or more Digimon with [Sistermon] in their name are played at the same time."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/38/ST12-05-J.png/revision/latest?cb=20220415091246",
@@ -262,7 +289,13 @@
             "wwsets": [
                 "ST-12: Starter Deck Jesmon"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "ruling": [
+                [
+                    "Q: If this Digimon plays a Digimon card with [Sistermon] in its name with its [When Attacking] effect, will this Digimon have +3000 DP and <Security Attack +1> during the attack?",
+                    "A: Yes, it will."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/10/ST12-11-J.png/revision/latest?cb=20220415091247",
@@ -316,7 +349,13 @@
             "wwsets": [
                 "ST-12: Starter Deck Jesmon"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: Is it possible not to activate this card's [On Play]?",
+                    "A: Yes, it is an optional effect so you can choose not to trash 1 card in your hand. In which case, you will not <Draw 2>."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ab/ST12-13-J.png/revision/latest?cb=20220415091246",
@@ -340,7 +379,17 @@
             "wwsets": [
                 "ST-12: Starter Deck Jesmon"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q: If this card is in the hand or breeding area. Is this card still treated as \"[Sistermon Ciel] and [Data] Attribute\"?",
+                    "A: Yes, it is treated as \"[Sistermon Ciel] and [Data] Attribute\" because it is a special rule and not an effect."
+                ],
+                [
+                    "Q: Does this card have four traits, [Champion], [Puppet], [Virus], and [Data]?",
+                    "A: Yes, this card is treated as both [Virus] and [Data], but it is treated as one card number, and it is treated as having three traits in total including [Champion] and [Puppet]."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0b/ST12-14-J.png/revision/latest?cb=20220415091247",
@@ -360,7 +409,13 @@
             "wwsets": [
                 "ST-12: Starter Deck Jesmon"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: Is it possible to give the +2000 DP effect and <Piercing> effect to different Digimon?",
+                    "A: Yes, you can target different Digimon for each effect, and it can also be the same Digimon."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5a/ST12-15-J.png/revision/latest?cb=20220415091247",
@@ -376,12 +431,18 @@
             "ilustrators": [
                 "Takase"
             ],
-            "effect1": "[Main] Reveal the top 3 cards of your deck. Add 1 card with [Huckmon], or [Sistermon] in its name or [Royal Knight] in its traits among them to your hand. Trash the rest. Then, place this card in your Battle Area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・The next time one of your Digimon would digivolve this turn, reduce the digivolution cost by 1.",
-            "effect2": "[Security] Reveal the top 3 cards of your deck. Add 1 card with [Huckmon], or [Sistermon] in its name or [Royal Knight] in its traits among them to your hand. Trash the rest. Then, place this card in your battle area.",
+            "effect1": "[Main] Reveal the top 3 cards of your deck. Add 1 card with [Huckmon] or [Sistermon] in its name or [Royal Knight] in its traits among them to your hand. Trash the rest. Then, place this card in your Battle Area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・The next time one of your Digimon would digivolve this turn, reduce the digivolution cost by 1.",
+            "effect2": "[Security] Reveal the top 3 cards of your deck. Add 1 card with [Huckmon] or [Sistermon] in its name or [Royal Knight] in its traits among them to your hand. Trash the rest. Then, place this card in your battle area.",
             "wwsets": [
                 "ST-12: Starter Deck Jesmon"
             ],
-            "rarity": "Common"
+            "rarity": "Common",
+            "ruling": [
+                [
+                    "Q: If this card does not reveal any cards with [Huckmon] or [Sistermon] in its name, or [Royal Knight] in its traits. Does this card still place itself in the battle area?",
+                    "A: Yes, regardless of the cards that were revealed, this card will be placed in the battle area after trashing the revealed cards."
+                ]
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/30/ST12-16-J.png/revision/latest?cb=20220415091247",
@@ -396,7 +457,7 @@
             "ilustrators": [
                 "Nakano Haito"
             ],
-            "effect1": "While you have a Digimon with [Huckmon], or [Sistermon] in its name or [Royal Knight] in its traits in play, you may use this card without meeting its color requirements.\n[Main] Delete 1 of your opponent's Digimon with a play cost of 13 or less.",
+            "effect1": "While you have a Digimon with [Huckmon] or [Sistermon] in its name or [Royal Knight] in its traits in play, you may use this card without meeting its color requirements.\n[Main] Delete 1 of your opponent's Digimon with a play cost of 13 or less.",
             "effect2": "[Security] Activate this card's [Main] effect.",
             "wwsets": [
                 "ST-12: Starter Deck Jesmon"

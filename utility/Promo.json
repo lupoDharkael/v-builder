@@ -104,7 +104,7 @@
             "ilustrators": [
                 "Takumi Kousaka",
                 "Takumi Kousaka",
-                "Horaguchi Kayo"
+                "Kayo Horaguchi"
             ],
             "effect2": "[Your Turn] (Once Per Turn) When one of your opponent's digivolution cards is trashed, gain 1 memory.",
             "wwsets": [
@@ -149,14 +149,16 @@
             "attribute": "Data",
             "type": "Mammal",
             "ilustrators": [
-                "Nakano Haito"
+                "Nakano Haito",
+                "mojuke"
             ],
             "evocolor1": "Yellow",
             "evolevel1": "2",
             "evocost1": "0",
             "effect1": "[On Play] If you have 1 or fewer security cards, trigger <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).",
             "wwsets": [
-                "Promotion Pack Ver 0.0"
+                "Promotion Pack Ver 0.0",
+                "Digimon Illustration Competition Promotion Pack"
             ],
             "rarity": "Promo"
         },
@@ -972,10 +974,13 @@
             "effect1": "[When Attacking] This Digimon can digivolve into an [AncientGreymon] in your hand for a memory cost of 2, ignoring its digivolution requirements. If it does, delete this Digimon at the end of the turn.",
             "effect2": "[Your Turn] When digivolving this Digimon into an [AncientGreymon] in your hand, reduce its digivolution cost by 2.",
             "engsets": [
-                "Great Legend Power Up Pack"
+                "Great Legend Power Up Pack",
+                "Great Legend Power Up Pack",
+                "Revision Pack"
             ],
-            "rarity": "Promo",
+            "rarity": "Promo (Non-Foil)",
             "jpsets": [
+                "1st Anniversary Promotion Pack",
                 "1st Anniversary Promotion Pack"
             ],
             "ruling": [
@@ -1026,10 +1031,13 @@
             "effect1": "[When Digivolving] This Digimon can digivolve into an [AncientGarurumon] in your hand for a memory cost of 1, ignoring its digivolution requirements. If it does, delete this Digimon at the end of the turn.",
             "effect2": "[Your Turn] When digivolving this Digimon into an [AncientGarurumon] in your hand, reduce its digivolution cost by 2.",
             "engsets": [
-                "Great Legend Power Up Pack"
+                "Great Legend Power Up Pack",
+                "Great Legend Power Up Pack",
+                "Revision Pack"
             ],
-            "rarity": "Promo",
+            "rarity": "Promo (Non-Foil)",
             "jpsets": [
+                "1st Anniversary Promotion Pack",
                 "1st Anniversary Promotion Pack"
             ],
             "ruling": [
@@ -1079,10 +1087,12 @@
             "evocost1": "2",
             "effect1": "[Opponent's Turn] While you have a purple Digimon in play, this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[On Play] If you have 3 or fewer security cards, trigger <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).",
             "engsets": [
+                "Great Legend Power Up Pack",
                 "Great Legend Power Up Pack"
             ],
-            "rarity": "Promo",
+            "rarity": "Promo (Non-Foil)",
             "jpsets": [
+                "1st Anniversary Promotion Pack",
                 "1st Anniversary Promotion Pack"
             ],
             "ruling": [
@@ -1149,10 +1159,13 @@
             "effect1": "[Your Turn] All of your black Digimon with 13000 DP or more gain <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).",
             "effect2": "[Your Turn] While this Digimon is black and has 13000 DP or more, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card).",
             "engsets": [
-                "Great Legend Power Up Pack"
+                "Great Legend Power Up Pack",
+                "Great Legend Power Up Pack",
+                "March 2022 Box Buy Promotion"
             ],
-            "rarity": "Promo",
+            "rarity": "Promo (Non-Foil)",
             "jpsets": [
+                "1st Anniversary Promotion Pack",
                 "1st Anniversary Promotion Pack"
             ],
             "ruling": [
@@ -1194,10 +1207,12 @@
             "evocost1": "0",
             "effect2": "[On Deletion] If you have 7 or more Digimon cards with [Devimon] in their name in your trash, you may play 1 [DanDevimon] from your trash without paying its memory cost.",
             "engsets": [
+                "Great Legend Power Up Pack",
                 "Great Legend Power Up Pack"
             ],
-            "rarity": "Promo",
+            "rarity": "Promo (Non-Foil)",
             "jpsets": [
+                "1st Anniversary Promotion Pack",
                 "1st Anniversary Promotion Pack"
             ],
             "ruling": [
@@ -1447,7 +1462,8 @@
             "evocost1": "0",
             "effect1": "[When Attacking] Trigger <Draw 1> (Draw 1 card from your deck).",
             "engsets": [
-                "Double Diamond Dash Pack"
+                "Double Diamond Dash Pack",
+                "DC-1 2022"
             ],
             "rarity": "Promo",
             "jpsets": [
@@ -2120,6 +2136,7 @@
             "id": "P-066",
             "name": "Huckmon",
             "jpname": "ハックモン",
+            "tsname": "Hackmon",
             "color": [
                 "Red"
             ],
@@ -2300,11 +2317,14 @@
             "evolevel1": "4",
             "evocost1": "3",
             "effect1": "The name of this card/Digimon is also treated as [MetalGreymon].\n[When Digivolving] If you have a Tamer in play, delete 1 of your opponent's Digimon with 5000 DP or less.",
-            "effect2": "[All Turns] While this Digimon with [Greymon], or [Omnimon] in its name and an effect would delete it or return it to your hand or deck, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent it from leaving play.",
-            "jpsets": [
-                "2nd Anniversary Promotion Pack"
+            "effect2": "[All Turns] While this Digimon with [Greymon] or [Omnimon] in its name and an effect would delete it or return it to your hand or deck, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent it from leaving play.",
+            "engsets": [
+                "Update Pack"
             ],
-            "rarity": "Promo"
+            "rarity": "Promo",
+            "jpsets": [
+                "Update Promotion Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/36/P-073-J.png/revision/latest?cb=20220211174300",
@@ -2328,11 +2348,14 @@
             "evolevel1": "4",
             "evocost1": "3",
             "effect1": "The name of this card/Digimon is also treated as [WereGarurumon].\n[When Digivolving] If you have a Tamer in play, return 2 of your opponent's level 3 Digimon to their owner's hand.",
-            "effect2": "[All Turns] When this Digimon has [Garurumon], or [Omnimon] in its name and would be deleted in battle, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent that deletion.",
-            "jpsets": [
-                "2nd Anniversary Promotion Pack"
+            "effect2": "[All Turns] When this Digimon has [Garurumon] or [Omnimon] in its name and would be deleted in battle, you may trash 2 cards of the same level in this Digimon's digivolution cards to prevent that deletion.",
+            "engsets": [
+                "Update Pack"
             ],
-            "rarity": "Promo"
+            "rarity": "Promo",
+            "jpsets": [
+                "Update Promotion Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/P-074-J.png/revision/latest?cb=20220211174321",
@@ -2355,12 +2378,15 @@
             "evocolor1": "Yellow",
             "evolevel1": "4",
             "evocost1": "3",
-            "effect1": "[Your Turn] When this Digimon would digivolve into a card with [Shaman], or [Wizard] in its traits, you may trash up to 3 cards from the top of your security stack. For each security card trashed by this effect, reduce the digivolution cost by 1.",
+            "effect1": "[Your Turn] When this Digimon would digivolve into a card with [Shaman] or [Wizard] in its traits, you may trash up to 3 cards from the top of your security stack. For each security card trashed by this effect, reduce the digivolution cost by 1.",
             "effect2": "[When Attacking] (Once Per Turn) If you have 3 security cards, unsuspend this Digimon.",
-            "jpsets": [
-                "2nd Anniversary Promotion Pack"
+            "engsets": [
+                "Update Pack"
             ],
-            "rarity": "Promo"
+            "rarity": "Promo",
+            "jpsets": [
+                "Update Promotion Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/47/P-075-J.png/revision/latest?cb=20220211174331",
@@ -2385,10 +2411,13 @@
             "evocost1": "3",
             "effect1": "[Your Turn] When this Digimon would digivolve into a card with [Insectoid] in its traits, all of your opponent's Digimon gain \"[All Turns] When this Digimon becomes suspended, lose 1 memory.\" until the end of your opponent's turn.",
             "effect2": "[Your Turn] While this Digimon has [Insectoid] in its traits, it gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).",
-            "jpsets": [
-                "2nd Anniversary Promotion Pack"
+            "engsets": [
+                "Update Pack"
             ],
-            "rarity": "Promo"
+            "rarity": "Promo",
+            "jpsets": [
+                "Update Promotion Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1d/P-076-J.png/revision/latest?cb=20220211174342",
@@ -2417,10 +2446,13 @@
             "evocost2": "3",
             "effect1": "[Your Turn] When this Digimon would digivolve into a card with 2 colors or [Composite] in its traits, reduce the digivolution cost by 2.",
             "effect2": "[When Attacking] For each of this Digimon’s colors, delete 1 of your opponent's Digimon with 3000 DP or less.",
-            "jpsets": [
-                "2nd Anniversary Promotion Pack"
+            "engsets": [
+                "Update Pack"
             ],
-            "rarity": "Promo"
+            "rarity": "Promo",
+            "jpsets": [
+                "Update Promotion Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e8/P-077-J.png/revision/latest?cb=20220211174354",
@@ -2445,13 +2477,41 @@
             "evocost1": "2",
             "effect1": "When this card is trashed from your Deck, gain 1 memory.",
             "effect2": "[When Attacking] You may reveal 1 purple card from your hand and place it on top of your deck.",
+            "engsets": [
+                "Update Pack"
+            ],
+            "rarity": "Promo",
             "jpsets": [
-                "2nd Anniversary Promotion Pack"
+                "Update Promotion Pack"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/82/P-078-J.png/revision/latest?cb=20220715123306",
+            "id": "P-078",
+            "name": "Espimon",
+            "jpname": "エスピモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Cyborg",
+            "ilustrators": [],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Reveal the top card of your opponent's security stack. If that card is a Digimon card, <Draw 1> (Draw 1 card from your deck). Place the revealed card on top of your opponent's security stack face down.",
+            "wwsets": [
+                "Saikyo Jump Magazine Promo Cards"
             ],
             "rarity": "Promo"
         },
         {
-            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a3/P-079-J.png/revision/latest?cb=20220530121017",
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f9/P-079.png/revision/latest?cb=20220619103916",
             "id": "P-079",
             "name": "Agumon",
             "jpname": "アグモン",
@@ -2471,12 +2531,12 @@
             "evocost1": "0",
             "effect1": "[On Play] If you have a red Tamer in play, delete 1 of your opponent's Digimon with 3000 DP or less.",
             "wwsets": [
-                "Digimon Survive Release Commemorative Promotion Pack"
+                "Digimon Survive Promotion Pack"
             ],
             "rarity": "Promo"
         },
         {
-            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/ff/P-080-J.png/revision/latest?cb=20220530121018",
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d2/P-080.png/revision/latest?cb=20220619103916",
             "id": "P-080",
             "name": "Labramon",
             "jpname": "アグモン",
@@ -2496,12 +2556,12 @@
             "evocost1": "0",
             "effect1": "[On Play] If you have a purple Tamer in play, delete 1 of your opponent's level 3 Digimon.",
             "wwsets": [
-                "Digimon Survive Release Commemorative Promotion Pack"
+                "Digimon Survive Promotion Pack"
             ],
             "rarity": "Promo"
         },
         {
-            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/27/P-081-J.png/revision/latest?cb=20220530121018",
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3a/P-081.png/revision/latest?cb=20220619103916",
             "id": "P-081",
             "name": "Falcomon",
             "jpname": "ファルコモン",
@@ -2521,7 +2581,7 @@
             "evocost1": "0",
             "effect1": "[On Play] If you have a yellow Tamer in play, 1 of your opponent's Digimon gets -2000 DP until the end of their turn.",
             "wwsets": [
-                "Digimon Survive Release Commemorative Promotion Pack"
+                "Digimon Survive Promotion Pack"
             ],
             "rarity": "Promo"
         }

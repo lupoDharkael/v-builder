@@ -1,0 +1,2107 @@
+{
+    "name": "EX-03: Draconic Roar",
+    "shortname": "EX-03",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/12/EX3-001-J.png/revision/latest?cb=20220722083945",
+            "id": "EX3-001",
+            "name": "Bebydomon",
+            "jpname": "ベビドモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Baby Dragon",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "effect2": "[All Turns] (Once Per Turn) When this Digimon with [Dramon] or [Examon] in its name becomes unsuspended, this Digimon gets +1000 DP for the turn.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a9/EX3-002-J.png/revision/latest?cb=20220722083947",
+            "id": "EX3-002",
+            "name": "Missimon",
+            "jpname": "ミサイモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Machine",
+            "ilustrators": [
+                "toriyufu"
+            ],
+            "effect2": "[Opponent's Turn] While you have another Digimon with [D-Brigade] in its traits in play, this Digimon gains <Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bf/EX3-003-J.png/revision/latest?cb=20220722083947",
+            "id": "EX3-003",
+            "name": "Sunarizamon",
+            "jpname": "スナリザモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Reptile",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[When Attacking] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Dragon], [saur] or [Ceratopsian] in one of its traits among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b4/EX3-004-J.png/revision/latest?cb=20220722083947",
+            "id": "EX3-004",
+            "name": "Veemon",
+            "jpname": "ブイモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Free",
+            "type": "Mini Dragon",
+            "ilustrators": [
+                "tessy"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Purple",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect1": "[On Play] By trashing 1 card with [Imperialdramon] in its name or [Free] in its traits in your hand, <Draw 2> (Draw 2 cards from your deck).",
+            "effect2": "[Your Turn] While you have a purple Digimon in play, this Digimon gets +2000 DP.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3a/EX3-005-J.png/revision/latest?cb=20220722083948",
+            "id": "EX3-005",
+            "name": "Vorvomon",
+            "jpname": "ヴォーボモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Rock Dragon",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Black",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect1": "[Your Turn] (Once Per Turn) When you play [Hina Kurihara], delete 1 of your opponent's Digimon with 3000 DP or less.",
+            "effect2": "[When Attacking] If this Digimon has an [On Play] effect, delete 1 of your opponent's Digimon with 3000 DP or less.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/eb/EX3-006-J.png/revision/latest?cb=20220722083948",
+            "id": "EX3-006",
+            "name": "Flarerizamon",
+            "jpname": "フレアリザモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Fire Dragon",
+            "ilustrators": [
+                "banira"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "[When Attacking] (Once Per Turn) If this Digimon has [Dragon], [saur] or [Ceratopsian] in one of its traits, <Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/07/EX3-007-J.png/revision/latest?cb=20220722083948",
+            "id": "EX3-007",
+            "name": "Lavorvomon",
+            "jpname": "ラヴォーボモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Rock Dragon",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Black",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 Digimon card with [Rock Dragon], [Earth Dragon], [Bird Dragon], [Machine Dragon] or [Sky Dragon] in its traits, and 1 [Hina Kurihara] among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/15/EX3-008-J.png/revision/latest?cb=20220722083948",
+            "id": "EX3-008",
+            "name": "Flamedramon",
+            "jpname": "フレイドラモン",
+            "tsname": "Fladramon",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Armor Form",
+            "attribute": "Free",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Purple",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect1": "[When Digivolving] Activate 1 of the effects below.\n・1 of your other Digimon may digivolve into a level 4 purple Digimon card with [Free] in its traits from your trash for the cost.\n・This Digimon and one of your other Digimon may DNA digivolve into a Digimon card in your hand for the cost.",
+            "effect2": "[End of Your Turn] This Digimon and one of your other Digimon may DNA digivolve into a Digimon card in your hand for the cost.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/11/EX3-009-J.png/revision/latest?cb=20220722083949",
+            "id": "EX3-009",
+            "name": "Volcdramon",
+            "jpname": "ヴォルクドラモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Dragon",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect2": "[When Attacking] (Once Per Turn) If this Digimon has [Dragon], [saur] or [Ceratopsian] in one of its traits, <Draw 1> (Draw 1 card from your deck)",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/03/EX3-010-J.png/revision/latest?cb=20220722083950",
+            "id": "EX3-010",
+            "name": "Paildramon",
+            "jpname": "パイルドラモン",
+            "color": [
+                "Red",
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Free",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "TANIMESO"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "evocolor2": "Purple",
+            "evolevel2": "4",
+            "evocost2": "4",
+            "effect1": "[When Digivolving] When DNA digivolving, you may play 1 [Dinobeemon] from your trash without paying the cost.\n[On Deletion] You may play 1 [Veemon] from your trash without paying the cost.",
+            "effect2": "[Your Turn] While this Digimon has [Imperialdramon] in its name, it gains <Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/aa/EX3-011-J.png/revision/latest?cb=20220722083951",
+            "id": "EX3-011",
+            "name": "Lavogaritamon",
+            "jpname": "ラヴォガリータモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "7000",
+            "level": "5",
+            "form": "Virus",
+            "attribute": "Virus",
+            "type": "Rock Dragon",
+            "ilustrators": [
+                "Kenji Watanabe"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "evocolor2": "Black",
+            "evolevel2": "4",
+            "evocost2": "3",
+            "effect1": "[On Play] Delete 1 of your opponent's Digimon with 5000 DP or less. Then, you may play 1 [Hina Kurihara] from your hand without paying the cost.",
+            "effect2": "[All Turns] (Once Per Turn) When an opponent's Digimon is deleted, if this Digimon has an [On Play] effect, gain 1 memory.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3e/EX3-012-J.png/revision/latest?cb=20220722083951",
+            "id": "EX3-012",
+            "name": "Volcanicdramon",
+            "jpname": "ヴォルケニックドラモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Earth Dragon",
+            "ilustrators": [
+                "Kenji Watanabe",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Black",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "[On Play] Delete all of your opponent's Digimon with the lowest DP. If no Digimon is deleted by this effect, your opponent can't play Digimon with 5000 DP or less until the end of their turn.\n[When Attacking] If you have a Tamer in play, trash the top card of your opponent's security stack.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3c/EX3-013-J.png/revision/latest?cb=20220722083951",
+            "id": "EX3-013",
+            "name": "Chaosdramon",
+            "jpname": "カオスドラモン",
+            "color": [
+                "Red",
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Machine",
+            "ilustrators": [
+                "Tonamikanji",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Black",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "[On Play] [When Digivolving] By placing up to 3 red and/or black level 5 cards with [Cyborg] in its traits and different card numbers from your hand and/or trash under this Digimon as its bottom digivolution cards, <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards) for each card placed by this effect.\n[All Turns] When this Digimon would be deleted or returned to your hand or deck, you may trash 2 level 5 cards in this Digimon's digivolution cards to prevent it from leaving play.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b6/EX3-014-J.png/revision/latest?cb=20220722083951",
+            "id": "EX3-014",
+            "name": "Dorbickmon",
+            "jpname": "ドルビックモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Dragonkin/Big Death-Stars",
+            "ilustrators": [
+                "GOSSAN",
+                "sasasi"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "<Rush> (This Digimon can attack the turn it comes into play).\n[On Play] Delete 1 of your opponent's Digimon with 3000 DP or less. For each card with [Dragon], [saur] or [Ceratopsian] in one of its traits in this Digimon's digivolution cards, add 2000 to the maximum DP you can choose with this effect.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/c5/EX3-015-J.png/revision/latest?cb=20220722083951",
+            "id": "EX3-015",
+            "name": "Crabmon",
+            "jpname": "ガニモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Crustacean",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] 1 of your blue Digimon gains <Jamming> (This Digimon can't be deleted in battles against Security Digimon) for the turn. When played from digivolution cards, you may place 1 blue level 5 or lower Digimon card from your hand under that Digimon as its bottom digivolution card.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/55/EX3-016-J.png/revision/latest?cb=20220722083951",
+            "id": "EX3-016",
+            "name": "SnowAgumon",
+            "jpname": "ユキアグモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "Sanosuke Sakuma"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[Opponent's Turn] When an opponent's Digimon with no digivolution cards would digivolve, increase the digivolution cost by 1.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/37/EX3-017-J.png/revision/latest?cb=20220722083951",
+            "id": "EX3-017",
+            "name": "Ebidramon",
+            "jpname": "エビドラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Aquatic",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[On Play] 1 of your blue Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead) until the end of your opponent's turn. When played from digivolution cards, unsuspend that Digimon.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0b/EX3-018-J.png/revision/latest?cb=20220722083951",
+            "id": "EX3-018",
+            "name": "Coredramon",
+            "jpname": "コアドラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Dragon",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "evocolor2": "Green",
+            "evolevel2": "3",
+            "evocost2": "3",
+            "effect1": "<Evade> (When this Digimon would be deleted, you may suspend it to prevent that deletion).",
+            "effect2": "[All Turns]  While this Digimon has [Dramon] or [Examon] in its name in its name, it gains <Evade> (When this Digimon would be deleted, you may suspend it to prevent that deletion).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/25/EX3-019-J.png/revision/latest?cb=20220722083952",
+            "id": "EX3-019",
+            "name": "Paledramon",
+            "jpname": "ペイルドラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Dragon",
+            "ilustrators": [
+                "p!k@ru"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[When Digivolving] Trash any 1 digivolution card under 1 of your opponent's Digimon.",
+            "effect2": "[Opponent's Turn] When an opponent's Digimon with no digivolution cards would digivolve, increase the digivolution cost by 1.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/40/EX3-020-J.png/revision/latest?cb=20220722083952",
+            "id": "EX3-020",
+            "name": "Wingdramon",
+            "jpname": "ウイングドラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Sky Dragon",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "evocolor2": "Green",
+            "evolevel2": "4",
+            "evocost2": "4",
+            "effect1": "<Evade> (When this Digimon would be deleted, you may suspend it to prevent that deletion).\n[Your Turn] [Examon] in your hand can treat this Digimon as level 6 for DNA digivolution.\n[End of Your Turn] This Digimon and 1 of your other Digimon with [Dramon] in its name may DNA digivolve into a Digimon card in your hand by paying its DNA digivolve cost.",
+            "effect2": "[All Turns]  While this Digimon has [Dramon] or [Examon] in its name in its name, it gains <Evade> (When this Digimon would be deleted, you may suspend it to prevent that deletion).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/20/EX3-021-J.png/revision/latest?cb=20220722083952",
+            "id": "EX3-021",
+            "name": "CrysPaledramon",
+            "jpname": "クリスペイルドラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "p!k@ru"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Trash any 2 digivolution cards under 1 of your opponent's Digimon. Then, 1 of your opponent's Digimon with no digivolution cards can't attack or block until the end of your opponent's turn.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/74/EX3-022-J.png/revision/latest?cb=20220722083952",
+            "id": "EX3-022",
+            "name": "MegaSeadramon",
+            "jpname": "メガシードラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Aquatic",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Attacking] You may play 1 blue level 3 Digimon card from 1 of your blue Digimon's digivolution cards without paying the cost.",
+            "effect2": "[When Attacking] (Once Per Turn) You may play a blue level 3 Digimon card from 1 of your blue Digimon's digivolution cards without paying the cost.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4a/EX3-023-J.png/revision/latest?cb=20220722083952",
+            "id": "EX3-023",
+            "name": "Plesiomon",
+            "jpname": "プレシオモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "11",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Plesiosaur",
+            "ilustrators": [
+                "Ishibashi Yosuke"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] You may play 1 blue level 3 Digimon card or 1 level 4 or lower Digimon card with [Aqua] or [Sea Animal] in one of its traits from one of your blue Digimon's digivolution cards without paying the cost. Then, you may place 1 blue Digimon card from your hand under this Digimon as its bottom digivolution card.",
+            "effect2": "[All Turns] (Once Per Turn) When you play a Digimon from digivolution cards, return 1 of your opponent's Digimon of the same level to the bottom of its owner's deck.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/EX3-024-J.png/revision/latest?cb=20220722083952",
+            "id": "EX3-024",
+            "name": "Slayerdramon",
+            "jpname": "スレイヤードラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "kaz",
+                "sasasi"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Green",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "[All Turns] (Once Per Turn) When this Digimon becomes suspended, unsuspend it.\n[Start of Opponent's Main Phase] By suspending 1 of your Digimon with [Dramon] or [Examon] in its name, 1 of your opponent's Digimon must attack.",
+            "effect2": "[Start of Opponent's Main Phase] By suspending 1 of your Digimon with [Dramon] or [Examon] in its name, 1 of your opponent's Digimon must attack.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3a/EX3-025-J.png/revision/latest?cb=20220722083952",
+            "id": "EX3-025",
+            "name": "Azulongmon",
+            "jpname": "チンロンモン",
+            "tsname": "Quinlongmon",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Holy Dragon/Four Great Dragons/Four Sovereigns",
+            "ilustrators": [
+                "GOSSAN",
+                "koki"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[On Play] <Draw 2> (Draw 2 cards from your deck). Then, if this card was played by [Trial of the Four Great Dragons]'s effect, gain 2 memory.\n[On Deletion] If you don't have a [Trial of the Four Great Dragons] in play, place 1 [Trial of the Four Great Dragons] from your hand in your battle area.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/15/EX3-026-J.png/revision/latest?cb=20220722083953",
+            "id": "EX3-026",
+            "name": "Aegisdramon",
+            "jpname": "イージスドラモン",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "14",
+            "dp": "1400",
+            "level": "7",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Tonamikanji",
+                "sasasi"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "6",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] You may play 1 blue level 3 Digimon card or 1 Digimon card with [Seadramon] in its name or [Aqua] or [Sea Animal] in one of its traits from 1 of your blue Digimon's digivolution cards without paying the cost.\n[Opponent's Turn] (Once Per Turn) When your opponent plays a Digimon card, you may activate 1 of this Digimon's [When Digivolving] effects.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fd/EX3-027-J.png/revision/latest?cb=20220722083953",
+            "id": "EX3-027",
+            "name": "Agumon",
+            "jpname": "アグモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Reptile",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[Your Turn] (Once Per Turn) When you play a Digimon with [Four Great Dragons] in its traits or place [Trial of the Four Great Dragons] in your battle area, <Draw 1> (Draw 1 card from your deck).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/29/EX3-028-J.png/revision/latest?cb=20220722083953",
+            "id": "EX3-028",
+            "name": "Patamon",
+            "jpname": "パタモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Mammal",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 yellow card with [Angel], [Cherub], [Throne], [Authority], [Seraph] or [Virtue] in one of its traits and 1 card with [Four Great Dragons] in its traits among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b1/EX3-029-J.png/revision/latest?cb=20220722083953",
+            "id": "EX3-029",
+            "name": "Airdramon",
+            "jpname": "エアドラモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Mythical Beast",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[On Play] Search your security stack, reveal 1 card from it, and add it to your hand. If it's a yellow card, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack). Then, shuffle your security stack.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ca/EX3-030-J.png/revision/latest?cb=20220722083953",
+            "id": "EX3-030",
+            "name": "Gatomon",
+            "jpname": "テイルモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Holy Beast",
+            "ilustrators": [
+                "Minato Sashima"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 yellow card with [Angel], [Cherub], [Throne], [Authority], [Seraph] or [Virtue] in one of its traits and 1 card with [Four Great Dragons] in its traits among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "effect2": "[Your Turn] (Once Per Turn) When you play a Digimon with [Four Great Dragons] in its traits, 1 of those Digimon gains <Rush> (This Digimon can attack the turn it comes into play) for the turn.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/73/EX3-031-J.png/revision/latest?cb=20220722083953",
+            "id": "EX3-031",
+            "name": "Veedramon",
+            "jpname": "ブイドラモン",
+            "tsname": "V-dramon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Mythical Dragon",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[When Digivolving] Reveal the top 4 cards of your deck. Add 1 yellow card with [Dramon] in its name and 1 card with [Four Great Dragons] in its traits among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "effect2": "[Your Turn] (Once Per Turn) When you play a Digimon with [Four Great Dragons] in its traits, 1 of those Digimon gains <Rush> (This Digimon can attack the turn it comes into play) for the turn.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/10/EX3-032-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-032",
+            "name": "Majiramon",
+            "jpname": "マジラモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Holy Dragon/Deva",
+            "ilustrators": [
+                "p!k@ru"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[On Play] 1 of your opponent's Digimon gains <Security Attack -2> (This Digimon checks 2 fewer security cards) until the end of your opponent's turn. If you have a Digimon with [Four Sovereigns] in its traits in its traits in play, gain 2 memory.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5e/EX3-033-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-033",
+            "name": "AeroVeedramon",
+            "jpname": "エアロブイドラモン",
+            "tsname": "AeroV-dramon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Holy Dragon",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] If you don't have a [Trial of the Four Great Dragons] in play, place 1 [Trial of the Four Great Dragons] from your hand in your battle area.\n[Opponent's Turn] While you have a Digimon with [Four Great Dragons] in its traits in play, or [Trial of the Four Great Dragons] is in your battle area, this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "effect2": "[Opponent's Turn] All of your Digimon with [Four Great Dragons] in their traits gain <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/de/EX3-034-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-034",
+            "name": "Angewomon",
+            "jpname": "エンジェウーモン",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Archangel",
+            "ilustrators": [
+                "sunohara"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] If you don't have a [Trial of the Four Great Dragons] in play, place 1 [Trial of the Four Great Dragons] from your hand in your battle area.\n[Your Turn] (Once Per Turn) When you play a Digimon with [Four Great Dragons] in its traits or place [Trial of the Four Great Dragons] in your battle area, 1 of your opponent's Digimon gets -3000 DP for the turn.",
+            "effect2": "[Your Turn] (Once Per Turn) When you play a Digimon with [Four Great Dragons] in its traits or place a [Trial of the Four Great Dragons] in your battle area, 1 of your opponent's Digimon gets -3000 DP for the turn.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3d/EX3-035-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-035",
+            "name": "Goldramon",
+            "jpname": "ゴッドドラモン",
+            "tsname": "Goddramon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "11000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Holy Dragon/Four Great Dragons",
+            "ilustrators": [
+                "GOSSAN",
+                "sasasi"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Return 1 card with [Four Great Dragons] in its traits from your trash to your hand.\n[When Attacking] 1 of your opponent's Digimon gets -6000 DP for the turn. Then, by returning 1 [Magnadramon], 1 [Azulongmon], and 1 [Megidramon] from your trash to the bottom of your deck in any order, trash the top 2 cards of your opponent's security stack.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b2/EX3-036-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-036",
+            "name": "Magnadramon",
+            "jpname": "ホーリードラモン",
+            "tsname": "Holydramon",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Holy Dragon/Four Great Dragons",
+            "ilustrators": [
+                "GOSSAN",
+                "Takase"
+            ],
+            "evocolor1": "Yellow",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[On Play] All of your opponent's Digimon gain <Security Attack -1> (This Digimon checks 1 fewer security card) until the end of your opponent's turn. If this card was played by [Trial of the Four Great Dragons]'s effect, all of your opponent's Digimon gain  <Security Attack -2> (This Digimon checks 2 fewer security cards) until the end of your opponent's turn instead.\n[On Deletion] If you don't have [Four Great Dragons] in its traits in play, place 1 [Trial of the Four Great Dragons] from your hand in your battle area.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/08/EX3-037-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-037",
+            "name": "Dracomon",
+            "jpname": "ドラコモン",
+            "color": [
+                "Green",
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Dragon",
+            "ilustrators": [
+                "sasasi",
+                "Takase"
+            ],
+            "evocolor1": "Blue",
+            "evolevel1": "2",
+            "evocost1": "1",
+            "evocolor2": "Blue",
+            "evolevel2": "2",
+            "evocost2": "1",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 green or blue card with [Dramon] in its name 1 card with [Examon] in its name among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "effect2": "[All Turns] (Once Per Turn) When one of your Digimon with [Dramon] or [Examon] in its name becomes suspended, this Digimon gets +1000 DP for the turn.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/07/EX3-038-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-038",
+            "name": "Pomumon",
+            "jpname": "ポームモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Vegetation",
+            "ilustrators": [
+                "banira"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "[Your Turn] When an effect suspends this Digimon, suspend 1 of your opponent's Digimon.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/91/EX3-039-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-039",
+            "name": "Coredramon",
+            "jpname": "コアドラモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dragon",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "evocolor2": "Blue",
+            "evolevel2": "3",
+            "evocost2": "3",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "effect2": "[All Turns]  While this Digimon has [Dramon] or [Examon] in its name in its name, it gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/63/EX3-040-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-040",
+            "name": "Parasaurmon",
+            "jpname": "パラサウモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "banira"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "[Your Turn] When you would play a green Digimon card, by suspending this Digimon, reduce the cost by 1.",
+            "effect2": "[Your Turn] (Once Per Turn) When an effect suspends one of your Digimon, suspend 1 of your opponent's Digimon.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/69/EX3-041-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-041",
+            "name": "Groundramon",
+            "jpname": "グラウンドラモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Earth Dragon",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "evocolor2": "Blue",
+            "evolevel2": "4",
+            "evocost2": "4",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[Your Turn] [Examon] in your hand can treat this Digimon as level 6 for DNA digivolution.\n[End of Your Turn] This Digimon and 1 of your other Digimon with [Dramon] in its name may DNA digivolve into a Digimon card in your hand by paying its DNA digivolve cost.",
+            "effect2": "[All Turns]  While this Digimon has [Dramon] or [Examon] in its name in its name, it gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0e/EX3-042-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-042",
+            "name": "Toropiamon",
+            "jpname": "トロピアモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Vegetation",
+            "ilustrators": [
+                "banira"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] If this Digimon is suspended, suspend 1 of your opponent's Digimon.",
+            "effect2": "[Your Turn] (Once Per Turn) When an effect suspends one of your Digimon, suspend 1 of your opponent's Digimon.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b5/EX3-043-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-043",
+            "name": "Entmon",
+            "jpname": "エントモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Vegetation",
+            "ilustrators": [
+                "itohiro"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "effect1": "<Digisorption -3> (When one of your Digimon digivolves into this card from your hand, you may suspend 1 of your Digimon to reduce the memory cost of the digivolution by 3).\n[When Digivolving] If you have 2 or more suspended Digimon in play, unsuspend this Digimon.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/EX3-044-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-044",
+            "name": "Breakdramon",
+            "jpname": "ブレイクドラモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Machine Dragon",
+            "ilustrators": [
+                "kaz",
+                "sasasi"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Blue",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "[All Turns] (Once Per Turn) When this Digimon becomes suspended, suspend 1 of your opponent's Digimon.\n[All Turns] (Once Per Turn) When one of your Digimon with [Dramon] or [Examon] in its name deletes an opponent's Digimon in battle and survives, trash the top card of your opponent's security stack.",
+            "effect2": "[All Turns] (Once Per Turn) When one of your Digimon with [Dramon] or [Examon] in its name deletes an opponent's Digimon in battle and survives, trash the top card of your opponent's security stack.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/ee/EX3-045-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-045",
+            "name": "Hydramon",
+            "jpname": "ヒュドラモン",
+            "color": [
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Vegetation",
+            "ilustrators": [
+                "Nakano Haito",
+                "koki"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "effect1": "[When Digivolving] You may suspend 1 Digimon.\n[All Turns] (Once Per Turn) When an opponent's Digimon becomes suspended, for each other suspended Digimon with [Vegetation], [Plant] or [Fairy] in one of its traits you have in play, gain 1 memory.\n[End of Your Turn] (Once Per Turn) If you have 2 or more suspended Digimon with [Vegetation], [Plant] or [Fairy] in one of their traits, return 1 of your opponent's suspended Digimon at the bottom of its owner's deck.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4a/EX3-046-J.png/revision/latest?cb=20220722083954",
+            "id": "EX3-046",
+            "name": "Commandramon",
+            "jpname": "コマンドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Cyborg/D-Brigade",
+            "ilustrators": [
+                "toriyufu"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect1": "<Decoy (D-Brigade)>  (When one of your other Digimon with [D-Brigade] in its traits would be deleted by an opponent's effect, you may delete this Digimon to prevent that deletion).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f8/EX3-047-J.png/revision/latest?cb=20220722083955",
+            "id": "EX3-047",
+            "name": "Jazamon",
+            "jpname": "ジャザモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Bird Dragon",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Red",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect1": "[Your Turn] (Once Per Turn) When you play [Hina Kurihara], gain 1 memory.",
+            "effect2": "[All Turns] While this Digimon has an [On Play] effect, it gets +1000 DP.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/56/EX3-048-J.png/revision/latest?cb=20220722083955",
+            "id": "EX3-048",
+            "name": "Jazardmon",
+            "jpname": "ジャザードモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Data",
+            "type": "Machine Dragon",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Red",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect1": "[On Play] Reveal the top 4 cards of your deck. Add 1 Digimon card with [Rock Dragon], [Earth Dragon], [Bird Dragon], [Machine Dragon] or [Sky Dragon] in its traits and 1 [Hina Kurihara] among them to your hand. Place the rest at the bottom of your deck in any order.",
+            "effect2": "[All Turns] While this Digimon has an [On Play] effect, it gets +1000 DP.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/00/EX3-049-J.png/revision/latest?cb=20220722083955",
+            "id": "EX3-049",
+            "name": "Sealsdramon",
+            "jpname": "シールズドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Cyborg/D-Brigade",
+            "ilustrators": [
+                "toriyufu"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "<Jamming> (This Digimon can't be deleted in battles against Security Digimon).",
+            "effect2": "[Your Turn] (Once Per Turn) When you play another Digimon with [D-Brigade] in its traits, it gains <Rush> (This Digimon can attack the turn it comes into play) for the turn.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/5f/EX3-050-J.png/revision/latest?cb=20220722083955",
+            "id": "EX3-050",
+            "name": "Cyberdramon",
+            "jpname": "サイバードラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Cyborg",
+            "ilustrators": [
+                "SENNSU"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect2": "[All Turns] While you have a suspended Tamer in play, this Digimon gets +2000 DP.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0a/EX3-051-J.png/revision/latest?cb=20220722083955",
+            "id": "EX3-051",
+            "name": "Tankdramon",
+            "jpname": "サイバードラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Machine/D-Brigade",
+            "ilustrators": [
+                "toriyufu"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Reveal the top 3 cards of your deck. You may play 1 Digimon card with [D-Brigade] in its traits and a play cost of 5 or less among them without paying the cost. Trash the rest.",
+            "effect2": "[Your Turn] (Once Per Turn) When one of your Digimon with [D-Brigade] in its traits attacks, reveal the top 2 cards of your deck. You may play 1 [Commandramon] among them without paying the cost. Trash the rest.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cb/EX3-052-J.png/revision/latest?cb=20220722083955",
+            "id": "EX3-052",
+            "name": "Jazarichmon",
+            "jpname": "ジャザリッヒモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Data",
+            "type": "Machine Dragon",
+            "ilustrators": [
+                "Nakano Haito"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "evocolor2": "Red",
+            "evolevel2": "4",
+            "evocost2": "3",
+            "effect1": "[On Play] <De-Digivolve  1> (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards) Then, you may play 1 [Hina Kurihara] from your hand without paying the cost.",
+            "effect2": "[Your Turn] While this Digimon has an [On Play] effect, it gains <Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6c/EX3-053-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-053",
+            "name": "Metallicdramon",
+            "jpname": "メタリックドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Sky Dragon",
+            "ilustrators": [
+                "Nakano Haito",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Red",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "[On Play] <De-Digivolve  1> on all of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). Then, delete 1 of your opponent's Digimon with a play cost of 5 or less. If no Digimon is deleted by this effect, none of your opponent's unsuspended Digimon can digivolve until the end of your opponent's turn.\n[Opponent's Turn] While you have a Tamer in play, this Digimon gains <Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead) and <Reboot> (Unsuspend this Digimon during your opponent's unsuspend phase).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f8/EX3-054-J.png/revision/latest?cb=20220722083955",
+            "id": "EX3-054",
+            "name": "Darkdramon",
+            "jpname": "ダークドラモン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Cyborg/D-Brigade",
+            "ilustrators": [
+                "toriyufu",
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Black",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "effect1": "When you would digivolve into this card, by returning up to 5 cards with [D-Brigade] in their traits from your trash to the top of your deck, reduce the digivolution cost by 1 for each returned card.\n[Your Turn] (Once Per Turn) When you play another Digimon with [D-Brigade] in its traits, delete 1 of your opponent's Digimon with a play cost less than or equal to the Digimon you played, and unsuspend this Digimon.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/32/EX3-055-J.png/revision/latest?cb=20220722083955",
+            "id": "EX3-055",
+            "name": "Wormmon",
+            "jpname": "ワームモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "1000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Free",
+            "type": "Larva",
+            "ilustrators": [
+                "tessy"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "evocolor2": "Red",
+            "evolevel2": "2",
+            "evocost2": "0",
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 purple or red card with [Imperialdramon] in its name or [Free] in its traits among them to your hand, and trash 1 card among them. Place the rest at the bottom of your deck in any order.",
+            "effect2": "[All Turns] While you have a red Digimon in play, this Digimon gains <Retaliation> (When this Digimon is deleted after losing a battle, delete the Digimon it was battling).",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/28/EX3-056-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-056",
+            "name": "Guilmon",
+            "jpname": "ギルモン",
+            "color": [
+                "Purple",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Virus",
+            "type": "Reptile",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "2",
+            "evocost1": "1",
+            "effect1": "[On Deletion] Delete 1 of your opponent's Digimon with 3000 DP or less. If no Digimon is deleted by this effect, trash the top 2 cards of both players' decks.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0f/EX3-057-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-057",
+            "name": "Growlmon",
+            "jpname": "グラウモン",
+            "color": [
+                "Purple",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dark Dragon",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] Delete 1 of your opponent's Digimon with 3000 DP or less. If no Digimon is deleted by this effect, trash the top 2 cards of both players' decks.",
+            "effect2": "[When Attacking] (Once Per Turn) By deleting 1 of your other Digimon, this Digimon gains <Security Attack +1> (This Digimon checks 1 additional security card) for the turn.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/94/EX3-058-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-058",
+            "name": "Shadramon",
+            "jpname": "シェイドラモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Armor Form",
+            "attribute": "Free",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "Takase"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Red",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect1": "[When Digivolving] Activate 1 of the effects below.\n・1 of your other Digimon may digivolve into a level 4 red Digimon card with [Free] in its traits from your trash for the cost.\n・This Digimon and one of your other Digimon may DNA digivolve into a Digimon card in your hand for the cost.",
+            "effect2": "[End of Your Turn] This Digimon and one of your other Digimon may DNA digivolve into a Digimon card in your hand for the cost.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bc/EX3-059-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-059",
+            "name": "DarkTyrannomon",
+            "jpname": "ダークティラノモン",
+            "color": [
+                "Purple",
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "evocolor2": "Green",
+            "evolevel2": "3",
+            "evocost2": "2",
+            "effect2": "[On Deletion] Suspend 1 of your opponent's Digimon.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/f1/EX3-060-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-060",
+            "name": "ExTyrannomon",
+            "jpname": "エクスティラノモン",
+            "color": [
+                "Purple",
+                "Green"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "9000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Puppet",
+            "ilustrators": [
+                "koki"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "evocolor2": "Green",
+            "evolevel2": "4",
+            "evocost2": "3",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[All Turns] While this Digimon has no digivolution cards, it can't attack or block.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9d/EX3-061-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-061",
+            "name": "Dinobeemon",
+            "jpname": "ディノビーモン",
+            "color": [
+                "Purple",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Free",
+            "type": "Mutant",
+            "ilustrators": [
+                "TANIMESO"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "evocolor2": "Red",
+            "evolevel2": "4",
+            "evocost2": "4",
+            "effect1": "[When Digivolving] When DNA digivolving, you may play 1 [Paildramon] from your trash without paying the cost.\n[On Deletion] You may play 1 [Wormmon] from your trash without paying the cost.",
+            "effect2": "[Your Turn] While this Digimon has [Imperialdramon] in its name, it can also attack your opponent's unsuspended Digimon.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/cb/EX3-062-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-062",
+            "name": "WarGrowlmon",
+            "jpname": "メガログラウモン",
+            "color": [
+                "Purple",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "8",
+            "dp": "8000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Virus",
+            "type": "Cyborg",
+            "ilustrators": [
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "4",
+            "evocost1": "4",
+            "effect1": "[When Digivolving] Trash the top 3 cards of both players' decks. Then, if either player has 5 or more cards in their trash, you may play 1 [Guilmon] or [Takato Matsuki] from your hand or trash without paying the cost.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4a/EX3-063-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-063",
+            "name": "Imperialdramon: Dragon Mode",
+            "jpname": "インペリアルドラモン：ドラゴンモード",
+            "color": [
+                "Purple",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Ancient Dragon",
+            "ilustrators": [
+                "Tonamikanji",
+                "sasasi"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "evocolor2": "Red",
+            "evolevel2": "5",
+            "evocost2": "4",
+            "effect1": "[When Digivolving] When DNA digivolving, your opponent chooses 1 of their Digimon. Delete all of their other Digimon. Then, <Blitz> (If your opponent has 1 or more memory, this Digimon may attack).\n[When Attacking] (Once Per Turn) This Digimon gets +2000 DP for the turn. Then, this Digimon may digivolve into [Imperialdramon: Fighter Mode] in your hand for the digivolution cost.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Super Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7f/EX3-064-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-064",
+            "name": "Megidramon",
+            "jpname": "メギドラモン",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Evil Dragon/Four Great Dragons",
+            "ilustrators": [
+                "GOSSAN",
+                "Hisashi Fujiwara"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "This card/Digimon is also treated as [ChaosGallantmon].\n[On Play] Delete 1 of your opponent's level 5 or lower Digimon. If this card was played by [Trial of the Four Great Dragons]'s effect, add 1 to the maximum level of the Digimon you can delete with this effect.\n[On Deletion] If you don't have [Trial of the Four Great Dragons] in play, place 1 [Trial of the Four Great Dragons] from your hand in your battle area.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/38/EX3-065-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-065",
+            "name": "Hina Kurihara",
+            "jpname": "栗原ヒナ",
+            "tsname": "Kurihara Hina",
+            "color": [
+                "White"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "3",
+            "ilustrators": [
+                "Okada Anmitsu",
+                "Okada Anmitsu"
+            ],
+            "effect1": "[Start of Your Turn] If your opponent has a Digimon in play, gain 1 memory.\n[Your Turn] When one of your Digimon digivolves into a Digimon with [Rock Dragon], [Earth Dragon], [Machine Dragon] or [Sky Dragon] in its traits, by suspending this Tamer, activate 1 of that Digimon's [On Play] effects.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4a/EX3-066-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-066",
+            "name": "Hyper Infinity Cannon",
+            "jpname": "ハイパームゲンキャノン",
+            "color": [
+                "Red",
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "6",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "effect1": "While you have a level 6 Digimon with [Machine] in its traits in play, you may use this card without meeting its color requirements.\n[Main] <De-Digivolve  3> on 1 of your opponent's Digimon (Trash up to 3 cards from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). Then, by placing 1 card with [Cyborg] in its traits from your hand or trash under 1 of your level 6 Digimon with [Machine] in its traits as its bottom digivolution card, delete 1 of your opponent's Digimon with 6000 DP or less.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/EX3-067-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-067",
+            "name": "Sourai",
+            "jpname": "蒼雷",
+            "color": [
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "4",
+            "ilustrators": [
+                "banira"
+            ],
+            "effect1": "[Main] Trash the top 4 digivolution cards of 1 of your opponent's Digimon. Until the end of your opponent's turn, all of your opponent's Digimon with no digivolution cards can't attack.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Uncommon"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fb/EX3-068-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-068",
+            "name": "God Flame",
+            "jpname": "ゴッドフレイム",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "5",
+            "ilustrators": [],
+            "effect1": "[Main] 1 of your opponent's Digimon gets -6000 DP for the turn. Then, return 1 card with [Four Great Dragons] in its traits from your trash to your hand.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6c/EX3-069-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-069",
+            "name": "Trial of the Four Great Dragons",
+            "jpname": "四大竜の試練",
+            "color": [
+                "Yellow"
+            ],
+            "cardtype": "Option",
+            "playcost": "8",
+            "type": "Four Great Dragons",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "effect1": "[Main] <Draw 1> (Draw 1 card from your deck). Then, place this card in your battle area.\n[Main] <Delay> (Trash this card in your battle area to activate the effect below. You can't activate this effect the turn this card enters play.)\n・Play 1 Digimon card with [Four Great Dragons] in its traits from your hand without paying the cost. The Digimon played by this effect can't digivolve to level 7, and at the end of your opponent's turn, delete that Digimon.",
+            "effect2": "[Security] Place this card in its owner's battle area.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3e/EX3-070-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-070",
+            "name": "Avalon's Gate",
+            "jpname": "アヴァロンズゲート",
+            "color": [
+                "Green",
+                "Blue"
+            ],
+            "cardtype": "Option",
+            "playcost": "3",
+            "ilustrators": [
+                "Itohiro"
+            ],
+            "effect1": "[Main] Activate 1 of the effects below. If you have a Digimon with [Examon] in its name in play, activate all of the effects below instead.\n・Suspend 1 of your opponent's Digimon, and 1 of your Digimon gains <Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would) for the turn.\n・Unsuspend 1 of your Digimon.",
+            "effect2": "[Security] Suspend 1 of your opponent's Digimon, and unsuspend 1 of your Digimon.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7d/EX3-071-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-071",
+            "name": "Laser Cannon",
+            "jpname": "レーザーカノン",
+            "color": [
+                "Black"
+            ],
+            "cardtype": "Option",
+            "playcost": "6",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "effect1": "[Main] <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). Then, delete 1 of your opponent's Digimon with a play cost of 5 or less.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/23/EX3-072-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-072",
+            "name": "Meggido Flame",
+            "jpname": "メギドフレイム",
+            "color": [
+                "Purple"
+            ],
+            "cardtype": "Option",
+            "playcost": "4",
+            "ilustrators": [
+                "itohiro"
+            ],
+            "effect1": "[Main] Delete 1 of your opponent's level 4 or lower Digimon. By deleting 1 of your Digimon, delete 1 of your opponent's level 6 or lower Digimon instead.",
+            "effect2": "[Security] You may play 1 [Guilmon] from your trash without paying the cost.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4e/EX3-073-J.png/revision/latest?cb=20220722083957",
+            "id": "EX3-073",
+            "name": "Imperialdramon: Fighter Mode",
+            "jpname": "インペリアルドラモン:ファイターモード",
+            "color": [
+                "Purple",
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "13",
+            "dp": "13000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Virus",
+            "type": "Ancient Dragonkin",
+            "ilustrators": [
+                "Tonamikanji",
+                "sasasi"
+            ],
+            "evocolor1": "Purple",
+            "evolevel1": "5",
+            "evocost1": "5",
+            "evocolor2": "Red",
+            "evolevel2": "5",
+            "evocost2": "5",
+            "effect1": "<Piercing> (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would).\n[When Digivolving] By returning 1 [Imperialdramon: Dragon Mode] from this Digimon's digivolution cards to the bottom of its owner's deck, none of your opponent's [Security] effects can activate for the turn.\n[On Deletion] You may play 1 [Wormmon] and 1 [Veemon] from your trash without paying the costs.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Secret Rare"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/bf/EX3-074-J.png/revision/latest?cb=20220722083956",
+            "id": "EX3-074",
+            "name": "Examon",
+            "jpname": "エグザモン",
+            "color": [
+                "Green",
+                "Blue"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "15",
+            "dp": "15000",
+            "level": "7",
+            "form": "Mega",
+            "attribute": "Data",
+            "type": "Holy Warrior/Royal Knight",
+            "ilustrators": [
+                "Naochika Morishita"
+            ],
+            "evocolor1": "Green",
+            "evolevel1": "6",
+            "evocost1": "5",
+            "evocolor2": "Blue",
+            "evolevel2": "6",
+            "evocost2": "5",
+            "effect1": "[When Digivolving] You may place 1 green or blue Digimon card with [Dramon] in its name from your hand under this Digimon as its bottom digivolution card. When DNA digivolving, you may play 1 green or blue Digimon card with [Dramon] in its name and 12000 DP or less from your hand without paying the cost.\n[All Turns] (Once Per Turn) When this Digimon becomes suspended, unsuspend it, and suspend 1 of your opponent's Digimon.",
+            "wwsets": [
+                "EX-03: Theme Booster Draconic Roar",
+                "EX-03: Theme Booster Draconic Roar"
+            ],
+            "rarity": "Secret Rare"
+        }
+    ]
+}

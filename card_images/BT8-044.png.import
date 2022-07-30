@@ -15,7 +15,7 @@ dest_files=[ "res://.import/BT8-044.png-c9caaf90c8d3cc28f8afe8e047e2ab37.stex" ]
 [params]
 
 compress/mode=1
-compress/lossy_quality=0.85
+compress/lossy_quality=0.25
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=2

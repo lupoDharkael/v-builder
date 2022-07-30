@@ -56,6 +56,7 @@ func get_booster_from_shortname(short_name : String) -> Array:
 var thread : Thread
 var mutex : Mutex
 
+# warning-ignore:unused_signal
 signal textures_loaded
 
 
@@ -84,6 +85,7 @@ func _ready():
 	var _EX2 = preload("res://scripts/boosters/EX-02.gd")
 	var _BT9 = preload("res://scripts/boosters/BT-09.gd")
 	var _BT10 = preload("res://scripts/boosters/BT-10.gd")
+	var _EX3 = preload("res://scripts/boosters/EX-03.gd")
 	var _P = preload("res://scripts/boosters/Promo.gd")
 	var _Extra = preload("res://scripts/boosters/register_extras.gd")
 	
@@ -111,6 +113,7 @@ func _ready():
 	_EX2.register_cards()
 	_BT9.register_cards()
 	_BT10.register_cards()
+	_EX3.register_cards()
 	_P.register_cards()
 	_Extra.register_boosters()
 	

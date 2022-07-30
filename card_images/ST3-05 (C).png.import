@@ -15,7 +15,7 @@ dest_files=[ "res://.import/ST3-05 (C).png-9646d4a5d032428ae4c00cb265339441.stex
 [params]
 
 compress/mode=1
-compress/lossy_quality=0.85
+compress/lossy_quality=0.25
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=2

@@ -15,7 +15,7 @@ dest_files=[ "res://.import/ST12-12.png-78f4af5c6571f090bde1989e52c9d926.stex" ]
 [params]
 
 compress/mode=1
-compress/lossy_quality=0.85
+compress/lossy_quality=0.25
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=2

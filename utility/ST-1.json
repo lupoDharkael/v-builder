@@ -1,0 +1,542 @@
+{
+    "name": "ST-1: Gaia Red",
+    "shortname": "ST-1",
+    "cards": [
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/99/ST1-01.png/revision/latest?cb=20201210182824",
+            "id": "ST1-01",
+            "name": "Koromon",
+            "jpname": "コロモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digi-Egg",
+            "level": "2",
+            "form": "In-Training",
+            "type": "Lesser",
+            "ilustrators": [
+                "sasasi"
+            ],
+            "effect2": "[Your Turn] While this Digimon has 4 or more digivolution cards, it gets +1000 DP.",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red"
+            ],
+            "rarity": "Uncommon",
+            "ruling": [
+                [
+                    "Q:  This card has the inherited effect, \"While this Digimon has 4 or more digivolution cards, it gets +1000 DP.\" Is this card counted as part of that total?",
+                    "A:  Yes, it does."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a4/ST1-02.png/revision/latest?cb=20201210184936",
+            "id": "ST1-02",
+            "name": "Biyomon",
+            "jpname": "ピヨモン",
+            "tsname": "Piyomon",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "2",
+            "dp": "3000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Bird",
+            "ilustrators": [
+                "KISUKE",
+                "Takase",
+                "KISUKE",
+                "Kayo Horaguchi"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red",
+                "ST-7: Starter Deck Gallantmon"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "Event Pack",
+                "Official Tournament Pack Vol. 3",
+                "PB-09: Digimon Card Game Playmat and Card Set 2 -Floral Fun-"
+            ],
+            "jpsets": [
+                "1st Anniversary Adventure Pack",
+                "Memorial Collection 01"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/01/ST1-03.png/revision/latest?cb=20201210184936",
+            "id": "ST1-03",
+            "name": "Agumon",
+            "jpname": "アグモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "2000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Vaccine",
+            "type": "Reptile",
+            "ilustrators": [
+                "sasasi",
+                "Ryuda",
+                "Hokyyuu",
+                "Gosha"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "effect2": "[Your Turn] This Digimon gets +1000 DP.",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red",
+                "Evolution Cup",
+                "ST-11: Starter Deck Special Entry Deck",
+                "Digimon Illustration Competition Promotion Pack"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Online Regionals - Participation Set",
+                "Online Regionals - Finalist Set",
+                "Online Regionals - Champion Set"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3d/ST1-04.png/revision/latest?cb=20201210184938",
+            "id": "ST1-04",
+            "name": "Dracomon",
+            "jpname": "ドラコモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "3",
+            "dp": "4000",
+            "level": "3",
+            "form": "Rookie",
+            "attribute": "Data",
+            "type": "Dragon",
+            "ilustrators": [
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "2",
+            "evocost1": "0",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ae/ST1-05.png/revision/latest?cb=20201210184937",
+            "id": "ST1-05",
+            "name": "Birdramon",
+            "jpname": "バードラモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "4",
+            "dp": "5000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Giant Bird",
+            "ilustrators": [
+                "KISUKE"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/29/ST1-06.png/revision/latest?cb=20201210184937",
+            "id": "ST1-06",
+            "name": "Coredramon",
+            "jpname": "コアドラモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "6000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Virus",
+            "type": "Dragon",
+            "ilustrators": [
+                "Kazumasa Yasukuni",
+                "Kazumasa Yasukuni"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect1": "<Blocker> (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead).\n[When Attacking] Lose 2 memory.",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "Event Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: Can I attack with this Digimon if I don't have 2 or more memory?",
+                    "A:  You can attack with it. But when you do, even if the memory counter moves to 1 or higher on your opponent's side, you don't switch turns until the attack is finished."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/7/7b/ST1-07.png/revision/latest?cb=20201210184937",
+            "id": "ST1-07",
+            "name": "Greymon",
+            "jpname": "グレイモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "5",
+            "dp": "4000",
+            "level": "4",
+            "form": "Champion",
+            "attribute": "Vaccine",
+            "type": "Dinosaur",
+            "ilustrators": [
+                "sasasi",
+                "Ryuda",
+                "Hokyyuu"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "3",
+            "evocost1": "2",
+            "effect2": "<Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Tamer Party",
+                "Judge Pack",
+                "Championship 2021 Finals - Trophy Cards"
+            ],
+            "jpsets": [
+                "Premium Bandai Apparel Promo Cards",
+                "ST-11: Starter Deck Special Entry Deck"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/c/ca/ST1-08.png/revision/latest?cb=20201210184938",
+            "id": "ST1-08",
+            "name": "Garudamon",
+            "jpname": "ガルダモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "6",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Birdkin",
+            "ilustrators": [
+                "KISUKE",
+                "Tonamikanji"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect1": "[When Digivolving] 1 of your Digimon gets +3000 DP for the turn.",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Tamer Party Vol.2"
+            ],
+            "jpsets": [
+                "Tamer Battle Pack 2"
+            ],
+            "ruling": [
+                [
+                    "Q: Can this Digimon target itself for its own effect?",
+                    "A:  Yes, it can."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ae/ST1-09.png/revision/latest?cb=20201210184938",
+            "id": "ST1-09",
+            "name": "MetalGreymon",
+            "jpname": "メタルグレイモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "7",
+            "dp": "7000",
+            "level": "5",
+            "form": "Ultimate",
+            "attribute": "Vaccine",
+            "type": "Cyborg",
+            "ilustrators": [
+                "sasasi",
+                "tessy",
+                "tessy"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "4",
+            "evocost1": "3",
+            "effect2": "[Your Turn] When this Digimon is blocked, gain 3 memory.",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red",
+                "Tamer Battle Pack 1"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "Official Tournament Pack Vol. 2",
+                "Championship 2021 Finals - Trophy Cards",
+                "World Championship 2021"
+            ],
+            "jpsets": [
+                "Tamer Battle Pack 1 Winner"
+            ],
+            "ruling": [
+                [
+                    "Q: Does this card's inherited effect activate when I attack my opponent's Digimon?",
+                    "A: No, it only activates if your opponent declares they're blocking the attack with <Blocker>."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/5/59/ST1-10.png/revision/latest?cb=20201210184938",
+            "id": "ST1-10",
+            "name": "Phoenixmon",
+            "jpname": "ホウオウモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "10",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Holy Beast",
+            "ilustrators": [
+                "KISUKE",
+                "As'Maria"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "2",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red"
+            ],
+            "rarity": "Rare",
+            "engsets": [
+                "1-Year Anniversary Promo Pack"
+            ],
+            "jpsets": [
+                "1st year Anniversary BT-06 Special Box Topper"
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9f/ST1-11.png/revision/latest?cb=20201210184938",
+            "id": "ST1-11",
+            "name": "WarGreymon",
+            "jpname": "ウォーグレイモン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Digimon",
+            "playcost": "12",
+            "dp": "12000",
+            "level": "6",
+            "form": "Mega",
+            "attribute": "Vaccine",
+            "type": "Dragonkin",
+            "ilustrators": [
+                "sasasi",
+                "Naochika Morishita",
+                "Nakano Haito"
+            ],
+            "evocolor1": "Red",
+            "evolevel1": "5",
+            "evocost1": "4",
+            "effect1": "[Your Turn] For every 2 digivolution cards this Digimon has, it gains <Security Attack +1> (This Digimon checks 1 additional security card).",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red"
+            ],
+            "rarity": "Super Rare",
+            "engsets": [
+                "June Premier TO Event",
+                "Evolution Cup",
+                "Event Pack",
+                "Championship 2021 Finals - Event Pack Alt-Art Gold Stamp Set",
+                "Championship 2021 Finals - Trophy Cards",
+                "World Championship 2021"
+            ],
+            "jpsets": [
+                "Special Promotion Pack 2021"
+            ],
+            "ruling": [
+                [
+                    "Q: How does this Digimon's effect work when it has 3 digivolution cards?",
+                    "A: Only multiples of 2 count for this effect, so even if you have 3 digivolution cards, it only gains <Security Attack +1>."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/3/3e/ST1-12.png/revision/latest?cb=20201210184939",
+            "id": "ST1-12",
+            "name": "Tai Kamiya",
+            "jpname": "八神太一",
+            "tsname": "Yagami Taichi",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Tamer",
+            "playcost": "2",
+            "ilustrators": [],
+            "effect1": "[Your Turn] All of your Digimon get +1000 DP.",
+            "effect2": "[Security] Play this card without paying its memory cost.",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red",
+                "Luxury processing ver. Tamer Cards"
+            ],
+            "rarity": "Rare",
+            "ruling": [
+                [
+                    "Q: Does the effect of this Tamer stack if there are multiple copies in play in my battle area?",
+                    "A: Yes, it does.."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/04/ST1-13.png/revision/latest?cb=20201210184939",
+            "id": "ST1-13",
+            "name": "Shadow Wing",
+            "jpname": "シャドーウィング",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "1",
+            "ilustrators": [
+                "UnnoDaisuke",
+                "shosuke"
+            ],
+            "effect1": "[Main] 1 of your Digimon gets +3000 DP for the turn.",
+            "effect2": "[Security] All of your Digimon gain <Security Attack +1> (This Digimon checks 1 additional security card) until the end of your next turn.",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red",
+                "PB-01: Tamer's Evolution Box"
+            ],
+            "rarity": "Common",
+            "engsets": [
+                "Championship 2021 Finals Tamer's Evolution Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: During my next turn after this card's [Security] effect was activated, does it apply to newly played Digimon and Digimon moved from the breeding area to the battle area?",
+                    "A: Yes, it does."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d8/ST1-14.png/revision/latest?cb=20201210184939",
+            "id": "ST1-14",
+            "name": "Starlight Explosion",
+            "jpname": "スターライトエクスプロージョン",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "2",
+            "ilustrators": [
+                "UnnoDaisuke"
+            ],
+            "effect1": "[Main] All of your Security Digimon get +7000 DP until the end of your opponent's next turn.",
+            "effect2": "[Security] All of your Security Digimon get +7000 DP for the turn.",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red"
+            ],
+            "rarity": "Common"
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/49/ST1-15.png/revision/latest?cb=20201210184943",
+            "id": "ST1-15",
+            "name": "Giga Destroyer",
+            "jpname": "ギガデストロイヤー",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "6",
+            "ilustrators": [
+                "UnnoDaisuke"
+            ],
+            "effect1": "[Main] Delete up to 2 of your opponent's Digimon with 4000 DP or less.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "engsets": [
+                "ST-1: Starter Deck Gaia Red"
+            ],
+            "rarity": "Common",
+            "jpsets": [
+                "ST-1: Starter Deck Gaia Red"
+            ],
+            "ruling": [
+                [
+                    "Q: What happens to the digivolution cards of a Digimon deleted by this card's main effect?",
+                    "A: They are sent to their owner's trash."
+                ]
+            ]
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a1/ST1-16.png/revision/latest?cb=20201210184944",
+            "id": "ST1-16",
+            "name": "Gaia Force",
+            "jpname": "ガイアフォース",
+            "color": [
+                "Red"
+            ],
+            "cardtype": "Option",
+            "playcost": "8",
+            "ilustrators": [
+                "Ishibashi Yosuke",
+                "Shin Sasaki",
+                "As'Maria",
+                "tessy"
+            ],
+            "effect1": "[Main] Delete 1 of your opponent's Digimon.",
+            "effect2": "[Security] Activate this card's [Main] effect.",
+            "wwsets": [
+                "ST-1: Starter Deck Gaia Red",
+                "PB-01: Tamer's Evolution Box",
+                "ST-7: Starter Deck Gallantmon",
+                "ST-11: Starter Deck Special Entry Deck"
+            ],
+            "rarity": "Uncommon",
+            "engsets": [
+                "Championship 2021 Finals Tamer's Evolution Pack"
+            ],
+            "ruling": [
+                [
+                    "Q: What happens to the digivolution cards of a Digimon deleted by this card's main effect?",
+                    "A: They are sent to their owner's trash."
+                ]
+            ]
+        }
+    ]
+}

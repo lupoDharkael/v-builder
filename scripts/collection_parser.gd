@@ -23,6 +23,34 @@ func _init() -> void:
 
 
 func import_collection(text : String) -> CardCollection:
+	text = text.strip_edges()
+	var c : CardCollection 
+	if text.begins_with("["):
+		c = _import_tts(text)
+	else:
+		c = _import_standard(text)
+		
+	return c
+
+
+func _import_tts(text : String) -> CardCollection:
+	var c := CardCollection.new()
+	text = text.replace(" ","")
+	var l = text.substr(1, text.length() -2).split(",")
+	# remove "imported from"
+	l.remove(0)
+	for e in l:
+		var _id = e.replace("\"","").replace("“", "").replace("″", "").replace("”", "") 
+		var has_card = CardDB.get_card_by_id(_id)
+		if has_card:
+			if _id in c.data:
+				c.data[_id] = c.data[_id] + 1
+			else:
+				c.data[_id] = 1
+	return c
+
+
+func _import_standard(text : String) -> CardCollection:
 	var c := CardCollection.new()
 	for matched in text_collection_matcher.search_all(text):
 		var _id = matched.get_string(2)
@@ -34,7 +62,6 @@ func import_collection(text : String) -> CardCollection:
 		else:
 			# TODO alert
 			pass
-		
 	return c
 
 
@@ -52,9 +79,10 @@ func export_collection(c : CardCollection, format : String) -> String:
 	return res
 
 
-func export_collection_to_text(c : CardCollection) -> String:
+func export_collection_to_text(c : CardCollection, enable_alt_art : bool = false) -> String:
 	var res := ""
-	c = c.no_alt_art_duplicate()
+	if not enable_alt_art:
+		c = c.no_alt_art_duplicate()
 	for id in c.data.keys():
 		var card : Card = CardDB.get_card_by_id(id)
 		if card:

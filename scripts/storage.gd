@@ -52,7 +52,7 @@ static func save_collection(collection : CardCollection) -> void:
 	var file = File.new()
 	file.open(collection.get_file_path(), File.WRITE)
 	var parser := CollectionParser.new()
-	var content := parser.export_collection_to_text(collection)
+	var content := parser.export_collection_to_text(collection, true)
 	file.store_string(content)
 	file.close()
 

@@ -15,7 +15,7 @@ dest_files=[ "res://.import/EX1-070.png-4b6024608b51ecd5883c227666376f5a.stex" ]
 [params]
 
 compress/mode=1
-compress/lossy_quality=0.85
+compress/lossy_quality=0.25
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=2

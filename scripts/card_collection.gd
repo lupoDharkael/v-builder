@@ -183,7 +183,7 @@ func get_random_cards(card_amount : int) -> Array:
 
 # SORT
 static func compare_by_id(a : String, b : String):
-	return CardDB.get_card_by_id(a).id < CardDB.get_card_by_id(b).id
+	return CardDB.get_card_by_id(a).id.naturalnocasecmp_to(CardDB.get_card_by_id(b).id) < 0
 
 
 static func compare_by_cost(a : String, b : String):
@@ -194,7 +194,7 @@ static func compare_by_cost(a : String, b : String):
 		if card_a.play_cost == 0:
 			return get_cost_sort_priority(card_a.type) < get_cost_sort_priority(card_b.type)
 		else:
-			return card_a.id < card_b.id
+			return card_a.id.naturalnocasecmp_to(card_b.id) < 0
 	else:
 		return card_a.play_cost < card_b.play_cost
 
@@ -240,7 +240,7 @@ static func compare_by_level(a : String, b : String):
 		return get_level_sort_priority(card_a.type) < get_level_sort_priority(card_b.type)
 	else:
 		if card_a.level == card_b.level:
-			return card_a.id < card_b.id
+			return card_a.id.naturalnocasecmp_to(card_b.id) < 0
 		else:
 			return card_a.level < card_b.level
 
@@ -254,7 +254,7 @@ static func compare_by_dp(a : String, b : String):
 	elif card_a.type != card_b.type:
 		return get_dp_sort_priority(card_a.type) < get_dp_sort_priority(card_b.type)
 	else:
-		return card_a.id < card_b.id
+		return card_a.id.naturalnocasecmp_to(card_b.id) < 0
 
 
 class SortType:

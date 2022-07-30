@@ -21,7 +21,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ab/BT8-002.png/revision/latest?cb=20220422124923",
@@ -43,6 +46,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Does this card's effect activate if my opponent does not have a single Digimon in their battle area?",
@@ -70,6 +76,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: If I have 6 security cards, does this card's effect give +2000 DP?",
@@ -96,7 +105,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e4/BT8-005.png/revision/latest?cb=20220422124924",
@@ -118,6 +130,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: When this card itself is added to my Digimon's digivolution cards, does this card's inherited effect activate?",
@@ -145,6 +160,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Does this card's inherited effect activate even if cards are trashed from my deck by my own effects?",
@@ -199,7 +217,8 @@
             "type": "Ceratopsian",
             "ilustrators": [
                 "Tonamikanji",
-                "sasasi"
+                "sasasi",
+                "61"
             ],
             "evocolor1": "Red",
             "evolevel1": "2",
@@ -208,11 +227,13 @@
             "effect2": "[When Attacking] If this Digimon has 6000 DP or more, delete 1 of your opponent's Digimon with 3000 DP or less.",
             "wwsets": [
                 "BT-08: Booster New Awakening",
-                "BT-08: Booster New Awakening"
+                "BT-08: Booster New Awakening",
+                "Digimon Illustration Competition Promotion Pack"
             ],
             "rarity": "Rare",
             "engsets": [
-                "Digimon Card Game Fest - Fest Set"
+                "Digimon Card Game Fest - Fest Set",
+                "New Awakening Pre-Release Pack"
             ]
         },
         {
@@ -246,6 +267,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Can I add an option card with 2 colours that includes red to my hand with this card's effect?",
@@ -324,7 +348,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a5/BT8-012.png/revision/latest?cb=20220422124925",
@@ -356,6 +383,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: After this card gets +3000 DP from its [When Attacking] effect, if I activate <Armor Purge> to trash this card. What happens to the +3000 DP?",
@@ -450,7 +480,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e1/BT8-016.png/revision/latest?cb=20220422124925",
@@ -546,7 +579,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/97/BT8-019.png/revision/latest?cb=20220422124926",
@@ -675,6 +711,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Can I add an option card with 2 colours that includes blue to my hand with this card's effect?",
@@ -741,6 +780,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: For this card's [When Digivolving] effect, if my opponent has no Digimon with digivolution cards, thus no digivolution card can be trashed, does that mean the part of \"1 of your opponent's Digimon without digivolution cards gets -3000 DP\" cannot activate?",
@@ -854,6 +896,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Hawkmon]>\", written in the text for [BT8-026 Halsemon], as an effect? Can [BT8-026 Halsemon] digivolve from [Hawkmon] in the breeding area?",
@@ -1018,7 +1063,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/10/BT8-032.png/revision/latest?cb=20220422124927",
@@ -1103,6 +1151,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Can I add an option card with 2 colours that includes yellow to my hand with this card's effect?",
@@ -1237,7 +1288,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/1/1b/BT8-038.png/revision/latest?cb=20220422124927",
@@ -1422,7 +1476,13 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack",
+                "2022 August Regionals - Participation Set",
+                "2022 August Regionals - Finalist Set",
+                "2022 August Regionals - Champion Set"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0e/BT8-043.png/revision/latest?cb=20220422124928",
@@ -1453,6 +1513,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: For this card's [On Play] [When Digivolving] effect, when I have multiple tamers in play, can I choose that many separate Digimon to give <Security Attack -2>?",
@@ -1469,7 +1532,7 @@
             "id": "BT8-044",
             "name": "Azulongmon",
             "jpname": "チンロンモン",
-            "tsname": "Blue",
+            "tsname": "Quinlongmon",
             "color": [
                 "Yellow",
                 "Blue"
@@ -1495,6 +1558,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: When my suspended digimon digivolves into this Digimon, can its [Your Turn] effect unsuspend this Digimon?",
@@ -1549,11 +1615,14 @@
             "evocolor1": "Green",
             "evolevel1": "2",
             "evocost1": "0",
-            "effect1": "[On Play] You may reveal the top 5 cards of your deck. Add 1 card with [Gargomon], or [Rapidmon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect1": "[On Play] You may reveal the top 5 cards of your deck. Add 1 card with [Gargomon] or [Rapidmon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/8/82/BT8-047.png/revision/latest?cb=20220422124928",
@@ -1609,6 +1678,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: When a Digimon that was targeted by this card's [When Digivolving] effect loses <Blocker> due to digivolving, DNA digivolving, or losing digivolution cards, does that Digimon then become able to attack and block?",
@@ -1645,7 +1717,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6e/BT8-050.png/revision/latest?cb=20220422124928",
@@ -1710,6 +1785,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Armadillomon]>\", written in the text for [BT8-051 Digmon], as an effect? Can [BT8-051 Digmon] digivolve from [Armadillomon] in the breeding area?",
@@ -1770,6 +1848,12 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack",
+                "2022 August Regionals - Participation Set",
+                "2022 August Regionals - Finalist Set",
+                "2022 August Regionals - Champion Set"
+            ],
             "ruling": [
                 [
                     "Q: Do you treat the special digivolution requirements of \"<Digivolve: 2 from [Veemon]>\", written in the text for [BT8-053 Lighdramon], as an effect? Can [BT8-053 Lighdramon] digivolve from [Veemon] in the breeding area?",
@@ -1828,7 +1912,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a0/BT8-056.png/revision/latest?cb=20220422124929",
@@ -1915,7 +2002,8 @@
             "attribute": "Virus",
             "type": "Reptile",
             "ilustrators": [
-                "As'Maria"
+                "As'Maria",
+                "p!k@ru"
             ],
             "evocolor1": "Black",
             "evolevel1": "2",
@@ -1927,7 +2015,13 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
+            "jpsets": [
+                "Tamer Battle Pack 13"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d3/BT8-059.png/revision/latest?cb=20220422124929",
@@ -1975,6 +2069,18 @@
                 [
                     "Q: Can my opponent activate the effect of [BT6-087 Tai Kamiya] to ignore level while this card is in play?",
                     "A: No, your opponent cannot digivolve ignoring level while this card's [All Turns] effect is active."
+                ],
+                [
+                    "Q: Can my opponent digivolve with the effect of [BT7-051 RhinoKabuterimon] which changes the memory cost of the digivolution?",
+                    "A: Yes, your opponent can digivolve with the effect [BT7-051 RhinoKabuterimon] because it does not ignore digivolution requirements."
+                ],
+                [
+                    "Q: Can my opponent digivolve into [BT7-040 Rasenmon] for an alternate digivolution cost?",
+                    "A: Yes, it does not ignore digivolution requirements."
+                ],
+                [
+                    "Q: If I use [BT9-098 Awakening of the Golden Knight] and my opponent has this card. Can I digivolve my [Magnamon] into [BT9-044 Magnamon (X Antibody)] because it fulfills the digivolution requirements?",
+                    "A: No, the effect requires you to digivolve \"ignoring the digivolution requirements\" so you cannot digivolve using the effect of [BT9-098 Awakening of the Golden Knight]."
                 ]
             ]
         },
@@ -2006,7 +2112,10 @@
                 "BT-08: Booster New Awakening",
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/ab/BT8-061.png/revision/latest?cb=20220422124929",
@@ -2074,6 +2183,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Does this card's effect treat this card as being [SkullKnightmon] or [DeadlyAxemon] even in the hand, deck, trash, and digivolution cards?",
@@ -2245,11 +2357,14 @@
             "evolevel2": "4",
             "evocost2": "4",
             "effect1": "[When Digivolving] <De-Digivolve  1> on 1 of your opponent's Digimon (Trash up to 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards). Then, delete 1 of your opponent's Digimon with 3000 DP or less.",
-            "effect2": "[Your Turn] While this Digimon has [Dragonkin], or [Machine] in its traits, it can also attack your opponent's unsuspended Digimon.",
+            "effect2": "[Your Turn] While this Digimon has [Dragonkin] or [Machine] in its traits, it can also attack your opponent's unsuspended Digimon.",
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/e/e8/BT8-068.png/revision/latest?cb=20220422124929",
@@ -2277,6 +2392,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: What happens for this card's [When Digivolving] effect if my opponent does not have a single Digimon on play?",
@@ -2428,6 +2546,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: For this card's [On Play] effect, must the 1 trashed card among the revealed cards be a purple Digimon card?",
@@ -2527,7 +2648,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4c/BT8-076.png/revision/latest?cb=20220422124930",
@@ -2587,7 +2711,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/a/a5/BT8-078.png/revision/latest?cb=20220422124930",
@@ -2676,7 +2803,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/0/0b/BT8-081.png/revision/latest?cb=20220422124930",
@@ -2707,7 +2837,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fe/BT8-082.png/revision/latest?cb=20220422124930",
@@ -2840,6 +2973,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Does this card's \"When your Digimon with 2 or more colours attacks\", does it count the colour of the attacking Digimon's digivolution cards as well?",
@@ -2866,7 +3002,8 @@
             ],
             "rarity": "Rare",
             "engsets": [
-                "Digimon Card Game Fest - Fest Set"
+                "Digimon Card Game Fest - Fest Set",
+                "New Awakening Pre-Release Pack"
             ]
         },
         {
@@ -2888,6 +3025,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Does this card's [Opponent's Turn] effect trigger when my opponent's Digimon attacks, and I block with my blue Digimon?",
@@ -2915,6 +3055,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Do both of this card's [Start of Your Main Phase] effects activate if I have both blue and green Digimon in play?",
@@ -2945,6 +3088,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Does this card's \"When your Digimon with 2 or more colours attacks\", does it count the colour of the attacking Digimon's digivolution cards as well?",
@@ -2970,7 +3116,10 @@
                 "BT-08: Booster New Awakening",
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/4/4b/BT8-091.png/revision/latest?cb=20220422124930",
@@ -2984,12 +3133,16 @@
             "cardtype": "Tamer",
             "playcost": "3",
             "ilustrators": [],
-            "effect1": "[On Play] You may hatch 1 Digi-Egg card to an empty space in your breeding area.\n[Your Turn] When one of your Digimon digivolves into a Digimon with [Gargomon], or [Rapidmon] in their name, you may suspend this Tamer to reduce the digivolution cost by 1.",
+            "effect1": "[On Play] You may hatch 1 Digi-Egg card to an empty space in your breeding area.\n[Your Turn] When one of your Digimon digivolves into a Digimon with [Gargomon] or [Rapidmon] in their name, you may suspend this Tamer to reduce the digivolution cost by 1.",
             "effect2": "[Security] Play this card without paying its memory cost.",
             "wwsets": [
+                "BT-08: Booster New Awakening",
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/f/fa/BT8-092.png/revision/latest?cb=20220422124931",
@@ -3010,7 +3163,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/b/b7/BT8-093.png/revision/latest?cb=20220422124930",
@@ -3029,7 +3185,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/d/d2/BT8-094.png/revision/latest?cb=20220422124932",
@@ -3049,6 +3208,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: Does this card's[Opponent's Turn] effect activate when my opponent activates the effect of cards such as [BT1-089 Mimi Tachikawa] to move their level 3 Digimon from the breeding area to the battle area when it is not their breeding phase?",
@@ -3125,6 +3287,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: If my opponent has 7 Digimon in play, and this card's memory cost is reduced by 7 by this card's effect, can I use this card to gain 1 memory?",
@@ -3163,6 +3328,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: After using this card, my opponent does not have any Digimon without digivolution cards, so I am unable to target any Digimon for the \"cannot attack and block\" effect. Afterwards, if a Digimon without digivolution cards enters my opponent's battle area, can I target that Digimon for the \"cannot attack and block\" effect?",
@@ -3193,7 +3361,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/9/9a/BT8-100.png/revision/latest?cb=20220422124931",
@@ -3245,6 +3416,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: For this card's effect, if I have 1 Digimon with [Armor Form] in its traits in my trash, does the Digimon that received -4000 DP also get an additional -1000 DP?",
@@ -3272,6 +3446,10 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack",
+                "Summer 2022 Dash Pack"
+            ],
             "jpsets": [
                 "Limited Card Set ONLINE"
             ],
@@ -3320,7 +3498,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Uncommon"
+            "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/64/BT8-105.png/revision/latest?cb=20220422124931",
@@ -3342,6 +3523,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: What exactly does \"Choose any number of your opponent's Digimon whose play costs add up to 15 or less\" mean exactly?",
@@ -3403,6 +3587,9 @@
                 "BT-08: Booster New Awakening"
             ],
             "rarity": "Uncommon",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ],
             "ruling": [
                 [
                     "Q: When my opponent does not have a single Digimon in play, or does not have any Digimon with level equal or lower than my Digimon in play, can I use this card to delete 1 of my Digimon?",
@@ -3453,7 +3640,10 @@
             "wwsets": [
                 "BT-08: Booster New Awakening"
             ],
-            "rarity": "Rare"
+            "rarity": "Rare",
+            "engsets": [
+                "New Awakening Pre-Release Pack"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/2/2f/BT8-110-Errata.png/revision/latest?cb=20220527110327",

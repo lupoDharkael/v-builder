@@ -10,8 +10,8 @@ error_context = ""
 
 def get_set_count(card_data : dict) -> int:
     res = 0
-    if 'allsets' in card_data:
-        res += len(card_data['allsets'])
+    if 'wwsets' in card_data:
+        res += len(card_data['wwsets'])
     if 'jpsets' in card_data:
         res += len(card_data['jpsets'])
     if res == 0:
@@ -99,7 +99,7 @@ def get_attribute_str(card_data : dict) -> str:
 def get_stage_level_str(card_data : dict) -> str:
     res = '""'
     stage = card_data['level']
-    if 'form' in card_data:
+    if card_data['form'] == 'Hybrid':
         res = 'Stage.HYBRID'
     elif stage == '2':
         res = 'Stage.IN_TRAINING'

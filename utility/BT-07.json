@@ -242,6 +242,7 @@
             "id": "BT7-009",
             "name": "Huckmon",
             "jpname": "ハックモン",
+            "tsname": "Hackmon",
             "color": [
                 "Red"
             ],
@@ -451,7 +452,7 @@
             "evolevel1": "4",
             "evocost1": "3",
             "effect1": "When one of your Digimon with a Tamer card in its digivolution cards digivolves into this card in your hand, reduce the memory cost of the digivolution by 2.\n[When Digivolving] If a card with [Hybrid] in its traits is in this Digimon's digivolution cards, this Digimon gets +4000 DP for the turn.",
-            "effect2": "[Your Turn] While this Digimon has [Hybrid], or [Ten Warriors] in its traits, it doesn't activate [Security] effects on Option cards it checks.",
+            "effect2": "[Your Turn] While this Digimon has [Hybrid] or [Ten Warriors] in its traits, it doesn't activate [Security] effects on Option cards it checks.",
             "wwsets": [
                 "BT-07: Booster Next Adventure"
             ],
@@ -502,7 +503,7 @@
                 ],
                 [
                     "Q: I use this card’s [On Play] effect to return cards from both players’ trashes to the bottom of their owners’ decks. Who decides which order the cards are placed in?",
-                    "A: The owners of the cards get to decide the order the cards are placed in when they return to the bottom of their decks."
+                    "A: This card's owner decides the order the cards are returned to the bottom of the deck."
                 ]
             ]
         },
@@ -1953,7 +1954,7 @@
             "evocolor1": "Green",
             "evolevel1": "4",
             "evocost1": "3",
-            "effect1": "When one of your Digimon with a Tamer card in its digivolution cards digivolves into this card in your hand, reduce the memory cost of the digivolution by 2.\n[When Attacking] If a card with [Hybrid], or [Insectoid] in its traits is in this Digimon's digivolution cards, this Digimon can digivolve into a Digimon card with [Insectoid], or [Ten Warriors] in its traits in your hand for a memory cost of 3.",
+            "effect1": "When one of your Digimon with a Tamer card in its digivolution cards digivolves into this card in your hand, reduce the memory cost of the digivolution by 2.\n[When Attacking] If a card with [Hybrid] or [Insectoid] in its traits is in this Digimon's digivolution cards, this Digimon can digivolve into a Digimon card with [Insectoid] or [Ten Warriors] in its traits in your hand for a memory cost of 3.",
             "wwsets": [
                 "BT-07: Booster Next Adventure"
             ],
@@ -1963,7 +1964,7 @@
             ],
             "ruling": [
                 [
-                    "Q: I have a card with [Hybrid], or [Insectoid] in its traits in this Digimon's digivolution cards. Does this card’s [When Attacking] effect force me to digivolve this Digimon into a Digimon card with [Insectoid], or [Ten Warriors] in its traits in my hand?",
+                    "Q: I have a card with [Hybrid] or [Insectoid] in its traits in this Digimon's digivolution cards. Does this card’s [When Attacking] effect force me to digivolve this Digimon into a Digimon card with [Insectoid] or [Ten Warriors] in its traits in my hand?",
                     "A: No. The effect reads, “This Digimon can digivolve,” so you can choose not to."
                 ],
                 [
@@ -1975,7 +1976,7 @@
                     "A: No, it is too late to trigger this card's [When Attacking] effect, since the Digimon didn't have it when the attack was declared."
                 ],
                 [
-                    "Q: When digivolving into a Digimon card in my hand with [Insectoid], or [Ten Warriors] in its traits in its traits with this card's [When Attacking] effect, can I ignore that card's digivolution requirements?",
+                    "Q: When digivolving into a Digimon card in my hand with [Insectoid] or [Ten Warriors] in its traits in its traits with this card's [When Attacking] effect, can I ignore that card's digivolution requirements?",
                     "A: No, you can’t ignore its digivolution requirements."
                 ],
                 [
@@ -2068,7 +2069,7 @@
             "evocolor1": "Green",
             "evolevel1": "5",
             "evocost1": "5",
-            "effect1": "[Your Turn] (Once Per Turn) When one of your Digimon with [Ten Warriors], or [Hybrid] in their traits deletes an opponent's Digimon in battle and survives, trash the top card of your opponent's security stack.\n[On Deletion] You may play 1 green level 4 or lower Digimon card with [Hybrid] in its traits from your hand without paying its memory cost.",
+            "effect1": "[Your Turn] (Once Per Turn) When one of your Digimon with [Ten Warriors] or [Hybrid] in their traits deletes an opponent's Digimon in battle and survives, trash the top card of your opponent's security stack.\n[On Deletion] You may play 1 green level 4 or lower Digimon card with [Hybrid] in its traits from your hand without paying its memory cost.",
             "wwsets": [
                 "BT-06: Booster Double Diamond"
             ],
@@ -2215,7 +2216,7 @@
             "evocolor1": "Black",
             "evolevel1": "2",
             "evocost1": "0",
-            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Knightmon], or [DeadlyAxemon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+            "effect1": "[On Play] Reveal the top 3 cards of your deck. Add 1 card with [Knightmon] or [DeadlyAxemon] in its name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
             "wwsets": [
                 "BT-07: Booster Next Adventure"
             ],
@@ -2243,7 +2244,7 @@
             "evolevel1": "3",
             "evocost1": "2",
             "effect1": "[When Attacking] You may digivolve this Digimon into a [DarkKnightmon] in your hand without paying its memory cost by placing 1 of your [DeadlyAxemon] at the bottom of this Digimon's digivolution cards.",
-            "effect2": "[Your Turn] While this Digimon has [Knightmon], or [Bagramon] in its name, it gains <Security Attack +1> (This Digimon checks 1 additional security card).",
+            "effect2": "[Your Turn] While this Digimon has [Knightmon] or [Bagramon] in its name, it gains <Security Attack +1> (This Digimon checks 1 additional security card).",
             "wwsets": [
                 "BT-07: Booster Next Adventure"
             ],
@@ -2284,7 +2285,7 @@
             "evolevel1": "3",
             "evocost1": "2",
             "effect1": "[On Play] Reveal the top 5 cards of your deck. Add up to 2 cards with [Knightmon] in their name among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
-            "effect2": "[Your Turn] While this Digimon has [Knightmon], or [Bagramon] in its name,  it gets +2000 DP.",
+            "effect2": "[Your Turn] While this Digimon has [Knightmon] or [Bagramon] in its name,  it gets +2000 DP.",
             "wwsets": [
                 "BT-07: Booster Next Adventure"
             ],
@@ -2440,7 +2441,12 @@
                 "BT-07: Booster Next Adventure",
                 "BT-07: Booster Next Adventure"
             ],
-            "rarity": "Super Rare"
+            "rarity": "Super Rare",
+            "engsets": [
+                "2022 August Regionals - Participation Set",
+                "2022 August Regionals - Finalist Set",
+                "2022 August Regionals - Champion Set"
+            ]
         },
         {
             "image": "https://static.wikia.nocookie.net/digimoncardgame/images/6/6f/BT7-063.png/revision/latest?cb=20220218130617",
@@ -3148,7 +3154,7 @@
             "ilustrators": [
                 "Teppei Tadokoro"
             ],
-            "effect1": "[On Play] Reveal the top 5 cards of your deck. Add 1 card with [Hybrid], or [Ten Warriors] in its traits and 1 Tamer card among them to your hand. Place the remaining cards at the bottom of your deck in any order.\n[Your Turn] (Once Per Turn) When one of your Tamers digivolves, gain 2 memory.",
+            "effect1": "[On Play] Reveal the top 5 cards of your deck. Add 1 card with [Hybrid] or [Ten Warriors] in its traits and 1 Tamer card among them to your hand. Place the remaining cards at the bottom of your deck in any order.\n[Your Turn] (Once Per Turn) When one of your Tamers digivolves, gain 2 memory.",
             "wwsets": [
                 "BT-07: Booster Next Adventure"
             ],
@@ -3160,8 +3166,8 @@
             ],
             "ruling": [
                 [
-                    "Q: I reveal 5 cards with this card's [On Play] effect. If the cards revealed only include either a card with [Hybrid], or [Ten Warriors] in its traits or a Tamer card, can I still add a card to my hand?",
-                    "A: Yes. Even if you revealed only a card with [Hybrid], or [Ten Warriors] in its traits or a Tamer card, you still add that card to your hand."
+                    "Q: I reveal 5 cards with this card's [On Play] effect. If the cards revealed only include either a card with [Hybrid] or [Ten Warriors] in its traits or a Tamer card, can I still add a card to my hand?",
+                    "A: Yes. Even if you revealed only a card with [Hybrid] or [Ten Warriors] in its traits or a Tamer card, you still add that card to your hand."
                 ]
             ]
         },
@@ -3186,7 +3192,7 @@
             "evocolor1": "White",
             "evolevel1": "3",
             "evocost1": "2",
-            "effect1": "[On Play] You may place 1 [Sistermon Blanc] from your hand or trash at the bottom of this Digimon's digivolution cards to <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).\n[On Deletion] Return 1 card with [Jesmon], [Huckmon], or [Sistermon] in its name other than [Sistermon Blanc (Awakened)] from your trash to your hand.",
+            "effect1": "[On Play] You may place 1 [Sistermon Blanc] from your hand or trash at the bottom of this Digimon's digivolution cards to <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack).\n[On Deletion] Return 1 card with [Jesmon], [Huckmon] or [Sistermon] in its name other than [Sistermon Blanc (Awakened)] from your trash to your hand.",
             "wwsets": [
                 "BT-07: Booster Next Adventure"
             ],
@@ -3201,7 +3207,7 @@
                 ],
                 [
                     "Q: Can this card's [On Deletion] effect return [BaoHuckmon], [SaviorHuckmon], or [Sistermon Ciel (Awakened)] from my trash to my hand?",
-                    "A: Yes. Those cards have [Huckmon], or [Sistermon] in their name in their names, so you can add one of them to your hand."
+                    "A: Yes. Those cards have [Huckmon] or [Sistermon] in their name in their names, so you can add one of them to your hand."
                 ]
             ]
         },
@@ -3226,7 +3232,7 @@
             "evocolor1": "White",
             "evolevel1": "4",
             "evocost1": "2",
-            "effect1": "[On Play] You may place 1 [Sistermon Ciel] from your hand or trash at the bottom of this Digimon's digivolution cards to delete 1 of your opponent's Digimon with a play cost of 5 or less.\n[On Deletion] Return 1 card with [Jesmon], [Huckmon], or [Sistermon] in its name other than [Sistermon Ciel (Awakened)] from your trash to your hand.",
+            "effect1": "[On Play] You may place 1 [Sistermon Ciel] from your hand or trash at the bottom of this Digimon's digivolution cards to delete 1 of your opponent's Digimon with a play cost of 5 or less.\n[On Deletion] Return 1 card with [Jesmon], [Huckmon] or [Sistermon] in its name other than [Sistermon Ciel (Awakened)] from your trash to your hand.",
             "engsets": [
                 "BT-07: Booster Next Adventure",
                 "Next Adventure Pre-Release Pack"
@@ -3242,7 +3248,7 @@
                 ],
                 [
                     "Q: Can this card's [On Deletion] effect return [BaoHuckmon], [SaviorHuckmon], or [Sistermon Blanc (Awakened)] from my trash to my hand?",
-                    "A: Yes. Those cards have [Huckmon], or [Sistermon] in their name, so you can add one of them to your hand."
+                    "A: Yes. Those cards have [Huckmon] or [Sistermon] in their name, so you can add one of them to your hand."
                 ]
             ]
         },
@@ -3422,7 +3428,7 @@
             "cardtype": "Tamer",
             "playcost": "3",
             "ilustrators": [],
-            "effect1": "[Security] Play this card without paying its memory cost.\n[On Play] You may search your security stack for 1 card with [Hybrid], or [Ten Warriors] in its traits, reveal it, and add it to your hand. If you added a card to your hand, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack). Then, shuffle your security stack.",
+            "effect1": "[Security] Play this card without paying its memory cost.\n[On Play] You may search your security stack for 1 card with [Hybrid] or [Ten Warriors] in its traits, reveal it, and add it to your hand. If you added a card to your hand, <Recovery +1 (Deck)> (Place the top card of your deck on top of your security stack). Then, shuffle your security stack.",
             "effect2": "[Opponent's Turn] All of your Security Digimon get +3000 DP.",
             "wwsets": [
                 "BT-07: Booster Next Adventure",
@@ -3438,7 +3444,7 @@
                     "A: Some Digimon cards can digivolve onto Tamers. Digivolve such a Digimon onto this card, and it will become part of that Digimon’s digivolution cards, allowing you to activate this card’s inherited effect."
                 ],
                 [
-                    "Q: If you have a [Hybrid], or [Ten Warriors] in their traits in Security, do you have to add it to your hand if you checked security?",
+                    "Q: If you have a [Hybrid] or [Ten Warriors] in their traits in Security, do you have to add it to your hand if you checked security?",
                     "A: No, you do not have to add it to your hand."
                 ],
                 [
@@ -3726,7 +3732,8 @@
             ],
             "rarity": "Rare",
             "engsets": [
-                "Next Adventure Pre-Release Pack"
+                "Next Adventure Pre-Release Pack",
+                "Summer 2022 Dash Pack"
             ],
             "jpsets": [
                 "Limited Card Set ONLINE"
@@ -3759,7 +3766,7 @@
             "ilustrators": [
                 "KISUKE"
             ],
-            "effect1": "[Main] If you have a Digimon with [Hybrid], or [Ten Warriors] in its traits in play, suspend 1 of your opponent's Digimon.",
+            "effect1": "[Main] If you have a Digimon with [Hybrid] or [Ten Warriors] in its traits in play, suspend 1 of your opponent's Digimon.",
             "effect2": "[Security] Add this card to its owner's hand.",
             "wwsets": [
                 "BT-07: Booster Next Adventure"
@@ -3767,7 +3774,7 @@
             "rarity": "Common",
             "ruling": [
                 [
-                    "Q: Can I use this card when I don’t have a Digimon with [Hybrid], or [Ten Warriors] in play? If I can, what does the effect do?",
+                    "Q: Can I use this card when I don’t have a Digimon with [Hybrid] or [Ten Warriors] in play? If I can, what does the effect do?",
                     "A: You can use this card, but no effect will occur. This will still trigger any effects that trigger when you use Option cards, however."
                 ]
             ]
@@ -4033,7 +4040,9 @@
             "rarity": "Rare",
             "engsets": [
                 "Next Adventure Pre-Release Pack",
-                "Digimon Card Game Fest - Fest Set"
+                "2022 August Regionals - Participation Set",
+                "2022 August Regionals - Finalist Set",
+                "2022 August Regionals - Champion Set"
             ],
             "ruling": [
                 [
